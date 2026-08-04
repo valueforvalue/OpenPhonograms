@@ -1,51 +1,68 @@
-# Lesson 24: Roots: photo (light) + logy (study)
+# Lesson 24: Root photo/logy — "light/study"
 
-**Stage 5** · Lesson 24 · Type: morphology
+**Stage 5** · Lesson 24 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Roots: photo (light) + logy (study)
+## New Learning: The Root **photo/logy**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**photo/logy** is a **Greek** root that means **"light/study"**.
 
-### Quick Check
+PHOTO means 'light.' LOGY means 'study of' (Greek). Photography is light-writing. Biology is the study of life.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-photograph photosynthesis biology
-
----
-
-**Next lesson:** Lesson 25
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| photograph | photo + graph | light-write |
+| photosynthesis | photo + syn (together) + thesis | light-putting-together / how plants eat |
+| photocopy | photo + copy | light-copy |
+| biology | bio + logy | life-study |
+| geology | geo + logy | earth-study |
+| technology | techno (skill) + logy | skill-study |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| photograph | (sound out) | /photograph/ |
+| photosynthesis | (sound out) | /photosynthesis/ |
+| biology | (sound out) | /biology/ |
+| geology | (sound out) | /geology/ |
+| technology | (sound out) | /technology/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **photo/logy** word:
+
+1. I need to photograph this word. *(Write it!)*
+2. A photosynthesis is an amazing thing to see.
+3. Everyone should photocopy the rules.
+
+---
+
+## Quick Check
+
+1. What does **photo/logy** mean? *(light/study)*
+2. Build a new word using photo/logy + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 25: Greek Roots Review
+
+---
+
+*Practice at home: Find 3 words with **photo/logy** in a book. Write each and its meaning.*

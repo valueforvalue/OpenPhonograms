@@ -1,49 +1,58 @@
 # Lesson 37: Grammar: Sentence Types
 
-**Stage 5** · Lesson 37 · Type: grammar
+**Stage 5** · Lesson 37 · grammar
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Quick Write
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Write one sentence about something you did yesterday. Underline the noun (who/what). Circle the verb (what happened).
 
 ---
 
-## New Learning: Grammar: Sentence Types
+## Grammar Lesson: Sentence Types
 
-— [grammar content to be written]
-## Review
+### Four Types of Sentences
 
-### Quick Check
+| Type | Purpose | Ends With | Example |
+|------|---------|-----------|---------|
+| Declarative | States a fact | Period (.) | The elephant is enormous. |
+| Interrogative | Asks a question | Question mark (?) | Is the elephant enormous? |
+| Exclamatory | Shows strong feeling | Exclamation (!) | What an enormous elephant! |
+| Imperative | Gives a command | Period (.) or (!) | Look at the enormous elephant. |
 
-- Check phonogram recall
-- Review new rule if introduced
+### Identify Each Type
 
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 38
-
-
+1. How do elephants remember water holes? — *interrogative*
+2. Elephants have remarkable memories. — *declarative*
+3. What an incredible memory! — *exclamatory*
+4. Tell me about elephant memory. — *imperative*
 
 ---
 
-<div class="page-break"></div>
+## Practice
 
-## Lesson Complete!
+Write one of each sentence type about your favorite animal:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+1. Declarative: ________________________________________________
+2. Interrogative: ________________________________________________
+3. Exclamatory: ________________________________________________
+4. Imperative: ________________________________________________
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Apply in Writing
+
+Write 3 sentences that follow today's grammar pattern:
+
+1. 
+2. 
+3. 
+
+---
+
+**Next lesson:** Lesson 38: Grammar: Punctuation
+
+---
+
+*Practice at home: Find one of each sentence type in a book. Write them down!*

@@ -1,49 +1,57 @@
 # Lesson 34: Composition: Paragraph Writing
 
-**Stage 5** · Lesson 34 · Type: composition
+**Stage 5** · Lesson 34 · composition
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Spelling Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+Write these words from dictation:
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> ['elephant', 'remarkable', 'scientist', 'recognize', 'extraordinary']
 
 ---
 
-## New Learning: Composition: Paragraph Writing
+## Writing Lesson: Paragraph Writing
 
-— [composition content to be written]
-## Review
+### What Is a Paragraph?
 
-### Quick Check
+A paragraph is a group of sentences about ONE topic.
 
-- Check phonogram recall
-- Review new rule if introduced
+**Parts of a paragraph:**
+1. **Topic sentence** — tells what the paragraph is about
+2. **Supporting sentences** — give details, examples, facts
+3. **Closing sentence** — wraps it up
 
-### Words to Spell (Dictation)
+### Example Paragraph
 
-
-
----
-
-**Next lesson:** Lesson 35
-
-
+**Elephants have remarkable memories.** Scientists have found that elephants can remember water holes from decades ago. They recognize elephants and humans they haven't seen in years. One study showed elephants responding to recorded calls of deceased family members. **This extraordinary memory helps elephants survive in harsh environments.**
 
 ---
 
-<div class="page-break"></div>
+## Your Turn
 
-## Lesson Complete!
+Write a paragraph about ONE of these topics:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+1. Your favorite animal
+2. A place you would like to visit
+3. Something you learned in reading lessons
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+Use at least 4 sentences. Include a topic sentence and a closing sentence.
 
+---
+
+## Check Your Work
+
+- [ ] Did you sound out each word?
+- [ ] Did you apply spelling rules?
+- [ ] Did you use capital letters and periods?
+- [ ] Did you read it back to check it makes sense?
+
+---
+
+**Next lesson:** Lesson 35: Composition: Spelling in Writing
+
+---
+
+*Practice at home: Write a paragraph about your day. Make sure it has a topic sentence and a closing sentence!*

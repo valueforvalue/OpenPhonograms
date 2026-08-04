@@ -1,51 +1,68 @@
-# Lesson 19: Root: therm (heat)
+# Lesson 19: Root therm — "heat"
 
-**Stage 5** · Lesson 19 · Type: morphology
+**Stage 5** · Lesson 19 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: therm (heat)
+## New Learning: The Root **therm**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**therm** is a **Greek** root that means **"heat"**.
 
-### Quick Check
+THERM means 'heat' (Greek). A thermometer measures heat. Thermal means related to heat.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-thermometer thermal thermostat
-
----
-
-**Next lesson:** Lesson 20
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| thermometer | thermo + meter (measure) | heat-measurer |
+| thermal | therm + al | relating to heat |
+| thermostat | thermo + stat (standing) | heat-regulator |
+| hypothermia | hypo (under) + therm + ia | under-heat / dangerously cold |
+| thermodynamics | thermo + dynam + ics | heat-power science |
+| exothermic | exo (out) + therm + ic | heat-releasing |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| thermometer | (sound out) | /thermometer/ |
+| thermal | (sound out) | /thermal/ |
+| thermostat | (sound out) | /thermostat/ |
+| hypothermia | (sound out) | /hypothermia/ |
+| exothermic | (sound out) | /exothermic/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **therm** word:
+
+1. I need to thermometer this word. *(Write it!)*
+2. A thermal is an amazing thing to see.
+3. Everyone should thermostat the rules.
+
+---
+
+## Quick Check
+
+1. What does **therm** mean? *(heat)*
+2. Build a new word using therm + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 20: Root: meter
+
+---
+
+*Practice at home: Find 3 words with **therm** in a book. Write each and its meaning.*

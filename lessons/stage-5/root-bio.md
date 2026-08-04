@@ -1,51 +1,68 @@
-# Lesson 17: Root: bio (life)
+# Lesson 17: Root bio — "life"
 
-**Stage 5** · Lesson 17 · Type: morphology
+**Stage 5** · Lesson 17 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: bio (life)
+## New Learning: The Root **bio**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**bio** is a **Greek** root that means **"life"**.
 
-### Quick Check
+BIO means 'life' (Greek). Biology is the study of life. A biography is a written life.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-biology biography antibiotic amphibian
-
----
-
-**Next lesson:** Lesson 18
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| biology | bio + logy (study) | study of life |
+| biography | bio + graph + y | written life-story |
+| biosphere | bio + sphere | life-sphere / Earth's living parts |
+| antibiotic | anti (against) + bio + tic | against-life / kills bacteria |
+| biodegradable | bio + de (down) + grad + able | able to be broken down by life |
+| symbiosis | sym (together) + bio + sis | living together |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| biology | (sound out) | /biology/ |
+| biography | (sound out) | /biography/ |
+| biosphere | (sound out) | /biosphere/ |
+| antibiotic | (sound out) | /antibiotic/ |
+| symbiosis | (sound out) | /symbiosis/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **bio** word:
+
+1. I need to biology this word. *(Write it!)*
+2. A biography is an amazing thing to see.
+3. Everyone should biosphere the rules.
+
+---
+
+## Quick Check
+
+1. What does **bio** mean? *(life)*
+2. Build a new word using bio + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 18: Root: geo
+
+---
+
+*Practice at home: Find 3 words with **bio** in a book. Write each and its meaning.*

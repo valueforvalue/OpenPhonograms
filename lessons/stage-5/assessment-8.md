@@ -1,51 +1,109 @@
 # Lesson 40: Stage 5 Mastery Check
 
-**Stage 5** · Lesson 40 · Type: assessment
+**Stage 5** · Lesson 40 · assessment
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Overview
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Final assessment for the entire curriculum. Tests morphology knowledge, reading fluency, spelling accuracy, and writing.
 
 ---
 
-## New Learning: Stage 5 Mastery Check
+## Part 1: Root Knowledge
 
-### Stage 5 Mastery Check
+Match each root to its meaning:
 
-— [Review/assessment content to be written]
-## Review
+| Root | Meaning | ✓ |
+|------|---------|---|
+| dict | | ☐ |
+| duct | | ☐ |
+| spect | | ☐ |
+| port | | ☐ |
+| rupt | | ☐ |
+| ject | | ☐ |
+| tract | | ☐ |
+| scrib | | ☐ |
+| mit/miss | | ☐ |
+| graph | | ☐ |
+| phon | | ☐ |
+| bio | | ☐ |
+| geo | | ☐ |
+| therm | | ☐ |
+| meter | | ☐ |
+| scope | | ☐ |
+| auto | | ☐ |
+| tele | | ☐ |
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+**Score:** __ / 18
 
 ---
 
-**Next lesson:** Lesson 41
+## Part 2: Word Reading (Timed)
 
+Read these words aloud. Goal: under 30 seconds, 0 errors.
 
+| Word | ✓ | Word | ✓ |
+|------|---|------|---|
+| transport | ☐ | | inspect | ☐ |
+| microscope | ☐ | | telephone | ☐ |
+| biography | ☐ | | automatic | ☐ |
+| structure | ☐ | | dictionary | ☐ |
+| eruption | ☐ | | photograph | ☐ |
+| describe | ☐ | | thermostat | ☐ |
+
+**Score:** __ / 12
 
 ---
 
-<div class="page-break"></div>
+## Part 3: Spelling (Dictation)
 
-## Lesson Complete!
+| Word | ✓ |
+|------|---|
+| transport | ☐ |
+| dictionary | ☐ |
+| microscope | ☐ |
+| telephone | ☐ |
+| biography | ☐ |
+| automatic | ☐ |
+| structure | ☐ |
+| inspect | ☐ |
+| photograph | ☐ |
+| describe | ☐ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+**Score:** __ / 10
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Part 4: Writing
+
+Write a paragraph (4-6 sentences) on this topic: Write a paragraph about an animal that interests you. Use at least 3 words with Latin or Greek roots. Check your spelling!
+
+Checklist:
+- [ ] Complete sentences
+- [ ] Correct spelling
+- [ ] Capital letters and punctuation
+- [ ] Makes sense when read aloud
+
+**Score:** __ / 4
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Roots | __/18 | |
+| Reading | __/12 | |
+| Spelling | __/10 | |
+| Writing | __/4 | |
+
+**Overall:** __/{overall_total}
+
+## Next Steps
+
+If ≥85%: You've completed the full curriculum! Celebrate this achievement. If weaker, review specific root lessons.
+
+---
+
+*You've completed all 5 stages! You now know all 75 basic phonograms, 31 spelling rules, and can decode 98% of English words. Congratulations!*

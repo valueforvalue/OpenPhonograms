@@ -1,51 +1,43 @@
 # Lesson 1: Review Stage 4 Concepts
 
-**Stage 5** · Lesson 1 · Type: review
+**Stage 5** · Lesson 1 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Review Stage 4 Concepts
+## Schwa & Say-to-Spell
 
-### Review Stage 4 Concepts
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+Say-to-spell: about, seven, pencil, love, mother, dollar, doctor, animal, family, chocolate. Which rule applies to each?
 
 ---
 
-**Next lesson:** Lesson 2
+## Suffixing Rules
 
-
+Write the -ing or -ed form: make, hop, run, cry, carry, study, bake. Name the rule for each (13, 14, 15, or 16).
 
 ---
 
-<div class="page-break"></div>
+## Latin /sh/ & Morphology
 
-## Lesson Complete!
+Spell: nation, special, vision, musician, teacher, careful, submarine, disagree. Name the root or prefix/suffix in each.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Root Challenge
 
+Spell these words from dictation. Name the root in each:
+
+> about, making, hopping, nation, special, beautiful, dictionary, transport, inspect
+
+---
+
+**Next lesson:** Lesson 2: Root: dict
+
+---
+
+*Practice at home: Review all flashcards from Stages 1-4!*

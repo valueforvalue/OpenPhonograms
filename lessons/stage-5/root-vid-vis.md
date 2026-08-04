@@ -1,51 +1,68 @@
-# Lesson 13: Root: vid/vis (see)
+# Lesson 13: Root vid/vis — "see"
 
-**Stage 5** · Lesson 13 · Type: morphology
+**Stage 5** · Lesson 13 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: vid/vis (see)
+## New Learning: The Root **vid/vis**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**vid/vis** is a **Latin** root that means **"see"**.
 
-### Quick Check
+VID and VIS mean 'see.' A video lets you see. A visor lets you see through. To visit is to go see someone.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-video visible visit supervise
-
----
-
-**Next lesson:** Lesson 14
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| vision | vis + ion | the act of seeing |
+| video | vid + eo | I see |
+| visible | vis + ible | able to be seen |
+| visit | vis + it | go to see |
+| evidence | e (out) + vid + ence | that which is seen / proof |
+| supervise | super (over) + vise | see over / manage |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| vision | (sound out) | /vision/ |
+| video | (sound out) | /video/ |
+| visible | (sound out) | /visible/ |
+| visit | (sound out) | /visit/ |
+| supervise | (sound out) | /supervise/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **vid/vis** word:
+
+1. I need to vision this word. *(Write it!)*
+2. A video is an amazing thing to see.
+3. Everyone should visible the rules.
+
+---
+
+## Quick Check
+
+1. What does **vid/vis** mean? *(see)*
+2. Build a new word using vid/vis + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 14: Latin Roots Review 1
+
+---
+
+*Practice at home: Find 3 words with **vid/vis** in a book. Write each and its meaning.*

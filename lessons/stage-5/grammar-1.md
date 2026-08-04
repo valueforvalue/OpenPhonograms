@@ -1,49 +1,67 @@
 # Lesson 36: Grammar: Parts of Speech Review
 
-**Stage 5** · Lesson 36 · Type: grammar
+**Stage 5** · Lesson 36 · grammar
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Quick Write
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Write one sentence about something you did yesterday. Underline the noun (who/what). Circle the verb (what happened).
 
 ---
 
-## New Learning: Grammar: Parts of Speech Review
+## Grammar Lesson: Parts of Speech
 
-— [grammar content to be written]
-## Review
+### The 8 Parts of Speech
 
-### Quick Check
+| Part | What It Does | Examples |
+|------|-------------|----------|
+| **Noun** | Person, place, thing, idea | dog, park, happiness |
+| **Verb** | Action or state of being | run, is, think |
+| **Adjective** | Describes a noun | big, blue, happy |
+| **Adverb** | Describes a verb/adjective/adverb | quickly, very, well |
+| **Pronoun** | Replaces a noun | he, she, it, they |
+| **Preposition** | Shows position/relationship | in, on, under, between |
+| **Conjunction** | Joins words/sentences | and, but, or, because |
+| **Interjection** | Shows emotion | Wow! Oh! Oops! |
 
-- Check phonogram recall
-- Review new rule if introduced
+### Find Each Part of Speech
 
-### Words to Spell (Dictation)
+"The happy scientist quickly inspected the specimen under the microscope, and she exclaimed, 'Wow!'"
 
-
+| Word | Part of Speech |
+|------|---------------|
+| scientist | noun |
+| happy | adjective |
+| quickly | adverb |
+| inspected | verb |
+| under | preposition |
+| and | conjunction |
+| Wow! | interjection |
+| she | pronoun |
 
 ---
 
-**Next lesson:** Lesson 37
+## Practice
 
+Label each word: The (___) enormous (___) elephant (___) slowly (___) walked (___) through (___) the (___) jungle (___).
 
+Answers: article, adjective, noun, adverb, verb, preposition, article, noun
 
 ---
 
-<div class="page-break"></div>
+## Apply in Writing
 
-## Lesson Complete!
+Write 3 sentences that follow today's grammar pattern:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+1. 
+2. 
+3. 
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+**Next lesson:** Lesson 37: Grammar: Sentence Types
+
+---
+
+*Practice at home: Write 3 sentences. Label every part of speech in each one!*

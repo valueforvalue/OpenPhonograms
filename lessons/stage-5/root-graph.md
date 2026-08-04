@@ -1,51 +1,68 @@
-# Lesson 15: Root: graph (write)
+# Lesson 15: Root graph — "write"
 
-**Stage 5** · Lesson 15 · Type: morphology
+**Stage 5** · Lesson 15 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: graph (write)
+## New Learning: The Root **graph**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**graph** is a **Greek** root that means **"write"**.
 
-### Quick Check
+GRAPH means 'write' (Greek). A graph shows data in writing. A biography is a written life story. A phonograph writes sound.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-photograph autograph biography geography
-
----
-
-**Next lesson:** Lesson 16
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| autograph | auto (self) + graph | self-written / signature |
+| photograph | photo (light) + graph | light-writing |
+| telegraph | tele (far) + graph | far-writing |
+| geography | geo (earth) + graph + y | earth-writing / map-making |
+| biography | bio (life) + graph + y | life-writing |
+| paragraph | para (beside) + graph | written beside |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| autograph | (sound out) | /autograph/ |
+| photograph | (sound out) | /photograph/ |
+| telegraph | (sound out) | /telegraph/ |
+| biography | (sound out) | /biography/ |
+| paragraph | (sound out) | /paragraph/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **graph** word:
+
+1. I need to autograph this word. *(Write it!)*
+2. A photograph is an amazing thing to see.
+3. Everyone should telegraph the rules.
+
+---
+
+## Quick Check
+
+1. What does **graph** mean? *(write)*
+2. Build a new word using graph + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 16: Root: phon
+
+---
+
+*Practice at home: Find 3 words with **graph** in a book. Write each and its meaning.*

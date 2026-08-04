@@ -1,51 +1,68 @@
-# Lesson 6: Root: form (shape)
+# Lesson 6: Root form — "shape"
 
-**Stage 5** · Lesson 6 · Type: morphology
+**Stage 5** · Lesson 6 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: form (shape)
+## New Learning: The Root **form**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**form** is a **Latin** root that means **"shape"**.
 
-### Quick Check
+FORM means 'shape' or 'structure.' To FORM something is to shape it. Information shapes your thinking.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-reform uniform transform conform
-
----
-
-**Next lesson:** Lesson 7
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| transform | trans (across) + form | change shape |
+| uniform | uni (one) + form | one shape — same clothes |
+| perform | per (through) + form | carry out a shape / execute |
+| reform | re (again) + form | shape again |
+| formation | form + ation | the act of shaping |
+| inform | in (into) + form | give shape / knowledge |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| transform | (sound out) | /transform/ |
+| uniform | (sound out) | /uniform/ |
+| perform | (sound out) | /perform/ |
+| reform | (sound out) | /reform/ |
+| inform | (sound out) | /inform/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **form** word:
+
+1. I need to transform this word. *(Write it!)*
+2. A uniform is an amazing thing to see.
+3. Everyone should perform the rules.
+
+---
+
+## Quick Check
+
+1. What does **form** mean? *(shape)*
+2. Build a new word using form + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 7: Root: struct
+
+---
+
+*Practice at home: Find 3 words with **form** in a book. Write each and its meaning.*

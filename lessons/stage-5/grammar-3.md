@@ -1,49 +1,63 @@
 # Lesson 38: Grammar: Punctuation
 
-**Stage 5** · Lesson 38 · Type: grammar
+**Stage 5** · Lesson 38 · grammar
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Quick Write
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Write one sentence about something you did yesterday. Underline the noun (who/what). Circle the verb (what happened).
 
 ---
 
-## New Learning: Grammar: Punctuation
+## Grammar Lesson: Punctuation
 
-— [grammar content to be written]
-## Review
+### Punctuation Marks
 
-### Quick Check
+| Mark | Name | Use |
+|------|------|-----|
+| . | Period | End of statement or command |
+| ? | Question Mark | End of question |
+| ! | Exclamation Mark | End of exclamation |
+| , | Comma | Pause, list separator |
+| " " | Quotation Marks | Around spoken words |
+| ' | Apostrophe | Possession (dog's) or contraction (can't) |
 
-- Check phonogram recall
-- Review new rule if introduced
+### Fix the Punctuation
 
-### Words to Spell (Dictation)
-
-
+1. the dog barked loudly → The dog barked loudly.
+2. where is the elephant → Where is the elephant?
+3. what an incredible discovery → What an incredible discovery!
+4. i need pencils paper and a ruler → I need pencils, paper, and a ruler.
+5. she said i love reading → She said, "I love reading."
+6. the dogs bone is buried → The dog's bone is buried.
 
 ---
 
-**Next lesson:** Lesson 39
+## Practice
 
+Add correct punctuation:
 
+1. Dr Santiago made a discovery ____
+2. Did she inspect the organism ____
+3. What a brilliant blue light ____
+4. She said this is extraordinary ____ ____
+5. The scientists notebook was full ____ ____
 
 ---
 
-<div class="page-break"></div>
+## Apply in Writing
 
-## Lesson Complete!
+Write 3 sentences that follow today's grammar pattern:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+1. 
+2. 
+3. 
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+**Next lesson:** Lesson 39: Reader: Ostriches
+
+---
+
+*Practice at home: Write 5 sentences using all 5 punctuation marks correctly!*

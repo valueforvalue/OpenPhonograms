@@ -1,51 +1,68 @@
-# Lesson 7: Root: struct (build)
+# Lesson 7: Root struct — "build"
 
-**Stage 5** · Lesson 7 · Type: morphology
+**Stage 5** · Lesson 7 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: struct (build)
+## New Learning: The Root **struct**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**struct** is a **Latin** root that means **"build"**.
 
-### Quick Check
+STRUCT means 'build.' A structure is something built. To construct is to build together. To destroy is to un-build.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-construct structure instruct destruct
-
----
-
-**Next lesson:** Lesson 8
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| construct | con (together) + struct | build together |
+| structure | struct + ure | something built |
+| destruct | de (down) + struct | tear down / un-build |
+| instruct | in (into) + struct | build knowledge into |
+| obstruct | ob (against) + struct | build against / block |
+| reconstruct | re (again) + construct | build again |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| construct | (sound out) | /construct/ |
+| structure | (sound out) | /structure/ |
+| destruct | (sound out) | /destruct/ |
+| instruct | (sound out) | /instruct/ |
+| obstruct | (sound out) | /obstruct/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **struct** word:
+
+1. I need to construct this word. *(Write it!)*
+2. A structure is an amazing thing to see.
+3. Everyone should destruct the rules.
+
+---
+
+## Quick Check
+
+1. What does **struct** mean? *(build)*
+2. Build a new word using struct + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 8: Root: rupt
+
+---
+
+*Practice at home: Find 3 words with **struct** in a book. Write each and its meaning.*

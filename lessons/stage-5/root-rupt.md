@@ -1,51 +1,68 @@
-# Lesson 8: Root: rupt (break)
+# Lesson 8: Root rupt — "break"
 
-**Stage 5** · Lesson 8 · Type: morphology
+**Stage 5** · Lesson 8 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: rupt (break)
+## New Learning: The Root **rupt**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**rupt** is a **Latin** root that means **"break"**.
 
-### Quick Check
+RUPT means 'break.' An erupting volcano breaks open. A corrupt person is morally broken. A disruption breaks the flow.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-erupt interrupt disrupt bankrupt
-
----
-
-**Next lesson:** Lesson 9
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| erupt | e (out) + rupt | break out |
+| rupture | rupt + ure | a break or tear |
+| interrupt | inter (between) + rupt | break between |
+| corrupt | cor (completely) + rupt | completely broken / dishonest |
+| disrupt | dis (apart) + rupt | break apart |
+| abrupt | ab (off) + rupt | broken off — sudden |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| erupt | (sound out) | /erupt/ |
+| rupture | (sound out) | /rupture/ |
+| interrupt | (sound out) | /interrupt/ |
+| corrupt | (sound out) | /corrupt/ |
+| disrupt | (sound out) | /disrupt/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **rupt** word:
+
+1. I need to erupt this word. *(Write it!)*
+2. A rupture is an amazing thing to see.
+3. Everyone should interrupt the rules.
+
+---
+
+## Quick Check
+
+1. What does **rupt** mean? *(break)*
+2. Build a new word using rupt + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 9: Root: ject
+
+---
+
+*Practice at home: Find 3 words with **rupt** in a book. Write each and its meaning.*

@@ -1,51 +1,43 @@
 # Lesson 14: Latin Roots Review Set 1
 
-**Stage 5** · Lesson 14 · Type: review
+**Stage 5** · Lesson 14 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Latin Roots Review Set 1
+## Match Root to Meaning
 
-### Latin Roots Review Set 1
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+dict (say), duct (lead), spect (see), port (carry), form (shape), struct (build), rupt (break), ject (throw), tract (pull), scrib (write), mit/miss (send), vid/vis (see)
 
 ---
 
-**Next lesson:** Lesson 15
+## Root Detective
 
-
+Which root is in: dictionary? (dict) transport? (port) inspect? (spect) construct? (struct) erupt? (rupt) eject? (ject) mission? (miss) visible? (vis)
 
 ---
 
-<div class="page-break"></div>
+## Spell with Roots
 
-## Lesson Complete!
+Write: predict, conduct, spectator, portable, transform, structure, interrupt, reject, attract, describe, submit, vision.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Root Challenge
 
+Spell these words from dictation. Name the root in each:
+
+> predict, conduct, spectator, portable, transform, structure, interrupt, reject, attract, describe
+
+---
+
+**Next lesson:** Lesson 15: Root: graph
+
+---
+
+*Practice at home: Review all 12 Latin roots flashcards!*

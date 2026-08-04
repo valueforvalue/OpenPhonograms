@@ -1,51 +1,68 @@
-# Lesson 11: Root: scrib/script (write)
+# Lesson 11: Root scrib/script — "write"
 
-**Stage 5** · Lesson 11 · Type: morphology
+**Stage 5** · Lesson 11 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: scrib/script (write)
+## New Learning: The Root **scrib/script**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**scrib/script** is a **Latin** root that means **"write"**.
 
-### Quick Check
+SCRIB and SCRIPT mean 'write.' To scribble is to write quickly. A script is what's written for a play. To describe is to write about.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-describe manuscript prescription
-
----
-
-**Next lesson:** Lesson 12
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| describe | de (down) + scribe | write down / explain |
+| script | script | something written |
+| scribble | scrib + ble | write carelessly |
+| subscribe | sub (under) + scribe | write under / sign up |
+| manuscript | manu (hand) + script | written by hand |
+| prescription | pre (before) + script + ion | written beforehand |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| describe | (sound out) | /describe/ |
+| script | (sound out) | /script/ |
+| scribble | (sound out) | /scribble/ |
+| manuscript | (sound out) | /manuscript/ |
+| prescription | (sound out) | /prescription/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **scrib/script** word:
+
+1. I need to describe this word. *(Write it!)*
+2. A script is an amazing thing to see.
+3. Everyone should scribble the rules.
+
+---
+
+## Quick Check
+
+1. What does **scrib/script** mean? *(write)*
+2. Build a new word using scrib/script + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 12: Root: mit/miss
+
+---
+
+*Practice at home: Find 3 words with **scrib/script** in a book. Write each and its meaning.*

@@ -1,49 +1,63 @@
 # Lesson 35: Composition: Apply Spelling Rules in Writing
 
-**Stage 5** · Lesson 35 · Type: composition
+**Stage 5** · Lesson 35 · composition
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Spelling Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+Write these words from dictation:
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> ['discovery', 'invention', 'describe', 'transport', 'automatic', 'special']
 
 ---
 
-## New Learning: Composition: Apply Spelling Rules in Writing
+## Writing Lesson: Spelling Rules in Writing
 
-— [composition content to be written]
-## Review
+### Writing Is Spelling Practice!
 
-### Quick Check
+When you write, use ALL the spelling tools you've learned:
+1. Sound out each word
+2. Use say-to-spell for tricky words
+3. Apply the 31 rules
+4. Check for silent E, double letters, Latin /sh/
 
-- Check phonogram recall
-- Review new rule if introduced
+### Before You Write: Think
 
-### Words to Spell (Dictation)
+- Which phonograms will I need?
+- Are there any tricky schwa vowels?
+- Is there a suffix? (Drop E? Double? Y→I?)
 
+### After You Write: Check
 
+1. Read each word aloud — does it look right?
+2. Underline any words you're unsure about
+3. Say-to-spell the uncertain words
+4. Fix any mistakes you find
 
 ---
 
-**Next lesson:** Lesson 36
+## Your Turn
 
+Write 5 sentences about a discovery or invention. Use at least 3 words from this list:
 
+transport, inspect, describe, dictionary, beautiful, action, special, vision, automatic
+
+After writing, check each word using the steps above.
 
 ---
 
-<div class="page-break"></div>
+## Check Your Work
 
-## Lesson Complete!
+- [ ] Did you sound out each word?
+- [ ] Did you apply spelling rules?
+- [ ] Did you use capital letters and periods?
+- [ ] Did you read it back to check it makes sense?
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 36: Grammar: Parts of Speech
 
+---
+
+*Practice at home: Write a short story (4-5 sentences). Check every word for correct spelling!*

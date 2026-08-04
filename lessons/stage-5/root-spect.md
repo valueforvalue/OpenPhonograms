@@ -1,51 +1,68 @@
-# Lesson 4: Root: spect (see look)
+# Lesson 4: Root spect/spic — "see, look"
 
-**Stage 5** · Lesson 4 · Type: morphology
+**Stage 5** · Lesson 4 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: spect (see look)
+## New Learning: The Root **spect/spic**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**spect/spic** is a **Latin** root that means **"see, look"**.
 
-### Quick Check
+SPECT means 'see' or 'look.' A spectator looks, an inspector looks into things, and spectacles help you see!
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-inspect respect spectator suspect
-
----
-
-**Next lesson:** Lesson 5
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| inspect | in (into) + spect | look into carefully |
+| spectator | spect + at + or | one who watches |
+| respect | re (back) + spect | look back at with honor |
+| spectacle | spect + acle | amazing sight |
+| prospect | pro (forward) + spect | look forward to |
+| suspect | sus (under) + spect | look under / doubt |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| inspect | (sound out) | /inspect/ |
+| spectator | (sound out) | /spectator/ |
+| respect | (sound out) | /respect/ |
+| spectacle | (sound out) | /spectacle/ |
+| suspect | (sound out) | /suspect/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **spect/spic** word:
+
+1. I need to inspect this word. *(Write it!)*
+2. A spectator is an amazing thing to see.
+3. Everyone should respect the rules.
+
+---
+
+## Quick Check
+
+1. What does **spect/spic** mean? *(see, look)*
+2. Build a new word using spect/spic + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 5: Root: port
+
+---
+
+*Practice at home: Find 3 words with **spect/spic** in a book. Write each and its meaning.*

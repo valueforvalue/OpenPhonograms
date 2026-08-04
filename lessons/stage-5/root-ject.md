@@ -1,51 +1,68 @@
-# Lesson 9: Root: ject (throw)
+# Lesson 9: Root ject — "throw"
 
-**Stage 5** · Lesson 9 · Type: morphology
+**Stage 5** · Lesson 9 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: ject (throw)
+## New Learning: The Root **ject**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**ject** is a **Latin** root that means **"throw"**.
 
-### Quick Check
+JECT means 'throw.' An ejector throws something out. To reject is to throw back. A projector throws light forward.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-eject reject project inject subject
-
----
-
-**Next lesson:** Lesson 10
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| eject | e (out) + ject | throw out |
+| reject | re (back) + ject | throw back / refuse |
+| project | pro (forward) + ject | throw forward |
+| inject | in (into) + ject | throw into |
+| subject | sub (under) + ject | throw under / topic under discussion |
+| object | ob (against) + ject | throw against / protest |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| eject | (sound out) | /eject/ |
+| reject | (sound out) | /reject/ |
+| project | (sound out) | /project/ |
+| inject | (sound out) | /inject/ |
+| subject | (sound out) | /subject/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **ject** word:
+
+1. I need to eject this word. *(Write it!)*
+2. A reject is an amazing thing to see.
+3. Everyone should project the rules.
+
+---
+
+## Quick Check
+
+1. What does **ject** mean? *(throw)*
+2. Build a new word using ject + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 10: Root: tract
+
+---
+
+*Practice at home: Find 3 words with **ject** in a book. Write each and its meaning.*

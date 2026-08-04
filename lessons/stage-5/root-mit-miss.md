@@ -1,51 +1,68 @@
-# Lesson 12: Root: mit/miss (send)
+# Lesson 12: Root mit/miss — "send"
 
-**Stage 5** · Lesson 12 · Type: morphology
+**Stage 5** · Lesson 12 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: mit/miss (send)
+## New Learning: The Root **mit/miss**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**mit/miss** is a **Latin** root that means **"send"**.
 
-### Quick Check
+MIT and MISS mean 'send.' A missile is sent through the air. To admit is to send in. A mission is something you're sent to do.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-transmit mission admit dismiss
-
----
-
-**Next lesson:** Lesson 13
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| submit | sub (under) + mit | send under / give in |
+| mission | miss + ion | a sending / task |
+| transmit | trans (across) + mit | send across |
+| admit | ad (to) + mit | send in / allow in |
+| dismiss | dis (away) + miss | send away |
+| remit | re (back) + mit | send back / pay |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| submit | (sound out) | /submit/ |
+| mission | (sound out) | /mission/ |
+| transmit | (sound out) | /transmit/ |
+| dismiss | (sound out) | /dismiss/ |
+| admit | (sound out) | /admit/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **mit/miss** word:
+
+1. I need to submit this word. *(Write it!)*
+2. A mission is an amazing thing to see.
+3. Everyone should transmit the rules.
+
+---
+
+## Quick Check
+
+1. What does **mit/miss** mean? *(send)*
+2. Build a new word using mit/miss + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 13: Root: vid/vis
+
+---
+
+*Practice at home: Find 3 words with **mit/miss** in a book. Write each and its meaning.*

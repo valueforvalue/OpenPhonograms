@@ -1,49 +1,67 @@
 # Lesson 33: Composition: Sentence Building
 
-**Stage 5** · Lesson 33 · Type: composition
+**Stage 5** · Lesson 33 · composition
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Spelling Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+Write these words from dictation:
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> ['about', 'making', 'inspect', 'transport', 'dictionary', 'beautiful']
 
 ---
 
-## New Learning: Composition: Sentence Building
+## Writing Lesson: Sentence Building
 
-— [composition content to be written]
-## Review
+### What Makes a Complete Sentence?
 
-### Quick Check
+Every sentence needs:
+1. **A subject** (who or what)
+2. **A verb** (what happened / what they did)
+3. **A complete thought**
 
-- Check phonogram recall
-- Review new rule if introduced
+| Fragment | Complete Sentence |
+|----------|-------------------|
+| The big dog | The big dog ran fast. |
+| Running quickly | The cat was running quickly. |
+| In the park | We played in the park. |
+| Because it rained | We stayed inside because it rained. |
 
-### Words to Spell (Dictation)
+### Building Longer Sentences
 
+Add details: **when, where, why, how**
 
+| Short | With Details |
+|-------|-------------|
+| The dog barked. | The enormous brown dog barked loudly at the mailman. |
+| She read. | She read an exciting book about dinosaurs in her cozy room. |
 
 ---
 
-**Next lesson:** Lesson 34
+## Your Turn
 
+Build each fragment into a complete sentence with details:
 
+1. The bird sang ________________________________________________
+2. My friend ________________________________________________
+3. During the storm ________________________________________________
+4. The scientist ________________________________________________
+5. Under the bridge ________________________________________________
 
 ---
 
-<div class="page-break"></div>
+## Check Your Work
 
-## Lesson Complete!
+- [ ] Did you sound out each word?
+- [ ] Did you apply spelling rules?
+- [ ] Did you use capital letters and periods?
+- [ ] Did you read it back to check it makes sense?
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 34: Composition: Paragraphs
 
+---
+
+*Practice at home: Write 5 complete sentences about your day. Add details to each one!*

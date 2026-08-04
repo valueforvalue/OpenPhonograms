@@ -1,51 +1,68 @@
-# Lesson 10: Root: tract (pull)
+# Lesson 10: Root tract — "pull, draw"
 
-**Stage 5** · Lesson 10 · Type: morphology
+**Stage 5** · Lesson 10 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: tract (pull)
+## New Learning: The Root **tract**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**tract** is a **Latin** root that means **"pull, draw"**.
 
-### Quick Check
+TRACT means 'pull' or 'draw.' A tractor pulls. To attract is to pull toward. A contract pulls people together.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-attract extract tractor subtract
-
----
-
-**Next lesson:** Lesson 11
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| tractor | tract + or | machine that pulls |
+| attract | at (to) + tract | pull toward |
+| contract | con (together) + tract | pull together / agreement |
+| extract | ex (out) + tract | pull out |
+| retract | re (back) + tract | pull back / take back |
+| subtract | sub (under) + tract | pull under / take away |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| tractor | (sound out) | /tractor/ |
+| attract | (sound out) | /attract/ |
+| contract | (sound out) | /contract/ |
+| extract | (sound out) | /extract/ |
+| subtract | (sound out) | /subtract/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **tract** word:
+
+1. I need to tractor this word. *(Write it!)*
+2. A attract is an amazing thing to see.
+3. Everyone should contract the rules.
+
+---
+
+## Quick Check
+
+1. What does **tract** mean? *(pull, draw)*
+2. Build a new word using tract + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 11: Root: scrib/script
+
+---
+
+*Practice at home: Find 3 words with **tract** in a book. Write each and its meaning.*

@@ -1,49 +1,81 @@
 # Lesson 31: Fluency: Phrasing and Expression
 
-**Stage 5** · Lesson 31 · Type: fluency
+**Stage 5** · Lesson 31 · fluency
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Speed is the goal!
 
 ---
 
-## New Learning: Fluency: Phrasing and Expression
+## Fluency Practice: Phrasing & Expression
 
-— [fluency content to be written]
-## Review
+### Reading with Expression
 
-### Quick Check
+Fluent readers don't sound like robots. They:
+- Group words into meaningful phrases
+- Change their voice for questions, excitement, sadness
+- Pause at commas and periods
+- Emphasize important words
 
-- Check phonogram recall
-- Review new rule if introduced
+### Practice These Phrases
 
-### Words to Spell (Dictation)
+Read each line smoothly, as one phrase:
 
-
+- Over the mountains
+- Through the deep forest
+- With great excitement
+- After the storm passed
+- Before the sun rose
 
 ---
 
-**Next lesson:** Lesson 32
+## Timed Reading
 
+Read this passage aloud 3 times. Time yourself each time. Try to get faster while staying accurate.
 
+**The Storm**
+
+The sky grew dark. The wind began to howl. (pause — build tension)
+
+Suddenly, lightning split the sky! (excitement) Thunder crashed like a thousand drums. The rain poured down in sheets, washing the dusty streets clean.
+
+"Get inside!" called Mother. "Quickly now!" (urgency)
+
+The children ran through the garden gate, their feet splashing in the fresh puddles. They burst through the kitchen door, laughing and dripping wet.
+
+"Did you see that lightning?" asked Theo, his eyes wide.
+
+"It was magnificent!" exclaimed Lily. "Absolutely magnificent!"
+
+The storm raged for an hour. Then, as suddenly as it began, it stopped. The clouds parted. The sun emerged.
+
+"Look!" whispered Lily, pointing at the sky.
+
+A perfect rainbow stretched from horizon to horizon — a silent promise after the storm's fury.
+
+(Read the last line slowly, with wonder.)
+
+| Reading | Time | Errors | Notes |
+|---------|------|--------|-------|
+| 1st | ___:___ | ___ | |
+| 2nd | ___:___ | ___ | |
+| 3rd | ___:___ | ___ | |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What improved between your first and third reading?
+2. What words were hardest?
+3. Read the passage aloud one more time for a family member!
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 32: Fluency: Reading Rate
 
+---
+
+*Practice at home: Read the passage aloud 2 more times tonight!*

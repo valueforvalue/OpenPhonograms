@@ -1,51 +1,43 @@
 # Lesson 25: Greek Roots Review
 
-**Stage 5** · Lesson 25 · Type: morphology
+**Stage 5** · Lesson 25 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Greek Roots Review
+## Match Root to Meaning
 
-### Morpheme: 
-
-— [Morpheme content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+graph (write), phon (sound), bio (life), geo (earth), therm (heat), meter (measure), scope (see), auto (self), tele (far), micro (small), chron (time), photo (light), logy (study)
 
 ---
 
-**Next lesson:** Lesson 26
+## Root Detective
 
-
+Which root is in: photograph? (graph + photo) biology? (bio + logy) thermometer? (therm + meter) telescope? (tele + scope) geography? (geo + graph)
 
 ---
 
-<div class="page-break"></div>
+## Spell with Roots
 
-## Lesson Complete!
+Write: photograph, biology, thermometer, telescope, geography, automatic, microphone, chronicle.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Root Challenge
 
+Spell these words from dictation. Name the root in each:
+
+> photograph, biology, thermometer, telescope, geography, automatic, microphone
+
+---
+
+**Next lesson:** Lesson 26: All Roots Review
+
+---
+
+*Practice at home: Review all 13 Greek roots flashcards!*

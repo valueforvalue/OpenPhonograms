@@ -1,51 +1,68 @@
-# Lesson 22: Roots: auto (self) + tele (far)
+# Lesson 22: Root auto/tele — "self/far"
 
-**Stage 5** · Lesson 22 · Type: morphology
+**Stage 5** · Lesson 22 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Roots: auto (self) + tele (far)
+## New Learning: The Root **auto/tele**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**auto/tele** is a **Greek** root that means **"self/far"**.
 
-### Quick Check
+AUTO means 'self.' TELE means 'far' (Greek). An automobile moves by itself. A television sees far.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-autograph automatic telephone television
-
----
-
-**Next lesson:** Lesson 23
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| automatic | auto + mat (thinking) + ic | self-thinking / self-operating |
+| automobile | auto + mobile (moving) | self-moving / car |
+| autograph | auto + graph | self-write / signature |
+| telescope | tele + scope | far-see |
+| telephone | tele + phon + e | far-sound |
+| telegraph | tele + graph | far-write |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| automatic | (sound out) | /automatic/ |
+| automobile | (sound out) | /automobile/ |
+| autograph | (sound out) | /autograph/ |
+| telescope | (sound out) | /telescope/ |
+| telephone | (sound out) | /telephone/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **auto/tele** word:
+
+1. I need to automatic this word. *(Write it!)*
+2. A automobile is an amazing thing to see.
+3. Everyone should autograph the rules.
+
+---
+
+## Quick Check
+
+1. What does **auto/tele** mean? *(self/far)*
+2. Build a new word using auto/tele + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 23: Roots: micro + chron
+
+---
+
+*Practice at home: Find 3 words with **auto/tele** in a book. Write each and its meaning.*

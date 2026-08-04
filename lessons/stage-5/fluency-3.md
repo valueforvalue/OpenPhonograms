@@ -1,49 +1,74 @@
 # Lesson 32: Fluency: Reading Rate
 
-**Stage 5** · Lesson 32 · Type: fluency
+**Stage 5** · Lesson 32 · fluency
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Speed is the goal!
 
 ---
 
-## New Learning: Fluency: Reading Rate
+## Fluency Practice: Reading Rate
 
-— [fluency content to be written]
-## Review
+### Finding the Right Speed
 
-### Quick Check
+Good readers adjust their speed:
+- **Faster** for easy, familiar text
+- **Slower** for challenging, unfamiliar text
+- **Medium** for most reading
 
-- Check phonogram recall
-- Review new rule if introduced
+### Rate Goals (Words Per Minute)
 
-### Words to Spell (Dictation)
+| Grade | Fall | Spring |
+|-------|------|--------|
+| Grade 1 | — | 40-60 |
+| Grade 2 | 50-80 | 80-100 |
+| Grade 3 | 70-100 | 100-130 |
 
+### How to Calculate
 
+1. Count the words in the passage below (150 words)
+2. Time your reading in seconds
+3. WPM = (words ÷ seconds) × 60
+
+Example: 150 words ÷ 90 seconds = 1.67 × 60 = 100 WPM
 
 ---
 
-**Next lesson:** Lesson 33
+## Timed Reading
 
+Read this passage aloud 3 times. Time yourself each time. Try to get faster while staying accurate.
 
+**The Elephant's Memory** (150 words)
+
+Elephants have remarkable memories. Scientists have conducted extensive research on elephant cognition, and the results are extraordinary. An elephant can remember the location of water holes it visited decades ago. It can recognize individual humans it met years before. It remembers other elephants — even after long separations.
+
+In one famous study, researchers played recorded calls of elephants that had died. The living elephants responded with clear signs of recognition and distress. They remembered their lost family members.
+
+This incredible memory serves a vital purpose. In the harsh African savanna, remembering where to find water during a drought means the difference between life and death. The matriarch — the oldest female — leads the herd using her accumulated knowledge of the landscape.
+
+Elephants teach us that intelligence takes many forms. Their wisdom is written not in books, but in the living memory passed from generation to generation.
+
+| Reading | Time | Errors | Notes |
+|---------|------|--------|-------|
+| 1st | ___:___ | ___ | |
+| 2nd | ___:___ | ___ | |
+| 3rd | ___:___ | ___ | |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What improved between your first and third reading?
+2. What words were hardest?
+3. Read the passage aloud one more time for a family member!
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 33: Composition: Sentences
 
+---
+
+*Practice at home: Read the passage aloud 2 more times tonight!*

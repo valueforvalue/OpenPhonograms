@@ -1,51 +1,68 @@
-# Lesson 16: Root: phon (sound)
+# Lesson 16: Root phon — "sound"
 
-**Stage 5** · Lesson 16 · Type: morphology
+**Stage 5** · Lesson 16 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: phon (sound)
+## New Learning: The Root **phon**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**phon** is a **Greek** root that means **"sound"**.
 
-### Quick Check
+PHON means 'sound' (Greek). A telephone carries sound from far away. A microphone makes small sounds big.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-telephone phonics symphony microphone
-
----
-
-**Next lesson:** Lesson 17
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| telephone | tele (far) + phon + e | far-sound |
+| microphone | micro (small) + phon + e | small-sound amplifier |
+| phonics | phon + ics | science of sounds |
+| symphony | sym (together) + phon + y | sounds together / orchestra |
+| phonograph | phono + graph | sound-writer |
+| euphonic | eu (good) + phon + ic | good-sounding |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| telephone | (sound out) | /telephone/ |
+| microphone | (sound out) | /microphone/ |
+| phonics | (sound out) | /phonics/ |
+| symphony | (sound out) | /symphony/ |
+| phonograph | (sound out) | /phonograph/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **phon** word:
+
+1. I need to telephone this word. *(Write it!)*
+2. A microphone is an amazing thing to see.
+3. Everyone should phonics the rules.
+
+---
+
+## Quick Check
+
+1. What does **phon** mean? *(sound)*
+2. Build a new word using phon + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 17: Root: bio
+
+---
+
+*Practice at home: Find 3 words with **phon** in a book. Write each and its meaning.*

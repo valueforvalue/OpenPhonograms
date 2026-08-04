@@ -1,51 +1,68 @@
-# Lesson 3: Root: duct (lead)
+# Lesson 3: Root duct/duc — "lead"
 
-**Stage 5** · Lesson 3 · Type: morphology
+**Stage 5** · Lesson 3 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: duct (lead)
+## New Learning: The Root **duct/duc**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**duct/duc** is a **Latin** root that means **"lead"**.
 
-### Quick Check
+DUCT means 'lead' or 'draw.' Think of a duct — it leads air or water. Words with DUCT are about leading or being led.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-conduct introduce product aqueduct
-
----
-
-**Next lesson:** Lesson 4
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| conduct | con (with) + duct | lead together |
+| product | pro (forward) + duct | something led forth / made |
+| duct | duct | tube that leads air |
+| viaduct | via (road) + duct | bridge that leads a road |
+| deduct | de (down) + duct | lead down / subtract |
+| introduce | intro (into) + duce | lead into |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| conduct | (sound out) | /conduct/ |
+| product | (sound out) | /product/ |
+| duct | (sound out) | /duct/ |
+| deduct | (sound out) | /deduct/ |
+| introduce | (sound out) | /introduce/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **duct/duc** word:
+
+1. I need to conduct this word. *(Write it!)*
+2. A product is an amazing thing to see.
+3. Everyone should duct the rules.
+
+---
+
+## Quick Check
+
+1. What does **duct/duc** mean? *(lead)*
+2. Build a new word using duct/duc + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 4: Root: spect
+
+---
+
+*Practice at home: Find 3 words with **duct/duc** in a book. Write each and its meaning.*

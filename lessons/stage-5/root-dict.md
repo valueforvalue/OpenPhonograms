@@ -1,51 +1,69 @@
-# Lesson 2: Root: dict (say speak)
+# Lesson 2: Root dict — "say, speak"
 
-**Stage 5** · Lesson 2 · Type: morphology
+**Stage 5** · Lesson 2 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: dict (say speak)
+## New Learning: The Root **dict**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**dict** is a **Latin** root that means **"say, speak"**.
 
-### Quick Check
+The root DICT means 'say' or 'speak.' Every word with DICT has something to do with speaking or saying.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-dictate predict dictionary contradict
-
----
-
-**Next lesson:** Lesson 3
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| dictate | dict + ate | say with authority |
+| dictionary | dict + ion + ary | book that 'says' what words mean |
+| predict | pre (before) + dict | say before it happens |
+| verdict | ver (true) + dict | true saying — a jury's decision |
+| contradict | contra (against) + dict | say against |
+| dictator | dict + at + or | one who says what to do |
+| diction | dict + ion | manner of speaking words |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| dictate | (sound out) | /dictate/ |
+| predict | (sound out) | /predict/ |
+| contradict | (sound out) | /contradict/ |
+| dictionary | (sound out) | /dictionary/ |
+| verdict | (sound out) | /verdict/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **dict** word:
+
+1. I need to dictate this word. *(Write it!)*
+2. A dictionary is an amazing thing to see.
+3. Everyone should predict the rules.
+
+---
+
+## Quick Check
+
+1. What does **dict** mean? *(say, speak)*
+2. Build a new word using dict + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 3: Root: duct
+
+---
+
+*Practice at home: Find 3 words with **dict** in a book. Write each and its meaning.*

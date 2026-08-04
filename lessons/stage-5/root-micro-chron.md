@@ -1,51 +1,68 @@
-# Lesson 23: Roots: micro (small) + chron (time)
+# Lesson 23: Root micro/chron — "small/time"
 
-**Stage 5** · Lesson 23 · Type: morphology
+**Stage 5** · Lesson 23 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Roots: micro (small) + chron (time)
+## New Learning: The Root **micro/chron**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**micro/chron** is a **Greek** root that means **"small/time"**.
 
-### Quick Check
+MICRO means 'small.' CHRON means 'time' (Greek). A microbe is a small living thing. A chronicle records time.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-microscope microwave chronological
-
----
-
-**Next lesson:** Lesson 24
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| microscope | micro + scope | small-seer |
+| microphone | micro + phon + e | small-sound amplifier |
+| microbe | micro + be (life) | small life |
+| chronic | chron + ic | lasting over time |
+| chronicle | chron + icle | record of time / history |
+| synchronize | syn (same) + chron + ize | make same-time / coordinate |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| microscope | (sound out) | /microscope/ |
+| microphone | (sound out) | /microphone/ |
+| microbe | (sound out) | /microbe/ |
+| chronic | (sound out) | /chronic/ |
+| synchronize | (sound out) | /synchronize/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **micro/chron** word:
+
+1. I need to microscope this word. *(Write it!)*
+2. A microphone is an amazing thing to see.
+3. Everyone should microbe the rules.
+
+---
+
+## Quick Check
+
+1. What does **micro/chron** mean? *(small/time)*
+2. Build a new word using micro/chron + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 24: Roots: photo + logy
+
+---
+
+*Practice at home: Find 3 words with **micro/chron** in a book. Write each and its meaning.*

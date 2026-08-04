@@ -1,51 +1,68 @@
-# Lesson 18: Root: geo (earth)
+# Lesson 18: Root geo — "earth"
 
-**Stage 5** · Lesson 18 · Type: morphology
+**Stage 5** · Lesson 18 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Root: geo (earth)
+## New Learning: The Root **geo**
 
-### Morpheme: 
+### Where It Comes From
 
-— [Morpheme content to be written]
-## Review
+**geo** is a **Greek** root that means **"earth"**.
 
-### Quick Check
+GEO means 'earth' (Greek). Geography writes about the earth. Geology studies the earth.
 
-- Check phonogram recall
-- Review new rule if introduced
+### Word Builder
 
-### Words to Spell (Dictation)
-
-geography geology geometry geode
-
----
-
-**Next lesson:** Lesson 19
-
-
+| Word | Prefix | Root | Suffix | Meaning |
+|------|--------|------|--------|---------|
+| geography | geo + graph + y | earth-writing / map study |
+| geology | geo + logy | earth-study / rocks |
+| geometry | geo + metry (measure) | earth-measuring |
+| geode | geo + de | earth-stone with crystals inside |
+| geocentric | geo + centr + ic | earth-centered |
+| geothermal | geo + therm + al | earth-heat |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms | Say-to-Spell |
+|------|-----------|-------------|
+| geography | (sound out) | /geography/ |
+| geology | (sound out) | /geology/ |
+| geometry | (sound out) | /geometry/ |
+| geode | (sound out) | /geode/ |
+| geothermal | (sound out) | /geothermal/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Word Detective
 
+Fill in the blanks with a **geo** word:
+
+1. I need to geography this word. *(Write it!)*
+2. A geology is an amazing thing to see.
+3. Everyone should geometry the rules.
+
+---
+
+## Quick Check
+
+1. What does **geo** mean? *(earth)*
+2. Build a new word using geo + a prefix you know.
+3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
+
+---
+
+**Next lesson:** Lesson 19: Root: therm
+
+---
+
+*Practice at home: Find 3 words with **geo** in a book. Write each and its meaning.*
