@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phonogram Trainer — Logic of English</title>
+<style>
+:root {
+  --navy: #2a5c8a;
+  --gold: #c9a84c;
+  --bg: #fffff8;
+  --card-bg: #fff;
+  --correct: #2d8a4e;
+  --slow: #c94c2a;
+  --border: #ddd;
+  --font: Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+h1 { text-align: center; color: var(--navy); font-size: 1.8rem; margin-bottom: 5px; }
+.subtitle { text-align: center; color: #888; font-size: 0.9rem; margin-bottom: 20px; }
+
+/* ── TABS ── */
+.tabs { display: flex; gap: 5px; margin-bottom: 20px; flex-wrap: wrap; }
+.tab {
+  padding: 8px 16px; border: 2px solid var(--navy); background: white;
+  color: var(--navy); border-radius: 6px; cursor: pointer; font-family: var(--font);
+  font-size: 0.9rem; transition: all 0.2s;
+}
+.tab.active { background: var(--navy); color: white; }
+.tab:hover { background: #e8f0f8; }
+.tab.active:hover { background: var(--navy); }
+
+/* ── CARD ── */
+.card-area { text-align: center; margin: 20px 0; min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.phonogram-card {
+  display: inline-block; border: 3px solid var(--navy); border-radius: 12px;
+  padding: 30px 50px; background: var(--card-bg); margin: 10px;
+  cursor: pointer; user-select: none; min-width: 180px; transition: transform 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.phonogram-card:hover { transform: scale(1.03); }
+.phonogram-card.flipped { border-color: var(--gold); background: #fffef5; }
+.phonogram-letter {
+  font-size: 80pt; font-weight: bold; color: var(--navy); font-family: var(--font);
+  line-height: 1.1; text-align: center;
+}
+.phonogram-sounds {
+  font-size: 14pt; color: #888; margin-top: 8px; font-family: monospace;
+  display: none;
+}
+.phonogram-card.flipped .phonogram-sounds { display: block; }
+.phonogram-card.flipped .phonogram-letter { font-size: 60pt; }
+.tap-hint { color: #aaa; font-size: 0.85rem; margin-top: 10px; }
+
+/* ── BUTTONS ── */
+.btn-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 15px 0; }
+.btn {
+  padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer;
+  font-family: var(--font); font-size: 1rem; transition: all 0.15s;
+}
+.btn-primary { background: var(--navy); color: white; }
+.btn-primary:hover { background: #1e4a6e; }
+.btn-outline { background: white; border: 2px solid var(--navy); color: var(--navy); }
+.btn-outline:hover { background: #e8f0f8; }
+.btn-fast { background: var(--correct); color: white; font-size: 0.85rem; padding: 8px 16px; }
+.btn-slow { background: var(--slow); color: white; font-size: 0.85rem; padding: 8px 16px; }
+.btn:disabled { opacity: 0.4; cursor: default; }
+
+/* ── PROGRESS ── */
+.progress { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; margin: 15px 0; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: #ddd; }
+.dot.fast { background: var(--correct); }
+.dot.slow { background: var(--slow); }
+.dot.current { border: 2px solid var(--navy); width: 12px; height: 12px; }
+
+/* ── STATS ── */
+.stats { text-align: center; font-size: 0.9rem; color: #666; margin: 10px 0; }
+.stats span { margin: 0 8px; }
+.timer { font-size: 2rem; font-weight: bold; color: var(--navy); text-align: center; }
+
+/* ── SOUND MATCH ── */
+.match-grid { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0; max-width: 600px; }
+.match-card {
+  width: 80px; height: 100px; border: 2px solid var(--navy); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  font-size: 28pt; font-weight: bold; color: var(--navy); font-family: var(--font);
+  transition: all 0.2s; background: white;
+}
+.match-card:hover { background: #e8f0f8; transform: scale(1.05); }
+.match-card.correct { background: #d4edda; border-color: var(--correct); animation: pulse 0.5s; }
+.match-card.wrong { background: #f8d7da; border-color: var(--slow); animation: shake 0.3s; }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+/* ── SCORE ── */
+.score { text-align: center; font-size: 1.2rem; margin: 10px 0; }
+.score .correct-count { color: var(--correct); font-weight: bold; }
+.score .wrong-count { color: var(--slow); font-weight: bold; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 500px) {
+  .phonogram-letter { font-size: 50pt; }
+  .phonogram-card { padding: 20px 30px; min-width: 140px; }
+  .match-card { width: 60px; height: 80px; font-size: 22pt; }
+}
+</style>
+</head>
+<body>
+
+<h1>🔤 Phonogram Trainer</h1>
+<p class="subtitle">All 75 Basic Phonograms · Say the sounds, then tap to check</p>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchMode('flash')">📇 Flash Cards</button>
+  <button class="tab" onclick="switchMode('match')">🎯 Sound Match</button>
+  <button class="tab" onclick="switchMode('speed')">⏱ Speed Round</button>
+  <button class="tab" onclick="switchMode('all')">📋 All Cards</button>
+</div>
+
+<!-- FLASH CARDS MODE -->
+<div id="mode-flash">
+  <div class="card-area">
+    <div class="phonogram-card" id="flashCard" onclick="flipCard()">
+      <div class="phonogram-letter" id="flashLetter">a</div>
+      <div class="phonogram-sounds" id="flashSounds">/ă/ /ā/ /ä/</div>
+    </div>
+    <p class="tap-hint">👆 Tap card to reveal sounds</p>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-fast" onclick="markFast()">⚡ Fast (&lt;2s)</button>
+    <button class="btn btn-slow" onclick="markSlow()">🐢 Needs Practice</button>
+    <button class="btn btn-outline" onclick="nextCard()">⏭ Skip</button>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-primary" onclick="shuffleDeck()">🔀 Shuffle</button>
+    <button class="btn btn-outline" onclick="resetProgress()">🔄 Reset Progress</button>
+  </div>
+  <div class="progress" id="flashDots"></div>
+  <div class="stats">
+    <span>⚡ Fast: <b id="fastCount">0</b></span>
+    <span>🐢 Slow: <b id="slowCount">0</b></span>
+    <span>📇 Card <b id="cardIndex">1</b> of <b id="cardTotal">75</b></span>
+  </div>
+</div>
+
+<!-- SOUND MATCH MODE -->
+<div id="mode-match" style="display:none;">
+  <div class="card-area">
+    <p style="font-size:1.4rem;margin-bottom:10px;">Which phonogram says: <b style="color:var(--navy);font-size:1.6rem;" id="targetSound">/ă/</b> ?</p>
+    <div class="match-grid" id="matchGrid"></div>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-primary" onclick="newMatchRound()">🔄 New Round</button>
+  </div>
+  <div class="score">
+    Correct: <span class="correct-count" id="matchCorrect">0</span> &nbsp;
+    Missed: <span class="wrong-count" id="matchWrong">0</span>
+  </div>
+</div>
+
+<!-- SPEED ROUND MODE -->
+<div id="mode-speed" style="display:none;">
+  <div class="card-area">
+    <div class="timer" id="speedTimer">30</div>
+    <div class="phonogram-card" id="speedCard">
+      <div class="phonogram-letter" id="speedLetter">a</div>
+      <div class="phonogram-sounds" id="speedSounds" style="display:block;">/ă/ /ā/ /ä/</div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-fast" onclick="speedCorrect()">✅ Got It!</button>
+    <button class="btn btn-slow" onclick="speedPass()">⏭ Pass</button>
+    <button class="btn btn-primary" id="speedStart" onclick="startSpeed()">▶ Start 30s Round</button>
+  </div>
+  <div class="score">
+    Score: <span class="correct-count" id="speedScore">0</span>
+  </div>
+</div>
+
+<!-- ALL CARDS MODE -->
+<div id="mode-all" style="display:none;">
+  <div class="btn-row" style="margin-bottom:15px;">
+    <button class="btn btn-outline" onclick="filterAll('all')">All 75</button>
+    <button class="btn btn-outline" onclick="filterAll('single')">26 Single</button>
+    <button class="btn btn-outline" onclick="filterAll('multi')">49 Multi</button>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;" id="allCards"></div>
+</div>
+
+<script>
+// ── DATA ──
+const PHONOGRAMS = [
+  // Single-letter (26)
+  {pg:"a",sounds:"/ă/ /ā/ /ä/",type:"single"},
+  {pg:"b",sounds:"/b/",type:"single"},
+  {pg:"c",sounds:"/k/ /s/",type:"single"},
+  {pg:"d",sounds:"/d/",type:"single"},
+  {pg:"e",sounds:"/ĕ/ /ē/",type:"single"},
+  {pg:"f",sounds:"/f/",type:"single"},
+  {pg:"g",sounds:"/g/ /j/",type:"single"},
+  {pg:"h",sounds:"/h/",type:"single"},
+  {pg:"i",sounds:"/ĭ/ /ī/ /ē/",type:"single"},
+  {pg:"j",sounds:"/j/",type:"single"},
+  {pg:"k",sounds:"/k/",type:"single"},
+  {pg:"l",sounds:"/l/",type:"single"},
+  {pg:"m",sounds:"/m/",type:"single"},
+  {pg:"n",sounds:"/n/",type:"single"},
+  {pg:"o",sounds:"/ŏ/ /ō/ /ö/",type:"single"},
+  {pg:"p",sounds:"/p/",type:"single"},
+  {pg:"qu",sounds:"/kw/",type:"single"},
+  {pg:"r",sounds:"/r/",type:"single"},
+  {pg:"s",sounds:"/s/ /z/",type:"single"},
+  {pg:"t",sounds:"/t/",type:"single"},
+  {pg:"u",sounds:"/ŭ/ /ū/ /ö/",type:"single"},
+  {pg:"v",sounds:"/v/",type:"single"},
+  {pg:"w",sounds:"/w/",type:"single"},
+  {pg:"x",sounds:"/ks/ /z/",type:"single"},
+  {pg:"y",sounds:"/y/ /ĭ/ /ī/ /ē/",type:"single"},
+  {pg:"z",sounds:"/z/",type:"single"},
+  // Multi-letter (49)
+  {pg:"sh",sounds:"/sh/",type:"multi"},
+  {pg:"th",sounds:"/th/ (voiced) /th/ (unvoiced)",type:"multi"},
+  {pg:"ck",sounds:"/k/",type:"multi"},
+  {pg:"ee",sounds:"/ē/",type:"multi"},
+  {pg:"ng",sounds:"/ng/",type:"multi"},
+  {pg:"ar",sounds:"/är/",type:"multi"},
+  {pg:"or",sounds:"/or/",type:"multi"},
+  {pg:"er",sounds:"/er/",type:"multi"},
+  {pg:"oi",sounds:"/oi/",type:"multi"},
+  {pg:"oy",sounds:"/oi/",type:"multi"},
+  {pg:"ai",sounds:"/ā/",type:"multi"},
+  {pg:"ay",sounds:"/ā/",type:"multi"},
+  {pg:"ch",sounds:"/ch/ /k/ /sh/",type:"multi"},
+  {pg:"wh",sounds:"/hw/",type:"multi"},
+  {pg:"ea",sounds:"/ē/ /ĕ/ /ā/",type:"multi"},
+  {pg:"ow",sounds:"/ow/ /ō/",type:"multi"},
+  {pg:"ou",sounds:"/ow/ /ō/ /ö/ /ŭ/",type:"multi"},
+  {pg:"oo",sounds:"/ö/ /ü/ /ō/",type:"multi"},
+  {pg:"ed",sounds:"/ed/ /d/ /t/",type:"multi"},
+  {pg:"igh",sounds:"/ī/",type:"multi"},
+  {pg:"aw",sounds:"/ä/",type:"multi"},
+  {pg:"au",sounds:"/ä/",type:"multi"},
+  {pg:"ir",sounds:"/er/",type:"multi"},
+  {pg:"ur",sounds:"/er/",type:"multi"},
+  {pg:"oa",sounds:"/ō/",type:"multi"},
+  {pg:"ear",sounds:"/er/",type:"multi"},
+  {pg:"dge",sounds:"/j/",type:"multi"},
+  {pg:"tch",sounds:"/ch/",type:"multi"},
+  {pg:"kn",sounds:"/n/",type:"multi"},
+  {pg:"gn",sounds:"/n/",type:"multi"},
+  {pg:"wr",sounds:"/r/",type:"multi"},
+  {pg:"eigh",sounds:"/ā/",type:"multi"},
+  {pg:"ei",sounds:"/ē/ /ā/ /ī/",type:"multi"},
+  {pg:"ey",sounds:"/ā/ /ē/",type:"multi"},
+  {pg:"ph",sounds:"/f/",type:"multi"},
+  {pg:"gh",sounds:"/g/",type:"multi"},
+  {pg:"ough",sounds:"/ō/ /ö/ /ow/ /ŭf/ /äf/",type:"multi"},
+  {pg:"augh",sounds:"/ä/ /ăf/",type:"multi"},
+  {pg:"ew",sounds:"/ü/ /ö/",type:"multi"},
+  {pg:"ui",sounds:"/ü/ /ö/",type:"multi"},
+  {pg:"eu",sounds:"/ü/ /ö/",type:"multi"},
+  {pg:"wor",sounds:"/wer/",type:"multi"},
+  {pg:"ie",sounds:"/ē/ /ī/",type:"multi"},
+  {pg:"ti",sounds:"/sh/",type:"multi"},
+  {pg:"ci",sounds:"/sh/",type:"multi"},
+  {pg:"si",sounds:"/sh/ /zh/",type:"multi"},
+  {pg:"bu",sounds:"/b/",type:"multi"},
+  {pg:"gu",sounds:"/g/",type:"multi"},
+];
+
+// ── STATE ──
+let mode = 'flash';
+let deck = [...PHONOGRAMS];
+let cardIdx = 0;
+let flipped = false;
+let fastCards = new Set(JSON.parse(localStorage.getItem('pgFast')||'[]'));
+let slowCards = new Set(JSON.parse(localStorage.getItem('pgSlow')||'[]'));
+let speedActive = false;
+let speedSec = 30;
+let speedCount = 0;
+let speedTimer = null;
+let matchCorrect = 0;
+let matchWrong = 0;
+
+function save() {
+  localStorage.setItem('pgFast', JSON.stringify([...fastCards]));
+  localStorage.setItem('pgSlow', JSON.stringify([...slowCards]));
+}
+
+// ── SHUFFLE ──
+function shuffle(arr) { for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
+
+// ── MODE SWITCH ──
+function switchMode(m) {
+  mode = m;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelector(`.tab:nth-child(${{flash:1,match:2,speed:3,all:4}[m]})`).classList.add('active');
+  document.querySelectorAll('[id^="mode-"]').forEach(d=>d.style.display='none');
+  document.getElementById('mode-'+m).style.display='block';
+  if(m==='flash') updateFlashUI();
+  if(m==='match') newMatchRound();
+  if(m==='speed') { speedActive=false; clearInterval(speedTimer); document.getElementById('speedStart').style.display=''; }
+  if(m==='all') renderAllCards();
+}
+
+// ── FLASH CARDS ──
+function updateFlashUI() {
+  const card = deck[cardIdx];
+  flipped = false;
+  document.getElementById('flashLetter').textContent = card.pg;
+  document.getElementById('flashSounds').textContent = card.sounds;
+  document.getElementById('flashCard').classList.remove('flipped');
+  document.getElementById('cardIndex').textContent = cardIdx+1;
+  document.getElementById('cardTotal').textContent = deck.length;
+  document.getElementById('fastCount').textContent = fastCards.size;
+  document.getElementById('slowCount').textContent = slowCards.size;
+  // Dots
+  let dots = '';
+  deck.forEach((c,i) => {
+    let cls = 'dot';
+    if(fastCards.has(c.pg)) cls += ' fast';
+    if(slowCards.has(c.pg)) cls += ' slow';
+    if(i===cardIdx) cls += ' current';
+    dots += `<span class="${cls}"></span>`;
+  });
+  document.getElementById('flashDots').innerHTML = dots;
+}
+
+function flipCard() {
+  if(flipped) return;
+  flipped = true;
+  document.getElementById('flashCard').classList.add('flipped');
+}
+
+function markFast() {
+  const pg = deck[cardIdx].pg;
+  fastCards.add(pg); slowCards.delete(pg); save();
+  nextCard();
+}
+
+function markSlow() {
+  const pg = deck[cardIdx].pg;
+  slowCards.add(pg); fastCards.delete(pg); save();
+  nextCard();
+}
+
+function nextCard() {
+  cardIdx = (cardIdx+1) % deck.length;
+  updateFlashUI();
+}
+
+function shuffleDeck() { deck = shuffle([...PHONOGRAMS]); cardIdx=0; updateFlashUI(); }
+
+function resetProgress() {
+  if(confirm('Reset all progress?')) {
+    fastCards.clear(); slowCards.clear(); save();
+    updateFlashUI();
+  }
+}
+
+// ── SOUND MATCH ──
+function newMatchRound() {
+  // Pick 6 random phonograms, one is the target
+  const pool = shuffle([...PHONOGRAMS]).slice(0,6);
+  const target = pool[Math.floor(Math.random()*pool.length)];
+  // Pick first sound of target
+  const firstSound = target.sounds.split(' ')[0];
+  document.getElementById('targetSound').textContent = firstSound;
+  
+  let html = '';
+  shuffle(pool).forEach(p => {
+    html += `<div class="match-card" data-pg="${p.pg}" data-target="${target.pg}" onclick="matchClick(this)">${p.pg}</div>`;
+  });
+  document.getElementById('matchGrid').innerHTML = html;
+}
+
+function matchClick(el) {
+  const pg = el.dataset.pg;
+  const target = el.dataset.target;
+  if(pg === target) {
+    el.classList.add('correct');
+    matchCorrect++;
+    document.getElementById('matchCorrect').textContent = matchCorrect;
+    setTimeout(newMatchRound, 600);
+  } else {
+    el.classList.add('wrong');
+    matchWrong++;
+    document.getElementById('matchWrong').textContent = matchWrong;
+    setTimeout(() => el.classList.remove('wrong'), 300);
+  }
+}
+
+// ── SPEED ROUND ──
+function startSpeed() {
+  speedActive = true;
+  speedSec = 30;
+  speedCount = 0;
+  document.getElementById('speedScore').textContent = '0';
+  document.getElementById('speedTimer').textContent = '30';
+  document.getElementById('speedStart').style.display = 'none';
+  deck = shuffle([...PHONOGRAMS]);
+  cardIdx = 0;
+  showSpeedCard();
+  speedTimer = setInterval(() => {
+    speedSec--;
+    document.getElementById('speedTimer').textContent = speedSec;
+    if(speedSec <= 5) document.getElementById('speedTimer').style.color = 'var(--slow)';
+    if(speedSec <= 0) { clearInterval(speedTimer); speedActive=false; document.getElementById('speedStart').style.display=''; document.getElementById('speedTimer').style.color='var(--navy)'; alert(`Time! You got ${speedCount} cards in 30 seconds!`); }
+  }, 1000);
+}
+
+function showSpeedCard() {
+  const card = deck[cardIdx];
+  document.getElementById('speedLetter').textContent = card.pg;
+  document.getElementById('speedSounds').textContent = card.sounds;
+}
+
+function speedCorrect() {
+  if(!speedActive) return;
+  speedCount++;
+  document.getElementById('speedScore').textContent = speedCount;
+  cardIdx = (cardIdx+1) % deck.length;
+  showSpeedCard();
+}
+
+function speedPass() {
+  if(!speedActive) return;
+  cardIdx = (cardIdx+1) % deck.length;
+  showSpeedCard();
+}
+
+// ── ALL CARDS ──
+function filterAll(type) {
+  let pgs = PHONOGRAMS;
+  if(type==='single') pgs = PHONOGRAMS.filter(p=>p.type==='single');
+  if(type==='multi') pgs = PHONOGRAMS.filter(p=>p.type==='multi');
+  let html = '';
+  pgs.forEach(p => {
+    html += `<div class="phonogram-card" style="padding:15px 25px;min-width:100px;cursor:default;" onclick="speakCard('${p.pg}','${p.sounds}')">
+      <div class="phonogram-letter" style="font-size:36pt;">${p.pg}</div>
+      <div class="phonogram-sounds" style="display:block;font-size:9pt;">${p.sounds}</div>
+    </div>`;
+  });
+  document.getElementById('allCards').innerHTML = html;
+}
+
+function renderAllCards() { filterAll('all'); }
+
+function speakCard(pg, sounds) {
+  // Visual flash — highlight the card briefly
+  const cards = document.querySelectorAll('#allCards .phonogram-card');
+  cards.forEach(c => { if(c.textContent.includes(pg)) { c.style.borderColor='var(--gold)'; setTimeout(()=>c.style.borderColor='var(--navy)',300); } });
+}
+
+// ── INIT ──
+shuffleDeck();
+newMatchRound();
+</script>
+</body>
+</html>
