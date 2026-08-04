@@ -1,51 +1,66 @@
 # Lesson 41: Sound Swapping Game
 
-**Stage 1** · Lesson 41 · Type: phonemic-awareness
+**Stage 1** · Lesson 41 · phonemic-awareness
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
 
 ---
 
-## New Learning: Sound Swapping Game
+## Activity 1: Change the First Sound
 
-### Activity: Sound Swapping Game
+Adult: 'Say *cat*. Now change /k/ to /b/. What word?'
+Child: 'bat!'
 
-— [Phonemic awareness activity to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+cat → bat, hat, mat, rat, sat, fat, pat
+dog → hog, log, fog, jog
+sun → run, fun, bun, nun
 
 ---
 
-**Next lesson:** Lesson 42
+## Activity 2: Change the Last Sound
 
+Change one sound at a time to make a chain of new words.
 
+cat → hat → hit → hip → hop → hog → dog → dig → big → bag → bat → cat (back where we started!)
+
+How many links can you make?
 
 ---
 
-<div class="page-break"></div>
+## Activity 3: Chain Game
 
-## Lesson Complete!
+Change one sound at a time to make a chain of new words.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+cat → hat → hit → hip → hop → hog → dog → dig → big → bag → bat → cat (back where we started!)
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+How many links can you make?
 
+---
+
+## Let's Move!
+
+Word ladder game: Each step change one sound. Adult starts with 'cat.' Child changes one sound and takes a step forward. Keep going until you reach 'dog'!
+
+---
+
+## Quick Check
+
+1. Change the first sound of 'cat' to /h/. What word? *(hat)*
+2. Change the last sound of 'dog' to /t/. What word? *(dot)*
+3. Make a chain: cat → hat → hit. What sound changed each time?
+
+---
+
+**Next lesson:** Lesson 42: Meet the Vowels
+
+---
+
+*Practice at home: Play 'Sound Swap' in the car. Start with any 3-sound word and see how many new words you can make!*

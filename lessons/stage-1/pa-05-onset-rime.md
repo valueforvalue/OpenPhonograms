@@ -1,51 +1,70 @@
 # Lesson 5: Onset and Rime
 
-**Stage 1** · Lesson 5 · Type: phonemic-awareness
+**Stage 1** · Lesson 5 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Today we're going to play with the beginning sound of a word (the 'onset') and the rest of the word (the 'rime'). Ready?
 
 ---
 
-## New Learning: Onset and Rime
+## Activity 1: First Sound, Rest of the Word
 
-### Activity: Onset and Rime
+Adult says: '/k/ ... /at/'. Put them together: 'cat!'
 
-— [Phonemic awareness activity to be written]
-## Review
+Try these:
+- /k/ ... /at/ → cat
+- /h/ ... /at/ → hat
+- /b/ ... /at/ → bat
+- /f/ ... /at/ → fat
+- /m/ ... /at/ → mat
+- /r/ ... /at/ → rat
+- /s/ ... /at/ → sat
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 6
-
-
+Notice: all these words end with /at/! The only thing that changes is the first sound.
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Rhyme Time
 
-## Lesson Complete!
+Adult says a word family ending. Child adds different first sounds to make real words.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+/at/ family: c-at, h-at, b-at, f-at, m-at, r-at, s-at, p-at
+/op/ family: h-op, p-op, t-op, m-op, st-op, dr-op
+/ig/ family: b-ig, d-ig, p-ig, w-ig, tw-ig, j-ig
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+How many real words can you make with /at/?
 
+---
+
+## Activity 3: Mystery Word
+
+Adult says a word in onset-rime: '/d/ ... /og/. What word?' Child answers: 'dog!'
+
+Take turns being the 'mystery word maker' and the guesser.
+
+---
+
+## Let's Move!
+
+Stand in a circle (or just stand up). Adult says an /at/ word. Everyone hops! Adult says a non-/at/ word. Everyone freezes. Go fast!
+
+---
+
+## Quick Check
+
+1. Put together /f/ + /at/. What word? *(fat)*
+2. Put together /s/ + /un/. What word? *(sun)*
+3. What changes when you go from 'cat' to 'hat'? *(Only the first sound!)*
+
+---
+
+**Next lesson:** Lesson 6: Lesson 6
+
+---
+
+*Practice at home: Play 'Mystery Word' in the car. Adult says /p/ ... /ark/ and child guesses 'park!'*

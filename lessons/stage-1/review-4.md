@@ -1,51 +1,65 @@
 # Lesson 38: Review: Group 4 Phonograms
 
-**Stage 1** · Lesson 38 · Type: review
+**Stage 1** · Lesson 38 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Fast Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash ALL phonograms from Group 4. Child says ALL sounds for each within 2 seconds. Go faster each round!
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| h, k, f, v, w, x |
 
 ---
 
-## New Learning: Review: Group 4 Phonograms
+## Game 1: Phonogram Hunt
 
-### Review: Group 4 Phonograms
+Adult says a sound (like /ă/). Child finds the phonogram card that makes that sound from the pile. Do this for all sounds in Group 4.
 
-— [Review/assessment content to be written]
-## Review
+**Can you find the phonogram that says...**
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-fox van hat kit wet
+- Find the phonogram that says **/h/**
+- Find the phonogram that says **/k/**
+- Find the phonogram that says **/f/**
+- Find the phonogram that says **/v/**
+- Find the phonogram that says **/w/**
+- Find the phonogram that says **/ks/ /z/**
 
 ---
 
-**Next lesson:** Lesson 39
+## Game 2: Write the Sound
 
+Adult says a sound. Child writes the phonogram on the whiteboard. No peeking at the cards!
 
+> Write the phonogram for: /h/, /k/, /f/, /v/, /w/, /ks/
 
 ---
 
-<div class="page-break"></div>
+## Game 3: Mixed-Up Match
 
-## Lesson Complete!
+Spread all Group 4 cards face-up. Adult says a word. Child touches the card for the FIRST sound in that word.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Word | First Sound | Correct Card |
+|------|------------|--------------|
+| hat | /h/ | h |
+| kite | /k/ | k |
+| fish | /f/ | f |
+| van | /v/ | v |
+| wet | /w/ | w |
+| box | /ks/ | x |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Bonus: Speed Round!
+
+Can you say ALL 6 phonograms from Group 4 with their sounds in under 30 seconds? Try it!
+
+---
+
+**Next lesson:** Lesson 39: Phonogram y
+
+---
+
+*Practice at home: Play the "Phonogram Hunt" game with a family member!*

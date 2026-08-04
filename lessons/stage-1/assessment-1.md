@@ -1,51 +1,140 @@
 # Lesson 48: Stage 1 Mastery Check
 
-**Stage 1** · Lesson 48 · Type: assessment
+**Stage 1** · Lesson 48 · assessment
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Assessment Overview
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+This mastery check verifies the child is ready for Stage 2. The child should demonstrate each skill confidently — not perfectly, but reliably. If any section is weak, revisit those lessons before moving on.
 
 ---
 
-## New Learning: Stage 1 Mastery Check
+## Part 1: Phonogram Sounds
 
-### Stage 1 Mastery Check
+> Flash each a-z phonogram card. Child says ALL sounds in frequency order within 2 seconds.
 
-— [Review/assessment content to be written]
-## Review
+| Phonogram | Sounds to Say | ✓ / Needs Work |
+|-----------|--------------|----------------|
+| a | /ă/ /ā/ /ä/ | ☐ |
+| d | /d/ | ☐ |
+| g | /g/ /j/ | ☐ |
+| c | /k/ /s/ | ☐ |
+| o | /ŏ/ /ō/ /ö/ | ☐ |
+| qu | /kw/ | ☐ |
+| s | /s/ /z/ | ☐ |
+| t | /t/ | ☐ |
+| i | /ĭ/ /ī/ /ē/ | ☐ |
+| p | /p/ | ☐ |
+| u | /ŭ/ /ū/ /ö/ | ☐ |
+| j | /j/ | ☐ |
+| r | /r/ | ☐ |
+| n | /n/ | ☐ |
+| m | /m/ | ☐ |
+| e | /ĕ/ /ē/ | ☐ |
+| l | /l/ | ☐ |
+| b | /b/ | ☐ |
+| h | /h/ | ☐ |
+| k | /k/ | ☐ |
+| f | /f/ | ☐ |
+| v | /v/ | ☐ |
+| w | /w/ | ☐ |
+| x | /ks/ /z/ | ☐ |
+| y | /y/ /ĭ/ /ī/ /ē/ | ☐ |
+| z | /z/ | ☐ |
 
-### Quick Check
+**Pass:** __ / 26 phonograms correct
 
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+> Passing score: 22+ / 26. Mark any slow/unconfident phonograms for review.
 
 ---
 
-**Next lesson:** Lesson 49
+## Part 2: Write Phonograms from Sounds
 
+> Adult says a sound. Child writes the phonogram. Check lowercase letter formation.
 
+| Sound | Letter | ✓ / Needs Work |
+|-------|--------|----------------|
+| /ă/ | a | ☐ |
+| /d/ | d | ☐ |
+| /g/ | g | ☐ |
+| /k/ | c | ☐ |
+| /ŏ/ | o | ☐ |
+| /kw/ | qu | ☐ |
+| /s/ | s | ☐ |
+| /t/ | t | ☐ |
+| /ĭ/ | i | ☐ |
+| /p/ | p | ☐ |
+| /ŭ/ | u | ☐ |
+| /j/ | j | ☐ |
+| /m/ | m | ☐ |
+| /n/ | n | ☐ |
+| /b/ | b | ☐ |
+| /f/ | f | ☐ |
 
 ---
 
-<div class="page-break"></div>
+## Part 3: Blending (Oral)
 
-## Lesson Complete!
+> Adult says sounds. Child blends into a word. No writing — spoken only.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Sounds | ✓ / Needs Work |
+|--------|----------------|
+| /s/ /ă/ /t/ → sat | ☐ |
+| /d/ /ŏ/ /g/ → dog | ☐ |
+| /h/ /ĭ/ /m/ → him | ☐ |
+| /f/ /ŭ/ /n/ → fun | ☐ |
+| /r/ /ĕ/ /d/ → red | ☐ |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Part 4: Segmenting (Oral)
+
+> Adult says a word. Child segments into individual sounds. Use the "finger method" — hold up one finger per sound.
+
+| Word | ✓ / Needs Work |
+|------|----------------|
+| cat → /k/ /ă/ /t/ | ☐ |
+| dog → /d/ /ŏ/ /g/ | ☐ |
+| bed → /b/ /ĕ/ /d/ | ☐ |
+| sun → /s/ /ŭ/ /n/ | ☐ |
+| hop → /h/ /ŏ/ /p/ | ☐ |
+
+---
+
+## Part 5: Sound Identification
+
+> Adult says a word. Identify the first, last, or middle sound.
+
+| Word | Find | Answer | ✓ / Needs Work |
+|------|------|--------|----------------|
+| cat | first | /k/ | ☐ |
+| dog | last | /g/ | ☐ |
+| bed | middle | /ĕ/ | ☐ |
+| sun | first | /s/ | ☐ |
+| hop | last | /p/ | ☐ |
+| big | middle | /ĭ/ | ☐ |
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Phonogram Sounds | __/26 | __ |
+| Write Phonograms | __/16 | __ |
+| Blending | __/5 | __ |
+| Segmenting | __/5 | __ |
+| Sound Identification | __/6 | __ |
+
+**Overall:** __
+
+---
+
+## Next Steps
+
+If all sections pass: Move to Stage 2! If any section is weak, return to those lessons and re-test in 1-2 weeks.
+
+---
+
+*You completed Stage 1! Celebrate with a special reading together.*

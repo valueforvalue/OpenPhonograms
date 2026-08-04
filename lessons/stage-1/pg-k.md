@@ -1,77 +1,95 @@
 # Lesson 33: Phonogram k
 
-**Stage 1** · Lesson 33 · Type: phonogram-intro
+**Stage 1** · Lesson 33 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h |
+
 
 ---
 
-## New Learning: Phonogram k
+## New Learning: Your New Phonogram — k
 
 ### The Phonogram **k**
 
 <div class="phonogram">k</div>
 
-**k** says: /k/
+**k** says 1 sound: /k/
 
-| Sound | Example Word |
-|-------|-------------|
-| /k/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /k/ | kit, king, kiss |
 
-> Write **k** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "k says /k/" and add more later. The child must know that **k** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **k**
 
-kit kid kiss
+1. Start at the top line.
+2. Draw a straight line down.
+3. From the middle, draw a line slanting in, then slanting out.
 
-### Read It
+> Write **k** three times on your whiteboard or in a sand tray. Say "/k/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**k** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /k/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| kit | k (/k/), i (/ĭ/), t (/t/) | Short vowel — closed syllable | /kĭt/ |
+| kin | k (/k/), i (/ĭ/), n (/n/) | Short vowel — closed syllable | /kĭn/ |
+| kid | k (/k/), i (/ĭ/), d (/d/) | Short vowel — closed syllable | /kĭd/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-kit kid kiss
-
-### Quiz
-1. What sounds does **k** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-kit kid kiss
+> kit &nbsp;&nbsp; kin &nbsp;&nbsp; kid &nbsp;&nbsp; kiss &nbsp;&nbsp; king
 
 ---
 
-**Next lesson:** Lesson 34
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| k | k | k | k | k |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: k)*
+2. What sounds does **k** say? *(/k/)*
+3. Write the word "kit" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 34: Phonogram f
 
+---
+
+*Practice at home: Flash your new **k** card 5 times. Find **k** in a book or on a sign.*

@@ -1,77 +1,95 @@
 # Lesson 34: Phonogram f
 
-**Stage 1** · Lesson 34 · Type: phonogram-intro
+**Stage 1** · Lesson 34 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k |
+
 
 ---
 
-## New Learning: Phonogram f
+## New Learning: Your New Phonogram — f
 
 ### The Phonogram **f**
 
 <div class="phonogram">f</div>
 
-**f** says: /f/
+**f** says 1 sound: /f/
 
-| Sound | Example Word |
-|-------|-------------|
-| /f/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /f/ | fun, fan, fit |
 
-> Write **f** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "f says /f/" and add more later. The child must know that **f** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **f**
 
-fun fit fan
+1. Start at the top line.
+2. Curve around and come straight down.
+3. Cross it in the middle.
 
-### Read It
+> Write **f** three times on your whiteboard or in a sand tray. Say "/f/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**f** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /f/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| fan | f (/f/), a (/ă/), n (/n/) | Short vowel — closed syllable | /făn/ |
+| fin | f (/f/), i (/ĭ/), n (/n/) | Short vowel — closed syllable | /fĭn/ |
+| fun | f (/f/), u (/ŭ/), n (/n/) | Short vowel — closed syllable | /fŭn/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-fun fit fan
-
-### Quiz
-1. What sounds does **f** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-fun fit fan
+> fan &nbsp;&nbsp; fin &nbsp;&nbsp; fun &nbsp;&nbsp; fit &nbsp;&nbsp; fat
 
 ---
 
-**Next lesson:** Lesson 35
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| f | f | f | f | f |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: f)*
+2. What sounds does **f** say? *(/f/)*
+3. Write the word "fan" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 35: Phonogram v
 
+---
+
+*Practice at home: Flash your new **f** card 5 times. Find **f** in a book or on a sign.*

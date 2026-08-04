@@ -1,82 +1,97 @@
 # Lesson 9: Phonogram a
 
-**Stage 1** · Lesson 9 · Type: phonogram-intro
+**Stage 1** · Lesson 9 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| (This is your first phonogram lesson! Skip review today.) |
+
 
 ---
 
-## New Learning: Phonogram a
+## New Learning: Your New Phonogram — a
 
 ### The Phonogram **a**
 
 <div class="phonogram">a</div>
 
-**a** says: /ă/ /ā/ /ä/
+**a** says 3 sounds: /ă/ /ā/ /ä/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ă/ | — |
-| /ā/ | — |
-| /ä/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /ă/ | at, cat, hat |
+| /ā/ | nation, acorn |
+| /ä/ | father, spa |
 
-> Write **a** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "a says /ă/" and add more later. The child must know that **a** can say 3 different things.
 
 
+### How to Write **a**
 
-![Phonogram a]()
-## Practice
+1. Start at the midline.
+2. Curve around to make a circle (counter-clockwise).
+3. Go up and down in a straight line.
 
-### Write It
-Write each word twice:
+> Write **a** three times on your whiteboard or in a sand tray. Say "/ă/ /ā/ /ä/" each time you write it.
 
-at am an ad
 
-### Read It
+### Vowel or Consonant?
+
+**a** is a **vowel**. You can sing it! Your mouth is open. Your lips, tongue, and teeth don't block the sound.
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| at | a (/ă/), t (/t/) | Short vowel — closed syllable | /ăt/ |
+| am | a (/ă/), m (/m/) | Short vowel — closed syllable | /ăm/ |
+| an | a (/ă/), n (/n/) | Short vowel — closed syllable | /ăn/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-at am an ad
-
-### Quiz
-1. What sounds does **a** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-at am an ad
+> at &nbsp;&nbsp; am &nbsp;&nbsp; an &nbsp;&nbsp; ad &nbsp;&nbsp; ag
 
 ---
 
-**Next lesson:** Lesson 10
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| a | a | a | a | a |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: a)*
+2. What sounds does **a** say? *(/ă/ /ā/ /ä/)*
+3. Write the word "at" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 10: Phonogram d
 
+---
+
+*Practice at home: Flash your new **a** card 5 times. Find **a** in a book or on a sign.*

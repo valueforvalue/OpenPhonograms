@@ -1,78 +1,96 @@
 # Lesson 16: Phonogram s
 
-**Stage 1** · Lesson 16 · Type: phonogram-intro
+**Stage 1** · Lesson 16 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu |
+
 
 ---
 
-## New Learning: Phonogram s
+## New Learning: Your New Phonogram — s
 
 ### The Phonogram **s**
 
 <div class="phonogram">s</div>
 
-**s** says: /s/ /z/
+**s** says 2 sounds: /s/ /z/
 
-| Sound | Example Word |
-|-------|-------------|
-| /s/ | — |
-| /z/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /s/ | sit, sun, see |
+| /z/ | is, has, as |
 
-> Write **s** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "s says /s/" and add more later. The child must know that **s** can say 2 different things.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **s**
 
-sit sat sap
+1. Start just below the midline.
+2. Curve left, then right, like a snake.
+3. End at the baseline.
 
-### Read It
+> Write **s** three times on your whiteboard or in a sand tray. Say "/s/ /z/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**s** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /s/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| sat | s (/s/), a (/ă/), t (/t/) | Short vowel — closed syllable | /săt/ |
+| sad | s (/s/), a (/ă/), d (/d/) | Short vowel — closed syllable | /săd/ |
+| sag | s (/s/), a (/ă/), g (/g/) | Short vowel — closed syllable | /săg/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-sit sat sap
-
-### Quiz
-1. What sounds does **s** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-sit sat sap
+> sat &nbsp;&nbsp; sad &nbsp;&nbsp; sag &nbsp;&nbsp; sit &nbsp;&nbsp; set
 
 ---
 
-**Next lesson:** Lesson 17
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| s | s | s | s | s |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: s)*
+2. What sounds does **s** say? *(/s/ /z/)*
+3. Write the word "sat" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 17: Phonogram t
 
+---
+
+*Practice at home: Flash your new **s** card 5 times. Find **s** in a book or on a sign.*

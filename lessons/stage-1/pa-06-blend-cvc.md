@@ -1,51 +1,71 @@
 # Lesson 6: Blending CVC Words
 
-**Stage 1** · Lesson 6 · Type: phonemic-awareness
+**Stage 1** · Lesson 6 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Today we put THREE sounds together! /k/ /ă/ /t/ — can you hear the word?
 
 ---
 
-## New Learning: Blending CVC Words
+## Activity 1: Three-Sound Blending
 
-### Activity: Blending CVC Words
+Adult says each sound separately with a short pause. Child blends them into a word.
 
-— [Phonemic awareness activity to be written]
-## Review
+Start with continuous first sounds (these are easier to blend):
+- /m/ /ă/ /t/ → mat
+- /s/ /ă/ /t/ → sat
+- /f/ /ă/ /n/ → fan
+- /r/ /ă/ /n/ → ran
+- /n/ /ă/ /p/ → nap
+- /m/ /ŏ/ /m/ → mom
+- /s/ /ŭ/ /n/ → sun
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 7
-
-
+Now try with stop sounds at the beginning (harder):
+- /k/ /ă/ /t/ → cat
+- /d/ /ŏ/ /g/ → dog
+- /p/ /ĭ/ /g/ → pig
+- /t/ /ŏ/ /p/ → top
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Stretch It Out
 
-## Lesson Complete!
+Adult says a word VERY slowly, stretching each sound. Child says it fast.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Adult: /sssssssss/ /ăăăăăă/ /tttttttt/ ... Child: 'sat!'
+This helps the child hear how sounds slide together. Do this for 5-8 words.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Activity 3: Speed Round
+
+Now go fast! Adult says three sounds quickly. Child blurts the word.
+Ready? /d/ /o/ /g/ → dog! /b/ /e/ /d/ → bed! /h/ /o/ /p/ → hop!
+Try 10 rapid-fire blends.
+
+---
+
+## Let's Move!
+
+Adult says three sounds. If they make a real word, child jumps. If they make a nonsense word, child sits down. /k/ /ă/ /t/ (JUMP — cat is real!) ... /z/ /ŏ/ /b/ (SIT — zob isn't real!)
+
+---
+
+## Quick Check
+
+1. Blend /h/ /ă/ /t/. What word? *(hat)*
+2. Blend /d/ /ĭ/ /g/. What word? *(dig)*
+3. Why do we start blending with 'continuous' sounds like /m/ and /s/? *(Because you can stretch them out!)*
+
+---
+
+**Next lesson:** Lesson 7: Lesson 7
+
+---
+
+*Practice at home: Play the blending game while waiting anywhere — the grocery line, the car, the doctor's office.*

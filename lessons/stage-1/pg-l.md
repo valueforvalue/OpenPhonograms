@@ -1,77 +1,94 @@
 # Lesson 28: Phonogram l
 
-**Stage 1** · Lesson 28 · Type: phonogram-intro
+**Stage 1** · Lesson 28 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e |
+
 
 ---
 
-## New Learning: Phonogram l
+## New Learning: Your New Phonogram — l
 
 ### The Phonogram **l**
 
 <div class="phonogram">l</div>
 
-**l** says: /l/
+**l** says 1 sound: /l/
 
-| Sound | Example Word |
-|-------|-------------|
-| /l/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /l/ | leg, log, lap |
 
-> Write **l** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "l says /l/" and add more later. The child must know that **l** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **l**
 
-leg log lip
+1. Start at the top line.
+2. Draw a straight line down.
 
-### Read It
+> Write **l** three times on your whiteboard or in a sand tray. Say "/l/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**l** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /l/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| lap | l (/l/), a (/ă/), p (/p/) | Short vowel — closed syllable | /lăp/ |
+| leg | l (/l/), e (/ĕ/), g (/g/) | Short vowel — closed syllable | /lĕg/ |
+| lot | l (/l/), o (/ŏ/), t (/t/) | Short vowel — closed syllable | /lŏt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-leg log lip
-
-### Quiz
-1. What sounds does **l** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-leg log lip
+> lap &nbsp;&nbsp; leg &nbsp;&nbsp; lot &nbsp;&nbsp; lip &nbsp;&nbsp; log
 
 ---
 
-**Next lesson:** Lesson 29
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| l | l | l | l | l |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: l)*
+2. What sounds does **l** say? *(/l/)*
+3. Write the word "lap" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 29: Phonogram b
 
+---
+
+*Practice at home: Flash your new **l** card 5 times. Find **l** in a book or on a sign.*

@@ -1,78 +1,97 @@
 # Lesson 37: Phonogram x
 
-**Stage 1** · Lesson 37 · Type: phonogram-intro
+**Stage 1** · Lesson 37 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w |
+
 
 ---
 
-## New Learning: Phonogram x
+## New Learning: Your New Phonogram — x
 
 ### The Phonogram **x**
 
 <div class="phonogram">x</div>
 
-**x** says: /ks/ /z/
+**x** says 2 sounds: /ks/ /z/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ks/ | — |
-| /z/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /ks/ | box, fix, ox |
+| /z/ | xylophone |
 
-> Write **x** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "x says /ks/" and add more later. The child must know that **x** can say 2 different things.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **x**
 
-box fox wax
+1. Start at the midline.
+2. Draw a line slanting down to the right.
+3. Lift your pencil.
+4. Draw a line slanting down to the left, crossing the first line.
 
-### Read It
+> Write **x** three times on your whiteboard or in a sand tray. Say "/ks/ /z/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**x** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /ks/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| ax | a (/ă/), x (/ks/) | Short vowel — closed syllable | /ăks/ |
+| ox | o (/ŏ/), x (/ks/) | Short vowel — closed syllable | /ŏks/ |
+| fix | f (/f/), i (/ĭ/), x (/ks/) | Short vowel — closed syllable | /fĭks/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-box fox wax
-
-### Quiz
-1. What sounds does **x** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-box fox wax
+> ax &nbsp;&nbsp; ox &nbsp;&nbsp; fix &nbsp;&nbsp; box &nbsp;&nbsp; mix
 
 ---
 
-**Next lesson:** Lesson 38
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| x | x | x | x | x |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: x)*
+2. What sounds does **x** say? *(/ks/ /z/)*
+3. Write the word "ax" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 38: Review: Group 4 Phonograms
 
+---
+
+*Practice at home: Flash your new **x** card 5 times. Find **x** in a book or on a sign.*

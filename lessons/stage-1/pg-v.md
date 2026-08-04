@@ -1,77 +1,95 @@
 # Lesson 35: Phonogram v
 
-**Stage 1** · Lesson 35 · Type: phonogram-intro
+**Stage 1** · Lesson 35 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f |
+
 
 ---
 
-## New Learning: Phonogram v
+## New Learning: Your New Phonogram — v
 
 ### The Phonogram **v**
 
 <div class="phonogram">v</div>
 
-**v** says: /v/
+**v** says 1 sound: /v/
 
-| Sound | Example Word |
-|-------|-------------|
-| /v/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /v/ | van, vet, vine |
 
-> Write **v** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "v says /v/" and add more later. The child must know that **v** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **v**
 
-van vest vet
+1. Start at the midline.
+2. Draw a slanted line down to the right.
+3. Then slant up to the right.
 
-### Read It
+> Write **v** three times on your whiteboard or in a sand tray. Say "/v/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**v** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /v/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| van | v (/v/), a (/ă/), n (/n/) | Short vowel — closed syllable | /văn/ |
+| vet | v (/v/), e (/ĕ/), t (/t/) | Short vowel — closed syllable | /vĕt/ |
+| vat | v (/v/), a (/ă/), t (/t/) | Short vowel — closed syllable | /văt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-van vest vet
-
-### Quiz
-1. What sounds does **v** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-van vest vet
+> van &nbsp;&nbsp; vet &nbsp;&nbsp; vat &nbsp;&nbsp; vim &nbsp;&nbsp; vig
 
 ---
 
-**Next lesson:** Lesson 36
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| v | v | v | v | v |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: v)*
+2. What sounds does **v** say? *(/v/)*
+3. Write the word "van" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 36: Phonogram w
 
+---
+
+*Practice at home: Flash your new **v** card 5 times. Find **v** in a book or on a sign.*

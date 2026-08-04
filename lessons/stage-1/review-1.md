@@ -1,51 +1,65 @@
 # Lesson 15: Review: Group 1 Phonograms
 
-**Stage 1** · Lesson 15 · Type: review
+**Stage 1** · Lesson 15 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Fast Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash ALL phonograms from Group 1. Child says ALL sounds for each within 2 seconds. Go faster each round!
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu |
 
 ---
 
-## New Learning: Review: Group 1 Phonograms
+## Game 1: Phonogram Hunt
 
-### Review: Group 1 Phonograms
+Adult says a sound (like /ă/). Child finds the phonogram card that makes that sound from the pile. Do this for all sounds in Group 1.
 
-— [Review/assessment content to be written]
-## Review
+**Can you find the phonogram that says...**
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-cat dog dad quack
+- Find the phonogram that says **/ă/ /ā/ /ä/**
+- Find the phonogram that says **/d/**
+- Find the phonogram that says **/g/ /j/**
+- Find the phonogram that says **/k/ /s/**
+- Find the phonogram that says **/ŏ/ /ō/ /ö/**
+- Find the phonogram that says **/kw/**
 
 ---
 
-**Next lesson:** Lesson 16
+## Game 2: Write the Sound
 
+Adult says a sound. Child writes the phonogram on the whiteboard. No peeking at the cards!
 
+> Write the phonogram for: /ă/, /d/, /g/, /k/, /ŏ/, /kw/
 
 ---
 
-<div class="page-break"></div>
+## Game 3: Mixed-Up Match
 
-## Lesson Complete!
+Spread all Group 1 cards face-up. Adult says a word. Child touches the card for the FIRST sound in that word.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Word | First Sound | Correct Card |
+|------|------------|--------------|
+| apple | /ă/ | a |
+| dog | /d/ | d |
+| goat | /g/ | g |
+| cat | /k/ | c |
+| octopus | /ŏ/ | o |
+| queen | /kw/ | qu |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Bonus: Speed Round!
+
+Can you say ALL 6 phonograms from Group 1 with their sounds in under 30 seconds? Try it!
+
+---
+
+**Next lesson:** Lesson 16: Phonogram s
+
+---
+
+*Practice at home: Play the "Phonogram Hunt" game with a family member!*

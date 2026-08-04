@@ -1,51 +1,80 @@
 # Lesson 31: Middle Sounds in Words
 
-**Stage 1** · Lesson 31 · Type: phonemic-awareness
+**Stage 1** · Lesson 31 · phonemic-awareness
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b |
 
 ---
 
-## New Learning: Middle Sounds in Words
+## Activity 1: Find the Middle
 
-### Activity: Middle Sounds in Words
+Adult says a CVC word slowly. Child identifies the middle sound.
 
-— [Phonemic awareness activity to be written]
-## Review
+cat → /ă/
+dog → /ŏ/
+sit → /ĭ/
+bed → /ĕ/
+cup → /ŭ/
+hat → /ă/
+big → /ĭ/
+hop → /ŏ/
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 32
-
-
+Tip: The middle sound is always a vowel! Say it slowly and listen.
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Which Vowel?
 
-## Lesson Complete!
+Adult: 'Say /k/ /ă/ /t/ — cat. Now change /ă/ to /ŭ/. What word?'
+Child: 'cut!'
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Try these:
+- cat → cut (/ă/ to /ŭ/)
+- big → bag (/ĭ/ to /ă/)
+- hop → hip (/ŏ/ to /ĭ/)
+- bed → bad (/ĕ/ to /ă/)
+- cup → cap (/ŭ/ to /ă/)
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Activity 3: Change the Middle
+
+Adult: 'Say /k/ /ă/ /t/ — cat. Now change /ă/ to /ŭ/. What word?'
+Child: 'cut!'
+
+Try these:
+- cat → cut (/ă/ to /ŭ/)
+- big → bag (/ĭ/ to /ă/)
+- hop → hip (/ŏ/ to /ĭ/)
+- bed → bad (/ĕ/ to /ă/)
+- cup → cap (/ŭ/ to /ă/)
+
+---
+
+## Let's Move!
+
+Vowel dance! Adult says /ă/, child makes an 'A' shape with arms. /ŏ/ = make 'O' with mouth. /ĭ/ = short and quick like a dot. /ĕ/ = hands open like 'eh!'. /ŭ/ = point UP!
+
+---
+
+## Quick Check
+
+1. What's the middle sound in 'cat'? *(/ă/)*
+2. Change the middle sound of 'hat' from /ă/ to /ĭ/. What word? *(hit)*
+3. Why are middle sounds harder to hear? *(They're between two other sounds — you have to listen carefully!)*
+
+---
+
+**Next lesson:** Lesson 32: Phonogram h
+
+---
+
+*Practice at home: Say words around the house: 'lamp' — middle sound? /ă/. 'desk' — middle sound? /ĕ/.*

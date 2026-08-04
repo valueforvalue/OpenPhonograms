@@ -1,51 +1,75 @@
 # Lesson 3: Blending Compound Words
 
-**Stage 1** · Lesson 3 · Type: phonemic-awareness
+**Stage 1** · Lesson 3 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+I'm going to say two small words with a pause. You put them together into one big word! Ready?
 
 ---
 
-## New Learning: Blending Compound Words
+## Activity 1: Compound Detective
 
-### Activity: Blending Compound Words
+Adult says: 'What word do you get when you put *cup* and *cake* together?' Child says: 'cupcake!'
 
-— [Phonemic awareness activity to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 4
-
-
+Try these:
+- cup ... cake → cupcake
+- sun ... shine → sunshine
+- rain ... bow → rainbow
+- pop ... corn → popcorn
+- foot ... ball → football
+- pan ... cake → pancake
+- bed ... room → bedroom
+- air ... plane → airplane
+- snow ... man → snowman
+- tooth ... brush → toothbrush
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Break It Apart
 
-## Lesson Complete!
+Now go backwards! Adult says the whole compound word. Child breaks it into two parts.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Try:
+- doghouse → dog + house
+- mailbox → mail + box
+- sailboat → sail + boat
+- bluebird → blue + bird
+- sunset → sun + set
+- backpack → back + pack
+- lunchbox → lunch + box
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Activity 3: Make Your Own
+
+Adult says: 'What if we put DOG and HOUSE together? What would a doghouse be?'
+Child thinks of new compound words. They don't have to be real — this is a game!
+
+Funny combos: cat + fish = catfish (real!), cow + bird = cowbird (real!), fish + cake = fishcake?!
+
+---
+
+## Let's Move!
+
+Stand up! Adult says a compound word. If it's real, jump once. If it's made up, spin around. Go fast: cupcake (jump!), cowcake (spin!), rainbow (jump!), rainmouse (spin!)
+
+---
+
+## Quick Check
+
+1. What two words make 'sunshine'? *(sun + shine)*
+2. What new word do you get from 'bed' + 'room'? *(bedroom)*
+3. Make up a silly compound word! What two words did you use?
+
+---
+
+**Next lesson:** Lesson 4: Lesson 4
+
+---
+
+*Practice at home: Look around the house. How many compound words can you find? (bathroom, doorbell, bookshelf, etc.)*

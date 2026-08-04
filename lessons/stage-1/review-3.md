@@ -1,51 +1,65 @@
 # Lesson 30: Review: Group 3 Phonograms
 
-**Stage 1** · Lesson 30 · Type: review
+**Stage 1** · Lesson 30 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Fast Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash ALL phonograms from Group 3. Child says ALL sounds for each within 2 seconds. Go faster each round!
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| r, n, m, e, l, b |
 
 ---
 
-## New Learning: Review: Group 3 Phonograms
+## Game 1: Phonogram Hunt
 
-### Review: Group 3 Phonograms
+Adult says a sound (like /ă/). Child finds the phonogram card that makes that sound from the pile. Do this for all sounds in Group 3.
 
-— [Review/assessment content to be written]
-## Review
+**Can you find the phonogram that says...**
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-bed leg big man red
+- Find the phonogram that says **/r/**
+- Find the phonogram that says **/n/**
+- Find the phonogram that says **/m/**
+- Find the phonogram that says **/ĕ/ /ē/**
+- Find the phonogram that says **/l/**
+- Find the phonogram that says **/b/**
 
 ---
 
-**Next lesson:** Lesson 31
+## Game 2: Write the Sound
 
+Adult says a sound. Child writes the phonogram on the whiteboard. No peeking at the cards!
 
+> Write the phonogram for: /r/, /n/, /m/, /ĕ/, /l/, /b/
 
 ---
 
-<div class="page-break"></div>
+## Game 3: Mixed-Up Match
 
-## Lesson Complete!
+Spread all Group 3 cards face-up. Adult says a word. Child touches the card for the FIRST sound in that word.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Word | First Sound | Correct Card |
+|------|------------|--------------|
+| red | /r/ | r |
+| nest | /n/ | n |
+| man | /m/ | m |
+| egg | /ĕ/ | e |
+| leg | /l/ | l |
+| bat | /b/ | b |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Bonus: Speed Round!
+
+Can you say ALL 6 phonograms from Group 3 with their sounds in under 30 seconds? Try it!
+
+---
+
+**Next lesson:** Lesson 31: Middle Sounds in Words
+
+---
+
+*Practice at home: Play the "Phonogram Hunt" game with a family member!*

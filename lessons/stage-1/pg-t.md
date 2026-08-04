@@ -1,77 +1,95 @@
 # Lesson 17: Phonogram t
 
-**Stage 1** · Lesson 17 · Type: phonogram-intro
+**Stage 1** · Lesson 17 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s |
+
 
 ---
 
-## New Learning: Phonogram t
+## New Learning: Your New Phonogram — t
 
 ### The Phonogram **t**
 
 <div class="phonogram">t</div>
 
-**t** says: /t/
+**t** says 1 sound: /t/
 
-| Sound | Example Word |
-|-------|-------------|
-| /t/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /t/ | top, tap, ten |
 
-> Write **t** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "t says /t/" and add more later. The child must know that **t** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **t**
 
-top tap tip
+1. Start at the top line.
+2. Draw a straight line down.
+3. Lift your pencil and cross it in the middle.
 
-### Read It
+> Write **t** three times on your whiteboard or in a sand tray. Say "/t/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**t** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /t/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| tag | t (/t/), a (/ă/), g (/g/) | Short vowel — closed syllable | /tăg/ |
+| top | t (/t/), o (/ŏ/), p (/p/) | Short vowel — closed syllable | /tŏp/ |
+| at | a (/ă/), t (/t/) | Short vowel — closed syllable | /ăt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-top tap tip
-
-### Quiz
-1. What sounds does **t** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-top tap tip
+> tag &nbsp;&nbsp; top &nbsp;&nbsp; at &nbsp;&nbsp; it &nbsp;&nbsp; tap
 
 ---
 
-**Next lesson:** Lesson 18
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| t | t | t | t | t |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: t)*
+2. What sounds does **t** say? *(/t/)*
+3. Write the word "tag" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 18: Phonogram i
 
+---
+
+*Practice at home: Flash your new **t** card 5 times. Find **t** in a book or on a sign.*

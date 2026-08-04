@@ -1,77 +1,94 @@
 # Lesson 36: Phonogram w
 
-**Stage 1** · Lesson 36 · Type: phonogram-intro
+**Stage 1** · Lesson 36 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v |
+
 
 ---
 
-## New Learning: Phonogram w
+## New Learning: Your New Phonogram — w
 
 ### The Phonogram **w**
 
 <div class="phonogram">w</div>
 
-**w** says: /w/
+**w** says 1 sound: /w/
 
-| Sound | Example Word |
-|-------|-------------|
-| /w/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /w/ | wet, win, wag |
 
-> Write **w** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "w says /w/" and add more later. The child must know that **w** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **w**
 
-wet win wag
+1. Start at the midline.
+2. Slant down, up, down, up — like two mountain peaks.
 
-### Read It
+> Write **w** three times on your whiteboard or in a sand tray. Say "/w/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**w** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /w/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| wet | w (/w/), e (/ĕ/), t (/t/) | Short vowel — closed syllable | /wĕt/ |
+| win | w (/w/), i (/ĭ/), n (/n/) | Short vowel — closed syllable | /wĭn/ |
+| wag | w (/w/), a (/ă/), g (/g/) | Short vowel — closed syllable | /wăg/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-wet win wag
-
-### Quiz
-1. What sounds does **w** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-wet win wag
+> wet &nbsp;&nbsp; win &nbsp;&nbsp; wag &nbsp;&nbsp; wit &nbsp;&nbsp; web
 
 ---
 
-**Next lesson:** Lesson 37
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| w | w | w | w | w |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: w)*
+2. What sounds does **w** say? *(/w/)*
+3. Write the word "wet" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 37: Phonogram x
 
+---
+
+*Practice at home: Flash your new **w** card 5 times. Find **w** in a book or on a sign.*

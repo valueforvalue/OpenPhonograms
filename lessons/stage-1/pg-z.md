@@ -1,77 +1,96 @@
 # Lesson 40: Phonogram z
 
-**Stage 1** · Lesson 40 · Type: phonogram-intro
+**Stage 1** · Lesson 40 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y |
+
 
 ---
 
-## New Learning: Phonogram z
+## New Learning: Your New Phonogram — z
 
 ### The Phonogram **z**
 
 <div class="phonogram">z</div>
 
-**z** says: /z/
+**z** says 1 sound: /z/
 
-| Sound | Example Word |
-|-------|-------------|
-| /z/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /z/ | zip, zap, zoo |
 
-> Write **z** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "z says /z/" and add more later. The child must know that **z** can say 1 different thing.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **z**
 
-zip zap zigzag
+1. Start at the midline.
+2. Draw a line straight across.
+3. Slant down to the left.
+4. Draw a line straight across the bottom.
 
-### Read It
+> Write **z** three times on your whiteboard or in a sand tray. Say "/z/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**z** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /z/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| zip | z (/z/), i (/ĭ/), p (/p/) | Short vowel — closed syllable | /zĭp/ |
+| zap | z (/z/), a (/ă/), p (/p/) | Short vowel — closed syllable | /zăp/ |
+| zig | z (/z/), i (/ĭ/), g (/g/) | Short vowel — closed syllable | /zĭg/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-zip zap zigzag
-
-### Quiz
-1. What sounds does **z** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-zip zap zigzag
+> zip &nbsp;&nbsp; zap &nbsp;&nbsp; zig &nbsp;&nbsp; zag &nbsp;&nbsp; zed
 
 ---
 
-**Next lesson:** Lesson 41
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| z | z | z | z | z |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: z)*
+2. What sounds does **z** say? *(/z/)*
+3. Write the word "zip" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 41: Sound Swapping Game
 
+---
+
+*Practice at home: Flash your new **z** card 5 times. Find **z** in a book or on a sign.*

@@ -1,51 +1,72 @@
 # Lesson 23: Last Sounds in Words
 
-**Stage 1** · Lesson 23 · Type: phonemic-awareness
+**Stage 1** · Lesson 23 · phonemic-awareness
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j |
 
 ---
 
-## New Learning: Last Sounds in Words
+## Activity 1: What's the Last Sound?
 
-### Activity: Last Sounds in Words
+Adult says a word. Child says just the last sound.
 
-— [Phonemic awareness activity to be written]
-## Review
+cat → /t/
+dog → /g/
+cup → /p/
+hat → /t/
+bed → /d/
+big → /g/
+sun → /n/
+hop → /p/
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 24
-
-
+Go faster!
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Last Sound Match
 
-## Lesson Complete!
+Adult says a word, then either 'first' or 'last.' Child says the corresponding sound.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+dog—FIRST → /d/    dog—LAST → /g/
+cat—FIRST → /k/    cat—LAST → /t/
+sun—FIRST → /s/     sun—LAST → /n/
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Activity 3: First OR Last?
+
+Adult says a word, then either 'first' or 'last.' Child says the corresponding sound.
+
+dog—FIRST → /d/    dog—LAST → /g/
+cat—FIRST → /k/    cat—LAST → /t/
+sun—FIRST → /s/     sun—LAST → /n/
+
+---
+
+## Let's Move!
+
+Adult says a word. If it ends with /t/, child touches their TOES. If it ends with /d/, child touches their HEAD. If another sound, spin around!
+
+---
+
+## Quick Check
+
+1. What's the last sound in 'cat'? *(/t/)*
+2. What's the last sound in 'dog'? *(/g/)*
+3. Name three words that end with /t/.
+
+---
+
+**Next lesson:** Lesson 24: Phonogram r
+
+---
+
+*Practice at home: On a walk, play: 'I see a tree. What's the last sound in tree?'*

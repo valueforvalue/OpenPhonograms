@@ -1,51 +1,68 @@
 # Lesson 45: Blending Two-Syllable Words
 
-**Stage 1** · Lesson 45 · Type: phonemic-awareness
+**Stage 1** · Lesson 45 · phonemic-awareness
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
 
 ---
 
-## New Learning: Blending Two-Syllable Words
+## Activity 1: Syllable Blending
 
-### Activity: Blending Two-Syllable Words
+Adult says two syllables with a pause. Child blends into one word.
 
-— [Phonemic awareness activity to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+win ... dow → window
+kit ... ten → kitten
+hap ... py → happy
+pen ... cil → pencil
+rab ... bit → rabbit
+sun ... set → sunset
+sun ... shine → sunshine
+back ... pack → backpack
 
 ---
 
-**Next lesson:** Lesson 46
+## Activity 2: Count and Blend
 
+Adult says each syllable of a word separately. Child blends, then segments the whole word into individual sounds.
 
+Adult: 'pen...cil' — Child: 'pencil!' — Now segment: /p/ /ĕ/ /n/ /s/ /ĭ/ /l/
+Adult: 'rab...bit' — Child: 'rabbit!' — Now segment: /r/ /ă/ /b/ /ĭ/ /t/
 
 ---
 
-<div class="page-break"></div>
+## Activity 3: Two-Syllable Challenge
 
-## Lesson Complete!
+Adult says each syllable of a word separately. Child blends, then segments the whole word into individual sounds.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Adult: 'pen...cil' — Child: 'pencil!' — Now segment: /p/ /ĕ/ /n/ /s/ /ĭ/ /l/
+Adult: 'rab...bit' — Child: 'rabbit!' — Now segment: /r/ /ă/ /b/ /ĭ/ /t/
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Let's Move!
+
+Clap and blend! Adult says a two-syllable word. Child claps once per syllable, then jumps and says the whole word. 'win' (clap) 'dow' (clap) → JUMP → 'window!'
+
+---
+
+## Quick Check
+
+1. Blend 'rab' + 'bit'. What word? *(rabbit)*
+2. How many syllables in 'butterfly'? *(3: but-ter-fly)*
+3. Segment 'pencil' into individual sounds. *(/p/ /ĕ/ /n/ /s/ /ĭ/ /l/)*
+
+---
+
+**Next lesson:** Lesson 46: Handwriting: Clockface Letters
+
+---
+
+*Practice at home: Practice two-syllable blending with animal names: ti-ger, ze-bra, pan-da, mon-key.*

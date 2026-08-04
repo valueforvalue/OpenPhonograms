@@ -1,51 +1,71 @@
 # Lesson 44: Blending with Consonant Blends
 
-**Stage 1** · Lesson 44 · Type: phonemic-awareness
+**Stage 1** · Lesson 44 · phonemic-awareness
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
 
 ---
 
-## New Learning: Blending with Consonant Blends
+## Activity 1: Two Sounds Together
 
-### Activity: Blending with Consonant Blends
+Adult says a word with a consonant blend at the start. Child blends.
 
-— [Phonemic awareness activity to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+L-blends: /s/ /l/ /ĭ/ /p/ → slip, /k/ /l/ /ă/ /p/ → clap, /f/ /l/ /ă/ /g/ → flag
+R-blends: /s/ /t/ /ŏ/ /p/ → stop, /f/ /r/ /ŏ/ /g/ → frog, /d/ /r/ /ŏ/ /p/ → drop
+S-blends: /s/ /t/ /ĕ/ /p/ → step, /s/ /w/ /ĭ/ /m/ → swim, /s/ /n/ /ă/ /p/ → snap
 
 ---
 
-**Next lesson:** Lesson 45
+## Activity 2: Blend First, Then Add
 
+Which of these start with a blend? Child identifies:
 
+cat (no blend — single sound)
+stop (yes! /st/ blend)
+dog (no blend)
+frog (yes! /fr/ blend)
+clap (yes! /kl/ blend)
+sun (no blend)
 
 ---
 
-<div class="page-break"></div>
+## Activity 3: Blend Hunt
 
-## Lesson Complete!
+Which of these start with a blend? Child identifies:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+cat (no blend — single sound)
+stop (yes! /st/ blend)
+dog (no blend)
+frog (yes! /fr/ blend)
+clap (yes! /kl/ blend)
+sun (no blend)
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Let's Move!
+
+Blend-freeze! Adult says words. If the word starts with a blend, child FREEZES like a statue. If it doesn't, child keeps moving. 'stop' — FREEZE! 'cat' — keep moving! 'frog' — FREEZE!
+
+---
+
+## Quick Check
+
+1. Blend /s/ /t/ /ŏ/ /p/. What word? *(stop)*
+2. What two sounds blend together at the start of 'frog'? *(/f/ and /r/)*
+3. Does 'cat' start with a blend? *(No — just /k/)*
+
+---
+
+**Next lesson:** Lesson 45: Blending Two-Syllable Words
+
+---
+
+*Practice at home: Look in a book. Find 3 words that start with a consonant blend.*

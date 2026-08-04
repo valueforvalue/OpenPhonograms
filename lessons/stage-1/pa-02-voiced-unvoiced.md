@@ -1,51 +1,64 @@
 # Lesson 2: Voiced and Unvoiced Sounds
 
-**Stage 1** · Lesson 2 · Type: phonemic-awareness
+**Stage 1** · Lesson 2 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Put your hand on your throat. Say /z/ like a buzzing bee. Feel the buzz? That's your voice! Now say /s/ like a snake. No buzz!
 
 ---
 
-## New Learning: Voiced and Unvoiced Sounds
+## Activity 1: Voice On, Voice Off
 
-### Activity: Voiced and Unvoiced Sounds
+Adult says these sounds one at a time. Child puts a hand on their throat and says 'buzzing' if they feel vibration, 'quiet' if they don't.
 
-— [Phonemic awareness activity to be written]
-## Review
+/z/ (buzzing) — /s/ (quiet)
+/v/ (buzzing) — /f/ (quiet)
+/b/ (buzzing) — /p/ (quiet)
+/d/ (buzzing) — /t/ (quiet)
+/g/ (buzzing) — /k/ (quiet)
+/th/ as in *this* (buzzing) — /th/ as in *thin* (quiet)
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+Pairs like these are called 'voiced' (buzzing) and 'unvoiced' (quiet).
 
 ---
 
-**Next lesson:** Lesson 3
+## Activity 2: Who Am I?
 
+Adult says either a voiced or unvoiced sound. Child guesses which one it is: 'voiced' or 'unvoiced' — then makes the opposite!
 
+Mix it up with these sounds: /z/ /s/ /v/ /f/ /b/ /p/ /d/ /t/
 
 ---
 
-<div class="page-break"></div>
+## Activity 3: Throat Detective
 
-## Lesson Complete!
+Adult says everyday words slowly. Child feels their throat for each sound. Which sounds buzz? Which don't?
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Words to try: mop, zip, fan, big, sit, dog, hat, van
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Let's Move!
+
+Be a buzzing bee! Fly around the room saying /z/ /z/ /z/. Then be a quiet snake — slither and say /s/ /s/ /s/. Switch back and forth: BEE /z/ ... SNAKE /s/ ... BEE /z/ ... SNAKE /s/!
+
+---
+
+## Quick Check
+
+1. Put your hand on your throat. Say /b/. Is it voiced or unvoiced? *(Voiced — it buzzes!)*
+2. Say /p/. Is it voiced or unvoiced? *(Unvoiced — no buzz)*
+3. /b/ and /p/ are a pair. What's different about them? *(Your voice is ON for /b/ and OFF for /p/)*
+
+---
+
+**Next lesson:** Lesson 3: Lesson 3
+
+---
+
+*Practice at home: Play 'Voice On, Voice Off' with a family member at dinner.*

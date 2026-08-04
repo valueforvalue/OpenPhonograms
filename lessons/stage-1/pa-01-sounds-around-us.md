@@ -1,54 +1,65 @@
 # Lesson 1: Sounds Around Us
 
-**Stage 1** · Lesson 1 · Type: phonemic-awareness
+**Stage 1** · Lesson 1 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Close your eyes for one minute. What do you hear? Birds? A car? A clock ticking?
 
 ---
 
-## New Learning: Sounds Around Us
+## Activity 1: Guess the Sound
 
-### Activity: Sounds Around Us
+Adult makes a sound behind their back (clap, tap pencil, crinkle paper, snap fingers, whistle). Child closes eyes and guesses what made the sound.
 
-— [Phonemic awareness activity to be written]
-
-
-![Sounds Around Us]()
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+Try these sounds:
+- Clap hands
+- Tap a pencil on a table
+- Crinkle a piece of paper
+- Snap your fingers
+- Hum a note
+- Stamp your foot
+- Ring a bell (if you have one)
+- Close a book
 
 ---
 
-**Next lesson:** Lesson 2
+## Activity 2: Loud or Soft?
 
+Adult makes the same sound at different volumes. Child says 'loud' or 'soft.'
 
+Switch roles! Child makes sounds and adult guesses loud or soft.
 
 ---
 
-<div class="page-break"></div>
+## Activity 3: Sound Walk
 
-## Lesson Complete!
+Walk around the house together. Stop in each room and listen for 15 seconds. Name every sound you hear. Count them up!
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Which room had the most sounds? Which room was the quietest?
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Let's Move!
+
+Stand up and be a sound machine! Adult names an animal. Child makes its sound. Switch — child names the animal and adult makes the sound. See who can do 10 animals in a row!
+
+---
+
+## Quick Check
+
+1. What was the loudest sound you heard today?
+2. What was the softest sound?
+3. Close your eyes right now. What do you hear?
+
+---
+
+**Next lesson:** Lesson 2: Lesson 2
+
+---
+
+*Practice at home: Close your eyes before bed tonight. Name 5 sounds you hear.*

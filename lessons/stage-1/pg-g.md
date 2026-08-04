@@ -1,78 +1,98 @@
 # Lesson 11: Phonogram g
 
-**Stage 1** · Lesson 11 · Type: phonogram-intro
+**Stage 1** · Lesson 11 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d |
+
 
 ---
 
-## New Learning: Phonogram g
+## New Learning: Your New Phonogram — g
 
 ### The Phonogram **g**
 
 <div class="phonogram">g</div>
 
-**g** says: /g/ /j/
+**g** says 2 sounds: /g/ /j/
 
-| Sound | Example Word |
-|-------|-------------|
-| /g/ | — |
-| /j/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /g/ | go, get, gum |
+| /j/ | gem, giant, gym |
 
-> Write **g** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "g says /g/" and add more later. The child must know that **g** can say 2 different things.
 
-## Practice
 
-### Write It
-Write each word twice:
+> **Tip:** G says /g/ most often and /j/ less often. G usually says /j/ only before E, I, or Y.
 
-gag tag bag
+### How to Write **g**
 
-### Read It
+1. Start at the midline.
+2. Curve around to make a circle (counter-clockwise).
+3. Go up, then curve down below the line into a tail.
+
+> Write **g** three times on your whiteboard or in a sand tray. Say "/g/ /j/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**g** is a **consonant**. The sound is blocked by your tongue or lips. Try saying /g/ — what blocks the air?
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| ag | a (/ă/), g (/g/) | Short vowel — closed syllable | /ăg/ |
+| gad | g (/g/), a (/ă/), d (/d/) | Short vowel — closed syllable | /găd/ |
+| dad | d (/d/), a (/ă/), d (/d/) | Short vowel — closed syllable | /dăd/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-gag tag bag
-
-### Quiz
-1. What sounds does **g** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-gag tag bag
+> ag &nbsp;&nbsp; gad &nbsp;&nbsp; tag &nbsp;&nbsp; bag &nbsp;&nbsp; rag
 
 ---
 
-**Next lesson:** Lesson 12
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| g | g | g | g | g |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: g)*
+2. What sounds does **g** say? *(/g/ /j/)*
+3. Write the word "ag" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 12: Phonogram c
 
+---
+
+*Practice at home: Flash your new **g** card 5 times. Find **g** in a book or on a sign.*

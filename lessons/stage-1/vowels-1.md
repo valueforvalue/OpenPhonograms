@@ -1,49 +1,99 @@
 # Lesson 42: Meet the Vowels
 
-**Stage 1** · Lesson 42 · Type: vowel-concept
+**Stage 1** · Lesson 42 · vowel-concept
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all 26 a-z phonograms. Quick review — focus on speed!
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
 
 ---
 
-## New Learning: Meet the Vowels
+## New Learning: What Is a Vowel?
 
-— [vowel-concept content to be written]
-## Review
+### Sing It or Block It?
 
-### Quick Check
+You have learned 26 phonograms. Some of them are **vowels** and some are **consonants**. Here is how to tell the difference:
 
-- Check phonogram recall
-- Review new rule if introduced
+- **Vowels:** You can SING them. Your mouth is open. Your lips, tongue, and teeth don't block the sound. You can control how loud or soft they are.
+- **Consonants:** Sounds blocked by your lips, tongue, or teeth. You usually can't sing them or control their volume.
 
-### Words to Spell (Dictation)
+### Let's Test Each Sound
 
-a e i o u
+Adult says each sound below. Child puts a hand on their throat and says it too. Decide: vowel or consonant?
+
+| Sound | Vowel or Consonant? | Why? |
+|-------|--------------------|------|
+| /ă/ | Vowel | Mouth open, can sing it |
+| /b/ | Consonant | Lips block the sound |
+| /k/ | Consonant | Tongue blocks at back of mouth |
+| /d/ | Consonant | Tongue taps behind teeth |
+| /ĕ/ | Vowel | Mouth open, can sing it |
+| /f/ | Consonant | Teeth on lip block air |
+| /g/ | Consonant | Tongue blocks at back of mouth |
+| /h/ | Consonant | Breath released — no singing! |
+| /ĭ/ | Vowel | Mouth open, can sing it |
+| /j/ | Consonant | Tongue blocks the sound |
+| /l/ | Consonant | Tongue tip touches roof |
+| /m/ | Consonant | Lips together — hum through nose |
+| /n/ | Consonant | Tongue tip touches roof — hum through nose |
+| /ŏ/ | Vowel | Mouth open, can sing it |
+| /p/ | Consonant | Lips pop open |
+| /r/ | Consonant | Tongue curls back |
+| /s/ | Consonant | Tongue hisses near teeth |
+| /t/ | Consonant | Tongue taps behind teeth |
+| /ŭ/ | Vowel | Mouth open, can sing it |
+| /v/ | Consonant | Teeth on lip with buzz |
+| /w/ | Consonant | Lips round then release |
+| /ks/ | Consonant | Two sounds — both blocked |
+| /y/ | Consonant or Vowel! | /y/ sound is consonant; its other 3 sounds are vowels |
+| /z/ | Consonant | Tongue buzzes near teeth |
+
+### Count the Vowels
+
+How many pure vowel sounds did we find? **5: a, e, i, o, u**
+
+**Y** is special — it can be a vowel or a consonant:
+- /y/ (as in *yes*) — consonant (tongue blocks)
+- /ĭ/ (as in *gym*) — vowel
+- /ī/ (as in *by*) — vowel
+- /ē/ (as in *baby*) — vowel
+
+Three of Y's four sounds are vowels!
 
 ---
 
-**Next lesson:** Lesson 43
+## Spelling Practice
 
-
+| Word | Vowels in This Word | How Do You Know? |
+|------|--------------------|------------------|
+| cat | a | /ă/ — mouth open, can sing it |
+| dog | o | /ŏ/ — mouth open, can sing it |
+| sit | i | /ĭ/ — mouth open, can sing it |
+| bed | e | /ĕ/ — mouth open, can sing it |
+| cup | u | /ŭ/ — mouth open, can sing it |
+| by | y | /ī/ — vowel sound! |
+| baby | y | /ē/ — vowel sound! |
+| gym | y | /ĭ/ — vowel sound! |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What is a vowel? *(A sound you can sing; mouth is open; lips/tongue/teeth don't block it)*
+2. What is a consonant? *(A sound blocked by lips, tongue, or teeth)*
+3. Name all the vowels. *(A, E, I, O, U — and sometimes Y)*
+4. Which letter can be BOTH a vowel and a consonant? *(Y)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 43: All 26 Phonograms Review
 
+---
+
+*Practice at home: Find 5 things in the house. Say their names. Count the vowels in each word!*

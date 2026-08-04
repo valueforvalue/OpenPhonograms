@@ -1,51 +1,71 @@
 # Lesson 7: Segmenting CVC Words
 
-**Stage 1** · Lesson 7 · Type: phonemic-awareness
+**Stage 1** · Lesson 7 · phonemic-awareness
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Listening Game
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Say these directions. Child listens and follows along.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Now we go the other way! I'll say a whole word, and you break it apart into its sounds. This is how we learn to spell!
 
 ---
 
-## New Learning: Segmenting CVC Words
+## Activity 1: Finger Tapping
 
-### Activity: Segmenting CVC Words
+Adult says a word. Child repeats it, then taps one finger per sound.
 
-— [Phonemic awareness activity to be written]
-## Review
+Model: Adult says 'cat.' Holds up 3 fingers. Touch one finger per sound: /k/ /ă/ /t/.
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 8
-
-
+Child's turn:
+- dog (3 fingers: /d/ /ŏ/ /g/)
+- sit (3 fingers: /s/ /ĭ/ /t/)
+- up (2 fingers: /ŭ/ /p/)
+- hat (3 fingers: /h/ /ă/ /t/)
+- man (3 fingers: /m/ /ă/ /n/)
+- bed (3 fingers: /b/ /ĕ/ /d/)
+- fish (3 fingers: /f/ /ĭ/ /sh/)
 
 ---
 
-<div class="page-break"></div>
+## Activity 2: Count the Sounds
 
-## Lesson Complete!
+Adult says a word. Child counts the sounds on their fingers.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+2 sounds: am, at, up, in, on, go
+3 sounds: cat, dog, pig, sun, bed, hat, run, hop
+4 sounds: stop, frog, clap, skip, hand
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Activity 3: Sound-by-Sound
+
+Adult says a word. Child says each sound separately, slowly.
+
+Adult: 'Tell me every sound in *map*.'
+Child: '/m/ ... /ă/ ... /p/'
+
+Try: map, net, cup, dig, fog, pen, hug, fit, sad, mop
+
+---
+
+## Let's Move!
+
+Be a robot! Adult says a word. Child walks like a robot, saying one sound per step: /d/ (step) /o/ (step) /g/ (step). Then speed up and blend: 'dog!'
+
+---
+
+## Quick Check
+
+1. How many sounds in 'dog'? *(3: /d/ /ŏ/ /g/)*
+2. Segment 'bed.' What sounds? *(/b/ /ĕ/ /d/)*
+3. Why is segmenting important? *(It helps us spell — we write one phonogram per sound!)*
+
+---
+
+**Next lesson:** Lesson 8: Lesson 8
+
+---
+
+*Practice at home: At dinner, everyone segments a word from the meal: /m/ /ĭ/ /l/ /k/ → milk!*

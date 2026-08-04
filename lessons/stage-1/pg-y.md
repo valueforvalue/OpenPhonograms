@@ -1,80 +1,98 @@
 # Lesson 39: Phonogram y
 
-**Stage 1** · Lesson 39 · Type: phonogram-intro
+**Stage 1** · Lesson 39 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Adult: Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds. Mark any slow ones for extra practice.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x |
+
 
 ---
 
-## New Learning: Phonogram y
+## New Learning: Your New Phonogram — y
 
 ### The Phonogram **y**
 
 <div class="phonogram">y</div>
 
-**y** says: /y/ /ĭ/ /ī/ /ē/
+**y** says 4 sounds: /y/ /ĭ/ /ī/ /ē/
 
-| Sound | Example Word |
-|-------|-------------|
-| /y/ | — |
-| /ĭ/ | — |
-| /ī/ | — |
-| /ē/ | — |
+| Sound | Example Words |
+|-------|--------------|
+| /y/ | yes, yet, yell |
+| /ĭ/ | gym, myth |
+| /ī/ | by, my, fly |
+| /ē/ | baby, funny |
 
-> Write **y** three times on your whiteboard while saying its sounds.
+> **Important:** Always teach ALL sounds from the start. Never teach "y says /y/" and add more later. The child must know that **y** can say 4 different things.
 
-## Practice
 
-### Write It
-Write each word twice:
+### How to Write **y**
 
-yes yak yam
+1. Start at the midline.
+2. Draw a short slanted line down.
+3. Then a long slanted line down below the baseline.
 
-### Read It
+> Write **y** three times on your whiteboard or in a sand tray. Say "/y/ /ĭ/ /ī/ /ē/" each time you write it.
+
+
+### Vowel or Consonant?
+
+**y** is a **vowel**. You can sing it! Your mouth is open. Your lips, tongue, and teeth don't block the sound.
+
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| yes | y (/y/), e (/ĕ/), s (/s/) | Short vowel — closed syllable | /yĕs/ |
+| yet | y (/y/), e (/ĕ/), t (/t/) | Short vowel — closed syllable | /yĕt/ |
+| yip | y (/y/), i (/ĭ/), p (/p/) | Short vowel — closed syllable | /yĭp/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-yes yak yam
-
-### Quiz
-1. What sounds does **y** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-yes yak yam
+> yes &nbsp;&nbsp; yet &nbsp;&nbsp; yip &nbsp;&nbsp; yam &nbsp;&nbsp; yell
 
 ---
 
-**Next lesson:** Lesson 40
+## Handwriting Practice
 
+Write each letter once. Say its sounds as you write.
 
+| y | y | y | y | y |
+|---|---|---|---|---|
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(A new phonogram: y)*
+2. What sounds does **y** say? *(/y/ /ĭ/ /ī/ /ē/)*
+3. Write the word "yes" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 40: Phonogram z
 
+---
+
+*Practice at home: Flash your new **y** card 5 times. Find **y** in a book or on a sign.*
