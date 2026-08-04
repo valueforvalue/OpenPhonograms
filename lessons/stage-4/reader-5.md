@@ -10,6 +10,8 @@
 <div class="reader-page">
 <div class="reader-text">
 
+![Illustration](images/illustrations/firefly-night.png)
+
 **Firefly: Nightlight with Wings**
 
 The sun goes down. The sky turns dark.

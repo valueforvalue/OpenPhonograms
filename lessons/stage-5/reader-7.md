@@ -10,6 +10,8 @@
 <div class="reader-page">
 <div class="reader-text">
 
+![Illustration](images/illustrations/ostrich-running.png)
+
 **Ostriches: The Giants of the Bird World**
 
 Ostriches are the largest birds on Earth. An adult ostrich can stand over 8 feet tall and weigh more than 300 pounds. That's taller than a professional basketball player and heavier than a lion!
