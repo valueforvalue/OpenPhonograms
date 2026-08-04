@@ -66,7 +66,7 @@ March around the room! Each step = one syllable. Adult calls out words, child ma
 
 ---
 
-**Next lesson:** Lesson 5: Lesson 5
+**Next lesson:** Lesson 5: Onset and Rime
 
 ---
 

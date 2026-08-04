@@ -16,32 +16,32 @@ This final assessment checks readiness for Stage 3. The child should demonstrate
 
 | Phonogram | Sounds | ✓ / Needs Work |
 |-----------|--------|----------------|
-| a | {'sounds': '/ă/ /ā/ /ä/', 'vowel': True} | ☐ |
-| b | {'sounds': '/b/', 'vowel': False} | ☐ |
-| c | {'sounds': '/k/ /s/', 'vowel': False} | ☐ |
-| d | {'sounds': '/d/', 'vowel': False} | ☐ |
-| e | {'sounds': '/ĕ/ /ē/', 'vowel': True} | ☐ |
-| f | {'sounds': '/f/', 'vowel': False} | ☐ |
-| g | {'sounds': '/g/ /j/', 'vowel': False} | ☐ |
-| h | {'sounds': '/h/', 'vowel': False} | ☐ |
-| i | {'sounds': '/ĭ/ /ī/ /ē/', 'vowel': True} | ☐ |
-| j | {'sounds': '/j/', 'vowel': False} | ☐ |
-| k | {'sounds': '/k/', 'vowel': False} | ☐ |
-| l | {'sounds': '/l/', 'vowel': False} | ☐ |
-| m | {'sounds': '/m/', 'vowel': False} | ☐ |
-| n | {'sounds': '/n/', 'vowel': False} | ☐ |
-| o | {'sounds': '/ŏ/ /ō/ /ö/', 'vowel': True} | ☐ |
-| p | {'sounds': '/p/', 'vowel': False} | ☐ |
-| qu | {'sounds': '/kw/', 'vowel': False} | ☐ |
-| r | {'sounds': '/r/', 'vowel': False} | ☐ |
-| s | {'sounds': '/s/ /z/', 'vowel': False} | ☐ |
-| t | {'sounds': '/t/', 'vowel': False} | ☐ |
-| u | {'sounds': '/ŭ/ /ū/ /ö/', 'vowel': True} | ☐ |
-| v | {'sounds': '/v/', 'vowel': False} | ☐ |
-| w | {'sounds': '/w/', 'vowel': False} | ☐ |
-| x | {'sounds': '/ks/ /z/', 'vowel': False} | ☐ |
-| y | {'sounds': '/y/ /ĭ/ /ī/ /ē/', 'vowel': True} | ☐ |
-| z | {'sounds': '/z/', 'vowel': False} | ☐ |
+| a | /ă/ /ā/ /ä/ | ☐ |
+| b | /b/ | ☐ |
+| c | /k/ /s/ | ☐ |
+| d | /d/ | ☐ |
+| e | /ĕ/ /ē/ | ☐ |
+| f | /f/ | ☐ |
+| g | /g/ /j/ | ☐ |
+| h | /h/ | ☐ |
+| i | /ĭ/ /ī/ /ē/ | ☐ |
+| j | /j/ | ☐ |
+| k | /k/ | ☐ |
+| l | /l/ | ☐ |
+| m | /m/ | ☐ |
+| n | /n/ | ☐ |
+| o | /ŏ/ /ō/ /ö/ | ☐ |
+| p | /p/ | ☐ |
+| qu | /kw/ | ☐ |
+| r | /r/ | ☐ |
+| s | /s/ /z/ | ☐ |
+| t | /t/ | ☐ |
+| u | /ŭ/ /ū/ /ö/ | ☐ |
+| v | /v/ | ☐ |
+| w | /w/ | ☐ |
+| x | /ks/ /z/ | ☐ |
+| y | /y/ /ĭ/ /ī/ /ē/ | ☐ |
+| z | /z/ | ☐ |
 | sh | /sh/ | ☐ |
 | th | /th/ (voiced) /th/ (unvoiced) | ☐ |
 | ck | /k/ | ☐ |

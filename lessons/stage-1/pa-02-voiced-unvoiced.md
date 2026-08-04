@@ -57,7 +57,7 @@ Be a buzzing bee! Fly around the room saying /z/ /z/ /z/. Then be a quiet snake 
 
 ---
 
-**Next lesson:** Lesson 3: Lesson 3
+**Next lesson:** Lesson 3: Blending Compound Words
 
 ---
 

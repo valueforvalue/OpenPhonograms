@@ -64,7 +64,7 @@ Adult says three sounds. If they make a real word, child jumps. If they make a n
 
 ---
 
-**Next lesson:** Lesson 7: Lesson 7
+**Next lesson:** Lesson 7: Segmenting CVC Words
 
 ---
 

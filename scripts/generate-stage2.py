@@ -1520,8 +1520,12 @@ def generate_all():
 
 def build_mid_assessment():
     pgs = list(SINGLE_PGS.keys()) + ["sh","th","ck","ee","ng","ar","or","er"]
+    def get_sounds(p):
+        if p in SINGLE_PGS:
+            return SINGLE_PGS[p]["sounds"]
+        return MULTI_PGS.get(p, {}).get("sounds", "—")
     pg_checks = "\n".join(
-        f"| {p} | {SINGLE_PGS.get(p, MULTI_PGS.get(p, {}).get('sounds', '—'))} | ☐ |"
+        f"| {p} | {get_sounds(p)} | ☐ |"
         for p in pgs if p in SINGLE_PGS or p in MULTI_PGS
     )
     return ASSESSMENT_TEMPLATE.format(
@@ -1540,8 +1544,12 @@ def build_mid_assessment():
 
 def build_final_assessment():
     pgs = list(SINGLE_PGS.keys()) + list(MULTI_PGS.keys())
+    def get_sounds(p):
+        if p in SINGLE_PGS:
+            return SINGLE_PGS[p]["sounds"]
+        return MULTI_PGS.get(p, {}).get("sounds", "—")
     pg_checks = "\n".join(
-        f"| {p} | {SINGLE_PGS.get(p, MULTI_PGS.get(p, {}).get('sounds', '—'))} | ☐ |"
+        f"| {p} | {get_sounds(p)} | ☐ |"
         for p in pgs
     )
     return ASSESSMENT_TEMPLATE.format(

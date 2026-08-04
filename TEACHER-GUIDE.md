@@ -36,9 +36,48 @@ That's it. Everything else is in the lesson files.
 | `reference/high-frequency-words.html` | HF words with explanations | Reference |
 | `reference/troubleshooting.html` | Common problems + fixes | When stuck |
 | `reference/morpheme-wall.html` | Latin/Greek roots display | Stage 4-5 |
+| `TEACHER-GUIDE.md` | This document | Start here |
+| `TEACHER-GUIDE.pdf` | Printable version of this guide | Print once |
 | `framework/render.py` | MD→PDF converter | Generate printable lesson PDFs |
 | `framework/image-check.py` | Image inventory tool | Check missing images |
 | `assets/main.css` | Stylesheet for HTML references | Already linked in all HTMLs |
+
+## Cross-Reference Map
+
+How the documents connect:
+
+```
+TEACHER-GUIDE.md  ← START HERE
+  ├── curriculum.md  ← Full methodology reference
+  │     ├── Stage 1-5 sections  ← Scope & sequence per stage
+  │     ├── Complete Phonogram List (75)
+  │     ├── Complete Spelling Rules (31)
+  │     └── Phonogram-Rule Mapping
+  │
+  ├── reference/  ← Printable classroom aids
+  │     ├── quickstart.html  ← One-page cheat sheet
+  │     ├── phonogram-chart.html  ← All 75 PGs on one page
+  │     ├── spelling-rules.html  ← All 31 rules
+  │     ├── spelling-analysis.html  ← 5-step routine poster
+  │     ├── word-lists.html  ← Decodable word banks
+  │     ├── high-frequency-words.html  ← HF words explained
+  │     ├── troubleshooting.html  ← Common issues + fixes
+  │     └── morpheme-wall.html  ← Roots for Stages 4-5
+  │
+  ├── lessons/  ← 248 lesson files (the actual curriculum)
+  │     ├── stage-1/  (48 files)  Pre-K
+  │     ├── stage-2/  (56 files)  Kindergarten
+  │     ├── stage-3/  (56 files)  Grade 1
+  │     ├── stage-4/  (48 files)  Grade 2
+  │     └── stage-5/  (40 files)  Grade 3+
+  │
+  └── framework/  ← Tools
+        ├── render.py  ← MD → PDF
+        ├── generate.py  ← Stub generator
+        ├── image-check.py  ← Image inventory
+        ├── image-manifest.csv  ← All planned images
+        └── lesson-catalog.csv  ← 248-lesson index
+```
 
 ---
 

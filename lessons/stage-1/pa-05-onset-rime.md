@@ -63,7 +63,7 @@ Stand in a circle (or just stand up). Adult says an /at/ word. Everyone hops! Ad
 
 ---
 
-**Next lesson:** Lesson 6: Lesson 6
+**Next lesson:** Lesson 6: Blending CVC Words
 
 ---
 

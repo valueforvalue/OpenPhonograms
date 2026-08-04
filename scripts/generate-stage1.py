@@ -1134,22 +1134,31 @@ def build_review(num, group_num, group_pgs, all_pg_list, next_num, next_title):
 
 
 def title_for(num, pg_list):
-    """Look up title from known data."""
+    """Look up title from catalog."""
     titles = {
+        1: "Sounds Around Us", 2: "Voiced and Unvoiced Sounds",
+        3: "Blending Compound Words", 4: "Blending Syllables",
+        5: "Onset and Rime", 6: "Blending CVC Words",
+        7: "Segmenting CVC Words", 8: "First Sounds in Words",
         9: "Phonogram a", 10: "Phonogram d", 11: "Phonogram g",
         12: "Phonogram c", 13: "Phonogram o", 14: "Phonogram qu",
+        15: "Review: Group 1 Phonograms",
         16: "Phonogram s", 17: "Phonogram t", 18: "Phonogram i",
         19: "Phonogram p", 20: "Phonogram u", 21: "Phonogram j",
+        22: "Review: Group 2 Phonograms",
+        23: "Last Sounds in Words",
         24: "Phonogram r", 25: "Phonogram n", 26: "Phonogram m",
         27: "Phonogram e", 28: "Phonogram l", 29: "Phonogram b",
+        30: "Review: Group 3 Phonograms",
+        31: "Middle Sounds in Words",
         32: "Phonogram h", 33: "Phonogram k", 34: "Phonogram f",
         35: "Phonogram v", 36: "Phonogram w", 37: "Phonogram x",
-        39: "Phonogram y", 40: "Phonogram z",
-        15: "Review: Group 1 Phonograms",
-        22: "Review: Group 2 Phonograms",
-        30: "Review: Group 3 Phonograms",
         38: "Review: Group 4 Phonograms",
+        39: "Phonogram y", 40: "Phonogram z",
+        41: "Sound Swapping Game", 42: "Meet the Vowels",
         43: "All 26 Phonograms Review",
+        44: "Blending with Consonant Blends", 45: "Blending Two-Syllable Words",
+        46: "Handwriting: Clockface Letters", 47: "Handwriting: Straight-start Letters",
         48: "Stage 1 Mastery Check",
     }
     return titles.get(num, f"Lesson {num}")

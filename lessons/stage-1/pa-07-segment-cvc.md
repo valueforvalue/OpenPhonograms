@@ -64,7 +64,7 @@ Be a robot! Adult says a word. Child walks like a robot, saying one sound per st
 
 ---
 
-**Next lesson:** Lesson 8: Lesson 8
+**Next lesson:** Lesson 8: First Sounds in Words
 
 ---
 

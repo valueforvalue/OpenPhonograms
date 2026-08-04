@@ -68,7 +68,7 @@ Stand up! Adult says a compound word. If it's real, jump once. If it's made up, 
 
 ---
 
-**Next lesson:** Lesson 4: Lesson 4
+**Next lesson:** Lesson 4: Blending Syllables
 
 ---
 

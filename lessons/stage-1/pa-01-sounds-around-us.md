@@ -58,7 +58,7 @@ Stand up and be a sound machine! Adult names an animal. Child makes its sound. S
 
 ---
 
-**Next lesson:** Lesson 2: Lesson 2
+**Next lesson:** Lesson 2: Voiced and Unvoiced Sounds
 
 ---
 
