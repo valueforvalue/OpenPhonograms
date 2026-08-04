@@ -46,6 +46,9 @@ def main():
             zf.write(pdf, f"pdfs/{pdf.name}")
         elif parent == "readers":
             zf.write(pdf, f"pdfs/readers/{pdf.name}")
+        elif "worksheets" in str(pdf):
+            rel = pdf.relative_to(BUILD / "worksheets")
+            zf.write(pdf, f"pdfs/worksheets/{rel}")
         else:
             grp = group_of(pdf.name)
             zf.write(pdf, f"pdfs/{parent}/{grp}/{pdf.name}")
