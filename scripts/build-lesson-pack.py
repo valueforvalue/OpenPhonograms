@@ -21,6 +21,7 @@ Usage:
 import argparse
 import csv
 import io
+import os
 import re
 import sys
 from pathlib import Path
@@ -31,6 +32,13 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 ROOT = Path(__file__).resolve().parent.parent
 # Allow `from framework.render import ...`
 sys.path.insert(0, str(ROOT))
+
+# Point WeasyPrint at MSYS2's GTK3 runtime DLLs on Windows (one-time install
+# via MSYS2: pacman -S mingw-w64-x86_64-pango). Idempotent — no-op if set.
+if sys.platform == "win32" and "WEASYPRINT_DLL_DIRECTORIES" not in os.environ:
+    candidate = Path(r"C:/msys64/mingw64/bin")
+    if candidate.exists():
+        os.environ["WEASYPRINT_DLL_DIRECTORIES"] = str(candidate)
 LESSONS_DIR = ROOT / "lessons"
 WORKSHEETS_PG = ROOT / "worksheets" / "phonograms"
 WORKSHEETS_RULES = ROOT / "worksheets" / "rules"
@@ -323,8 +331,12 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     temp_md.write_text(combined, encoding="utf-8")
 
     try:
+        import io as _io
+        import contextlib
         from framework.render import render_md_to_pdf
-        render_md_to_pdf(temp_md, out_pdf, doc_type="lesson")
+        # Suppress render.py's "  OK ..." output — we print our own status
+        with contextlib.redirect_stdout(_io.StringIO()):
+            render_md_to_pdf(temp_md, out_pdf, doc_type="lesson")
     except ModuleNotFoundError as e:
         missing.append(f"render unavailable: {e}")
         return None, missing, debug_md
