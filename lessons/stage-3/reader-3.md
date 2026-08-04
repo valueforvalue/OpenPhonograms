@@ -4,6 +4,24 @@
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| silent E, ie, ai, ay, ck |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> Cole &nbsp; Kate &nbsp; bike &nbsp; rides &nbsp; hill &nbsp; fast &nbsp; red &nbsp; friend &nbsp; share &nbsp; calls
+
+---
+
 ## Story: Cole and His Bike
 
 <div class="reader-page">
