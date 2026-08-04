@@ -302,7 +302,7 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     HTML(string=full_html).write_pdf(str(output_path))
-    print(f"  ✓ {output_path.relative_to(PROJECT_ROOT)}")
+    print(f"  OK {output_path.relative_to(PROJECT_ROOT)}")
 
 
 def get_lessons_for_stage(stage: int) -> list[dict]:
@@ -347,7 +347,7 @@ def cmd_render_stage(stage: int):
             output_path = BUILD_DIR / f"stage-{stage}" / f"{lesson_id}.pdf"
             render_md_to_pdf(md_path, output_path)
         else:
-            print(f"  ✗ Missing: {md_path.relative_to(PROJECT_ROOT)} (run generate.py first)")
+            print(f"  MISSING: {md_path.relative_to(PROJECT_ROOT)} (run generate.py first)")
 
 
 def cmd_render_all():
