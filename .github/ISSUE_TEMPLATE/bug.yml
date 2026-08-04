@@ -1,0 +1,81 @@
+name: Bug Report
+description: Something is broken — lesson content, PDF output, game, generator
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What happened?
+      description: What did you see that was wrong?
+      placeholder: "Stage 2 assessment-3 shows raw Python dicts instead of phonogram sounds."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: How can someone else see this bug?
+      placeholder: "1. Open lessons/stage-2/assessment-3.md\n2. Look at the phonogram sounds column\n3. See {'sounds': '/ă/...'} instead of '/ă/ /ā/ /ä/'"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What area is affected?
+      options:
+        - Lesson content (markdown in lessons/)
+        - PDF output (render.py)
+        - Worksheet (worksheets/)
+        - Generator (scripts/generate-*.py)
+        - Game (games/phonogram-trainer.html)
+        - Teacher reference (reference/*.html)
+        - Curriculum doc (curriculum.md)
+        - Teacher guide (TEACHER-GUIDE.md)
+        - Audio (games/audio/)
+        - Image (images/)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage(s)?
+      multiple: true
+      options:
+        - Stage 1 (Pre-K)
+        - Stage 2 (K)
+        - Stage 3 (Gr 1)
+        - Stage 4 (Gr 2)
+        - Stage 5 (Gr 3+)
+        - All stages
+        - Not stage-specific
+
+  - type: textarea
+    id: root_cause
+    attributes:
+      label: Root cause (if known)
+      description: What do you think caused this?
+      placeholder: "The assessment builder in generate-stage2.py uses SINGLE_PGS.get() which returns a dict object instead of the sounds string."
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: How should this be fixed?
+      placeholder: "Change the assessment builder to access the 'sounds' key: SINGLE_PGS[p]['sounds']"
+
+  - type: checkboxes
+    id: regression
+    attributes:
+      label: Regression check
+      description: What else might this break?
+      options:
+        - label: Same bug might exist in other stages
+        - label: Same bug might exist in other assessment files
+        - label: Same bug might exist in PDF output
+        - label: Generator needs fix (not just the output file)
+        - label: Worksheet matching this content needs same fix

@@ -1,0 +1,88 @@
+name: Feature Request
+description: New idea — lesson, worksheet, game, tool, or improvement
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: Who wants this and why?
+      placeholder: "As a teacher using Stage 2, I want more decodable readers so my student gets enough practice before moving to Stage 3."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What area?
+      options:
+        - New lessons
+        - New worksheets
+        - New reader/story
+        - New game or game mode
+        - New generator
+        - New teacher reference
+        - New tool/script
+        - Improvement to existing content
+        - Documentation
+        - Audio
+        - Image/asset
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage(s)?
+      multiple: true
+      options:
+        - Stage 1 (Pre-K)
+        - Stage 2 (K)
+        - Stage 3 (Gr 1)
+        - Stage 4 (Gr 2)
+        - Stage 5 (Gr 3+)
+        - Cross-stage
+        - Not stage-specific
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What does "done" look like? Be specific.
+      placeholder: "1. 5 new decodable readers in readers/ directory\n2. Each reader matches phonograms known at its target lesson\n3. Readers follow STYLE-GUIDE.md\n4. Generator script in scripts/ produces them\n5. TEACHER-GUIDE.md updated with new readers"
+    validations:
+      required: true
+
+  - type: textarea
+    id: apply_sites
+    attributes:
+      label: Files that need changes
+      description: List every file that will be touched. Be exhaustive.
+      placeholder: "1. scripts/generate-readers.py — add 5 new reader entries\n2. readers/010-*.md through 014-*.md — new files\n3. TEACHER-GUIDE.md — update reader count and file map\n4. CHANGELOG.md — add entry"
+
+  - type: textarea
+    id: slice_plan
+    attributes:
+      label: Implementation plan (slices)
+      description: Break into small, independent slices. Slice 1 should ship something usable.
+      placeholder: "Slice 1: One reader end-to-end (data + template + output + test render)\nSlice 2: Remaining 4 readers\nSlice 3: Teacher guide update + changelog"
+
+  - type: textarea
+    id: glossary
+    attributes:
+      label: New terms for CONTEXT.md
+      description: Any new domain terms this feature introduces?
+      placeholder: "None" or "New term: 'leveled reader' — avoid, use 'decodable reader'"
+
+  - type: checkboxes
+    id: quality
+    attributes:
+      label: Quality checklist
+      options:
+        - label: Generated content matches catalog (filenames, lesson IDs)
+        - label: PDF renders without overflow
+        - label: All phonograms in content are decodable at target stage
+        - label: Say-to-spell used for any schwa words
+        - label: No external links or commercial product references
+        - label: TEACHER-GUIDE.md updated if adding resources
