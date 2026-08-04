@@ -1,77 +1,82 @@
 # Lesson 20: Phonogram ar
 
-**Stage 2** · Lesson 20 · Type: phonogram-intro
+**Stage 2** · Lesson 20 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng |
 
 ---
 
-## New Learning: Phonogram ar
+## New Learning: The Phonogram **ar**
 
-### The Phonogram **ar**
+### What Is **ar**?
 
 <div class="phonogram">ar</div>
 
-**ar** says: /är/
+**ar** says 1 sound: /är/
 
-| Sound | Example Word |
-|-------|-------------|
-| /är/ | — |
+AR is an R-controlled vowel. The R changes the sound of the A.
 
-> Write **ar** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /är/ | car, farm, star, dark |
 
-car far jar star hard card
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| car | c (/k/), ar (/är/) | AR = R-controlled A | /kär/ |
+| farm | f (/f/), ar (/är/), m (/m/) | AR in middle | /färm/ |
+| star | s (/s/), t (/t/), ar (/är/) | AR at end | /stär/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-car far jar star hard card
+> car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
-### Quiz
-1. What sounds does **ar** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-car far jar star hard card
+> The car is here.
 
 ---
 
-**Next lesson:** Lesson 21
+## Handwriting Practice
 
+Write each word once. Underline the **ar** in each word.
 
+car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ar — it says /är/)*
+2. Is ar a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ar? *(/är/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 21: Phonogram or
 
+---
+
+*Practice at home: Flash your **ar** card 5 times. Find **ar** in a book — how many can you find?*

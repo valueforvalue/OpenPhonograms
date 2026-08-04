@@ -1,79 +1,84 @@
 # Lesson 40: Phonogram oo
 
-**Stage 2** · Lesson 40 · Type: phonogram-intro
+**Stage 2** · Lesson 40 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou |
 
 ---
 
-## New Learning: Phonogram oo
+## New Learning: The Phonogram **oo**
 
-### The Phonogram **oo**
+### What Is **oo**?
 
 <div class="phonogram">oo</div>
 
-**oo** says: /ö/ /ü/ /ō/
+**oo** says 3 sounds: /ö/ /ü/ /ō/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ö/ | — |
-| /ü/ | — |
-| /ō/ | — |
+OO has three sounds. /ö/ (as in 'book') and /ü/ (as in 'food') are most common.
 
-> Write **oo** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /ö/ | book, look, foot, good |
+| /ü/ | food, moon, soon, too |
+| /ō/ | floor, door |
 
-book look cook food moon soon floor door
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| book | b (/b/), oo (/ö/), k (/k/) | OO = /ö/ | /bök/ |
+| food | f (/f/), oo (/ü/), d (/d/) | OO = /ü/ | /füd/ |
+| floor | f (/f/), l (/l/), oo (/ō/), r (/r/) | OO = /ō/ (rare!) | /flōr/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-book look cook food moon soon floor door
+> book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
-### Quiz
-1. What sounds does **oo** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-book look cook food moon soon floor door
+> The book is here.
 
 ---
 
-**Next lesson:** Lesson 41
+## Handwriting Practice
 
+Write each word once. Underline the **oo** in each word.
 
+book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram oo — it says /ö/ /ü/ /ō/)*
+2. Is oo a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of oo? *(/ö/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 41: Phonogram ed
 
+---
+
+*Practice at home: Flash your **oo** card 5 times. Find **oo** in a book — how many can you find?*

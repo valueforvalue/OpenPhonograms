@@ -1,77 +1,82 @@
 # Lesson 11: Phonogram sh
 
-**Stage 2** · Lesson 11 · Type: phonogram-intro
+**Stage 2** · Lesson 11 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| (No multi-letter phonograms yet) |
 
 ---
 
-## New Learning: Phonogram sh
+## New Learning: The Phonogram **sh**
 
-### The Phonogram **sh**
+### What Is **sh**?
 
 <div class="phonogram">sh</div>
 
-**sh** says: /sh/
+**sh** says 1 sound: /sh/
 
-| Sound | Example Word |
-|-------|-------------|
-| /sh/ | — |
+SH is a two-letter phonogram. Both letters work together to make one sound!
 
-> Write **sh** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /sh/ | ship, fish, wish, dash |
 
-ship fish shop shut
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| ship | sh (/sh/), i (/ĭ/), p (/p/) | sh = two-letter phonogram | /shĭp/ |
+| fish | f (/f/), i (/ĭ/), sh (/sh/) | sh at end | /fĭsh/ |
+| dash | d (/d/), a (/ă/), sh (/sh/) | sh at end | /dăsh/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-ship fish shop shut
+> ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 
-### Quiz
-1. What sounds does **sh** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-ship fish shop shut
+> The ship is here.
 
 ---
 
-**Next lesson:** Lesson 12
+## Handwriting Practice
 
+Write each word once. Underline the **sh** in each word.
 
+ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram sh — it says /sh/)*
+2. Is sh a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of sh? *(/sh/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 12: Phonogram th
 
+---
+
+*Practice at home: Flash your **sh** card 5 times. Find **sh** in a book — how many can you find?*

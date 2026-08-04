@@ -1,77 +1,84 @@
 # Lesson 26: Phonogram oy
 
-**Stage 2** · Lesson 26 · Type: phonogram-intro
+**Stage 2** · Lesson 26 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi |
 
 ---
 
-## New Learning: Phonogram oy
+## New Learning: The Phonogram **oy**
 
-### The Phonogram **oy**
+### What Is **oy**?
 
 <div class="phonogram">oy</div>
 
-**oy** says: /oi/
+**oy** says 1 sound: /oi/
 
-| Sound | Example Word |
-|-------|-------------|
-| /oi/ | — |
+OY says /oi/ and is used at the END of a base word (because of Rule 3).
 
-> Write **oy** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 3: No English word ends in I. Since /oi/ can't end with I, we use OY.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-boy toy joy soy enjoy
+| Sound | Example Words |
+|-------|--------------|
+| /oi/ | boy, toy, enjoy, destroy |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| boy | b (/b/), oy (/oi/) | OY at end — Rule 3 | /boi/ |
+| toy | t (/t/), oy (/oi/) | OY at end | /toi/ |
+| enjoy | e (/ĕ/), n (/n/), j (/j/), oy (/oi/) | OY at end of base | en-joy |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-boy toy joy soy enjoy
+> boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 
-### Quiz
-1. What sounds does **oy** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-boy toy joy soy enjoy
+> The boy is here.
 
 ---
 
-**Next lesson:** Lesson 27
+## Handwriting Practice
 
+Write each word once. Underline the **oy** in each word.
 
+boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram oy — it says /oi/)*
+2. Is oy a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with oy? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 27: Rule 3: No I U V J at End
 
+---
+
+*Practice at home: Flash your **oy** card 5 times. Find **oy** in a book — how many can you find?*

@@ -1,78 +1,83 @@
 # Lesson 36: Phonogram ow
 
-**Stage 2** · Lesson 36 · Type: phonogram-intro
+**Stage 2** · Lesson 36 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea |
 
 ---
 
-## New Learning: Phonogram ow
+## New Learning: The Phonogram **ow**
 
-### The Phonogram **ow**
+### What Is **ow**?
 
 <div class="phonogram">ow</div>
 
-**ow** says: /ow/ /ō/
+**ow** says 2 sounds: /ow/ /ō/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ow/ | — |
-| /ō/ | — |
+OW has two sounds: /ow/ as in 'cow' and /ō/ as in 'snow'. You need to try both to figure out which one works.
 
-> Write **ow** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /ow/ | cow, how, now, brown |
+| /ō/ | snow, grow, low, show |
 
-cow now how down town snow grow low
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| cow | c (/k/), ow (/ow/) | OW = /ow/ | /kow/ |
+| snow | s (/s/), n (/n/), ow (/ō/) | OW = /ō/ (second sound) | /snō/ |
+| how | h (/h/), ow (/ow/) | OW = /ow/ | /how/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-cow now how down town snow grow low
+> cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 
-### Quiz
-1. What sounds does **ow** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-cow now how down town snow grow low
+> The cow is here.
 
 ---
 
-**Next lesson:** Lesson 37
+## Handwriting Practice
 
+Write each word once. Underline the **ow** in each word.
 
+cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ow — it says /ow/ /ō/)*
+2. Is ow a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ow? *(/ow/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 37: Phonogram ou
 
+---
+
+*Practice at home: Flash your **ow** card 5 times. Find **ow** in a book — how many can you find?*

@@ -1,77 +1,82 @@
 # Lesson 50: Phonogram ear
 
-**Stage 2** · Lesson 50 · Type: phonogram-intro
+**Stage 2** · Lesson 50 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa |
 
 ---
 
-## New Learning: Phonogram ear
+## New Learning: The Phonogram **ear**
 
-### The Phonogram **ear**
+### What Is **ear**?
 
 <div class="phonogram">ear</div>
 
-**ear** says: /er/
+**ear** says 1 sound: /er/
 
-| Sound | Example Word |
-|-------|-------------|
-| /er/ | — |
+EAR says /er/ as in 'early'. Another way to spell the /er/ sound!
 
-> Write **ear** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /er/ | learn, earth, early, heard |
 
-learn earth early heard
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| learn | l (/l/), ear (/er/), n (/n/) | EAR = /er/ | /lern/ |
+| earth | ear (/er/), th (/th/) | EAR = /er/ | /erth/ |
+| early | ear (/er/), l (/l/), y (/ē/) | EAR = /er/ at start | er-lē |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-learn earth early heard
+> learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
-### Quiz
-1. What sounds does **ear** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-learn earth early heard
+> The learn is here.
 
 ---
 
-**Next lesson:** Lesson 51
+## Handwriting Practice
 
+Write each word once. Underline the **ear** in each word.
 
+learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ear — it says /er/)*
+2. Is ear a single-letter or multi-letter phonogram? *(Multi-letter — 3 letters that make one sound!)*
+3. What is the most common sound of ear? *(/er/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 51: HF Words Set 1
 
+---
+
+*Practice at home: Flash your **ear** card 5 times. Find **ear** in a book — how many can you find?*

@@ -1,77 +1,84 @@
 # Lesson 49: Phonogram oa
 
-**Stage 2** · Lesson 49 · Type: phonogram-intro
+**Stage 2** · Lesson 49 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur |
 
 ---
 
-## New Learning: Phonogram oa
+## New Learning: The Phonogram **oa**
 
-### The Phonogram **oa**
+### What Is **oa**?
 
 <div class="phonogram">oa</div>
 
-**oa** says: /ō/
+**oa** says 1 sound: /ō/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ō/ | — |
+OA is a two-letter /ō/. It is NEVER at the end of an English word (Rule 3).
 
-> Write **oa** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 3: No English word ends in A? Actually, OA doesn't end words because of how English spelling works.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-boat road coat goat soak
+| Sound | Example Words |
+|-------|--------------|
+| /ō/ | boat, road, soap, goat |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| boat | b (/b/), oa (/ō/), t (/t/) | OA = /ō/, never at end | /bōt/ |
+| road | r (/r/), oa (/ō/), d (/d/) | OA in middle | /rōd/ |
+| soap | s (/s/), oa (/ō/), p (/p/) | OA in middle | /sōp/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-boat road coat goat soak
+> boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 
-### Quiz
-1. What sounds does **oa** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-boat road coat goat soak
+> The boat is here.
 
 ---
 
-**Next lesson:** Lesson 50
+## Handwriting Practice
 
+Write each word once. Underline the **oa** in each word.
 
+boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram oa — it says /ō/)*
+2. Is oa a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with oa? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 50: Phonogram ear
 
+---
+
+*Practice at home: Flash your **oa** card 5 times. Find **oa** in a book — how many can you find?*

@@ -1,79 +1,86 @@
 # Lesson 41: Phonogram ed
 
-**Stage 2** · Lesson 41 · Type: phonogram-intro
+**Stage 2** · Lesson 41 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo |
 
 ---
 
-## New Learning: Phonogram ed
+## New Learning: The Phonogram **ed**
 
-### The Phonogram **ed**
+### What Is **ed**?
 
 <div class="phonogram">ed</div>
 
-**ed** says: /ed/ /d/ /t/
+**ed** says 3 sounds: /ed/ /d/ /t/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ed/ | — |
-| /d/ | — |
-| /t/ | — |
+ED is a verb ending. It has three sounds: /ed/ after d/t, /d/ after voiced sounds, /t/ after unvoiced sounds.
 
-> Write **ed** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 20: The past-tense ending -ED says /ed/ after D or T, /d/ after a voiced sound, and /t/ after an unvoiced consonant.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-wanted played fished ended
+| Sound | Example Words |
+|-------|--------------|
+| /ed/ | wanted, needed, rented |
+| /d/ | played, called, showed |
+| /t/ | fished, jumped, looked |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| wanted | w (/w/), a (/ŏ/), n (/n/), t (/t/), ed (/ed/) | ED = /ed/ after D/T | wŏn-ted |
+| played | p (/p/), l (/l/), ay (/ā/), ed (/d/) | ED = /d/ after voiced | /plād/ |
+| fished | f (/f/), i (/ĭ/), sh (/sh/), ed (/t/) | ED = /t/ after unvoiced | /fĭsht/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-wanted played fished ended
+> wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
-### Quiz
-1. What sounds does **ed** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-wanted played fished ended
+> The wanted is here.
 
 ---
 
-**Next lesson:** Lesson 42
+## Handwriting Practice
 
+Write each word once. Underline the **ed** in each word.
 
+wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ed — it says /ed/ /d/ /t/)*
+2. Is ed a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with ed? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 42: Rule 20: -ED
 
+---
+
+*Practice at home: Flash your **ed** card 5 times. Find **ed** in a book — how many can you find?*

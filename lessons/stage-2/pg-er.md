@@ -1,77 +1,82 @@
 # Lesson 22: Phonogram er
 
-**Stage 2** · Lesson 22 · Type: phonogram-intro
+**Stage 2** · Lesson 22 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or |
 
 ---
 
-## New Learning: Phonogram er
+## New Learning: The Phonogram **er**
 
-### The Phonogram **er**
+### What Is **er**?
 
 <div class="phonogram">er</div>
 
-**er** says: /er/
+**er** says 1 sound: /er/
 
-| Sound | Example Word |
-|-------|-------------|
-| /er/ | — |
+ER says /er/ as in 'her'. This is the most common spelling of the /er/ sound. It appears at the end of many words.
 
-> Write **er** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /er/ | her, sister, under, never |
 
-her sister under after never
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| her | h (/h/), er (/er/) | ER at end | /her/ |
+| sister | s (/s/), i (/ĭ/), s (/s/), t (/t/), er (/er/) | ER at end | sĭs-ter |
+| under | u (/ŭ/), n (/n/), d (/d/), er (/er/) | ER at end | ŭn-der |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-her sister under after never
+> her &nbsp;&nbsp; sister &nbsp;&nbsp; under
 
-### Quiz
-1. What sounds does **er** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-her sister under after never
+> The her is here.
 
 ---
 
-**Next lesson:** Lesson 23
+## Handwriting Practice
 
+Write each word once. Underline the **er** in each word.
 
+her &nbsp;&nbsp; sister &nbsp;&nbsp; under
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram er — it says /er/)*
+2. Is er a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of er? *(/er/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 23: Review: First 8 Multi-Letter
 
+---
+
+*Practice at home: Flash your **er** card 5 times. Find **er** in a book — how many can you find?*

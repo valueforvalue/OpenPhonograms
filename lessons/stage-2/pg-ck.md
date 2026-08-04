@@ -1,77 +1,84 @@
 # Lesson 13: Phonogram ck
 
-**Stage 2** · Lesson 13 · Type: phonogram-intro
+**Stage 2** · Lesson 13 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th |
 
 ---
 
-## New Learning: Phonogram ck
+## New Learning: The Phonogram **ck**
 
-### The Phonogram **ck**
+### What Is **ck**?
 
 <div class="phonogram">ck</div>
 
-**ck** says: /k/
+**ck** says 1 sound: /k/
 
-| Sound | Example Word |
-|-------|-------------|
-| /k/ | — |
+CK is a two-letter /k/ used ONLY after a short vowel. It never comes at the beginning of a word.
 
-> Write **ck** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 26: CK is used only after a single vowel which says its short sound. Never at the beginning.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-back duck stick clock quick
+| Sound | Example Words |
+|-------|--------------|
+| /k/ | back, stick, duck, clock |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| back | b (/b/), a (/ă/), ck (/k/) | Rule 26: CK after short vowel | /băk/ |
+| duck | d (/d/), u (/ŭ/), ck (/k/) | Rule 26: CK after short ŭ | /dŭk/ |
+| sick | s (/s/), i (/ĭ/), ck (/k/) | Rule 26: CK after short ĭ | /sĭk/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-back duck stick clock quick
+> back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 
-### Quiz
-1. What sounds does **ck** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-back duck stick clock quick
+> The back is here.
 
 ---
 
-**Next lesson:** Lesson 14
+## Handwriting Practice
 
+Write each word once. Underline the **ck** in each word.
 
+back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ck — it says /k/)*
+2. Is ck a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with ck? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 14: Spelling Analysis: sh th ck
 
+---
+
+*Practice at home: Flash your **ck** card 5 times. Find **ck** in a book — how many can you find?*

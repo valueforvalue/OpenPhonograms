@@ -1,35 +1,58 @@
-# Lesson 55: Fred the Frog
+# Lesson 55: Reader: Fred the Frog
 
-**Stage 2** · Lesson 55 · Type: reader
+**Stage 2** · Lesson 55 · reader
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of phonograms used in today's story.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| f, r, o, g, sh, th, ck, ee, ng, s, l, p, n, d, h, j, w, c, b, z, y |
 
 ---
 
-## New Learning: Fred the Frog
+## Warm-Up Words — Read These First
 
-## Reader: Fred the Frog
+Read each word sound by sound BEFORE reading the story:
 
-<div class="warmup-box">
-<div class="title">Warm-Up Words — read these first</div>
+> Fred &nbsp; frog &nbsp; log &nbsp; sits &nbsp; pond &nbsp; jumps &nbsp; splash &nbsp; swims &nbsp; cool &nbsp; sees &nbsp; bug &nbsp; rock &nbsp; hops &nbsp; zips &nbsp; fat &nbsp; fly &nbsp; back &nbsp; waits &nbsp; gets &nbsp; happy
 
-—
+---
 
-</div>
+## Story: Fred the Frog
 
 <div class="reader-page">
 
 <div class="reader-text">
 
-— [Story text to be written]
+**Fred the Frog**
+
+Fred is a frog. Fred sits on a log.
+
+The log is in the pond. The sun is hot.
+
+Fred jumps off the log. SPLASH!
+
+Fred swims in the pond. The water is cool.
+
+Fred sees a bug. The bug is on a rock.
+
+Fred hops to the rock. The bug zips away!
+
+Fred is sad. No bug for Fred.
+
+Then Fred sees a big, fat fly. The fly is on the log.
+
+Fred hops back to the log. He stops. He waits.
+
+ZAP! Fred gets the fly!
+
+Yum, yum! Fred is a happy frog.
+
+The End.
 
 </div>
 
@@ -37,56 +60,63 @@
 
 ### Spelling Aid
 
-**New phonogram:** 
+**New phonograms in this story:** sh, th, ck, ee, ng
 
-**Sounds:** —
+**Sounds:** sh = /sh/, th = /th/, ck = /k/, ee = /ē/, ng = /ng/
 
-**Rule:** 
+**Rule check:**
+- CK in 'back': Rule 26 (after short vowel)
+- OO in 'cool': /ü/ sound
+- EE in 'sees', 'green': always /ē/
 
-![Illustration](animals/frog.png)
+**Say-to-Spell tip:** Say /frŏg/ to hear the short O.
+
+### Story Stats
+- **Total words:** 112
+- **Unique words:** 53
+- **Decodable:** ~95%
+- **HF words used:** the, a, is, of, no, he
 
 </div>
 
 </div>
 
-<div class="page-break"></div>
+---
 
-## After Reading
+## After Reading: Talk About It
 
-- What happened in the story? Retell it in your own words.
-- Find all the words with ****. Read them again.
-- Write one sentence using the new phonogram.
-
-
-
-![Fred the Frog](images/animals/frog.png)
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+1. Where does Fred sit at the start?
+2. Why does Fred jump into the pond?
+3. What happens when Fred tries to catch the bug?
+4. How does Fred feel at the end? Why?
+5. Can you find a word with CK in it? (back) Which rule explains it?
 
 ---
 
-**Next lesson:** Lesson 56
+## Spelling Practice
 
+Find these words in the story. Write them and underline the phonograms:
 
+| Word from Story | Phonograms |
+|-----------------|------------|
+| frog | f (/f/), r (/r/), o (/ŏ/), g (/g/) |
+| splash | s (/s/), p (/p/), l (/l/), a (/ă/), sh (/sh/) |
+| cool | c (/k/), oo (/ü/), l (/l/) |
+| back | b (/b/), a (/ă/), ck (/k/) |
+| happy | h (/h/), a (/ă/), p (/p/), p (/p/), y (/ē/) |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What was the story about?
+2. What new phonogram did you see in the story?
+3. Write your favorite word from the story. Underline its phonograms.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 56: Stage 2 Mastery Check
 
+---
+
+*Practice at home: Read this story aloud to a family member!*

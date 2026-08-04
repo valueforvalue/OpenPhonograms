@@ -1,49 +1,76 @@
 # Lesson 7: VC Words: at in on up it
 
-**Stage 2** · Lesson 7 · Type: word-building
+**Stage 2** · Lesson 7 · word-building
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 a-z |
 
 ---
 
-## New Learning: VC Words: at in on up it
+## New Learning: Two-Letter Words
 
-— [word-building content to be written]
-## Review
+### What We're Building Today
 
-### Quick Check
+Today we build the smallest real words — just two letters: a vowel and a consonant (VC). These are the foundation of all reading!
 
-- Check phonogram recall
-- Review new rule if introduced
 
-### Words to Spell (Dictation)
+### Word Builder Chart
 
-at in on up it
+For each word, say the sounds, then write the phonograms:
+
+| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
+|------|---------|---------|---------|---------|------------|
+| at | /a/ | /t/ | a | t |
+| in | /i/ | /n/ | i | n |
+| on | /o/ | /n/ | o | n |
+| up | /u/ | /p/ | u | p |
+| it | /i/ | /t/ | i | t |
+| am | /a/ | /m/ | a | m |
+| an | /a/ | /n/ | a | n |
+| ad | /a/ | /d/ | a | d |
+| if | /i/ | /f/ | i | f |
 
 ---
 
-**Next lesson:** Lesson 8
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| at | a (/a/), t (/t/) | Short vowel | /at/ |
+| in | i (/i/), n (/n/) | Short vowel | /in/ |
+| on | o (/o/), n (/n/) | Short vowel | /on/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound, then blend:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> at &nbsp;&nbsp; in &nbsp;&nbsp; on &nbsp;&nbsp; up &nbsp;&nbsp; it &nbsp;&nbsp; am &nbsp;&nbsp; an &nbsp;&nbsp; ad &nbsp;&nbsp; if
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+Read these sentences:
 
+> at and in are fun.
+
+---
+
+## Quick Check
+
+1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
+2. Build the word "at" — tell me each sound, then write it.
+3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
+
+---
+
+**Next lesson:** Lesson 8: CVC with Continuant Consonants
+
+---
+
+*Practice at home: Build 3 words from today's pattern on your whiteboard.*

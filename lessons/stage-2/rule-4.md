@@ -1,73 +1,77 @@
-# Lesson 38: Rule 4: A E O U Long at End of Syllable
+# Lesson 38: Rule 4 — A E O U at End of Syllable Say Long Sound
 
-**Stage 2** · Lesson 38 · Type: rule-intro
+**Stage 2** · Lesson 38 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou |
 
 ---
 
-## New Learning: Rule 4: A E O U Long at End of Syllable
+## New Learning: Rule 4
 
-### Spelling Rule 4
+### The Rule
 
-<span class="rule-badge">Rule 4</span> **Rule 4**
+> ****A**, **E**, **O**, and **U** usually say their long sounds at the end of a syllable.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Exists
 
-## Practice
+In an OPEN syllable (a syllable that ends with a vowel), the vowel says its long sound. For example, in 'ba·by', the first syllable 'ba' ends with A, so A says /ā/. In 'go', the syllable ends with O, so O says /ō/.
 
-### Write It
-Write each word twice:
+### Examples
 
-he go baby unit
+ba·by (A says /ā/) · e·ven (E says /ē/) · go (O says /ō/) · u·nit (U says /ū/) · mu·sic · o·pen · pa·per
 
-### Read It
-Read these words sound by sound, then blend:
+### Let's Find the Rule in Action
 
-he go baby unit
+For each word below, identify how Rule 4 applies:
 
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-he go baby unit
+| Word | How Rule 4 Works Here |
+|------|-------------------------------|
+| go | Rule 4 applies because... |
+| no | Rule 4 applies because... |
+| so | Rule 4 applies because... |
+| he | Rule 4 applies because... |
+| me | Rule 4 applies because... |
+| she | Rule 4 applies because... |
 
 ---
 
-**Next lesson:** Lesson 39
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| go | (sound out) | Rule 4 | /go/ |
+| no | (sound out) | Rule 4 | /no/ |
+| so | (sound out) | Rule 4 | /so/ |
+| he | (sound out) | Rule 4 | /he/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> go &nbsp;&nbsp; no &nbsp;&nbsp; so &nbsp;&nbsp; he &nbsp;&nbsp; me &nbsp;&nbsp; she &nbsp;&nbsp; baby &nbsp;&nbsp; open
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 4? *(Restate in your own words.)*
+2. Why does English need Rule 4? *(Explain the reason.)*
+3. Give an example of Rule 4 that we haven't used today.
+
+---
+
+**Next lesson:** Lesson 39: Open Syllables
+
+---
+
+*Practice at home: Find 3 words in a book that follow Rule 4. Write them down!*

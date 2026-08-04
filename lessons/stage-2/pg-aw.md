@@ -1,77 +1,84 @@
 # Lesson 44: Phonogram aw
 
-**Stage 2** · Lesson 44 · Type: phonogram-intro
+**Stage 2** · Lesson 44 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh |
 
 ---
 
-## New Learning: Phonogram aw
+## New Learning: The Phonogram **aw**
 
-### The Phonogram **aw**
+### What Is **aw**?
 
 <div class="phonogram">aw</div>
 
-**aw** says: /ä/
+**aw** says 1 sound: /ä/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ä/ | — |
+AW says /ä/ and is used at the END of a base word (Rule 3).
 
-> Write **aw** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 3: No English word ends in U. AW ends many words.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-saw draw claw paw law
+| Sound | Example Words |
+|-------|--------------|
+| /ä/ | saw, draw, law, straw |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| saw | s (/s/), aw (/ä/) | AW at end — Rule 3 | /sä/ |
+| draw | d (/d/), r (/r/), aw (/ä/) | AW at end | /drä/ |
+| law | l (/l/), aw (/ä/) | AW at end | /lä/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-saw draw claw paw law
+> saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
-### Quiz
-1. What sounds does **aw** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-saw draw claw paw law
+> The saw is here.
 
 ---
 
-**Next lesson:** Lesson 45
+## Handwriting Practice
 
+Write each word once. Underline the **aw** in each word.
 
+saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram aw — it says /ä/)*
+2. Is aw a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with aw? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 45: Phonogram au
 
+---
+
+*Practice at home: Flash your **aw** card 5 times. Find **aw** in a book — how many can you find?*

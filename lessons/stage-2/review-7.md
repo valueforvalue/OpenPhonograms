@@ -1,51 +1,67 @@
-# Lesson 48: Review: ow ou oo ed igh aw au ir ur
+# Lesson 48: Review: ow ou oo ed igh aw au ir ur oa ear
 
-**Stage 2** · Lesson 48 · Type: review
+**Stage 2** · Lesson 48 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash ALL phonograms learned so far. Goal: child says ALL sounds within 2 seconds per card.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z, sh, th, ck, ee, ng, ar, or, er, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Review: ow ou oo ed igh aw au ir ur
+## Game 1: Phonogram Bingo
 
-### Review: ow ou oo ed igh aw au ir ur
+Pick 6 phonograms from the list above and write one in each box of a 3×2 grid on your whiteboard. Adult calls out a SOUND. If you have the phonogram that makes that sound, cross it off!
 
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+| ☐ | ☐ | ☐ |
+|---|---|---|
+| ☐ | ☐ | ☐ |
 
 ---
 
-**Next lesson:** Lesson 49
+## Game 2: Build the Word
 
+Adult says a word. Child builds it using phonogram tiles (or writes it). Underline any multi-letter phonograms.
 
+| Word | Multi-letter PG? | Rules? |
+|------|-----------------|--------|
+| cow | c + ow | OW = /ow/ |
+| out | ou + t | OU = /ow/ |
+| book | b + oo + k | OO = /ö/ |
+| played | p + l + ay + ed | ED = /d/ |
+| light | l + igh + t | Rule 28 |
+| saw | s + aw | AW at end |
+| girl | g + ir + l | IR = /er/ |
+| hurt | h + ur + t | UR = /er/ |
 
 ---
 
-<div class="page-break"></div>
+## Game 3: Which One Wins?
 
-## Lesson Complete!
+Adult says two phonograms. Child picks the one that makes a given sound.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+- /ow/ — ow or ou? *Both can!*
+- /er/ — er, ir, or ur? *All three!*
+- /ō/ — oa or ow? *oa in middle, ow often at end.*
+- /ä/ — aw or au? *aw at end, au in middle.*
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Spelling Challenge
+
+Spell these words from dictation. Take your time — sound each one out.
+
+> cow, out, book, played, light, saw, cause, girl, hurt, boat, learn
+
+---
+
+**Next lesson:** Lesson 49: Phonogram oa
+
+---
+
+*Practice at home: Play "Which One Wins?" with a family member!*

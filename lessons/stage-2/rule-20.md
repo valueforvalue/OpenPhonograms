@@ -1,73 +1,77 @@
-# Lesson 42: Rule 20: Three Sounds of -ED
+# Lesson 42: Rule 20 — Three Sounds of -ED
 
-**Stage 2** · Lesson 42 · Type: rule-intro
+**Stage 2** · Lesson 42 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed |
 
 ---
 
-## New Learning: Rule 20: Three Sounds of -ED
+## New Learning: Rule 20
 
-### Spelling Rule 20
+### The Rule
 
-<span class="rule-badge">Rule 20</span> **Rule 20**
+> **The past-tense ending **-ED** says /ed/ after **D** or **T**, /d/ after a voiced sound, and /t/ after an unvoiced consonant.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Exists
 
-## Practice
+ED marks past tense, but it doesn't always say /ed/. After D or T, you hear the full /ed/ syllable (wanted, needed). After voiced consonants, it says /d/ (played, called). After unvoiced consonants, it says /t/ (fished, jumped).
 
-### Write It
-Write each word twice:
+### Examples
 
-wanted played fished
+/ed/: wanted, needed, rented · /d/: played, called, showed · /t/: fished, jumped, looked
 
-### Read It
-Read these words sound by sound, then blend:
+### Let's Find the Rule in Action
 
-wanted played fished
+For each word below, identify how Rule 20 applies:
 
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-wanted played fished
+| Word | How Rule 20 Works Here |
+|------|-------------------------------|
+| wanted | Rule 20 applies because... |
+| played | Rule 20 applies because... |
+| fished | Rule 20 applies because... |
+| jumped | Rule 20 applies because... |
+| called | Rule 20 applies because... |
+| looked | Rule 20 applies because... |
 
 ---
 
-**Next lesson:** Lesson 43
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| wanted | (sound out) | Rule 20 | /wanted/ |
+| played | (sound out) | Rule 20 | /played/ |
+| fished | (sound out) | Rule 20 | /fished/ |
+| jumped | (sound out) | Rule 20 | /jumped/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished &nbsp;&nbsp; jumped &nbsp;&nbsp; called &nbsp;&nbsp; looked &nbsp;&nbsp; needed
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 20? *(Restate in your own words.)*
+2. Why does English need Rule 20? *(Explain the reason.)*
+3. Give an example of Rule 20 that we haven't used today.
+
+---
+
+**Next lesson:** Lesson 43: Phonogram igh
+
+---
+
+*Practice at home: Find 3 words in a book that follow Rule 20. Write them down!*

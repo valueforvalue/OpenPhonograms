@@ -1,73 +1,77 @@
-# Lesson 54: Rule 30: Double F L S (Floss Rule)
+# Lesson 54: Rule 30 — Double F, L, S (Floss Rule)
 
-**Stage 2** · Lesson 54 · Type: rule-intro
+**Stage 2** · Lesson 54 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 30: Double F L S (Floss Rule)
+## New Learning: Rule 30
 
-### Spelling Rule 30
+### The Rule
 
-<span class="rule-badge">Rule 30</span> **Rule 30**
+> **In a one-syllable word, double the final **F**, **L**, or **S** after a single vowel.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Exists
 
-## Practice
+This is sometimes called the 'Floss Rule.' After a short vowel in a one-syllable word, if the word ends in F, L, or S, double it! off, bell, miss, staff, full, grass.
 
-### Write It
-Write each word twice:
+### Examples
 
-off bell miss buzz egg
+off, cliff, stuff (FF) · bell, fill, tall, full (LL) · miss, grass, class, kiss (SS)
 
-### Read It
-Read these words sound by sound, then blend:
+### Let's Find the Rule in Action
 
-off bell miss buzz egg
+For each word below, identify how Rule 30 applies:
 
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-off bell miss buzz egg
+| Word | How Rule 30 Works Here |
+|------|-------------------------------|
+| off | Rule 30 applies because... |
+| bell | Rule 30 applies because... |
+| miss | Rule 30 applies because... |
+| fill | Rule 30 applies because... |
+| grass | Rule 30 applies because... |
+| tell | Rule 30 applies because... |
 
 ---
 
-**Next lesson:** Lesson 55
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| off | (sound out) | Rule 30 | /off/ |
+| bell | (sound out) | Rule 30 | /bell/ |
+| miss | (sound out) | Rule 30 | /miss/ |
+| fill | (sound out) | Rule 30 | /fill/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> off &nbsp;&nbsp; bell &nbsp;&nbsp; miss &nbsp;&nbsp; fill &nbsp;&nbsp; grass &nbsp;&nbsp; tell &nbsp;&nbsp; class
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 30? *(Restate in your own words.)*
+2. Why does English need Rule 30? *(Explain the reason.)*
+3. Give an example of Rule 30 that we haven't used today.
+
+---
+
+**Next lesson:** Lesson 55: Reader: Fred the Frog
+
+---
+
+*Practice at home: Find 3 words in a book that follow Rule 30. Write them down!*

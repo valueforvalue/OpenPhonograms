@@ -1,77 +1,84 @@
 # Lesson 28: Phonogram ai
 
-**Stage 2** · Lesson 28 · Type: phonogram-intro
+**Stage 2** · Lesson 28 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy |
 
 ---
 
-## New Learning: Phonogram ai
+## New Learning: The Phonogram **ai**
 
-### The Phonogram **ai**
+### What Is **ai**?
 
 <div class="phonogram">ai</div>
 
-**ai** says: /ā/
+**ai** says 1 sound: /ā/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ā/ | — |
+AI is a two-letter /ā/. It is NEVER used at the end of an English word (Rule 3).
 
-> Write **ai** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 3: No English word ends in I. AI never ends a word. Use AY instead.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-rain pain main tail sail
+| Sound | Example Words |
+|-------|--------------|
+| /ā/ | rain, paint, sail, train |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| rain | r (/r/), ai (/ā/), n (/n/) | AI never at end — Rule 3 | /rān/ |
+| sail | s (/s/), ai (/ā/), l (/l/) | AI in middle | /sāl/ |
+| train | t (/t/), r (/r/), ai (/ā/), n (/n/) | AI in middle | /trān/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-rain pain main tail sail
+> rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
-### Quiz
-1. What sounds does **ai** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-rain pain main tail sail
+> The rain is here.
 
 ---
 
-**Next lesson:** Lesson 29
+## Handwriting Practice
 
+Write each word once. Underline the **ai** in each word.
 
+rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ai — it says /ā/)*
+2. Is ai a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with ai? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 29: Phonogram ay
 
+---
+
+*Practice at home: Flash your **ai** card 5 times. Find **ai** in a book — how many can you find?*

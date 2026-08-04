@@ -1,49 +1,78 @@
 # Lesson 10: All CVC Combinations
 
-**Stage 2** · Lesson 10 · Type: word-building
+**Stage 2** · Lesson 10 · word-building
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 a-z |
 
 ---
 
-## New Learning: All CVC Combinations
+## New Learning: All CVC Words Together
 
-— [word-building content to be written]
-## Review
+### What We're Building Today
 
-### Quick Check
+Now we can read ANY CVC word with short vowels! Today we practice mixing continuant and stop consonants with all five short vowels.
 
-- Check phonogram recall
-- Review new rule if introduced
+> **You can now read over 500 CVC words!** Every new phonogram you learn unlocks hundreds more.
 
-### Words to Spell (Dictation)
+### Word Builder Chart
 
-jam web fox zip quit
+For each word, say the sounds, then write the phonograms:
+
+| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
+|------|---------|---------|---------|---------|------------|
+| jam | /j/ | /a/ | /m/ | j | a | m |
+| web | /w/ | /e/ | /b/ | w | e | b |
+| fox | /f/ | /o/ | /x/ | f | o | x |
+| zip | /z/ | /i/ | /p/ | z | i | p |
+| quit | /q/ | /u/ | /i/ | /t/ | q | u | i | t |
+| box | /b/ | /o/ | /x/ | b | o | x |
+| fix | /f/ | /i/ | /x/ | f | i | x |
+| mix | /m/ | /i/ | /x/ | m | i | x |
+| six | /s/ | /i/ | /x/ | s | i | x |
+| job | /j/ | /o/ | /b/ | j | o | b |
 
 ---
 
-**Next lesson:** Lesson 11
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| jam | j (/j/), a (/a/), m (/m/) | Short vowel | /jam/ |
+| web | w (/w/), e (/e/), b (/b/) | Short vowel | /web/ |
+| fox | f (/f/), o (/o/), x (/x/) | Short vowel | /fox/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound, then blend:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> jam &nbsp;&nbsp; web &nbsp;&nbsp; fox &nbsp;&nbsp; zip &nbsp;&nbsp; quit &nbsp;&nbsp; box &nbsp;&nbsp; fix &nbsp;&nbsp; mix &nbsp;&nbsp; six &nbsp;&nbsp; job &nbsp;&nbsp; wet &nbsp;&nbsp; yes
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+Read these sentences:
 
+> jam and web are fun.
+
+---
+
+## Quick Check
+
+1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
+2. Build the word "jam" — tell me each sound, then write it.
+3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
+
+---
+
+**Next lesson:** Lesson 11: Phonogram sh
+
+---
+
+*Practice at home: Build 3 words from today's pattern on your whiteboard.*

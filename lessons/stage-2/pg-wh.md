@@ -1,77 +1,82 @@
 # Lesson 33: Phonogram wh
 
-**Stage 2** · Lesson 33 · Type: phonogram-intro
+**Stage 2** · Lesson 33 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch |
 
 ---
 
-## New Learning: Phonogram wh
+## New Learning: The Phonogram **wh**
 
-### The Phonogram **wh**
+### What Is **wh**?
 
 <div class="phonogram">wh</div>
 
-**wh** says: /hw/
+**wh** says 1 sound: /hw/
 
-| Sound | Example Word |
-|-------|-------------|
-| /hw/ | — |
+WH says /hw/. Blow a little air when you say it — you should feel it on your hand.
 
-> Write **wh** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /hw/ | when, which, white, whale |
 
-when which whip whisk
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| when | wh (/hw/), e (/ĕ/), n (/n/) | WH always /hw/ | /hwĕn/ |
+| which | wh (/hw/), i (/ĭ/), ch (/ch/) | WH + CH in same word! | /hwĭch/ |
+| white | wh (/hw/), i (/ī/), t (/t/), e — silent E (12.1) | WH + silent E | /hwīt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-when which whip whisk
+> when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
-### Quiz
-1. What sounds does **wh** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-when which whip whisk
+> The when is here.
 
 ---
 
-**Next lesson:** Lesson 34
+## Handwriting Practice
 
+Write each word once. Underline the **wh** in each word.
 
+when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram wh — it says /hw/)*
+2. Is wh a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of wh? *(/hw/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 34: Phonogram ea
 
+---
+
+*Practice at home: Flash your **wh** card 5 times. Find **wh** in a book — how many can you find?*

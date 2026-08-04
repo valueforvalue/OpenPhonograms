@@ -1,79 +1,84 @@
 # Lesson 34: Phonogram ea
 
-**Stage 2** · Lesson 34 · Type: phonogram-intro
+**Stage 2** · Lesson 34 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh |
 
 ---
 
-## New Learning: Phonogram ea
+## New Learning: The Phonogram **ea**
 
-### The Phonogram **ea**
+### What Is **ea**?
 
 <div class="phonogram">ea</div>
 
-**ea** says: /ē/ /ĕ/ /ā/
+**ea** says 3 sounds: /ē/ /ĕ/ /ā/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ē/ | — |
-| /ĕ/ | — |
-| /ā/ | — |
+EA has three sounds! /ē/ is most common. /ĕ/ is the second sound. /ā/ is rare — only a few words use it.
 
-> Write **ea** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /ē/ | eat, read, team |
+| /ĕ/ | head, bread, weather |
+| /ā/ | great, break, steak |
 
-eat read sea tea bread head
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| eat | ea (/ē/), t (/t/) | EA = /ē/ (most common) | /ēt/ |
+| head | h (/h/), ea (/ĕ/), d (/d/) | EA = /ĕ/ (second sound) | /hĕd/ |
+| great | g (/g/), r (/r/), ea (/ā/), t (/t/) | EA = /ā/ (rare!) | /grāt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-eat read sea tea bread head
+> eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 
-### Quiz
-1. What sounds does **ea** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-eat read sea tea bread head
+> The eat is here.
 
 ---
 
-**Next lesson:** Lesson 35
+## Handwriting Practice
 
+Write each word once. Underline the **ea** in each word.
 
+eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ea — it says /ē/ /ĕ/ /ā/)*
+2. Is ea a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ea? *(/ē/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 35: Spelling: ch wh ea
 
+---
+
+*Practice at home: Flash your **ea** card 5 times. Find **ea** in a book — how many can you find?*

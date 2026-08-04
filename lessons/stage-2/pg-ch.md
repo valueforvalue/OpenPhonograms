@@ -1,79 +1,84 @@
 # Lesson 32: Phonogram ch
 
-**Stage 2** · Lesson 32 · Type: phonogram-intro
+**Stage 2** · Lesson 32 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay |
 
 ---
 
-## New Learning: Phonogram ch
+## New Learning: The Phonogram **ch**
 
-### The Phonogram **ch**
+### What Is **ch**?
 
 <div class="phonogram">ch</div>
 
-**ch** says: /ch/ /k/ /sh/
+**ch** says 3 sounds: /ch/ /k/ /sh/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ch/ | — |
-| /k/ | — |
-| /sh/ | — |
+CH has three sounds! /ch/ is most common (English words). /k/ comes from Greek words. /sh/ comes from French words.
 
-> Write **ch** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /ch/ | chin, much, chip |
+| /k/ | school, echo, chemist |
+| /sh/ | chef, machine, brochure |
 
-chin chip chat chop school chef
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| chin | ch (/ch/), i (/ĭ/), n (/n/) | CH = /ch/ (most common) | /chĭn/ |
+| much | m (/m/), u (/ŭ/), ch (/ch/) | CH at end | /mŭch/ |
+| school | s (/s/), ch (/k/), oo (/ü/), l (/l/) | CH says /k/ (Greek) | skül |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-chin chip chat chop school chef
+> chin &nbsp;&nbsp; much &nbsp;&nbsp; school
 
-### Quiz
-1. What sounds does **ch** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-chin chip chat chop school chef
+> The chin is here.
 
 ---
 
-**Next lesson:** Lesson 33
+## Handwriting Practice
 
+Write each word once. Underline the **ch** in each word.
 
+chin &nbsp;&nbsp; much &nbsp;&nbsp; school
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ch — it says /ch/ /k/ /sh/)*
+2. Is ch a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ch? *(/ch/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 33: Phonogram wh
 
+---
+
+*Practice at home: Flash your **ch** card 5 times. Find **ch** in a book — how many can you find?*

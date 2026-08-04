@@ -1,77 +1,84 @@
 # Lesson 43: Phonogram igh
 
-**Stage 2** · Lesson 43 · Type: phonogram-intro
+**Stage 2** · Lesson 43 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed |
 
 ---
 
-## New Learning: Phonogram igh
+## New Learning: The Phonogram **igh**
 
-### The Phonogram **igh**
+### What Is **igh**?
 
 <div class="phonogram">igh</div>
 
-**igh** says: /ī/
+**igh** says 1 sound: /ī/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ī/ | — |
+IGH is a three-letter /ī/. The GH is silent here.
 
-> Write **igh** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Spelling Rule:** Rule 28: GH is often silent after I.
 
-### Write It
-Write each word twice:
+### Sound Table
 
-light high night right bright
+| Sound | Example Words |
+|-------|--------------|
+| /ī/ | light, high, night, right |
 
-### Read It
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| light | l (/l/), igh (/ī/), t (/t/) | Rule 28: GH silent after I | /līt/ |
+| night | n (/n/), igh (/ī/), t (/t/) | Rule 28: GH silent | /nīt/ |
+| right | r (/r/), igh (/ī/), t (/t/) | Rule 28: GH silent | /rīt/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-light high night right bright
+> light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
-### Quiz
-1. What sounds does **igh** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-light high night right bright
+> The light is here.
 
 ---
 
-**Next lesson:** Lesson 44
+## Handwriting Practice
 
+Write each word once. Underline the **igh** in each word.
 
+light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram igh — it says /ī/)*
+2. Is igh a single-letter or multi-letter phonogram? *(Multi-letter — 3 letters that make one sound!)*
+3. What rule did we learn with igh? *(Restate in your own words.)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 44: Phonogram aw
 
+---
+
+*Practice at home: Flash your **igh** card 5 times. Find **igh** in a book — how many can you find?*

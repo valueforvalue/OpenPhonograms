@@ -1,51 +1,63 @@
 # Lesson 1: Review Stage 1 Phonograms
 
-**Stage 2** · Lesson 1 · Type: review
+**Stage 2** · Lesson 1 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash ALL phonograms learned so far. Goal: child says ALL sounds within 2 seconds per card.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
 
 ---
 
-## New Learning: Review Stage 1 Phonograms
+## Game 1: Phonogram Bingo
 
-### Review Stage 1 Phonograms
+Pick 6 phonograms from the list above and write one in each box of a 3×2 grid on your whiteboard. Adult calls out a SOUND. If you have the phonogram that makes that sound, cross it off!
 
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-cat dog bed pig sun
+| ☐ | ☐ | ☐ |
+|---|---|---|
+| ☐ | ☐ | ☐ |
 
 ---
 
-**Next lesson:** Lesson 2
+## Game 2: Build the Word
 
+Adult says a word. Child builds it using phonogram tiles (or writes it). Underline any multi-letter phonograms.
 
+| Word | Multi-letter PG? | Rules? |
+|------|-----------------|--------|
+| cat | c, a, t | No — all single |
+| ship | sh, i, p | Yes — sh! |
+| dog | d, o, g | No |
+| quit | qu, i, t | Yes — qu! |
 
 ---
 
-<div class="page-break"></div>
+## Game 3: Which One Wins?
 
-## Lesson Complete!
+Adult says two phonograms. Child picks the one that makes a given sound.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+- /ă/ — a or o? *a!*
+- /k/ — c or k? *Both can!*
+- /j/ — j or g? *Both can!*
+- /kw/ — q alone, qu, or k? *qu!*
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Spelling Challenge
+
+Spell these words from dictation. Take your time — sound each one out.
+
+> cat, dog, sun, quit, jam, zip
+
+---
+
+**Next lesson:** Lesson 2: Short Vowel a
+
+---
+
+*Practice at home: Play "Which One Wins?" with a family member!*

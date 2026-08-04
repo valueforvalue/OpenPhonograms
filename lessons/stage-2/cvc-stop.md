@@ -1,49 +1,78 @@
 # Lesson 9: CVC with Stop Consonants
 
-**Stage 2** · Lesson 9 · Type: word-building
+**Stage 2** · Lesson 9 · word-building
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 a-z |
 
 ---
 
-## New Learning: CVC with Stop Consonants
+## New Learning: CVC Words — Stop Sounds
 
-— [word-building content to be written]
-## Review
+### What We're Building Today
 
-### Quick Check
+Stop consonants are sounds you CAN'T stretch: /k/, /d/, /g/, /p/, /t/, /b/. Words that start with these are harder to blend. Don't add 'uh' (/ə/) to the end — say /k/ not /kuh/!
 
-- Check phonogram recall
-- Review new rule if introduced
+> **Tip:** Don't add 'uh' to stop sounds! /k/ is crisp and quick — not /kuh/. Say the sound, then go straight to the next one.
 
-### Words to Spell (Dictation)
+### Word Builder Chart
 
-cat dog pot big tap cup
+For each word, say the sounds, then write the phonograms:
+
+| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
+|------|---------|---------|---------|---------|------------|
+| cat | /c/ | /a/ | /t/ | c | a | t |
+| dog | /d/ | /o/ | /g/ | d | o | g |
+| pot | /p/ | /o/ | /t/ | p | o | t |
+| big | /b/ | /i/ | /g/ | b | i | g |
+| tap | /t/ | /a/ | /p/ | t | a | p |
+| cup | /c/ | /u/ | /p/ | c | u | p |
+| bat | /b/ | /a/ | /t/ | b | a | t |
+| pat | /p/ | /a/ | /t/ | p | a | t |
+| top | /t/ | /o/ | /p/ | t | o | p |
+| cot | /c/ | /o/ | /t/ | c | o | t |
 
 ---
 
-**Next lesson:** Lesson 10
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| cat | c (/c/), a (/a/), t (/t/) | Short vowel | /cat/ |
+| dog | d (/d/), o (/o/), g (/g/) | Short vowel | /dog/ |
+| pot | p (/p/), o (/o/), t (/t/) | Short vowel | /pot/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound, then blend:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> cat &nbsp;&nbsp; dog &nbsp;&nbsp; pot &nbsp;&nbsp; big &nbsp;&nbsp; tap &nbsp;&nbsp; cup &nbsp;&nbsp; bat &nbsp;&nbsp; pat &nbsp;&nbsp; top &nbsp;&nbsp; cot &nbsp;&nbsp; dot &nbsp;&nbsp; got
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+Read these sentences:
 
+> cat and dog are fun.
+
+---
+
+## Quick Check
+
+1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
+2. Build the word "cat" — tell me each sound, then write it.
+3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
+
+---
+
+**Next lesson:** Lesson 10: All CVC Combinations
+
+---
+
+*Practice at home: Build 3 words from today's pattern on your whiteboard.*

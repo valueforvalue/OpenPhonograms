@@ -1,49 +1,78 @@
 # Lesson 39: Open Syllable Words
 
-**Stage 2** · Lesson 39 · Type: word-building
+**Stage 2** · Lesson 39 · word-building
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 a-z |
 
 ---
 
-## New Learning: Open Syllable Words
+## New Learning: When a Syllable Ends with a Vowel
 
-— [word-building content to be written]
-## Review
+### What We're Building Today
 
-### Quick Check
+An open syllable ends with a vowel. The vowel says its LONG sound! go, he, me, no, so, she, we, be. This is Rule 4 in action.
 
-- Check phonogram recall
-- Review new rule if introduced
+> **Open = vowel not 'closed' by a consonant.** In 'go,' the syllable ends with O, so O says /ō/. In 'got,' the T closes the syllable, so O says /ŏ/.
 
-### Words to Spell (Dictation)
+### Word Builder Chart
 
-he she we go no so by my
+For each word, say the sounds, then write the phonograms:
+
+| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
+|------|---------|---------|---------|---------|------------|
+| go | /g/ | /o/ | g | o |
+| no | /n/ | /o/ | n | o |
+| so | /s/ | /o/ | s | o |
+| he | /h/ | /e/ | h | e |
+| me | /m/ | /e/ | m | e |
+| she | /s/ | /h/ | /e/ | s | h | e |
+| we | /w/ | /e/ | w | e |
+| be | /b/ | /e/ | b | e |
+| hi | /h/ | /i/ | h | i |
+| by | /b/ | /y/ | b | y |
 
 ---
 
-**Next lesson:** Lesson 40
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| go | g (/g/), o (/o/) | Short vowel | /go/ |
+| no | n (/n/), o (/o/) | Short vowel | /no/ |
+| so | s (/s/), o (/o/) | Short vowel | /so/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound, then blend:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> go &nbsp;&nbsp; no &nbsp;&nbsp; so &nbsp;&nbsp; he &nbsp;&nbsp; me &nbsp;&nbsp; she &nbsp;&nbsp; we &nbsp;&nbsp; be &nbsp;&nbsp; hi &nbsp;&nbsp; by &nbsp;&nbsp; my &nbsp;&nbsp; try
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+Read these sentences:
 
+> go and no are fun.
+
+---
+
+## Quick Check
+
+1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
+2. Build the word "go" — tell me each sound, then write it.
+3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
+
+---
+
+**Next lesson:** Lesson 40: Phonogram oo
+
+---
+
+*Practice at home: Build 3 words from today's pattern on your whiteboard.*

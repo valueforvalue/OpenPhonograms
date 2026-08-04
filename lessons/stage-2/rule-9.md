@@ -1,73 +1,77 @@
-# Lesson 30: Rule 9: AY at End of Base Word
+# Lesson 30: Rule 9 — AY at End of Base Word
 
-**Stage 2** · Lesson 30 · Type: rule-intro
+**Stage 2** · Lesson 30 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay |
 
 ---
 
-## New Learning: Rule 9: AY at End of Base Word
+## New Learning: Rule 9
 
-### Spelling Rule 9
+### The Rule
 
-<span class="rule-badge">Rule 9</span> **Rule 9**
+> ****AY** usually spells the sound /ā/ at the end of a base word.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Exists
 
-## Practice
+Because of Rule 3 (no word ends in I), AI can't end a word. So we use AY instead. AI is used in the middle, AY at the end.
 
-### Write It
-Write each word twice:
+### Examples
 
-day play stay rain paint
+day, play, stay, may, say, way (AY at end) · rain, paint, train (AI in middle)
 
-### Read It
-Read these words sound by sound, then blend:
+### Let's Find the Rule in Action
 
-day play stay rain paint
+For each word below, identify how Rule 9 applies:
 
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-day play stay rain paint
+| Word | How Rule 9 Works Here |
+|------|-------------------------------|
+| day | Rule 9 applies because... |
+| play | Rule 9 applies because... |
+| stay | Rule 9 applies because... |
+| may | Rule 9 applies because... |
+| ray | Rule 9 applies because... |
+| say | Rule 9 applies because... |
 
 ---
 
-**Next lesson:** Lesson 31
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| day | (sound out) | Rule 9 | /day/ |
+| play | (sound out) | Rule 9 | /play/ |
+| stay | (sound out) | Rule 9 | /stay/ |
+| may | (sound out) | Rule 9 | /may/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+Read these words sound by sound:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> day &nbsp;&nbsp; play &nbsp;&nbsp; stay &nbsp;&nbsp; may &nbsp;&nbsp; ray &nbsp;&nbsp; say &nbsp;&nbsp; rain &nbsp;&nbsp; train
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 9? *(Restate in your own words.)*
+2. Why does English need Rule 9? *(Explain the reason.)*
+3. Give an example of Rule 9 that we haven't used today.
+
+---
+
+**Next lesson:** Lesson 31: Spelling: oi oy ai ay
+
+---
+
+*Practice at home: Find 3 words in a book that follow Rule 9. Write them down!*

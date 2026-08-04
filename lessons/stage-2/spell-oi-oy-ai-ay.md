@@ -1,61 +1,74 @@
 # Lesson 31: Spelling Analysis: oi oy ai ay
 
-**Stage 2** · Lesson 31 · Type: spelling-analysis
+**Stage 2** · Lesson 31 · spelling-analysis
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Focus on oi/oy and ai/ay Pairs.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay |
 
 ---
 
-## New Learning: Spelling Analysis: oi oy ai ay
+## Spelling Analysis Routine
 
-## Spelling Analysis
+Follow the 5-step routine for EVERY word:
 
-Follow the 5-step routine for each word: Hear & Say → Segment → Write → Analyze → Read.
-
-| Word | Phonograms | Rules | Say-to-Spell |
-|------|-----------|-------|--------------|
-| coin | | | |
-| boy | | | |
-| rain | | | |
-| day | | | |
-| play | | | |
-| join | | | |
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-coin boy rain day play join
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter PG, 2 fingers = multi-letter).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
 
 ---
 
-**Next lesson:** Lesson 32
+## Spelling Analysis: oi, oy, ai, ay
 
+Each of these pairs makes the same sound — one is for the middle of a word, one is for the end. Rule 3 explains why!
 
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| coin | c (/k/), oi (/oi/), n (/n/) | OI never at end — Rule 3 | /koin/ |
+| boy | b (/b/), oy (/oi/) | OY at end — Rule 3 | /boi/ |
+| rain | r (/r/), ai (/ā/), n (/n/) | AI never at end — Rule 3 | /rān/ |
+| day | d (/d/), ay (/ā/) | AY at end — Rule 9 | /dā/ |
+| toy | t (/t/), oy (/oi/) | OY at end | /toi/ |
 
 ---
 
-<div class="page-break"></div>
+## Bonus Words (Challenge!)
 
-## Lesson Complete!
+If you spelled all the main words correctly, try these:
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| join | j (/j/), oi (/oi/), n (/n/) | OI in middle | /join/ |
+| stay | s (/s/), t (/t/), ay (/ā/) | AY at end | /stā/ |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+Read these sentences:
+
+> The boy has a coin. It rains all day. Stay and play!
+
+---
+
+## Quick Check
+
+1. Which multi-letter phonogram did we use most today?
+2. What new rule(s) did you apply?
+3. Spell "boy" from dictation.
+
+---
+
+**Next lesson:** Lesson 32: Phonogram ch
+
+---
+
+*Practice at home: Choose 2 words from today's lesson. Spell them for a family member and explain the phonograms you used.*

@@ -1,77 +1,82 @@
 # Lesson 21: Phonogram or
 
-**Stage 2** · Lesson 21 · Type: phonogram-intro
+**Stage 2** · Lesson 21 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar |
 
 ---
 
-## New Learning: Phonogram or
+## New Learning: The Phonogram **or**
 
-### The Phonogram **or**
+### What Is **or**?
 
 <div class="phonogram">or</div>
 
-**or** says: /or/
+**or** says 1 sound: /or/
 
-| Sound | Example Word |
-|-------|-------------|
-| /or/ | — |
+OR is an R-controlled vowel. The R changes the sound of the O.
 
-> Write **or** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /or/ | for, corn, sort, horse |
 
-for corn horn born sort
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| for | f (/f/), or (/or/) | OR = R-controlled O | /for/ |
+| corn | c (/k/), or (/or/), n (/n/) | OR in middle | /korn/ |
+| sort | s (/s/), or (/or/), t (/t/) | OR before t | /sort/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-for corn horn born sort
+> for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
-### Quiz
-1. What sounds does **or** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-for corn horn born sort
+> The for is here.
 
 ---
 
-**Next lesson:** Lesson 22
+## Handwriting Practice
 
+Write each word once. Underline the **or** in each word.
 
+for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram or — it says /or/)*
+2. Is or a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of or? *(/or/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 22: Phonogram er
 
+---
+
+*Practice at home: Flash your **or** card 5 times. Find **or** in a book — how many can you find?*

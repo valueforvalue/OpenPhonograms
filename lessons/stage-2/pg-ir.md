@@ -1,77 +1,82 @@
 # Lesson 46: Phonogram ir
 
-**Stage 2** · Lesson 46 · Type: phonogram-intro
+**Stage 2** · Lesson 46 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
 
 | Phonograms to review |
 |----------------------|
-| Review all previously taught phonograms |
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au |
 
 ---
 
-## New Learning: Phonogram ir
+## New Learning: The Phonogram **ir**
 
-### The Phonogram **ir**
+### What Is **ir**?
 
 <div class="phonogram">ir</div>
 
-**ir** says: /er/
+**ir** says 1 sound: /er/
 
-| Sound | Example Word |
-|-------|-------------|
-| /er/ | — |
+IR says /er/ as in 'first'. This is one of five ways to spell the /er/ sound (er, ir, ur, ear, wor).
 
-> Write **ir** three times on your whiteboard while saying its sounds.
 
-## Practice
+### Sound Table
 
-### Write It
-Write each word twice:
+| Sound | Example Words |
+|-------|--------------|
+| /er/ | girl, bird, first, shirt |
 
-girl bird first shirt dirt
+---
 
-### Read It
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| girl | g (/g/), ir (/er/), l (/l/) | IR = /er/ | /gerl/ |
+| bird | b (/b/), ir (/er/), d (/d/) | IR = /er/ | /berd/ |
+| first | f (/f/), ir (/er/), s (/s/), t (/t/) | IR = /er/ | /ferst/ |
+
+---
+
+## Reading Practice
+
 Read these words sound by sound, then blend:
 
-girl bird first shirt dirt
+> girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
 
-### Quiz
-1. What sounds does **ir** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Read these sentences:
 
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-girl bird first shirt dirt
+> The girl is here.
 
 ---
 
-**Next lesson:** Lesson 47
+## Handwriting Practice
 
+Write each word once. Underline the **ir** in each word.
 
+girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What did you learn today? *(The phonogram ir — it says /er/)*
+2. Is ir a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ir? *(/er/)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 47: Phonogram ur
 
+---
+
+*Practice at home: Flash your **ir** card 5 times. Find **ir** in a book — how many can you find?*
