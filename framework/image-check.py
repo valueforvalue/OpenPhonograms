@@ -13,6 +13,13 @@ import re
 import sys
 from pathlib import Path
 
+# Force UTF-8 on Windows consoles that default to cp1252
+if sys.platform == 'win32':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 LESSONS_DIR = PROJECT_ROOT / "lessons"
 WORKSHEETS_DIR = PROJECT_ROOT / "worksheets"
@@ -20,6 +27,18 @@ READERS_DIR = PROJECT_ROOT / "readers"
 IMAGES_DIR = PROJECT_ROOT / "images"
 FRAMEWORK_DIR = PROJECT_ROOT / "framework"
 MANIFEST_PATH = FRAMEWORK_DIR / "image-manifest.csv"
+
+
+def _is_template_var(s: str) -> bool:
+    """True if the string is a Jinja2-style template placeholder like {cover_image_path}."""
+    return bool(re.match(r'^\{.*\}$', s))
+
+
+def _normalize_src(src: str) -> str:
+    """Strip 'images/' prefix so 'images/animals/dog.png' -> 'animals/dog.png'."""
+    if src.startswith("images/"):
+        return src[7:]
+    return src
 
 
 def find_image_refs() -> dict[str, list[Path]]:
@@ -31,9 +50,17 @@ def find_image_refs() -> dict[str, list[Path]]:
         if not md_dir.exists():
             continue
         for md_file in md_dir.rglob("*.md"):
+            # Skip template files (they contain {placeholder} variables)
+            if "templates" in str(md_file):
+                continue
             text = md_file.read_text(encoding="utf-8", errors="ignore")
             for match in img_pattern.finditer(text):
                 src = match.group(2)
+                # Skip template variables and web URLs
+                if _is_template_var(src):
+                    continue
+                if src.startswith("http://") or src.startswith("https://"):
+                    continue
                 if src not in refs:
                     refs[src] = []
                 refs[src].append(md_file)
@@ -42,13 +69,15 @@ def find_image_refs() -> dict[str, list[Path]]:
 
 
 def load_manifest() -> dict[str, dict]:
-    """Load image-manifest.csv into {filename: row}."""
+    """Load image-manifest.csv. Index by both raw key and 'images/' prefixed key."""
     manifest = {}
     if not MANIFEST_PATH.exists():
         return manifest
     with open(MANIFEST_PATH, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            manifest[row["filename"]] = row
+            key = row["filename"]
+            manifest[key] = row
+            manifest[f"images/{key}"] = row
     return manifest
 
 
@@ -62,21 +91,35 @@ def cmd_list_missing():
         if img_path.exists():
             continue
         missing += 1
-        print(f"\n📷 {src}")
+        print(f"\n[IMG] {src}")
         print(f"   Referenced by: {len(files)} file(s)")
         for f in files[:3]:
             print(f"     - {f.relative_to(PROJECT_ROOT)}")
         if len(files) > 3:
             print(f"     ... and {len(files) - 3} more")
-        # Check manifest
-        if src in manifest:
-            m = manifest[src]
-            print(f"   Manifest: {m.get('description', '—')}")
-            print(f"   Prompt exists: yes")
+
+        m = manifest.get(src) or manifest.get(_normalize_src(src))
+        if m:
+            print(f"   [OK] Prompt exists: {m.get('description', '—')[:80]}")
+        else:
+            print(f"   [MISSING] No manifest entry — needs prompt")
 
     print(f"\n{'—' * 40}")
-    print(f"Total missing images: {missing}")
-    print(f"Total referenced images: {len(refs)}")
+    print(f"Images referenced: {len(refs)}")
+    print(f"Images missing:   {missing}")
+    with_prompts = sum(
+        1 for src in refs
+        if not (PROJECT_ROOT / src).exists()
+        and (manifest.get(src) or manifest.get(_normalize_src(src)))
+    )
+    without_prompts = sum(
+        1 for src in refs
+        if not (PROJECT_ROOT / src).exists()
+        and not (manifest.get(src) or manifest.get(_normalize_src(src)))
+    )
+    existing = sum(1 for src in refs if (PROJECT_ROOT / src).exists())
+    print(f"  Existing:       {existing}")
+    print(f"  Need generate:  {missing} ({with_prompts} have prompts, {without_prompts} need prompts)")
 
 
 def cmd_output_prompts():
@@ -85,22 +128,28 @@ def cmd_output_prompts():
 
     print("# Image Generation Prompts\n")
     print("Generate each image using these prompts. Consistent style across all images.\n")
+    count = 0
 
     for src, files in sorted(refs.items()):
         img_path = PROJECT_ROOT / src
         if img_path.exists():
             continue
 
-        if src in manifest:
-            m = manifest[src]
-            print(f"## {src}")
+        m = manifest.get(src) or manifest.get(_normalize_src(src))
+        if m:
+            count += 1
+            print(f"## {count}. {src}")
             print(f"**Size:** {m.get('size', '1200x900')} | **Format:** {m.get('format', 'png')}")
             print(f"**Description:** {m.get('description', '—')}")
             print(f"\n**Prompt:**\n```\n{m.get('prompt', '—')}\n```\n")
         else:
-            print(f"## {src}")
+            count += 1
+            print(f"## {count}. {src}")
             print(f"**No manifest entry — needs prompt.** Referenced by {len(files)} file(s).")
             print(f"\n**Suggested prompt:**\n```\n[WRITE PROMPT HERE]\n```\n")
+
+    print(f"\n{'—' * 40}")
+    print(f"Total images to generate: {count}")
 
 
 def main():
