@@ -38,6 +38,11 @@ That's it. Everything else is in the lesson files.
 | `reference/morpheme-wall.html` | Latin/Greek roots display | Stage 4-5 |
 | `TEACHER-GUIDE.md` | This document | Start here |
 | `TEACHER-GUIDE.pdf` | Printable version of this guide | Print once |
+| `readers/` | 9 standalone decodable readers | Reading practice at key points |
+| `worksheets/phonograms/` | 69 phonogram practice sheets | Daily independent work |
+| `worksheets/rules/` | 7 spelling rule worksheets | Rule application practice |
+| `worksheets/cards/` | 18 printable flash card sheets | Cut-out phonogram drill cards |
+| `worksheets/blank/` | 3 reusable templates | Spelling analysis, handwriting, reading log |
 | `framework/render.py` | MD→PDF converter | Generate printable lesson PDFs |
 | `framework/image-check.py` | Image inventory tool | Check missing images |
 | `assets/main.css` | Stylesheet for HTML references | Already linked in all HTMLs |
