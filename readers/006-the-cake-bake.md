@@ -12,8 +12,6 @@
 
 ## Story
 
-![Illustration](images/illustrations/jake-bakes-cake.png)
-
 **The Cake Bake**
 
 Jake wants to bake a cake. "I will make the best cake!" he says.

@@ -4,13 +4,10 @@
 
 ---
 
-
-![ostrich](images/animals/ostrich.png)
+## Story: Ostriches: The Giants of the Bird World
 
 <div class="reader-page">
 <div class="reader-text">
-
-![Illustration](images/illustrations/ostrich-running.png)
 
 **Ostriches: The Giants of the Bird World**
 

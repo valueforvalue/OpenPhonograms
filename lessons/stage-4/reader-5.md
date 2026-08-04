@@ -4,13 +4,10 @@
 
 ---
 
-
-![firefly](images/animals/firefly.png)
+## Story: Firefly: Nightlight with Wings
 
 <div class="reader-page">
 <div class="reader-text">
-
-![Illustration](images/illustrations/firefly-night.png)
 
 **Firefly: Nightlight with Wings**
 

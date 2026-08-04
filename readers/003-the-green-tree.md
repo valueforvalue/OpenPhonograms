@@ -1,5 +1,4 @@
 # The Green Tree
-n![Bird](images/animals/bird.png)
 
 **Stage 2** · Decodable Reader · After Lesson 18
 

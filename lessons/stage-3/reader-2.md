@@ -4,10 +4,7 @@
 
 ---
 
-
-![Gwen the Goose](images/illustrations/gwen-goose-gift.png)
-
-![Goose](images/animals/goose.png)
+## Story: Gwen Gives a Gift
 
 <div class="reader-page">
 

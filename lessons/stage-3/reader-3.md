@@ -4,10 +4,7 @@
 
 ---
 
-## Story:
-
-![Illustration](images/illustrations/cole-bike.png)
- Cole and His Bike
+## Story: Cole and His Bike
 
 <div class="reader-page">
 
