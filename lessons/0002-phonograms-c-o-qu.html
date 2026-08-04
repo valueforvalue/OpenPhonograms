@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 2: Phonograms c, o, qu</title>
+<link rel="stylesheet" href="../assets/main.css">
+<style>
+  body { max-width: 600px; font-size: 18px; }
+  .big-phonogram { font-size: 5rem; font-weight: 700; color: var(--accent); text-align: center; display: block; margin: 1rem 0; cursor: pointer; user-select: none; }
+  .sound-badge { display: inline-block; background: var(--accent); color: #fff; border-radius: 20px; padding: 0.3rem 1rem; margin: 0.2rem; font-size: 1.1rem; cursor: pointer; }
+  .sound-badge.played { background: var(--success); }
+  .write-box { border: 2px dashed var(--card-border); border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; margin: 0.8rem 0; font-size: 2rem; color: #ccc; }
+  .reveal-btn { background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 0.5rem 1.2rem; font-size: 1rem; cursor: pointer; margin: 0.5rem 0; }
+  .hidden-answer { display: none; margin-top: 0.3rem; padding: 0.5rem; background: #f0f7f0; border-radius: 4px; }
+  .hidden-answer.show { display: block; }
+  .step { margin: 1.2rem 0; padding: 1rem; background: var(--card-bg); border-radius: 8px; }
+  .step-num { font-weight: 700; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stars { text-align: center; font-size: 1.5rem; margin: 0.5rem 0; }
+  .warning-box { background: #fff8e1; border: 1px solid #e6c300; border-radius: 6px; padding: 0.8rem; margin: 0.8rem 0; }
+  .blend-chunk { font-family: "Courier New", monospace; font-size: 1.3rem; margin: 0.3rem; padding: 0.3rem 0.6rem; background: #eef; border-radius: 4px; display: inline-block; }
+  @media print { .reveal-btn, .write-box { display: none; } .hidden-answer { display: block !important; } .big-phonogram { font-size: 3rem; } }
+</style>
+</head>
+<body>
+
+<h1>📖 Lesson 2: Phonograms c, o, qu</h1>
+<p>Let's review first! Flash your <strong>a, d, g</strong> cards. Then learn three new phonograms.</p>
+
+<div class="step">
+<div class="step-num">Review</div>
+<h2>Flash Cards: a, d, g</h2>
+<p>Grown-up: show each card. Child says ALL sounds fast. If slow, practice that one before moving on.</p>
+<p class="word-list">
+  <span>a → /ă/ /ā/ /ä/</span>
+  <span>d → /d/</span>
+  <span>g → /g/ /j/</span>
+</p>
+</div>
+
+<div class="step">
+<div class="step-num">Step 1</div>
+<h2>Meet the phonogram <strong>c</strong></h2>
+
+<div class="big-phonogram">c</div>
+
+<p><strong>c</strong> says two sounds:</p>
+<p>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/k/</span>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/s/</span>
+</p>
+<p style="font-size:0.85rem;color:var(--muted)">/k/ like in <em>cat</em> · /s/ like in <em>cent</em></p>
+
+<div class="warning-box">
+  <strong>Important!</strong> c always says /k/ unless followed by e, i, or y — then it says /s/. Don't worry about this rule yet. Just know both sounds!
+</div>
+
+<p>Write <strong>c</strong> three times while saying /k/, /s/.</p>
+<div class="write-box">✏️ Write <strong>c</strong> here</div>
+</div>
+
+<div class="step">
+<div class="step-num">Step 2</div>
+<h2>Meet the phonogram <strong>o</strong></h2>
+
+<div class="big-phonogram">o</div>
+
+<p><strong>o</strong> says four sounds:</p>
+<p>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/ŏ/</span>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/ō/</span>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/ö/</span>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/ŭ/</span>
+</p>
+<p style="font-size:0.85rem;color:var(--muted)">/ŏ/ like <em>odd</em> · /ō/ like <em>go</em> · /ö/ like <em>to</em> · /ŭ/ like <em>son</em></p>
+
+<p>Write <strong>o</strong> three times while saying all four sounds.</p>
+<div class="write-box">✏️ Write <strong>o</strong> here</div>
+</div>
+
+<div class="step">
+<div class="step-num">Step 3</div>
+<h2>Meet the phonogram <strong>qu</strong></h2>
+
+<div class="big-phonogram" style="font-size:4rem">qu</div>
+
+<p><strong>qu</strong> is special — it's two letters that make ONE sound together:</p>
+<p>
+  <span class="sound-badge" onclick="this.classList.toggle('played')">/kw/</span>
+</p>
+
+<div class="warning-box">
+  <strong>Rule 11:</strong> Q always needs a U. The U in QU is NOT a vowel — it's part of the consonant team! So <strong>qu</strong> is always together.
+</div>
+
+<p>Write <strong>qu</strong> three times while saying /kw/.</p>
+<div class="write-box">✏️ Write <strong>qu</strong> here</div>
+</div>
+
+<div class="step">
+<div class="step-num">Step 4</div>
+<h2>Quiz Time!</h2>
+
+<p class="quiz-q">1. What two sounds does <strong>c</strong> say?</p>
+<button class="reveal-btn" onclick="document.getElementById('q1').classList.add('show')">Show answer</button>
+<div class="hidden-answer" id="q1">/k/ (like <em>cat</em>) and /s/ (like <em>cent</em>)</div>
+
+<p class="quiz-q">2. What are the four sounds of <strong>o</strong>?</p>
+<button class="reveal-btn" onclick="document.getElementById('q2').classList.add('show')">Show answer</button>
+<div class="hidden-answer" id="q2">/ŏ/ /ō/ /ö/ /ŭ/ — short, long, broad, and schwa!</div>
+
+<p class="quiz-q">3. What sound does <strong>qu</strong> make? Why are q and u always together?</p>
+<button class="reveal-btn" onclick="document.getElementById('q3').classList.add('show')">Show answer</button>
+<div class="hidden-answer" id="q3">/kw/ — because Q always needs U (Rule 11)!</div>
+</div>
+
+<div class="step">
+<div class="step-num">Step 5</div>
+<h2>Blending Practice</h2>
+<p>Grown-up says the sounds. Child blends to a word!</p>
+
+<p>
+  <span class="blend-chunk">/k/</span>
+  <span class="blend-chunk">/ă/</span>
+  <span class="blend-chunk">/t/</span>
+  <button class="reveal-btn" onclick="document.getElementById('b2').classList.add('show')">What word?</button>
+</p>
+<div class="hidden-answer" id="b2"><strong>cat!</strong></div>
+
+<p>
+  <span class="blend-chunk">/d/</span>
+  <span class="blend-chunk">/ŏ/</span>
+  <span class="blend-chunk">/g/</span>
+  <button class="reveal-btn" onclick="document.getElementById('b3').classList.add('show')">What word?</button>
+</p>
+<div class="hidden-answer" id="b3"><strong>dog!</strong></div>
+</div>
+
+<div class="stars">⭐⭐⭐</div>
+<div class="card">
+  <div class="card-title">Great work!</div>
+  <p>You now know <strong>6 phonograms:</strong> a, d, g, c, o, qu. That's <strong>13 sounds</strong> in your reading toolbox!</p>
+  <p>Practice all six cards every day. <strong>Next:</strong> <a href="0003-phonograms-s-t-i.html">Phonograms s, t, i →</a></p>
+</div>
+
+</body>
+</html>

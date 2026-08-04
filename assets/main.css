@@ -1,0 +1,236 @@
+/* Shared stylesheet for Logic of English teaching materials */
+/* Clean, Tufte-inspired, print-friendly */
+
+:root {
+  --bg: #fffff8;
+  --fg: #111;
+  --muted: #555;
+  --accent: #2a5c8a;
+  --rule-line: #ddd;
+  --card-bg: #f7f7f2;
+  --card-border: #e0e0d8;
+  --success: #2a7d2a;
+  --warn: #b8860b;
+  --error: #a33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Charter", "Georgia", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 2rem 0 0.5rem;
+  color: #000;
+  letter-spacing: -0.02em;
+}
+h1:first-child { margin-top: 0; }
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1.8rem 0 0.4rem;
+  color: var(--accent);
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 1.2rem 0 0.3rem;
+  color: #333;
+}
+
+p { margin: 0.5rem 0; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+a:hover { border-bottom-width: 2px; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+th, td {
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--rule-line);
+  vertical-align: top;
+}
+th {
+  font-weight: 700;
+  border-bottom-width: 2px;
+  background: var(--card-bg);
+}
+
+/* Cards / callouts */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+/* Word lists */
+.word-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.2rem;
+  margin: 0.5rem 0;
+  font-family: "Courier New", monospace;
+  font-size: 1.1rem;
+}
+
+/* Phonogram display */
+.phonogram {
+  display: inline-block;
+  font-family: "Georgia", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0.1rem 0.3rem;
+}
+.phonogram-lg {
+  font-size: 2.4rem;
+  text-align: center;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* Sounds */
+.sound {
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.sound::before { content: "/"; }
+.sound::after { content: "/"; }
+
+/* Rule number badge */
+.rule-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-right: 0.3rem;
+}
+
+/* Steps / numbered */
+.steps {
+  list-style: none;
+  counter-reset: step;
+  margin: 0.8rem 0;
+}
+.steps li {
+  counter-increment: step;
+  margin: 0.4rem 0;
+  padding-left: 1.8rem;
+  position: relative;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: var(--accent);
+  color: #fff;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+/* Checkbox */
+.checklist {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+.checklist li {
+  padding: 0.2rem 0 0.2rem 1.5rem;
+  position: relative;
+}
+.checklist li::before {
+  content: "☐";
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+/* Quiz */
+.quiz-q {
+  font-weight: 700;
+  margin: 1rem 0 0.3rem;
+}
+.quiz-opts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.3rem 0 0.5rem;
+}
+.quiz-opt {
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  background: var(--card-bg);
+}
+.quiz-opt:hover { border-color: var(--accent); }
+.quiz-feedback {
+  font-style: italic;
+  color: var(--muted);
+  min-height: 1.2rem;
+}
+
+/* Print */
+@media print {
+  body {
+    font-size: 11pt;
+    max-width: none;
+    padding: 0.5in;
+  }
+  .no-print { display: none; }
+  h1, h2 { page-break-after: avoid; }
+  .card { break-inside: avoid; }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body { padding: 1rem 0.8rem; font-size: 15px; }
+  h1 { font-size: 1.4rem; }
+  table { font-size: 0.8rem; }
+}
