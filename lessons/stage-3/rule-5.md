@@ -1,73 +1,78 @@
-# Lesson 36: Rule 5: I and Y at End of Syllable
+# Lesson 36: Rule 5 — I and Y at End of Syllable
 
-**Stage 3** · Lesson 36 · Type: rule-intro
+**Stage 3** · Lesson 36 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 5: I and Y at End of Syllable
+## New Learning: Rule 5
 
-### Spelling Rule 5
+### The Rule
 
-<span class="rule-badge">Rule 5</span> **Rule 5**
+> ****I** and **Y** may say /ĭ/ or /ī/ at the end of a syllable.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+At the end of a syllable, I and Y can say either their short sound (/ĭ/) or long sound (/ī/). In 'i·tem,' the I at the end of the first syllable says /ī/. In 'in·di·vid·u·al,' the I endings say /ĭ/. Y works the same way.
 
-### Write It
-Write each word twice:
+### Examples
 
-item bicycle by
+i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-item bicycle by
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-item bicycle by
+| Word | How Rule 5 Applies |
+|------|--------------------------|
+| item | (describe how Rule 5 applies) |
+| bicycle | (describe how Rule 5 applies) |
+| by | (describe how Rule 5 applies) |
+| my | (describe how Rule 5 applies) |
+| gym | (describe how Rule 5 applies) |
+| cry | (describe how Rule 5 applies) |
+| sky | (describe how Rule 5 applies) |
+| try | (describe how Rule 5 applies) |
 
 ---
 
-**Next lesson:** Lesson 37
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| item | (sound out) | Rule 5 | /item/ |
+| bicycle | (sound out) | Rule 5 | /bicycle/ |
+| by | (sound out) | Rule 5 | /by/ |
+| my | (sound out) | Rule 5 | /my/ |
+| gym | (sound out) | Rule 5 | /gym/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> item &nbsp;&nbsp; bicycle &nbsp;&nbsp; by &nbsp;&nbsp; my &nbsp;&nbsp; gym &nbsp;&nbsp; cry &nbsp;&nbsp; sky &nbsp;&nbsp; try
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The item is big. I see a bicycle. The by runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 5? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 37: Rule 6: Y=/ī/ One-Syllable
+
+---
+
+*Practice at home: Find 3 words that follow Rule 5. Write them down!*

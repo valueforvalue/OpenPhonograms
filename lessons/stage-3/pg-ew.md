@@ -1,78 +1,63 @@
 # Lesson 33: Phonogram ew
 
-**Stage 3** · Lesson 33 · Type: phonogram-intro
+**Stage 3** · Lesson 33 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh |
 
 ---
 
-## New Learning: Phonogram ew
-
-### The Phonogram **ew**
+## New Learning: The Phonogram **ew**
 
 <div class="phonogram">ew</div>
 
-**ew** says: /ü/ /ö/
+**ew** says 2 sounds: /ü/ /ö/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ü/ | — |
-| /ö/ | — |
+EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW is always at the end of a word or syllable.
 
-> Write **ew** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-few grew chew
-
-### Read It
-Read these words sound by sound, then blend:
-
-few grew chew
-
-### Quiz
-1. What sounds does **ew** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-few grew chew
+| Sound | Example Words |
+|-------|--------------|
+| /ü/ | few, new, grew, chew |
+| /ö/ | sew |
 
 ---
 
-**Next lesson:** Lesson 34
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| few | f (/f/), ew (/ü/) | EW at end | /fü/ |
+| new | n (/n/), ew (/ü/) | EW at end | /nü/ |
+| grew | g (/g/), r (/r/), ew (/ü/) | EW at end | /grü/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> few &nbsp;&nbsp; new &nbsp;&nbsp; grew
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The few is here. I see a new.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ew** say? *(/ü/ /ö/)*
+2. Is ew used at the beginning, middle, or end of words?
+3. Write the word "few" from dictation.
+
+---
+
+**Next lesson:** Lesson 34: Phonogram ui
+
+---
+
+*Practice at home: Flash your **ew** card. Find **ew** in a book.*

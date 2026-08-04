@@ -1,73 +1,78 @@
-# Lesson 37: Rule 6: Y Says /ī/ at End of One-Syllable Word
+# Lesson 37: Rule 6 — Y Says /ī/ at End of One-Syllable Word
 
-**Stage 3** · Lesson 37 · Type: rule-intro
+**Stage 3** · Lesson 37 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 6: Y Says /ī/ at End of One-Syllable Word
+## New Learning: Rule 6
 
-### Spelling Rule 6
+### The Rule
 
-<span class="rule-badge">Rule 6</span> **Rule 6**
+> **When a one-syllable word ends in a single-vowel **Y**, it always says /ī/.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+This is one of the most reliable rules! If a word has one syllable and ends in Y (as the only vowel), Y says /ī/. by, my, cry, fly, sky, try, why, shy, dry, fry.
 
-### Write It
-Write each word twice:
+### Examples
 
-by my cry fly why
+by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-by my cry fly why
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-by my cry fly why
+| Word | How Rule 6 Applies |
+|------|--------------------------|
+| by | (describe how Rule 6 applies) |
+| my | (describe how Rule 6 applies) |
+| cry | (describe how Rule 6 applies) |
+| fly | (describe how Rule 6 applies) |
+| sky | (describe how Rule 6 applies) |
+| try | (describe how Rule 6 applies) |
+| why | (describe how Rule 6 applies) |
+| shy | (describe how Rule 6 applies) |
 
 ---
 
-**Next lesson:** Lesson 38
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| by | (sound out) | Rule 6 | /by/ |
+| my | (sound out) | Rule 6 | /my/ |
+| cry | (sound out) | Rule 6 | /cry/ |
+| fly | (sound out) | Rule 6 | /fly/ |
+| sky | (sound out) | Rule 6 | /sky/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> by &nbsp;&nbsp; my &nbsp;&nbsp; cry &nbsp;&nbsp; fly &nbsp;&nbsp; sky &nbsp;&nbsp; try &nbsp;&nbsp; why &nbsp;&nbsp; shy &nbsp;&nbsp; dry
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The by is big. I see a my. The cry runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 6? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 38: Rule 7: I/Y May Say /ē/
+
+---
+
+*Practice at home: Find 3 words that follow Rule 6. Write them down!*

@@ -1,51 +1,43 @@
 # Lesson 51: Review: All Stage 3 Phonograms
 
-**Stage 3** · Lesson 51 · Type: review
+**Stage 3** · Lesson 51 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash ALL phonograms. Goal: under 2 seconds per card.
 
 ---
 
-## New Learning: Review: All Stage 3 Phonograms
+## Speed Flash
 
-### Review: All Stage 3 Phonograms
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+Flash ALL 75 phonograms. Focus on new ones: dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie.
 
 ---
 
-**Next lesson:** Lesson 52
+## Phonogram Bingo
 
-
+Pick 9 phonograms. Adult calls sounds. Cross off matching phonograms. Get 3 in a row to win!
 
 ---
 
-<div class="page-break"></div>
+## Most Sounds Award
 
-## Lesson Complete!
+Which Stage 3 phonogram has the most sounds? (ough — 6 sounds!) Name all 6.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+Spell these words from dictation:
+
+> bridge, catch, know, sign, write, eight, phone, ghost, though, caught, few, fruit, work, field
+
+---
+
+**Next lesson:** Lesson 52: Rules Review
+
+---
+
+*Practice at home: Flash all cards!*

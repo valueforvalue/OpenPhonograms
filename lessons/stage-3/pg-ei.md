@@ -1,79 +1,64 @@
 # Lesson 26: Phonogram ei
 
-**Stage 3** · Lesson 26 · Type: phonogram-intro
+**Stage 3** · Lesson 26 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh |
 
 ---
 
-## New Learning: Phonogram ei
-
-### The Phonogram **ei**
+## New Learning: The Phonogram **ei**
 
 <div class="phonogram">ei</div>
 
-**ei** says: /ē/ /ā/ /ī/
+**ei** says 3 sounds: /ē/ /ā/ /ī/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ē/ | — |
-| /ā/ | — |
-| /ī/ | — |
+EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few words), /ī/ (rare — only a handful). It follows Rule 1/2 patterns with C and G.
 
-> Write **ei** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-ceiling vein feisty
-
-### Read It
-Read these words sound by sound, then blend:
-
-ceiling vein feisty
-
-### Quiz
-1. What sounds does **ei** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-ceiling vein feisty
+| Sound | Example Words |
+|-------|--------------|
+| /ē/ | ceiling, receive, deceive |
+| /ā/ | vein, rein, feign |
+| /ī/ | feisty, heist, seismic |
 
 ---
 
-**Next lesson:** Lesson 27
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| ceiling | c (/s/), ei (/ē/), l (/l/), i (/ĭ/), ng (/ng/) | Rule 1: C=/s/ before EI | sē-lĭng |
+| vein | v (/v/), ei (/ā/), n (/n/) | EI=/ā/ (rare) | /vān/ |
+| feisty | f (/f/), ei (/ī/), s (/s/), t (/t/), y (/ē/) | EI=/ī/ (rare) | fī-stē |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> ceiling &nbsp;&nbsp; vein &nbsp;&nbsp; feisty
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The ceiling is here. I see a vein.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ei** say? *(/ē/ /ā/ /ī/)*
+2. Is ei used at the beginning, middle, or end of words?
+3. Write the word "ceiling" from dictation.
+
+---
+
+**Next lesson:** Lesson 27: Phonogram ey
+
+---
+
+*Practice at home: Flash your **ei** card. Find **ei** in a book.*

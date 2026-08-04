@@ -1,73 +1,78 @@
-# Lesson 40: Rule 10: A Says /ä/
+# Lesson 40: Rule 10 — A Says /ä/
 
-**Stage 3** · Lesson 40 · Type: rule-intro
+**Stage 3** · Lesson 40 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 10: A Says /ä/
+## New Learning: Rule 10
 
-### Spelling Rule 10
+### The Rule
 
-<span class="rule-badge">Rule 10</span> **Rule 10**
+> **When a word ends with the phonogram **A**, it says /ä/. **A** may also say /ä/ after a **W** or before an **L**.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+At the end of a word, A says /ä/ (spa, ma, pa). After W, A says /ä/ (water, watch, want). Before L, A often says /ä/ (ball, tall, fall, all, call).
 
-### Write It
-Write each word twice:
+### Examples
 
-spa water ball mama
+spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all, call, small (before L)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-spa water ball mama
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-spa water ball mama
+| Word | How Rule 10 Applies |
+|------|--------------------------|
+| spa | (describe how Rule 10 applies) |
+| water | (describe how Rule 10 applies) |
+| watch | (describe how Rule 10 applies) |
+| want | (describe how Rule 10 applies) |
+| ball | (describe how Rule 10 applies) |
+| tall | (describe how Rule 10 applies) |
+| fall | (describe how Rule 10 applies) |
+| all | (describe how Rule 10 applies) |
 
 ---
 
-**Next lesson:** Lesson 41
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| spa | (sound out) | Rule 10 | /spa/ |
+| water | (sound out) | Rule 10 | /water/ |
+| watch | (sound out) | Rule 10 | /watch/ |
+| want | (sound out) | Rule 10 | /want/ |
+| ball | (sound out) | Rule 10 | /ball/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> spa &nbsp;&nbsp; water &nbsp;&nbsp; watch &nbsp;&nbsp; want &nbsp;&nbsp; ball &nbsp;&nbsp; tall &nbsp;&nbsp; fall &nbsp;&nbsp; all &nbsp;&nbsp; call
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The spa is big. I see a water. The watch runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 10? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 41: Phonogram wor
+
+---
+
+*Practice at home: Find 3 words that follow Rule 10. Write them down!*

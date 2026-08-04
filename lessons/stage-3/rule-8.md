@@ -1,73 +1,78 @@
-# Lesson 39: Rule 8: I O Before Two Consonants
+# Lesson 39: Rule 8 — I and O Before Two Consonants
 
-**Stage 3** · Lesson 39 · Type: rule-intro
+**Stage 3** · Lesson 39 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 8: I O Before Two Consonants
+## New Learning: Rule 8
 
-### Spelling Rule 8
+### The Rule
 
-<span class="rule-badge">Rule 8</span> **Rule 8**
+> ****I** and **O** may say /ī/ and /ō/ when followed by two consonants.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+In words like 'find,' 'kind,' 'mind' — the I says /ī/ even though it's followed by two consonants (which would normally make a short vowel). Same with O: 'old,' 'most,' 'post.'
 
-### Write It
-Write each word twice:
+### Examples
 
-find kind old most
+find, kind, mind, child, wild, blind (I=/ī/) · old, cold, most, post, bolt, roll (O=/ō/)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-find kind old most
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-find kind old most
+| Word | How Rule 8 Applies |
+|------|--------------------------|
+| find | (describe how Rule 8 applies) |
+| kind | (describe how Rule 8 applies) |
+| mind | (describe how Rule 8 applies) |
+| child | (describe how Rule 8 applies) |
+| wild | (describe how Rule 8 applies) |
+| old | (describe how Rule 8 applies) |
+| cold | (describe how Rule 8 applies) |
+| most | (describe how Rule 8 applies) |
 
 ---
 
-**Next lesson:** Lesson 40
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| find | (sound out) | Rule 8 | /find/ |
+| kind | (sound out) | Rule 8 | /kind/ |
+| mind | (sound out) | Rule 8 | /mind/ |
+| child | (sound out) | Rule 8 | /child/ |
+| wild | (sound out) | Rule 8 | /wild/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> find &nbsp;&nbsp; kind &nbsp;&nbsp; mind &nbsp;&nbsp; child &nbsp;&nbsp; wild &nbsp;&nbsp; old &nbsp;&nbsp; cold &nbsp;&nbsp; most &nbsp;&nbsp; post
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The find is big. I see a kind. The mind runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 8? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 40: Rule 10: A Says /ä/
+
+---
+
+*Practice at home: Find 3 words that follow Rule 8. Write them down!*

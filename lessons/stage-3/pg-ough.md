@@ -1,82 +1,69 @@
 # Lesson 30: Phonogram ough
 
-**Stage 3** · Lesson 30 · Type: phonogram-intro
+**Stage 3** · Lesson 30 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh |
 
 ---
 
-## New Learning: Phonogram ough
-
-### The Phonogram **ough**
+## New Learning: The Phonogram **ough**
 
 <div class="phonogram">ough</div>
 
-**ough** says: /ō/ /ö/ /ow/ /ŭ/ /ä/ /ü/
+**ough** says 6 sounds: /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ō/ | — |
-| /ö/ | — |
-| /ow/ | — |
-| /ŭ/ | — |
-| /ä/ | — |
-| /ü/ | — |
+OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (through), /ow/ (cough), /ŭf/ (rough), /äf/ (bought), /ü/ (through). GH is doing different things in each one (Rule 28). You'll learn these through practice.
 
-> Write **ough** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Rule:** Rule 28: GH can be silent, say /f/, or affect the vowel.
 
-### Write It
-Write each word twice:
-
-though through cough rough bought
-
-### Read It
-Read these words sound by sound, then blend:
-
-though through cough rough bought
-
-### Quiz
-1. What sounds does **ough** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-though through cough rough bought
+| Sound | Example Words |
+|-------|--------------|
+| /ō/ | though, although |
+| /ö/ | through |
+| /ow/ | cough, trough |
+| /ŭf/ | rough, tough, enough |
+| /äf/ | bought, fought, thought |
+| /ü/ | through |
 
 ---
 
-**Next lesson:** Lesson 31
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| though | th (/th/), ough (/ō/) | Rule 28: GH silent | /thō/ |
+| through | th (/th/), r (/r/), ough (/ü/) | Rule 28 | /thrü/ |
+| rough | r (/r/), ough (/ŭf/) | GH=/f/ | /rŭf/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> though &nbsp;&nbsp; through &nbsp;&nbsp; rough
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The though is here. I see a through.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ough** say? *(/ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/)*
+2. Is ough used at the beginning, middle, or end of words?
+3. Write the word "though" from dictation.
+
+---
+
+**Next lesson:** Lesson 31: Phonogram augh
+
+---
+
+*Practice at home: Flash your **ough** card. Find **ough** in a book.*

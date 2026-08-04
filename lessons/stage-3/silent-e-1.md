@@ -1,73 +1,78 @@
-# Lesson 3: Silent E Reason 1: Vowel Says Long Sound
+# Lesson 3: Silent E Reason 12.1 — Vowel Says Its Long Sound
 
-**Stage 3** · Lesson 3 · Type: rule-intro
+**Stage 3** · Lesson 3 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Silent E Reason 1: Vowel Says Long Sound
-
-### Spelling Rule 12.1
-
-<span class="rule-badge">Rule 12.1</span> **Rule 12.1**
-
-| Example Words |
-|---------------|
-| — |
-
-## Practice
-
-### Write It
-Write each word twice:
-
-make time hope cube these
-
-### Read It
-Read these words sound by sound, then blend:
-
-make time hope cube these
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-make time hope cube these
+| Review all 75 phonograms |
+|--------------------------|
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-**Next lesson:** Lesson 4
+## New Learning: Silent E Reason 12.1
 
+### The Reason
 
+> **The Silent Final E makes the vowel say its long sound.**
+
+### Why?
+
+This is the most common reason for silent E. In 'cap,' the A says /ă/. Add silent E → 'cape' — now A says /ā/. The E at the end reaches back over the consonant and tells the vowel: 'Say your name!'
+
+### Words That Follow This Rule
+
+| Word | How Silent E Works Here |
+|------|------------------------|
+| make | (explain how SE reason 12.1 applies) |
+| time | (explain how SE reason 12.1 applies) |
+| rope | (explain how SE reason 12.1 applies) |
+| cube | (explain how SE reason 12.1 applies) |
+| these | (explain how SE reason 12.1 applies) |
+| tape | (explain how SE reason 12.1 applies) |
+| hope | (explain how SE reason 12.1 applies) |
+| pine | (explain how SE reason 12.1 applies) |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| make | (sound out) | SE 12.1 | /make/ |
+| time | (sound out) | SE 12.1 | /time/ |
+| rope | (sound out) | SE 12.1 | /rope/ |
+| cube | (sound out) | SE 12.1 | /cube/ |
+| these | (sound out) | SE 12.1 | /these/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+Read these words sound by sound:
+
+> make &nbsp;&nbsp; time &nbsp;&nbsp; rope &nbsp;&nbsp; cube &nbsp;&nbsp; these &nbsp;&nbsp; tape &nbsp;&nbsp; hope &nbsp;&nbsp; pine &nbsp;&nbsp; cape &nbsp;&nbsp; cute
+
+Read these sentences:
+
+> I will make this. The time is here. Can you rope?
+
+---
+
+## Quick Check
+
+1. What is Silent E Reason 12.1? *(Explain in your own words.)*
+2. Give an example word that follows this reason.
+3. What would the word be WITHOUT the silent E?
+
+---
+
+**Next lesson:** Lesson 4: SE 2: No V/U End
+
+---
+
+*Practice at home: Find 3 words in a book that follow Silent E Reason 12.1.*

@@ -1,51 +1,52 @@
-# Lesson 7: Silent E Review: Reasons 12.1-12.4
+# Lesson 7: Silent E Review: Reasons 12.1–12.4
 
-**Stage 3** · Lesson 7 · Type: review
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+**Stage 3** · Lesson 7 · review
 
 ---
 
-## New Learning: Silent E Review: Reasons 12.1-12.4
+## Warm-Up: Speed Flash
 
-### Silent E Review: Reasons 12.1-12.4
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-mixed
+> Flash ALL phonograms. Goal: under 2 seconds per card.
 
 ---
 
-**Next lesson:** Lesson 8
+## Name That Reason
 
+Adult says a word. Child names which Silent E reason (12.1, 12.2, 12.3, or 12.4) applies.
 
+tape → 12.1 (vowel says long)
+have → 12.2 (no V at end)
+dance → 12.3 (C says /s/)
+little → 12.4 (syllable needs vowel)
+make → 12.1
+blue → 12.2
+change → 12.3
+table → 12.4
 
 ---
 
-<div class="page-break"></div>
+## Word Sort
 
-## Lesson Complete!
+Sort these words into four columns by reason: make, have, dance, little, hope, give, since, apple, cube, live, prince, candle, these, solve, fence, bubble.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Challenge: Change It
 
+Adult says a word without silent E. Child adds silent E and says which reason: cap→cape (12.1), giv→give (12.2), lac→lace (12.3), littl→little (12.4).
+
+---
+
+## Spelling Challenge
+
+Spell these words from dictation:
+
+> make, have, dance, little, hope, give, since, table
+
+---
+
+**Next lesson:** Lesson 8: SE 5: Not Plural
+
+---
+
+*Practice at home: Review reasons 12.1-12.4 at home!*

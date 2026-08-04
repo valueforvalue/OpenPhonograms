@@ -1,60 +1,55 @@
-# Lesson 16: Spelling Analysis: ce ci ge gi
+# Lesson 16: Spelling Analysis — ce ci ge gi
 
-**Stage 3** · Lesson 16 · Type: spelling-analysis
+**Stage 3** · Lesson 16 · spelling-analysis
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all known phonograms.
 
 ---
 
-## New Learning: Spelling Analysis: ce ci ge gi
+## Rules in Action: C Softens, G May Soften
+
+Today we practice spelling words where C says /s/ and G says /j/.
+
+### Rule 1: C always softens to /s/ before E, I, or Y.
+
+### Rule 2: G may soften to /j/ before E, I, or Y.
+
+---
 
 ## Spelling Analysis
 
-Follow the 5-step routine for each word: Hear & Say → Segment → Write → Analyze → Read.
-
-| Word | Phonograms | Rules | Say-to-Spell |
-|------|-----------|-------|--------------|
-| cent | | | |
-| city | | | |
-| gem | | | |
-| giant | | | |
-| dance | | | |
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-cent city gem giant dance
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| cent | c (/s/), e (/ĕ/), n (/n/), t (/t/) | Rule 1: C=/s/ before E | /sĕnt/ |
+| gem | g (/j/), e (/ĕ/), m (/m/) | Rule 2: G=/j/ before E | /jĕm/ |
+| face | f (/f/), a (/ā/), c (/s/), e — SE (12.1/12.3) | Rules 1 + 12.1 | /fās/ |
+| change | ch (/ch/), a (/ā/), n (/n/), g (/j/), e — SE (12.3) | Rule 2 + SE 12.3 | /chānj/ |
+| since | s (/s/), i (/ĭ/), n (/n/), c (/s/), e — SE (12.3) | Rule 1 + SE 12.3 | /sĭns/ |
 
 ---
 
-**Next lesson:** Lesson 17
+## Reading Practice
 
+> cent &nbsp;&nbsp; gem &nbsp;&nbsp; face &nbsp;&nbsp; change &nbsp;&nbsp; since &nbsp;&nbsp; city &nbsp;&nbsp; giant &nbsp;&nbsp; cage
 
+> The cent is in the case. I see a gem. Can you change it? I have been here since then.
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. When does C say /s/? *(Before E, I, or Y — Rule 1)*
+2. When does G say /j/? *(It MAY before E, I, or Y — Rule 2)*
+3. Spell 'cent' and 'gem' from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 17: Phonogram dge
 
+---
+
+*Practice at home: Find words with ce, ci, ge, gi in a book.*

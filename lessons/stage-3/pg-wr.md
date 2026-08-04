@@ -1,77 +1,62 @@
 # Lesson 22: Phonogram wr
 
-**Stage 3** · Lesson 22 · Type: phonogram-intro
+**Stage 3** · Lesson 22 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn |
 
 ---
 
-## New Learning: Phonogram wr
-
-### The Phonogram **wr**
+## New Learning: The Phonogram **wr**
 
 <div class="phonogram">wr</div>
 
-**wr** says: /r/
+**wr** says 1 sound: /r/
 
-| Sound | Example Word |
-|-------|-------------|
-| /r/ | — |
+WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it appears in words about writing! (write, wrote, written, wrist, wrap, wreck)
 
-> Write **wr** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-write wrong wrist wrap
-
-### Read It
-Read these words sound by sound, then blend:
-
-write wrong wrist wrap
-
-### Quiz
-1. What sounds does **wr** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-write wrong wrist wrap
+| Sound | Example Words |
+|-------|--------------|
+| /r/ | write, wrong, wrist, wrap |
 
 ---
 
-**Next lesson:** Lesson 23
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| write | wr (/r/), i (/ī/), t (/t/), e — silent E (12.1) | WR + silent E | /rīt/ |
+| wrong | wr (/r/), o (/ŏ/), ng (/ng/) | WR at start | /rŏng/ |
+| wrap | wr (/r/), a (/ă/), p (/p/) | WR at start | /răp/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> write &nbsp;&nbsp; wrong &nbsp;&nbsp; wrap
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The write is here. I see a wrong.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **wr** say? *(/r/)*
+2. Is wr used at the beginning, middle, or end of words?
+3. Write the word "write" from dictation.
+
+---
+
+**Next lesson:** Lesson 23: Review: kn gn wr
+
+---
+
+*Practice at home: Flash your **wr** card. Find **wr** in a book.*

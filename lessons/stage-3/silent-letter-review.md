@@ -1,51 +1,53 @@
-# Lesson 23: Review: kn gn wr
+# Lesson 23: Review: Silent Letter Phonograms kn gn wr
 
-**Stage 3** · Lesson 23 · Type: review
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+**Stage 3** · Lesson 23 · review
 
 ---
 
-## New Learning: Review: kn gn wr
+## Warm-Up: Speed Flash
 
-### Review: kn gn wr
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-know sign write knee wrap
+> Flash ALL phonograms. Goal: under 2 seconds per card.
 
 ---
 
-**Next lesson:** Lesson 24
+## Silent Letter Hunt
 
+Which letter is silent?
 
+knife → K is silent
+sign → G is silent
+write → W is silent
+knee → K
+gnat → G
+wrong → W
+know → K
+design → G
+wrist → W
 
 ---
 
-<div class="page-break"></div>
+## Read the Word
 
-## Lesson Complete!
+Adult writes these words. Child reads them aloud: know, sign, write, knee, gnat, wrong, knock, design, wrap, gnaw.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Dictation Challenge
 
+Adult says a word. Child writes it: know, sign, write, knee, wrap, wrong.
+
+---
+
+## Spelling Challenge
+
+Spell these words from dictation:
+
+> know, sign, write, knee, gnat, wrap
+
+---
+
+**Next lesson:** Lesson 24: Mid-Stage 3 Assessment
+
+---
+
+*Practice at home: Write each kn/gn/wr word 3 times!*

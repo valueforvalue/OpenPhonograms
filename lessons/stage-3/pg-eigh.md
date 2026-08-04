@@ -1,77 +1,64 @@
 # Lesson 25: Phonogram eigh
 
-**Stage 3** · Lesson 25 · Type: phonogram-intro
+**Stage 3** · Lesson 25 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr |
 
 ---
 
-## New Learning: Phonogram eigh
-
-### The Phonogram **eigh**
+## New Learning: The Phonogram **eigh**
 
 <div class="phonogram">eigh</div>
 
-**eigh** says: /ā/
+**eigh** says 1 sound: /ā/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ā/ | — |
+EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spells /ā/!' as in 'eight.'
 
-> Write **eigh** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Rule:** Rule 28: GH is often silent after I.
 
-### Write It
-Write each word twice:
-
-eight neighbor weigh
-
-### Read It
-Read these words sound by sound, then blend:
-
-eight neighbor weigh
-
-### Quiz
-1. What sounds does **eigh** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-eight neighbor weigh
+| Sound | Example Words |
+|-------|--------------|
+| /ā/ | eight, neighbor, weight, freight |
 
 ---
 
-**Next lesson:** Lesson 26
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| eight | eigh (/ā/), t (/t/) | Rule 28: GH silent | /āt/ |
+| neighbor | n (/n/), eigh (/ā/), b (/b/), or (/or/) | Rule 28 | nā-bor |
+| weigh | w (/w/), eigh (/ā/) | Rule 28 | /wā/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> eight &nbsp;&nbsp; neighbor &nbsp;&nbsp; weigh
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The eight is here. I see a neighbor.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **eigh** say? *(/ā/)*
+2. Is eigh used at the beginning, middle, or end of words?
+3. Write the word "eight" from dictation.
+
+---
+
+**Next lesson:** Lesson 26: Phonogram ei
+
+---
+
+*Practice at home: Flash your **eigh** card. Find **eigh** in a book.*

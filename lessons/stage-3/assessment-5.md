@@ -1,51 +1,133 @@
 # Lesson 56: Stage 3 Mastery Check
 
-**Stage 3** · Lesson 56 · Type: assessment
+**Stage 3** · Lesson 56 · assessment
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Overview
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Final Stage 3 assessment. Check mastery of all Silent E reasons, 21 new multi-letter phonograms, syllable division, and all Stage 3 rules.
 
 ---
 
-## New Learning: Stage 3 Mastery Check
+## Part 1: Phonogram Sounds
 
-### Stage 3 Mastery Check
+| Phonogram | Sounds | ✓ |
+|-----------|--------|---|
+| dge | /j/ | ☐ |
+| tch | /ch/ | ☐ |
+| kn | /n/ | ☐ |
+| gn | /n/ | ☐ |
+| wr | /r/ | ☐ |
+| eigh | /ā/ | ☐ |
+| ei | /ē/ /ā/ /ī/ | ☐ |
+| ey | /ā/ /ē/ | ☐ |
+| ph | /f/ | ☐ |
+| gh | /g/ | ☐ |
+| ough | /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/ | ☐ |
+| augh | /ä/ /ăf/ | ☐ |
+| ew | /ü/ /ö/ | ☐ |
+| ui | /ü/ /ö/ | ☐ |
+| eu | /ü/ /ö/ | ☐ |
+| wor | /wer/ | ☐ |
+| ie | /ē/ /ī/ | ☐ |
 
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+**Score:** __ / 17
 
 ---
 
-**Next lesson:** Lesson 57
+## Part 2: Silent E — Name That Reason
 
+| Word | Which Reason? (12.x) | ✓ |
+|------|---------------------|---|
+| tape | ☐ |
+| have | ☐ |
+| dance | ☐ |
+| little | ☐ |
+| house | ☐ |
+| pie | ☐ |
+| bathe | ☐ |
+| bye | ☐ |
+| come | ☐ |
 
+**Score:** __ / 9
 
 ---
 
-<div class="page-break"></div>
+## Part 3: Word Reading
 
-## Lesson Complete!
+| Word | ✓ |
+|------|---|
+| bridge | ☐ |
+| catch | ☐ |
+| know | ☐ |
+| write | ☐ |
+| eight | ☐ |
+| phone | ☐ |
+| though | ☐ |
+| caught | ☐ |
+| few | ☐ |
+| fruit | ☐ |
+| work | ☐ |
+| field | ☐ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+**Score:** __ / 12
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Part 4: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+| bridge | ☐ |
+| catch | ☐ |
+| know | ☐ |
+| write | ☐ |
+| eight | ☐ |
+| phone | ☐ |
+| though | ☐ |
+| caught | ☐ |
+| fruit | ☐ |
+| field | ☐ |
+
+**Score:** __ / 10
+
+---
+
+## Part 5: Rule Knowledge
+
+| Rule | Question | ✓ |
+|------|----------|---|
+| SE 12.1-9 | Name 5 of the 9 silent E reasons. | ☐ |
+| Rule 1 | When does C say /s/? | ☐ |
+| Rule 2 | When does G say /j/? | ☐ |
+| Rule 6 | What does Y say in 'by'? | ☐ |
+| Rule 7 | What does Y say in 'baby'? | ☐ |
+| Rule 8 | Why does I say /ī/ in 'find'? | ☐ |
+| Rule 25 | When to use DGE? | ☐ |
+| Rule 28 | What can GH do? | ☐ |
+| Rule 31 | What is schwa? | ☐ |
+
+**Score:** __ / 9
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Phonograms | __/17 | |
+| Silent E | __/9 | |
+| Reading | __/12 | |
+| Spelling | __/10 | |
+| Rules | __/9 | |
+
+**Overall:** __/{overall_total}
+
+## Next Steps
+
+If ≥85%: Move to Stage 4! If weaker, review specific trouble areas and retest in 1-2 weeks.
+
+---
+
+*Great work! You're more than halfway through learning all 75 phonograms!*

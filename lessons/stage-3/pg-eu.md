@@ -1,78 +1,63 @@
 # Lesson 35: Phonogram eu
 
-**Stage 3** · Lesson 35 · Type: phonogram-intro
+**Stage 3** · Lesson 35 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui |
 
 ---
 
-## New Learning: Phonogram eu
-
-### The Phonogram **eu**
+## New Learning: The Phonogram **eu**
 
 <div class="phonogram">eu</div>
 
-**eu** says: /ü/ /ö/
+**eu** says 2 sounds: /ü/ /ö/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ü/ | — |
+EU says /ü/ in most words (neutral, feud). It appears in words of Greek and Latin origin. EU is never at the end of an English word.
+
+
+| Sound | Example Words |
+|-------|--------------|
+| /ü/ | neutral, feud, eucalyptus |
 | /ö/ | — |
 
-> Write **eu** three times on your whiteboard while saying its sounds.
+---
 
-## Practice
+## Spelling Analysis
 
-### Write It
-Write each word twice:
-
-neutral feud
-
-### Read It
-Read these words sound by sound, then blend:
-
-neutral feud
-
-### Quiz
-1. What sounds does **eu** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-neutral feud
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| neutral | n (/n/), eu (/ü/), t (/t/), r (/r/), a (/ă/), l (/l/) | EU=/ü/ | nü-trăl |
+| feud | f (/f/), eu (/ü/), d (/d/) | EU=/ü/ | /füd/ |
+| Europe | Eu (/ü/), r (/r/), o (/ō/), p (/p/), e — silent E (12.1) | EU at start | Yü-rōp |
 
 ---
 
-**Next lesson:** Lesson 36
+## Reading Practice
 
+> neutral &nbsp;&nbsp; feud &nbsp;&nbsp; Europe
 
+> The neutral is here. I see a feud.
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What does **eu** say? *(/ü/ /ö/)*
+2. Is eu used at the beginning, middle, or end of words?
+3. Write the word "neutral" from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 36: Rule 5: I/Y End Syllable
 
+---
+
+*Practice at home: Flash your **eu** card. Find **eu** in a book.*

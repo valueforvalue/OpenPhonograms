@@ -1,73 +1,78 @@
-# Lesson 4: Silent E Reason 2: No V or U at End
+# Lesson 4: Silent E Reason 12.2 — No V or U at the End
 
-**Stage 3** · Lesson 4 · Type: rule-intro
+**Stage 3** · Lesson 4 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Silent E Reason 2: No V or U at End
-
-### Spelling Rule 12.2
-
-<span class="rule-badge">Rule 12.2</span> **Rule 12.2**
-
-| Example Words |
-|---------------|
-| — |
-
-## Practice
-
-### Write It
-Write each word twice:
-
-have give blue true love
-
-### Read It
-Read these words sound by sound, then blend:
-
-have give blue true love
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-have give blue true love
+| Review all 75 phonograms |
+|--------------------------|
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-**Next lesson:** Lesson 5
+## New Learning: Silent E Reason 12.2
 
+### The Reason
 
+> **English words do not end in V or U. Silent E is added to prevent this.**
+
+### Why?
+
+Rule 3 says no word ends in V or U. So we add a silent E: 'hav' becomes 'have,' 'tru' becomes 'true.' The E isn't changing the vowel sound here — it's just following the rule.
+
+### Words That Follow This Rule
+
+| Word | How Silent E Works Here |
+|------|------------------------|
+| have | (explain how SE reason 12.2 applies) |
+| give | (explain how SE reason 12.2 applies) |
+| live | (explain how SE reason 12.2 applies) |
+| blue | (explain how SE reason 12.2 applies) |
+| true | (explain how SE reason 12.2 applies) |
+| love | (explain how SE reason 12.2 applies) |
+| clue | (explain how SE reason 12.2 applies) |
+| twelve | (explain how SE reason 12.2 applies) |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| have | (sound out) | SE 12.2 | /have/ |
+| give | (sound out) | SE 12.2 | /give/ |
+| live | (sound out) | SE 12.2 | /live/ |
+| blue | (sound out) | SE 12.2 | /blue/ |
+| true | (sound out) | SE 12.2 | /true/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+Read these words sound by sound:
+
+> have &nbsp;&nbsp; give &nbsp;&nbsp; live &nbsp;&nbsp; blue &nbsp;&nbsp; true &nbsp;&nbsp; love &nbsp;&nbsp; clue &nbsp;&nbsp; twelve
+
+Read these sentences:
+
+> I will have this. The give is here. Can you live?
+
+---
+
+## Quick Check
+
+1. What is Silent E Reason 12.2? *(Explain in your own words.)*
+2. Give an example word that follows this reason.
+3. What would the word be WITHOUT the silent E?
+
+---
+
+**Next lesson:** Lesson 5: SE 3: C→/s/ G→/j/
+
+---
+
+*Practice at home: Find 3 words in a book that follow Silent E Reason 12.2.*

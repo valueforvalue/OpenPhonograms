@@ -1,49 +1,75 @@
 # Lesson 43: Syllable Division: Compound Words
 
-**Stage 3** · Lesson 43 · Type: syllable-division
+**Stage 3** · Lesson 43 · syllable-division
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + all multi-letter learned so far |
 
 ---
 
-## New Learning: Syllable Division: Compound Words
+## New Learning: Compound Words
 
-— [syllable-division content to be written]
-## Review
+### What Are Syllables?
 
-### Quick Check
+A syllable is a word part with ONE vowel sound. Every syllable has exactly one vowel sound. When we read long words, we break them into syllables.
 
-- Check phonogram recall
-- Review new rule if introduced
+### How to Divide: Compound Words
 
-### Words to Spell (Dictation)
+Compound words are the easiest to divide — just split between the two smaller words! sun+set, rain+bow, in+to.
 
-sunset rainbow into
+### Let's Divide
+
+For each word, say it slowly, clap the syllables, then write each syllable:
+
+| Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
+|------|--------------------|---------|---------------------------|----------------------------|
+| sunset | 3 | sun/set | — | — |
+| rainbow | 3 | rai/nbow | — | — |
+| into | 2 | in/to | — | — |
+| backpack | 3 | back/pack | — | — |
+| himself | 3 | him/self | — | — |
+| bathtub | 3 | bat/htub | — | — |
+| sailboat | 3 | sail/boat | — | — |
+| popcorn | 3 | pop/corn | — | — |
 
 ---
 
-**Next lesson:** Lesson 44
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| sunset | (sound out each syllable) | — | sunset |
+| rainbow | (sound out each syllable) | — | rainbow |
+| into | (sound out each syllable) | — | into |
+| backpack | (sound out each syllable) | — | backpack |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> sunset &nbsp;&nbsp; rainbow &nbsp;&nbsp; into &nbsp;&nbsp; backpack &nbsp;&nbsp; himself &nbsp;&nbsp; bathtub &nbsp;&nbsp; sailboat &nbsp;&nbsp; popcorn &nbsp;&nbsp; football &nbsp;&nbsp; bedroom
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The sunset is here. I see a rainbow.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. How do you divide Compound Words? *(Describe the pattern.)*
+2. How many vowel sounds are in a 2-syllable word? *(2 — one per syllable!)*
+3. Divide the word "sunset" into syllables and spell each one.
+
+---
+
+**Next lesson:** Lesson 44: Syllables: VCCV
+
+---
+
+*Practice at home: Find 3 two-syllable words in a book. Clap the syllables and try to divide them.*

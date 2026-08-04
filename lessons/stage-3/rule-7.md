@@ -1,73 +1,78 @@
-# Lesson 38: Rule 7: I and Y May Say /ē/
+# Lesson 38: Rule 7 — I and Y May Say /ē/
 
-**Stage 3** · Lesson 38 · Type: rule-intro
+**Stage 3** · Lesson 38 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 7: I and Y May Say /ē/
+## New Learning: Rule 7
 
-### Spelling Rule 7
+### The Rule
 
-<span class="rule-badge">Rule 7</span> **Rule 7**
+> ****Y** says /ē/ only in an unstressed syllable at the end of a multi-syllable word. **I** may say /ē/ with a silent E, at end of syllable, and in foreign words.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+Y at the end of a long word usually says /ē/: baby, happy, funny, candy. I says /ē/ in words like marine (silent E), radio (end of syllable), and spaghetti (Italian origin).
 
-### Write It
-Write each word twice:
+### Examples
 
-baby funny radio
+baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent E) · radio, audio (I=/ē/) · spaghetti (I=/ē/ foreign)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-baby funny radio
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-baby funny radio
+| Word | How Rule 7 Applies |
+|------|--------------------------|
+| baby | (describe how Rule 7 applies) |
+| happy | (describe how Rule 7 applies) |
+| funny | (describe how Rule 7 applies) |
+| candy | (describe how Rule 7 applies) |
+| marine | (describe how Rule 7 applies) |
+| radio | (describe how Rule 7 applies) |
+| police | (describe how Rule 7 applies) |
+| spaghetti | (describe how Rule 7 applies) |
 
 ---
 
-**Next lesson:** Lesson 39
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| baby | (sound out) | Rule 7 | /baby/ |
+| happy | (sound out) | Rule 7 | /happy/ |
+| funny | (sound out) | Rule 7 | /funny/ |
+| candy | (sound out) | Rule 7 | /candy/ |
+| marine | (sound out) | Rule 7 | /marine/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> baby &nbsp;&nbsp; happy &nbsp;&nbsp; funny &nbsp;&nbsp; candy &nbsp;&nbsp; marine &nbsp;&nbsp; radio &nbsp;&nbsp; police &nbsp;&nbsp; spaghetti
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The baby is big. I see a happy. The funny runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 7? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 39: Rule 8: I/O Before Two Consonants
+
+---
+
+*Practice at home: Find 3 words that follow Rule 7. Write them down!*

@@ -1,35 +1,46 @@
 # Lesson 49: Cole and His Bike
 
-**Stage 3** · Lesson 49 · Type: reader
+**Stage 3** · Lesson 49 · reader
 
 ---
 
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Cole and His Bike
-
-## Reader: Cole and His Bike
-
-<div class="warmup-box">
-<div class="title">Warm-Up Words — read these first</div>
-
-—
-
-</div>
+## Story: Cole and His Bike
 
 <div class="reader-page">
 
 <div class="reader-text">
 
-— [Story text to be written]
+**Cole and His Bike**
+
+Cole has a bike. It is red and fast.
+
+Cole rides his bike to the park. He rides up the hill. He rides down the hill.
+
+Whee! Cole goes fast!
+
+At the park, Cole sees his friend Kate.
+
+"Hi, Kate!" calls Cole.
+
+"Hi, Cole! I like your bike," says Kate. "Can I ride it?"
+
+Cole stops. He thinks. He likes his bike. But Kate is his friend.
+
+"You can ride it," says Cole. "Be safe!"
+
+Kate gets on the bike. She rides around the park.
+
+"This is fun!" Kate yells. "Thank you, Cole!"
+
+"It's a good bike," Cole says. "We can share it."
+
+Cole and Kate take turns. Cole rides. Kate rides. Cole rides again.
+
+When the sun sets, they go home. Cole waves to Kate.
+
+"See you next time!"
+
+The End.
 
 </div>
 
@@ -37,53 +48,37 @@
 
 ### Spelling Aid
 
-**New phonogram:** 
+**Focus phonograms:** silent E (make says /ā/), oo, ai, ay, igh
 
-**Sounds:** —
+**Rule check:**
+- 'bike' — Silent E 12.1 (i says /ī/)
+- 'rides' — Silent E 12.1 (i says /ī/) + S
+- 'like' — Silent E 12.1 (i says /ī/)
+- 'safe' — Silent E 12.1 (a says /ā/), 12.3? No — F is between A and E
+- 'home' — Silent E 12.1 (o says /ō/)
+- 'share' — Silent E 12.1 (a says /ā/)
+- 'turns' — UR says /er/
+- 'Cole' — C says /k/, O says /ō/ (open syllable), silent E (12.1? No, the E is making O long through the L)
+- 'friend' — IE says /ĕ/ (unusual!), say-to-spell: /frēnd/
 
-**Rule:** 
-
-![Illustration]()
+**Say-to-Spell:** friend = /frēnd/, bike = /bīk/, nice = /nīs/
 
 </div>
 
 </div>
 
-<div class="page-break"></div>
+---
 
-## After Reading
+## Quick Check
 
-- What happened in the story? Retell it in your own words.
-- Find all the words with ****. Read them again.
-- Write one sentence using the new phonogram.
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+1. What does Cole share with Kate? *(His bike!)*
+2. Find 3 silent E words in the story. *(bike, rides, like, safe, home, take, share, waves, time)*
+3. Why does 'Cole' end with silent E? *(The E makes the O say /ō/ — SE 12.1)*
 
 ---
 
-**Next lesson:** Lesson 50
-
-
+**Next lesson:** Lesson 50: Mixed Spelling Analysis
 
 ---
 
-<div class="page-break"></div>
-
-## Lesson Complete!
-
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
-
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
-
+*Practice at home: Read this story aloud!*

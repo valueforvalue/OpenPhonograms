@@ -1,77 +1,62 @@
 # Lesson 41: Phonogram wor
 
-**Stage 3** · Lesson 41 · Type: phonogram-intro
+**Stage 3** · Lesson 41 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu |
 
 ---
 
-## New Learning: Phonogram wor
-
-### The Phonogram **wor**
+## New Learning: The Phonogram **wor**
 
 <div class="phonogram">wor</div>
 
-**wor** says: /wer/
+**wor** says 1 sound: /wer/
 
-| Sound | Example Word |
-|-------|-------------|
-| /wer/ | — |
+WOR is a special phonogram where the W changes the sound of OR. Instead of /or/, it says /wer/. Think: 'W+OR = /wer/' as in 'work' and 'world.'
 
-> Write **wor** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-work world word worth
-
-### Read It
-Read these words sound by sound, then blend:
-
-work world word worth
-
-### Quiz
-1. What sounds does **wor** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-work world word worth
+| Sound | Example Words |
+|-------|--------------|
+| /wer/ | work, world, worm, worth |
 
 ---
 
-**Next lesson:** Lesson 42
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| work | wor (/wer/), k (/k/) | WOR — W changes OR | /werk/ |
+| world | wor (/wer/), l (/l/), d (/d/) | WOR | /werld/ |
+| worm | wor (/wer/), m (/m/) | WOR | /werm/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> work &nbsp;&nbsp; world &nbsp;&nbsp; worm
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The work is here. I see a world.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **wor** say? *(/wer/)*
+2. Is wor used at the beginning, middle, or end of words?
+3. Write the word "work" from dictation.
+
+---
+
+**Next lesson:** Lesson 42: Phonogram ie
+
+---
+
+*Practice at home: Flash your **wor** card. Find **wor** in a book.*

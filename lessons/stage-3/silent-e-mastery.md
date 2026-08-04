@@ -1,49 +1,61 @@
-# Lesson 13: Silent E: Name That Reason
+# Lesson 13: Silent E — Name That Reason
 
-**Stage 3** · Lesson 13 · Type: practice
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+**Stage 3** · Lesson 13 · practice
 
 ---
 
-## New Learning: Silent E: Name That Reason
+## Warm-Up: Silent E Flash
 
-— [practice content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-mixed
+> Adult flashes words written on cards. Child reads the word and names which Silent E reason applies.
 
 ---
 
-**Next lesson:** Lesson 14
+## Practice: Name That Reason
 
+For each word, identify which Silent E reason (12.1–12.9) applies. Some words could fit more than one!
 
+| Word | Reason(s) | Why? |
+|------|-----------|------|
+| tape | 12.1 | Vowel says long |
+| have | 12.2 | No V at end |
+| dance | 12.3 | C says /s/ before E |
+| little | 12.4 | Syllable needs vowel |
+| house | 12.5 | Not plural — S doesn't mean plural |
+| pie | 12.6 | Word looks too short without E |
+| bathe | 12.7 | TH is voiced |
+| bye | 12.8 | Clarify meaning (vs. by) |
+| come | 12.9 | Unseen/historical reason |
+| make | 12.1 | Vowel says long |
+| give | 12.2 | No V at end |
+| change | 12.3 | G says /j/ before E |
+| table | 12.4 | Syllable needs vowel |
+| please | 12.5 | Not plural |
+| owe | 12.6 + 12.8 | Looks bigger AND clarifies meaning |
+| some | 12.9 | Unseen reason |
 
 ---
 
-<div class="page-break"></div>
+## Mixed Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| cape | c (/k/), a (/ā/), p (/p/), e — SE (12.1) | SE 12.1 | /kāp/ |
+| live | l (/l/), i (/ĭ/), v (/v/), e — SE (12.2) | SE 12.2 | /lĭv/ |
+| fence | f (/f/), e (/ĕ/), n (/n/), c (/s/), e — SE (12.3) | SE 12.3 + Rule 1 | /fĕns/ |
+| candle | c (/k/), a (/ă/), n (/n/), d (/d/), le — SE (12.4) | SE 12.4 | căn-dl |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Quick Check
 
+1. Which Silent E reason is most common? *(12.1 — vowel says long)*
+2. Which reason explains 'have' and 'give'? *(12.2 — no V at end)*
+3. Spell 'bridge' — is DGE a Silent E word? *(Yes — DGE uses silent E after Rule 25!)*
+
+---
+
+**Next lesson:** Lesson 14: Rule 1 — C Softens
+
+---
+
+*Practice at home: Find 10 silent E words in a book. Name the reason for each!*

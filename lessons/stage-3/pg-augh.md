@@ -1,78 +1,65 @@
 # Lesson 31: Phonogram augh
 
-**Stage 3** · Lesson 31 · Type: phonogram-intro
+**Stage 3** · Lesson 31 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough |
 
 ---
 
-## New Learning: Phonogram augh
-
-### The Phonogram **augh**
+## New Learning: The Phonogram **augh**
 
 <div class="phonogram">augh</div>
 
-**augh** says: /ä/ /ă/
+**augh** says 2 sounds: /ä/ /ăf/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ä/ | — |
-| /ă/ | — |
+AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laugh' and a few others). The GH affects the sound (Rule 28).
 
-> Write **augh** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Rule:** Rule 28: GH after AU usually says /f/ or is silent.
 
-### Write It
-Write each word twice:
-
-caught taught daughter laugh
-
-### Read It
-Read these words sound by sound, then blend:
-
-caught taught daughter laugh
-
-### Quiz
-1. What sounds does **augh** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-caught taught daughter laugh
+| Sound | Example Words |
+|-------|--------------|
+| /ä/ | caught, taught, daughter |
+| /ăf/ | laugh, draught |
 
 ---
 
-**Next lesson:** Lesson 32
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| caught | c (/k/), augh (/ä/), t (/t/) | Rule 28 | /kät/ |
+| taught | t (/t/), augh (/ä/), t (/t/) | Rule 28 | /tät/ |
+| laugh | l (/l/), augh (/ăf/) | GH=/f/ | /lăf/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> caught &nbsp;&nbsp; taught &nbsp;&nbsp; laugh
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The caught is here. I see a taught.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **augh** say? *(/ä/ /ăf/)*
+2. Is augh used at the beginning, middle, or end of words?
+3. Write the word "caught" from dictation.
+
+---
+
+**Next lesson:** Lesson 32: Rule 28: GH
+
+---
+
+*Practice at home: Flash your **augh** card. Find **augh** in a book.*

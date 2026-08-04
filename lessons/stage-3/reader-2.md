@@ -1,35 +1,50 @@
 # Lesson 48: Gwen Gives a Gift
 
-**Stage 3** · Lesson 48 · Type: reader
+**Stage 3** · Lesson 48 · reader
 
 ---
 
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Gwen Gives a Gift
-
-## Reader: Gwen Gives a Gift
-
-<div class="warmup-box">
-<div class="title">Warm-Up Words — read these first</div>
-
-—
-
-</div>
+## Story: Gwen Gives a Gift
 
 <div class="reader-page">
 
 <div class="reader-text">
 
-— [Story text to be written]
+**Gwen Gives a Gift**
+
+Gwen the goose has a gift.
+
+The gift is for her best friend, Grace.
+
+Grace is a goat. She lives on the farm with Gwen.
+
+Gwen wraps the gift in green paper. She ties it with a big bow.
+
+"Where is Grace?" Gwen asks.
+
+Grace is at the gate. She is eating grass.
+
+"Grace!" calls Gwen. "I have a gift for you!"
+
+Grace looks up. Her eyes get wide.
+
+"A gift? For me?"
+
+Gwen gives the gift to Grace. Grace tears the paper.
+
+Inside is a golden bell!
+
+Grace rings the bell. Ding! Ding!
+
+"I love it!" says Grace. "Thank you, Gwen!"
+
+Gwen grins. "You are welcome, Grace."
+
+The two friends sit in the grass. The sun is warm. The bell shines.
+
+What a good day.
+
+The End.
 
 </div>
 
@@ -37,56 +52,33 @@
 
 ### Spelling Aid
 
-**New phonogram:** 
+**Focus phonograms:** g (both sounds), silent E, ee, ai, ay, ow
 
-**Sounds:** —
+**Rule check:**
+- 'Gwen' — G says /g/ (doesn't soften before w)
+- 'Grace' — G says /g/ (doesn't soften before r)
+- 'gem' — G says /j/ (softens before e)
+- 'gives' — G says /g/ (doesn't soften — exception!)
+- 'Grace' — C says /k/ (before consonant)
 
-**Rule:** 
-
-![Illustration](animals/goose.png)
+**Say-to-Spell:** Give = /gĭv/ to hear the short I. Friend = /frēnd/ to hear the IE.
 
 </div>
 
 </div>
 
-<div class="page-break"></div>
+---
 
-## After Reading
+## Quick Check
 
-- What happened in the story? Retell it in your own words.
-- Find all the words with ****. Read them again.
-- Write one sentence using the new phonogram.
-
-
-
-![Gwen Gives a Gift](images/animals/goose.png)
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+1. What gift did Gwen give Grace? *(A golden bell!)*
+2. How many G words can you find in the story? *(Gwen, goose, gift, Grace, goat, green, grass, gives, gets, golden, grins, good — 12!)*
+3. Which G's say /g/ and which say /j/? *(All say /g/ in this story except 'gem' which isn't here, but 'gift' and 'gives' are exceptions to the softening rule.)*
 
 ---
 
-**Next lesson:** Lesson 49
-
-
+**Next lesson:** Lesson 49: Cole and His Bike
 
 ---
 
-<div class="page-break"></div>
-
-## Lesson Complete!
-
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
-
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
-
+*Practice at home: Read this story aloud to a family member!*

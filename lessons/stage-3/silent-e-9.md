@@ -1,73 +1,78 @@
-# Lesson 12: Silent E Reason 9: Unseen Reason
+# Lesson 12: Silent E Reason 12.9 — Unseen Reason
 
-**Stage 3** · Lesson 12 · Type: rule-intro
+**Stage 3** · Lesson 12 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Silent E Reason 9: Unseen Reason
-
-### Spelling Rule 12.9
-
-<span class="rule-badge">Rule 12.9</span> **Rule 12.9**
-
-| Example Words |
-|---------------|
-| — |
-
-## Practice
-
-### Write It
-Write each word twice:
-
-come some done none
-
-### Read It
-Read these words sound by sound, then blend:
-
-come some done none
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-come some done none
+| Review all 75 phonograms |
+|--------------------------|
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-**Next lesson:** Lesson 13
+## New Learning: Silent E Reason 12.9
 
+### The Reason
 
+> **Some words have a silent E for historical reasons we no longer hear.**
+
+### Why?
+
+English has changed over time. Words like 'come,' 'some,' 'done,' 'none' once had sounds we no longer pronounce. The silent E remains as a fossil of the older pronunciation. We don't always know exactly why, but the E IS doing a job — even if we can no longer see or hear exactly what it is.
+
+### Words That Follow This Rule
+
+| Word | How Silent E Works Here |
+|------|------------------------|
+| come | (explain how SE reason 12.9 applies) |
+| some | (explain how SE reason 12.9 applies) |
+| done | (explain how SE reason 12.9 applies) |
+| none | (explain how SE reason 12.9 applies) |
+| gone | (explain how SE reason 12.9 applies) |
+| one | (explain how SE reason 12.9 applies) |
+| love | (explain how SE reason 12.9 applies) |
+| above | (explain how SE reason 12.9 applies) |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| come | (sound out) | SE 12.9 | /come/ |
+| some | (sound out) | SE 12.9 | /some/ |
+| done | (sound out) | SE 12.9 | /done/ |
+| none | (sound out) | SE 12.9 | /none/ |
+| gone | (sound out) | SE 12.9 | /gone/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+Read these words sound by sound:
+
+> come &nbsp;&nbsp; some &nbsp;&nbsp; done &nbsp;&nbsp; none &nbsp;&nbsp; gone &nbsp;&nbsp; one &nbsp;&nbsp; love &nbsp;&nbsp; above
+
+Read these sentences:
+
+> I will come this. The some is here. Can you done?
+
+---
+
+## Quick Check
+
+1. What is Silent E Reason 12.9? *(Explain in your own words.)*
+2. Give an example word that follows this reason.
+3. What would the word be WITHOUT the silent E?
+
+---
+
+**Next lesson:** Lesson 13: SE: Name That Reason
+
+---
+
+*Practice at home: Find 3 words in a book that follow Silent E Reason 12.9.*

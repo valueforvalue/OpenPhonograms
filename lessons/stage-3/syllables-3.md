@@ -1,49 +1,75 @@
-# Lesson 45: Syllable Division: VCV
+# Lesson 45: Syllable Division: VCV Pattern
 
-**Stage 3** · Lesson 45 · Type: syllable-division
+**Stage 3** · Lesson 45 · syllable-division
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + all multi-letter learned so far |
 
 ---
 
-## New Learning: Syllable Division: VCV
+## New Learning: VCV Pattern
 
-— [syllable-division content to be written]
-## Review
+### What Are Syllables?
 
-### Quick Check
+A syllable is a word part with ONE vowel sound. Every syllable has exactly one vowel sound. When we read long words, we break them into syllables.
 
-- Check phonogram recall
-- Review new rule if introduced
+### How to Divide: VCV Pattern
 
-### Words to Spell (Dictation)
+When one consonant stands between two vowels (VCV), try dividing AFTER the first vowel (making an open syllable with a long vowel). If that doesn't sound right, divide BEFORE the consonant. ba/by (open) vs. cab/in (closed).
 
-baby tiger open
+### Let's Divide
+
+For each word, say it slowly, clap the syllables, then write each syllable:
+
+| Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
+|------|--------------------|---------|---------------------------|----------------------------|
+| baby | 2 | ba/by | — | — |
+| tiger | 2 | ti/ger | — | — |
+| open | 2 | op/en | — | — |
+| music | 2 | mu/sic | — | — |
+| paper | 2 | pa/per | — | — |
+| seven | 2 | se/ven | — | — |
+| river | 2 | ri/ver | — | — |
+| cabin | 2 | ca/bin | — | — |
 
 ---
 
-**Next lesson:** Lesson 46
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| baby | (sound out each syllable) | — | baby |
+| tiger | (sound out each syllable) | — | tiger |
+| open | (sound out each syllable) | — | open |
+| music | (sound out each syllable) | — | music |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> baby &nbsp;&nbsp; tiger &nbsp;&nbsp; open &nbsp;&nbsp; music &nbsp;&nbsp; paper &nbsp;&nbsp; seven &nbsp;&nbsp; river &nbsp;&nbsp; cabin &nbsp;&nbsp; robin &nbsp;&nbsp; lemon
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The baby is here. I see a tiger.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. How do you divide VCV Pattern? *(Describe the pattern.)*
+2. How many vowel sounds are in a 2-syllable word? *(2 — one per syllable!)*
+3. Divide the word "baby" into syllables and spell each one.
+
+---
+
+**Next lesson:** Lesson 46: Syllables: C+LE
+
+---
+
+*Practice at home: Find 3 two-syllable words in a book. Clap the syllables and try to divide them.*

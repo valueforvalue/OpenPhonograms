@@ -1,78 +1,63 @@
 # Lesson 42: Phonogram ie
 
-**Stage 3** · Lesson 42 · Type: phonogram-intro
+**Stage 3** · Lesson 42 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor |
 
 ---
 
-## New Learning: Phonogram ie
-
-### The Phonogram **ie**
+## New Learning: The Phonogram **ie**
 
 <div class="phonogram">ie</div>
 
-**ie** says: /ē/ /ī/
+**ie** says 2 sounds: /ē/ /ī/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ē/ | — |
-| /ī/ | — |
+IE has two sounds: /ē/ (most common, as in 'field') and /ī/ (at the end of words, as in 'pie'). At the end of a word, IE always says /ī/ with a silent E.
 
-> Write **ie** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-field pie chief
-
-### Read It
-Read these words sound by sound, then blend:
-
-field pie chief
-
-### Quiz
-1. What sounds does **ie** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-field pie chief
+| Sound | Example Words |
+|-------|--------------|
+| /ē/ | field, piece, chief, believe |
+| /ī/ | pie, tie, lie, die |
 
 ---
 
-**Next lesson:** Lesson 43
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| field | f (/f/), ie (/ē/), l (/l/), d (/d/) | IE=/ē/ in middle | /fēld/ |
+| pie | p (/p/), ie (/ī/) | IE=/ī/ at end | /pī/ |
+| chief | ch (/ch/), ie (/ē/), f (/f/) | IE=/ē/ | /chēf/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> field &nbsp;&nbsp; pie &nbsp;&nbsp; chief
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The field is here. I see a pie.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ie** say? *(/ē/ /ī/)*
+2. Is ie used at the beginning, middle, or end of words?
+3. Write the word "field" from dictation.
+
+---
+
+**Next lesson:** Lesson 43: Syllables: Compound
+
+---
+
+*Practice at home: Flash your **ie** card. Find **ie** in a book.*

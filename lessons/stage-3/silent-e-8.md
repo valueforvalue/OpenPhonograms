@@ -1,73 +1,76 @@
-# Lesson 11: Silent E Reason 8: Clarify Meaning
+# Lesson 11: Silent E Reason 12.8 — Clarify Meaning
 
-**Stage 3** · Lesson 11 · Type: rule-intro
+**Stage 3** · Lesson 11 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
-
----
-
-## New Learning: Silent E Reason 8: Clarify Meaning
-
-### Spelling Rule 12.8
-
-<span class="rule-badge">Rule 12.8</span> **Rule 12.8**
-
-| Example Words |
-|---------------|
-| — |
-
-## Practice
-
-### Write It
-Write each word twice:
-
-bye ore awe
-
-### Read It
-Read these words sound by sound, then blend:
-
-bye ore awe
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-bye ore awe
+| Review all 75 phonograms |
+|--------------------------|
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-**Next lesson:** Lesson 12
+## New Learning: Silent E Reason 12.8
 
+### The Reason
 
+> **Silent E distinguishes between homophones — words that sound the same but mean different things.**
+
+### Why?
+
+Some words sound identical but need different spellings to show different meanings: by/bye, or/ore, aw/awe. The silent E marks the difference.
+
+### Words That Follow This Rule
+
+| Word | How Silent E Works Here |
+|------|------------------------|
+| bye | (explain how SE reason 12.8 applies) |
+| ore | (explain how SE reason 12.8 applies) |
+| awe | (explain how SE reason 12.8 applies) |
+| owe | (explain how SE reason 12.8 applies) |
+| please | (explain how SE reason 12.8 applies) |
+| lapse | (explain how SE reason 12.8 applies) |
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| bye | (sound out) | SE 12.8 | /bye/ |
+| ore | (sound out) | SE 12.8 | /ore/ |
+| awe | (sound out) | SE 12.8 | /awe/ |
+| owe | (sound out) | SE 12.8 | /owe/ |
+| please | (sound out) | SE 12.8 | /please/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+Read these words sound by sound:
+
+> bye &nbsp;&nbsp; ore &nbsp;&nbsp; awe &nbsp;&nbsp; owe &nbsp;&nbsp; please &nbsp;&nbsp; lapse
+
+Read these sentences:
+
+> I will bye this. The ore is here. Can you awe?
+
+---
+
+## Quick Check
+
+1. What is Silent E Reason 12.8? *(Explain in your own words.)*
+2. Give an example word that follows this reason.
+3. What would the word be WITHOUT the silent E?
+
+---
+
+**Next lesson:** Lesson 12: SE 9: Unseen Reason
+
+---
+
+*Practice at home: Find 3 words in a book that follow Silent E Reason 12.8.*

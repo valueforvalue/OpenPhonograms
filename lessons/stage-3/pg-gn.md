@@ -1,77 +1,62 @@
 # Lesson 21: Phonogram gn
 
-**Stage 3** · Lesson 21 · Type: phonogram-intro
+**Stage 3** · Lesson 21 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn |
 
 ---
 
-## New Learning: Phonogram gn
-
-### The Phonogram **gn**
+## New Learning: The Phonogram **gn**
 
 <div class="phonogram">gn</div>
 
-**gn** says: /n/
+**gn** says 1 sound: /n/
 
-| Sound | Example Word |
-|-------|-------------|
-| /n/ | — |
+GN is a two-letter /n/. At the beginning of a word, the G is silent (gnat, gnaw). In the middle or end, GN says /n/ (sign, design).
 
-> Write **gn** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-sign gnat gnaw design
-
-### Read It
-Read these words sound by sound, then blend:
-
-sign gnat gnaw design
-
-### Quiz
-1. What sounds does **gn** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-sign gnat gnaw design
+| Sound | Example Words |
+|-------|--------------|
+| /n/ | sign, gnat, gnaw, design |
 
 ---
 
-**Next lesson:** Lesson 22
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| sign | s (/s/), i (/ī/), gn (/n/) | GN at end — G silent | /sīn/ |
+| gnat | gn (/n/), a (/ă/), t (/t/) | GN at start | /năt/ |
+| gnaw | gn (/n/), aw (/ä/) | GN at start | /nä/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> sign &nbsp;&nbsp; gnat &nbsp;&nbsp; gnaw
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The sign is here. I see a gnat.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **gn** say? *(/n/)*
+2. Is gn used at the beginning, middle, or end of words?
+3. Write the word "sign" from dictation.
+
+---
+
+**Next lesson:** Lesson 22: Phonogram wr
+
+---
+
+*Practice at home: Flash your **gn** card. Find **gn** in a book.*

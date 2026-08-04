@@ -1,49 +1,87 @@
-# Lesson 53: High-Frequency Words Set 4
+# Lesson 53: High-Frequency Words — Set 4
 
-**Stage 3** · Lesson 53 · Type: hf-word
+**Stage 3** · Lesson 53 · hf-word
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + all multi-letter learned so far |
 
 ---
 
-## New Learning: High-Frequency Words Set 4
+## Important Reminder
 
-— [hf-word content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-from or one had by words but not
+These are NOT sight words. Every one can be explained with phonograms and rules. Say-to-spell helps you hear the spelling!
 
 ---
 
-**Next lesson:** Lesson 54
+## Today's Words
+
+### where
+
+WH says /hw/. ERE says /ār/ — E says /ā/ (open syllable), R-controlled. Say-to-spell: /hwār/.
+
+### there
+
+TH says voiced /th/. ERE says /ār/ — same pattern as 'where.' Compare: where, there, here.
+
+### their
+
+TH voiced. EIR — EI says /ā/ like in 'vein,' R-controlled. Say-to-spell: /thār/.
+
+### were
+
+W says /w/. ERE says /er/ — a special case. Compare: were vs. where (same letters, different sounds!). Say-to-spell: /wār/ to remember the E, read as /wer/.
+
+### here
+
+H says /h/. ERE says /ēr/ — E says /ē/ (open syllable). Say-to-spell: /hēr/.
 
 
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| where | (see above) | (see above) | (see above) |
+| there | (see above) | (see above) | (see above) |
+| their | (see above) | (see above) | (see above) |
+| were | (see above) | (see above) | (see above) |
+| here | (see above) | (see above) | (see above) |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+> Where is the cat? There is a dog! Their hats are red. We were in the park. Come here!
+
+---
+
+## Dictation
+
+Adult reads these sentences. Child writes them.
+
+> Where is the dog? We were in the park. Come here now!
+
+---
+
+## Quick Check
+
+1. Why is say-to-spell important for these words? *(Because the normal pronunciation hides the spelling!)*
+2. Which word was hardest to explain? Why?
+3. Spell "where" from dictation.
+
+---
+
+**Next lesson:** Lesson 54: HF Words 5
+
+---
+
+*Practice at home: Find today's words in a book. Write each one and underline the tricky phonograms.*

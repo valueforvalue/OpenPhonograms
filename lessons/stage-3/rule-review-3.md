@@ -1,51 +1,65 @@
 # Lesson 52: All Stage 3 Rules Review
 
-**Stage 3** · Lesson 52 · Type: review
+**Stage 3** · Lesson 52 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash ALL phonograms. Goal: under 2 seconds per card.
 
 ---
 
-## New Learning: All Stage 3 Rules Review
+## Rule Speed Round
 
-### All Stage 3 Rules Review
+Adult says a rule number. Child states the rule:
 
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 53
-
-
+1 (C softens before E I Y)
+2 (G may soften before E I Y)
+5 (I/Y at end of syllable)
+6 (Y=/ī/ in one-syllable)
+7 (I/Y may say /ē/)
+8 (I/O before two consonants)
+10 (A=/ä/ at end, after W, before L)
+25 (DGE after short vowel)
+27 (TCH after short vowel)
+28 (GH phonograms)
+31 (Schwa in unstressed syllables)
 
 ---
 
-<div class="page-break"></div>
+## Which Rule?
 
-## Lesson Complete!
+Adult says a word. Child names all rules that apply.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+bridge → Rule 25 (DGE after short vowel)
+catch → Rule 27 (TCH after short vowel)
+cent → Rule 1 (C softens)
+gem → Rule 2 (G softens)
+by → Rule 6 (Y=/ī/)
+baby → Rule 7 (Y=/ē/)
+find → Rule 8 (I before two consonants)
+water → Rule 10 (A=/ä/ after W)
+laugh → Rule 28 (GH=/f/)
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Spelling Challenge
+
+Apply the rules to spell: dance, large, bridge, catch, by, baby, find, water, laugh, light.
+
+---
+
+## Spelling Challenge
+
+Spell these words from dictation:
+
+> dance, large, bridge, catch, by, baby, find, water, laugh, light
+
+---
+
+**Next lesson:** Lesson 53: HF Words 4
+
+---
+
+*Practice at home: Review your rule flashcards!*

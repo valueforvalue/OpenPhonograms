@@ -1,49 +1,75 @@
-# Lesson 44: Syllable Division: VCCV
+# Lesson 44: Syllable Division: VCCV Pattern
 
-**Stage 3** · Lesson 44 · Type: syllable-division
+**Stage 3** · Lesson 44 · syllable-division
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + all multi-letter learned so far |
 
 ---
 
-## New Learning: Syllable Division: VCCV
+## New Learning: VCCV Pattern
 
-— [syllable-division content to be written]
-## Review
+### What Are Syllables?
 
-### Quick Check
+A syllable is a word part with ONE vowel sound. Every syllable has exactly one vowel sound. When we read long words, we break them into syllables.
 
-- Check phonogram recall
-- Review new rule if introduced
+### How to Divide: VCCV Pattern
 
-### Words to Spell (Dictation)
+When two consonants stand between two vowels (VCCV), divide between the consonants. rab/bit, bas/ket, pic/nic. The first syllable is closed, so the vowel is short.
 
-rabbit basket picnic
+### Let's Divide
+
+For each word, say it slowly, clap the syllables, then write each syllable:
+
+| Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
+|------|--------------------|---------|---------------------------|----------------------------|
+| rabbit | 3 | rab/bit | — | — |
+| basket | 3 | bas/ket | — | — |
+| picnic | 3 | pic/nic | — | — |
+| muffin | 3 | muf/fin | — | — |
+| puppet | 3 | pup/pet | — | — |
+| tennis | 3 | ten/nis | — | — |
+| lesson | 3 | les/son | — | — |
+| pillow | 3 | pil/low | — | — |
 
 ---
 
-**Next lesson:** Lesson 45
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| rabbit | (sound out each syllable) | — | rabbit |
+| basket | (sound out each syllable) | — | basket |
+| picnic | (sound out each syllable) | — | picnic |
+| muffin | (sound out each syllable) | — | muffin |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> rabbit &nbsp;&nbsp; basket &nbsp;&nbsp; picnic &nbsp;&nbsp; muffin &nbsp;&nbsp; puppet &nbsp;&nbsp; tennis &nbsp;&nbsp; lesson &nbsp;&nbsp; pillow &nbsp;&nbsp; butter &nbsp;&nbsp; kitten
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The rabbit is here. I see a basket.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. How do you divide VCCV Pattern? *(Describe the pattern.)*
+2. How many vowel sounds are in a 2-syllable word? *(2 — one per syllable!)*
+3. Divide the word "rabbit" into syllables and spell each one.
+
+---
+
+**Next lesson:** Lesson 45: Syllables: VCV
+
+---
+
+*Practice at home: Find 3 two-syllable words in a book. Clap the syllables and try to divide them.*

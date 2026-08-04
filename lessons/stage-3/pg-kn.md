@@ -1,77 +1,62 @@
 # Lesson 20: Phonogram kn
 
-**Stage 3** · Lesson 20 · Type: phonogram-intro
+**Stage 3** · Lesson 20 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch |
 
 ---
 
-## New Learning: Phonogram kn
-
-### The Phonogram **kn**
+## New Learning: The Phonogram **kn**
 
 <div class="phonogram">kn</div>
 
-**kn** says: /n/
+**kn** says 1 sound: /n/
 
-| Sound | Example Word |
-|-------|-------------|
-| /n/ | — |
+KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. This comes from Old English where the K was once pronounced.
 
-> Write **kn** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-know knee knife knock
-
-### Read It
-Read these words sound by sound, then blend:
-
-know knee knife knock
-
-### Quiz
-1. What sounds does **kn** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-know knee knife knock
+| Sound | Example Words |
+|-------|--------------|
+| /n/ | know, knee, knife, knock |
 
 ---
 
-**Next lesson:** Lesson 21
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| know | kn (/n/), ow (/ō/) | KN = two-letter /n/ | /nō/ |
+| knee | kn (/n/), ee (/ē/) | KN at start | /nē/ |
+| knock | kn (/n/), o (/ŏ/), ck (/k/) | KN + CK in same word | /nŏk/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> know &nbsp;&nbsp; knee &nbsp;&nbsp; knock
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The know is here. I see a knee.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **kn** say? *(/n/)*
+2. Is kn used at the beginning, middle, or end of words?
+3. Write the word "know" from dictation.
+
+---
+
+**Next lesson:** Lesson 21: Phonogram gn
+
+---
+
+*Practice at home: Flash your **kn** card. Find **kn** in a book.*

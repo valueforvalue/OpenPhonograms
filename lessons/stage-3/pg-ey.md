@@ -1,78 +1,63 @@
 # Lesson 27: Phonogram ey
 
-**Stage 3** · Lesson 27 · Type: phonogram-intro
+**Stage 3** · Lesson 27 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei |
 
 ---
 
-## New Learning: Phonogram ey
-
-### The Phonogram **ey**
+## New Learning: The Phonogram **ey**
 
 <div class="phonogram">ey</div>
 
-**ey** says: /ā/ /ē/
+**ey** says 2 sounds: /ā/ /ē/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ā/ | — |
-| /ē/ | — |
+EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of multi-syllable words like 'valley'). When unstressed at the end, it usually says /ē/.
 
-> Write **ey** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-they key money
-
-### Read It
-Read these words sound by sound, then blend:
-
-they key money
-
-### Quiz
-1. What sounds does **ey** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-they key money
+| Sound | Example Words |
+|-------|--------------|
+| /ā/ | they, hey, prey, obey |
+| /ē/ | key, valley, money, turkey |
 
 ---
 
-**Next lesson:** Lesson 28
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| they | th (/th/), ey (/ā/) | EY=/ā/ | /thā/ |
+| key | k (/k/), ey (/ē/) | EY=/ē/ | /kē/ |
+| valley | v (/v/), a (/ă/), l (/l/), l (/l/), ey (/ē/) | Y unstressed = /ē/ | văl-ē |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> they &nbsp;&nbsp; key &nbsp;&nbsp; valley
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The they is here. I see a key.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ey** say? *(/ā/ /ē/)*
+2. Is ey used at the beginning, middle, or end of words?
+3. Write the word "they" from dictation.
+
+---
+
+**Next lesson:** Lesson 28: Phonogram ph
+
+---
+
+*Practice at home: Flash your **ey** card. Find **ey** in a book.*

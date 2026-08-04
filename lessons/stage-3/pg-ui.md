@@ -1,78 +1,63 @@
 # Lesson 34: Phonogram ui
 
-**Stage 3** · Lesson 34 · Type: phonogram-intro
+**Stage 3** · Lesson 34 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew |
 
 ---
 
-## New Learning: Phonogram ui
-
-### The Phonogram **ui**
+## New Learning: The Phonogram **ui**
 
 <div class="phonogram">ui</div>
 
-**ui** says: /ü/ /ö/
+**ui** says 2 sounds: /ü/ /ö/
 
-| Sound | Example Word |
-|-------|-------------|
-| /ü/ | — |
-| /ö/ | — |
+UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always has another letter after it — it never ends a word.
 
-> Write **ui** three times on your whiteboard while saying its sounds.
 
-## Practice
-
-### Write It
-Write each word twice:
-
-fruit suit juice
-
-### Read It
-Read these words sound by sound, then blend:
-
-fruit suit juice
-
-### Quiz
-1. What sounds does **ui** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-fruit suit juice
+| Sound | Example Words |
+|-------|--------------|
+| /ü/ | fruit, suit, juice |
+| /ö/ | build, guild |
 
 ---
 
-**Next lesson:** Lesson 35
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| fruit | f (/f/), r (/r/), ui (/ü/), t (/t/) | UI=/ü/ | /früt/ |
+| suit | s (/s/), ui (/ü/), t (/t/) | UI=/ü/ | /süt/ |
+| build | b (/b/), ui (/ö/), l (/l/), d (/d/) | UI=/ö/ (unusual) | /bĭld/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> fruit &nbsp;&nbsp; suit &nbsp;&nbsp; build
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The fruit is here. I see a suit.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **ui** say? *(/ü/ /ö/)*
+2. Is ui used at the beginning, middle, or end of words?
+3. Write the word "fruit" from dictation.
+
+---
+
+**Next lesson:** Lesson 35: Phonogram eu
+
+---
+
+*Practice at home: Flash your **ui** card. Find **ui** in a book.*

@@ -1,73 +1,78 @@
-# Lesson 15: Rule 2: G May Soften to /j/ Before E I Y
+# Lesson 15: Rule 2 — G May Soften to /j/ Before E, I, or Y
 
-**Stage 3** · Lesson 15 · Type: rule-intro
+**Stage 3** · Lesson 15 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Quick flash of all known phonograms.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Rule 2: G May Soften to /j/ Before E I Y
+## New Learning: Rule 2
 
-### Spelling Rule 2
+### The Rule
 
-<span class="rule-badge">Rule 2</span> **Rule 2**
+> ****G** *may* soften to /j/ only when followed by **E**, **I**, or **Y**. Otherwise, **G** says /g/.**
 
-| Example Words |
-|---------------|
-| — |
+### Why This Rule Matters
 
-## Practice
+G MAY (not always) soften to /j/ before E, I, or Y. In 'gem,' G says /j/. But in 'get' and 'give,' G says /g/ even though E and I follow. You have to try both sounds!
 
-### Write It
-Write each word twice:
+### Examples
 
-gem giant gym
+gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ — doesn't soften)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-gem giant gym
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-gem giant gym
+| Word | How Rule 2 Applies |
+|------|--------------------------|
+| gem | (describe how Rule 2 applies) |
+| giant | (describe how Rule 2 applies) |
+| gym | (describe how Rule 2 applies) |
+| change | (describe how Rule 2 applies) |
+| large | (describe how Rule 2 applies) |
+| get | (describe how Rule 2 applies) |
+| give | (describe how Rule 2 applies) |
+| go | (describe how Rule 2 applies) |
 
 ---
 
-**Next lesson:** Lesson 16
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| gem | (sound out) | Rule 2 | /gem/ |
+| giant | (sound out) | Rule 2 | /giant/ |
+| gym | (sound out) | Rule 2 | /gym/ |
+| change | (sound out) | Rule 2 | /change/ |
+| large | (sound out) | Rule 2 | /large/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> gem &nbsp;&nbsp; giant &nbsp;&nbsp; gym &nbsp;&nbsp; change &nbsp;&nbsp; large &nbsp;&nbsp; get &nbsp;&nbsp; give &nbsp;&nbsp; go &nbsp;&nbsp; gap &nbsp;&nbsp; gum
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The gem is big. I see a giant. The gym runs.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 2? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson 16: Spelling: ce ci ge gi
+
+---
+
+*Practice at home: Find 3 words that follow Rule 2. Write them down!*

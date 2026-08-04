@@ -1,77 +1,64 @@
 # Lesson 17: Phonogram dge
 
-**Stage 3** · Lesson 17 · Type: phonogram-intro
+**Stage 3** · Lesson 17 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
 
-| Phonograms to review |
+| All known phonograms |
 |----------------------|
-| Review all previously taught phonograms |
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
 
 ---
 
-## New Learning: Phonogram dge
-
-### The Phonogram **dge**
+## New Learning: The Phonogram **dge**
 
 <div class="phonogram">dge</div>
 
-**dge** says: /j/
+**dge** says 1 sound: /j/
 
-| Sound | Example Word |
-|-------|-------------|
-| /j/ | — |
+DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or there's a consonant before, use GE instead (cage, large).
 
-> Write **dge** three times on your whiteboard while saying its sounds.
 
-## Practice
+> **Rule:** Rule 25: DGE is used only after a single vowel which says its short sound.
 
-### Write It
-Write each word twice:
-
-bridge edge judge badge
-
-### Read It
-Read these words sound by sound, then blend:
-
-bridge edge judge badge
-
-### Quiz
-1. What sounds does **dge** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-bridge edge judge badge
+| Sound | Example Words |
+|-------|--------------|
+| /j/ | bridge, edge, fudge, judge |
 
 ---
 
-**Next lesson:** Lesson 18
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| bridge | b (/b/), r (/r/), i (/ĭ/), dge (/j/) | Rule 25: DGE after short i | /brĭj/ |
+| edge | e (/ĕ/), dge (/j/) | Rule 25 | /ĕj/ |
+| judge | j (/j/), u (/ŭ/), dge (/j/) | Rule 25 | /jŭj/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> bridge &nbsp;&nbsp; edge &nbsp;&nbsp; judge
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The bridge is here. I see a edge.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What does **dge** say? *(/j/)*
+2. Is dge used at the beginning, middle, or end of words?
+3. Write the word "bridge" from dictation.
+
+---
+
+**Next lesson:** Lesson 18: Phonogram tch
+
+---
+
+*Practice at home: Flash your **dge** card. Find **dge** in a book.*
