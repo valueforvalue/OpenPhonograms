@@ -1,0 +1,6 @@
+# Lesson packs are build artifacts — regenerate with:
+#   python scripts/build-lesson-pack.py --all
+# Or per-lesson: python scripts/build-lesson-pack.py --lesson pg-d
+*.md
+*.pdf
+!*.gitignore
