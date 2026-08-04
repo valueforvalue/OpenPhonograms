@@ -4,7 +4,10 @@
 
 ---
 
-## Story: The Sail Box
+## Story:
+
+![Illustration](images/illustrations/sail-box.png)
+ The Sail Box
 
 <div class="reader-page">
 

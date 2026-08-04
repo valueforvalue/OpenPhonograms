@@ -4,7 +4,8 @@
 
 ---
 
-## Story: Gwen Gives a Gift
+
+![goose](images/animals/goose.png)
 
 <div class="reader-page">
 

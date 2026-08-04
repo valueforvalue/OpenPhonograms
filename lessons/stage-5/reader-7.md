@@ -4,7 +4,8 @@
 
 ---
 
-## Story: Ostriches: The Giants of the Bird World
+
+![ostrich](images/animals/ostrich.png)
 
 <div class="reader-page">
 <div class="reader-text">

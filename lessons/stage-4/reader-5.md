@@ -4,7 +4,8 @@
 
 ---
 
-## Story: Firefly: Nightlight with Wings
+
+![firefly](images/animals/firefly.png)
 
 <div class="reader-page">
 <div class="reader-text">

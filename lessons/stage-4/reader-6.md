@@ -4,7 +4,10 @@
 
 ---
 
-## Story: Trains: A Blast of Fast
+## Story:
+
+![Illustration](images/illustrations/train.png)
+ Trains: A Blast of Fast
 
 <div class="reader-page">
 <div class="reader-text">
