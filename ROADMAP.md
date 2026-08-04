@@ -59,8 +59,9 @@ Open issues for the project. Checked = done, unchecked = planned.
 
 - [x] GitHub repo with full source
 - [x] PDF generation (build/ directory)
-- [x] Release ZIP with LOE-style folder structure (446 files, 18.6 MB)
-  - 00-Start-Here.pdf, 01-Index-TOC.pdf, 02-Scope-and-Sequence.pdf (top-level navigation)
+- [x] Release ZIP with LOE-style folder structure (450 files, 18.8 MB)
+  - 00-Start-Here.pdf, 00-Landing-Page.{pdf,html}, 01-Index-TOC.pdf, 02-Scope-and-Sequence.pdf (top-level navigation)
+  - binding-instructions.pdf (top-level, printable)
   - 04-Quick-Reference/ (phonograms, rules, spelling analysis)
   - 05-Teacher-Handbooks/ (5 stage handbooks, 153-260 pages each, clickable bookmarks)
   - 06-Lesson-Packs/ (248 per-lesson bundles, 5 stage folders)
@@ -72,5 +73,5 @@ Open issues for the project. Checked = done, unchecked = planned.
   - 12-Audio/ (74 MP3s)
   - 13-Certificates/ (5 printable completion certificates)
   - README.md (text overview at root)
-- [ ] Website/landing page for the curriculum
-- [ ] Printable workbook binding instructions
+- [x] Website/landing page: docs/index.html + 00-Landing-Page.pdf
+- [x] Printable workbook binding instructions: binding-instructions.pdf

@@ -137,6 +137,21 @@ For questions, issues, or contributions, see the project repository.
                 zf.write(f, f"08-Decodable-Readers/{name}")
                 print(f"  OK  08-Decodable-Readers/{name}")
 
+        # 1b. Landing page PDF + HTML
+        landing_pdf = handbook / "00-Landing-Page.pdf"
+        if landing_pdf.exists():
+            zf.write(landing_pdf, "00-Landing-Page.pdf")
+            print(f"  OK  00-Landing-Page.pdf")
+        landing_html = ROOT / "docs" / "index.html"
+        if landing_html.exists():
+            zf.write(landing_html, "00-Landing-Page.html")
+            print(f"  OK  00-Landing-Page.html")
+        # Binding instructions
+        binding_pdf = handbook / "binding-instructions.pdf"
+        if binding_pdf.exists():
+            zf.write(binding_pdf, "binding-instructions.pdf")
+            print(f"  OK  binding-instructions.pdf")
+
         # 2. Lesson packs grouped by stage (packs/stage-N/*.pdf)
         packs = ROOT / "packs"
         if packs.exists():

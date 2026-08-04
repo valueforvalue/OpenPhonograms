@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uncovering the Logic of English — Open-Source Reading Curriculum</title>
+<meta name="description" content="Free, open-source adaptation of Denise Eide's phonogram-and-rules reading curriculum. 248 lessons, Pre-K to Grade 3+. Printable PDFs.">
+<style>
+  :root {
+    --accent: #2a5c8a;
+    --accent-light: #4a7caa;
+    --gold: #c8a832;
+    --ink: #222;
+    --paper: #fdfdfb;
+    --rule: #ccc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 2em 1.5em; }
+  header {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+    color: white;
+    padding: 3em 1.5em;
+    text-align: center;
+  }
+  header h1 { font-size: 2.4em; margin-bottom: 0.2em; }
+  header p { font-size: 1.1em; opacity: 0.95; }
+  .badges { margin-top: 1em; }
+  .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    color: white;
+    padding: 0.3em 0.8em;
+    border-radius: 1em;
+    font-size: 0.85em;
+    margin: 0.2em;
+  }
+  h2 {
+    font-size: 1.8em;
+    color: var(--accent);
+    margin: 1.5em 0 0.5em;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.2em;
+  }
+  h3 { font-size: 1.3em; color: var(--accent); margin: 1.2em 0 0.4em; }
+  .cta {
+    background: var(--gold);
+    color: var(--ink);
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: 1.1em;
+  }
+  .cta a { color: var(--ink); font-weight: bold; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.95em; }
+  th, td { padding: 0.6em 0.8em; text-align: left; border-bottom: 1px solid var(--rule); }
+  th { background: #f0f4f8; font-weight: bold; color: var(--accent); }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1em;
+    margin: 1em 0;
+  }
+  .card {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 1em;
+    background: white;
+  }
+  .card h4 { color: var(--accent); margin-bottom: 0.3em; font-size: 1.1em; }
+  .card p { font-size: 0.95em; color: #444; }
+  .quote {
+    border-left: 4px solid var(--gold);
+    background: #fdfaeb;
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+    font-style: italic;
+  }
+  ul { margin: 0.5em 0 1em 1.5em; }
+  li { margin: 0.3em 0; }
+  footer {
+    background: #2a2a2a;
+    color: #ccc;
+    padding: 2em 1.5em;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 0.9em;
+  }
+  footer a { color: var(--gold); }
+  code {
+    background: #f4f0e8;
+    padding: 1px 5px;
+    border-radius: 2px;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+  }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.8em; }
+    .wrap { padding: 1.5em 1em; }
+  }
+  @media print {
+    header { background: white; color: black; border-bottom: 2px solid var(--accent); }
+    .cta, footer { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Uncovering the Logic of English</h1>
+  <p>An open-source reading curriculum based on Denise Eide's phonogram-and-rules method.</p>
+  <div class="badges">
+    <span class="badge">248 lessons</span>
+    <span class="badge">75 phonograms</span>
+    <span class="badge">31 spelling rules</span>
+    <span class="badge">Pre-K → Grade 3+</span>
+    <span class="badge">Print-first</span>
+    <span class="badge">MIT license</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="cta">
+  <a href="https://github.com/valueforvalue/UncoveringtheLogic/releases">� Download release ZIP (18.6 MB)</a>
+  &nbsp;·&nbsp;
+  <a href="USE.md">Use the curriculum</a>
+  &nbsp;·&nbsp;
+  <a href="BUILD.md">Build from source</a>
+  &nbsp;·&nbsp;
+  <a href="binding-instructions.pdf">Binding instructions</a>
+</div>
+
+<h2>What is this?</h2>
+
+<p>A complete, print-first reading curriculum covering Pre-K through Grade 3+. Every lesson, worksheet, reader, and reference is generated from version-controlled data — no DRM, no internet required, no locked PDFs.</p>
+
+<p>The methodology: <strong>spelling drives reading</strong>. Children learn the 75 phonograms (sound-units) and 31 spelling rules that govern 98% of English words. They practice a 5-step <em>Spelling Analysis</em> routine that turns spelling into a decoding tool for reading.</p>
+
+<div class="quote">
+"Speech-to-print, not print-to-speech. Start with the sound; find the written form."<br>
+<span style="font-style: normal; font-size: 0.9em;">— Six core methodology ideas</span>
+</div>
+
+<h2>What's in the release</h2>
+
+<div class="grid">
+  <div class="card">
+    <h4>📖 248 lessons</h4>
+    <p>Across 5 stages — Pre-K, K, Grade 1, Grade 2, Grade 3+. ~15-50 minutes per lesson.</p>
+  </div>
+  <div class="card">
+    <h4>🎴 75 phonograms</h4>
+    <p>26 single-letter + 49 multi-letter. Each taught with all sounds from the start.</p>
+  </div>
+  <div class="card">
+    <h4>📋 31 spelling rules</h4>
+    <p>Cover 98% of English words. Silent E (9 reasons), suffixing, Latin /sh/, and more.</p>
+  </div>
+  <div class="card">
+    <h4>📚 25 decodable readers</h4>
+    <p>Stage 2-5 stories. Controlled vocabulary — only phonograms the child knows.</p>
+  </div>
+  <div class="card">
+    <h4>✏️ 178 worksheets</h4>
+    <p>Phonogram practice, rule application, flash cards, blank templates.</p>
+  </div>
+  <div class="card">
+    <h4>🎮 Web game</h4>
+    <p>5 modes — Flash, Match, Speed, Browse, Spell. Self-contained HTML.</p>
+  </div>
+  <div class="card">
+    <h4>� 8 assessments</h4>
+    <p>Stage mastery checks. Plus 15 interim quick-checks + 1 placement test.</p>
+  </div>
+  <div class="card">
+    <h4>🏆 5 certificates</h4>
+    <p>Printable completion certificates, one per stage.</p>
+  </div>
+</div>
+
+<h2>Stage-by-stage</h2>
+
+<table>
+  <tr>
+    <th>Stage</th><th>Age</th><th>Lessons</th><th>Focus</th>
+  </tr>
+  <tr><td>1</td><td>Pre-K (4-5)</td><td>48</td><td>Phonemic awareness + 26 single-letter phonograms</td></tr>
+  <tr><td>2</td><td>K (5-6)</td><td>56</td><td>CVC words + 25 multi-letter phonograms + 6 rules</td></tr>
+  <tr><td>3</td><td>Grade 1 (6-7)</td><td>56</td><td>Silent E (9 reasons) + 17 PGs + 9 rules + syllable division</td></tr>
+  <tr><td>4</td><td>Grade 2 (7-8)</td><td>48</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
+  <tr><td>5</td><td>Grade 3+ (8+)</td><td>40</td><td>25 roots + fluency + composition + grammar</td></tr>
+  <tr><td><strong>Total</strong></td><td></td><td><strong>248</strong></td><td>~2-3 school years</td></tr>
+</table>
+
+<h2>How teachers use it</h2>
+
+<ol>
+  <li><strong>Open the ZIP</strong> → read <code>00-Start-Here.pdf</code></li>
+  <li><strong>Run the placement test</strong> (<code>09-Quick-Checks/placement-test.pdf</code>) to find your child's starting stage</li>
+  <li><strong>Print the prep checklist</strong> for your stage (one page per stage folder)</li>
+  <li><strong>Open lesson pack #1</strong> — each pack bundles cover + teacher script + worksheet + flash cards</li>
+  <li><strong>Print the phonogram chart and spelling rules poster</strong> for the wall (<code>04-Quick-Reference/</code>)</li>
+  <li><strong>Open the phonogram trainer</strong> (<code>11-Game/phonogram-trainer.html</code>) for fun practice</li>
+</ol>
+
+<h2>Methodology highlights</h2>
+
+<ul>
+  <li><strong>Speech-to-print, not print-to-speech.</strong> Start with the sound; find the written form.</li>
+  <li><strong>Teach ALL sounds from the start.</strong> "a says /ă/ /ā/ /ä/" — never "a says /ă/" with more later.</li>
+  <li><strong>Spelling drives reading.</strong> The 5-step Spelling Analysis is the core routine.</li>
+  <li><strong>No sight words.</strong> Every English word can be decoded with phonograms + rules.</li>
+  <li><strong>Say-to-Spell is not optional.</strong> Multi-syllable words need deliberate mispronunciation to hear their spelling.</li>
+  <li><strong>One new thing per lesson.</strong> Never two phonograms or two rules in one lesson.</li>
+</ul>
+
+<h2>For developers</h2>
+
+<p>The full source is at <a href="https://github.com/valueforvalue/UncoveringtheLogic">github.com/valueforvalue/UncoveringtheLogic</a>. Every PDF is generated from Markdown by Python scripts. Modify the catalog or generator, run <code>just all</code>, get a fresh release in ~2 minutes.</p>
+
+<ul>
+  <li><code>framework/lesson-catalog.csv</code> — 248-row source of truth</li>
+  <li><code>scripts/generate-*.py</code> — 9 generators (data → Markdown)</li>
+  <li><code>framework/render.py</code> — Markdown → PDF via WeasyPrint</li>
+  <li><code>scripts/build-lesson-pack.py</code> — per-lesson cohesive bundles</li>
+  <li><code>scripts/build-release.py</code> — LOE-style release ZIP</li>
+  <li><code>justfile</code> — 35+ build recipes</li>
+</ul>
+
+<p>See <a href="BUILD.md">docs/BUILD.md</a> for full setup instructions.</p>
+
+<h2>Credits</h2>
+
+<ul>
+  <li><strong>Denise Eide</strong> — author of <em>Uncovering the Logic of English</em> and inventor of the methodology</li>
+  <li><strong>Logic of English</strong> — <a href="https://logicofenglish.com/">logicofenglish.com</a> — for the source methodology and product line</li>
+  <li><strong>Contributors</strong> — see git history</li>
+</ul>
+
+<p>This project is an open-source adaptation of the methodology, not the commercial product. The commercial Logic of English curriculum (Doodling Dragons / Whistling Whales artwork, Foundations A-D bundles, Essentials 1-30) is sold at <a href="https://logicofenglish.com/">logicofenglish.com</a>. This open-source release covers the same phonograms, rules, and lesson sequence.</p>
+
+<h2>License</h2>
+
+<p>MIT license — the methodology and phonogram list are drawn from the public-domain phonics tradition (going back to the 1800s) and are not copyrighted. The lesson content, generators, and design are released under MIT for educational use.</p>
+
+</div>
+
+<footer>
+  <p>
+    <a href="https://github.com/valueforvalue/UncoveringtheLogic">Source repository</a> &middot;
+    <a href="https://logicofenglish.com/">Commercial curriculum</a> &middot;
+    <a href="BUILD.md">Build guide</a> &middot;
+    <a href="USE.md">Teacher guide</a>
+  </p>
+  <p style="margin-top: 1em;">An open-source adaptation. Methodology credit: Denise Eide.</p>
+</footer>
+
+</body>
+</html>

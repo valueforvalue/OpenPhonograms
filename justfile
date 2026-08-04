@@ -153,6 +153,11 @@ gen-readers-index:
     @echo "==> Generating readers index"
     @{{python}} {{scripts_dir_s}}/generate-readers-index.py
 
+# Generate printable binding instructions (spine labels, tab labels, print guide)
+gen-binding-instructions:
+    @echo "==> Generating binding instructions"
+    @{{python}} {{scripts_dir_s}}/generate-binding-instructions.py
+
 # Render all worksheet and reader MDs to PDFs (worksheets/ + readers/ → build/)
 render-extras:
     @echo "==> Rendering worksheet + reader PDFs"
@@ -249,7 +254,7 @@ check: check-drift check-overflow check-coverage
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (long; ~5-10 min)
-all: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments release
+all: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all copy-assessments release
     @echo ""
     @echo "==> Full build complete"
     @echo "    PDFs:      {{build_dir_s}}/"

@@ -153,6 +153,10 @@ def make_start_here() -> Path:
 <strong>Open the index to begin →</strong> <a href="01-Index-and-Table-of-Contents.pdf">01-Index-and-Table-of-Contents.pdf</a>
 </div>
 
+<h2>Print and bind</h2>
+
+<p>For classroom use, follow the <a href="binding-instructions.pdf">Workbook Binding Instructions</a> to organize the release ZIP into 3-ring binders per stage. Printable spine labels, tab labels, and a stage-by-stage print job guide included.</p>
+
 </body></html>"""
     out.write_text(html, encoding="utf-8")
     return out
@@ -208,6 +212,7 @@ def make_master_index() -> Path:
 <div class="toc-item"><span class="title"><a href="00-Start-Here.pdf">Start Here</a></span><span class="page">→ orientation for new users</span></div>
 <div class="toc-item"><span class="title"><a href="02-Scope-and-Sequence.pdf">Scope &amp; Sequence</a></span><span class="page">→ full curriculum map</span></div>
 <div class="toc-item"><span class="title"><a href="09-Quick-Checks/placement-test.pdf">Placement Test</a></span><span class="page">→ which stage to start at</span></div>
+<div class="toc-item"><span class="title"><a href="binding-instructions.pdf">Binding Instructions</a></span><span class="page">→ organize into 3-ring binders</span></div>
 
 <h2>Quick Reference</h2>
 
