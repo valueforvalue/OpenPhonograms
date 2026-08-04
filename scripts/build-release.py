@@ -49,6 +49,9 @@ def main():
         elif "worksheets" in str(pdf):
             rel = pdf.relative_to(BUILD / "worksheets")
             zf.write(pdf, f"pdfs/worksheets/{rel}")
+        elif parent.startswith("stage-"):
+            grp = group_of(pdf.name)
+            zf.write(pdf, f"pdfs/lessons/{parent}/{grp}/{pdf.name}")
         else:
             grp = group_of(pdf.name)
             zf.write(pdf, f"pdfs/{parent}/{grp}/{pdf.name}")
