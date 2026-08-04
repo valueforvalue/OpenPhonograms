@@ -235,26 +235,41 @@ After `just all`:
 
 ```
 build/                          # Rendered PDFs (gitignored)
-  stage-1/                      #   48 lesson PDFs
-  stage-2/                      #   56 lesson PDFs
-  stage-3/                      #   56 lesson PDFs
-  stage-4/                      #   48 lesson PDFs
-  stage-5/                      #   40 lesson PDFs
-  worksheets/                   #   178 worksheet PDFs (75 phonograms + 31 rules + 18 cards + 3 blank + 51 misc)
+  stage-1/                      #   48 lesson PDFs (raw, single-lesson)
+  stage-2/ ... stage-5/         #   (used for handbooks + assessment copies)
+  worksheets/                   #   178 worksheet PDFs (phonograms, rules, cards, blank)
   readers/                      #   25 reader PDFs
+  quick-checks/                 #   15 quick-checks + placement test (combined)
+  handbook/                     #   Top-level navigation + 5 stage handbooks + certificates
+  assessments/                  #   8 stage mastery assessments
   curriculum.pdf                #   Master reference (1 PDF)
 
-packs/                          # Lesson bundles for teachers (gitignored)
-  stage-1/
-    lesson-01-sounds-around-us.pdf     # cover + lesson + worksheet + cards
-    lesson-09-phonogram-a.pdf
-    ...
-  stage-2/ ... stage-5/
+packs/                          # Per-lesson bundles (gitignored) — 248 PDFs
+  stage-N/lesson-NN-{lesson_id}.pdf   # cover + lesson + worksheet + cards
 
-release.zip                     # Everything packaged (gitignored)
+release.zip                     # Everything in LOE-style folder structure (18.6 MB, 446 files)
 ```
 
-**Total**: ~500 PDFs, ~17 MB unpacked, ~6 MB zipped.
+**Release ZIP structure** (after extraction):
+
+```
+README.md                                 # Text overview
+00-Start-Here.pdf                         # Orientation for new users
+01-Index-and-Table-of-Contents.pdf        # Master clickable TOC
+02-Scope-and-Sequence.pdf                 # Full curriculum map
+04-Quick-Reference/                       # Phonograms, rules, spelling analysis
+05-Teacher-Handbooks/                     # 5 bound-book-style handbooks (PDF)
+06-Lesson-Packs/                          # 248 per-lesson bundles
+07-Worksheets/                            # 178 standalone practice sheets
+08-Decodable-Readers/                     # 25 decodable story PDFs + index
+09-Quick-Checks/                          # Placement test + 5 stage quick-checks
+10-Assessments/                           # 8 stage mastery assessments
+11-Game/                                  # Phonogram trainer (web game)
+12-Audio/                                 # 74 phonogram MP3s
+13-Certificates/                          # 5 printable completion certificates
+```
+
+**Total**: 446 files, 18.6 MB unpacked. Clickable TOC links throughout.
 
 ## Release Packaging
 

@@ -59,6 +59,18 @@ Open issues for the project. Checked = done, unchecked = planned.
 
 - [x] GitHub repo with full source
 - [x] PDF generation (build/ directory)
-- [ ] Release ZIP with all PDFs + audio pack
+- [x] Release ZIP with LOE-style folder structure (446 files, 18.6 MB)
+  - 00-Start-Here.pdf, 01-Index-TOC.pdf, 02-Scope-and-Sequence.pdf (top-level navigation)
+  - 04-Quick-Reference/ (phonograms, rules, spelling analysis)
+  - 05-Teacher-Handbooks/ (5 stage handbooks, 153-260 pages each, clickable bookmarks)
+  - 06-Lesson-Packs/ (248 per-lesson bundles, 5 stage folders)
+  - 07-Worksheets/ (178 standalone sheets, 4 categories)
+  - 08-Decodable-Readers/ (25 readers + index)
+  - 09-Quick-Checks/ (placement test + 5 stage quick-checks)
+  - 10-Assessments/ (8 stage mastery assessments)
+  - 11-Game/ (phonogram-trainer.html)
+  - 12-Audio/ (74 MP3s)
+  - 13-Certificates/ (5 printable completion certificates)
+  - README.md (text overview at root)
 - [ ] Website/landing page for the curriculum
 - [ ] Printable workbook binding instructions

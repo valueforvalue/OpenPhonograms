@@ -315,7 +315,7 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
 
     combined = "\n".join(parts)
 
-    slug = slugify(title)
+    slug = lesson_id  # use lesson_id so file matches catalog row key
     out_dir = PACKS_DIR / f"stage-{stage}"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_pdf = out_dir / f"lesson-{lnum:02d}-{slug}.pdf"

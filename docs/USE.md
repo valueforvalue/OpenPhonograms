@@ -55,24 +55,31 @@ That's it. Every lesson is self-contained.
 ### In the Release ZIP
 
 ```
-release.zip
-├── pdfs/
-│   ├── stage-1/ ... stage-5/         # 248 lesson PDFs (one per lesson)
-│   ├── readers/                      # 25 decodable story PDFs
-│   ├── worksheets/                   # Practice sheets
-│   │   ├── phonograms/               #   One per phonogram (75)
-│   │   ├── rules/                    #   One per rule (31)
-│   │   ├── cards/                    #   Flash card sheets (18)
-│   │   └── blank/                    #   Reusable templates (3)
-│   └── curriculum.pdf                # Full methodology reference
-├── game/
-│   └── phonogram-trainer.html        # Web game (open in browser)
-└── audio/                            # 74 MP3 files (phonogram sounds)
+Uncovering-the-Logic-of-English/
+├── README.md                                  # Text overview
+├── 00-Start-Here.pdf                          # Orientation for new users
+├── 01-Index-and-Table-of-Contents.pdf         # Master clickable TOC
+├── 02-Scope-and-Sequence.pdf                  # Full curriculum map
+├── 04-Quick-Reference/                        # Phonograms, rules, spelling analysis
+├── 05-Teacher-Handbooks/                      # 5 bound-book-style handbooks (PDF)
+├── 06-Lesson-Packs/                           # 248 per-lesson bundles
+│   └── stage-1/ ... stage-5/
+├── 07-Worksheets/                             # 178 standalone practice sheets
+│   ├── phonograms/                            #   One per phonogram (72)
+│   ├── rules/                                 #   One per rule (31)
+│   ├── cards/                                 #   Flash card sheets (19)
+│   └── blank/                                 #   Reusable templates (3)
+├── 08-Decodable-Readers/                      # 25 decodable story PDFs + index
+├── 09-Quick-Checks/                           # Placement test + 5 stage quick-checks
+├── 10-Assessments/                            # 8 stage mastery assessments
+├── 11-Game/                                   # Phonogram trainer (web game)
+├── 12-Audio/                                  # 74 MP3 files (phonogram sounds)
+└── 13-Certificates/                           # 5 printable completion certificates
 ```
 
-### Lesson Pack Contents (NEW)
+### Lesson Pack Contents
 
-Each `lesson-NN-title.pdf` is a **cohesive bundle** containing:
+Each `lesson-NN-{lesson_id}.pdf` is a **cohesive bundle** containing:
 
 1. **Cover page** — stage, lesson #, new PG/rule, prep checklist
 2. **Teacher script** — the lesson to teach

@@ -4,24 +4,6 @@
 
 ---
 
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of phonograms used in today's story.
-
-| Phonograms to review |
-|----------------------|
-| g (both sounds), silent E, ee, ai, ay, ow |
-
----
-
-## Warm-Up Words — Read These First
-
-Read each word sound by sound BEFORE reading the story:
-
-> Gwen &nbsp; Grace &nbsp; gift &nbsp; goat &nbsp; goose &nbsp; green &nbsp; gives &nbsp; golden &nbsp; gate &nbsp; grass
-
----
-
 ## Story: Gwen Gives a Gift
 
 <div class="reader-page">

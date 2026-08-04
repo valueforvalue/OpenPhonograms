@@ -130,6 +130,40 @@ render-all: render-lessons render-curriculum
     @echo "==> All PDFs rendered"
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Handbook — navigation PDFs, stage handbooks, certificates
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Generate top-level navigation PDFs (Start Here, Index, Scope, Quick Refs)
+gen-navigation:
+    @echo "==> Generating navigation PDFs"
+    @{{python}} {{scripts_dir_s}}/generate-navigation.py
+
+# Generate 5 bound-book-style teacher handbooks (one per stage)
+gen-handbooks:
+    @echo "==> Generating stage handbooks"
+    @{{python}} {{scripts_dir_s}}/generate-stage-handbook.py
+
+# Generate 5 printable completion certificates (one per stage)
+gen-certificates:
+    @echo "==> Generating completion certificates"
+    @{{python}} {{scripts_dir_s}}/generate-certificates.py
+
+# Generate the clickable readers index
+gen-readers-index:
+    @echo "==> Generating readers index"
+    @{{python}} {{scripts_dir_s}}/generate-readers-index.py
+
+# Render all worksheet and reader MDs to PDFs (worksheets/ + readers/ → build/)
+render-extras:
+    @echo "==> Rendering worksheet + reader PDFs"
+    @{{python}} {{scripts_dir_s}}/render-extras.py
+
+# Copy assessment lesson PDFs into build/assessments/ for the release ZIP
+copy-assessments:
+    @echo "==> Copying assessments"
+    @{{python}} {{scripts_dir_s}}/copy-assessments.py
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Packs — cohesive per-lesson bundles for teachers
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -214,8 +248,8 @@ check: check-drift check-overflow check-coverage
 # Aggregate — common workflows
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Full build: generate → render → packs → release (long; ~5-10 min)
-all: gen-all render-all pack-all release
+# Full build: generate → render → handbook → packs → release (long; ~5-10 min)
+all: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments release
     @echo ""
     @echo "==> Full build complete"
     @echo "    PDFs:      {{build_dir_s}}/"
@@ -223,7 +257,7 @@ all: gen-all render-all pack-all release
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop)
-build: gen-all render-all pack-all
+build: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments
     @echo ""
     @echo "==> Build complete (no release ZIP)"
     @echo "    PDFs:  {{build_dir_s}}/"
