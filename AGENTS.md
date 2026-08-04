@@ -21,7 +21,11 @@ Every markdown file traces to a Python generator in `scripts/`. If you hand-edit
 
 ## PDF Pipeline
 
-`framework/render.py` → `markdown` lib → `weasyprint` → PDF. Requires GTK3 runtime on Windows. Test with: `python framework/render.py lessons/stage-1/pg-a.md`
+`framework/render.py` → `markdown` lib → `weasyprint` → PDF. Requires GTK3 runtime on Windows. Build via `just` (see justfile): `just doctor` to verify env, `just build` for full pipeline.
+
+## Build Commands (justfile)
+
+`just` lists 25 recipes. Common: `just build` (gen+render+packs), `just all` (+release), `just pack-stage 3`, `just doctor`. Just is a Makefile alternative — install via winget.
 
 ## Content Schema
 

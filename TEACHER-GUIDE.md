@@ -12,7 +12,7 @@ You're the teacher. Here's everything you need in one place.
 2. **Print** the phonogram chart: `reference/phonogram-chart.html` 
 3. **Print** the spelling rules: `reference/spelling-rules.html`
 4. **Open** your stage's lesson files in `lessons/stage-X/`
-5. **Generate PDFs:** `python framework/render.py --stage 1`
+5. **Generate PDFs:** `just render-stage 1` (or `python framework/render.py --stage 1`)
 
 That's it. Everything else is in the lesson files.
 
@@ -325,7 +325,8 @@ For any word with schwa: say word normally → pronounce with clear vowels → s
 - [ ] Morpheme wall: `reference/morpheme-wall.html` (Stages 4-5)
 - [ ] Word lists: `reference/word-lists.html` (extra practice)
 - [ ] HF words reference: `reference/high-frequency-words.html`
-- [ ] Lesson PDFs: Generate with `python framework/render.py --all`
+- [ ] Lesson PDFs: Generate with `just render-lessons` (or `python framework/render.py --all`)
+- [ ] Lesson packs: Generate with `just pack-all` — bundles per-lesson PDFs for printing
 
 ### For Each Lesson
 
@@ -381,6 +382,24 @@ Total: approximately 2-3 school years for the full curriculum. Older students ca
 | Can't spell multi-syllable words | Not using say-to-spell | Model say-to-spell for EVERY schwa word. |
 
 More in: `reference/troubleshooting.html`
+
+---
+
+## Quick Build (Justfile Recommended) — NEW
+
+The project includes a [justfile](https://github.com/casey/just) with 25 recipes that wrap every script. Install Just once (`winget install Casey.Just`) then run `just` with no args to list recipes. Common workflows:
+
+```bash
+just doctor                # Check Python deps + GTK3 runtime + scripts present
+just build                 # Full pipeline: gen → render → packs (no release ZIP)
+just all                   # Full pipeline + release.zip
+just pack-stage 3          # Just Stage 3 lesson packs (48 PDFs)
+just pack-lesson pg-d      # Just one pack for testing
+just clean-build           # Remove all rendered PDFs
+just clean-all             # Remove every build artifact (keeps sources)
+```
+
+**Lesson packs** (new) are cohesive per-lesson PDFs that bundle cover page + lesson script + matched worksheet + flash cards for review. Output: `packs/stage-N/lesson-NN-title.pdf`.
 
 ---
 
