@@ -119,6 +119,32 @@ h1 { text-align: center; color: var(--navy); font-size: 1.6rem; margin-bottom: 2
 .mini-card.fast-card { border-color: var(--correct); background: #f0faf2; }
 .mini-card.slow-card { border-color: var(--slow); background: #fef5f2; }
 
+/* SPELL MODE */
+.spell-input {
+  font-family: Georgia, serif;
+  font-size: 24pt;
+  padding: 8px 16px;
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  width: 80%;
+  max-width: 320px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.spell-input:focus { border-color: var(--accent); }
+.spell-input.correct { border-color: var(--correct); background: #f0f8e8; }
+.spell-input.wrong { border-color: var(--slow); background: #fcf0e8; }
+.spell-feedback {
+  margin-top: 0.8em;
+  font-size: 14pt;
+  min-height: 1.4em;
+  font-weight: bold;
+}
+.spell-feedback.correct { color: var(--correct); }
+.spell-feedback.wrong { color: var(--slow); }
+.spell-feedback.skip { color: var(--ink); opacity: 0.7; }
+
 /* RESPONSIVE */
 @media (max-width: 500px) {
   .phonogram-letter { font-size: 50pt; }
@@ -138,6 +164,7 @@ h1 { text-align: center; color: var(--navy); font-size: 1.6rem; margin-bottom: 2
   <button class="tab" onclick="switchMode('match')">🎯 Match</button>
   <button class="tab" onclick="switchMode('speed')">⏱ Speed</button>
   <button class="tab" onclick="switchMode('all')">📋 Browse</button>
+  <button class="tab" onclick="switchMode('spell')">✍️ Spell</button>
 </div>
 
 <!-- FILTER BAR -->
@@ -214,6 +241,29 @@ h1 { text-align: center; color: var(--navy); font-size: 1.6rem; margin-bottom: 2
     <button class="btn btn-primary" id="speedStart" onclick="startSpeed()">▶ Start 30s</button>
   </div>
   <div class="speed-score">Score: <b style="color:var(--correct)" id="speedScore">0</b></div>
+</div>
+
+<!-- SPELL PRACTICE -->
+<div id="mode-spell" style="display:none;">
+  <div class="card-area">
+    <p class="match-prompt">Listen, then spell the word:</p>
+    <button class="btn-speaker" onclick="speakSpellWord()" style="margin-left:8px; font-size:16pt;" title="Hear the word">🔊 Hear word</button>
+    <button class="btn-speaker" onclick="speakSpellWord(true)" style="margin-left:4px;" title="Hear in a sentence">🔊 Sentence</button>
+    <div style="margin-top: 1em;">
+      <input type="text" id="spellInput" class="spell-input" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="type the spelling here" onkeydown="if(event.key==='Enter') checkSpell()">
+    </div>
+    <div class="btn-row" style="margin-top: 0.8em;">
+      <button class="btn btn-primary" onclick="checkSpell()">✓ Check</button>
+      <button class="btn btn-outline" onclick="skipSpell()">⏭ Skip</button>
+      <button class="btn btn-outline" onclick="revealSpell()">💡 Reveal</button>
+    </div>
+    <div id="spellFeedback" class="spell-feedback"></div>
+  </div>
+  <div class="stats">
+    <span style="color:var(--correct)">✓ Correct: <b id="spellCorrect">0</b></span> &nbsp;
+    <span style="color:var(--slow)">✗ Missed: <b id="spellMissed">0</b></span> &nbsp;
+    <span>Streak: <b id="spellStreak">0</b></span>
+  </div>
 </div>
 
 <!-- BROWSE ALL -->
@@ -307,6 +357,53 @@ const PHONOGRAMS = [
 
 const STAGE_NAMES = {1:"Stage 1 (26 single-letter)",2:"Stage 2 (+25 multi-letter)",3:"Stage 3 (+17 more)",4:"Stage 4 (+5 Latin)",5:"Stage 5 (all 75)"};
 
+// ── SPELL WORD BANK ──
+const SPELL_WORDS = [
+  // Stage 1: CVC
+  {word:"cat", sentence:"The cat sat on the mat.", stage:1},
+  {word:"dog", sentence:"The dog runs in the park.", stage:1},
+  {word:"sun", sentence:"The sun is hot.", stage:1},
+  {word:"bed", sentence:"I sleep in my bed.", stage:1},
+  {word:"hop", sentence:"The bunny can hop.", stage:1},
+  {word:"big", sentence:"A big red ball.", stage:1},
+  {word:"red", sentence:"The apple is red.", stage:1},
+  {word:"pig", sentence:"The pig is pink.", stage:1},
+  // Stage 2: with multi-letter PGs
+  {word:"ship", sentence:"The ship sails on the sea.", stage:2},
+  {word:"fish", sentence:"I see a fish in the pond.", stage:2},
+  {word:"back", sentence:"He sits on his back.", stage:2},
+  {word:"park", sentence:"We play at the park.", stage:2},
+  {word:"ring", sentence:"The bell has a ring.", stage:2},
+  {word:"see", sentence:"I see a bird.", stage:2},
+  {word:"car", sentence:"The red car goes fast.", stage:2},
+  {word:"rain", sentence:"The rain falls down.", stage:2},
+  {word:"boy", sentence:"The boy is happy.", stage:2},
+  {word:"day", sentence:"It is a sunny day.", stage:2},
+  // Stage 3: silent E + advanced PGs
+  {word:"make", sentence:"I make a cake.", stage:3},
+  {word:"have", sentence:"I have a cat.", stage:3},
+  {word:"race", sentence:"The race is fast.", stage:3},
+  {word:"cage", sentence:"The bird is in a cage.", stage:3},
+  {word:"knight", sentence:"The knight has a sword.", stage:3},
+  {word:"bridge", sentence:"The bridge goes over the river.", stage:3},
+  {word:"high", sentence:"The plane is high.", stage:3},
+  {word:"light", sentence:"I see the light.", stage:3},
+  {word:"phone", sentence:"I talk on the phone.", stage:3},
+  // Stage 4: suffixing + Latin /sh/
+  {word:"nation", sentence:"Our nation is great.", stage:4},
+  {word:"action", sentence:"It is an action movie.", stage:4},
+  {word:"special", sentence:"Today is special.", stage:4},
+  {word:"running", sentence:"She is running fast.", stage:4},
+  {word:"happily", sentence:"He sings happily.", stage:4},
+  {word:"unfair", sentence:"That is unfair.", stage:4},
+  // Stage 5: roots
+  {word:"dictate", sentence:"I dictate a letter.", stage:5},
+  {word:"transport", sentence:"Trucks transport goods.", stage:5},
+  {word:"inspect", sentence:"I inspect the work.", stage:5},
+  {word:"photograph", sentence:"I take a photograph.", stage:5},
+  {word:"biology", sentence:"Biology is about life.", stage:5},
+];
+
 // ── STATE ──
 let mode = 'flash';
 let filteredDeck = [...PHONOGRAMS];
@@ -392,6 +489,7 @@ function switchMode(m) {
   if(m==='match') newMatchRound();
   if(m==='speed') { stopSpeed(); }
   if(m==='all') renderAll('all');
+  if(m==='spell') { newSpellWord(); }
 }
 
 // ── FLASH ──
@@ -527,10 +625,109 @@ function renderAll(type) {
   document.getElementById('allCards').innerHTML = html;
 }
 
+// ── SPELL ──
+let spellCurrent = null;
+let spellCorrect = 0;
+let spellMissed = 0;
+let spellStreak = 0;
+
+function getSpellPool() {
+  const stage = document.getElementById('stageFilter').value;
+  let pool = SPELL_WORDS;
+  if (stage !== 'all') {
+    const maxStage = parseInt(stage);
+    pool = SPELL_WORDS.filter(w => w.stage <= maxStage);
+  }
+  return pool;
+}
+
+function newSpellWord() {
+  const pool = getSpellPool();
+  if (pool.length === 0) return;
+  spellCurrent = pool[Math.floor(Math.random() * pool.length)];
+  const input = document.getElementById('spellInput');
+  input.value = '';
+  input.classList.remove('correct', 'wrong');
+  input.focus();
+  document.getElementById('spellFeedback').textContent = '';
+  document.getElementById('spellFeedback').className = 'spell-feedback';
+  speakSpellWord();
+}
+
+function speakSpellWord(sentence) {
+  if (!spellCurrent) return;
+  if (sentence) {
+    speakTTS(spellCurrent.sentence);
+  } else {
+    speakTTS(spellCurrent.word);
+  }
+}
+
+function checkSpell() {
+  if (!spellCurrent) return;
+  const input = document.getElementById('spellInput');
+  const answer = input.value.trim().toLowerCase();
+  const expected = spellCurrent.word.toLowerCase();
+  const feedback = document.getElementById('spellFeedback');
+  if (answer === expected) {
+    input.classList.add('correct');
+    feedback.className = 'spell-feedback correct';
+    feedback.textContent = '✓ Correct!';
+    spellCorrect++;
+    spellStreak++;
+  } else if (answer === '') {
+    return;
+  } else {
+    input.classList.add('wrong');
+    feedback.className = 'spell-feedback wrong';
+    feedback.textContent = `✗ Try again — you typed "${answer}"`;
+    spellMissed++;
+    spellStreak = 0;
+    speakTTS(spellCurrent.word);
+    return;
+  }
+  updateSpellStats();
+  setTimeout(newSpellWord, 1200);
+}
+
+function skipSpell() {
+  if (!spellCurrent) return;
+  const feedback = document.getElementById('spellFeedback');
+  feedback.className = 'spell-feedback skip';
+  feedback.textContent = `Skipped: ${spellCurrent.word}`;
+  spellMissed++;
+  spellStreak = 0;
+  updateSpellStats();
+  setTimeout(newSpellWord, 1500);
+}
+
+function revealSpell() {
+  if (!spellCurrent) return;
+  const input = document.getElementById('spellInput');
+  input.value = spellCurrent.word;
+  input.classList.remove('wrong');
+  input.classList.add('correct');
+  const feedback = document.getElementById('spellFeedback');
+  feedback.className = 'spell-feedback skip';
+  feedback.textContent = `Revealed: ${spellCurrent.word}`;
+  speakTTS(spellCurrent.word);
+  spellMissed++;
+  spellStreak = 0;
+  updateSpellStats();
+  setTimeout(newSpellWord, 2500);
+}
+
+function updateSpellStats() {
+  document.getElementById('spellCorrect').textContent = spellCorrect;
+  document.getElementById('spellMissed').textContent = spellMissed;
+  document.getElementById('spellStreak').textContent = spellStreak;
+}
+
 // ── INIT ──
 applyFilter();
 updateFlashUI();
 newMatchRound();
+updateSpellStats();
 </script>
 </body>
 </html>
