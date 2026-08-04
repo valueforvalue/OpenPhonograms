@@ -128,6 +128,9 @@ def cmd_output_prompts():
 
     print("# Image Generation Prompts\n")
     print("Generate each image using these prompts. Consistent style across all images.\n")
+    print("> **IMPORTANT:** Apply the Montessori Style Guide to EVERY image.")
+    print("> See: framework/STYLE-GUIDE.md for the complete pre-prompt.\n")
+    print("---\n")
     count = 0
 
     for src, files in sorted(refs.items()):
