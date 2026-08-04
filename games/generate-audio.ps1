@@ -1,10 +1,11 @@
 # Windows Audio Generator for Phonogram Trainer
-# Generates 75 MP3 files for games/phonogram-trainer.html
-# Uses PowerShell + System.Speech (built into Windows, no install needed)
+# Generates 75 WAV/MP3 files for games/phonogram-trainer.html
+# Uses PowerShell + System.Speech (built into Windows 10/11)
+#
+# Usage: .\generate-audio.ps1          (generate all)
+#        .\generate-audio.ps1 -Preview (dry run)
 
-param(
-    [switch]$Preview = $false  # Preview only, don't generate
-)
+param([switch]$Preview = $false)
 
 $ErrorActionPreference = "Stop"
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -14,52 +15,29 @@ if (-not (Test-Path $audioDir)) {
     New-Item -ItemType Directory -Path $audioDir | Out-Null
 }
 
-Write-Host "Phonogram Audio Generator for Windows" -ForegroundColor Cyan
-Write-Host "========================================" -ForegroundColor Cyan
+Write-Host "Phonogram Audio Generator" -ForegroundColor Cyan
+Write-Host "=========================" -ForegroundColor Cyan
 Write-Host ""
 
-# Check if ffmpeg is available (optional, for MP3 conversion)
 $ffmpeg = Get-Command ffmpeg -ErrorAction SilentlyContinue
 if ($ffmpeg) {
-    Write-Host "[OK] ffmpeg found — will output MP3 files" -ForegroundColor Green
+    Write-Host "[OK] ffmpeg found - will output MP3" -ForegroundColor Green
 } else {
-    Write-Host "[!] ffmpeg not found — will output WAV files (larger but work fine)" -ForegroundColor Yellow
-    Write-Host "    Download ffmpeg from https://ffmpeg.org/download.html for MP3 support" -ForegroundColor Yellow
+    Write-Host "[!] ffmpeg not found - will output WAV (works fine, larger files)" -ForegroundColor Yellow
 }
 
-# Load speech assembly
 Add-Type -AssemblyName System.Speech
 $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 
-# List available voices
-Write-Host "Available voices:" -ForegroundColor Gray
-$synth.GetInstalledVoices() | ForEach-Object {
-    $info = $_.VoiceInfo
-    $marker = if ($_.Enabled) { "*" } else { " " }
-    Write-Host "  $marker $($info.Name) — $($info.Culture) ($($info.Gender))"
-}
-Write-Host ""
-
-# Pick best voice — prefer Microsoft female English voices
-$voice = $synth.GetInstalledVoices() | 
-    Where-Object { $_.Enabled -and $_.VoiceInfo.Culture.Name -like "en-*" } |
-    Sort-Object { if ($_.VoiceInfo.Name -like "*Zira*") { 0 } elseif ($_.VoiceInfo.Name -like "*Microsoft*") { 1 } else { 2 } } |
-    Select-Object -First 1
-
-if (-not $voice) {
-    Write-Host "ERROR: No English voice found!" -ForegroundColor Red
-    exit 1
-}
+$voice = $synth.GetInstalledVoices() | Where-Object { $_.Enabled -and $_.VoiceInfo.Culture.Name -like "en-*" } | Select-Object -First 1
+if (-not $voice) { Write-Host "ERROR: No English voice!" -ForegroundColor Red; exit 1 }
 
 $synth.SelectVoice($voice.VoiceInfo.Name)
-$synth.Rate = -2  # Slightly slower for clarity
+$synth.Rate = -2
 $synth.Volume = 100
-
-Write-Host "Using voice: $($voice.VoiceInfo.Name)" -ForegroundColor Green
-Write-Host "Rate: -2 (slightly slow for clarity)" -ForegroundColor Gray
+Write-Host "Voice: $($voice.VoiceInfo.Name)" -ForegroundColor Green
 Write-Host ""
 
-# Phonogram data: pg = phonogram, speak = words to say
 $phonograms = @(
     @{pg="a"; speak="at, nation, father"}, @{pg="b"; speak="big"}, @{pg="c"; speak="cat, cent"},
     @{pg="d"; speak="dog"}, @{pg="e"; speak="end, even"}, @{pg="f"; speak="fun"},
@@ -94,50 +72,37 @@ $phonograms = @(
 )
 
 $total = $phonograms.Count
-$current = 0
+$i = 0
 
 foreach ($pg in $phonograms) {
-    $current++
-    $wavPath = Join-Path $audioDir "$($pg.pg).wav"
-    $mp3Path = Join-Path $audioDir "$($pg.pg).mp3"
-    
-    $percent = [math]::Round(($current / $total) * 100)
-    Write-Progress -Activity "Generating phonogram audio" -Status "$($pg.pg) — $($pg.speak)" -PercentComplete $percent
-    
+    $i++
+    $wav = Join-Path $audioDir "$($pg.pg).wav"
+    $mp3 = Join-Path $audioDir "$($pg.pg).mp3"
+    $pct = [math]::Round(($i / $total) * 100)
+    Write-Progress -Activity "Generating phonogram audio" -Status "$($pg.pg) - $($pg.speak)" -PercentComplete $pct
+
     if ($Preview) {
-        Write-Host "[$current/$total] $($pg.pg) — `"$($pg.speak)`"" -ForegroundColor Gray
+        Write-Host "[$i/$total] $($pg.pg) : $($pg.speak)" -ForegroundColor Gray
         continue
     }
-    
-    # Generate WAV using System.Speech
-    $synth.SetOutputToWaveFile($wavPath)
+
+    $synth.SetOutputToWaveFile($wav)
     $synth.Speak($pg.speak)
-    $synth.SetOutputToDefault()
-    
-    Write-Host "[$current/$total] $($pg.pg).wav — $((Get-Item $wavPath).Length) bytes" -ForegroundColor Green
-    
-    # Convert to MP3 if ffmpeg available
+    $synth.SetOutputToNull()
+
     if ($ffmpeg) {
-        & ffmpeg -i $wavPath -acodec libmp3lame -q:a 7 $mp3Path -y 2>$null
+        & ffmpeg -hide_banner -loglevel error -i $wav -acodec libmp3lame -q:a 7 $mp3 -y
         if ($LASTEXITCODE -eq 0) {
-            Remove-Item $wavPath -Force
-            $size = (Get-Item $mp3Path).Length
-            Write-Host "           $($pg.pg).mp3 — $size bytes" -ForegroundColor Green
+            Remove-Item $wav -Force
+            Write-Host "[$i/$total] $($pg.pg).mp3 OK" -ForegroundColor Green
         } else {
-            Write-Host "           MP3 conversion failed, keeping WAV" -ForegroundColor Yellow
+            Write-Host "[$i/$total] $($pg.pg).wav OK (MP3 failed)" -ForegroundColor Yellow
         }
+    } else {
+        Write-Host "[$i/$total] $($pg.pg).wav OK" -ForegroundColor Green
     }
 }
 
 Write-Progress -Activity "Generating phonogram audio" -Completed
 Write-Host ""
-Write-Host "Done! Generated $total audio files in $audioDir" -ForegroundColor Cyan
-
-if ($ffmpeg) {
-    $totalSize = (Get-ChildItem $audioDir -Filter *.mp3 | Measure-Object -Property Length -Sum).Sum
-    Write-Host "Total size: $([math]::Round($totalSize / 1KB)) KB ($total MP3 files)" -ForegroundColor Gray
-} else {
-    $totalSize = (Get-ChildItem $audioDir -Filter *.wav | Measure-Object -Property Length -Sum).Sum
-    Write-Host "Total size: $([math]::Round($totalSize / 1KB)) KB ($total WAV files)" -ForegroundColor Gray
-    Write-Host "Install ffmpeg and re-run for smaller MP3 files." -ForegroundColor Yellow
-}
+Write-Host "Done! $total files in $audioDir" -ForegroundColor Cyan
