@@ -36,7 +36,7 @@ def main():
     out = ROOT / "release.zip"
     zf = zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED)
 
-    # 1. PDFs
+    # 1. PDFs from build/
     if not BUILD.exists():
         print("Run: python framework/render.py --all  (generates build/)")
         return
@@ -44,6 +44,8 @@ def main():
         parent = pdf.parent.name
         if parent == "build":
             zf.write(pdf, f"pdfs/{pdf.name}")
+        elif parent == "readers":
+            zf.write(pdf, f"pdfs/readers/{pdf.name}")
         else:
             grp = group_of(pdf.name)
             zf.write(pdf, f"pdfs/{parent}/{grp}/{pdf.name}")
