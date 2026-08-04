@@ -8,8 +8,11 @@ Print-first reading curriculum. 248 markdown lessons, 75 phonograms, 31 spelling
 
 ## Key Files
 
+- `README.md` — GitHub landing, role picker (teacher vs developer)
 - `TEACHER-GUIDE.md` — Entry point for humans and agents
 - `curriculum.md` — Full methodology, phonogram list, rules, scope (55KB)
+- `docs/BUILD.md` — Build from source (requirements, justfile, troubleshooting)
+- `docs/USE.md` — Use the curriculum (teachers)
 - `framework/lesson-catalog.csv` — 248-lesson index (source of truth)
 - `framework/render.py` — Markdown → PDF pipeline (weasyprint)
 - `scripts/generate-stage*.py` — Lesson/worksheet/reader generators

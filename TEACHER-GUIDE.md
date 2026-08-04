@@ -405,30 +405,20 @@ just clean-all             # Remove every build artifact (keeps sources)
 
 ## Command Reference
 
+For build instructions (generating PDFs from Markdown, packaging releases, troubleshooting render issues), see **[docs/BUILD.md](docs/BUILD.md)**.
+
+The build pipeline uses a `justfile` with 25 recipes. Common commands:
+
 ```bash
-# Generate all lesson PDFs
-python framework/render.py --all
-
-# Generate one stage
-python framework/render.py --stage 3
-
-# Generate single lesson
-python framework/render.py lessons/stage-2/pg-sh.md
-
-# Generate curriculum PDF
-python framework/render.py --curriculum
-
-# Check which images are missing
-python framework/image-check.py
-
-# Generate image prompts for missing images
-python framework/image-check.py --prompts
-
-# Regenerate lesson stubs from catalog
-python scripts/generate-stage1.py   # Stage 1
-python scripts/generate-stage2.py   # Stage 2
-# ... etc for stages 3-5
+just doctor                # Check Python deps + GTK3 runtime
+just build                 # gen → render → packs (~80s)
+just all                   # + release ZIP (~85s)
+just pack-stage 3          # Just Stage 3 lesson packs
+just pack-lesson pg-d      # Just one pack (testing)
+just clean-build           # Remove all rendered PDFs
 ```
+
+See [docs/BUILD.md](docs/BUILD.md) for full instructions.
 
 ---
 

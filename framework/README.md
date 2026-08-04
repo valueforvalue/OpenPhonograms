@@ -13,6 +13,10 @@ lesson.md  ──[render.py]──►  lesson.pdf
                                 └── Warm-up boxes with diacritical marks
 ```
 
+**For setup, requirements, and build commands**, see [../docs/BUILD.md](../docs/BUILD.md).
+
+**For project structure and where everything lives**, see the [Project Layout section](../docs/BUILD.md#project-layout) in BUILD.md.
+
 ## Directory Structure
 
 ```

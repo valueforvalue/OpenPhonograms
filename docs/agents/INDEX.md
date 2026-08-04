@@ -8,6 +8,7 @@ Token budgets enforced. Read tier-0 every session.
 
 | Doc | Tokens | Purpose |
 |-----|--------|---------|
+| `README.md` | ~600 | GitHub landing — role picker (teacher vs developer) |
 | `AGENTS.md` | ~300 | Session-start guide, key files, generator pattern, drift watch |
 | `CONTEXT.md` | ~600 | Domain glossary: phonogram, say-to-spell, decodable, etc. |
 | `TEACHER-GUIDE.md` | ~2,500 | Human + agent entry point, file map, stage overviews |
@@ -17,9 +18,11 @@ Token budgets enforced. Read tier-0 every session.
 
 | Doc | Role | Purpose |
 |-----|------|---------|
+| `docs/USE.md` | Teachers | Open PDFs, daily lesson workflow, what's where |
+| `docs/BUILD.md` | Developers/contributors | Requirements, install, justfile, troubleshooting, dev workflow |
 | `curriculum.md` (full) | Content authors | All 75 PGs, 31 rules, methodology |
 | `framework/STYLE-GUIDE.md` | Image/asset creators | Montessori image rules |
-| `framework/README.md` | Toolchain users | render.py, generate.py, image-check.py |
+| `framework/README.md` | Toolchain users | render.py internals (links to BUILD.md for setup) |
 | `docs/agents/learning/logic-of-english.md` | New contributors | 5-min mental model of LoE methodology |
 
 ## Tier 2 — On Demand
@@ -32,6 +35,7 @@ Token budgets enforced. Read tier-0 every session.
 | `framework/image-manifest.csv` | Adding new images |
 | `reference/*.html` | Printing classroom aids |
 | `games/phonogram-trainer.html` (source) | Modifying the web game |
+| `justfile` | Build recipes (run `just` to list) |
 
 ## ADR Directory
 
