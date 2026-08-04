@@ -1,0 +1,63 @@
+# Phonogram Practice: ea
+
+**Sounds:** /ē/ /ĕ/ /ā/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">ea</div>
+
+<div class="phonogram-sounds">/ē/ /ĕ/ /ā/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **ea** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **ea** in these words:
+
+> eat &nbsp;&nbsp; each &nbsp;&nbsp; read &nbsp;&nbsp; lead &nbsp;&nbsp; bead &nbsp;&nbsp; bean &nbsp;&nbsp; lean &nbsp;&nbsp; mean
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **ea** to complete each word:
+
+- ____t &nbsp; → &nbsp; _______________
+- ____ch &nbsp; → &nbsp; _______________
+- r____d &nbsp; → &nbsp; _______________
+- l____d &nbsp; → &nbsp; _______________
+- b____d &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **ea**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

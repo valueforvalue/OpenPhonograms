@@ -1,0 +1,63 @@
+# Phonogram Practice: tch
+
+**Sounds:** /ch/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">tch</div>
+
+<div class="phonogram-sounds">/ch/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **tch** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **tch** in these words:
+
+> catch &nbsp;&nbsp; match &nbsp;&nbsp; patch &nbsp;&nbsp; latch &nbsp;&nbsp; batch &nbsp;&nbsp; hatch &nbsp;&nbsp; notch &nbsp;&nbsp; ditch
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **tch** to complete each word:
+
+- ca____ &nbsp; → &nbsp; _______________
+- ma____ &nbsp; → &nbsp; _______________
+- pa____ &nbsp; → &nbsp; _______________
+- la____ &nbsp; → &nbsp; _______________
+- ba____ &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **tch**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

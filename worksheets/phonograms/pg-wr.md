@@ -1,0 +1,63 @@
+# Phonogram Practice: wr
+
+**Sounds:** /r/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">wr</div>
+
+<div class="phonogram-sounds">/r/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **wr** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **wr** in these words:
+
+> write &nbsp;&nbsp; wrong &nbsp;&nbsp; wrap &nbsp;&nbsp; wrist &nbsp;&nbsp; wreck &nbsp;&nbsp; wren &nbsp;&nbsp; wrench &nbsp;&nbsp; wrinkle
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **wr** to complete each word:
+
+- ____ite &nbsp; → &nbsp; _______________
+- ____ong &nbsp; → &nbsp; _______________
+- ____ap &nbsp; → &nbsp; _______________
+- ____ist &nbsp; → &nbsp; _______________
+- ____eck &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **wr**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

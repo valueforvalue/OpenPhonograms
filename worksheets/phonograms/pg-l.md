@@ -1,0 +1,63 @@
+# Phonogram Practice: l
+
+**Sounds:** /l/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">l</div>
+
+<div class="phonogram-sounds">/l/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **l** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **l** in these words:
+
+> leg &nbsp;&nbsp; log &nbsp;&nbsp; lap &nbsp;&nbsp; lip &nbsp;&nbsp; lot &nbsp;&nbsp; lit &nbsp;&nbsp; let &nbsp;&nbsp; lad
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **l** to complete each word:
+
+- ____eg &nbsp; → &nbsp; _______________
+- ____og &nbsp; → &nbsp; _______________
+- ____ap &nbsp; → &nbsp; _______________
+- ____ip &nbsp; → &nbsp; _______________
+- ____ot &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **l**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

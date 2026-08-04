@@ -1,0 +1,28 @@
+# Phonogram Flash Cards — Multi-Letter Phonograms (Page 2 of 11)
+
+Cut along the dotted lines. Practice daily!
+
+---
+
+<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
+<div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">ng</div>
+<div class="phonogram-sounds" style="font-size:10pt; color:#555;">/ng/</div>
+</div>
+<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
+<div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">ar</div>
+<div class="phonogram-sounds" style="font-size:10pt; color:#555;">/är/</div>
+</div>
+<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
+<div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">or</div>
+<div class="phonogram-sounds" style="font-size:10pt; color:#555;">/or/</div>
+</div>
+<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
+<div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">er</div>
+<div class="phonogram-sounds" style="font-size:10pt; color:#555;">/er/</div>
+</div>
+
+
+---
+
+**Instructions:** Flash one card at a time. Child says ALL sounds within 2 seconds.
+Sort into "fast" and "needs practice" piles.
