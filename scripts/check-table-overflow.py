@@ -40,7 +40,7 @@ MARGIN_WORKSHEET = 36  # 0.5 in
 def margin_for(rel_path: str) -> float:
     """Return the margin (in pt) for a PDF based on its path."""
     s = str(rel_path).lower()
-    if "worksheet" in s:
+    if "worksheet" in s or "quick-check" in s or "blank" in s:
         return MARGIN_WORKSHEET
     return MARGIN_LESSON
 

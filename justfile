@@ -91,6 +91,16 @@ gen-animal-readers:
 gen-all: gen-worksheets gen-lessons gen-readers gen-animal-readers
     @echo "==> All markdown sources generated"
 
+# Generate 15 interim quick-check HTMLs (3 per stage) + combined stage PDFs
+gen-quick-checks:
+    @echo "==> Generating quick-check HTMLs + PDFs"
+    @{{python}} {{scripts_dir_s}}/generate-quick-checks.py
+
+# Generate placement test HTML (JS-scored cross-stage diagnostic)
+gen-placement-test:
+    @echo "==> Generating placement test HTML + PDF"
+    @{{python}} {{scripts_dir_s}}/generate-placement-test.py
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Render — markdown → PDF
 # ─────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Placement Test — Uncovering the Logic of English</title>
+<style>
+@page { size: letter; margin: 0.5in; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 12pt; line-height: 1.5; color: #222; max-width: 7.5in; margin: 0 auto; }
+h1 { font-size: 22pt; margin: 0 0 0.2em 0; color: #2a5c8a; border-bottom: 3px solid #2a5c8a; padding-bottom: 0.3em; }
+h2 { font-size: 16pt; color: #2a5c8a; margin-top: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }
+.meta { color: #555; font-size: 10pt; margin-bottom: 1.5em; }
+.section { page-break-inside: avoid; margin-bottom: 2em; padding: 0.5em; border: 1px solid #ddd; border-radius: 6px; }
+.section-info { background: #f0f4f8; padding: 0.6em 1em; border-radius: 4px; font-size: 11pt; margin: 0.5em 0; }
+.item { margin: 0.6em 0; padding: 0.4em 0.6em; border-left: 3px solid transparent; }
+.item.passed { border-left-color: #4a8a3a; }
+.item.failed { border-left-color: #c8a832; }
+.item-prompt { display: flex; align-items: flex-start; gap: 0.6em; cursor: pointer; }
+.score-box { width: 18px; height: 18px; margin-top: 4px; flex-shrink: 0; }
+.item-text { flex: 1; }
+.item-meta { margin-left: 30px; margin-top: 0.2em; font-size: 10pt; color: #555; }
+.item-meta code { background: #f4f0e8; padding: 0 4px; border-radius: 2px; font-family: "Courier New", monospace; }
+.section-result { margin-top: 0.8em; padding: 0.6em; background: #f8f4e8; border-radius: 4px; font-size: 11pt; min-height: 1.2em; }
+.section-result.recommend { background: #e8f4e8; border: 2px solid #4a8a3a; font-weight: bold; }
+code { background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: "Courier New", monospace; }
+.controls { margin: 1em 0; padding: 1em; background: #2a5c8a; color: white; border-radius: 6px; text-align: center; }
+button { background: white; color: #2a5c8a; border: 0; padding: 8px 16px; font-size: 12pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin: 0 4px; }
+button:hover { background: #f0f4f8; }
+.footer { font-size: 9pt; color: #777; margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd; }
+@media print { .controls { display: none; } }
+</style>
+</head>
+<body>
+
+<h1>Placement Test</h1>
+<div class="meta">
+<strong>Purpose:</strong> Determine which stage a new student should begin.<br>
+<strong>Time:</strong> 15-20 minutes total (oral; child does not need to read or write).<br>
+<strong>Format:</strong> Teacher reads items aloud, marks whether child answered correctly. JS scores at the end.
+</div>
+
+<div class="controls">
+  <button onclick="scoreAll()">Score All Sections</button>
+  <button onclick="resetAll()">Reset</button>
+  <button onclick="window.print()">Print</button>
+</div>
+
+<div id="recommendation" class="section-result" style="font-size: 14pt; margin-bottom: 1em;"></div>
+
+
+      <section id="phonemic-awareness" class="section">
+        <h2>Section 1: Phonemic Awareness</h2>
+        <p class="section-info">
+          <strong>Passing all 6 items here means child is ready for: Stage 1 Lesson 9+</strong><br>
+          6 items &middot; No time limit &middot; Read aloud to child
+        </p>
+        
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_0" class="score-box">
+            <span class="item-text">Word: cat. Blend: k-ă-t. Now YOU blend: 'sun'.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>cat</code> &middot;
+            <strong>Expected:</strong> <code>/k/ /ă/ /t/</code> &middot;
+            <strong>Type:</strong> <code>blend</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_1" class="score-box">
+            <span class="item-text">Word: big. Blend: b-ĭ-g. Now YOU blend: 'red'.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>big</code> &middot;
+            <strong>Expected:</strong> <code>/b/ /ĭ/ /g/</code> &middot;
+            <strong>Type:</strong> <code>blend</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_2" class="score-box">
+            <span class="item-text">Word: shop. Blend: sh-ŏ-p. Now YOU blend: 'jump'.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>shop</code> &middot;
+            <strong>Expected:</strong> <code>/sh/ /ŏ/ /p/</code> &middot;
+            <strong>Type:</strong> <code>blend</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_3" class="score-box">
+            <span class="item-text">Word: fish. Segment: f-ĭ-sh. Now YOU segment: 'lamp'.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>fish</code> &middot;
+            <strong>Expected:</strong> <code>/f/ /ĭ/ /sh/</code> &middot;
+            <strong>Type:</strong> <code>segment</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_4" class="score-box">
+            <span class="item-text">Word: stop. Segment: s-t-ŏ-p. Now YOU segment: 'hand'.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>stop</code> &middot;
+            <strong>Expected:</strong> <code>/s/ /t/ /ŏ/ /p/</code> &middot;
+            <strong>Type:</strong> <code>segment</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q0_5" class="score-box">
+            <span class="item-text">Word: jump. First sound: /j/. Now YOU try: 'kick'. First sound?</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>jump</code> &middot;
+            <strong>Expected:</strong> <code>/j/</code> &middot;
+            <strong>Type:</strong> <code>identify_first</code>
+          </div>
+        </div>
+        <div class="section-result" id="result-phonemic-awareness"></div>
+      </section>
+      <section id="phonograms-single" class="section">
+        <h2>Section 2: Single-Letter Phonograms</h2>
+        <p class="section-info">
+          <strong>Passing all 6 items here means child is ready for: Stage 2 Lesson 1+</strong><br>
+          6 items &middot; No time limit &middot; Read aloud to child
+        </p>
+        
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_0" class="score-box">
+            <span class="item-text">Flash 'a'. Child says all sounds.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>a</code> &middot;
+            <strong>Expected:</strong> <code>3 sounds</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_1" class="score-box">
+            <span class="item-text">Flash 'g'. Child says all sounds.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>g</code> &middot;
+            <strong>Expected:</strong> <code>2 sounds</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_2" class="score-box">
+            <span class="item-text">Flash 'i'. Child says all sounds.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>i</code> &middot;
+            <strong>Expected:</strong> <code>3 sounds</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_3" class="score-box">
+            <span class="item-text">Read this word: hat. Sound it out.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>hat</code> &middot;
+            <strong>Expected:</strong> <code>h-ă-t</code> &middot;
+            <strong>Type:</strong> <code>read_cvc</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_4" class="score-box">
+            <span class="item-text">Read this word: dog. Sound it out.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>dog</code> &middot;
+            <strong>Expected:</strong> <code>d-ŏ-g</code> &middot;
+            <strong>Type:</strong> <code>read_cvc</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q1_5" class="score-box">
+            <span class="item-text">Read this word: fun. Sound it out.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>fun</code> &middot;
+            <strong>Expected:</strong> <code>f-ŭ-n</code> &middot;
+            <strong>Type:</strong> <code>read_cvc</code>
+          </div>
+        </div>
+        <div class="section-result" id="result-phonograms-single"></div>
+      </section>
+      <section id="phonograms-multi" class="section">
+        <h2>Section 3: Multi-Letter Phonograms</h2>
+        <p class="section-info">
+          <strong>Passing all 6 items here means child is ready for: Stage 3 Lesson 1+</strong><br>
+          6 items &middot; No time limit &middot; Read aloud to child
+        </p>
+        
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_0" class="score-box">
+            <span class="item-text">Flash 'sh'. Child says sound.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>sh</code> &middot;
+            <strong>Expected:</strong> <code>1 sound</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_1" class="score-box">
+            <span class="item-text">Flash 'th'. Child says BOTH sounds.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>th</code> &middot;
+            <strong>Expected:</strong> <code>2 sounds</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_2" class="score-box">
+            <span class="item-text">Flash 'ck'. Child says sound.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>ck</code> &middot;
+            <strong>Expected:</strong> <code>1 sound</code> &middot;
+            <strong>Type:</strong> <code>pg_flash</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_3" class="score-box">
+            <span class="item-text">Read this word: ship.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>ship</code> &middot;
+            <strong>Expected:</strong> <code>sh-ĭ-p</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_4" class="score-box">
+            <span class="item-text">Read this word: back.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>back</code> &middot;
+            <strong>Expected:</strong> <code>b-ă-ck</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q2_5" class="score-box">
+            <span class="item-text">Read this word: think.</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>think</code> &middot;
+            <strong>Expected:</strong> <code>th-ĭ-nk</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="section-result" id="result-phonograms-multi"></div>
+      </section>
+      <section id="silent-e-and-advanced" class="section">
+        <h2>Section 4: Silent E & Advanced</h2>
+        <p class="section-info">
+          <strong>Passing all 6 items here means child is ready for: Stage 4+</strong><br>
+          6 items &middot; No time limit &middot; Read aloud to child
+        </p>
+        
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_0" class="score-box">
+            <span class="item-text">Read this word: make. Why is the 'a' long? (Silent E)</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>make</code> &middot;
+            <strong>Expected:</strong> <code>m-ā-k (silent E)</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_1" class="score-box">
+            <span class="item-text">Read this word: have. Why is the 'a' short? (Rule 12.2: no V/U at end)</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>have</code> &middot;
+            <strong>Expected:</strong> <code>h-ă-v (silent E but short a)</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_2" class="score-box">
+            <span class="item-text">Read this word: knight. Why is the 'k' silent?</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>knight</code> &middot;
+            <strong>Expected:</strong> <code>kn-ī-t (silent k)</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_3" class="score-box">
+            <span class="item-text">Spell this word: name. (Silent E makes 'a' long)</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>name</code> &middot;
+            <strong>Expected:</strong> <code>n-ā-m</code> &middot;
+            <strong>Type:</strong> <code>spell</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_4" class="score-box">
+            <span class="item-text">Read this word: nation. What does 'ti' say?</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>nation</code> &middot;
+            <strong>Expected:</strong> <code>n-ā-sh-ŭ-n (ti = /sh/)</code> &middot;
+            <strong>Type:</strong> <code>read</code>
+          </div>
+        </div>
+        <div class="item">
+          <label class="item-prompt">
+            <input type="checkbox" id="q3_5" class="score-box">
+            <span class="item-text">How would you say-to-spell 'about' to hear the vowels?</span>
+          </label>
+          <div class="item-meta">
+            <strong>Word:</strong> <code>about</code> &middot;
+            <strong>Expected:</strong> <code>ă-bout</code> &middot;
+            <strong>Type:</strong> <code>say_to_spell</code>
+          </div>
+        </div>
+        <div class="section-result" id="result-silent-e-and-advanced"></div>
+      </section>
+
+<div class="controls">
+  <button onclick="scoreAll()">Score All Sections</button>
+  <button onclick="resetAll()">Reset</button>
+  <button onclick="window.print()">Print</button>
+</div>
+
+<div class="footer">
+Generated for <em>Uncovering the Logic of English</em> curriculum &middot;
+Self-contained HTML &middot; Print-friendly &middot; Works offline
+</div>
+
+<script>
+function scoreAll() {
+  const sections = ["phonemic-awareness", "phonograms-single", "phonograms-multi", "silent-e-and-advanced"];
+  const recommendations = ["Stage 1 Lesson 9+", "Stage 2 Lesson 1+", "Stage 3 Lesson 1+", "Stage 4+"];
+  let bestStage = 'Stage 1 Lesson 1-8 (Phonemic Awareness only)';
+  let bestIdx = -1;
+  let details = [];
+
+  sections.forEach((sid, idx) => {
+    const sec = document.getElementById(sid);
+    const boxes = sec.querySelectorAll('.score-box');
+    let passed = 0;
+    boxes.forEach((b, i) => {
+      const item = b.closest('.item');
+      item.classList.remove('passed', 'failed');
+      if (b.checked) {
+        item.classList.add('passed');
+        passed++;
+      } else {
+        item.classList.add('failed');
+      }
+    });
+    const total = boxes.length;
+    const pct = (passed / total * 100).toFixed(0);
+    const resultEl = document.getElementById('result-' + sid);
+    resultEl.classList.remove('recommend');
+    if (passed === total) {
+      resultEl.classList.add('recommend');
+      resultEl.innerHTML = `<strong>✓ Section passed: ${passed}/${total} (${pct}%)</strong> &mdash; Child is ready for ${recommendations[idx]}.`;
+      bestIdx = idx;
+    } else {
+      resultEl.innerHTML = `Section score: ${passed}/${total} (${pct}%) &mdash; Needs work in this section.`;
+    }
+    details.push(`${idx + 1}: ${passed}/${total}`);
+  });
+
+  const rec = document.getElementById('recommendation');
+  if (bestIdx >= 0) {
+    rec.classList.add('recommend');
+    rec.innerHTML = `<strong>RECOMMENDATION:</strong> Start at ${recommendations[bestIdx]}. (Section ${bestIdx + 1} fully passed.)`;
+  } else {
+    rec.innerHTML = `<strong>RECOMMENDATION:</strong> Start at Stage 1 Lesson 1-8 (Phonemic Awareness). (No sections fully passed; review each section's skills first.)`;
+  }
+}
+
+function resetAll() {
+  document.querySelectorAll('.score-box').forEach(b => b.checked = false);
+  document.querySelectorAll('.item').forEach(item => item.classList.remove('passed', 'failed'));
+  document.querySelectorAll('.section-result').forEach(r => { r.classList.remove('recommend'); r.innerHTML = ''; });
+  document.getElementById('recommendation').classList.remove('recommend');
+  document.getElementById('recommendation').innerHTML = '';
+}
+</script>
+
+</body>
+</html>

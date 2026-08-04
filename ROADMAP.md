@@ -16,12 +16,12 @@ Open issues for the project. Checked = done, unchecked = planned.
 - [x] 35 images (24 animals + 8 illustrations + 2 wall charts + 1 misc)
 - [x] Missing phonogram worksheets: ti, ci, si (3 Latin PGs) — bu/gu not taught as lessons
 - [x] Missing rule-12 worksheet: Silent E (9 reasons)
-- [ ] Reader warm-ups: Stages 3-5 readers lack warm-up sections (7 files)
+- [x] Reader warm-ups: Stages 3-4 readers (5 files; reader-7 is informational, not decodable)
 
 ## Assessments
 
 - [x] 8 stage-level assessments
-- [ ] Interim quick-checks every 10-15 lessons (would catch problems earlier)
+- [x] Interim quick-checks: 15 across stages (3 per stage early/mid/late)
 - [ ] Assessment auto-grading (fill-in scores in markdown → render)
 
 ## Tooling
@@ -39,9 +39,9 @@ Open issues for the project. Checked = done, unchecked = planned.
 ## Game
 
 - [x] 4 modes: Flash, Match, Speed, Browse
+- [x] 5th mode: Spell (hear word, type spelling)
 - [x] Stage filters + progress tracking
 - [x] MP3 audio with TTS fallback
-- [ ] Spelling practice mode (hear word, type spelling)
 - [ ] Word builder mode (drag phonogram tiles)
 - [ ] Multi-player support (two kids race)
 - [ ] Printable score reports for teachers
@@ -49,11 +49,11 @@ Open issues for the project. Checked = done, unchecked = planned.
 ## Teacher Support
 
 - [x] TEACHER-GUIDE.md with cross-references
-- [x] 8 reference HTMLs
+- [x] 8 reference HTMLs + 15 quick-check HTMLs + 1 placement test = 24 reference files
 - [x] Scripted teacher note templates
+- [x] Placement test: reference/placement-test.html (JS-scored, 4 sections)
 - [ ] Scripted lessons: embed teacher scripts into lesson templates
 - [ ] Video lesson demonstrations
-- [ ] Placement test for new students (which stage to start at)
 
 ## Distribution
 
