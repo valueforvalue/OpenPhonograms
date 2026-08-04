@@ -1,0 +1,51 @@
+# Rule 27 Practice: TCH after short vowel
+
+---
+
+## The Rule
+
+> TCH after short vowel
+
+---
+
+## Part 1: Find the Rule
+
+Circle the words that follow Rule 27:
+
+> catch &nbsp;&nbsp; match &nbsp;&nbsp; patch &nbsp;&nbsp; latch &nbsp;&nbsp; batch &nbsp;&nbsp; hatch &nbsp;&nbsp; notch &nbsp;&nbsp; ditch &nbsp;&nbsp; hitch &nbsp;&nbsp; pitch
+
+---
+
+## Part 2: Apply the Rule
+
+Write the correct form:
+
+TCH or CH?
+
+ca ___ (short a → TCH) &nbsp; wa ___ (broad a → TCH)
+
+in ___ (consonant n → CH) &nbsp; lun ___ (consonant n → CH)
+
+---
+
+## Part 3: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 4: Write Two Sentences
+
+Write two sentences using words that follow Rule 27:
+
+1. _______________________________________________
+
+2. _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

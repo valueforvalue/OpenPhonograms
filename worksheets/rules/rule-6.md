@@ -1,0 +1,51 @@
+# Rule 6 Practice: Y says /ī/ at end of one-syllable word
+
+---
+
+## The Rule
+
+> Y says /ī/ at end of one-syllable word
+
+---
+
+## Part 1: Find the Rule
+
+Circle the words that follow Rule 6:
+
+> by &nbsp;&nbsp; my &nbsp;&nbsp; cry &nbsp;&nbsp; fly &nbsp;&nbsp; sky &nbsp;&nbsp; try &nbsp;&nbsp; why &nbsp;&nbsp; shy &nbsp;&nbsp; dry &nbsp;&nbsp; fry
+
+---
+
+## Part 2: Apply the Rule
+
+Write the correct form:
+
+Write the one-syllable word that matches:
+
+/bī/ → ___________ &nbsp; /mī/ → ___________ &nbsp; /krī/ → ___________
+
+/flī/ → ___________ &nbsp; /skī/ → ___________ &nbsp; /drī/ → ___________
+
+---
+
+## Part 3: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 4: Write Two Sentences
+
+Write two sentences using words that follow Rule 6:
+
+1. _______________________________________________
+
+2. _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________
