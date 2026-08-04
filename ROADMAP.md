@@ -14,7 +14,8 @@ Open issues for the project. Checked = done, unchecked = planned.
 - [x] Phonogram trainer web game
 - [x] 74 MP3 audio files (neural TTS)
 - [x] 35 images (24 animals + 8 illustrations + 2 wall charts + 1 misc)
-- [ ] Missing phonogram worksheets: bu, gu, ti, ci, si (5 Latin PGs)
+- [x] Missing phonogram worksheets: ti, ci, si (3 Latin PGs) — bu/gu not taught as lessons
+- [x] Missing rule-12 worksheet: Silent E (9 reasons)
 - [ ] Reader warm-ups: Stages 3-5 readers lack warm-up sections (7 files)
 
 ## Assessments

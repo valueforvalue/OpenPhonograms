@@ -90,6 +90,9 @@ MULTI3 = {
     "eu": {"sounds": "/ü/", "words": ["neutral","feud","Europe","eucalyptus","pneumonia","therapeutic","leukemia","pseudonym","eulogy","euphoria"]},
     "wor": {"sounds": "/wer/", "words": ["work","word","world","worm","worse","worst","worth","worship","worthy","workshop","network","homework","fireworks","typewriter"]},
     "ie": {"sounds": "/ē/ /ī/", "words": ["field","piece","chief","brief","grief","thief","believe","achieve","relieve","shield","pie","tie","lie","die","fries","cries","dries","tries","flies","spies"]},
+    "ti": {"sounds": "/sh/", "words": ["nation","station","action","motion","fraction","patient","partial","initial","essential","subtle","gracious","fictional","national","vibration","migration","rotation","creation","operation","celebration"]},
+    "ci": {"sounds": "/sh/", "words": ["special","social","official","musician","electric","politician","racial","crucial","precious","delicious","malicious","artificial","conscious","fancied","glacier","spacious","vicious","audacious","vivacious","efficient"]},
+    "si": {"sounds": "/sh/", "words": ["session","mission","vision","passion","version","tension","extension","dimension","explosion","confusion","division","decision","collision","occasion","emulsion","mansion","pension","suspension","comprehension","apprehension"]},
 }
 
 RULES_WORDS = {
@@ -104,6 +107,7 @@ RULES_WORDS = {
     "9": {"name": "AY spells /ā/ at end of base word", "words": ["day","say","way","may","pay","lay","ray","bay","hay","clay","play","stay","gray","tray","pray"]},
     "10": {"name": "A says /ä/ at end, after W, before L", "words": ["spa","water","watch","want","wash","ball","tall","fall","all","call","small","wall","walk","talk","halt"]},
     "11": {"name": "Q always needs U", "words": ["queen","quit","quick","quack","quilt","quiz","quest","quiet","quite","quote","quarter","question","squish","squash","squeeze"]},
+    "12": {"name": "Silent E (9 reasons)", "words": ["make","have","give","live","love","nice","race","page","cage","size","prize","house","mouse","those","three"]},
     "13": {"name": "Drop silent E for vowel suffix", "words": ["making","hoping","driving","using","baking","writing","smiling","raking","riding","taking","shining","taping","waving","saving"]},
     "14": {"name": "Double consonant (1-1-1 rule)", "words": ["running","hopping","swimming","sitting","getting","cutting","stopping","planning","begging","jogging","shopping","clapping"]},
     "15": {"name": "Y changes to I before suffix", "words": ["babies","cries","tries","flies","carried","happiness","beautiful","funnier","laziest","earlier","dried","spied","hurried"]},
@@ -282,6 +286,8 @@ def generate_rule_worksheets():
         # Apply section varies by rule
         if rnum == "13":
             apply_sec = "Add -ing:\n\nmake → ___________ &nbsp; hope → ___________ &nbsp; drive → ___________\n\nuse → ___________ &nbsp; bake → ___________ &nbsp; write → ___________"
+        elif rnum == "12":
+            apply_sec = "Name the Silent E reason (12.1-12.9):\n\nmake (long a) → ___________ &nbsp; have (no V/U) → ___________\n\nrace (C→/s/) → ___________ &nbsp; cage (G→/j/) → ___________\n\nsize (no plural) → ___________ &nbsp; prize (look bigger) → ___________\n\nhouse (TH voiced /z/) → ___________ &nbsp; these (clarify) → ___________\n\ncome (unseen) → ___________"
         elif rnum == "14":
             apply_sec = "Add -ing:\n\nrun → ___________ &nbsp; hop → ___________ &nbsp; swim → ___________\n\nsit → ___________ &nbsp; get → ___________ &nbsp; cut → ___________"
         elif rnum == "15":
