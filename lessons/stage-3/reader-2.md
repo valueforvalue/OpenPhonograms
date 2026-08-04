@@ -5,7 +5,9 @@
 ---
 
 
-![goose](images/animals/goose.png)
+![Gwen the Goose](images/illustrations/gwen-goose-gift.png)
+
+![Goose](images/animals/goose.png)
 
 <div class="reader-page">
 
