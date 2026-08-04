@@ -21,3 +21,4 @@ __pycache__/
 
 # Misc
 *.log
+games/audio/
