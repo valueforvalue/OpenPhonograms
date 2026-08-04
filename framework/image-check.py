@@ -42,7 +42,9 @@ def _normalize_src(src: str) -> str:
 
 
 def find_image_refs() -> dict[str, list[Path]]:
-    """Scan all markdown files and return {image_src: [referencing_files]}."""
+    """Scan all markdown files and return {normalized_image_src: [referencing_files]}.
+    Deduplicates so 'animals/frog.png' and 'images/animals/frog.png' are merged.
+    """
     refs: dict[str, list[Path]] = {}
     img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 
@@ -61,9 +63,12 @@ def find_image_refs() -> dict[str, list[Path]]:
                     continue
                 if src.startswith("http://") or src.startswith("https://"):
                     continue
-                if src not in refs:
-                    refs[src] = []
-                refs[src].append(md_file)
+                # Normalize: strip leading 'images/' so 'images/animals/frog.png'
+                # and 'animals/frog.png' are the same key
+                norm = _normalize_src(src)
+                if norm not in refs:
+                    refs[norm] = []
+                refs[norm].append(md_file)
 
     return refs
 
@@ -87,7 +92,8 @@ def cmd_list_missing():
     missing = 0
 
     for src, files in sorted(refs.items()):
-        img_path = PROJECT_ROOT / src
+        # Check both normalized path and with 'images/' prefix
+        img_path = PROJECT_ROOT / "images" / src
         if img_path.exists():
             continue
         missing += 1
@@ -109,15 +115,15 @@ def cmd_list_missing():
     print(f"Images missing:   {missing}")
     with_prompts = sum(
         1 for src in refs
-        if not (PROJECT_ROOT / src).exists()
+        if not (PROJECT_ROOT / "images" / src).exists()
         and (manifest.get(src) or manifest.get(_normalize_src(src)))
     )
     without_prompts = sum(
         1 for src in refs
-        if not (PROJECT_ROOT / src).exists()
+        if not (PROJECT_ROOT / "images" / src).exists()
         and not (manifest.get(src) or manifest.get(_normalize_src(src)))
     )
-    existing = sum(1 for src in refs if (PROJECT_ROOT / src).exists())
+    existing = sum(1 for src in refs if (PROJECT_ROOT / "images" / src).exists())
     print(f"  Existing:       {existing}")
     print(f"  Need generate:  {missing} ({with_prompts} have prompts, {without_prompts} need prompts)")
 
@@ -134,7 +140,7 @@ def cmd_output_prompts():
     count = 0
 
     for src, files in sorted(refs.items()):
-        img_path = PROJECT_ROOT / src
+        img_path = PROJECT_ROOT / "images" / src
         if img_path.exists():
             continue
 
