@@ -127,13 +127,13 @@ Stage 5 (Gr 3+, age 8+):    Latin roots, advanced morphology, vocabulary
 
 ### What the Child Will Be Able to Do
 
-| After Stage | Reading Level | Writing Level |
-|-------------|---------------|---------------|
-| Stage 1 | Identify all 26 letters; know all sounds for a-z | Write lowercase a-z from dictation of sounds |
-| Stage 2 | Decode CVC, CCVC, CVCC words; read simple phrases | Spell one-syllable words with short vowels; write simple sentences |
-| Stage 3 | Read one-syllable words with all common phonograms; read early decodable books | Spell one-syllable words with silent E, vowel teams, and common rules |
-| Stage 4 | Read multi-syllable words; read early chapter books | Spell multi-syllable words; apply suffixing rules |
-| Stage 5 | Read fluently at grade level; decode unfamiliar words independently | Spell accurately; understand word structure |
+| After Stage | Reading | Writing |
+|-------------|---------|---------|
+| Stage 1 | Know all a-z phonograms and their sounds | Write lowercase a-z from dictation |
+| Stage 2 | Decode CVC, CCVC, CVCC; read phrases | Spell short-vowel words; write sentences |
+| Stage 3 | Read all common phonograms; early decodable books | Spell with silent E, vowel teams, rules |
+| Stage 4 | Read multi-syllable words; early chapter books | Spell with suffixing rules |
+| Stage 5 | Read fluently at grade level | Spell accurately; understand word structure |
 
 ---
 
@@ -452,19 +452,16 @@ We often double **F**, **L**, and **S** after a single, short or broad vowel at 
 | **Letter tiles / magnets** | For word building before handwriting is strong |
 | **Decodable readers** | Books that use only phonograms the child has learned |
 
-### Recommended Decodable Book Series
+### Recommended Decodable Readers
 
-- **Logic of English Readers** (published by Logic of English)
-- **Bob Books** (early stages)
-- **Flyleaf Publishing** decodable books
-- **Phonic Books / Dandelion Readers** (UK-based, excellent)
-- **SPELD SA** free online decodable readers
+Use decodable books that match the phonograms your child has learned. Look for series where each book lists the phonograms and high-frequency words it covers. Your local library likely carries decodable reader sets — ask a children's librarian for "decodable books" or "phonics readers."
 
-### Optional Commercial Products
+### Optional Supplementary Materials
 
-- Logic of English *Foundations* curriculum (complete, scripted)
-- *Phonogram & Spelling Rule Quick Reference* (Logic of English)
-- *Spelling Rule Flash Cards* (Logic of English)
+- Phonogram flash cards (print from any phonogram-intro lesson in this curriculum)
+- Spelling rule reference chart (see `reference/spelling-rules.html`)
+- Whiteboard and marker for daily spelling analysis
+- Sand tray or textured surface for Stage 1 handwriting practice
 - *Basic Phonogram Flash Cards* (Logic of English)
 
 ---
@@ -1187,16 +1184,12 @@ ___________________________________________
 
 ---
 
-## Sources
+## Source
+
+This curriculum is based on the methodology presented in:
 
 - Eide, Denise. *Uncovering the Logic of English: A Common-Sense Approach to Reading, Spelling, and Literacy.* 2nd ed., Logic of English, Inc., 2012.
-- [Logic of English — Official Website](https://logicofenglish.com)
-- [Logic of English Spelling Rules](https://logicofenglish.com/pages/spelling-rules)
-- [Logic of English Spelling Analysis](https://logicofenglish.com/pages/spelling-analysis)
-- [Foundations Scope & Sequence (PDF)](https://loe-assets.logicofenglish.com/downloads/foundations-a-b-c-d-ss.pdf)
-- Campbell Creates Readers — [Book Review: Uncovering the Logic of English](https://www.campbellcreatesreaders.com/blog/book-review-understanding-the-logic-of-english)
+
+Additional research:
+
 - Ouellette, G., Martin-Chang, S., & Rossi, M. (2017). "Learning From Our Mistakes: Improvements in Spelling Lead to Gains in Reading Speed." *Scientific Studies of Reading*, 21(4), 350-357.
-
----
-
-*This curriculum is a synthesis of the principles in Denise Eide's "Uncovering the Logic of English" organized into a practical teaching sequence. It does not replace the official Logic of English curriculum materials, which include scripted lessons, readers, games, and assessments. For the full program, visit [logicofenglish.com](https://logicofenglish.com).*
