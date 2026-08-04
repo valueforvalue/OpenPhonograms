@@ -253,9 +253,13 @@ def resolve_image_path(src: str, md_file: Path) -> Path:
 
 def md_to_html(md_text: str, md_file: Path) -> str:
     """Convert markdown to HTML, handling image placeholders."""
+    # Pre-convert markdown images to HTML img tags so they work inside HTML divs
+    import re as _re
+    md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', r'<img src="\2" alt="\1">', md_text)
+    
     html = markdown.markdown(
         md_text,
-        extensions=["tables", "fenced_code", "codehilite", "toc"],
+        extensions=["tables", "fenced_code", "codehilite", "toc", "md_in_html"],
     )
     # Wrap images that don't exist in placeholder divs
     import re
