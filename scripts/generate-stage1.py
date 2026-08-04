@@ -1693,7 +1693,7 @@ def main():
         slugs = {
             1: "pa-01-sounds-around-us", 2: "pa-02-voiced-unvoiced", 3: "pa-03-blend-compound",
             4: "pa-04-blend-syllables", 5: "pa-05-onset-rime", 6: "pa-06-blend-cvc",
-            7: "pa-07-segment-cvc", 8: "pa-08-first-sounds",
+            7: "pa-07-segment-cvc", 8: "pa-08-initial-sounds",
             9: "pg-a", 10: "pg-d", 11: "pg-g", 12: "pg-c", 13: "pg-o", 14: "pg-qu",
             15: "review-1",
             16: "pg-s", 17: "pg-t", 18: "pg-i", 19: "pg-p", 20: "pg-u", 21: "pg-j",

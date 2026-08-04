@@ -1167,7 +1167,7 @@ S = {
     22:"root-auto-tele",23:"root-micro-chron",24:"root-photo-logy",
     25:"greek-review-1",
     26:"all-roots-review",
-    27:"vocabulary-1",28:"vocabulary-2",29:"vocabulary-3",
+    27:"vocab-1",28:"vocab-2",29:"vocab-3",
     30:"fluency-1",31:"fluency-2",32:"fluency-3",
     33:"composition-1",34:"composition-2",35:"composition-3",
     36:"grammar-1",37:"grammar-2",38:"grammar-3",
