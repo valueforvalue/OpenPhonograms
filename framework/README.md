@@ -92,6 +92,25 @@ Our 248 lessons are comparable in scope: each of our lessons is one teaching ses
 | grammar | 3 | Parts of speech, sentence types, punctuation |
 | **Total** | **248** | |
 
+## Phonogram Cards Are NOT Image Files
+
+Individual phonogram cards (a, d, g, c, o, sh, etc.) are **pure text** — no image generation needed. The `render.py` tool produces properly-styled phonogram cards in the PDF using HTML/CSS directly from the lesson markdown.
+
+The inline syntax used in lesson files:
+
+```html
+<div class="phonogram-card">
+  <div class="phonogram-letter">a</div>
+  <div class="phonogram-sounds">/ă/ /ā/ /ä/</div>
+</div>
+```
+
+This renders as a bordered card with the phonogram in 72pt Georgia navy, and the sounds below in monospace.
+
+**To override with a custom image:** drop a PNG into `images/phonograms/<letter>.png` and `render.py` will use it instead.
+
+Wall charts (`images/phonograms/all-single.png` and `all-multi.png`) are still images — they are large printable reference posters, not inline cards.
+
 ## Lesson Types
 
 | Type | Template | Directory | Example |
@@ -147,9 +166,9 @@ python render.py --curriculum
 All images use a consistent markdown syntax with descriptive alt-text:
 
 ```markdown
-![Phonogram card: a - /ă/ /ā/ /ä/](images/phonograms/a.png)
 ![Montessori-style: A brown dog sitting](images/animals/dog.png)
 ![Illustration: Jake the snake baking a cake](images/illustrations/jake-bakes-cake.png)
+![Wall chart: all 75 phonograms](images/phonograms/all-single.png)
 ```
 
 When the real image doesn't exist yet, `render.py` inserts a **placeholder box** showing the alt-text, dimensions, and filename — so the PDF is complete and usable even without images. Swap in real PNGs later and re-render.

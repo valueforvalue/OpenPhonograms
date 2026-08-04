@@ -88,12 +88,45 @@ th, td {
 th { font-weight: bold; border-bottom-width: 2px; background: #f7f7f2; }
 
 .phonogram {
-    font-size: 36pt;
+    font-size: 72pt;
     font-weight: bold;
     color: #2a5c8a;
     text-align: center;
     display: block;
-    margin: 0.5em 0;
+    margin: 1em 0;
+    font-family: Georgia, serif;
+    line-height: 1.1;
+    border: 2px solid #2a5c8a;
+    border-radius: 8px;
+    padding: 0.4em;
+    background: #fffff8;
+    page-break-inside: avoid;
+}
+
+.phonogram-card {
+    border: 2px solid #2a5c8a;
+    border-radius: 8px;
+    padding: 1.2em 1.5em;
+    margin: 1.5em 0;
+    text-align: center;
+    background: #fffff8;
+    page-break-inside: avoid;
+}
+
+.phonogram-letter {
+    font-size: 72pt;
+    font-weight: bold;
+    color: #2a5c8a;
+    font-family: Georgia, serif;
+    line-height: 1;
+    margin: 0.2em 0;
+}
+
+.phonogram-sounds {
+    font-size: 14pt;
+    color: #2a5c8a;
+    font-family: "Courier New", monospace;
+    margin-top: 0.4em;
 }
 
 .sound { font-family: "Courier New", monospace; }

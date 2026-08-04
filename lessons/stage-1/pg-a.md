@@ -32,7 +32,7 @@
 
 
 
-![Phonogram a](images/phonograms/a.png)
+![Phonogram a]()
 ## Practice
 
 ### Write It

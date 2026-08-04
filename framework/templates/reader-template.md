@@ -38,8 +38,6 @@
 
 **Rule:** {rule_reference}
 
-![{image_1_alt}]({image_1_path})
-
 </div>
 
 </div>

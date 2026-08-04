@@ -21,7 +21,7 @@
 — [Phonemic awareness activity to be written]
 
 
-![Sounds Around Us](images/phonograms/a.png)
+![Sounds Around Us]()
 ## Review
 
 ### Quick Check

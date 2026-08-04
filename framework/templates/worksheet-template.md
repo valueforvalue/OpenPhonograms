@@ -4,7 +4,13 @@
 
 ---
 
-![Phonogram card: {phonogram}](images/phonograms/{phonogram}.png)
+<div class="phonogram-card">
+
+<div class="phonogram-letter">{phonogram}</div>
+
+<div class="phonogram-sounds">{sounds}</div>
+
+</div>
 
 ## Part 1: Write the Phonogram
 

@@ -4,7 +4,13 @@
 
 ---
 
-![Phonogram card: sh](images/phonograms/sh.png)
+<div class="phonogram-card">
+
+<div class="phonogram-letter">sh</div>
+
+<div class="phonogram-sounds">/sh/</div>
+
+</div>
 
 ## Part 1: Write the Phonogram
 
