@@ -113,17 +113,13 @@ English preserves spelling to preserve meaning. The A in *vacate* → *evacuate*
 
 ### Overview Map
 
-```
-Stage 1 (Pre-K, age 4-5):   Phonemic awareness + first 26 single-letter phonograms
-Stage 2 (K, age 5-6):       CVC words, short vowels, first multi-letter phonograms,
-                             first spelling rules, consonant blends
-Stage 3 (Gr 1, age 6-7):    Silent Final E (all 9 reasons), vowel teams,
-                             more multi-letter phonograms, syllable division
-Stage 4 (Gr 2, age 7-8):    Advanced phonograms (ough, augh, etc.),
-                             schwa, suffixing rules, morphology introduction
-Stage 5 (Gr 3+, age 8+):    Latin roots, advanced morphology, vocabulary
-                             building, fluency focus
-```
+| Stage | Age | Focus |
+|-------|-----|-------|
+| 1 | Pre-K (4-5) | Phonemic awareness + first 26 single-letter phonograms |
+| 2 | K (5-6) | CVC words, short vowels, first multi-letter phonograms, first spelling rules, consonant blends |
+| 3 | Gr 1 (6-7) | Silent Final E (all 9 reasons), vowel teams, more multi-letter phonograms, syllable division |
+| 4 | Gr 2 (7-8) | Advanced phonograms (ough, augh, etc.), schwa, suffixing rules, morphology introduction |
+| 5 | Gr 3+ (8+) | Latin roots, advanced morphology, vocabulary building, fluency focus |
 
 ### What the Child Will Be Able to Do
 

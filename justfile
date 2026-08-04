@@ -175,6 +175,32 @@ release:
     @{{python}} {{scripts_dir_s}}/build-release.py
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Check — drift / overflow / coverage validators
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Detect source MD newer than rendered PDF (auto-render drift)
+check-drift:
+    @echo "==> Drift check (lessons vs build/stage-N/*.pdf)"
+    @{{python}} {{scripts_dir_s}}/check-drift.py
+
+# Scan rendered PDFs for content past the right margin
+check-overflow:
+    @echo "==> Overflow check (build/)"
+    @{{python}} {{scripts_dir_s}}/check-table-overflow.py
+    @echo "==> Overflow check (packs/)"
+    @{{python}} {{scripts_dir_s}}/check-table-overflow.py --packs
+
+# Validate every catalog phonogram/rule has a matching worksheet (and vice versa)
+check-coverage:
+    @echo "==> Worksheet coverage check"
+    @{{python}} {{scripts_dir_s}}/check-worksheet-coverage.py
+
+# Run all three checks (drift + overflow + coverage)
+check: check-drift check-overflow check-coverage
+    @echo ""
+    @echo "==> All checks complete"
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Aggregate — common workflows
 # ─────────────────────────────────────────────────────────────────────────────
 

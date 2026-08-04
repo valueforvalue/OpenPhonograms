@@ -173,6 +173,10 @@ just pack-all            # Build all 248 lesson packs
 just pack-stage 3        # Build Stage 3 packs only
 just pack-lesson pg-d    # Build one pack (great for testing)
 just gen-all             # Regenerate all Markdown from data
+just check-drift         # Detect MD newer than its PDF
+just check-overflow      # Scan PDFs for content past the right margin
+just check-coverage      # Validate every PG/rule has a matching worksheet
+just check               # Run all three checks
 just clean-build         # Remove build/ directory
 just clean-all           # Remove all build artifacts (keeps sources)
 ```
@@ -371,6 +375,47 @@ just pack-all-debug
 ```
 
 Writes the combined Markdown for each pack to `packs/stage-N/lesson-NN-slug.md` without calling weasyprint. Useful for debugging the assembly logic.
+
+## Quality Checks
+
+Three validators that catch drift, layout problems, and coverage gaps:
+
+### `just check-drift` (or `scripts/check-drift.py`)
+
+Compares each generated lesson MD against its PDF in `build/`. Reports any MD newer than its PDF — meaning a source edit hasn't been re-rendered yet.
+
+```bash
+just check-drift                          # all 248 lessons
+just check-drift --stage 3                # one stage
+python scripts/check-drift.py --include-worksheets --include-readers
+```
+
+Exit 0 = clean. Exit 1 = drift detected. Wire into pre-commit to prevent stale PDFs.
+
+### `just check-overflow` (or `scripts/check-table-overflow.py`)
+
+Scans every rendered PDF for text that extends past the right margin. Catches tables that are too wide for letter-size, text that doesn't wrap, code blocks with long lines.
+
+Uses `pypdfium2` (already in dev deps) to extract text rectangles.
+
+```bash
+just check-overflow                       # scans build/ and packs/
+python scripts/check-table-overflow.py --packs --quiet
+```
+
+Exit 0 = clean. Exit 1 = overflow. Lists file:page with overflow amount.
+
+### `just check-coverage` (or `scripts/check-worksheet-coverage.py`)
+
+Reads the catalog and verifies every phonogram/rule taught in lessons has a matching worksheet. Catches:
+- **Missing worksheet**: catalog has `new_phonogram='foo'` but no `worksheets/phonograms/pg-foo.md`
+- **Orphan worksheet**: `worksheets/phonograms/pg-bar.md` exists but no lesson teaches 'bar'
+
+Exit 0 = 100% coverage. Exit 1 = gap or orphan.
+
+### `just check`
+
+Runs all three. Use before committing changes to lesson MDs or worksheets.
 
 ## Project Layout
 

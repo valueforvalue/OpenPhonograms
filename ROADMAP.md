@@ -32,9 +32,9 @@ Open issues for the project. Checked = done, unchecked = planned.
 - [x] Reader generators (2 scripts)
 - [x] Audio generator (neural TTS)
 - [x] Image check tool
-- [ ] Auto-render on generator change (detect drift)
-- [ ] PDF table overflow checker (scan for wide tables post-render)
-- [ ] Worksheet-to-lesson cross-reference validator
+- [x] Auto-render drift detector (check-drift.py)
+- [x] PDF table overflow checker (check-table-overflow.py)
+- [x] Worksheet-to-lesson cross-reference validator (check-worksheet-coverage.py)
 
 ## Game
 
