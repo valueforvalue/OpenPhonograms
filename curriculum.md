@@ -189,7 +189,7 @@ This is the heart of every lesson. Follow these steps for each word:
 
 ### For Multi-Syllable Words: Add "Say-to-Spell"
 
-When a word contains schwa (the lazy /ŭ/ or /ĭ/ sound in unstressed syllables), use **say-to-spell**:
+When a word contains schwa (the lazy /ŭ/ or /ĭ/ sound in unstressed syllables), use **say-to-spell**. This is NOT optional — schwa appears in the majority of multi-syllable English words, and without say-to-spell, the child cannot hear the spelling information.
 
 1. Say the word normally: "about" → /ə-bout/
 2. Say-to-spell (pause between syllables, stress every vowel): "ā-bout"
@@ -201,6 +201,8 @@ When a word contains schwa (the lazy /ŭ/ or /ĭ/ sound in unstressed syllables)
 - Normal: /lĭt-əl/  
 - Say-to-spell: /lĭt-tlē/ (pause between syllables, articulate double T, stress the E)  
 - Now the child hears why there are two T's and an E at the end
+
+**When to introduce:** Stage 2, as soon as the first multi-syllable word appears in spelling analysis. The word `lit·tle` arrives with Rule 12.4 (every syllable needs a vowel). That's the moment to introduce say-to-spell.
 
 ---
 
@@ -241,7 +243,9 @@ Teach ALL sounds for each, in order of frequency. The first sound listed is the 
 
 ### Multi-Letter Phonograms (49)
 
-Organized approximately by teaching order. Note: the official Logic of English teaches 75 total basic phonograms (some sources say 74, others 75 due to variations in whether `qu` counts as one since it's always paired).
+Organized approximately by teaching order. The official Logic of English teaches **75 basic phonograms** (current edition). Earlier printings listed 74; the difference is one multi-letter phonogram added in later editions. The count in this curriculum is the current canonical 75.
+
+> **Important:** Multi-letter phonograms are NOT saved for after all single-letter phonograms are mastered. They are interleaved starting in Stage 2 — `sh` and `th` appear once the child knows ~15 single-letter phonograms, because real words need them. See the Stage 2 phonogram introduction schedule.
 
 | # | Phonogram | Sounds | Example Words |
 |---|-----------|--------|---------------|
@@ -465,6 +469,99 @@ We often double **F**, **L**, and **S** after a single, short or broad vowel at 
 
 ---
 
+## Decodable Reader Design Principles
+
+When creating your own decodable readers for this curriculum, follow these constraints:
+
+### 1. Phonogram Lockstep
+Each reader contains ONLY phonograms and spelling rules the child has already been taught. If a needed word uses an untaught phonogram, rewrite the sentence or save the reader for later. One new phonogram or rule per reader is the maximum.
+
+### 2. Spelling Aid Sidebar
+Each page (or two-page spread) includes a sidebar showing the target phonogram(s) for that page, their sounds, and the governing rule if one applies. The child glances at it when stuck — it does not give away the decoding but provides a just-in-time reference:
+
+```
+┌─────────────────────────┬──────────────────┐
+│ Jake wants to make a    │  Sidebar         │
+│ cake. He has no time.   │  a  /ă/ /ā/ /ä/  │
+│ He must bake the cake   │  e  (silent)      │
+│ now.                    │                  │
+│                         │  Rule 12.1:      │
+│                         │  Silent E makes  │
+│                         │  the vowel long  │
+└─────────────────────────┴──────────────────┘
+```
+
+### 3. Diacritical Marks in Warm-Up Only
+Do NOT mark vowels in the story text itself — the child must decode without crutches. Instead, include a **warm-up word box** before the story where target words appear with diacritical marks:
+
+```
+[WARM-UP — read these first]
+cāke   tīme   hōpe   cūbe   thēse
+(Silent E makes the vowel say its long sound)
+
+[STORY — no marks]
+Jake wants to make a cake...
+```
+
+Diacritical marks used in this curriculum:
+- Breve (˘) — short vowel: căt, dŏg
+- Macron (¯) — long vowel: māke, tīme
+- Two dots (¨) — broad vowel: tö, püt
+- Schwa (ə) — unstressed vowel: əbout, happən
+
+### 4. Cohesive Animal Stories
+Each reader series follows one animal character through a coherent narrative. Animal names must be decodable with the current phonogram set:
+
+| Stage | Decodable Animal Names |
+|-------|----------------------|
+| Stage 1 | cat, dog, pig, rat, bat, hen, fox, bug, ant |
+| Stage 2 | frog, duck, fish, chimp, skunk, snail, goat, sheep, cow, owl |
+| Stage 3 | snake, whale, horse, bird, mouse, goose |
+| Stage 4+ | rabbit, kitten, puppy, chicken, turtle, beaver, eagle |
+
+### 5. Montessori-Style Images
+Use realistic photographs or naturalistic illustrations — not cartoons. Montessori pedagogy grounds children in reality. Real animal photos or scientifically accurate drawings support rather than distract from the text. Images should appear on the facing page or below the text, not embedded within it.
+
+### 6. Page Density
+One to four sentences per page. Large, clear font (18-24pt). White space around text. The child's working memory is fully occupied by decoding — layout friction costs fluency.
+
+---
+
+## Phonogram-Rule Mapping: Which Phonograms Have Spelling Aids
+
+Not every phonogram needs a separate "spelling aid." For most single-letter phonograms, the spelling aid IS knowing all its sounds in frequency order. Spelling aids (governing rules) apply to specific multi-letter phonograms:
+
+### Phonograms WITH Governing Rules (Spelling Aid = The Rule Itself)
+
+| Phonogram | Governing Rule | Spelling Aid (mnemonic) |
+|-----------|---------------|------------------------|
+| qu | Rule 11 | "Q always needs U; U is not a vowel here" |
+| ck | Rule 26 | "CK is used only after a single short vowel" |
+| oi / oy | Rule 3 | "OI never at end; OY used at end of base word" |
+| ai / ay | Rules 9, 3 | "AI never at end; AY used at end of base word" |
+| aw / au | Rule 3 | "AW used at end; AU never at end" |
+| dge | Rule 25 | "DGE used only after a single short vowel" |
+| tch | Rule 27 | "TCH used only after a single short or broad vowel" |
+| igh / eigh / ough / augh | Rule 28 | "GH phonograms at end of base word or before T" |
+| ti / ci / si | Rule 17 | "Used only at the start of a syllable after the first one" |
+| ed | Rule 20 | "Says /ed/ after d/t, /d/ or /t/ otherwise" |
+| wr | — | "Two-letter /r/ — the W is silent" |
+| kn | — | "Two-letter /n/ used only at the beginning" |
+| gn | — | "Two-letter /n/ — the G is silent" |
+| ph | — | "Two-letter /f/ from Greek" |
+| gh | — | "Says /g/ at the beginning of a word" |
+
+### Phonograms WITHOUT Governing Rules (Spelling Aid = Know the Sounds)
+
+All 26 single-letter phonograms (except `q` which binds to Rule 11) and these multi-letter phonograms: `sh`, `th`, `ee`, `ch`, `er`, `wh`, `ng`, `ar`, `or`, `oa`, `ow`, `ou`, `oo`, `ea`, `ir`, `ur`, `ear`, `wor`, `ew`, `ui`, `eu`, `ei`, `ey`, `ie`, `bu`, `gu`. For these, the practice is: flash the card → say all sounds in order → write it.
+
+### Worksheet Design Rule
+
+- **Every phonogram gets a worksheet.** The worksheet embeds the 5-step Spelling Analysis loop (hear, segment, write, analyze, read) using words that contain that phonogram.
+- **Only phonograms with governing rules get rule-work on the worksheet.** For `sh`, the worksheet is: write `sh`, say /sh/, spell `ship` and `fish`. For `ck`, the worksheet adds: *why* `ck` and not `k` or `c`? (Rule 26).
+
+---
+
 ## Stage 1: Phonemic Awareness & First Phonograms
 
 **Age:** 4-5 (Pre-K)  
@@ -498,9 +595,11 @@ Teach these skills in order. Do NOT skip ahead — each builds on the prior.
 | 25-28 | Blending with consonant blends | "/s/ /t/ /ŏ/ /p/ → stop" |
 | 29-30 | Two-syllable blending | "Say *sun/shine*" |
 
-### Phonogram Introduction Order (a-z)
+### Phonogram Introduction Order (a-z, with interleaved multi-letter phonograms)
 
-Teach phonograms in this order, which groups letters by stroke type for handwriting and avoids visually confusing pairs being introduced together. **For each phonogram, teach ALL its sounds from the start.**
+Teach single-letter phonograms in this order, which groups letters by stroke type for handwriting and avoids visually confusing pairs being introduced together. **For each phonogram, teach ALL its sounds from the start.**
+
+> **Interleaving note:** Multi-letter phonograms do NOT wait until all 26 single-letter phonograms are mastered. Once the child knows ~15 single-letter phonograms (through Group 3), begin introducing `sh`, `th`, `ck`, and `ee` so the child can read and spell real words. The full set of 49 multi-letter phonograms is spread across Stages 2-4, interleaved with spelling rules. See the Stage 2 phonogram schedule for the exact sequence.
 
 | Group | Phonograms | Sounds to Teach |
 |-------|------------|-----------------|
