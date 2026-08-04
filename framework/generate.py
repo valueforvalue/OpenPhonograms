@@ -14,6 +14,13 @@ import csv
 import sys
 from pathlib import Path
 
+# Force UTF-8 on Windows consoles that default to cp1252
+if sys.platform == 'win32':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -277,6 +284,12 @@ def generate_lesson(lesson: dict, dry_run: bool = False) -> str:
         text += f"### Morpheme: {lesson.get('new_phonogram', lesson['title'])}\n\n— [Morpheme content to be written]\n"
     else:
         text += f"— [{lesson_type} content to be written]\n"
+
+    # Add image reference if lesson has one in the catalog
+    image_needed = lesson.get("image_needed", "").strip()
+    if image_needed:
+        img_path = f"images/{image_needed}" if not image_needed.startswith("images/") else image_needed
+        text += f"\n\n![{lesson.get('title', 'Illustration')}]({img_path})\n"
 
     # Add practice section for phonogram and rule intros
     if lesson_type in ("phonogram-intro", "rule-intro"):

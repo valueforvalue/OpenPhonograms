@@ -1,0 +1,442 @@
+# Complete Image Generation Prompts
+
+Total images planned: 43 (each indexed twice)
+
+> **IMPORTANT:** Apply the Montessori Style Guide to EVERY image.
+> See: framework/STYLE-GUIDE.md for the complete pre-prompt.
+
+---
+
+## 1. animals/beaver.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: beaver
+
+**Prompt:**
+```
+Photorealistic image of a beaver sitting near water, neutral background. Distinctive flat tail visible. Natural lighting.
+```
+
+## 2. animals/bird.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: blue jay on a branch
+
+**Prompt:**
+```
+Photorealistic image of a blue jay sitting on a bare branch, clean neutral or sky background. Sharp focus, natural lighting.
+```
+
+## 3. animals/cat.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: orange tabby cat sitting
+
+**Prompt:**
+```
+Photorealistic image of an orange tabby cat sitting on a clean neutral background. Natural lighting, sharp focus, the cat looking directly at the viewer. Montessori-style: realistic, no cartoon elements, no distracting background. Suitable for a children's reader illustration.
+```
+
+## 4. animals/dog.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: brown dog
+
+**Prompt:**
+```
+Photorealistic image of a medium-sized brown dog with floppy ears, sitting on a clean neutral background. Natural lighting, sharp focus. Montessori-style: realistic, no cartoon elements. Suitable for a children's reader illustration.
+```
+
+## 5. animals/duck.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: mallard duck
+
+**Prompt:**
+```
+Photorealistic image of a mallard duck standing near water or on neutral ground. Sharp focus on the duck, natural lighting. Montessori-style.
+```
+
+## 6. animals/eagle.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: bald eagle
+
+**Prompt:**
+```
+Photorealistic image of a bald eagle perched or in flight, clean composition. Natural lighting, sharp focus. Majestic but realistic.
+```
+
+## 7. animals/firefly.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: firefly glowing at dusk
+
+**Prompt:**
+```
+Photorealistic or highly realistic image of a firefly with its abdomen glowing yellow-green against a dark dusk background. Sharp focus on the insect. Magical but realistic.
+```
+
+## 8. animals/fish.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: orange goldfish
+
+**Prompt:**
+```
+Photorealistic image of a bright orange goldfish swimming, clean neutral background or clear water. Sharp focus. Montessori-style.
+```
+
+## 9. animals/fox.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: red fox
+
+**Prompt:**
+```
+Photorealistic image of a red fox sitting or standing in a natural pose, clean neutral background. Sharp focus, natural lighting. Montessori-style.
+```
+
+## 10. animals/frog.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: green frog on a leaf
+
+**Prompt:**
+```
+Photorealistic image of a small green tree frog sitting on a large green leaf, clean neutral background. Natural lighting, sharp focus on the frog. Montessori-style: realistic. Character: Fred the Frog for Stage 2 reader.
+```
+
+## 11. animals/goat.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: brown goat
+
+**Prompt:**
+```
+Photorealistic image of a brown goat with horns, standing on neutral ground. Natural lighting, sharp focus.
+```
+
+## 12. animals/goose.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: white goose
+
+**Prompt:**
+```
+Photorealistic image of a white goose standing, neutral background. Natural lighting, sharp focus. Character: Gwen the Goose for Stage 3 reader.
+```
+
+## 13. animals/hen.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: red hen
+
+**Prompt:**
+```
+Photorealistic image of a reddish-brown hen standing on neutral ground. Natural lighting, sharp focus. Montessori-style: realistic. Character for decodable reader.
+```
+
+## 14. animals/horse.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: brown horse
+
+**Prompt:**
+```
+Photorealistic image of a brown horse standing in profile, neutral background. Natural lighting, sharp focus.
+```
+
+## 15. animals/mouse.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: small brown mouse
+
+**Prompt:**
+```
+Photorealistic image of a small brown field mouse, clean neutral background. Sharp focus on the mouse. Natural lighting, cute but realistic.
+```
+
+## 16. animals/ostrich.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: ostrich standing
+
+**Prompt:**
+```
+Photorealistic image of an ostrich standing on neutral ground, full body visible. Natural lighting, sharp focus. Tall bird, distinctive long neck.
+```
+
+## 17. animals/pig.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: pink pig standing
+
+**Prompt:**
+```
+Photorealistic image of a pink pig standing on grass or neutral ground. Clean, natural lighting, sharp focus. Montessori-style: realistic, no cartoon elements.
+```
+
+## 18. animals/rabbit.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: brown rabbit
+
+**Prompt:**
+```
+Photorealistic image of a brown rabbit sitting, neutral background. Natural lighting, sharp focus. Ears up.
+```
+
+## 19. animals/sheep.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: white sheep
+
+**Prompt:**
+```
+Photorealistic image of a white woolly sheep standing in a natural pose, neutral background. Natural lighting, sharp focus.
+```
+
+## 20. animals/skunk.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: black and white skunk
+
+**Prompt:**
+```
+Photorealistic image of a skunk with distinctive black and white markings, standing on neutral ground. Natural lighting, sharp focus.
+```
+
+## 21. animals/snail.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: garden snail on a leaf
+
+**Prompt:**
+```
+Photorealistic image of a brown garden snail on a green leaf, clean neutral background. Sharp focus on the snail's shell and body. Natural lighting.
+```
+
+## 22. animals/snake.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: green snake
+
+**Prompt:**
+```
+Photorealistic image of a green snake coiled on a neutral surface. Natural lighting, sharp focus. Non-threatening pose.
+```
+
+## 23. animals/turtle.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: box turtle
+
+**Prompt:**
+```
+Photorealistic image of a box turtle on neutral ground. Shell patterns visible, sharp focus. Natural lighting.
+```
+
+## 24. animals/whale.png
+**Category:** animals
+**Size:** 1200x900 | **Format:** png
+**Description:** Montessori-style: humpback whale breaching
+
+**Prompt:**
+```
+Photorealistic image of a humpback whale partially breaching the ocean surface. Clean composition, natural lighting.
+```
+
+## 25. illustrations/cole-bike.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Cole and his bike
+
+**Prompt:**
+```
+A naturalistic illustration of a young boy (Cole) standing beside a red bicycle, looking happy. Simple outdoor scene. Children's book style, realistic proportions.
+```
+
+## 26. illustrations/firefly-night.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Fireflies in a summer meadow at night
+
+**Prompt:**
+```
+A naturalistic illustration of a summer meadow at dusk with multiple fireflies glowing. A child sits watching them. Atmospheric lighting — deep blues with warm yellow-green glow from fireflies. Children's book style.
+```
+
+## 27. illustrations/fred-frog-cake.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Fred the Frog baking a cake
+
+**Prompt:**
+```
+A naturalistic illustration (not cartoon) of a green frog character named Fred wearing a small chef hat and apron, standing at a kitchen counter mixing a cake bowl. Warm, cozy kitchen lighting. Children's book illustration style but grounded in realistic proportions. Cohesive with Montessori aesthetic.
+```
+
+## 28. illustrations/gwen-goose-gift.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Gwen the Goose giving a gift
+
+**Prompt:**
+```
+A naturalistic illustration of a white goose character named Gwen holding a small wrapped gift box with her wing. Soft outdoor background. Children's book style, realistic animal proportions, warm lighting.
+```
+
+## 29. illustrations/jake-bakes-cake.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Jake the Snake baking a cake
+
+**Prompt:**
+```
+A naturalistic illustration of a friendly green snake character named Jake wearing an apron, standing at a kitchen counter with a mixing bowl and cake ingredients. Warm cozy kitchen. Children's book style, realistic snake proportions, not cartoonish. Cohesive with Montessori aesthetic.
+```
+
+## 30. illustrations/ostrich-running.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Ostrich running across plain
+
+**Prompt:**
+```
+A naturalistic illustration of an ostrich running at full speed across an open plain. Dust behind its feet. Dynamic but grounded in realistic animal anatomy. Children's book style. Warm sunlight.
+```
+
+## 31. illustrations/sail-box.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: A sailboat made from a box
+
+**Prompt:**
+```
+A naturalistic illustration of a child sitting in a cardboard box that has been turned into an imaginary sailboat, with a paper sail on a stick. Playful but grounded in realistic style. Warm afternoon lighting.
+```
+
+## 32. illustrations/train.png
+**Category:** illustrations
+**Size:** 1200x900 | **Format:** png
+**Description:** Illustration: Steam train on tracks
+
+**Prompt:**
+```
+A naturalistic illustration of a vintage steam train on tracks, billowing white steam. View from a slight distance showing the full train. Children's book style, realistic proportions. Bright daylight.
+```
+
+## 33. misc/diacritical-marks.png
+**Category:** misc
+**Size:** 800x400 | **Format:** png
+**Description:** Diacritical marks reference: breve macron diaeresis schwa
+
+**Prompt:**
+```
+A clean reference card showing the four diacritical marks used in this curriculum: breve (˘) over a, macron (¯) over a, diaeresis/two dots (¨) over o, schwa (ə). Each mark labeled with its name and meaning: breve=short, macron=long, diaeresis=broad, schwa=unstressed. Educational reference, navy on white, minimalist.
+```
+
+## 34. phonograms/a.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: a - /ă/ /ā/ /ä/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letter 'a' in Georgia serif font, navy blue (#2a5c8a), centered. Below the letter, three pronunciation guides in smaller text: /ă/ /ā/ /ä/. Under each: at, nation, father. Minimalist, Montessori-style, no distractions. High contrast, print-ready.
+```
+
+## 35. phonograms/all-multi.png
+**Category:** phonograms
+**Size:** 2400x1800 | **Format:** png
+**Description:** All 49 multi-letter phonograms chart
+
+**Prompt:**
+```
+A wall-chart reference showing 49 multi-letter phonograms (sh, th, ck, ee, igh, ch, er, wh, oi, oy, ai, ay, ng, ar, or, oa, ow, ou, oo, ea, ed, ir, ur, ear, wor, wr, kn, gn, dge, tch, aw, au, ew, ui, eu, ei, ey, eigh, ie, ph, gh, ough, augh, ti, ci, si, bu, gu) arranged in a clean grid. Each in navy blue, with sounds below. White background, print-friendly poster.
+```
+
+## 36. phonograms/all-single.png
+**Category:** phonograms
+**Size:** 2400x1800 | **Format:** png
+**Description:** All 26 single-letter phonograms chart
+
+**Prompt:**
+```
+A wall-chart reference showing all 26 lowercase letters a-z arranged in 5 rows (grouped by handwriting stroke family). Each letter in navy blue Georgia font, large size (60pt). Below each letter, its sounds in smaller type. White background, clean grid layout. Print-friendly, minimalist educational poster. No illustrations, just typography.
+```
+
+## 37. phonograms/c.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: c - /k/ /s/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letter 'c' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /k/ /s/. Under: cat, cent. Minimalist, Montessori-style.
+```
+
+## 38. phonograms/d.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: d - /d/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letter 'd' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /d/. Under: dog. Minimalist, Montessori-style, no distractions.
+```
+
+## 39. phonograms/g.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: g - /g/ /j/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letter 'g' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /g/ /j/. Under: go, gem. Minimalist, Montessori-style, no distractions.
+```
+
+## 40. phonograms/o.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: o - /ŏ/ /ō/ /ö/ /ŭ/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letter 'o' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /ŏ/ /ō/ /ö/ /ŭ/. Under: odd, go, to, son. Minimalist, Montessori-style.
+```
+
+## 41. phonograms/qu.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: qu - /kw/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letters 'qu' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /kw/. Under: queen. Minimalist, Montessori-style. The 'qu' is shown as a connected pair.
+```
+
+## 42. phonograms/sh.png
+**Category:** phonograms
+**Size:** 800x600 | **Format:** png
+**Description:** Phonogram card: sh - /sh/
+
+**Prompt:**
+```
+A clean educational flash card on white background. Large lowercase letters 'sh' in Georgia serif font, navy blue (#2a5c8a), centered. Below: /sh/. Under: ship. Minimalist, Montessori-style, no distractions. The 'sh' is shown as a connected pair.
+```
+
+## 43. worksheets/worksheet-sample.png
+**Category:** worksheets
+**Size:** 1600x1200 | **Format:** png
+**Description:** Sample completed worksheet layout
+
+**Prompt:**
+```
+A clean printable worksheet design showing: phonogram at top in large font, writing practice lines below, 3 spelling analysis word boxes with prompt text, and a small rule reference box at bottom. Grayscale-friendly, generous spacing, 14pt font. This is a layout template showing the worksheet structure, not a filled-in worksheet.
+```
+
+
+————————————————————————————————————————
+Total images: 43

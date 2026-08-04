@@ -155,12 +155,57 @@ def cmd_output_prompts():
     print(f"Total images to generate: {count}")
 
 
+def cmd_all_manifest():
+    """Output ALL prompts from the manifest, not just referenced ones."""
+    manifest = load_manifest()
+    seen = set()
+    count = 0
+
+    print("# Complete Image Generation Prompts\n")
+    print(f"Total images planned: {len(manifest) // 2} (each indexed twice)\n")
+    print("> **IMPORTANT:** Apply the Montessori Style Guide to EVERY image.")
+    print("> See: framework/STYLE-GUIDE.md for the complete pre-prompt.\n")
+    print("---\n")
+
+    for key, m in sorted(manifest.items()):
+        # Skip duplicate 'images/' prefixed keys
+        base_key = key.replace("images/", "")
+        if base_key in seen:
+            continue
+        if key.startswith("images/"):
+            seen.add(key[7:])
+        else:
+            seen.add(key)
+            continue  # process only the 'images/' prefixed version for output
+
+    seen.clear()
+    for key, m in sorted(manifest.items()):
+        if not key.startswith("images/"):
+            continue
+        base_key = key[7:]
+        if base_key in seen:
+            continue
+        seen.add(base_key)
+        count += 1
+        print(f"## {count}. {base_key}")
+        print(f"**Category:** {m.get('category', '—')}")
+        print(f"**Size:** {m.get('size', '1200x900')} | **Format:** {m.get('format', 'png')}")
+        print(f"**Description:** {m.get('description', '—')}")
+        print(f"\n**Prompt:**\n```\n{m.get('prompt', '—')}\n```\n")
+
+    print(f"\n{'—' * 40}")
+    print(f"Total images: {count}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Check missing images for Logic of English materials")
     parser.add_argument("--prompts", action="store_true", help="Output generation prompts for missing images")
+    parser.add_argument("--all-manifest", action="store_true", help="Output ALL manifest prompts (not just referenced)")
     args = parser.parse_args()
 
-    if args.prompts:
+    if args.all_manifest:
+        cmd_all_manifest()
+    elif args.prompts:
         cmd_output_prompts()
     else:
         cmd_list_missing()
