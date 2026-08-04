@@ -324,25 +324,43 @@ function save() {
 function shuffle(a) { for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
 
 // ── AUDIO ──
-function speak(text) {
+function speak(text, pgKey) {
+  // Try pre-recorded audio first if we know the phonogram
+  if(pgKey) {
+    const audio = new Audio(`audio/${pgKey}.mp3`);
+    audio.onerror = () => speakTTS(text);
+    audio.play().catch(() => speakTTS(text));
+    return;
+  }
+  // Try finding the PG from the text (example words)
+  const match = PHONOGRAMS.find(p => p.speak === text);
+  if(match) {
+    const audio = new Audio(`audio/${match.pg}.mp3`);
+    audio.onerror = () => speakTTS(text);
+    audio.play().catch(() => speakTTS(text));
+    return;
+  }
+  speakTTS(text);
+}
+
+function speakTTS(text) {
   if(!window.speechSynthesis) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.rate = 0.75; u.pitch = 1.0; u.volume = 1.0;
+  u.rate = 0.8; u.pitch = 1.0;
   speechSynthesis.speak(u);
 }
 
 function speakCurrent() {
   const card = filteredDeck[flashIdx];
   if(!card) return;
-  speak(card.speak);
+  speak(card.speak, card.pg);
 }
 
 function speakTarget() {
   const snd = document.getElementById('targetSound').textContent;
-  // Find phonogram that has this as first sound
   const pg = PHONOGRAMS.find(p => p.sounds.split(' ')[0] === snd);
-  if(pg) speak(pg.speak);
+  if(pg) speak(pg.speak, pg.pg);
 }
 
 // ── FILTER ──
@@ -465,7 +483,7 @@ function startSpeed() {
     if(!speedActive || idx >= pgs.length) { stopSpeed(); return; }
     document.getElementById('speedLetter').textContent = pgs[idx].pg;
     document.getElementById('speedSounds').textContent = pgs[idx].sounds;
-    speak(pgs[idx].speak);
+    speak(pgs[idx].speak, pgs[idx].pg);
   }
   show();
   speedTimer = setInterval(() => {
@@ -482,7 +500,7 @@ function startSpeed() {
     if(window._speedIdx >= window._speedPgs.length) { stopSpeed(); alert(`Deck complete! Score: ${speedCount}`); return; }
     document.getElementById('speedLetter').textContent = window._speedPgs[window._speedIdx].pg;
     document.getElementById('speedSounds').textContent = window._speedPgs[window._speedIdx].sounds;
-    speak(window._speedPgs[window._speedIdx].speak);
+    speak(window._speedPgs[window._speedIdx].speak, window._speedPgs[window._speedIdx].pg);
   };
 }
 function speedCorrect() {
@@ -502,7 +520,7 @@ function renderAll(type) {
     let cls = 'mini-card';
     if(fastCards.has(p.pg)) cls += ' fast-card';
     if(slowCards.has(p.pg)) cls += ' slow-card';
-    html += `<div class="${cls}" onclick="speak('${p.speak.replace(/'/g,"\\'")}')">
+    html += `<div class="${cls}" onclick="speak('${p.speak.replace(/'/g,"\\'")}','${p.pg}')">
       <div class="mpg">${p.pg}</div><div class="msnd">${p.sounds}</div>
     </div>`;
   });
