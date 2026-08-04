@@ -1,73 +1,69 @@
-# Lesson 37: Rule 21: Plural -S -ES
+# Lesson 37: Rule 21 — Plural -S and -ES
 
-**Stage 4** · Lesson 37 · Type: rule-intro
+**Stage 4** · Lesson 37 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 21: Plural -S -ES
+## New Learning: Rule 21
 
-### Spelling Rule 21
+### The Rule
 
-<span class="rule-badge">Rule 21</span> **Rule 21**
+> **To make most nouns plural, add **-S**. Add **-ES** when the word ends in S, SH, CH, X, or Z.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+The -ES adds a syllable /ez/ so you can hear the plural. 'Box' + 's' = 'boxs' (hard to say!). 'Box' + 'es' = 'boxes' (easy!). The E provides an extra syllable.
 
-### Write It
-Write each word twice:
+### Examples
 
-cats dishes boxes
+cat→cats, dog→dogs, box→boxes, dish→dishes, church→churches, buzz→buzzes, bus→buses, fox→foxes
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-cats dishes boxes
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-cats dishes boxes
+| Word | How Rule 21 Applies |
+|------|------------------------|
+| cat + s | cats — just add S |
+| box + es | boxes — ends in X, needs ES |
+| dish + es | dishes — ends in SH, needs ES |
+| church + es | churches — ends in CH, needs ES |
+| buzz + es | buzzes — ends in Z, needs ES |
 
 ---
 
-**Next lesson:** Lesson 38
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| boxes | b (/b/), o (/ŏ/), x (/ks/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 21 | /bŏk-sĕz/ |
+| dishes | d, i (/ĭ/), sh (/sh/), e→/ĕ/, s (/z/) | Rule 21 + 31 | /dĭ-shĕz/ |
+| churches | ch (/ch/), ur (/er/), ch (/ch/), e→/ĕ/, s | Rule 21 + 31 | /cher-chĕz/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> cats &nbsp; dogs &nbsp; boxes &nbsp; dishes &nbsp; churches &nbsp; foxes &nbsp; buses
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The cats and dogs have boxes. The dishes are in the churches. Foxes ride buses!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 21? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Why does 'box' need -ES instead of just -S? *(It ends in X — you can't hear the plural without the extra syllable!)*
+
+---
+
+**Next lesson:** Lesson 38: Rule 22: 3rd Person -S -ES
+
+---
+
+*Practice at home: Write the plural of: cat, box, dish, church, fox, bus. Circle the ones that use -ES.*

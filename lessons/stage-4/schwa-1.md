@@ -1,73 +1,84 @@
 # Lesson 2: Schwa: The Lazy Vowel Sound
 
-**Stage 4** · Lesson 2 · Type: rule-intro
+**Stage 4** · Lesson 2 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Focus: schwa
 
 ---
 
-## New Learning: Schwa: The Lazy Vowel Sound
+## New Learning: Schwa — The Lazy Vowel Sound
 
-### Spelling Rule 31.1
+### What Is Schwa?
 
-<span class="rule-badge">Rule 31.1</span> **Rule 31.1**
+Schwa is the most common vowel sound in English. It sounds like a tiny, lazy "uh" — /ə/. Your mouth is relaxed, your tongue is in the middle. It's the sound you make when you don't try very hard.
 
-| Example Words |
-|---------------|
-| — |
+### Where Does Schwa Happen?
 
-## Practice
+Schwa ONLY appears in **unstressed** syllables. That means the syllable where you DON'T put the emphasis.
 
-### Write It
-Write each word twice:
+| Word | Stressed Syllable | Unstressed Syllable (Schwa!) |
+|------|-------------------|------------------------------|
+| a·bout | BOUT (/bowt/) | a → /ə/ |
+| sev·en | SEV (/sev/) | en → /ən/ |
+| pen·cil | PEN (/pen/) | cil → /səl/ |
+| but·ton | BUT (/but/) | ton → /tən/ |
+| cir·cus | CIR (/ser/) | cus → /kəs/ |
 
-about away around alone
+### The Schwa Surprise
 
-### Read It
-Read these words sound by sound, then blend:
+Here's the amazing (and tricky) thing: **ANY vowel can say schwa!** A, E, I, O, U — all of them can make the /ə/ sound in an unstressed syllable.
 
-about away around alone
+### Schwa Hunt
 
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
+Which letter says schwa in each word?
 
-## Review
+| Word | Schwa Letter | Say Normally | Say-to-Spell |
+|------|-------------|-------------|-------------|
+| about | a | /ə-bout/ | /ā-bout/ |
+| seven | e (second e) | /sev-ən/ | /sev-ĕn/ |
+| pencil | i | /pen-səl/ | /pen-sĭl/ |
+| button | o | /but-ən/ | /but-ŏn/ |
+| circus | u (second u) | /ser-kəs/ | /ser-kŭs/ |
 
-### Quick Check
+### Why Say-to-Spell Matters
 
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-about away around alone
-
----
-
-**Next lesson:** Lesson 3
-
-
+If you try to spell 'about' by sound, you might write 'ubout' — because schwa can be spelled by ANY vowel. Say-to-spell lets you HEAR the true spelling: /ā-bout/ tells you it's an A.
 
 ---
 
-<div class="page-break"></div>
+## Spelling Analysis
 
-## Lesson Complete!
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| about | a (/ə/→/ā/ say-to-spell), b (/b/), ou (/ow/), t (/t/) | Rule 31: schwa in unstressed syllable | /ā-bout/ |
+| seven | s (/s/), e (/ĕ/), v (/v/), e (/ə/→/ĕ/), n (/n/) | Rule 31 | /sev-ĕn/ |
+| pencil | p (/p/), e (/ĕ/), n (/n/), c (/s/), i (/ə/→/ĭ/), l (/l/) | Rule 31 + Rule 1 (c=/s/) | /pen-sĭl/ |
+| button | b (/b/), u (/ŭ/), t (/t/), t (/t/), o (/ə/→/ŏ/), n (/n/) | Rule 31 | /but-ŏn/ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Reading Practice
 
+> about &nbsp; seven &nbsp; pencil &nbsp; button &nbsp; circus &nbsp; animal &nbsp; family &nbsp; banana
+
+> I am about seven. My pencil has a button. The circus has animals. My family eats bananas.
+
+---
+
+## Quick Check
+
+1. What is schwa? *(The lazy /ə/ sound in unstressed syllables.)*
+2. Which vowels can say schwa? *(ALL of them — a, e, i, o, u.)*
+3. What's the say-to-spell of 'about'? *(ā-bout!)*
+
+---
+
+**Next lesson:** Lesson 3: Say-to-Spell: Unlocking Schwa
+
+---
+
+*Practice at home: Find 5 schwa words in a book. Say each one normally, then say-to-spell.*

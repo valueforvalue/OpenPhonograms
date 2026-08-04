@@ -1,51 +1,58 @@
 # Lesson 45: Morpheme Review: Suffixes
 
-**Stage 4** · Lesson 45 · Type: morphology
+**Stage 4** · Lesson 45 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Morpheme Review: Suffixes
+## Match the Suffix
 
-### Morpheme: 
-
-— [Morpheme content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-teacher action capable enjoyment quickly
+teach + er = teacher (one who teaches)
+act + or = actor (one who acts)
+act + ion = action (the act of)
+wash + able = washable (able to be washed)
+enjoy + ment = enjoyment (state of enjoying)
+dark + ness = darkness (quality of being dark)
+quick + ly = quickly (in a quick way)
+hope + ful = hopeful (full of hope)
+hope + less = hopeless (without hope)
+danger + ous = dangerous (full of danger)
 
 ---
 
-**Next lesson:** Lesson 46
+## Build New Words
 
-
+Add a suffix:
+bake + er = ______
+collect + ion = ______
+read + able = ______
+pay + ment = ______
+kind + ness = ______
+slow + ly = ______
+care + ful = ______
+fear + less = ______
 
 ---
 
-<div class="page-break"></div>
+## Meaning Match
 
-## Lesson Complete!
+teacher (one who teaches), collection (act of collecting), readable (able to be read), kindness (quality of being kind), slowly (in a slow way), careful (full of care), fearless (without fear), dangerous (full of danger)
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> teacher, actor, collection, washable, enjoyment, kindness, quickly, careful, fearless
+
+---
+
+**Next lesson:** Lesson 46: Mixed Spelling Stage 4
+
+---
+
+*Practice at home: Review your morpheme wall!*

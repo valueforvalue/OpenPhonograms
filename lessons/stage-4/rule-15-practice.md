@@ -1,49 +1,76 @@
 # Lesson 15: Y→I Practice
 
-**Stage 4** · Lesson 15 · Type: rule-practice
+**Stage 4** · Lesson 15 · rule-practice
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Y→I Practice
+## Practice: Rule 15: Y changes to I before suffixes
 
-— [rule-practice content to be written]
-## Review
+### Y→I Transformation
 
-### Quick Check
+Change Y to I before adding the suffix. Watch out for -ing!
 
-- Check phonogram recall
-- Review new rule if introduced
+| Base Word | + es | + ed | + ing | Other |
+|-----------|------|------|-------|-------|
+| cry | cries | cried | crying (keep Y!) | crier |
+| try | tries | tried | trying (keep Y!) | trial |
+| baby | babies | babied | babying (keep Y!) | babyish |
+| carry | carries | carried | carrying | carriage |
+| happy | happier | — | — | happiness |
+| pretty | prettier | prettied | prettying | prettiness |
+| funny | funnier | funnied | funnyman | funniness |
+| lazy | lazier | lazied | lazying | laziness |
+| dry | dries | dried | drying (keep Y!) | drier, driest |
 
-### Words to Spell (Dictation)
+### Special Pattern: ier/iest
 
-beauty→beautiful easy→easily
+For words ending in Y after a consonant, the -er and -est forms change Y→I:
+
+| Base | + er | + est |
+|------|------|-------|
+| happy | happier | happiest |
+| pretty | prettier | prettiest |
+| funny | funnier | funniest |
+| lazy | lazier | laziest |
+| early | earlier | earliest |
 
 ---
 
-**Next lesson:** Lesson 16
+## Spelling Analysis
 
-
+| Word | Base Word | Suffix | Changed? | Final Word | Rules |
+|------|-----------|--------|----------|------------|-------|
+| babies | baby → bab + i + es | Rule 15: Y→I | /bā-bēz/ |
+| carried | carry → carr + i + ed | Rules 14 + 15 | /kăr-ēd/ |
+| happiness | happy → happ + i + ness | Rule 15 | /hăp-ē-nĕs/ |
+| cries | cry → cr + i + es | Rule 15 | /krīz/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> babies &nbsp; carried &nbsp; happiness &nbsp; cries &nbsp; funnier &nbsp; lazier
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The babies cried. I carried the bag. Happiness is the funniest thing!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. When do you change Y to I? *(Before a suffix that does NOT begin with I.)*
+2. Why is 'crying' spelled with a Y? *(The suffix -ing starts with I — two I's can't be next to each other.)*
+3. Spell 'happiness' and 'carried' from dictation.
+
+---
+
+**Next lesson:** Lesson 16: Rule 16: Two I's
+
+---
+
+*Practice at home: Write the -es, -ed, and -ing forms of 'cry' and 'try.'*

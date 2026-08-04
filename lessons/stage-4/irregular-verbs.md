@@ -1,49 +1,73 @@
 # Lesson 40: Irregular Verbs
 
-**Stage 4** · Lesson 40 · Type: practice
+**Stage 4** · Lesson 40 · practice
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Review Regular Past Tense
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick: walked, played, stopped, baked, carried. Which rules apply?
 
 ---
 
-## New Learning: Irregular Verbs
+## Irregular Verbs
 
-— [practice content to be written]
-## Review
+Most verbs form past tense by adding -ED. But some verbs are IRREGULAR — they change in different ways. These are old words that come from Old English and Germanic languages.
 
-### Quick Check
+### Common Irregular Verbs
 
-- Check phonogram recall
-- Review new rule if introduced
+| Present | Past | What Changed? |
+|---------|------|--------------|
+| make | made | Silent E dropped, D added |
+| have | had | VE→D |
+| come | came | O→A (vowel change) |
+| run | ran | U→A (vowel change) |
+| swim | swam | I→A (vowel change) |
+| sing | sang | I→A (vowel change) |
+| drink | drank | I→A (vowel change) |
+| drive | drove | I→O (vowel change) |
+| write | wrote | I→O (vowel change) |
+| ride | rode | I→O |
+| give | gave | I→A |
+| take | took | A→OO |
+| see | saw | EE→AW |
+| eat | ate | EA→A |
+| go | went | completely different! |
+| buy | bought | completely different! |
 
-### Words to Spell (Dictation)
+### Patterns
 
-have→had go→went is→was
+Some irregular verbs follow patterns:
+- i→a→u: sing→sang→sung, drink→drank→drunk, swim→swam→swum
+- i→o: drive→drove, write→wrote, ride→rode
 
 ---
 
-**Next lesson:** Lesson 41
+## Spelling Practice
 
-
+| Present | Past | Write the Past |
+|---------|------|---------------|
+| make | made | |
+| run | ran | |
+| sing | sang | |
+| drive | drove | |
+| give | gave | |
+| take | took | |
+| see | saw | |
+| go | went | |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. What does 'irregular' mean? *(It doesn't follow the normal -ED pattern.)*
+2. Name 3 verbs where the vowel changes in past tense.
+3. What's the past tense of 'go'? *(Went — completely different word!)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 41: Irregular Plurals
 
+---
+
+*Practice at home: Write 5 sentences using today's irregular past tense verbs.*

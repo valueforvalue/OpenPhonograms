@@ -1,73 +1,69 @@
-# Lesson 35: Rule 24: -FUL Suffix One L
+# Lesson 35: Rule 24 — -FUL Suffix Has One L
 
-**Stage 4** · Lesson 35 · Type: rule-intro
+**Stage 4** · Lesson 35 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 24: -FUL Suffix One L
+## New Learning: Rule 24
 
-### Spelling Rule 24
+### The Rule
 
-<span class="rule-badge">Rule 24</span> **Rule 24**
+> **The suffix **-FUL** has only one L.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+Though 'full' has two L's, the suffix -FUL has only one. Compare: hope + full → hopeful (one L), use + full → useful, beauty + full → beautiful. Only one L in the suffix!
 
-### Write It
-Write each word twice:
+### Examples
 
-helpful hopeful thankful
+hopeful, useful, beautiful, careful, joyful, playful, helpful, thankful, wonderful, powerful
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-helpful hopeful thankful
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-helpful hopeful thankful
+| Word | How Rule 24 Applies |
+|------|------------------------|
+| hope + ful | helpful — one L |
+| care + ful | careful — one L |
+| use + ful | useful — one L |
+| beauty + ful | beautiful — one L (Y→I first!) |
+| joy + ful | joyful — one L |
 
 ---
 
-**Next lesson:** Lesson 36
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| hopeful | h (/h/), o (/ō/), p (/p/), e (/ə/→/ĕ/ STSp), ful (/fŭl/) | Rules 24 + 31 | /hōp-fŭl/ |
+| careful | c (/k/), are (/ār/), ful (/fŭl/) | Rule 24 | /kār-fŭl/ |
+| beautiful | b (/b/), eau (/ü/), ti (/t/), i→/ĭ/, ful (/fŭl/) | Rules 15 + 24 | /büt-ĭ-fŭl/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> hopeful &nbsp; careful &nbsp; beautiful &nbsp; useful &nbsp; joyful &nbsp; thankful
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Be hopeful and careful. The beautiful painting is useful. I am joyful and thankful!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 24? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Why does 'beautiful' change Y to I? *(Rule 15: Y→I before a suffix. Beauty + ful → beautiful.)*
+
+---
+
+**Next lesson:** Lesson 36: Rule 19: Past Tense -ED
+
+---
+
+*Practice at home: Write 5 words with the -ful suffix. Circle the one-L suffix in each.*

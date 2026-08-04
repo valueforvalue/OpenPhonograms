@@ -1,51 +1,104 @@
 # Lesson 13: Mid-Stage 4 Assessment
 
-**Stage 4** · Lesson 13 · Type: assessment
+**Stage 4** · Lesson 13 · assessment
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Overview
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Check progress on schwa, Rules 13-14, and say-to-spell.
 
 ---
 
-## New Learning: Mid-Stage 4 Assessment
+## Part 1: Schwa Identification
 
-### Mid-Stage 4 Assessment
+Circle the schwa vowel in each word:
 
-— [Review/assessment content to be written]
-## Review
+| Word | Which letter says schwa? | ✓ |
+|------|--------------------------|---|
+| about | | ☐ |
+| seven | | ☐ |
+| pencil | | ☐ |
+| love | | ☐ |
+| dollar | | ☐ |
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+**Score:** __ / 5
 
 ---
 
-**Next lesson:** Lesson 14
+## Part 2: Suffixing Rules
 
+| Word | Which rule (13/14/15/16)? | ✓ |
+|------|---------------------------|---|
+| making | | ☐ |
+| hopping | | ☐ |
+| using | | ☐ |
+| running | | ☐ |
+| opening | | ☐ |
 
+**Score:** __ / 5
 
 ---
 
-<div class="page-break"></div>
+## Part 3: Latin /sh/
 
-## Lesson Complete!
+| Word | How is /sh/ spelled? | ✓ |
+|------|---------------------|---|
+| nation | | ☐ |
+| special | | ☐ |
+| vision | | ☐ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+**Score:** __ / 3
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Part 4: Morphology
+
+| Word | What does the prefix/suffix mean? | ✓ |
+|------|----------------------------------|---|
+| untie | | ☐ |
+| redo | | ☐ |
+| disagree | | ☐ |
+
+**Score:** __ / 3
+
+---
+
+## Part 5: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+| about | ☐ |
+| making | ☐ |
+| hopping | ☐ |
+| seven | ☐ |
+| love | ☐ |
+| dollar | ☐ |
+| running | ☐ |
+| using | ☐ |
+
+**Score:** __ / 8
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Schwa | __/5 | |
+| Suffixing | __/5 | |
+| Latin /sh/ | __/3 | |
+| Morphology | __/3 | |
+| Spelling | __/8 | |
+
+**Overall:** __/{overall_total}
+
+---
+
+## Next Steps
+
+If ≥85%: Continue. If weaker, review trouble spots for 1 week and retest.
+
+---
+
+*Almost done with all 75 phonograms and 31 rules!*

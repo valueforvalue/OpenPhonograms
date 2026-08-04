@@ -1,56 +1,50 @@
-# Lesson 46: Mixed Spelling Analysis: Stage 4
+# Lesson 46: Mixed Spelling Analysis — Stage 4
 
-**Stage 4** · Lesson 46 · Type: spelling-analysis
+**Stage 4** · Lesson 46 · spelling-analysis
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Mixed Spelling Analysis: Stage 4
+## Mixed Spelling Analysis
 
-## Spelling Analysis
+Today we practice ALL skills from Stage 4: suffixing, Latin /sh/, say-to-spell, and morphology.
 
-Follow the 5-step routine for each word: Hear & Say → Segment → Write → Analyze → Read.
-
-| Word | Phonograms | Rules | Say-to-Spell |
-|------|-----------|-------|--------------|
-| — | | | |
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| beautiful | b, eau (/ü/), ti, ful | Rules 15 + 24 | /büt-ĭ-fŭl/ |
+| running | r, u (/ŭ/), n, n, i, ng | Rule 14 | /rŭn-ing/ |
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /nā-shŏn/ |
+| special | s, p, e, ci (/sh/), a→/ă/ STSp, l | Rule 17 | /spe-shăl/ |
+| making | m, a (/ā/), k, i, ng | Rule 13 | /māk-ing/ |
+| babies | b, a (/ā/), b, ie, s | Rule 15 | /bā-bēz/ |
+| vision | v, i, si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |
+| careful | c, are, ful | Rule 24 | /kār-fŭl/ |
 
 ---
 
-**Next lesson:** Lesson 47
+## Reading
 
+> beautiful &nbsp; running &nbsp; nation &nbsp; special &nbsp; making &nbsp; babies &nbsp; vision &nbsp; careful
 
+> The beautiful nation is making special babies! I am running with a careful vision.
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. Which was hardest to spell? Why?
+2. How many different suffixing rules did you use today?
+3. Spell 'beautiful' and 'nation' from dictation.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 47: All Stage 4 Concepts Review
 
+---
+
+*Practice at home: Choose 4 words and write each one 3 times.*

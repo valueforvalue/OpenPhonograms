@@ -1,51 +1,72 @@
 # Lesson 28: Suffixes -er and -or
 
-**Stage 4** · Lesson 28 · Type: morphology
+**Stage 4** · Lesson 28 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Suffixes -er and -or
+## New Learning: **-er/-or**
 
-### Morpheme: 
+### What Is Suffix?
 
-— [Morpheme content to be written]
-## Review
+-ER and -OR both mean 'one who' or 'that which does something.'
 
-### Quick Check
+### Suffix Means: "one who, that which"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Suffix
 
-### Words to Spell (Dictation)
-
-teacher actor
-
----
-
-**Next lesson:** Lesson 29
-
-
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| teach er → teacher | — | — |
+| act or → actor | — | — |
+| bake er → baker | — | — |
+| sail or → sailor | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Suffix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| teach | -er/-orteach -er/-or |  |  |
+| bake | -er/-orbake -er/-or |  |  |
+| act | -er/-oract -er/-or |  |  |
+| sail | -er/-orsail -er/-or |  |  |
+| invent | -er/-orinvent -er/-or |  |  |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> teacher, baker, actor, sailor, inventor, driver, writer
+
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> teacher &nbsp;&nbsp; baker &nbsp;&nbsp; actor &nbsp;&nbsp; sailor &nbsp;&nbsp; inventor
+
+---
+
+## Quick Check
+
+1. What does **Suffix** mean? *(one who, that which)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 29: Suffixes -tion -sion
+
+---
+
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

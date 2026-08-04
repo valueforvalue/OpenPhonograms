@@ -1,73 +1,80 @@
-# Lesson 5: Rule 31.2: O→/ŭ/ Next to W TH M N V
+# Lesson 5: Rule 31.2: O→/ŭ/ Before W TH M N V
 
-**Stage 4** · Lesson 5 · Type: rule-intro
+**Stage 4** · Lesson 5 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Focus: Rule 31.2
 
 ---
 
-## New Learning: Rule 31.2: O→/ŭ/ Next to W TH M N V
+## New Learning: Rule 31.2
 
-### Spelling Rule 31.2
+### The Rule
 
-<span class="rule-badge">Rule 31.2</span> **Rule 31.2**
+> **O** may say /ŭ/ when it comes right before a **W**, **TH**, **M**, **N**, or **V**.
 
-| Example Words |
-|---------------|
-| — |
+### Why?
 
-## Practice
+The sound /ŭ/ (short U) before certain consonants can be spelled with O instead of U. This happens most often in words like 'son,' 'love,' 'won,' 'mother,' 'other.'
 
-### Write It
-Write each word twice:
+### Words with O→/ŭ/
 
-love son month
+| Word | O before... | Sound | Say-to-Spell |
+|------|------------|-------|-------------|
+| son | N | /ŭ/ | /sŏn/ |
+| won | N | /ŭ/ | /wŏn/ |
+| love | V | /ŭ/ | /lŏv/ |
+| above | V | /ŭ/ | /ă-bŏv/ |
+| mother | TH | /ŭ/ | /mŏth-er/ |
+| brother | TH | /ŭ/ | /brŏth-er/ |
+| other | TH | /ŭ/ | /ŏth-er/ |
+| monkey | N | /ŭ/ | /mŏn-kē/ |
+| money | N | /ŭ/ | /mŏn-ē/ |
+| glove | V | /ŭ/ | /glŏv/ |
+| cover | V | /ŭ/ | /kŏv-er/ |
+| done | N | /ŭ/ | /dŏn/ |
+| none | N | /ŭ/ | /nŏn/ |
+| come | M | /ŭ/ | /kŏm/ |
+| some | M | /ŭ/ | /sŏm/ |
 
-### Read It
-Read these words sound by sound, then blend:
+### Not Every O Before These Letters Says /ŭ/
 
-love son month
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-love son month
+Remember: rules describe patterns, not absolute laws. O before TH/M/N/V OFTEN says /ŭ/, but not always. 'Phone' — O before N, but says /ō/.
 
 ---
 
-**Next lesson:** Lesson 6
+## Spelling Analysis
 
-
+| Word | Phonograms | Rules | Say-to-Spell |
+|------|-----------|-------|-------------|
+| love | l (/l/), o (/ŭ/), v (/v/), e — SE (12.2) | 31.2 + 12.2 | /lŏv/ |
+| mother | m (/m/), o (/ŭ/), th (/th/), er (/er/) | 31.2 | /mŏth-er/ |
+| son | s (/s/), o (/ŭ/), n (/n/) | 31.2 | /sŏn/ |
+| come | c (/k/), o (/ŭ/), m (/m/), e — SE (12.9) | 31.2 + 12.9 | /kŏm/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> love &nbsp; mother &nbsp; son &nbsp; come &nbsp; some &nbsp; done &nbsp; above &nbsp; other &nbsp; cover &nbsp; money
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> My mother and brother love me. Come here, son. Some money is above the cover.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. Rule 31.2: O may say /ŭ/ before which consonants? *(W, TH, M, N, V)*
+2. Give 3 examples.
+3. Spell 'love' and 'mother' from dictation.
+
+---
+
+**Next lesson:** Lesson 6: Rule 31.3: AR/OR→/er/
+
+---
+
+*Practice at home: Find words with O→/ŭ/: love, mother, some, done, above, cover.*

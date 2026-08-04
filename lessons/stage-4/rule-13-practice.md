@@ -1,49 +1,82 @@
 # Lesson 9: Drop E Practice
 
-**Stage 4** · Lesson 9 · Type: rule-practice
+**Stage 4** · Lesson 9 · rule-practice
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Drop E Practice
+## Practice: Rule 13: Drop Silent E before vowel suffix
 
-— [rule-practice content to be written]
-## Review
+Add -ing and -ed to each word. Remember: drop the silent E!
 
-### Quick Check
+| Base Word | + -ing | + -ed |
+|-----------|--------|-------|
+| make | making | made (special!) |
+| hope | hoping | hoped |
+| drive | driving | drove (special!) |
+| use | using | used |
+| bake | baking | baked |
+| write | writing | wrote (special!) |
+| smile | smiling | smiled |
+| rake | raking | raked |
+| ride | riding | rode (special!) |
+| take | taking | took (special!) |
 
-- Check phonogram recall
-- Review new rule if introduced
+> **Watch out!** Some past-tense forms are irregular (made, drove, wrote). We'll learn those later.
 
-### Words to Spell (Dictation)
+### When NOT to Drop the E
 
-drive→driving use→using write→writing
+Keep the E when adding a CONSONANT suffix (one that starts with a consonant).
+
+| Base Word | + -ful (consonant suffix) | Keep E? |
+|-----------|--------------------------|---------|
+| hope | hopeful | YES — -ful starts with F (consonant) |
+| care | careful | YES |
+| use | useful | YES |
+| peace | peaceful | YES |
+
+### But what about truly, duly, arguing?
+
+When the E is needed to keep C or G soft, don't drop it!
+- change → changeable (keep E so G still says /j/)
+- notice → noticeable (keep E so C still says /s/)
 
 ---
 
-**Next lesson:** Lesson 10
+## Spelling Analysis
 
-
+| Word | Base Word | Suffix | Changed? | Final Word | Rules |
+|------|-----------|--------|----------|------------|-------|
+| making | make → mak + ing | Drop E (Rule 13) | /māk-ing/ |
+| hoping | hope → hop + ing | Drop E (Rule 13) | /hōp-ing/ |
+| careful | care + ful | Keep E (consonant suffix) | /kār-fŭl/ |
+| changeable | change + able | Keep E (Rule 2: G→/j/) | /chānj-ă-bl/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> making &nbsp; hoping &nbsp; driving &nbsp; careful &nbsp; useful &nbsp; changeable
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+I am making a cake and hoping it tastes good. Be careful and useful!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. When do you drop the silent E? *(Before a vowel suffix.)*
+2. When do you KEEP the silent E? *(Before a consonant suffix, or to keep C/G soft.)*
+3. Spell 'making' and 'hoping' from dictation.
+
+---
+
+**Next lesson:** Lesson 10: Rule 14: Double Consonant
+
+---
+
+*Practice at home: Find 3 words with -ing that dropped a silent E. Write the base word and the new word.*

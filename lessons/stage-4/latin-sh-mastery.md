@@ -1,49 +1,82 @@
 # Lesson 23: Latin /sh/ Mastery
 
-**Stage 4** · Lesson 23 · Type: rule-practice
+**Stage 4** · Lesson 23 · rule-practice
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Latin /sh/ Mastery
+## Practice: TI, CI, SI — Latin /sh/ spellings
 
-— [rule-practice content to be written]
-## Review
+### TI, CI, or SI?
 
-### Quick Check
+Write the correct Latin /sh/ spelling for each word:
 
-- Check phonogram recall
-- Review new rule if introduced
+| Word Fragment | Complete the Word | Which Spelling? |
+|---------------|-------------------|----------------|
+| na____on | nation | TI |
+| spe____al | special | CI |
+| mis____on | mission | SI |
+| ac____on | action | TI |
+| mu____ian | musician | CI |
+| vi____on | vision | SI (/zh/!) |
+| frac____on | fraction | TI |
+| deli____ous | delicious | CI |
+| ses____on | session | SI |
+| sta____on | station | TI |
 
-### Words to Spell (Dictation)
+### SH or Latin?
 
-nation special session ship fish
+| Word | /sh/ Spelling | SH or Latin? |
+|------|--------------|-------------|
+| ship | sh | SH |
+| nation | ti | Latin |
+| fish | sh | SH |
+| special | ci | Latin |
+| dishes | sh | SH |
+| mission | si | Latin |
+| push | sh | SH |
+| fraction | ti | Latin |
+
+### Mixed Spelling
+
+| nation | action | special | mission | fish | ship | dishes | vision | musician | session |
 
 ---
 
-**Next lesson:** Lesson 24
+## Spelling Analysis
 
-
+| Word | Base Word | Suffix | Changed? | Final Word | Rules |
+|------|-----------|--------|----------|------------|-------|
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/, n | Rule 17 | /nā-shŏn/ |
+| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/, l | Rule 17 | /spe-shăl/ |
+| mission | m, i (/ĭ/), ss, si (/sh/), o→/ŏ/, n | Rule 17 | /mi-shŏn/ |
+| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/, n | Rule 17 (/zh/) | /vi-zhŏn/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> nation &nbsp; special &nbsp; mission &nbsp; vision &nbsp; action &nbsp; musician
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The nation has a special mission. My vision of the action is clear. The musician plays!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. Which Latin /sh/ spelling says /zh/? *(SI — as in vision and television.)*
+2. What's the difference between SH and TI? *(SH is for everyday English; TI is Latin for -tion words.)*
+3. Spell 'nation,' 'special,' and 'mission' from dictation.
+
+---
+
+**Next lesson:** Lesson 24: Prefixes un- re-
+
+---
+
+*Practice at home: Write 3 words with SH and 3 with Latin /sh/. Explain the difference!*

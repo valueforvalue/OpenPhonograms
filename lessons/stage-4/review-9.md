@@ -1,51 +1,41 @@
 # Lesson 47: Review: All Stage 4 Concepts
 
-**Stage 4** · Lesson 47 · Type: review
+**Stage 4** · Lesson 47 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Review: All Stage 4 Concepts
+## Schwa Check
 
-### Review: All Stage 4 Concepts
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+Say-to-spell: about, seven, pencil, love, mother, dollar, doctor, animal, family, chocolate.
 
 ---
 
-**Next lesson:** Lesson 48
+## Suffixing Check
 
-
+Write -ing form: make, hop, use, run, sit, swim, cry, study. Which rules apply?
 
 ---
 
-<div class="page-break"></div>
+## Latin /sh/ Check
 
-## Lesson Complete!
+Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> about, making, hopping, nation, special, beautiful, children, vision, careful, running
+
+---
+
+**Next lesson:** Lesson 48: Stage 4 Mastery Check
+
+---
+
+*Practice at home: Review all Stage 4 flashcards!*

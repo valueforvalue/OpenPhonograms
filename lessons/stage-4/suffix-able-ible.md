@@ -1,51 +1,72 @@
 # Lesson 30: Suffixes -able and -ible
 
-**Stage 4** · Lesson 30 · Type: morphology
+**Stage 4** · Lesson 30 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Suffixes -able and -ible
+## New Learning: **-able/-ible**
 
-### Morpheme: 
+### What Is Suffix?
 
-— [Morpheme content to be written]
-## Review
+-ABLE and -IBLE mean 'able to be' or 'can be done.' Most words use -able.
 
-### Quick Check
+### Suffix Means: "able to be"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Suffix
 
-### Words to Spell (Dictation)
-
-capable visible
-
----
-
-**Next lesson:** Lesson 31
-
-
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| wash able → washable | — | — |
+| vis ible → visible | — | — |
+| read able → readable | — | — |
+| flex ible → flexible | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Suffix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| wash | -able/-iblewash -able/-ible |  |  |
+| read | -able/-ibleread -able/-ible |  |  |
+| flex | -able/-ibleflex -able/-ible |  |  |
+| break | -able/-iblebreak -able/-ible |  |  |
+| love | -able/-iblelove -able/-ible |  |  |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> washable, readable, flexible, breakable, lovable, visible, audible
+
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> washable &nbsp;&nbsp; readable &nbsp;&nbsp; flexible &nbsp;&nbsp; breakable &nbsp;&nbsp; visible
+
+---
+
+## Quick Check
+
+1. What does **Suffix** mean? *(able to be)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 31: Suffixes -ment -ness
+
+---
+
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

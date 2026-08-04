@@ -1,51 +1,72 @@
 # Lesson 31: Suffixes -ment and -ness
 
-**Stage 4** · Lesson 31 · Type: morphology
+**Stage 4** · Lesson 31 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Suffixes -ment and -ness
+## New Learning: **-ment/-ness**
 
-### Morpheme: 
+### What Is Suffix?
 
-— [Morpheme content to be written]
-## Review
+-MENT means 'the result of' or 'state of.' -NESS means 'the quality of being.'
 
-### Quick Check
+### Suffix Means: "state of, quality of"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Suffix
 
-### Words to Spell (Dictation)
-
-enjoyment happiness
-
----
-
-**Next lesson:** Lesson 32
-
-
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| enjoy ment → enjoyment | — | — |
+| dark ness → darkness | — | — |
+| pay ment → payment | — | — |
+| kind ness → kindness | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Suffix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| enjoy | -ment/-nessenjoy -ment/-ness |  |  |
+| pay | -ment/-nesspay -ment/-ness |  |  |
+| dark | -ment/-nessdark -ment/-ness |  |  |
+| kind | -ment/-nesskind -ment/-ness |  |  |
+| soft | -ment/-nesssoft -ment/-ness |  |  |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> enjoyment, payment, darkness, kindness, softness, treatment, sadness
+
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> enjoyment &nbsp;&nbsp; payment &nbsp;&nbsp; darkness &nbsp;&nbsp; kindness &nbsp;&nbsp; softness
+
+---
+
+## Quick Check
+
+1. What does **Suffix** mean? *(state of, quality of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 32: Suffixes -ly -ful
+
+---
+
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

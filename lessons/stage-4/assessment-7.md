@@ -1,51 +1,116 @@
 # Lesson 48: Stage 4 Mastery Check
 
-**Stage 4** · Lesson 48 · Type: assessment
+**Stage 4** · Lesson 48 · assessment
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Overview
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+Final Stage 4 assessment. Check mastery of schwa, suffixing rules, Latin /sh/, morphology, and all Stage 4 concepts.
 
 ---
 
-## New Learning: Stage 4 Mastery Check
+## Part 1: Schwa Identification
 
-### Stage 4 Mastery Check
+Circle the schwa vowel in each word:
 
-— [Review/assessment content to be written]
-## Review
+| Word | Which letter says schwa? | ✓ |
+|------|--------------------------|---|
+| about | | ☐ |
+| pencil | | ☐ |
+| love | | ☐ |
+| dollar | | ☐ |
+| doctor | | ☐ |
+| family | | ☐ |
 
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
-
----
-
-**Next lesson:** Lesson 49
-
-
+**Score:** __ / 6
 
 ---
 
-<div class="page-break"></div>
+## Part 2: Suffixing Rules
 
-## Lesson Complete!
+| Word | Which rule (13/14/15/16)? | ✓ |
+|------|---------------------------|---|
+| making | | ☐ |
+| hopping | | ☐ |
+| crying | | ☐ |
+| carried | | ☐ |
+| babies | | ☐ |
+| careful | | ☐ |
+| already | | ☐ |
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+**Score:** __ / 7
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Part 3: Latin /sh/
+
+| Word | How is /sh/ spelled? | ✓ |
+|------|---------------------|---|
+| nation | | ☐ |
+| special | | ☐ |
+| vision | | ☐ |
+| musician | | ☐ |
+| session | | ☐ |
+
+**Score:** __ / 5
+
+---
+
+## Part 4: Morphology
+
+| Word | What does the prefix/suffix mean? | ✓ |
+|------|----------------------------------|---|
+| untie | | ☐ |
+| redo | | ☐ |
+| disagree | | ☐ |
+| preview | | ☐ |
+| submarine | | ☐ |
+| teacher | | ☐ |
+| washable | | ☐ |
+| hopeless | | ☐ |
+
+**Score:** __ / 8
+
+---
+
+## Part 5: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+| beautiful | ☐ |
+| running | ☐ |
+| nation | ☐ |
+| special | ☐ |
+| babies | ☐ |
+| vision | ☐ |
+| careful | ☐ |
+| making | ☐ |
+| hopping | ☐ |
+| already | ☐ |
+
+**Score:** __ / 10
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Schwa | __/6 | |
+| Suffixing | __/7 | |
+| Latin /sh/ | __/5 | |
+| Morphology | __/8 | |
+| Spelling | __/10 | |
+
+**Overall:** __/{overall_total}
+
+---
+
+## Next Steps
+
+If ≥85%: Advance to Stage 5. If weaker, review specific lessons for 1-2 weeks.
+
+---
+
+*Almost done with all 75 phonograms and 31 rules!*

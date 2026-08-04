@@ -1,51 +1,72 @@
 # Lesson 33: Suffixes -less and -ous
 
-**Stage 4** · Lesson 33 · Type: morphology
+**Stage 4** · Lesson 33 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Suffixes -less and -ous
+## New Learning: **-less/-ous**
 
-### Morpheme: 
+### What Is Suffix?
 
-— [Morpheme content to be written]
-## Review
+-LESS means 'without.' -OUS means 'full of' or 'having the quality of.'
 
-### Quick Check
+### Suffix Means: "without, full of"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Suffix
 
-### Words to Spell (Dictation)
-
-fearless dangerous
-
----
-
-**Next lesson:** Lesson 34
-
-
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| hope less → hopeless | — | — |
+| danger ous → dangerous | — | — |
+| fear less → fearless | — | — |
+| joy ous → joyous | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Suffix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| hope | -less/-oushope -less/-ous |  |  |
+| fear | -less/-ousfear -less/-ous |  |  |
+| danger | -less/-ousdanger -less/-ous |  |  |
+| joy | -less/-ousjoy -less/-ous |  |  |
+| nerve | -less/-ousnerve -less/-ous |  |  |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> hopeless, fearless, dangerous, joyous, nervous, careless, famous
+
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> hopeless &nbsp;&nbsp; fearless &nbsp;&nbsp; dangerous &nbsp;&nbsp; joyous &nbsp;&nbsp; nervous
+
+---
+
+## Quick Check
+
+1. What does **Suffix** mean? *(without, full of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 34: Rule 23: AL-
+
+---
+
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

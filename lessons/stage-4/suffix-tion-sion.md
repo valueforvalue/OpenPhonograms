@@ -1,51 +1,72 @@
 # Lesson 29: Suffixes -tion and -sion
 
-**Stage 4** · Lesson 29 · Type: morphology
+**Stage 4** · Lesson 29 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Suffixes -tion and -sion
+## New Learning: **-tion/-sion**
 
-### Morpheme: 
+### What Is Suffix?
 
-— [Morpheme content to be written]
-## Review
+-TION and -SION mean 'the act of' or 'state of.' They turn verbs into nouns.
 
-### Quick Check
+### Suffix Means: "act of, state of"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Suffix
 
-### Words to Spell (Dictation)
-
-action confusion
-
----
-
-**Next lesson:** Lesson 30
-
-
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| act tion → action | — | — |
+| divi sion → division | — | — |
+| collect tion → collection | — | — |
+| deci sion → decision | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Suffix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| act | -tion/-sionact -tion/-sion |  |  |
+| collect | -tion/-sioncollect -tion/-sion |  |  |
+| divide | -tion/-siondivide -tion/-sion |  |  |
+| decide | -tion/-siondecide -tion/-sion |  |  |
+| direct | -tion/-siondirect -tion/-sion |  |  |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> action, collection, division, decision, direction, nation, mission
+
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> action &nbsp;&nbsp; collection &nbsp;&nbsp; division &nbsp;&nbsp; decision &nbsp;&nbsp; nation
+
+---
+
+## Quick Check
+
+1. What does **Suffix** mean? *(act of, state of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 30: Suffixes -able -ible
+
+---
+
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

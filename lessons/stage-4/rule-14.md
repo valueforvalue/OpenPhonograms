@@ -1,73 +1,70 @@
-# Lesson 10: Rule 14: Double Consonant for Vowel Suffix
+# Lesson 10: Rule 14 — Double the Consonant for a Vowel Suffix
 
-**Stage 4** · Lesson 10 · Type: rule-intro
+**Stage 4** · Lesson 10 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 14: Double Consonant for Vowel Suffix
+## New Learning: Rule 14
 
-### Spelling Rule 14
+### The Rule
 
-<span class="rule-badge">Rule 14</span> **Rule 14**
+> **When adding a vowel suffix, double the final consonant if the word is one syllable, has one vowel, and ends in one consonant (1-1-1 rule).**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+This is the '1-1-1 Rule.' If a word has 1 syllable, 1 vowel, and ends in 1 consonant, double that consonant before adding a vowel suffix. Why? To keep the vowel short! 'Hop' + 'ing' = 'hopping' (short O). Without the double P, it would be 'hoping' (long O — from hope). The extra consonant closes the syllable and keeps the vowel short.
 
-### Write It
-Write each word twice:
+### Examples
 
-run→running hop→hopping
+run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, stop→stopping, cut→cutting, big→bigger
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-run→running hop→hopping
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-run→running hop→hopping
+| Word | How Rule 14 Applies |
+|------|------------------------|
+| run + ing | 1 syll, 1 vowel (u), 1 final consonant (n) → running |
+| hop + ing | 1 syll, 1 vowel (o), 1 final consonant (p) → hopping |
+| swim + ing | 1 syll, 1 vowel (i), 1 final consonant (m) → swimming |
+| open + ing | 2 syllables → NO double → opening |
+| sleep + ing | 2 vowels (ee) → NO double → sleeping |
+| jump + ing | 2 final consonants (mp) → NO double → jumping |
 
 ---
 
-**Next lesson:** Lesson 11
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| running | r (/r/), u (/ŭ/), n (/n/), n (/n/), i (/ĭ/), ng (/ng/) | Rule 14: 1-1-1 → double N | /rŭn-ing/ |
+| hopping | h (/h/), o (/ŏ/), p (/p/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 14: double P keeps O short | /hŏp-ing/ |
+| swimming | s (/s/), w (/w/), i (/ĭ/), m (/m/), m (/m/), i (/ĭ/), ng (/ng/) | Rule 14 | /swĭm-ing/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> running &nbsp; hopping &nbsp; swimming &nbsp; sitting &nbsp; getting &nbsp; stopping &nbsp; cutting &nbsp; bigger
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The dog is running and hopping. I am swimming and getting tired. Stop cutting the paper!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 14? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Why don't we double the P in 'sleeping'? *(Two vowels — EE — not one. The 1-1-1 rule doesn't apply.)*
+
+---
+
+**Next lesson:** Lesson 11: Double Consonant Practice
+
+---
+
+*Practice at home: Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check.*

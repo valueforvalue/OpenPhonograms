@@ -1,49 +1,85 @@
 # Lesson 41: Irregular Plurals
 
-**Stage 4** · Lesson 41 · Type: practice
+**Stage 4** · Lesson 41 · practice
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Review Regular Plurals
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick: cats, dogs, boxes, dishes, churches. Why -S vs -ES?
 
 ---
 
-## New Learning: Irregular Plurals
+## Irregular Plurals
 
-— [practice content to be written]
-## Review
+Most nouns add -S or -ES for plurals. But some old English words keep their ancient plural forms!
 
-### Quick Check
+### Types of Irregular Plurals
 
-- Check phonogram recall
-- Review new rule if introduced
+#### 1. Vowel Change (Germanic origin)
 
-### Words to Spell (Dictation)
+| Singular | Plural | Change |
+|----------|--------|--------|
+| man | men | a→e |
+| woman | women | a→e (and pronunciation change!) |
+| foot | feet | oo→ee |
+| tooth | teeth | oo→ee |
+| goose | geese | oo→ee |
+| mouse | mice | ouse→ice |
+| louse | lice | ouse→ice |
 
-child→children mouse→mice
+#### 2. -EN Ending (Old English)
+
+| Singular | Plural |
+|----------|--------|
+| child | children |
+| ox | oxen |
+
+#### 3. Same Form (No Change)
+
+| Singular and Plural |
+|---------------------|
+| deer |
+| sheep |
+| fish (sometimes fishes) |
+| moose |
+
+#### 4. Latin/Greek Plurals
+
+| Singular | Plural | Origin |
+|----------|--------|--------|
+| cactus | cacti | Latin (-us→-i) |
+| fungus | fungi | Latin |
+| criterion | criteria | Greek (-on→-a) |
+| phenomenon | phenomena | Greek |
 
 ---
 
-**Next lesson:** Lesson 42
+## Practice
 
-
+| Singular | Plural |
+|----------|--------|
+| man | ______ |
+| foot | ______ |
+| child | ______ |
+| mouse | ______ |
+| deer | ______ |
+| goose | ______ |
+| tooth | ______ |
+| sheep | ______ |
 
 ---
 
-<div class="page-break"></div>
+## Quick Check
 
-## Lesson Complete!
+1. Why are some plurals irregular? *(They come from Old English, German, Latin, or Greek.)*
+2. Name 3 words whose plurals don't change.
+3. What's the plural of 'goose'? *(Geese — not 'gooses'!)*
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+**Next lesson:** Lesson 42: Reader — Firefly
 
+---
+
+*Practice at home: Find 5 irregular plurals in a book. Write the singular and plural.*

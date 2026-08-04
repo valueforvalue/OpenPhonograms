@@ -1,51 +1,72 @@
 # Lesson 26: Prefixes pre- and pro-
 
-**Stage 4** · Lesson 26 · Type: morphology
+**Stage 4** · Lesson 26 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Prefixes pre- and pro-
+## New Learning: **pre-/pro-**
 
-### Morpheme: 
+### What Is Prefix?
 
-— [Morpheme content to be written]
-## Review
+PRE- means 'before.' PRO- means 'forward' or 'for.'
 
-### Quick Check
+### Prefix Means: "before, forward"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Prefix
 
-### Words to Spell (Dictation)
-
-preview progress
-
----
-
-**Next lesson:** Lesson 27
-
-
+| Word | Prefix + Root | Meaning |
+|------|------||---------|
+| pre view → preview | — | — |
+| pro ceed → proceed | — | — |
+| pre pay → prepay | — | — |
+| pro pel → propel | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Prefix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Prefix | New Word | Meaning |
+|-----------|------||----------|---------|
+| view | pre-/pro- view | — | — |
+| pay | pre-/pro- pay | — | — |
+| test | pre-/pro- test | — | — |
+| cede | pre-/pro- cede | — | — |
+| claim | pre-/pro- claim | — | — |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> preview, prepay, pretest, proceed, proclaim, propel, prefix
+
+---
+
+## Spelling
+
+Write each word. Underline the Prefix. Say the meaning aloud.
+
+> preview &nbsp;&nbsp; prepay &nbsp;&nbsp; proceed &nbsp;&nbsp; propel &nbsp;&nbsp; pretest
+
+---
+
+## Quick Check
+
+1. What does **Prefix** mean? *(before, forward)*
+2. Build a new word using Prefix + a root.
+3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 27: Prefixes sub- inter-
+
+---
+
+*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*

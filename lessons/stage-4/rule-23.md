@@ -1,73 +1,70 @@
-# Lesson 34: Rule 23: AL- Prefix One L
+# Lesson 34: Rule 23 — AL- Prefix Has One L
 
-**Stage 4** · Lesson 34 · Type: rule-intro
+**Stage 4** · Lesson 34 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 23: AL- Prefix One L
+## New Learning: Rule 23
 
-### Spelling Rule 23
+### The Rule
 
-<span class="rule-badge">Rule 23</span> **Rule 23**
+> **The prefix **AL-** has only one L.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+AL- is a prefix meaning 'all' or 'to/toward.' Even though 'all' has two L's, the prefix AL- has only one. Compare: all + ready → already, all + though → although, all + ways → always. The prefix 'almost always' has one L!
 
-### Write It
-Write each word twice:
+### Examples
 
-also always although
+already, although, always, also, almost, altogether, albeit
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-also always although
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-also always although
+| Word | How Rule 23 Applies |
+|------|------------------------|
+| already | AL- (one L) + ready |
+| although | AL- (one L) + though |
+| always | AL- (one L) + ways |
+| almost | AL- (one L) + most |
+| also | AL- (one L) + so |
+| altogether | AL- + together |
 
 ---
 
-**Next lesson:** Lesson 35
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| already | al- (/äl/), r (/r/), ea (/ĕ/), d (/d/), y (/ē/) | Rule 23 | /äl-red-ē/ |
+| always | al- (/äl/), w (/w/), ay (/ā/), s (/z/) | Rule 23 | /äl-wāz/ |
+| almost | al- (/äl/), m (/m/), o (/ō/), s (/s/), t (/t/) | Rule 23 | /äl-mōst/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> already &nbsp; although &nbsp; always &nbsp; also &nbsp; almost
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+I already ate. Although it is late, I always read. I also almost finished!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 23? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Why does 'already' have one L but 'all ready' has two? *(The prefix AL- has one L. 'All ready' is two separate words.)*
+
+---
+
+**Next lesson:** Lesson 35: Rule 24: -FUL
+
+---
+
+*Practice at home: Find AL- words in a book. Write them and circle the one-L prefix.*

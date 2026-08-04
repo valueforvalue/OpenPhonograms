@@ -1,51 +1,41 @@
 # Lesson 1: Review Stage 3 Phonograms and Rules
 
-**Stage 4** · Lesson 1 · Type: review
+**Stage 4** · Lesson 1 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Review Stage 3 Phonograms and Rules
+## Flash All 75 Phonograms
 
-### Review Stage 3 Phonograms and Rules
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-bridge know sign write light caught
+Speed flash: sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear, dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie. Say ALL sounds within 2 seconds.
 
 ---
 
-**Next lesson:** Lesson 2
+## Name That Silent E Reason
 
-
+tape (12.1), have (12.2), dance (12.3), little (12.4), house (12.5), pie (12.6), bathe (12.7), bye (12.8), come (12.9)
 
 ---
 
-<div class="page-break"></div>
+## Spelling Challenge
 
-## Lesson Complete!
+bridge (Rule 25), catch (Rule 27), know (KN), sign (GN), write (WR), eight (Rule 28), phone (PH), though (OUGH), caught (AUGH), work (WOR), field (IE)
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> bridge, catch, know, sign, write, eight, phone, though, caught, field
+
+---
+
+**Next lesson:** Lesson 2: Schwa: The Lazy Vowel
+
+---
+
+*Practice at home: Flash all 75 phonogram cards!*

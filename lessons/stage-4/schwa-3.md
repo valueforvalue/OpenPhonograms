@@ -1,49 +1,59 @@
 # Lesson 4: Schwa in Multi-Syllable Words
 
-**Stage 4** · Lesson 4 · Type: schwa-practice
+**Stage 4** · Lesson 4 · schwa-practice
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Focus: all vowels — any can be schwa!
 
 ---
 
-## New Learning: Schwa in Multi-Syllable Words
+### Schwa in Multi-Syllable Words
 
-— [schwa-practice content to be written]
-## Review
+Circle the vowel that says schwa in each word. Then use say-to-spell to hear the spelling.
 
-### Quick Check
+| Word | Normal | Which Vowel Says Schwa? | Say-to-Spell |
+|------|--------|------------------------|-------------|
+| about | ə-bout | a | ā-bout |
+| away | ə-wā | a | ā-way |
+| open | ō-pən | e (second e) | ō-pĕn |
+| seven | sev-ən | e (second e) | sev-ĕn |
+| pencil | pen-səl | i | pen-sĭl |
+| happen | hap-ən | e | hap-pĕn |
+| button | but-ən | o | but-ŏn |
+| circus | ser-kəs | u (second u) | ser-kŭs |
+| banana | bə-nan-ə | a (first), a (last) | bă-năn-ă |
+| animal | an-ə-məl | i, a | an-ĭ-măl |
 
-- Check phonogram recall
-- Review new rule if introduced
+### Practice Words
 
-### Words to Spell (Dictation)
+Write each word. Say the say-to-spell version aloud as you write.
 
-banana chocolate different memory
+| Word | Say-to-Spell | Write |
+|------|-------------|-------|
+| about | ā-bout | |
+| seven | sev-ĕn | |
+| pencil | pen-sĭl | |
+| button | but-ŏn | |
+| animal | an-ĭ-măl | |
+| family | fam-ĭ-lē | |
+| different | dif-fĕr-ĕnt | |
+| memory | mem-ō-rē | |
 
 ---
 
-**Next lesson:** Lesson 5
+## Quick Check
 
-
+1. What sound does schwa make? *(A lazy /ə/ — like 'uh')*
+2. How do you know which letter spells the schwa? *(Use say-to-spell!)*
+3. Spell 'animal' using say-to-spell.
 
 ---
 
-<div class="page-break"></div>
+**Next lesson:** Lesson 5: Rule 31.2: O→/ŭ/
 
-## Lesson Complete!
+---
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
-
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
-
+*Practice at home: Find 5 schwa words in a book. Write the say-to-spell version for each.*

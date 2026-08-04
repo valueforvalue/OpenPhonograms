@@ -1,78 +1,63 @@
 # Lesson 20: Phonogram si
 
-**Stage 4** · Lesson 20 · Type: phonogram-intro
+**Stage 4** · Lesson 20 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Include ti and ci!
 
 ---
 
-## New Learning: Phonogram si
-
-### The Phonogram **si**
+## New Learning: The Phonogram **si**
 
 <div class="phonogram">si</div>
 
-**si** says: /sh/ /zh/
+**si** says /sh/ or /zh/ in Latin-based words.
 
-| Sound | Example Word |
-|-------|-------------|
-| /sh/ | — |
-| /zh/ | — |
+> **Rule 17:** SI is the least common Latin /sh/ spelling. It can also say /zh/ (as in 'vision').
 
-> Write **si** three times on your whiteboard while saying its sounds.
+| Sound | Example Words |
+|-------|--------------|
+| /sh/ | session, mission, discussion, passion |
+| /zh/ | vision, division, television, occasion |
 
-## Practice
+### The /zh/ Sound
 
-### Write It
-Write each word twice:
-
-session mission vision
-
-### Read It
-Read these words sound by sound, then blend:
-
-session mission vision
-
-### Quiz
-1. What sounds does **si** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-session mission vision
+/zh/ is the voiced version of /sh/. It's the sound in 'treasure' and 'vision.' SI is one of the only ways to spell this sound!
 
 ---
 
-**Next lesson:** Lesson 21
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| session | s (/s/), e (/ĕ/), s (/s/), si (/sh/), o→/ŏ/ STSp, n | Rule 17 | /se-shŏn/ |
+| mission | m (/m/), i (/ĭ/), s (/s/), si (/sh/), o→/ŏ/ STSp, n | Rule 17 | /mi-shŏn/ |
+| vision | v (/v/), i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |
+| television | t (/t/), e (/ĕ/), l (/l/), e (/ĕ/), v (/v/), i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /tel-ĕ-vi-zhŏn/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading
 
-## Lesson Complete!
+> session &nbsp; mission &nbsp; vision &nbsp; television &nbsp; discussion &nbsp; division
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The session is a mission. My vision is good. Watch television after the discussion.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What TWO sounds can SI make? *(/sh/ and /zh/)*
+2. Give a word where SI says /zh/. *(vision, television, division)*
+3. Spell 'mission' and 'vision' from dictation.
+
+---
+
+**Next lesson:** Lesson 21: Rule 17
+
+---
+
+*Practice at home: Find SI words in a book. Does SI say /sh/ or /zh/?*

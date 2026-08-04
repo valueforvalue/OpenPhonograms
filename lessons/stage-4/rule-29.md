@@ -1,73 +1,69 @@
-# Lesson 39: Rule 29: Z Not S at Beginning
+# Lesson 39: Rule 29 — Z, Not S, at Beginning
 
-**Stage 4** · Lesson 39 · Type: rule-intro
+**Stage 4** · Lesson 39 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 29: Z Not S at Beginning
+## New Learning: Rule 29
 
-### Spelling Rule 29
+### The Rule
 
-<span class="rule-badge">Rule 29</span> **Rule 29**
+> ****Z**, never **S**, is used at the beginning of a base word for the /z/ sound.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+English uses Z for /z/ at the beginning of words: zip, zap, zoo, zone. S at the beginning says /s/ (sit, sun, see). S says /z/ in the middle or at the end: has, is, music, visit.
 
-### Write It
-Write each word twice:
+### Examples
 
-zip zoo zebra
+zip, zap, zoo, zone, zebra, zero, zigzag, zoom
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-zip zoo zebra
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-zip zoo zebra
+| Word | How Rule 29 Applies |
+|------|------------------------|
+| zip | Z at start = /z/ ✓ |
+| sip | S at start = /s/ — different word! ✗ |
+| has | S at end = /z/ ✓ |
+| is | S at end = /z/ ✓ |
+| music | S in middle = /z/ (between vowels) ✓ |
 
 ---
 
-**Next lesson:** Lesson 40
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| zip | z (/z/), i (/ĭ/), p (/p/) | Rule 29 | /zĭp/ |
+| zebra | z (/z/), e (/ē/), b (/b/), r (/r/), a (/ə/) | Rule 29 + 4 + 31 | /zē-brə/ |
+| zero | z (/z/), e (/ē/), r (/r/), o (/ō/) | Rules 4 + 29 | /zē-rō/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> zip &nbsp; zap &nbsp; zoo &nbsp; zone &nbsp; zebra &nbsp; zero &nbsp; zigzag &nbsp; zoom
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+Zip, zap, zoom! The zebra at the zoo runs from zone zero. Zigzag fast!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 29? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Why isn't the first sound in 'zip' spelled with S? *(Rule 29: Z, not S, spells /z/ at the beginning of a base word.)*
+
+---
+
+**Next lesson:** Lesson 40: Irregular Verbs
+
+---
+
+*Practice at home: Write 5 words that start with Z. Compare: zip/sip, zoo/Sue, zone/sown.*

@@ -1,73 +1,68 @@
-# Lesson 38: Rule 22: 3rd Person -S -ES
+# Lesson 38: Rule 22 — 3rd Person Singular -S and -ES
 
-**Stage 4** · Lesson 38 · Type: rule-intro
+**Stage 4** · Lesson 38 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 22: 3rd Person -S -ES
+## New Learning: Rule 22
 
-### Spelling Rule 22
+### The Rule
 
-<span class="rule-badge">Rule 22</span> **Rule 22**
+> **To make a verb agree with he/she/it in present tense, add **-S**. Add **-ES** when the verb ends in S, SH, CH, X, or Z.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+Same pattern as plural nouns! He/she/it verbs need -S. When the verb ends in a hissing sound (S, SH, CH, X, Z), add -ES so you can hear the ending.
 
-### Write It
-Write each word twice:
+### Examples
 
-runs catches
+run→runs, walk→walks, fix→fixes, wash→washes, watch→watches, buzz→buzzes, miss→misses, catch→catches
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-runs catches
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-runs catches
+| Word | How Rule 22 Applies |
+|------|------------------------|
+| he run + s | he runs — just add S |
+| she fix + es | she fixes — ends in X |
+| it wash + es | it washes — ends in SH |
+| he catch + es | he catches — ends in CH (Rule 27: TCH after short a!) |
 
 ---
 
-**Next lesson:** Lesson 39
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| fixes | f (/f/), i (/ĭ/), x (/ks/), e→/ĕ/, s | Rule 22 + 31 | /fĭk-sĕz/ |
+| washes | w (/w/), a (/ä/), sh (/sh/), e→/ĕ/, s | Rules 10 + 22 | /wä-shĕz/ |
+| catches | c (/k/), a (/ă/), tch (/ch/), e→/ĕ/, s | Rules 22 + 27 | /kă-chĕz/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> runs &nbsp; walks &nbsp; fixes &nbsp; washes &nbsp; catches &nbsp; watches
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+He runs and walks. She fixes the box. It washes away. He catches the ball and watches the game.
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 22? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. What do plural nouns and 3rd person verbs have in common? *(Both use -S or -ES following the same rules!)*
+
+---
+
+**Next lesson:** Lesson 39: Rule 29: Z at Beginning
+
+---
+
+*Practice at home: Write: he (run), she (fix), it (wash), he (catch). Apply Rule 22 to each.*

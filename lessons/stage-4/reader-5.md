@@ -1,92 +1,71 @@
-# Lesson 42: Firefly: Nightlight with Wings
+# Lesson 42: Reader: Firefly — Nightlight with Wings
 
-**Stage 4** · Lesson 42 · Type: reader
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+**Stage 4** · Lesson 42 · reader
 
 ---
 
-## New Learning: Firefly: Nightlight with Wings
-
-## Reader: Firefly: Nightlight with Wings
-
-<div class="warmup-box">
-<div class="title">Warm-Up Words — read these first</div>
-
-—
-
-</div>
+## Story: Firefly: Nightlight with Wings
 
 <div class="reader-page">
-
 <div class="reader-text">
 
-— [Story text to be written]
+**Firefly: Nightlight with Wings**
+
+The sun goes down. The sky turns dark.
+
+A tiny light blinks in the garden. Blink! Blink!
+
+It is a firefly.
+
+The firefly has a special secret. Its body makes light! This is called bioluminescence.
+
+The firefly flashes its light to find a friend. "Over here!" it signals with a blink.
+
+Another firefly blinks back. "I see you!"
+
+The firefly does not make heat with its light — only a cool glow. This is amazing!
+
+Fireflies love warm summer nights. They dance in the air, tiny stars close to the ground.
+
+A child watches from the porch. "Look, Mom! Fireflies!"
+
+The child catches one gently in a jar. She watches it blink.
+
+Then she lets it go. "Fly free, little light."
+
+The firefly rises into the night sky, blinking all the way.
+
+Good night, firefly. Thank you for sharing your light.
+
+The End.
 
 </div>
-
 <div class="reader-sidebar">
 
 ### Spelling Aid
 
-**New phonogram:** 
+**Focus:** igh (light, night, flight), ou (out, ground), ph (firefly? No — that's 'f' and 'l'), silent E (make, rise, close)
 
-**Sounds:** —
-
-**Rule:** 
-
-![Illustration](animals/firefly.png)
-
-</div>
+**Challenge words:**
+- bioluminescence (bī-ō-lü-mĭ-nes-ĕns) — bio = life, lumin = light
+- signals (g says /g/ — doesn't soften before n)
+- gently (g says /j/ — softens before l? No — it's before consonant. Actually /j/ because Latin root *gent-*)
 
 </div>
-
-<div class="page-break"></div>
-
-## After Reading
-
-- What happened in the story? Retell it in your own words.
-- Find all the words with ****. Read them again.
-- Write one sentence using the new phonogram.
-
-
-
-![Firefly: Nightlight with Wings](images/animals/firefly.png)
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-
+</div>
 
 ---
 
-**Next lesson:** Lesson 43
+## Quick Check
 
-
+1. How does a firefly make light? *(Bioluminescence — a chemical reaction in its body!)*
+2. Why does the firefly blink? *(To find a friend/mate.)*
+3. Find 3 words with silent E in the story.
 
 ---
 
-<div class="page-break"></div>
+**Next lesson:** Lesson 43: Reader: Trains
 
-## Lesson Complete!
+---
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
-
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
-
+*Practice at home: Read this story aloud!*

@@ -1,51 +1,41 @@
 # Lesson 12: Drop E and Double Consonant Review
 
-**Stage 4** · Lesson 12 · Type: review
+**Stage 4** · Lesson 12 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Drop E and Double Consonant Review
+## Part 1: Drop the E (Rule 13)
 
-### Drop E and Double Consonant Review
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-making hoping running sitting
+Write the -ing form by dropping silent E: make→making, drive→driving, use→using, hope→hoping, bake→baking, write→writing, smile→smiling.
 
 ---
 
-**Next lesson:** Lesson 13
+## Part 2: Double the Consonant (Rule 14)
 
-
+Write the -ing form by doubling: run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, cut→cutting, stop→stopping.
 
 ---
 
-<div class="page-break"></div>
+## Part 3: Neither!
 
-## Lesson Complete!
+Explain why these DON'T change: sleeping (2 vowels), jumping (2 final consonants), opening (2 syllables), reading (2 vowels), helping (2 final consonants).
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> making, hoping, running, hopping, swimming, sleeping, opening, driving, sitting, using
+
+---
+
+**Next lesson:** Lesson 13: Mid-Stage 4 Assessment
+
+---
+
+*Practice at home: Review Rules 13 and 14 flashcards!*

@@ -1,51 +1,72 @@
 # Lesson 27: Prefixes sub- and inter-
 
-**Stage 4** · Lesson 27 · Type: morphology
+**Stage 4** · Lesson 27 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Prefixes sub- and inter-
+## New Learning: **sub-/inter-**
 
-### Morpheme: 
+### What Is Prefix?
 
-— [Morpheme content to be written]
-## Review
+SUB- means 'under' or 'below.' INTER- means 'between' or 'among.'
 
-### Quick Check
+### Prefix Means: "under, between"
 
-- Check phonogram recall
-- Review new rule if introduced
+### Words with Prefix
 
-### Words to Spell (Dictation)
-
-submarine interact
-
----
-
-**Next lesson:** Lesson 28
-
-
+| Word | Prefix + Root | Meaning |
+|------|------||---------|
+| sub marine → submarine | — | — |
+| inter national → international | — | — |
+| sub way → subway | — | — |
+| inter act → interact | — | — |
 
 ---
 
-<div class="page-break"></div>
+## Word Building
 
-## Lesson Complete!
+Add **Prefix** to these root words. Write the new word and its meaning.
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+| Root Word | + Prefix | New Word | Meaning |
+|-----------|------||----------|---------|
+| marine | sub-/inter- marine | — | — |
+| way | sub-/inter- way | — | — |
+| merge | sub-/inter- merge | — | — |
+| view | sub-/inter- view | — | — |
+| change | sub-/inter- change | — | — |
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Reading Practice
+
+> submarine, subway, submerge, interview, international, interact
+
+---
+
+## Spelling
+
+Write each word. Underline the Prefix. Say the meaning aloud.
+
+> submarine &nbsp;&nbsp; subway &nbsp;&nbsp; interview &nbsp;&nbsp; international &nbsp;&nbsp; interact
+
+---
+
+## Quick Check
+
+1. What does **Prefix** mean? *(under, between)*
+2. Build a new word using Prefix + a root.
+3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+
+---
+
+**Next lesson:** Lesson 28: Suffixes -er -or
+
+---
+
+*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*

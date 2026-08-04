@@ -1,51 +1,54 @@
 # Lesson 44: Morpheme Review: Prefixes
 
-**Stage 4** · Lesson 44 · Type: morphology
+**Stage 4** · Lesson 44 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: Morpheme Review: Prefixes
+## Match the Prefix
 
-### Morpheme: 
-
-— [Morpheme content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-unhappy retell inactive disconnect preview
+un- (not) + tie = untie
+re- (again) + do = redo
+in- (not) + correct = incorrect
+dis- (not) + agree = disagree
+pre- (before) + view = preview
+pro- (forward) + ceed = proceed
+sub- (under) + marine = submarine
+inter- (between) + national = international
 
 ---
 
-**Next lesson:** Lesson 45
+## Build New Words
 
-
+Add a prefix to make a new word:
+kind + un- = ______
+build + re- = ______
+possible + im- = ______
+like + dis- = ______
+pay + pre- = ______
+way + sub- = ______
 
 ---
 
-<div class="page-break"></div>
+## Meaning Match
 
-## Lesson Complete!
+redo (do again), untie (opposite of tie), prepay (pay before), submarine (under water), incorrect (not correct), disagree (not agree)
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> untie, redo, incorrect, disagree, preview, proceed, submarine, international
+
+---
+
+**Next lesson:** Lesson 45: Morpheme Review: Suffixes
+
+---
+
+*Practice at home: Review your morpheme wall!*

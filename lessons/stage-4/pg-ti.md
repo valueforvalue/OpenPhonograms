@@ -1,77 +1,63 @@
 # Lesson 18: Phonogram ti
 
-**Stage 4** · Lesson 18 · Type: phonogram-intro
+**Stage 4** · Lesson 18 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Phonogram ti
-
-### The Phonogram **ti**
+## New Learning: The Phonogram **ti**
 
 <div class="phonogram">ti</div>
 
-**ti** says: /sh/
+**ti** says /sh/ in Latin-based words.
 
-| Sound | Example Word |
-|-------|-------------|
-| /sh/ | — |
+> **Rule 17:** TI, CI, and SI spell /sh/ in words of Latin origin. TI is the most common.
 
-> Write **ti** three times on your whiteboard while saying its sounds.
+| Usage | Example Words |
+|-------|--------------|
+| /sh/ in -tion words | nation, action, station, fraction |
+| /sh/ in other Latin words | patient, partial, initial, martial |
 
-## Practice
+### Where Does TI Say /sh/?
 
-### Write It
-Write each word twice:
-
-nation action station
-
-### Read It
-Read these words sound by sound, then blend:
-
-nation action station
-
-### Quiz
-1. What sounds does **ti** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-nation action station
+TI says /sh/ when followed by another vowel (most often -tion). The T and I work together to make one sound: /sh/.
 
 ---
 
-**Next lesson:** Lesson 19
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| nation | n (/n/), a (/ā/), ti (/sh/), o (/ə/→/ŏ/ STSp), n (/n/) | Rule 17: Latin TI=/sh/ | /nā-shŏn/ |
+| action | a (/ă/), c (/k/), ti (/sh/), o (/ə/→/ŏ/ STSp), n (/n/) | Rule 17 | /ăk-shŏn/ |
+| station | s (/s/), t (/t/), a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /stā-shŏn/ |
+| patient | p (/p/), a (/ā/), ti (/sh/), e (/ĕ/), n (/n/), t (/t/) | Rule 17 | /pā-shĕnt/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading
 
-## Lesson Complete!
+> nation &nbsp; action &nbsp; station &nbsp; patient &nbsp; fraction &nbsp; partial &nbsp; initial
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+> The nation took action. The train station is near. Be patient with fractions!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What sound does TI make? *(/sh/ — in Latin words)*
+2. When does TI say /sh/? *(When followed by a vowel, usually -tion)*
+3. Spell 'nation' and 'action' from dictation.
+
+---
+
+**Next lesson:** Lesson 19: Phonogram ci
+
+---
+
+*Practice at home: Find 5 words with -tion in a book!*

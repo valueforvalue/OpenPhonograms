@@ -1,51 +1,41 @@
 # Lesson 17: All Suffixing Rules Review
 
-**Stage 4** · Lesson 17 · Type: review
+**Stage 4** · Lesson 17 · review
 
 ---
 
-## Warm-Up: Phonogram Flash Review
+## Warm-Up: Speed Flash
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Flash all 75 phonograms. Under 2 seconds each!
 
 ---
 
-## New Learning: All Suffixing Rules Review
+## Rule 13: Drop Silent E
 
-### All Suffixing Rules Review
-
-— [Review/assessment content to be written]
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-making running crying happiest
+Write the -ing form: make→____, drive→____, use→____, hope→____, bake→____.
 
 ---
 
-**Next lesson:** Lesson 18
+## Rule 14: Double Consonant
 
-
+Write the -ing form: run→____, hop→____, swim→____, sit→____, get→____. Write opening, sleeping, jumping — why NO double?
 
 ---
 
-<div class="page-break"></div>
+## Rules 15 & 16: Y→I and No Two I's
 
-## Lesson Complete!
+Write: cry→cr____ (es), baby→bab____ (es), happy→happ____ (ness). Write crying, trying, flying — why keep Y?
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+---
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+## Spelling Challenge
 
+> making, running, hopping, babies, happiness, crying, studying, carried, opening, sleeping
+
+---
+
+**Next lesson:** Lesson 18: Phonogram ti
+
+---
+
+*Practice at home: Review all 4 suffixing rule flashcards! (13, 14, 15, 16)*

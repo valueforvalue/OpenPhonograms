@@ -1,73 +1,72 @@
-# Lesson 22: Rule 18: SH Placement
+# Lesson 22: Rule 18 — SH Placement
 
-**Stage 4** · Lesson 22 · Type: rule-intro
+**Stage 4** · Lesson 22 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 18: SH Placement
+## New Learning: Rule 18
 
-### Spelling Rule 18
+### The Rule
 
-<span class="rule-badge">Rule 18</span> **Rule 18**
+> ****SH** is used at the beginning or end of a base word, at the end of a syllable, but NOT at the beginning of a syllable after the first one.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+SH is the 'regular English' way to spell /sh/. TI/CI/SI are the 'Latin' way. SH appears in everyday English words: ship, fish, wishing. Latin /sh/ (TI/CI/SI) appears in more formal or academic words: nation, special, mission.
 
-### Write It
-Write each word twice:
+### Examples
 
-ship fish sunshine friendship
+SH at start: ship, she, show, shoe
+SH at end: fish, wish, push, crash
+SH in middle (end of syllable): dish·es, push·ing, wash·ing
+Latin /sh/ (mid-word after first syllable): nation, special, session
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-ship fish sunshine friendship
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-ship fish sunshine friendship
+| Word | How Rule 18 Applies |
+|------|------------------------|
+| ship | SH at beginning ✓ |
+| fish | SH at end ✓ |
+| dishes | SH at end of first syllable ✓ |
+| nation | TI = /sh/ (Latin, after first syllable) ✓ |
+| nashun | NOT English — use 'nation' ✗ |
 
 ---
 
-**Next lesson:** Lesson 23
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| dishes | d (/d/), i (/ĭ/), sh (/sh/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 18 + 31 | /di-shĕz/ |
+| wishing | w (/w/), i (/ĭ/), sh (/sh/), i (/ĭ/), ng (/ng/) | Rule 18 | /wi-shĭng/ |
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /nā-shŏn/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> ship &nbsp; fish &nbsp; dishes &nbsp; wishing &nbsp; nation &nbsp; special
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The ship had fish and dishes. I am wishing for a special nation!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 18? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. When do you use SH vs. TI/CI/SI for /sh/? *(SH for everyday words and at start/end. TI/CI/SI for Latin words in the middle.)*
+
+---
+
+**Next lesson:** Lesson 23: Latin /sh/ Mastery
+
+---
+
+*Practice at home: Find 5 words with SH and 3 with Latin /sh/. Compare them!*

@@ -1,73 +1,71 @@
-# Lesson 21: Rule 17: Latin /sh/ TI CI SI
+# Lesson 21: Rule 17 — Latin /sh/ — TI, CI, SI
 
-**Stage 4** · Lesson 21 · Type: rule-intro
+**Stage 4** · Lesson 21 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash previously taught phonogram cards. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| Review all previously taught phonograms |
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: Rule 17: Latin /sh/ TI CI SI
+## New Learning: Rule 17
 
-### Spelling Rule 17
+### The Rule
 
-<span class="rule-badge">Rule 17</span> **Rule 17**
+> ****TI**, **CI**, and **SI** spell /sh/ in words of Latin origin. TI is most common; SI can also say /zh/.**
 
-| Example Words |
-|---------------|
-| — |
+### Why It Matters
 
-## Practice
+English borrowed thousands of words from Latin. Latin had a sound like /sh/ that was spelled differently depending on the root word. English kept these spellings! -tion is the most common (nation, action), -cial comes next (special, social), and -sion is least common but can say /zh/ (vision).
 
-### Write It
-Write each word twice:
+### Examples
 
-nation special session
+TI: nation, action, station, fraction, patient, partial
+CI: special, social, musician, precious, delicious
+SI: mission, session, vision (/zh/), television (/zh/)
 
-### Read It
-Read these words sound by sound, then blend:
+### Spot the Rule
 
-nation special session
-
-### Quiz
-1. What sounds does **** say?
-2. Which rule applies to these words?
-3. Spell this word from dictation: _______________
-
-## Review
-
-### Quick Check
-
-- Check phonogram recall
-- Review new rule if introduced
-
-### Words to Spell (Dictation)
-
-nation special session
+| Word | How Rule 17 Applies |
+|------|------------------------|
+| nation | -tion → TI = /sh/ |
+| special | -cial → CI = /sh/ |
+| mission | -sion → SI = /sh/ |
+| vision | -sion → SI = /zh/ |
+| musician | -cian → CI = /sh/ |
 
 ---
 
-**Next lesson:** Lesson 22
+## Spelling Analysis
 
-
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 | /nā-shŏn/ |
+| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/ STSp, l | Rule 17 + 31 | /spe-shăl/ |
+| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |
 
 ---
 
-<div class="page-break"></div>
+## Reading Practice
 
-## Lesson Complete!
+> nation &nbsp; special &nbsp; vision &nbsp; action &nbsp; musician &nbsp; mission
 
-✅ Phonogram review  
-✅ New learning  
-✅ Spelling Analysis  
-✅ Reading practice  
+The nation has a special vision. The musician's mission is action!
 
-**Practice at home:** Flash the phonogram cards for today's new phonogram and any that were slow during warm-up.
+---
 
+## Quick Check
+
+1. What is Rule 17? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. Which Latin /sh/ spelling is the most common? *(TI — especially in -tion words.)*
+
+---
+
+**Next lesson:** Lesson 22: Rule 18: SH Placement
+
+---
+
+*Practice at home: Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.*
