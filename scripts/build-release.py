@@ -79,11 +79,16 @@ WHAT'S IN THIS RELEASE
 00-Start-Here.pdf                      — orientation
 01-Index-and-Table-of-Contents.pdf     — master clickable TOC
 02-Scope-and-Sequence.pdf              — full curriculum map
-04-Quick-Reference/                    — phonograms, rules, spelling analysis
+04-Quick-Reference/                    — phonograms, rules, spelling analysis,
+                                          diacritical legend, glossary (HTMLs + PDFs)
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
 06-Lesson-Packs/                       — 248 per-lesson bundles
+06-Stage-Overview/stage-N.pdf          — merged per-stage review (PDF)
 07-Worksheets/                         — 178 standalone practice sheets
+                                          (organized by stage + category)
+07-Worksheets/stage-N-worksheets.pdf   — merged per-stage worksheets
 08-Decodable-Readers/                  — 25 decodable story PDFs + index
+08-Decodable-Readers/stage-N-readers.pdf — merged per-stage readers
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
 10-Assessments/                        — 8 stage mastery assessments
 11-Game/phonogram-trainer.html         — web game (5 modes)
@@ -178,13 +183,35 @@ For questions, issues, or contributions, see the project repository.
             count = add_directory(zf, readers_dir, "08-Decodable-Readers")
             print(f"  OK  08-Decodable-Readers/  ({count} reader PDFs)")
 
+        # 4b. Per-stage merged PDFs (worksheets + readers combined by stage)
+        for stage in range(1, 6):
+            for kind in ("-worksheets", "-readers", ""):
+                fname = f"stage-{stage}{kind}.pdf"
+                src = BUILD / fname
+                if src.exists():
+                    arc = f"07-Worksheets/{fname}" if kind else f"06-Stage-Overview/{fname}"
+                    if kind == "-readers":
+                        arc = f"08-Decodable-Readers/{fname}"
+                    zf.write(src, arc)
+                    print(f"  OK  {arc}")
+
         # 5. Quick-checks (from build/quick-checks/)
         qc_dir = BUILD / "quick-checks"
         if qc_dir.exists():
             count = add_directory(zf, qc_dir, "09-Quick-Checks")
             print(f"  OK  09-Quick-Checks/  ({count} files)")
 
-        # 6. Assessments (the lesson-type PDFs that are assessment)
+        # 6b. Reference HTMLs (browser-printable classroom aids)
+        ref_dir = ROOT / "reference"
+        if ref_dir.exists():
+            for html in sorted(ref_dir.glob("*.html")):
+                # Skip quick-check HTMLs (those are PDF-rendered + already in 09-)
+                if html.name.startswith("quick-check-stage-"):
+                    continue
+                zf.write(html, f"04-Quick-Reference/{html.name}")
+                print(f"  OK  04-Quick-Reference/{html.name}")
+
+        # 7. Game (HTML + audio)
         #    These live in build/stage-N/assessment-N.pdf — already copied above.
         #    Create a stage-organized index here too? For now, point to lesson packs.
         #    Future: copy assessment PDFs to 10-Assessments/ as standalone files.

@@ -163,6 +163,11 @@ render-extras:
     @echo "==> Rendering worksheet + reader PDFs"
     @{{python}} {{scripts_dir_s}}/render-extras.py
 
+# Render reference/*.html files to PDF for printable distribution
+render-references:
+    @echo "==> Rendering reference HTMLs to PDF"
+    @{{python}} {{scripts_dir_s}}/render-references.py
+
 # Merge per-stage PDFs into stage-N-worksheets.pdf + stage-N-readers.pdf + stage-N.pdf
 gen-stage-pdfs:
     @echo "==> Building merged stage PDFs"
@@ -264,7 +269,7 @@ check: check-drift check-overflow check-coverage check-images
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (long; ~5-10 min)
-all: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all copy-assessments release
+all: gen-all render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all copy-assessments release
     @echo ""
     @echo "==> Full build complete"
     @echo "    PDFs:      {{build_dir_s}}/"
@@ -272,7 +277,7 @@ all: gen-all render-all render-extras gen-navigation gen-handbooks gen-certifica
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop)
-build: gen-all render-all render-extras gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments
+build: gen-all render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments
     @echo ""
     @echo "==> Build complete (no release ZIP)"
     @echo "    PDFs:  {{build_dir_s}}/"
