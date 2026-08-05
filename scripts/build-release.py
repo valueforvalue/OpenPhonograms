@@ -1,5 +1,9 @@
 """Build release.zip — complete curriculum in LOE-style folder structure.
 
+Default behavior bundles everything into a single ZIP. Pass CLI flags to
+include or exclude specific sections, restrict to one stage, or change the
+output path. Dry-run with --list to see what would be included.
+
 Produces a top-level ZIP with:
 
   README.md                        — text overview of what's in the release
@@ -20,48 +24,73 @@ Produces a top-level ZIP with:
 All paths inside the ZIP use forward slashes (POSIX) for cross-platform use.
 
 Usage:
-  python scripts/build-release.py
+  python scripts/build-release.py                          # full release (default)
+  python scripts/build-release.py --output custom.zip      # custom output path
+  python scripts/build-release.py --stage 3                # only Stage 3 assets
+  python scripts/build-release.py --no-game --no-audio     # skip game + audio
+  python scripts/build-release.py --no-lessons             # skip 06-Lesson-Packs/
+  python scripts/build-release.py --list                   # dry-run, list contents
 """
 
+import argparse
 import os
-import shutil
+import sys
 import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
-RELEASE = ROOT / "release"
 
 
-def add_file(zf: zipfile.ZipFile, src: Path, arcname: str):
-    """Add a file to the ZIP with the given arcname (forward slashes)."""
+# ── Helpers ────────────────────────────────────────────────────────────
+
+def add_file(zf: zipfile.ZipFile, src: Path, arcname: str) -> bool:
+    """Add a file to the ZIP. Returns True if added, False if missing."""
     if src.exists():
         zf.write(src, arcname.replace("\\", "/"))
+        return True
+    return False
 
 
-def add_directory(zf: zipfile.ZipFile, src_dir: Path, arc_prefix: str):
-    """Add all files from a directory recursively."""
+def add_directory(zf: zipfile.ZipFile, src_dir: Path, arc_prefix: str,
+                  stage_filter: int | None = None) -> int:
+    """Add all files from a directory recursively.
+
+    stage_filter: if set, only include files whose path contains
+    'stage-N/' matching the given stage. Used for per-stage filtering.
+    """
     if not src_dir.exists():
         return 0
     count = 0
     for f in sorted(src_dir.rglob("*")):
-        if f.is_file():
+        if not f.is_file():
+            continue
+        if stage_filter is not None:
             rel = f.relative_to(src_dir).as_posix()
-            zf.write(f, f"{arc_prefix}/{rel}".replace("\\", "/"))
-            count += 1
+            if f"stage-{stage_filter}/" not in rel + "/":
+                continue
+        rel = f.relative_to(src_dir).as_posix()
+        zf.write(f, f"{arc_prefix}/{rel}".replace("\\", "/"))
+        count += 1
     return count
 
 
-def main():
-    out = ROOT / "release.zip"
-    print(f"==> Building {out.name}")
-    print()
+# ── Section builders ───────────────────────────────────────────────────
 
-    # Stage ZIP creation: write to a tmp dir for ordering
-    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
+def _stages(args) -> list[int]:
+    """Resolve which stages to include (1-5)."""
+    return [args.stage] if args.stage else [1, 2, 3, 4, 5]
 
-        # 0. README.md (text)
-        readme_text = """Uncovering the Logic of English — Release ZIP
+
+def build_readme(zf, args, stats):
+    """Section 0: README.md."""
+    if args.no_readme:
+        stats["skipped"].append("README.md")
+        return
+    if args.list:
+        stats["included"].append("README.md")
+        return
+    readme_text = """Uncovering the Logic of English — Release ZIP
 
 This ZIP contains the complete open-source curriculum (248 lessons, 5 stages,
 75 phonograms, 31 spelling rules, 25 decodable readers) plus all printable
@@ -91,9 +120,6 @@ WHAT'S IN THIS RELEASE
 08-Decodable-Readers/stage-N-readers.pdf — merged per-stage readers
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
 10-Assessments/                        — 8 stage mastery assessments
-11-Game/phonogram-trainer.html         — web game (5 modes)
-12-Audio/                              — 74 phonogram MP3s
-13-Certificates/                       — 5 printable completion certificates
 
 METHODOLOGY
 -----------
@@ -114,127 +140,381 @@ Whistling Whales / Knitting Knights artwork, etc.) is not included.
 
 For questions, issues, or contributions, see the project repository.
 """
-        zf.writestr("README.md", readme_text)
-        print("  OK  README.md")
+    zf.writestr("README.md", readme_text)
+    stats["included"].append("README.md")
 
-        # 1. Top-level navigation PDFs (from build/handbook/)
-        handbook = BUILD / "handbook"
-        for f in sorted(handbook.glob("*.pdf")):
-            name = f.name
-            # 00-Start-Here, 01-Index, 02-Scope at top level
-            if name.startswith(("00-", "01-", "02-")):
-                zf.write(f, name)
-                print(f"  OK  {name}")
-            # 04-Quick-Reference-* → 04-Quick-Reference/
-            elif name.startswith("04-"):
-                zf.write(f, f"04-Quick-Reference/{name}")
-                print(f"  OK  04-Quick-Reference/{name}")
-            # stage-N-handbook → 05-Teacher-Handbooks/
-            elif "handbook" in name and name.startswith("stage-"):
-                zf.write(f, f"05-Teacher-Handbooks/{name}")
-                print(f"  OK  05-Teacher-Handbooks/{name}")
-            # certificate-stage-N → 13-Certificates/
-            elif name.startswith("certificate-"):
-                zf.write(f, f"13-Certificates/{name}")
-                print(f"  OK  13-Certificates/{name}")
-            # readers-index → 08-Decodable-Readers/
-            elif "readers-index" in name:
-                zf.write(f, f"08-Decodable-Readers/{name}")
-                print(f"  OK  08-Decodable-Readers/{name}")
 
-        # 1b. Landing page PDF + HTML
-        landing_pdf = handbook / "00-Landing-Page.pdf"
-        if landing_pdf.exists():
+def build_handbook_nav(zf, args, stats):
+    """Section 1: Top-level handbook PDFs (00-, 01-, 02-, binding)."""
+    if args.no_nav:
+        stats["skipped"].append("00-/01-/02- handbook PDFs")
+        return
+    handbook = BUILD / "handbook"
+    if not handbook.exists():
+        return
+    count = 0
+    for f in sorted(handbook.glob("*.pdf")):
+        name = f.name
+        # 00-Start-Here, 01-Index, 02-Scope at top level
+        if name.startswith(("00-", "01-", "02-")):
+            arc = name
+        elif name.startswith("04-"):
+            if args.no_reference:
+                continue
+            arc = f"04-Quick-Reference/{name}"
+        elif "handbook" in name and name.startswith("stage-"):
+            # Stage handbooks handled by build_handbooks() unless --no-handbooks
+            if args.no_handbooks:
+                continue
+            arc = f"05-Teacher-Handbooks/{name}"
+        elif name.startswith("certificate-"):
+            if args.no_certs:
+                continue
+            arc = f"13-Certificates/{name}"
+        elif "readers-index" in name:
+            if args.no_readers:
+                continue
+            arc = f"08-Decodable-Readers/{name}"
+        else:
+            continue  # Other handbook PDFs (assessments, quick-checks) handled separately
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
+        count += 1
+    # Landing page
+    landing_pdf = handbook / "00-Landing-Page.pdf"
+    if landing_pdf.exists() and not args.no_nav:
+        if args.list:
+            stats["included"].append("00-Landing-Page.pdf")
+        else:
             zf.write(landing_pdf, "00-Landing-Page.pdf")
-            print(f"  OK  00-Landing-Page.pdf")
-        landing_html = ROOT / "docs" / "index.html"
-        if landing_html.exists():
-            zf.write(landing_html, "00-Landing-Page.html")
-            print(f"  OK  00-Landing-Page.html")
-        # Binding instructions
-        binding_pdf = handbook / "binding-instructions.pdf"
-        if binding_pdf.exists():
+    # Binding instructions
+    binding_pdf = handbook / "binding-instructions.pdf"
+    if binding_pdf.exists():
+        if args.list:
+            stats["included"].append("binding-instructions.pdf")
+        else:
             zf.write(binding_pdf, "binding-instructions.pdf")
-            print(f"  OK  binding-instructions.pdf")
 
-        # 2. Lesson packs grouped by stage (packs/stage-N/*.pdf)
-        packs = ROOT / "packs"
-        if packs.exists():
-            for stage in range(1, 6):
-                stage_dir = packs / f"stage-{stage}"
-                if not stage_dir.exists():
-                    continue
-                count = 0
-                for pdf in sorted(stage_dir.glob("*.pdf")):
-                    zf.write(pdf, f"06-Lesson-Packs/stage-{stage}/{pdf.name}")
-                    count += 1
-                print(f"  OK  06-Lesson-Packs/stage-{stage}/  ({count} lesson packs)")
 
-        # 3. Worksheets
-        for sub in ["phonograms", "rules", "cards", "blank"]:
-            sub_dir = BUILD / "worksheets" / sub
-            if sub_dir.exists():
-                count = add_directory(zf, sub_dir, f"07-Worksheets/{sub}")
+def build_landing_html(zf, args, stats):
+    """Section 1b: Landing page HTML."""
+    if args.no_nav:
+        stats["skipped"].append("00-Landing-Page.html")
+        return
+    landing_html = ROOT / "docs" / "index.html"
+    if not landing_html.exists():
+        return
+    if args.list:
+        stats["included"].append("00-Landing-Page.html")
+    else:
+        zf.write(landing_html, "00-Landing-Page.html")
+
+
+def build_handbooks(zf, args, stats):
+    """Section 5: Stage-N handbooks from build/handbook/stage-N-handbook.pdf."""
+    if args.no_handbooks:
+        stats["skipped"].append("05-Teacher-Handbooks/")
+        return
+    handbook = BUILD / "handbook"
+    if not handbook.exists():
+        return
+    for stage in _stages(args):
+        f = handbook / f"stage-{stage}-handbook.pdf"
+        if not f.exists():
+            continue
+        arc = f"05-Teacher-Handbooks/stage-{stage}-handbook.pdf"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
+
+
+def build_certs(zf, args, stats):
+    """Section 13: Completion certificates."""
+    if args.no_certs:
+        stats["skipped"].append("13-Certificates/")
+        return
+    handbook = BUILD / "handbook"
+    if not handbook.exists():
+        return
+    for stage in _stages(args):
+        f = handbook / f"certificate-stage-{stage}.pdf"
+        if not f.exists():
+            continue
+        arc = f"13-Certificates/certificate-stage-{stage}.pdf"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
+
+
+def build_lesson_packs(zf, args, stats):
+    """Section 6: Per-lesson PDFs from packs/stage-N/*.pdf."""
+    if args.no_lessons:
+        stats["skipped"].append("06-Lesson-Packs/")
+        return
+    packs = ROOT / "packs"
+    if not packs.exists():
+        return
+    for stage in _stages(args):
+        stage_dir = packs / f"stage-{stage}"
+        if not stage_dir.exists():
+            continue
+        count = 0
+        for pdf in sorted(stage_dir.glob("*.pdf")):
+            arc = f"06-Lesson-Packs/stage-{stage}/{pdf.name}"
+            if args.list:
+                stats["included"].append(arc)
+            else:
+                zf.write(pdf, arc)
+            count += 1
+        if count and not args.list:
+            print(f"  OK  06-Lesson-Packs/stage-{stage}/  ({count} lesson packs)")
+
+
+def build_worksheets(zf, args, stats):
+    """Section 7: Worksheets from build/worksheets/<sub>/."""
+    if args.no_worksheets:
+        stats["skipped"].append("07-Worksheets/")
+        return
+    for sub in ["phonograms", "rules", "cards", "blank"]:
+        sub_dir = BUILD / "worksheets" / sub
+        if not sub_dir.exists():
+            continue
+        if args.list:
+            stats["included"].append(f"07-Worksheets/{sub}/")
+        else:
+            count = add_directory(zf, sub_dir, f"07-Worksheets/{sub}",
+                                 stage_filter=args.stage)
+            if count:
                 print(f"  OK  07-Worksheets/{sub}/  ({count} files)")
+    # Per-stage merged worksheets PDF
+    for stage in _stages(args):
+        f = BUILD / f"stage-{stage}-worksheets.pdf"
+        if not f.exists():
+            continue
+        arc = f"07-Worksheets/stage-{stage}-worksheets.pdf"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
 
-        # 4. Readers (PDFs from build/readers/)
-        readers_dir = BUILD / "readers"
-        if readers_dir.exists():
-            count = add_directory(zf, readers_dir, "08-Decodable-Readers")
-            print(f"  OK  08-Decodable-Readers/  ({count} reader PDFs)")
 
-        # 4b. Per-stage merged PDFs (worksheets + readers combined by stage)
-        for stage in range(1, 6):
-            for kind in ("-worksheets", "-readers", ""):
-                fname = f"stage-{stage}{kind}.pdf"
-                src = BUILD / fname
-                if src.exists():
-                    arc = f"07-Worksheets/{fname}" if kind else f"06-Stage-Overview/{fname}"
-                    if kind == "-readers":
-                        arc = f"08-Decodable-Readers/{fname}"
-                    zf.write(src, arc)
-                    print(f"  OK  {arc}")
+def build_readers(zf, args, stats):
+    """Section 8: Decodable readers from build/readers/."""
+    if args.no_readers:
+        stats["skipped"].append("08-Decodable-Readers/")
+        return
+    readers_dir = BUILD / "readers"
+    if readers_dir.exists():
+        if args.list:
+            stats["included"].append("08-Decodable-Readers/")
+        else:
+            count = add_directory(zf, readers_dir, "08-Decodable-Readers",
+                                 stage_filter=args.stage)
+            if count:
+                print(f"  OK  08-Decodable-Readers/  ({count} reader PDFs)")
+    # Per-stage merged readers PDF
+    for stage in _stages(args):
+        f = BUILD / f"stage-{stage}-readers.pdf"
+        if not f.exists():
+            continue
+        arc = f"08-Decodable-Readers/stage-{stage}-readers.pdf"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
 
-        # 5. Quick-checks (from build/quick-checks/)
-        qc_dir = BUILD / "quick-checks"
-        if qc_dir.exists():
+
+def build_stage_overview(zf, args, stats):
+    """Section 6b: Per-stage combined PDF (stage-N.pdf)."""
+    for stage in _stages(args):
+        f = BUILD / f"stage-{stage}.pdf"
+        if not f.exists():
+            continue
+        arc = f"06-Stage-Overview/stage-{stage}.pdf"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(f, arc)
+
+
+def build_quick_checks(zf, args, stats):
+    """Section 9: Quick checks from build/quick-checks/."""
+    if args.no_quick_checks:
+        stats["skipped"].append("09-Quick-Checks/")
+        return
+    qc_dir = BUILD / "quick-checks"
+    if qc_dir.exists():
+        if args.list:
+            stats["included"].append("09-Quick-Checks/")
+        else:
             count = add_directory(zf, qc_dir, "09-Quick-Checks")
-            print(f"  OK  09-Quick-Checks/  ({count} files)")
+            if count:
+                print(f"  OK  09-Quick-Checks/  ({count} files)")
 
-        # 6b. Reference HTMLs (browser-printable classroom aids)
-        ref_dir = ROOT / "reference"
-        if ref_dir.exists():
-            for html in sorted(ref_dir.glob("*.html")):
-                # Skip quick-check HTMLs (those are PDF-rendered + already in 09-)
-                if html.name.startswith("quick-check-stage-"):
-                    continue
-                zf.write(html, f"04-Quick-Reference/{html.name}")
-                print(f"  OK  04-Quick-Reference/{html.name}")
 
-        # 7. Game (HTML + audio)
-        #    These live in build/stage-N/assessment-N.pdf — already copied above.
-        #    Create a stage-organized index here too? For now, point to lesson packs.
-        #    Future: copy assessment PDFs to 10-Assessments/ as standalone files.
-        assessments_dir = BUILD / "assessments"
-        if assessments_dir.exists():
+def build_assessments(zf, args, stats):
+    """Section 10: Assessment PDFs from build/assessments/."""
+    if args.no_assessments:
+        stats["skipped"].append("10-Assessments/")
+        return
+    assessments_dir = BUILD / "assessments"
+    if assessments_dir.exists():
+        if args.list:
+            stats["included"].append("10-Assessments/")
+        else:
             count = add_directory(zf, assessments_dir, "10-Assessments")
-            print(f"  OK  10-Assessments/  ({count} files)")
+            if count:
+                print(f"  OK  10-Assessments/  ({count} files)")
 
-        # 7. Game (HTML + audio)
-        game_html = ROOT / "games" / "phonogram-trainer.html"
-        if game_html.exists():
+
+def build_reference(zf, args, stats):
+    """Section 4: Reference HTMLs (browser-printable classroom aids)."""
+    if args.no_reference:
+        stats["skipped"].append("04-Quick-Reference/ HTMLs")
+        return
+    ref_dir = ROOT / "reference"
+    if not ref_dir.exists():
+        return
+    for html in sorted(ref_dir.glob("*.html")):
+        if html.name.startswith("quick-check-stage-"):
+            continue
+        arc = f"04-Quick-Reference/{html.name}"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(html, arc)
+
+
+def build_game(zf, args, stats):
+    """Section 11: Web game HTML + audio MP3s."""
+    if args.no_game:
+        stats["skipped"].append("11-Game/")
+        return
+    game_html = ROOT / "games" / "phonogram-trainer.html"
+    if game_html.exists():
+        if args.list:
+            stats["included"].append("11-Game/phonogram-trainer.html")
+        else:
             zf.write(game_html, "11-Game/phonogram-trainer.html")
-            print(f"  OK  11-Game/phonogram-trainer.html")
-        audio_dir = ROOT / "games" / "audio"
-        if audio_dir.exists():
+            print("  OK  11-Game/phonogram-trainer.html")
+    if args.no_audio:
+        return
+    audio_dir = ROOT / "games" / "audio"
+    if audio_dir.exists():
+        if args.list:
+            stats["included"].append("12-Audio/")
+        else:
             count = add_directory(zf, audio_dir, "12-Audio")
-            print(f"  OK  12-Audio/  ({count} MP3s)")
+            if count:
+                print(f"  OK  12-Audio/  ({count} MP3s)")
+
+
+# ── CLI ────────────────────────────────────────────────────────────────
+
+def build_argparser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        description="Build release.zip — partial or full curriculum bundle.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""Examples:
+  build-release.py                          # full release (default)
+  build-release.py --output my.zip          # custom output path
+  build-release.py --stage 3                # only Stage 3 assets
+  build-release.py --no-game --no-audio     # skip game + audio
+  build-release.py --no-lessons             # skip 06-Lesson-Packs/
+  build-release.py --list                   # dry-run, list contents""")
+    p.add_argument("--output", "-o", type=Path,
+                   help="Output ZIP path (default: release.zip in project root)")
+    p.add_argument("--stage", type=int, choices=[1, 2, 3, 4, 5], metavar="N",
+                   help="Restrict per-stage assets to one stage (1-5). "
+                        "Affects lesson packs, worksheets, readers, handbooks, certificates.")
+    p.add_argument("--list", action="store_true",
+                   help="Dry-run: print what would be included, do not write the ZIP")
+
+    # Section exclusion flags
+    p.add_argument("--no-readme", action="store_true", help="Skip README.md")
+    p.add_argument("--no-nav", action="store_true",
+                   help="Skip 00/01/02 handbook PDFs + landing page")
+    p.add_argument("--no-handbooks", action="store_true",
+                   help="Skip 05-Teacher-Handbooks/ stage handbooks")
+    p.add_argument("--no-lessons", action="store_true", help="Skip 06-Lesson-Packs/")
+    p.add_argument("--no-worksheets", action="store_true", help="Skip 07-Worksheets/")
+    p.add_argument("--no-readers", action="store_true", help="Skip 08-Decodable-Readers/")
+    p.add_argument("--no-quick-checks", action="store_true", help="Skip 09-Quick-Checks/")
+    p.add_argument("--no-assessments", action="store_true", help="Skip 10-Assessments/")
+    p.add_argument("--no-game", action="store_true", help="Skip 11-Game/ phonogram trainer")
+    p.add_argument("--no-audio", action="store_true", help="Skip 12-Audio/ MP3s (keeps game HTML)")
+    p.add_argument("--no-certs", action="store_true", help="Skip 13-Certificates/")
+    p.add_argument("--no-reference", action="store_true", help="Skip 04-Quick-Reference/ HTMLs")
+    return p
+
+
+def main():
+    args = build_argparser().parse_args()
+
+    out = args.output if args.output else (ROOT / "release.zip")
+    stats = {"included": [], "skipped": []}
+
+    if args.list:
+        # Dry-run: just enumerate what would be included
+        # Use a dummy in-memory ZIP so the section builders can be called
+        # uniformly without touching disk.
+        with zipfile.ZipFile(out, "w") if False else _NullZip() as zf:
+            _run_sections(zf, args, stats)
+        print(f"==> {out.name} (DRY RUN — not written)")
+        print()
+        print(f"Would include {len(stats['included'])} entries:")
+        for entry in stats["included"]:
+            print(f"  + {entry}")
+        print()
+        if stats["skipped"]:
+            print(f"Skipped {len(stats['skipped'])} sections:")
+            for entry in stats["skipped"]:
+                print(f"  - {entry}")
+        return
+
+    print(f"==> Building {out.name}")
+    print()
+
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
+        _run_sections(zf, args, stats)
 
     size_mb = os.path.getsize(out) / (1024 * 1024)
     with zipfile.ZipFile(out, "r") as zf:
         n_files = len(zf.namelist())
     print()
     print(f"Done: {out.name} — {size_mb:.1f} MB, {n_files} files")
+    if stats["skipped"]:
+        print(f"Skipped {len(stats['skipped'])} sections: {', '.join(stats['skipped'])}")
+
+
+def _run_sections(zf, args, stats):
+    """Call every section builder in order."""
+    build_readme(zf, args, stats)
+    build_handbook_nav(zf, args, stats)
+    build_landing_html(zf, args, stats)
+    build_handbooks(zf, args, stats)
+    build_lesson_packs(zf, args, stats)
+    build_stage_overview(zf, args, stats)
+    build_worksheets(zf, args, stats)
+    build_readers(zf, args, stats)
+    build_quick_checks(zf, args, stats)
+    build_assessments(zf, args, stats)
+    build_reference(zf, args, stats)
+    build_game(zf, args, stats)
+    build_certs(zf, args, stats)
+
+
+class _NullZip:
+    """No-op ZipFile substitute for --list dry-runs."""
+
+    def __enter__(self): return self
+    def __exit__(self, *a): pass
+    def write(self, src, arcname): pass
+    def writestr(self, name, data): pass
 
 
 if __name__ == "__main__":

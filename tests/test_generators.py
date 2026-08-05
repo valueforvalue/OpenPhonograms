@@ -33,6 +33,8 @@ SCRIPTS_THAT_HAVE_MAIN = [
     "generate-certificates.py",
     "generate-readers-index.py",
     "copy-assessments.py",
+    "render-extras.py",
+    "render-references.py",
 ]
 
 

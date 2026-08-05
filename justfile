@@ -233,6 +233,21 @@ release:
     @echo "==> Building release.zip"
     @{{python}} {{scripts_dir_s}}/build-release.py
 
+# Dry-run: list what release.zip would contain without writing it
+release-list:
+    @echo "==> Listing release contents (dry run)"
+    @{{python}} {{scripts_dir_s}}/build-release.py --list
+
+# Build release with custom output path
+release-to out:
+    @echo "==> Building {{out}}"
+    @{{python}} {{scripts_dir_s}}/build-release.py --output {{out}}
+
+# Build release for a single stage (e.g. `just release-stage 3`)
+release-stage stage:
+    @echo "==> Building release for Stage {{stage}} only"
+    @{{python}} {{scripts_dir_s}}/build-release.py --stage {{stage}}
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Check — drift / overflow / coverage validators
 # ─────────────────────────────────────────────────────────────────────────────
