@@ -7,125 +7,26 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "worksheets"
 
+# Import phonogram data from the canonical source (framework/phonograms.py).
+# See framework/phonograms.py for the single source of truth.
+import sys
+sys.path.insert(0, str(ROOT / "framework"))
+from phonograms import SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE  # noqa: E402
+
 # Create subdirectories
 for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
     (OUT / d).mkdir(parents=True, exist_ok=True)
 # Stage-grouped subdirectories are created lazily (only when content lands there)
 # to avoid empty stage-N/ dirs polluting the release ZIP.
 
-# Phonogram → stage mapping (which stage each PG is introduced in)
-PG_STAGE = {
-    # Stage 1: single-letter PGs (a-z, qu)
-    **{k: 1 for k in ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","qu","r","s","t","u","v","w","x","y","z"]},
-    # Stage 2: first multi-letter PGs
-    **{
-        "sh":2,"th":2,"ck":2,"ee":2,"ng":2,"ar":2,"or":2,"er":2,
-        "oi":2,"oy":2,"ai":2,"ay":2,"ch":2,"wh":2,"ea":2,"ow":2,"ou":2,
-        "oo":2,"ed":2,"igh":2,"aw":2,"au":2,"ir":2,"ur":2,"oa":2,"ear":2,
-    },
-    # Stage 3: advanced PGs
-    **{
-        "dge":3,"tch":3,"kn":3,"gn":3,"wr":3,
-        "eigh":3,"ei":3,"ey":3,"ph":3,"gh":3,
-        "ough":3,"augh":3,"ew":3,"ui":3,"eu":3,"wor":3,"ie":3,
-    },
-    # Stage 4: Latin /sh/ spellings
-    **{"ti":4,"ci":4,"si":4},
-}
+# Phonogram data (SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE) imported from
+# framework/phonograms.py at the top of this file.
 
 # Rule → stage mapping (from lesson-catalog.csv)
 RULE_STAGE = {
     "26":2,"3":2,"9":2,"20":2,"4":2,"28":2,"30":2,
     "12":3,"1":3,"2":3,"25":3,"27":3,"5":3,"6":3,"7":3,"8":3,"10":3,"31":3,
     "13":4,"14":4,"15":4,"16":4,"17":4,"18":4,"23":4,"24":4,"19":4,"21":4,"22":4,"29":4,
-}
-
-# Flash-card stage grouping
-SINGLES_STAGE = 1  # all single-letter PGs are Stage 1
-MULTIS_STAGE = 2   # default; MULTI3 PGs (Stage 3+) get their own group
-
-# ── PHONOGRAM DATA ──────────────────────────────────────────────────
-
-SINGLE = {
-    "a": {"sounds": "/ă/ /ā/ /ä/", "words": ["at","cat","hat","bat","rat","sat","mat","fat","pat","cap","map","nap","tap","lap","gap","bag","tag","rag","wag","had","mad","sad","dad"]},
-    "b": {"sounds": "/b/", "words": ["bat","big","bed","bug","bag","bit","bet","but","bun","bad","box","bell","ball","bump","bend","best","boat","book","boy","brown"]},
-    "c": {"sounds": "/k/ /s/", "words": ["cat","cot","cup","cap","cab","cub","cop","cut","cent","city","cycle","face","ice","dance","rice","mice","nice","pace","race","lace"]},
-    "d": {"sounds": "/d/", "words": ["dog","dad","dig","dug","dot","dim","dip","dash","dish","desk","drum","drop","dress","drink","door","dark","day","deep","dear","down"]},
-    "e": {"sounds": "/ĕ/ /ē/", "words": ["bed","red","fed","led","get","set","let","met","pet","vet","wet","hen","pen","ten","men","leg","beg","yes","egg","end"]},
-    "f": {"sounds": "/f/", "words": ["fun","fan","fin","fit","fat","fig","fog","fox","fix","fish","fast","frog","flag","from","free","food","feet","five","four","full"]},
-    "g": {"sounds": "/g/ /j/", "words": ["go","get","got","gut","gap","gas","gum","gig","gem","giant","gym","age","cage","page","huge","large","change","strange","gentle","ginger"]},
-    "h": {"sounds": "/h/", "words": ["hat","hot","hen","hog","hug","hip","hop","hum","ham","him","her","his","has","had","hand","help","hill","home","hope","house"]},
-    "i": {"sounds": "/ĭ/ /ī/ /ē/", "words": ["it","in","if","is","sit","fit","hit","bit","pit","big","dig","fig","pig","rig","wig","him","dim","pin","fin","tin"]},
-    "j": {"sounds": "/j/", "words": ["jam","jet","jog","jug","job","jump","just","joke","jelly","judge","join","joy","jar","jack","June","July","jacket","jingle","jungle"]},
-    "k": {"sounds": "/k/", "words": ["kit","kin","kid","kiss","king","keep","kept","kind","kite","knee","knock","know","knife","knot","knit","kayak","kitten","kettle","kernel"]},
-    "l": {"sounds": "/l/", "words": ["leg","log","lap","lip","lot","lit","let","lad","led","lid","lamp","land","last","left","lift","love","live","long","look","like"]},
-    "m": {"sounds": "/m/", "words": ["man","map","mat","mop","mud","mom","men","met","mix","mill","milk","make","made","much","must","most","more","many","may","my"]},
-    "n": {"sounds": "/n/", "words": ["net","not","nut","nap","nip","nod","new","now","name","nine","nice","near","need","next","night","nose","note","number","never","nothing"]},
-    "o": {"sounds": "/ŏ/ /ō/ /ö/", "words": ["on","off","odd","got","hot","not","pot","dot","lot","cot","go","no","so","old","open","over","only","both","most","post"]},
-    "p": {"sounds": "/p/", "words": ["pat","pot","pet","pit","put","pan","pen","pin","pop","pup","pick","pack","play","please","plant","print","park","part","pass","pull"]},
-    "qu": {"sounds": "/kw/", "words": ["queen","quit","quick","quack","quilt","quiz","quest","quiet","quite","quote","quarter","question","quench","quiver","quail","quarry"]},
-    "r": {"sounds": "/r/", "words": ["rat","red","rug","run","ran","rip","rob","rub","rest","rain","read","ride","road","rock","room","right","round","river","rabbit","rainbow"]},
-    "s": {"sounds": "/s/ /z/", "words": ["sat","sit","set","sun","sad","sip","sop","sap","see","say","saw","has","is","his","as","use","rose","nose","these","those"]},
-    "t": {"sounds": "/t/", "words": ["top","tap","tip","tag","tub","ten","ton","tan","tell","take","time","tree","train","truck","turn","true","try","two","to","too"]},
-    "u": {"sounds": "/ŭ/ /ū/ /ö/", "words": ["up","us","cut","hut","nut","rug","bug","hug","jug","mug","fun","run","sun","bun","cup","pup","put","push","pull","full"]},
-    "v": {"sounds": "/v/", "words": ["van","vet","vat","vim","vig","vine","vote","very","visit","voice","view","valley","value","village","vegetable","vacuum","victory","violin","volcano"]},
-    "w": {"sounds": "/w/", "words": ["wet","win","wag","wit","web","was","way","went","want","well","will","with","wish","work","word","world","water","watch","white"]},
-    "x": {"sounds": "/ks/ /z/", "words": ["ax","ox","box","fox","fix","mix","six","tax","wax","next","text","exit","exam","extra","expert","expect","explain","explore","extreme"]},
-    "y": {"sounds": "/y/ /ĭ/ /ī/ /ē/", "words": ["yes","yet","yell","yip","yam","yak","by","my","cry","fly","sky","try","why","gym","myth","baby","happy","funny","silly","very"]},
-    "z": {"sounds": "/z/", "words": ["zip","zap","zig","zag","zed","zoo","zone","zero","zoom","zebra","zesty","zipper","zigzag","pizza","puzzle","dizzy","fuzzy","buzz","fizz","jazz"]},
-}
-
-MULTI = {
-    "sh": {"sounds": "/sh/", "words": ["ship","fish","wish","dash","rush","hush","gush","mush","push","bush","dish","wash","cash","lash","mash","shed","shop","shot","shut","shall"]},
-    "th": {"sounds": "/th/ (voiced) /th/ (unvoiced)", "words": ["this","that","them","then","with","thin","path","bath","math","moth","both","than","these","those","there","their","thing","think","thank","three"]},
-    "ck": {"sounds": "/k/", "words": ["back","sick","duck","neck","lock","rock","sock","pack","pick","kick","tick","tuck","luck","muck","deck","peck","check","click","stick","truck"]},
-    "ee": {"sounds": "/ē/", "words": ["see","bee","fee","free","tree","three","green","sheep","sleep","keep","deep","jeep","need","feed","seed","weed","week","meet","feet","sweet"]},
-    "ng": {"sounds": "/ng/", "words": ["sing","ring","king","long","song","bang","hang","rang","sang","wing","bring","thing","spring","string","strong","wrong","young","along","among","during"]},
-    "ar": {"sounds": "/är/", "words": ["car","far","bar","jar","tar","star","war","art","arm","are","card","hard","yard","bark","dark","mark","park","part","start","smart"]},
-    "or": {"sounds": "/or/", "words": ["for","or","nor","corn","born","horn","torn","worn","form","sort","short","sport","north","horse","force","fork","pork","storm","story","morning"]},
-    "er": {"sounds": "/er/", "words": ["her","per","sister","brother","mother","father","water","under","over","never","ever","very","after","better","letter","number","other","paper","river","summer"]},
-    "oi": {"sounds": "/oi/", "words": ["coin","oil","join","soil","boil","foil","toil","coil","voice","noise","point","poison","toilet","avoid","spoil","choice","rejoice"]},
-    "oy": {"sounds": "/oi/", "words": ["boy","toy","joy","soy","coy","ploy","enjoy","destroy","annoy","employ","decoy","alloy","convoy","deploy","cowboy","oyster","royal","loyal"]},
-    "ai": {"sounds": "/ā/", "words": ["rain","pain","main","gain","vain","train","brain","grain","plain","stain","chain","drain","sail","tail","nail","mail","fail","hail","jail","pail"]},
-    "ay": {"sounds": "/ā/", "words": ["day","say","way","may","pay","lay","ray","bay","hay","clay","play","stay","gray","tray","pray","spray","today","always","away","maybe"]},
-    "ch": {"sounds": "/ch/ /k/ /sh/", "words": ["chin","chip","chop","chat","much","such","rich","which","child","chance","change","chain","chair","chalk","charm","school","echo","chef","machine","brochure"]},
-    "wh": {"sounds": "/hw/", "words": ["when","what","why","where","which","white","whale","wheel","wheat","while","whisper","whistle","whether","whoever","whole","whose","whom"]},
-    "ea": {"sounds": "/ē/ /ĕ/ /ā/", "words": ["eat","each","read","lead","bead","bean","lean","mean","clean","dream","head","dead","bread","spread","ready","heavy","great","break","steak","bear"]},
-    "ow": {"sounds": "/ow/ /ō/", "words": ["cow","how","now","bow","wow","pow","brown","crown","down","town","clown","frown","snow","grow","low","row","show","slow","blow","flow"]},
-    "ou": {"sounds": "/ow/ /ō/ /ö/ /ŭ/", "words": ["out","our","hour","loud","proud","cloud","sound","found","round","ground","you","group","soup","through","though","touch","young","double","trouble","couple"]},
-    "oo": {"sounds": "/ö/ /ü/ /ō/", "words": ["book","look","took","cook","hook","good","wood","foot","stood","food","moon","soon","room","zoo","too","cool","pool","school","door","floor"]},
-    "ed": {"sounds": "/ed/ /d/ /t/", "words": ["wanted","needed","rested","tested","planted","played","called","showed","rained","stayed","fished","jumped","looked","helped","stopped","asked","liked","walked","talked","worked"]},
-    "igh": {"sounds": "/ī/", "words": ["light","night","right","sight","tight","might","fight","high","sigh","thigh","bright","fright","flight","slight","delight","tonight","sunlight","daylight","midnight","highlight"]},
-    "aw": {"sounds": "/ä/", "words": ["saw","law","raw","paw","jaw","caw","draw","claw","flaw","gnaw","slaw","straw","thaw","squaw","dawn","fawn","lawn","pawn","yawn","awful"]},
-    "au": {"sounds": "/ä/", "words": ["cause","pause","sauce","fault","vault","haul","Paul","August","author","autumn","launch","haunt","taunt","daunt","gaunt","jaunt","astronaut","applause","exhaust","caution"]},
-    "ir": {"sounds": "/er/", "words": ["girl","bird","dirt","fir","firm","first","sir","stir","thirst","third","shirt","skirt","squirt","birth","circle","circus","thirty","thirteen","dirty","swirl"]},
-    "ur": {"sounds": "/er/", "words": ["hurt","turn","burn","fur","curb","curl","curt","nurse","purse","purple","burst","church","curve","surf","turf","Thursday","Saturday","furniture","further","return"]},
-    "oa": {"sounds": "/ō/", "words": ["boat","coat","goat","moat","float","road","load","toad","soap","oak","soak","goal","coal","foal","roam","loan","moan","groan","coast","coach"]},
-    "ear": {"sounds": "/er/", "words": ["earn","learn","earth","early","heard","pearl","search","earnest","rehearse","earthquake","ear","dear","fear","gear","hear","near","rear","tear","year","clear"]},
-}
-
-# Bridge PGs from Stage 3+
-MULTI3 = {
-    "dge": {"sounds": "/j/", "words": ["bridge","edge","fudge","judge","badge","lodge","ledge","dodge","nudge","ridge","wedge","hedge","pledge","sledge","dredge","trudge","smudge","grudge"]},
-    "tch": {"sounds": "/ch/", "words": ["catch","match","patch","latch","batch","hatch","notch","ditch","hitch","pitch","witch","fetch","stretch","scratch","kitchen","butcher","pitcher","catcher","watcher"]},
-    "kn": {"sounds": "/n/", "words": ["know","knee","knife","knock","knot","knit","knew","knob","knack","kneel","knight","knowledge","knitting","knuckle","knapsack"]},
-    "gn": {"sounds": "/n/", "words": ["sign","gnat","gnaw","gnash","design","resign","assign","campaign","foreign","reign","align","benign","malign","sovereign","condign"]},
-    "wr": {"sounds": "/r/", "words": ["write","wrong","wrap","wrist","wreck","wren","wrench","wrinkle","wrangle","wreath","wrestle","wrote","written","writer","wrapping"]},
-    "eigh": {"sounds": "/ā/", "words": ["eight","weigh","weight","neigh","sleigh","freight","neighbor","eighteen","eighty","height","sleight","inveigh"]},
-    "ei": {"sounds": "/ē/ /ā/ /ī/", "words": ["ceiling","receive","deceive","perceive","vein","rein","feign","feisty","heist","seismic","protein","either","neither","leisure","seize"]},
-    "ey": {"sounds": "/ā/ /ē/", "words": ["they","hey","prey","obey","convey","survey","key","valley","money","honey","monkey","turkey","donkey","kidney","chimney"]},
-    "ph": {"sounds": "/f/", "words": ["phone","graph","photo","phrase","sphere","Philip","trophy","dolphin","elephant","alphabet","paragraph","telephone","microphone","autograph","photograph"]},
-    "gh": {"sounds": "/g/", "words": ["ghost","ghastly","ghetto","ghoul","spaghetti","ghostly","ghoulish","afghan","dinghy","sorghum"]},
-    "ough": {"sounds": "/ō/ /ö/ /ow/ /ŭf/ /äf/", "words": ["though","through","cough","rough","tough","enough","bought","fought","sought","thought","dough","although","thorough","borough","breakthrough"]},
-    "augh": {"sounds": "/ä/ /ăf/", "words": ["caught","taught","naught","haughty","daughter","slaughter","laugh","laughter","draught","draughty"]},
-    "ew": {"sounds": "/ü/ /ö/", "words": ["few","new","grew","blew","flew","drew","crew","stew","chew","threw","knew","newspaper","renew","nephew","jewelry"]},
-    "ui": {"sounds": "/ü/ /ö/", "words": ["fruit","suit","juice","build","guild","guilt","biscuit","circuit","cruise","bruise","pursuit","suitable","nuisance","recruit"]},
-    "eu": {"sounds": "/ü/", "words": ["neutral","feud","Europe","eucalyptus","pneumonia","therapeutic","leukemia","pseudonym","eulogy","euphoria"]},
-    "wor": {"sounds": "/wer/", "words": ["work","word","world","worm","worse","worst","worth","worship","worthy","workshop","network","homework","fireworks","typewriter"]},
-    "ie": {"sounds": "/ē/ /ī/", "words": ["field","piece","chief","brief","grief","thief","believe","achieve","relieve","shield","pie","tie","lie","die","fries","cries","dries","tries","flies","spies"]},
-    "ti": {"sounds": "/sh/", "words": ["nation","station","action","motion","fraction","patient","partial","initial","essential","subtle","gracious","fictional","national","vibration","migration","rotation","creation","operation","celebration"]},
-    "ci": {"sounds": "/sh/", "words": ["special","social","official","musician","electric","politician","racial","crucial","precious","delicious","malicious","artificial","conscious","fancied","glacier","spacious","vicious","audacious","vivacious","efficient"]},
-    "si": {"sounds": "/sh/", "words": ["session","mission","vision","passion","version","tension","extension","dimension","explosion","confusion","division","decision","collision","occasion","emulsion","mansion","pension","suspension","comprehension","apprehension"]},
 }
 
 RULES_WORDS = {
@@ -291,9 +192,9 @@ Sort into "fast" and "needs practice" piles.
 # ── GENERATORS ──────────────────────────────────────────────────────
 
 def generate_pg_worksheets():
-    """One worksheet per phonogram (75 total)."""
+    """One worksheet per phonogram (75 total: 27 single + 26 multi + 17 stage3 + 3 Latin /sh/)."""
     count = 0
-    for pg, data in {**SINGLE, **MULTI, **MULTI3}.items():
+    for pg, data in {**SINGLE, **MULTI, **MULTI3, **MULTI4}.items():
         words = data["words"][:12]
         circle = " &nbsp;&nbsp; ".join(words[:8])
         # Fill blanks: remove PG from each word
@@ -403,13 +304,13 @@ def generate_flash_cards():
         (s2 / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
         count += 1
 
-    # Multi-letter cards — Stage 3 (MULTI3 PGs: advanced + Latin /sh/ from Stage 4)
-    multis_s3 = list(MULTI3.keys())
-    for page in range(0, len(multis_s3), 4):
-        batch = multis_s3[page:page+4]
+    # Multi-letter cards — Stage 3+ (advanced PGs + Latin /sh/ from Stage 4)
+    multis_s3plus = list(MULTI3.keys()) + list(MULTI4.keys())
+    for page in range(0, len(multis_s3plus), 4):
+        batch = multis_s3plus[page:page+4]
         cards = ""
         for pg in batch:
-            data = MULTI3.get(pg, {"sounds": "—"})
+            data = {**MULTI3, **MULTI4}.get(pg, {"sounds": "—"})
             sounds = data["sounds"]
             cards += f"""<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
 <div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">{pg}</div>
@@ -417,13 +318,14 @@ def generate_flash_cards():
 </div>\n"""
 
         content = FLASH_CARD_SHEET.format(
-            title=f"Advanced Phonograms (Stage 3+ — Page {(page//4)+1} of {(len(multis_s3)//4)+1})",
+            title=f"Advanced Phonograms (Stage 3+ — Page {(page//4)+1} of {(len(multis_s3plus)//4)+1})",
             cards=cards)
         # Continue flat numbering so existing pack references don't break
         flat_idx = (page // 4) + 1 + (len(multis_s2) // 4)
         (OUT / "cards" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
-        # Stage 3 mirror for most, Stage 4 for ti/ci/si
-        if any(pg in ("ti", "ci", "si") for pg in batch):
+        # Stage 3 mirror for most, Stage 4 for ti/ci/si — use PG_STAGE from
+        # framework/phonograms.py as the source of truth (issue #14).
+        if any(PG_STAGE.get(pg) == 4 for pg in batch):
             stage = 4
         else:
             stage = 3
