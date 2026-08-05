@@ -67,3 +67,7 @@ Be hopeful and careful. The beautiful painting is useful. I am joyful and thankf
 ---
 
 *Practice at home: Write 5 words with the -ful suffix. Circle the one-L suffix in each.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

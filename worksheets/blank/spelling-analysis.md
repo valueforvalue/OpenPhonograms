@@ -22,3 +22,7 @@ For each word, follow: Hear & Say → Segment → Write → Analyze → Read
 ---
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

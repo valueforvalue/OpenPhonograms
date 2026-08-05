@@ -80,3 +80,7 @@ The nation has a special mission. My vision of the action is clear. The musician
 ---
 
 *Practice at home: Write 3 words with SH and 3 with Latin /sh/. Explain the difference!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

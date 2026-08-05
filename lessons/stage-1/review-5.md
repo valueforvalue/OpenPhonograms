@@ -103,3 +103,7 @@ Can you say ALL 26 phonograms from Group ALL with their sounds in under 30 secon
 ---
 
 *Practice at home: Play the "Phonogram Hunt" game with a family member!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

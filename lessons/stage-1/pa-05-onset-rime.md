@@ -68,3 +68,7 @@ Stand in a circle (or just stand up). Adult says an /at/ word. Everyone hops! Ad
 ---
 
 *Practice at home: Play 'Mystery Word' in the car. Adult says /p/ ... /ark/ and child guesses 'park!'*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

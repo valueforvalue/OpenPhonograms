@@ -90,3 +90,7 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

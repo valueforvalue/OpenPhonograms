@@ -122,3 +122,7 @@ Write each letter once. Say its sounds as you write.
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

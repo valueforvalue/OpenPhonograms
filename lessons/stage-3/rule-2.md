@@ -101,3 +101,7 @@ gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ �
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

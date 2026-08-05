@@ -175,3 +175,7 @@ Friends are what he did need.
 ---
 
 **Phonograms used:** sheep little green see keep sleep deep feel need tree
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

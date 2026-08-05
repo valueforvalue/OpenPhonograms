@@ -63,3 +63,7 @@ And it all started with careful observation and patient inspection of the smalle
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

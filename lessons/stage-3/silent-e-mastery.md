@@ -59,3 +59,7 @@ For each word, identify which Silent E reason (12.1–12.9) applies. Some words 
 ---
 
 *Practice at home: Find 10 silent E words in a book. Name the reason for each!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -131,3 +131,7 @@ If ≥85%: Move to Stage 4! If weaker, review specific trouble areas and retest 
 ---
 
 *Great work! You're more than halfway through learning all 75 phonograms!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

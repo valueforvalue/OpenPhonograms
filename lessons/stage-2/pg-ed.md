@@ -113,3 +113,7 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

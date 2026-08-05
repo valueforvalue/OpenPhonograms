@@ -83,3 +83,7 @@ Most nouns add -S or -ES for plurals. But some old English words keep their anci
 ---
 
 *Practice at home: Find 5 irregular plurals in a book. Write the singular and plural.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

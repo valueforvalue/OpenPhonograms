@@ -41,3 +41,7 @@ Spell these words from dictation. Name the root in each:
 ---
 
 *Practice at home: You know 25 Latin and Greek roots! That unlocks thousands of words.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

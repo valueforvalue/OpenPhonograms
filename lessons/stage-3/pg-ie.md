@@ -90,3 +90,7 @@ IE has two sounds: /ē/ (most common, as in 'field') and /ī/ (at the end of wor
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

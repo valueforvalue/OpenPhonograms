@@ -191,3 +191,7 @@ Being in the pen is fun. Having pals is better.
 ---
 
 **Phonograms used:** pig pen mud big dig fun run jump the
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -64,3 +64,7 @@ Word ladder game: Each step change one sound. Adult starts with 'cat.' Child cha
 ---
 
 *Practice at home: Play 'Sound Swap' in the car. Start with any 3-sound word and see how many new words you can make!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

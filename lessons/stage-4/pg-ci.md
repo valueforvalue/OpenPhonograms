@@ -60,3 +60,7 @@ Both say /sh/ in Latin words! TI is more common overall, especially in -tion. CI
 ---
 
 *Practice at home: Find CI words in a book. How many end in -cial?*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

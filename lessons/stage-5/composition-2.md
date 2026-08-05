@@ -55,3 +55,7 @@ Use at least 4 sentences. Include a topic sentence and a closing sentence.
 ---
 
 *Practice at home: Write a paragraph about your day. Make sure it has a topic sentence and a closing sentence!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

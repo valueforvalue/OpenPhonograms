@@ -273,3 +273,7 @@ She takes a bite. "This is the best cake I have ever had!" Mom smiles. Jake hugs
 ---
 
 **Phonograms used:** silent E + all previous
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

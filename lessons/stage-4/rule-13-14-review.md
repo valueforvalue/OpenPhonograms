@@ -39,3 +39,7 @@ Explain why these DON'T change: sleeping (2 vowels), jumping (2 final consonants
 ---
 
 *Practice at home: Review Rules 13 and 14 flashcards!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

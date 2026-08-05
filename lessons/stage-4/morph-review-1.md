@@ -52,3 +52,7 @@ redo (do again), untie (opposite of tie), prepay (pay before), submarine (under 
 ---
 
 *Practice at home: Review your morpheme wall!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

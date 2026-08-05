@@ -70,3 +70,7 @@ Write each word. Underline the Prefix. Say the meaning aloud.
 ---
 
 *Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

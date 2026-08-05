@@ -56,3 +56,7 @@ Today we practice ALL the spelling skills from Stage 3: silent E, new phonograms
 ---
 
 *Practice at home: Choose 3 words from today. Write each one 3 times.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

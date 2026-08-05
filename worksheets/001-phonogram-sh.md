@@ -75,3 +75,7 @@ Write one sentence using a word that contains **sh**.
 **Name:** _______________ **Date:** _______________
 
 **Score:** ___ / 5 spelling &nbsp;&nbsp; ___ / 5 fill-in-the-blank &nbsp;&nbsp; ___ sentence
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

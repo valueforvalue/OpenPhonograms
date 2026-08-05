@@ -97,3 +97,7 @@ Three of Y's four sounds are vowels!
 ---
 
 *Practice at home: Find 5 things in the house. Say their names. Count the vowels in each word!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

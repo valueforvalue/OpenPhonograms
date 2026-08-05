@@ -102,3 +102,7 @@ If ≥85%: Continue. If weaker, review trouble spots for 1 week and retest.
 ---
 
 *Almost done with all 75 phonograms and 31 rules!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

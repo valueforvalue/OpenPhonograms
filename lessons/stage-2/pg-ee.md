@@ -109,3 +109,7 @@ see &nbsp;&nbsp; feet &nbsp;&nbsp; green
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

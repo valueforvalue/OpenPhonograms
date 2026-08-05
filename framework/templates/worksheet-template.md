@@ -69,3 +69,7 @@ Write one sentence using a word that contains **{phonogram}**.
 ---
 
 **Name:** _______________ **Date:** _______________
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

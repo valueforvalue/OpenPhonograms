@@ -48,3 +48,7 @@ Today we practice ALL skills from Stage 4: suffixing, Latin /sh/, say-to-spell, 
 ---
 
 *Practice at home: Choose 4 words and write each one 3 times.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

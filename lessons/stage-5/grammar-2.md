@@ -56,3 +56,7 @@ Write 3 sentences that follow today's grammar pattern:
 ---
 
 *Practice at home: Find one of each sentence type in a book. Write them down!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

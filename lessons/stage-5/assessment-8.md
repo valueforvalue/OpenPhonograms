@@ -107,3 +107,7 @@ If ≥85%: You've completed the full curriculum! Celebrate this achievement. If 
 ---
 
 *You've completed all 5 stages! You now know all 75 basic phonograms, 31 spelling rules, and can decode 98% of English words. Congratulations!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -111,3 +111,7 @@ coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

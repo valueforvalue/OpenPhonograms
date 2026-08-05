@@ -235,3 +235,7 @@ Being safe in his den is fine.
 ---
 
 **Phonograms used:** fox den red run fast big log sit the his
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

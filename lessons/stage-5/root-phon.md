@@ -66,3 +66,7 @@ Fill in the blanks with a **phon** word:
 ---
 
 *Practice at home: Find 3 words with **phon** in a book. Write each and its meaning.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

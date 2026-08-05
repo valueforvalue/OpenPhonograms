@@ -91,3 +91,7 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

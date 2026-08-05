@@ -111,3 +111,7 @@ rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

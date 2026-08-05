@@ -66,3 +66,7 @@ He runs and walks. She fixes the box. It washes away. He catches the ball and wa
 ---
 
 *Practice at home: Write: he (run), she (fix), it (wash), he (catch). Apply Rule 22 to each.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

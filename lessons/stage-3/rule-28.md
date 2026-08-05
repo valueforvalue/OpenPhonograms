@@ -101,3 +101,7 @@ light, high (IGH — GH silent) · eight, neighbor (EIGH — GH silent) · thoug
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

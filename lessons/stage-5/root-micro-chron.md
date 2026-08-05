@@ -66,3 +66,7 @@ Fill in the blanks with a **micro/chron** word:
 ---
 
 *Practice at home: Find 3 words with **micro/chron** in a book. Write each and its meaning.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

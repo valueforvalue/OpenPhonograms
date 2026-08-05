@@ -140,3 +140,7 @@ Use a word with **{new_phonogram}** in a new sentence:
 ---
 
 **You read {word_count} words!** ⭐
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

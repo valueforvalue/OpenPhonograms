@@ -78,3 +78,7 @@ Remember: rules describe patterns, not absolute laws. O before TH/M/N/V OFTEN sa
 ---
 
 *Practice at home: Find words with O→/ŭ/: love, mother, some, done, above, cover.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

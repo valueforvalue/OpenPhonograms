@@ -66,3 +66,7 @@ Fill in the blanks with a **duct/duc** word:
 ---
 
 *Practice at home: Find 3 words with **duct/duc** in a book. Write each and its meaning.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

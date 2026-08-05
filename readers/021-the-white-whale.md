@@ -219,3 +219,7 @@ She was never meant to blend in. She was meant to shine.
 ---
 
 **Phonograms used:** whale white when whole while deep sea great shine bright
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

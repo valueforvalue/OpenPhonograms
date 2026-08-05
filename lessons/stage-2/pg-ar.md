@@ -109,3 +109,7 @@ car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

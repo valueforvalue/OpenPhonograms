@@ -71,3 +71,7 @@ The End.
 ---
 
 *Practice at home: Read this aloud to your family!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -101,3 +101,7 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -61,3 +61,7 @@ TI says /sh/ when followed by another vowel (most often -tion). The T and I work
 ---
 
 *Practice at home: Find 5 words with -tion in a book!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

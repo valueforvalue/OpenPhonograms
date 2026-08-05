@@ -225,3 +225,7 @@ The sun came out. A rainbow stretched across the sky. "Look!" said Sue.
 ---
 
 **Phonograms used:** ough, augh, ew, ui, eu + all previous
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

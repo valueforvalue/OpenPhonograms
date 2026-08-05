@@ -77,3 +77,7 @@ Find a synonym AND an antonym for each:
 ---
 
 *Practice at home: Find 5 synonym pairs and 5 antonym pairs in a book.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

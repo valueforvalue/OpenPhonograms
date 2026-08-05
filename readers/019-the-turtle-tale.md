@@ -217,3 +217,7 @@ Tully smiles and tucks into his shell.
 ---
 
 **Phonograms used:** turtle little purple circle simple gentle start far farm hard
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

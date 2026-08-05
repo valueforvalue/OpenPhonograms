@@ -101,3 +101,7 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -63,3 +63,7 @@ Stand up and be a sound machine! Adult names an animal. Child makes its sound. S
 ---
 
 *Practice at home: Close your eyes before bed tonight. Name 5 sounds you hear.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

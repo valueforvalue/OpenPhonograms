@@ -205,3 +205,7 @@ The beaver family rests on their dam, proud of their creation.
 ---
 
 **Phonograms used:** beaver river construction building family together stronger underwater amazing protection
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -69,3 +69,7 @@ Be a robot! Adult says a word. Child walks like a robot, saying one sound per st
 ---
 
 *Practice at home: At dinner, everyone segments a word from the meal: /m/ /ĭ/ /l/ /k/ → milk!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

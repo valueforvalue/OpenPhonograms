@@ -71,3 +71,7 @@ Some irregular verbs follow patterns:
 ---
 
 *Practice at home: Write 5 sentences using today's irregular past tense verbs.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -101,3 +101,7 @@ find, kind, mind, child, wild, blind (I=/ī/) · old, cold, most, post, bolt, ro
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -76,3 +76,7 @@ Read these sentences:
 ---
 
 *Practice at home: Find 3 words in a book that follow Silent E Reason 12.3.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

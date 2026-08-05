@@ -91,3 +91,7 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

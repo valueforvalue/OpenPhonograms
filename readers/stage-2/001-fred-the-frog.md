@@ -186,3 +186,7 @@ Use a word with **sh** in a new sentence:
 ---
 
 **You read 83 words!** ⭐
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

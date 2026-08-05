@@ -114,3 +114,7 @@ If ≥85%: Advance to Stage 5. If weaker, review specific lessons for 1-2 weeks.
 ---
 
 *Almost done with all 75 phonograms and 31 rules!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

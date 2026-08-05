@@ -29,3 +29,7 @@ Cut along lines. Each card shows the phonogram.
 | eigh | ei | ey | ph | gh | ough | augh |
 | ew | ui | eu | wor | ie |
 ```
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

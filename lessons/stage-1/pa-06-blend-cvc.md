@@ -69,3 +69,7 @@ Adult says three sounds. If they make a real word, child jumps. If they make a n
 ---
 
 *Practice at home: Play the blending game while waiting anywhere — the grocery line, the car, the doctor's office.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

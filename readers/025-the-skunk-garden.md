@@ -183,3 +183,7 @@ She patrols at dusk, keeping the smaller creatures safe. Her secret power, once 
 ---
 
 **Phonograms used:** skunk garden protection powerful dangerous respect distance nature creature understand
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

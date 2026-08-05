@@ -39,3 +39,7 @@ Cut along lines. Adult draws one card and reads the sound aloud.
 ---
 
 **For more boards:** Each player writes 9 phonograms from the calling cards in a 3×3 grid on their whiteboard. New board every game!
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

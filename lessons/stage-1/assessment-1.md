@@ -138,3 +138,7 @@ If all sections pass: Move to Stage 2! If any section is weak, return to those l
 ---
 
 *You completed Stage 1! Celebrate with a special reading together.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

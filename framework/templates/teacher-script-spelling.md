@@ -23,3 +23,7 @@ Follow this script for each spelling word:
 > *(Child reads: /s/ /h/ /ĭ/ /p/ → ship.)*
 
 Repeat for each word.
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

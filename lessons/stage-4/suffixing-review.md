@@ -39,3 +39,7 @@ Write: cry→cr____ (es), baby→bab____ (es), happy→happ____ (ness). Write cr
 ---
 
 *Practice at home: Review all 4 suffixing rule flashcards! (13, 14, 15, 16)*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

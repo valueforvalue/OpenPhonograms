@@ -101,3 +101,7 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

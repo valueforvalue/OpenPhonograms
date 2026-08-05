@@ -89,3 +89,7 @@ GN is a two-letter /n/. At the beginning of a word, the G is silent (gnat, gnaw)
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

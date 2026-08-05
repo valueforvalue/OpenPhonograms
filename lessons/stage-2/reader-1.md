@@ -122,3 +122,7 @@ Find these words in the story. Write them and underline the phonograms:
 *Practice at home: Read this story aloud to a family member!*
 
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

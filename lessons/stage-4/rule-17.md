@@ -69,3 +69,7 @@ The nation has a special vision. The musician's mission is action!
 ---
 
 *Practice at home: Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

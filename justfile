@@ -159,6 +159,16 @@ gen-readers-index:
     @echo "==> Generating readers index"
     @{{python}} {{scripts_dir_s}}/generate-readers-index.py
 
+# Add source-attribution footer to all lesson/worksheet/reader MDs (issue #32)
+gen-footers:
+    @echo "==> Injecting source-attribution footers"
+    @{{python}} {{framework_dir_s}}/inject_footer.py
+
+# Verify PDFs contain the source attribution (issue #36)
+check-pdf-credits:
+    @echo "==> Checking PDFs for source attribution"
+    @{{python}} {{framework_dir_s}}/check_pdf_credits.py
+
 # Generate printable binding instructions (spine labels, tab labels, print guide)
 gen-binding-instructions:
     @echo "==> Generating binding instructions"

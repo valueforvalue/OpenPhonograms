@@ -69,3 +69,7 @@ Write each word once. Say the sounds as you write.
 ---
 
 *Practice at home: Flash phonogram cards for 5 minutes. Find today's phonogram in a book.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

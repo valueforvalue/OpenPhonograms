@@ -73,3 +73,7 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 ---
 
 *Practice at home: Find 3 two-syllable words in a book. Clap the syllables and try to divide them.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -70,3 +70,7 @@ Write each word. Underline the Suffix. Say the meaning aloud.
 ---
 
 *Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -71,3 +71,7 @@ The baker is making a cake. I am hoping to drive. She is writing and smiling.
 ---
 
 *Practice at home: Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

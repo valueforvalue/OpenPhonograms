@@ -225,3 +225,7 @@ The mat is soft. And being pals is the best fun of all.
 ---
 
 **Phonograms used:** cat dog sit run big fun the and see
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

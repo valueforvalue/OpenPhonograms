@@ -85,3 +85,7 @@ Adult reads these sentences. Child writes them.
 ---
 
 *Practice at home: Find today's words in a book. Write each one and underline the tricky phonograms.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

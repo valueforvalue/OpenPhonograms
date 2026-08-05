@@ -53,3 +53,7 @@ Today we practice spelling words where C says /s/ and G says /j/.
 ---
 
 *Practice at home: Find words with ce, ci, ge, gi in a book.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

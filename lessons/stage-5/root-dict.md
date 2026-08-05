@@ -67,3 +67,7 @@ Fill in the blanks with a **dict** word:
 ---
 
 *Practice at home: Find 3 words with **dict** in a book. Write each and its meaning.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

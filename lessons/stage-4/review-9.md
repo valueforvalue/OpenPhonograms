@@ -39,3 +39,7 @@ Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?
 ---
 
 *Practice at home: Review all Stage 4 flashcards!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

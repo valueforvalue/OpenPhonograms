@@ -61,3 +61,7 @@ After writing, check each word using the steps above.
 ---
 
 *Practice at home: Write a short story (4-5 sentences). Check every word for correct spelling!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

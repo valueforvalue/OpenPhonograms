@@ -72,3 +72,7 @@ Scavenger hunt! Find something in the room that starts with /b/ (book?), /k/ (cu
 ---
 
 *Practice at home: Play 'I Spy' with sounds! 'I spy something that starts with /b/...'*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

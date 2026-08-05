@@ -73,3 +73,7 @@ Stand up! Adult says a compound word. If it's real, jump once. If it's made up, 
 ---
 
 *Practice at home: Look around the house. How many compound words can you find? (bathroom, doorbell, bookshelf, etc.)*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -70,3 +70,7 @@ Adult says a word. If it ends with /t/, child touches their TOES. If it ends wit
 ---
 
 *Practice at home: On a walk, play: 'I see a tree. What's the last sound in tree?'*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -91,3 +91,7 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

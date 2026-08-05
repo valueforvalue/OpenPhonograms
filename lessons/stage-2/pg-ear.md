@@ -109,3 +109,7 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

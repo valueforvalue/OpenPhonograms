@@ -90,3 +90,7 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

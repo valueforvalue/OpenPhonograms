@@ -69,3 +69,7 @@ Name the relationship for each pair:
 ---
 
 *Practice at home: Find 5 word pairs in a book and name their relationship.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

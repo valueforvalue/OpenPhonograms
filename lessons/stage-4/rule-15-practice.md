@@ -74,3 +74,7 @@ The babies cried. I carried the bag. Happiness is the funniest thing!
 ---
 
 *Practice at home: Write the -es, -ed, and -ing forms of 'cry' and 'try.'*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

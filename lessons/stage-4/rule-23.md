@@ -68,3 +68,7 @@ I already ate. Although it is late, I always read. I also almost finished!
 ---
 
 *Practice at home: Find AL- words in a book. Write them and circle the one-L prefix.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

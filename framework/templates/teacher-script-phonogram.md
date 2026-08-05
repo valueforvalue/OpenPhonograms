@@ -21,3 +21,7 @@
 {rule_script}
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram {pg} — it says {sounds}.")*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

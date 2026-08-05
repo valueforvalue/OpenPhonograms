@@ -14,3 +14,7 @@ Cut along the dotted lines. Practice daily!
 
 **Instructions:** Flash one card at a time. Child says ALL sounds within 2 seconds.
 Sort into "fast" and "needs practice" piles.
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -91,3 +91,7 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

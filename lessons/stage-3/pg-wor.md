@@ -89,3 +89,7 @@ WOR is a special phonogram where the W changes the sound of OR. Instead of /or/,
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

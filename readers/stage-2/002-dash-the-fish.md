@@ -313,3 +313,7 @@ He sits in the sun. Dash is a smart fish.
 ---
 
 **Phonograms used:** sh, th, ck + all single-letter
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

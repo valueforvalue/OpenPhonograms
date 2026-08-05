@@ -89,3 +89,7 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

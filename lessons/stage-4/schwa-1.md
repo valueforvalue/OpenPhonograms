@@ -82,3 +82,7 @@ If you try to spell 'about' by sound, you might write 'ubout' — because schwa 
 ---
 
 *Practice at home: Find 5 schwa words in a book. Say each one normally, then say-to-spell.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

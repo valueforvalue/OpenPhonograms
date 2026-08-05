@@ -103,3 +103,7 @@ The End.
 ---
 
 *Practice at home: Read this story aloud! Then try to build your own boat from a box!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

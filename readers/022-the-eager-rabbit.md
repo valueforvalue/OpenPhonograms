@@ -225,3 +225,7 @@ A worm in the soil. The way the carrot tops wave in the breeze. "This is nice," 
 ---
 
 **Phonograms used:** rabbit eager garden carrot hopping running waiting happy little better
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

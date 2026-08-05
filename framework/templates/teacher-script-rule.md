@@ -17,3 +17,7 @@
 > *(Dictate practice words. Child writes and explains.)*
 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

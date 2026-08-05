@@ -90,3 +90,7 @@ EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW 
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

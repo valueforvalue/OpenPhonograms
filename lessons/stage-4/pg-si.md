@@ -61,3 +61,7 @@
 ---
 
 *Practice at home: Find SI words in a book. Does SI say /sh/ or /zh/?*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

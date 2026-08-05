@@ -261,3 +261,7 @@ But he ran his best race. And that is enough.
 ---
 
 **Phonograms used:** horse fast race more before ride time make take came
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

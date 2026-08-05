@@ -89,3 +89,7 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

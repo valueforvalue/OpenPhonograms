@@ -61,3 +61,7 @@ Write 3 sentences that follow today's grammar pattern:
 ---
 
 *Practice at home: Write 5 sentences using all 5 punctuation marks correctly!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

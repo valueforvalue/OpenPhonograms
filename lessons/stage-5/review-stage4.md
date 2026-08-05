@@ -41,3 +41,7 @@ Spell these words from dictation. Name the root in each:
 ---
 
 *Practice at home: Review all flashcards from Stages 1-4!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -255,3 +255,7 @@ Then they go in for milk.
 ---
 
 **Phonograms used:** oi, oy, ai, ay + all previous
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

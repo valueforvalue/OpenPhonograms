@@ -72,3 +72,7 @@ Elephants teach us that intelligence takes many forms. Their wisdom is written n
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

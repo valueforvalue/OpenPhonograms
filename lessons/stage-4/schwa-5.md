@@ -80,3 +80,7 @@ Most of these words end in -ar or -or, and the ending syllable is unstressed. Th
 ---
 
 *Practice at home: Find words ending in -ar and -or. Does the ending say /er/?*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

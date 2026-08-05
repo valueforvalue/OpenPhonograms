@@ -65,3 +65,7 @@ Use each word in a sentence about spelling or reading:
 ---
 
 *Practice at home: Find 3 Tier 2 words in a book. Write them and their meanings.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

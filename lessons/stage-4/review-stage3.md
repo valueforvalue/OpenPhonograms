@@ -39,3 +39,7 @@ bridge (Rule 25), catch (Rule 27), know (KN), sign (GN), write (WR), eight (Rule
 ---
 
 *Practice at home: Flash all 75 phonogram cards!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

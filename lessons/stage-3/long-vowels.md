@@ -72,3 +72,7 @@ We'll learn ALL of these in Stage 3!
 ---
 
 *Practice at home: Find 5 words with long vowels in a book.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

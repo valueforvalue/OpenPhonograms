@@ -65,3 +65,7 @@ Build each fragment into a complete sentence with details:
 ---
 
 *Practice at home: Write 5 complete sentences about your day. Add details to each one!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

@@ -57,3 +57,7 @@ Write each word. Say the say-to-spell version aloud as you write.
 ---
 
 *Practice at home: Find 5 schwa words in a book. Write the say-to-spell version for each.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

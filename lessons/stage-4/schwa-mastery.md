@@ -46,3 +46,7 @@ For each word: (1) Say it normally, (2) identify the schwa syllable, (3) say-to-
 ---
 
 *Practice at home: Pick your 3 hardest schwa words. Write each one 5 times with say-to-spell.*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

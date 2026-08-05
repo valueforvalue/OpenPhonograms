@@ -101,3 +101,7 @@ cent, city, cycle, face, ice, dance (C=/s/) · cat, cot, cup, clip, crab (C=/k/)
 
 </details>
 
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

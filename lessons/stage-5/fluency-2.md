@@ -79,3 +79,7 @@ A perfect rainbow stretched from horizon to horizon — a silent promise after t
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*

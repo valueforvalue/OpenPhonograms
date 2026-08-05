@@ -63,3 +63,7 @@ Can you say ALL 6 phonograms from Group 4 with their sounds in under 30 seconds?
 ---
 
 *Practice at home: Play the "Phonogram Hunt" game with a family member!*
+
+---
+
+*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
