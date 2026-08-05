@@ -256,11 +256,17 @@ def md_to_html(md_text: str, md_file: Path) -> str:
     # Pre-convert markdown images to HTML img tags so they work inside HTML divs
     import re as _re
     md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', r'<img src="\2" alt="\1">', md_text)
-    
-    html = markdown.markdown(
-        md_text,
-        extensions=["tables", "fenced_code", "codehilite", "toc", "md_in_html"],
-    )
+
+    # python-markdown treats HTML block elements as opaque by default — markdown
+    # inside <div class="reader-sidebar"> etc. would pass through as raw text.
+    # Split on div boundaries, convert each chunk separately, reassemble.
+    md = markdown.Markdown(extensions=["tables", "fenced_code", "codehilite", "toc", "md_in_html"])
+    parts = _re.split(r'(</?div[^>]*>)', md_text)
+    chunks = []
+    for part in parts:
+        md.reset()
+        chunks.append(md.convert(part))
+    html = ''.join(chunks)
     # Wrap images that don't exist in placeholder divs
     import re
     def img_replacer(match):
