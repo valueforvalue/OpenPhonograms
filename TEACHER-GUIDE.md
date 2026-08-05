@@ -433,3 +433,26 @@ See [docs/BUILD.md](docs/BUILD.md) for full instructions.
 5. **Say-to-Spell is not optional.** Schwa appears in the majority of multi-syllable words. Without say-to-spell, the child cannot hear the spelling.
 6. **Never skip phonemic awareness.** Even if the child knows letters, sound discrimination is the foundation.
 7. **One new thing per lesson.** Never introduce two phonograms or two rules in one lesson.
+
+---
+
+## Attribution & License
+
+This curriculum is an **adaptation** of the methodology described in
+Denise Eide's *Uncovering the Logic of English* (2012). Eide is the
+original author of the underlying phonogram, rule, and lesson-structure
+methodology. This release re-presents her work in printable form under
+the project's open license.
+
+- **Source methodology**: *Uncovering the Logic of English* by
+  Denise Eide — see [logicofenglish.com](https://logicofenglish.com/).
+- **Project license**: MIT — see [`LICENSE`](./LICENSE).
+- **Attribution and trademarks**: See [`NOTICE`](./NOTICE).
+- **Bundled typography**: This release embeds Atkinson Hyperlegible
+  (Braille Institute, 2019) under the SIL Open Font License 1.1 — see
+  `framework/fonts/OFL.txt`.
+
+If you find this curriculum useful, consider supporting the original
+author: the commercial LoE product line (Doodling Dragons, Whistling
+Whales, Knitting Knights, etc.) and the source book remain the best
+ways to fund continued methodology development.

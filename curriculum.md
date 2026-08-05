@@ -1,6 +1,13 @@
 # Teach Your Child to Read: A Curriculum Based on *Uncovering the Logic of English*
 
-## By Denise Eide
+## Adapted from the Methodology of Denise Eide
+
+> This is an *adaptation* of the methodology described in Denise Eide's
+> *Uncovering the Logic of English* (2012). Eide is the original
+> methodology author; this curriculum is a re-presentation of her
+> phonograms, rules, and lesson structure for a printable, open-source
+> release. See [`LICENSE`](./LICENSE) and [`NOTICE`](./NOTICE) for
+> licensing and full attribution.
 
 ---
 
