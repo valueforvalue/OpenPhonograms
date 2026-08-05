@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Inject warm-up sections into Stages 3-4 reader lessons.
 
 Reader lessons (reader-2 through reader-6) lack warm-up sections.

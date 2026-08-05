@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Render all worksheets and reader MDs to PDFs.
 
 Renders:

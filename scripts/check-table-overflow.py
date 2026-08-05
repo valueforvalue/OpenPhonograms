@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Scan rendered PDFs for content that overflows the right margin.
 
 For each page, finds the maximum x-coordinate of any text rectangle. If that

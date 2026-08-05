@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Merge per-stage worksheets + readers + cards into single stage PDFs.
 
 For each stage (1-5), produces:

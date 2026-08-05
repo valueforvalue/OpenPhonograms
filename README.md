@@ -173,7 +173,18 @@ Architectural decisions are recorded in [docs/agents/adr/](docs/agents/adr/) —
 
 ## License
 
-Released under the **MIT License** — see [LICENSE](LICENSE).
+Released under the **MIT License** for the project's own code and content
+— see [LICENSE](LICENSE) for the full text. The methodology described in
+this curriculum is an *adaptation* of Denise Eide's *Uncovering the Logic
+of English* and is not claimed as original work by this project's
+authors; see [NOTICE](NOTICE) for the full attribution and trademark
+disclaimer.
+
+The bundled [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont)
+font (in `framework/fonts/`) is redistributed under the
+[SIL Open Font License 1.1](https://openfontlicense.org/) — see
+`framework/fonts/OFL.txt`. It is © 2019 Braille Institute of America, Inc.
+and is **not** covered by the project's MIT license.
 
 ## Credits
 

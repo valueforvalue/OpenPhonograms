@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Detect drift between source Markdown and rendered PDFs.
 
 Compares each generated MD file in lessons/, worksheets/, readers/ against the

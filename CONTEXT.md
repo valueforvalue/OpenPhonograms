@@ -80,3 +80,20 @@ Python script in `scripts/` that produces markdown files from data. Output must 
 
 ### canonical-counts
 Early editions listed 74/30/25. Current edition is 75/31/26. This curriculum uses the current canonical counts. qu bridges single-letter (taught in Stage 1) and multi-letter (listed as #1 in multi-letter list). Total unique: 74. Total counting qu in both: 75.
+
+---
+
+## Attribution & License
+
+This is an open-source adaptation of the methodology described in
+Denise Eide's *Uncovering the Logic of English* (2012).
+
+- **License**: MIT — see [`LICENSE`](../LICENSE) (project code and content)
+- **Attribution and trademarks**: See [`NOTICE`](../NOTICE)
+- **Bundled font**: [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont)
+  by the Braille Institute, redistributed under the
+  [SIL Open Font License 1.1](../framework/fonts/OFL.txt)
+
+This project is **not affiliated with, endorsed by, or sponsored by Logic of
+English, Inc.** "Logic of English" and "Uncovering the Logic of English" are
+trademarks of Logic of English, Inc.

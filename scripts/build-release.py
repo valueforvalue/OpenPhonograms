@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Build release.zip — complete curriculum in LOE-style folder structure.
 
 Default behavior bundles everything into a single ZIP. Pass CLI flags to

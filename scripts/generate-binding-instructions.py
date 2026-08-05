@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate printable binding instructions PDF.
 
 Tells teachers how to organize the release ZIP into physical 3-ring binders

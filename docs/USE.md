@@ -321,3 +321,20 @@ A: The systematic, multi-sensory approach (phonemic awareness → phonograms →
 **For deeper methodology**, see [TEACHER-GUIDE.md](../TEACHER-GUIDE.md) and [curriculum.md](../curriculum.md).
 
 **For building from source**, see [docs/BUILD.md](BUILD.md).
+
+---
+
+## Attribution & License
+
+This is an open-source adaptation of the methodology described in
+Denise Eide's *Uncovering the Logic of English* (2012).
+
+- **License**: MIT — see [`LICENSE`](../LICENSE) (project code and content)
+- **Attribution and trademarks**: See [`NOTICE`](../NOTICE)
+- **Bundled font**: [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont)
+  by the Braille Institute, redistributed under the
+  [SIL Open Font License 1.1](../framework/fonts/OFL.txt)
+
+This project is **not affiliated with, endorsed by, or sponsored by Logic of
+English, Inc.** "Logic of English" and "Uncovering the Logic of English" are
+trademarks of Logic of English, Inc.

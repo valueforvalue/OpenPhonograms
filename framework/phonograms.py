@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Single source of truth for phonogram data.
 
 This module owns the canonical phonogram catalog: 26 single-letter PGs

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate printable completion certificates (one per stage).
 
 Each certificate is a single-page PDF with a decorative border, the stage

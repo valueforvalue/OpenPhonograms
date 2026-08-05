@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate all 40 Stage 5 lesson markdown files — Morphology, Fluency, Composition, Grammar."""
 import io, sys
 from pathlib import Path

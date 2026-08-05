@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate 19 animal-themed decodable readers for remaining unused images."""
 import io, sys
 from pathlib import Path

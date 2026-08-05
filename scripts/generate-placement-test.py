@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate a placement test HTML for new students.
 
 Teacher reads items aloud, child responds. JavaScript scores each section and

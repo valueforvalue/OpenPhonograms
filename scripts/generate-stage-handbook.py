@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+
 """Generate per-stage teacher handbook PDFs.
 
 Combines all lesson PDFs in a stage into a single bound-book-style PDF with
