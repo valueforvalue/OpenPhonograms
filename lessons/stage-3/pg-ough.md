@@ -67,3 +67,32 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 ---
 
 *Practice at home: Flash your **ough** card. Find **ough** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram ough — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">ough</div>
+
+> **Say:** "This is the phonogram **ough**." *(Point to the card.)* "It says /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/."
+
+> **Say:** "Listen to me say its sounds: /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ough.)*
+
+> **Say:** "Now you write **ough** three times. Say '/ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ough — it says /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/.")*
+
+</details>
+

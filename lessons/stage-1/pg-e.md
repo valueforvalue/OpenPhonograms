@@ -94,3 +94,32 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **e** card 5 times. Find **e** in a book or on a sign.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram e — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">e</div>
+
+> **Say:** "This is the phonogram **e**." *(Point to the card.)* "It says /ĕ/ /ē/."
+
+> **Say:** "Listen to me say its sounds: /ĕ/ /ē/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing e.)*
+
+> **Say:** "Now you write **e** three times. Say '/ĕ/ /ē/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram e — it says /ĕ/ /ē/.")*
+
+</details>
+

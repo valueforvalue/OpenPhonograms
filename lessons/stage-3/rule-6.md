@@ -76,3 +76,28 @@ by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 ---
 
 *Practice at home: Find 3 words that follow Rule 6. Write them down!*
+
+
+<details class="teacher-script">
+<summary>📖 Rule 6 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 6: **Y Says /ī/ at End of One-Syllable Word**."
+
+> **Say:** "Here is the rule: When a one-syllable word ends in a single-vowel **Y**, it always says /ī/."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 6? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 6 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+

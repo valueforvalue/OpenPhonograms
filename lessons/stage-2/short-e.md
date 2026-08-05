@@ -86,3 +86,5 @@ Adult reads these sentences aloud. Child writes them.
 ---
 
 *Practice at home: Find 5 things in your house with the short /ĕ/ sound.*
+
+

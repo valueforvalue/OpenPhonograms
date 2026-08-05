@@ -62,3 +62,32 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 ---
 
 *Practice at home: Flash your **eigh** card. Find **eigh** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram eigh — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">eigh</div>
+
+> **Say:** "This is the phonogram **eigh**." *(Point to the card.)* "It says /ā/."
+
+> **Say:** "Listen to me say its sounds: /ā/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing eigh.)*
+
+> **Say:** "Now you write **eigh** three times. Say '/ā/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram eigh — it says /ā/.")*
+
+</details>
+

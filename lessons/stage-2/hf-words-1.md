@@ -91,3 +91,5 @@ Adult reads these sentences. Child writes them.
 ---
 
 *Practice at home: Find today's words in a book. Count how many times you see each one!*
+
+

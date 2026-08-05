@@ -76,3 +76,28 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 ---
 
 *Practice at home: Find 3 words that follow Rule 7. Write them down!*
+
+
+<details class="teacher-script">
+<summary>📖 Rule 7 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 7: **I and Y May Say /ē/**."
+
+> **Say:** "Here is the rule: **Y** says /ē/ only in an unstressed syllable at the end of a multi-syllable word. **I** may say /ē/ with a silent E, at end of syllable, and in foreign words."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 7? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 7 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+

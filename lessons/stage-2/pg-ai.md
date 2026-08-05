@@ -82,3 +82,32 @@ rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 ---
 
 *Practice at home: Flash your **ai** card 5 times. Find **ai** in a book — how many can you find?*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram ai — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">ai</div>
+
+> **Say:** "This is the phonogram **ai**." *(Point to the card.)* "It says /ā/."
+
+> **Say:** "Listen to me say its sounds: /ā/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ai.)*
+
+> **Say:** "Now you write **ai** three times. Say '/ā/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ai — it says /ā/.")*
+
+</details>
+

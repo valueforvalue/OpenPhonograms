@@ -92,3 +92,32 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **w** card 5 times. Find **w** in a book or on a sign.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram w — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">w</div>
+
+> **Say:** "This is the phonogram **w**." *(Point to the card.)* "It says /w/."
+
+> **Say:** "Listen to me say its sounds: /w/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing w.)*
+
+> **Say:** "Now you write **w** three times. Say '/w/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram w — it says /w/.")*
+
+</details>
+

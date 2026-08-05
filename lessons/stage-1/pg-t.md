@@ -93,3 +93,32 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **t** card 5 times. Find **t** in a book or on a sign.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram t — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">t</div>
+
+> **Say:** "This is the phonogram **t**." *(Point to the card.)* "It says /t/."
+
+> **Say:** "Listen to me say its sounds: /t/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing t.)*
+
+> **Say:** "Now you write **t** three times. Say '/t/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram t — it says /t/.")*
+
+</details>
+

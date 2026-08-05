@@ -72,3 +72,5 @@ Read these sentences:
 ---
 
 *Practice at home: Choose 2 words from today's lesson. Spell them for a family member and explain the phonograms you used.*
+
+

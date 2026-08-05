@@ -76,3 +76,5 @@ Read these sentences:
 ---
 
 *Practice at home: Build 3 words from today's pattern on your whiteboard.*
+
+

@@ -4,12 +4,16 @@
 
 """Generate all 48 Stage 1 lesson markdown files with real educational content."""
 
-import os
+import os, sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = PROJECT_ROOT / "lessons" / "stage-1"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# Teacher script injection (issue #4)
+sys.path.insert(0, str(PROJECT_ROOT / "framework"))
+from teacher_script import format_phonogram_script  # noqa: E402
 
 # ── PHONOGRAM DATA ──────────────────────────────────────────────────
 
@@ -561,6 +565,8 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **{pg}** card 5 times. Find **{pg}** in a book or on a sign.*
+
+{teacher_script}
 """
 
 PA_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -1038,6 +1044,7 @@ def build_phonogram_intro(num, pg_data, next_num, next_title):
         next_num=next_num,
         next_title=next_title,
         review_section=review_section,
+        teacher_script=format_phonogram_script(pg, sounds),
     )
 
 
@@ -1057,6 +1064,7 @@ def build_pa(num, slug, title, desc, activities, movement, quick_check, home_pra
         home_practice=home_practice,
         next_num=next_num,
         next_title=next_title,
+        teacher_script="",
     )
 
 
@@ -1078,6 +1086,7 @@ def build_pa_with_review(num, slug, title, desc, activities, movement, quick_che
         home_practice=home_practice,
         next_num=next_num,
         next_title=next_title,
+        teacher_script="",
     )
 
 
@@ -1133,6 +1142,7 @@ def build_review(num, group_num, group_pgs, all_pg_list, next_num, next_title):
         match_rows=match_rows,
         next_num=next_num,
         next_title=next_title,
+        teacher_script="",
     )
 
 
@@ -1530,7 +1540,9 @@ def generate_all():
     )
     yield 42, SPECIAL_VOWELS_TEMPLATE.format(
         lesson_num=42, spelling_rows=vowel_spelling_rows,
-        next_num=43, next_title="All 26 Phonograms Review")
+        next_num=43, next_title="All 26 Phonograms Review",
+        teacher_script="",
+    )
 
     # ── Lesson 43: ALL 26 Review ──
     yield 43, build_review(43, "ALL", all_26, taught_order, 44, "Blending with Consonant Blends")
@@ -1602,7 +1614,9 @@ def generate_all():
         letter_grid="| a | a | a | a | a |\n| d | d | d | d | d |\n| g | g | g | g | g |\n| c | c | c | c | c |\n| o | o | o | o | o |\n| qu | qu | qu | qu | qu |\n| s | s | s | s | s |",
         letter_hunt="Find any clockface letter in a book. Which ones did you find?",
         challenge_sound="ă",
-        next_num=47, next_title="Handwriting: Straight-start Letters")
+        next_num=47, next_title="Handwriting: Straight-start Letters",
+        teacher_script="",
+    )
 
     # ── Lesson 47: Handwriting Straight-start ──
     straight_letters = "t, i, p, u, j, r, n, m, l, b, h, k, f"
@@ -1629,7 +1643,9 @@ def generate_all():
         letter_grid="| t | t | t | t | t |\n| i | i | i | i | i |\n| p | p | p | p | p |\n| u | u | u | u | u |\n| j | j | j | j | j |\n| r | r | r | r | r |\n| n | n | n | n | n |\n| m | m | m | m | m |\n| l | l | l | l | l |\n| b | b | b | b | b |\n| h | h | h | h | h |\n| k | k | k | k | k |\n| f | f | f | f | f |",
         letter_hunt="Find any straight-start letter in a book. Count how many you can find in one page!",
         challenge_sound="t",
-        next_num=48, next_title="Stage 1 Mastery Check")
+        next_num=48, next_title="Stage 1 Mastery Check",
+        teacher_script="",
+    )
 
     # ── Lesson 48: Assessment ──
     yield 48, build_assessment()
@@ -1683,6 +1699,7 @@ def build_assessment():
         sound_pass="__", write_pass="__", blend_pass="__", seg_pass="__", id_pass="__",
         overall="__",
         next_steps="If all sections pass: Move to Stage 2! If any section is weak, return to those lessons and re-test in 1-2 weeks.",
+        teacher_script="",
     )
 
 

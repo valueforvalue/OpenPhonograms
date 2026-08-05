@@ -60,3 +60,32 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 ---
 
 *Practice at home: Flash your **kn** card. Find **kn** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram kn — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">kn</div>
+
+> **Say:** "This is the phonogram **kn**." *(Point to the card.)* "It says /n/."
+
+> **Say:** "Listen to me say its sounds: /n/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing kn.)*
+
+> **Say:** "Now you write **kn** three times. Say '/n/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram kn — it says /n/.")*
+
+</details>
+

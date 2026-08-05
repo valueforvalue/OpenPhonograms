@@ -76,3 +76,28 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 ---
 
 *Practice at home: Find 3 words that follow Rule 10. Write them down!*
+
+
+<details class="teacher-script">
+<summary>📖 Rule 10 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 10: **A Says /ä/**."
+
+> **Say:** "Here is the rule: When a word ends with the phonogram **A**, it says /ä/. **A** may also say /ä/ after a **W** or before an **L**."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 10? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 10 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+

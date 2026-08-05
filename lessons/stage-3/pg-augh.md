@@ -63,3 +63,32 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 ---
 
 *Practice at home: Flash your **augh** card. Find **augh** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram augh — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">augh</div>
+
+> **Say:** "This is the phonogram **augh**." *(Point to the card.)* "It says /ä/ /ăf/."
+
+> **Say:** "Listen to me say its sounds: /ä/ /ăf/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing augh.)*
+
+> **Say:** "Now you write **augh** three times. Say '/ä/ /ăf/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram augh — it says /ä/ /ăf/.")*
+
+</details>
+

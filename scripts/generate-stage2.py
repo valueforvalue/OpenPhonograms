@@ -10,6 +10,10 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+# Teacher script injection (issue #4)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "framework"))
+from teacher_script import format_phonogram_script, format_rule_script  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = PROJECT_ROOT / "lessons" / "stage-2"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -544,6 +548,8 @@ Adult reads these sentences aloud. Child writes them.
 ---
 
 *Practice at home: Find {items} things in your house with the short /{vowel_sound}/ sound.*
+
+{teacher_script}
 """
 
 MULTI_PG_TEMPLATE = """# Lesson {lesson_num}: Phonogram {pg}
@@ -625,6 +631,8 @@ Write each word once. Underline the **{pg}** in each word.
 ---
 
 *Practice at home: Flash your **{pg}** card 5 times. Find **{pg}** in a book — how many can you find?*
+
+{teacher_script}
 """
 
 RULE_TEMPLATE = """# Lesson {lesson_num}: Rule {rule_num} — {rule_name}
@@ -696,6 +704,10 @@ Read these words sound by sound:
 ---
 
 *Practice at home: Find 3 words in a book that follow Rule {rule_num}. Write them down!*
+
+{teacher_script}
+
+{teacher_script}
 """
 
 HF_WORD_TEMPLATE = """# Lesson {lesson_num}: High-Frequency Words — Set {set_num}
@@ -767,6 +779,8 @@ Adult reads these sentences. Child writes them.
 ---
 
 *Practice at home: Find today's words in a book. Count how many times you see each one!*
+
+{teacher_script}
 """
 
 REVIEW_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -826,6 +840,8 @@ Spell these words from dictation. Take your time — sound each one out.
 ---
 
 *Practice at home: Play "Which One Wins?" with a family member!*
+
+{teacher_script}
 """
 
 WORD_BUILD_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -894,6 +910,8 @@ Read these sentences:
 ---
 
 *Practice at home: Build 3 words from today's pattern on your whiteboard.*
+
+{teacher_script}
 """
 
 SPELLING_ANALYSIS_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -965,6 +983,8 @@ Read these sentences:
 ---
 
 *Practice at home: Choose 2 words from today's lesson. Spell them for a family member and explain the phonograms you used.*
+
+{teacher_script}
 """
 
 READER_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -1026,6 +1046,8 @@ Find these words in the story. Write them and underline the phonograms:
 ---
 
 *Practice at home: Read this story aloud to a family member!*
+
+{teacher_script}
 """
 
 ASSESSMENT_TEMPLATE = """# Lesson {lesson_num}: {title}
@@ -1108,6 +1130,8 @@ ASSESSMENT_TEMPLATE = """# Lesson {lesson_num}: {title}
 ---
 
 *Great work! Every assessment shows what you've learned and what to practice next.*
+
+{teacher_script}
 """
 
 # ── HELPERS ─────────────────────────────────────────────────────────
@@ -1179,6 +1203,7 @@ def build_short_vowel(num, vowel, vsound, description, words_list, vtype="defaul
         spelling_rows=spelling_rows, read_words=read_words,
         dictation=dictation, items=items,
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script="",
     )
 
 def build_multi_pg(num, pg):
@@ -1215,6 +1240,7 @@ def build_multi_pg(num, pg):
         write_words=write_words, known_multi=known_multi_str(num),
         letter_count=len(pg), extra_questions=extra_q,
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script=format_phonogram_script(pg, sounds),
     )
 
 def build_rule(num, rule_key):
@@ -1237,6 +1263,7 @@ def build_rule(num, rule_key):
         word_rows=word_rows, read_words=" &nbsp;&nbsp; ".join(words),
         multi_list=multi_list_str(num),
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script=format_rule_script(rn, r["name"], r["statement"]),
     )
 
 def build_hf_words(num, set_num, words_data, sentences, dictation_sentences, check_word):
@@ -1255,6 +1282,7 @@ def build_hf_words(num, set_num, words_data, sentences, dictation_sentences, che
         dictation_sentences=dictation_sentences, check_word=check_word,
         multi_list=multi_list_str(num),
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script="",
     )
 
 def build_word_building(num, title, learning_title, description, words, variation_note="", check_word=""):
@@ -1280,6 +1308,7 @@ def build_word_building(num, title, learning_title, description, words, variatio
         read_words=" &nbsp;&nbsp; ".join(words[:12]), sentences=sentences,
         check_word=cw,
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script="",
     )
 
 def build_spelling_analysis(num, title, focus_title, focus_pgs, intro, words_data, bonus_words, sentences, check_word):
@@ -1296,6 +1325,7 @@ def build_spelling_analysis(num, title, focus_title, focus_pgs, intro, words_dat
         sentences=sentences, check_word=check_word,
         multi_list=multi_list_str(num),
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script="",
     )
 
 def build_review(num, title, pgs, game2_rows, sound_choices, challenge_words):
@@ -1304,6 +1334,7 @@ def build_review(num, title, pgs, game2_rows, sound_choices, challenge_words):
         game2_rows=game2_rows, sound_choices=sound_choices,
         challenge_words=", ".join(challenge_words),
         next_num=next_num(num), next_title=next_title(next_num(num)),
+        teacher_script="",
     )
 
 
@@ -1543,6 +1574,7 @@ def build_mid_assessment():
         rule_total=2,
         overall_total=54,
         next_steps="If ≥85%: Continue to second half of Stage 2. If weaker, review trouble spots for 1-2 weeks and retest.",
+        teacher_script="",
     )
 
 def build_final_assessment():
@@ -1567,6 +1599,7 @@ def build_final_assessment():
         rule_total=6,
         overall_total=len(pgs)+28,
         next_steps="If all sections pass: Move to Stage 3! If any section is weak, return to those specific lessons and re-test in 1-2 weeks. Passing score: 85%+",
+        teacher_script="",
     )
 
 def build_fred_reader():
@@ -1636,6 +1669,7 @@ The End.
         talk_about="1. Where does Fred sit at the start?\n2. Why does Fred jump into the pond?\n3. What happens when Fred tries to catch the bug?\n4. How does Fred feel at the end? Why?\n5. Can you find a word with CK in it? (back) Which rule explains it?",
         story_words_table="| frog | f (/f/), r (/r/), o (/ŏ/), g (/g/) |\n| splash | s (/s/), p (/p/), l (/l/), a (/ă/), sh (/sh/) |\n| cool | c (/k/), oo (/ü/), l (/l/) |\n| back | b (/b/), a (/ă/), ck (/k/) |\n| happy | h (/h/), a (/ă/), p (/p/), p (/p/), y (/ē/) |",
         next_num=56, next_title="Stage 2 Mastery Check",
+        teacher_script="",
     )
 
 

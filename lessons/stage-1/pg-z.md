@@ -94,3 +94,32 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **z** card 5 times. Find **z** in a book or on a sign.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram z — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">z</div>
+
+> **Say:** "This is the phonogram **z**." *(Point to the card.)* "It says /z/."
+
+> **Say:** "Listen to me say its sounds: /z/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing z.)*
+
+> **Say:** "Now you write **z** three times. Say '/z/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram z — it says /z/.")*
+
+</details>
+

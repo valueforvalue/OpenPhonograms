@@ -61,3 +61,32 @@ EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW 
 ---
 
 *Practice at home: Flash your **ew** card. Find **ew** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram ew — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">ew</div>
+
+> **Say:** "This is the phonogram **ew**." *(Point to the card.)* "It says /ü/ /ö/."
+
+> **Say:** "Listen to me say its sounds: /ü/ /ö/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ew.)*
+
+> **Say:** "Now you write **ew** three times. Say '/ü/ /ö/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ew — it says /ü/ /ö/.")*
+
+</details>
+

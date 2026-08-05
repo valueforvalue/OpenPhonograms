@@ -82,3 +82,32 @@ book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 ---
 
 *Practice at home: Flash your **oo** card 5 times. Find **oo** in a book — how many can you find?*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram oo — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">oo</div>
+
+> **Say:** "This is the phonogram **oo**." *(Point to the card.)* "It says /ö/ /ü/ /ō/."
+
+> **Say:** "Listen to me say its sounds: /ö/ /ü/ /ō/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing oo.)*
+
+> **Say:** "Now you write **oo** three times. Say '/ö/ /ü/ /ō/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram oo — it says /ö/ /ü/ /ō/.")*
+
+</details>
+

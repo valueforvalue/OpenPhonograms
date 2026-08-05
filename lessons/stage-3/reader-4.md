@@ -4,10 +4,6 @@
 
 ---
 
-![Jake with his finished sail boat on the pond](images/illustrations/sail-box.png)
-
----
-
 ## Warm-Up: Phonogram Flash Review
 
 > Quick flash of phonograms used in today's story.

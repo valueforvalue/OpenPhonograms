@@ -75,3 +75,53 @@ Read these words sound by sound:
 ---
 
 *Practice at home: Find 3 words in a book that follow Rule 9. Write them down!*
+
+
+<details class="teacher-script">
+<summary>📖 Rule 9 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 9: **AY at End of Base Word**."
+
+> **Say:** "Here is the rule: **AY** usually spells the sound /ā/ at the end of a base word."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 9? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 9 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+
+
+
+<details class="teacher-script">
+<summary>📖 Rule 9 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 9: **AY at End of Base Word**."
+
+> **Say:** "Here is the rule: **AY** usually spells the sound /ā/ at the end of a base word."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 9? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 9 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+

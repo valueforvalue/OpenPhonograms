@@ -75,3 +75,53 @@ Read these words sound by sound:
 ---
 
 *Practice at home: Find 3 words in a book that follow Rule 20. Write them down!*
+
+
+<details class="teacher-script">
+<summary>📖 Rule 20 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 20: **Three Sounds of -ED**."
+
+> **Say:** "Here is the rule: The past-tense ending **-ED** says /ed/ after **D** or **T**, /d/ after a voiced sound, and /t/ after an unvoiced consonant."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 20? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 20 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+
+
+
+<details class="teacher-script">
+<summary>📖 Rule 20 — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are learning Spelling Rule 20: **Three Sounds of -ED**."
+
+> **Say:** "Here is the rule: The past-tense ending **-ED** says /ed/ after **D** or **T**, /d/ after a voiced sound, and /t/ after an unvoiced consonant."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 20? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 20 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+</details>
+

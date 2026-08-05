@@ -82,3 +82,32 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 ---
 
 *Practice at home: Flash your **au** card 5 times. Find **au** in a book — how many can you find?*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram au — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">au</div>
+
+> **Say:** "This is the phonogram **au**." *(Point to the card.)* "It says /ä/."
+
+> **Say:** "Listen to me say its sounds: /ä/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing au.)*
+
+> **Say:** "Now you write **au** three times. Say '/ä/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
+
+</details>
+

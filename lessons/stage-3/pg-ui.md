@@ -61,3 +61,32 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 ---
 
 *Practice at home: Flash your **ui** card. Find **ui** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram ui — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">ui</div>
+
+> **Say:** "This is the phonogram **ui**." *(Point to the card.)* "It says /ü/ /ö/."
+
+> **Say:** "Listen to me say its sounds: /ü/ /ö/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ui.)*
+
+> **Say:** "Now you write **ui** three times. Say '/ü/ /ö/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ui — it says /ü/ /ö/.")*
+
+</details>
+

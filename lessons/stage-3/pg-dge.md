@@ -62,3 +62,32 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 ---
 
 *Practice at home: Flash your **dge** card. Find **dge** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram dge — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">dge</div>
+
+> **Say:** "This is the phonogram **dge**." *(Point to the card.)* "It says /j/."
+
+> **Say:** "Listen to me say its sounds: /j/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing dge.)*
+
+> **Say:** "Now you write **dge** three times. Say '/j/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram dge — it says /j/.")*
+
+</details>
+

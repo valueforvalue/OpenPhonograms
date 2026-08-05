@@ -96,3 +96,32 @@ Write each letter once. Say its sounds as you write.
 ---
 
 *Practice at home: Flash your new **y** card 5 times. Find **y** in a book or on a sign.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram y — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">y</div>
+
+> **Say:** "This is the phonogram **y**." *(Point to the card.)* "It says /y/ /ĭ/ /ī/ /ē/."
+
+> **Say:** "Listen to me say its sounds: /y/ /ĭ/ /ī/ /ē/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing y.)*
+
+> **Say:** "Now you write **y** three times. Say '/y/ /ĭ/ /ī/ /ē/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram y — it says /y/ /ĭ/ /ī/ /ē/.")*
+
+</details>
+

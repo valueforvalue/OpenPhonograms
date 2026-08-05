@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "lessons" / "stage-3"
 OUT.mkdir(parents=True, exist_ok=True)
 
+# Teacher script injection (issue #4)
+sys.path.insert(0, str(ROOT / "framework"))
+from teacher_script import format_phonogram_script, format_rule_script, format_spelling_script  # noqa: E402
+
 # ── SILENT E REASONS ────────────────────────────────────────────────
 
 SILENT_E = {
@@ -502,6 +506,8 @@ MULTI3_TEMPLATE = """# Lesson {num}: Phonogram {pg}
 ---
 
 *Practice at home: Flash your **{pg}** card. Find **{pg}** in a book.*
+
+{teacher_script}
 """
 
 RULE3_TEMPLATE = """# Lesson {num}: Rule {rnum} — {name}
@@ -571,6 +577,8 @@ RULE3_TEMPLATE = """# Lesson {num}: Rule {rnum} — {name}
 ---
 
 *Practice at home: Find 3 words that follow Rule {rnum}. Write them down!*
+
+{teacher_script}
 """
 
 SYLLABLE_TEMPLATE = """# Lesson {num}: {title}
@@ -923,6 +931,7 @@ def build_multi3(num, pg):
         word_rows=word_rows, read_words=read_words, sentences=sentences,
         check_word=wdata[0][0], extra_known=extra,
         next_num=num+1, next_title=nt(num+1),
+        teacher_script=format_phonogram_script(pg, d["sounds"]),
     )
 
 def build_rule3(num, key):
@@ -939,6 +948,7 @@ def build_rule3(num, key):
         sentences=f"The {words[0]} is big. I see a {words[1]}. The {words[2] if len(words)>2 else words[0]} runs.",
         extra_known="",
         next_num=num+1, next_title=nt(num+1),
+        teacher_script=format_rule_script(rn, r["name"], r["statement"]),
     )
 
 def build_syllable(num, key):

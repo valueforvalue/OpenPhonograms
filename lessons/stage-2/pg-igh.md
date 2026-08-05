@@ -82,3 +82,32 @@ light &nbsp;&nbsp; night &nbsp;&nbsp; right
 ---
 
 *Practice at home: Flash your **igh** card 5 times. Find **igh** in a book — how many can you find?*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram igh — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">igh</div>
+
+> **Say:** "This is the phonogram **igh**." *(Point to the card.)* "It says /ī/."
+
+> **Say:** "Listen to me say its sounds: /ī/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing igh.)*
+
+> **Say:** "Now you write **igh** three times. Say '/ī/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram igh — it says /ī/.")*
+
+</details>
+

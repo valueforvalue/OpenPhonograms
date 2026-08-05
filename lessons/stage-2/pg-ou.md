@@ -83,3 +83,32 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 ---
 
 *Practice at home: Flash your **ou** card 5 times. Find **ou** in a book — how many can you find?*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram ou — Teacher Script (click to expand)</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">ou</div>
+
+> **Say:** "This is the phonogram **ou**." *(Point to the card.)* "It says /ow/ /ō/ /ö/ /ŭ/."
+
+> **Say:** "Listen to me say its sounds: /ow/ /ō/ /ö/ /ŭ/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ou.)*
+
+> **Say:** "Now you write **ou** three times. Say '/ow/ /ō/ /ö/ /ŭ/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
+
+</details>
+
