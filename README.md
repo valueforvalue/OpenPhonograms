@@ -173,12 +173,33 @@ Architectural decisions are recorded in [docs/agents/adr/](docs/agents/adr/) —
 
 ## License
 
-This curriculum is an open-source adaptation of *Uncovering the Logic of English* methodology. The original text and rules belong to Denise Eide and [Logic of English](https://logicofenglish.com/). This project's code, generators, and Markdown sources are released for educational use.
-
----
+Released under the **MIT License** — see [LICENSE](LICENSE).
 
 ## Credits
 
-- **Denise Eide** — Author of *Uncovering the Logic of English* and inventor of the methodology
-- **Contributors** — See git history
-- **Built with:** Python, WeasyPrint, Markdown, MSYS2 GTK3, Just
+This project is an open-source adaptation of the methodology described in
+[*Uncovering the Logic of English* by Denise Eide](https://logicofenglish.com/).
+The phonograms, spelling rules, and instructional routines are derived from
+that book and from the [Logic of English](https://logicofenglish.com/) curriculum.
+
+**This project is not affiliated with, endorsed by, or sponsored by Logic of
+English, Inc.** "Logic of English" and "Uncovering the Logic of English" are
+trademarks of Logic of English, Inc. See [NOTICE](NOTICE) for the full
+attribution statement.
+
+### If you want the full commercial product
+
+We encourage you to support the original authors if their commercial curriculum
+fits your needs:
+
+- **[*Uncovering the Logic of English* — Denise Eide (2012)](https://logicofenglish.com/)** — the foundational book.
+- **[Logic of English, Inc.](https://logicofenglish.com/)** — official *Foundations* (Pre-K–Grade 2) and *Essentials* (Grades 3+) curriculum, printed materials, classroom kits, and training.
+- **[Logic of English Facebook Group](https://www.facebook.com/groups/logicofenglish)** — active community.
+
+### Attribution
+
+- **Denise Eide** — Author of *Uncovering the Logic of English* and inventor of the methodology.
+- **Logic of English, Inc.** — Publisher and curriculum developer.
+- **Contributors** — See [git history](../../graphs/contributors).
+- **Bundled font** — Atkinson Hyperlegible © Braille Institute of America, Inc., licensed under SIL OFL 1.1 (see [framework/fonts/OFL.txt](framework/fonts/OFL.txt)).
+- **Built with:** Python, WeasyPrint, Markdown, MSYS2 GTK3, Just.

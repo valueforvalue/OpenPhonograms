@@ -1,0 +1,19 @@
+Atkinson Hyperlegible
+====================
+
+Designed by the Braille Institute of America, Inc.
+
+  Project lead: Applied Design Works
+  Web:          https://www.brailleinstitute.org/freefont/
+  License:      SIL Open Font License 1.1 (see OFL.txt)
+
+The four faces bundled in this directory are:
+
+  AtkinsonHyperlegible-Regular.ttf
+  AtkinsonHyperlegible-Italic.ttf
+  AtkinsonHyperlegible-Bold.ttf
+  AtkinsonHyperlegible-BoldItalic.ttf
+
+This typeface is designed for maximum legibility at low vision. The
+letterforms include disambiguated shapes (e.g., capital I / lowercase l /
+numeral 1 are distinct) to reduce reading errors for low-vision readers.
