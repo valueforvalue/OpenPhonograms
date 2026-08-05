@@ -26,6 +26,7 @@ UncoveringtheLogic/
 │   ├── README.md              # This file
 │   ├── lesson-catalog.csv     # Complete index: every lesson across all 5 stages
 │   ├── image-manifest.csv     # Every image needed, by filename and description
+│   ├── image-check.py         # Validator for image-manifest vs on-disk files
 │   ├── render.py              # MD → PDF conversion script
 │   ├── generate.py            # Generate lesson stubs from catalog
 │   ├── image-check.py         # List missing/needed images

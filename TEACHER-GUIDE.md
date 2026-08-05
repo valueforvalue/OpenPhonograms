@@ -83,6 +83,7 @@ TEACHER-GUIDE.md  ← START HERE
         ├── generate.py  ← Stub generator
         ├── image-check.py  ← Image inventory
         ├── image-manifest.csv  ← All planned images
+        └── (see images/SOURCES.md for per-batch provenance)
         └── lesson-catalog.csv  ← 248-lesson index
 ```
 
