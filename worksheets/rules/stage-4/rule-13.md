@@ -1,10 +1,10 @@
-# Rule 13 Practice: Drop silent E for vowel suffix
+# Rule 13 Practice: Drop Silent E for vowel suffix
 
 ---
 
 ## The Rule
 
-> Drop silent E for vowel suffix
+> Drop Silent E for vowel suffix
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 13:
 
-> making &nbsp;&nbsp; hoping &nbsp;&nbsp; driving &nbsp;&nbsp; using &nbsp;&nbsp; baking &nbsp;&nbsp; writing &nbsp;&nbsp; smiling &nbsp;&nbsp; raking &nbsp;&nbsp; riding &nbsp;&nbsp; taking
+> make &nbsp;&nbsp; hope &nbsp;&nbsp; drive &nbsp;&nbsp; use &nbsp;&nbsp; bake &nbsp;&nbsp; write &nbsp;&nbsp; change &nbsp;&nbsp; price &nbsp;&nbsp; chase &nbsp;&nbsp; create
 
 ---
 

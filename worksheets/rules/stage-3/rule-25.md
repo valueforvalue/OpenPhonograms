@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 25:
 
-> bridge &nbsp;&nbsp; edge &nbsp;&nbsp; fudge &nbsp;&nbsp; judge &nbsp;&nbsp; badge &nbsp;&nbsp; lodge &nbsp;&nbsp; ledge &nbsp;&nbsp; dodge &nbsp;&nbsp; ridge &nbsp;&nbsp; wedge
+> bridge &nbsp;&nbsp; edge &nbsp;&nbsp; fudge &nbsp;&nbsp; judge &nbsp;&nbsp; badge &nbsp;&nbsp; lodge &nbsp;&nbsp; ledge &nbsp;&nbsp; dodge &nbsp;&nbsp; nudge &nbsp;&nbsp; ridge
 
 ---
 

@@ -12,29 +12,159 @@
 
 ## Story
 
-**The Little Sheep**
+<div class="reader-page">
 
-Shep is a little sheep. Shep has soft white wool and four small feet.
+<div class="reader-text">
 
-Shep lives in a green field. The field has tall green grass and a big green tree.
+Shep is a little sheep. Shep has soft white wool and four small feet. Shep lives in a green field.
 
-Shep likes to run. Shep likes to jump. But most of all, Shep likes to sleep in the deep shade of the big green tree.
+</div>
 
-One day, Shep cannot sleep. He feels sad.
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, g
+
+**Rules in this story:**
+
+**Rule 21:** Plural nouns
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The field has tall green grass and a big green tree. Shep likes to run. Shep likes to jump.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+But most of all, Shep likes to sleep in the deep shade of the big green tree. One day, Shep cannot sleep. He feels sad.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 9:** AY for /ā/ at end
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 "I need a friend," Shep says. "Sheep should not be alone."
 
 Shep looks and looks. Then he sees a small bird up in the tree.
 
-"Will you be my friend?" Shep calls up.
+</div>
 
-The bird flies down. "Tweet! Yes! I will keep you company."
+<div class="reader-sidebar">
 
-Shep and the bird sleep in the deep grass under the tree.
+### Spelling Aid
 
-Now Shep feels glad. Friends are what he did need.
+**Phonograms on this page:** a, b, d, e, f
 
-The End.
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 23:** Prefix AL-
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Will you be my friend?" Shep calls up. The bird flies down. "Tweet!
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Yes! I will keep you company."
+
+Shep and the bird sleep in the deep grass under the tree. Now Shep feels glad.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Friends are what he did need.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** d, e, f, i, n
+
+</div>
+
+</div>
 
 ---
 

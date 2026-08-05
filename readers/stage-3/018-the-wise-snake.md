@@ -12,31 +12,151 @@
 
 ## Story
 
-**The Wise Snake**
+<div class="reader-page">
+
+<div class="reader-text">
 
 Silas is a snake. Silas is old and wise. He lives under a flat stone by the lake.
 
-The other animals come to Silas when they have a problem.
+</div>
 
-"Silas, the rain made my home wet!" cries a rabbit.
+<div class="reader-sidebar">
 
-"Find a dry spot under the big oak tree," says Silas. "It is safe there."
+### Spelling Aid
 
-"Silas, I cannot find food!" says a frog.
+**Phonograms on this page:** a, d, e, f, i
 
-"Hop to the far side of the lake," says Silas. "There are bugs there."
+**Rules in this story:**
 
-One day, a fire comes to the grass. All the animals panic.
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-"Be calm," says Silas. "Slide to the lake. The water will keep us safe."
+**Rule 21:** Plural nouns
 
-All the animals follow Silas to the lake. The fire stops at the water's edge.
+**Rule 30:** Double or single final consonant
 
-"You saved us!" the animals cry.
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The other animals come to Silas when they have a problem. "Silas, the rain made my home wet!" cries a rabbit. "Find a dry spot under the big oak tree," says Silas.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"It is safe there."
+
+"Silas, I cannot find food!" says a frog. "Hop to the far side of the lake," says Silas. "There are bugs there."
+
+One day, a fire comes to the grass.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 9:** AY for /ā/ at end
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+All the animals panic. "Be calm," says Silas. "Slide to the lake.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The water will keep us safe."
+
+All the animals follow Silas to the lake. The fire stops at the water's edge. "You saved us!" the animals cry.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 "Wisdom is knowing what to do when things are hard," says Silas. "And you all knew to help each other."
 
-The End.
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, g
+
+</div>
+
+</div>
 
 ---
 

@@ -1,10 +1,10 @@
-# Rule 19 Practice: Past tense formed with -ED
+# Rule 19 Practice: Past tense -ED
 
 ---
 
 ## The Rule
 
-> Past tense formed with -ED
+> Past tense -ED
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 19:
 
-> walked &nbsp;&nbsp; played &nbsp;&nbsp; stopped &nbsp;&nbsp; baked &nbsp;&nbsp; carried &nbsp;&nbsp; tried &nbsp;&nbsp; hopped &nbsp;&nbsp; hoped &nbsp;&nbsp; planned &nbsp;&nbsp; called
+> jumped &nbsp;&nbsp; walked &nbsp;&nbsp; talked &nbsp;&nbsp; helped &nbsp;&nbsp; liked &nbsp;&nbsp; asked &nbsp;&nbsp; played &nbsp;&nbsp; looked &nbsp;&nbsp; stopped &nbsp;&nbsp; called
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-walked &nbsp;&nbsp; played &nbsp;&nbsp; stopped &nbsp;&nbsp; baked &nbsp;&nbsp; carried
+jumped &nbsp;&nbsp; walked &nbsp;&nbsp; talked &nbsp;&nbsp; helped &nbsp;&nbsp; liked
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

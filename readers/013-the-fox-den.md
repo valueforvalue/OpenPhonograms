@@ -12,29 +12,219 @@
 
 ## Story
 
-**The Fox Den**
+<div class="reader-page">
 
-Flick is a red fox. Flick has a den under a big log at the edge of the woods.
+<div class="reader-text">
 
-Flick is fast. His red fur shines in the sun. His feet are soft on the grass.
+Flick is a red fox. Flick has a den under a big log at the edge of the woods. Flick is fast.
 
-One day, Flick is hungry. He sniffs the wind. He smells a hen!
+</div>
 
-The hen is by the pen. Flick crouches low. He creeps up. He is so still.
+<div class="reader-sidebar">
 
-Then — SNAP! Flick steps on a twig.
+### Spelling Aid
 
-The hen looks up. "Cluck cluck!" She runs fast to the pen. The pen is shut.
+**Phonograms on this page:** a, b, c, d, e
 
-Flick stops. "Not today," he says.
+**Rules in this story:**
 
-Flick goes back to his den. He curls up under the log. He is sad, but he is not cross.
+**Rule 25:** DGE after short vowel
 
-Tomorrow, Flick will try again. Or he will find a bug. A bug is good too.
+</div>
 
-The sun sets. Flick the fox rests. Being safe in his den is fine.
+</div>
 
-The End.
+<div class="reader-page">
+
+<div class="reader-text">
+
+His red fur shines in the sun. His feet are soft on the grass. One day, Flick is hungry.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He sniffs the wind. He smells a hen! The hen is by the pen.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** d, e, f, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Flick crouches low. He creeps up. He is so still.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** c, e, f, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then — SNAP! Flick steps on a twig. The hen looks up.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, f, g
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Cluck cluck!" She runs fast to the pen. The pen is shut. Flick stops.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, f, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Not today," he says. Flick goes back to his den. He curls up under the log.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He is sad, but he is not cross. Tomorrow, Flick will try again. Or he will find a bug.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, f
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+A bug is good too. The sun sets. Flick the fox rests.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** b, c, d, e, f
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Being safe in his den is fine.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, i
+
+</div>
+
+</div>
 
 ---
 

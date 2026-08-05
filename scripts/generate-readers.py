@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "readers"
 OUT.mkdir(parents=True, exist_ok=True)
 
+# Per-page Spelling Aid sidebar (issues #20, #22) — see framework/reader_sidebar.py
+sys.path.insert(0, str(ROOT / "framework"))
+from reader_sidebar import build_sidebar, split_into_pages  # noqa: E402
+
 READERS = []
 
 # ── STAGE 2 READERS (after key phonograms) ──
@@ -363,7 +367,7 @@ TMP = """# {title}
 
 ## Story
 
-{story}
+{story_pages}
 
 ---
 
@@ -376,9 +380,44 @@ TMP = """# {title}
 **Phonograms used:** {phonograms}
 """
 
+def _build_story_pages(r: dict) -> str:
+    """Wrap the story in per-page <div class="reader-page"> blocks with sidebars.
+
+    Issue #20 + #22: every page gets a Spelling Aid sidebar listing the
+    phonograms + rules used on that page.
+    """
+    # Extract new phonogram from the "phonograms" field (first PG before ' +')
+    new_pg = r.get("phonograms", "").split(" ")[0].split(",")[0].strip()
+    # Build pages
+    story = r["story"]
+    # Strip the "**Title**" header from story text (it's redundant with the H1)
+    lines = story.splitlines()
+    # Drop the first line (title bold) if present
+    if lines and lines[0].startswith("**") and lines[0].endswith("**"):
+        lines = lines[1:]
+    # Drop "The End." line (it's always last)
+    story_body = "\n".join(lines).strip()
+    if story_body.endswith("The End."):
+        story_body = story_body[:-len("The End.")].strip()
+    pages = split_into_pages(story_body, sentences_per_page=3)
+    parts = []
+    for i, page in enumerate(pages, 1):
+        sidebar = build_sidebar(page, new_phonogram=new_pg)
+        parts.append(
+            f'<div class="reader-page">\n\n'
+            f'<div class="reader-text">\n\n{page}\n\n</div>\n\n'
+            f'{sidebar}\n\n'
+            f'</div>'
+        )
+    return "\n\n".join(parts)
+
+
 def main():
     for r in READERS:
-        content = TMP.format(**r)
+        # Build per-page story with sidebars
+        r_with_pages = dict(r)
+        r_with_pages["story_pages"] = _build_story_pages(r)
+        content = TMP.format(**r_with_pages)
         (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
         stage_dir = OUT / f"stage-{r['stage']}"
         stage_dir.mkdir(parents=True, exist_ok=True)

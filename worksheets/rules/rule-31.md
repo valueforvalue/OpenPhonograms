@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 31:
 
-> about &nbsp;&nbsp; seven &nbsp;&nbsp; pencil &nbsp;&nbsp; button &nbsp;&nbsp; circus &nbsp;&nbsp; animal &nbsp;&nbsp; family &nbsp;&nbsp; banana &nbsp;&nbsp; chocolate &nbsp;&nbsp; different
+> about &nbsp;&nbsp; sofa &nbsp;&nbsp; comma &nbsp;&nbsp; taken &nbsp;&nbsp; happen &nbsp;&nbsp; letter &nbsp;&nbsp; mother &nbsp;&nbsp; father &nbsp;&nbsp; water &nbsp;&nbsp; number
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-about &nbsp;&nbsp; seven &nbsp;&nbsp; pencil &nbsp;&nbsp; button &nbsp;&nbsp; circus
+about &nbsp;&nbsp; sofa &nbsp;&nbsp; comma &nbsp;&nbsp; taken &nbsp;&nbsp; happen
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

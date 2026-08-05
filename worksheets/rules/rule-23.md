@@ -1,10 +1,10 @@
-# Rule 23 Practice: AL- prefix has one L
+# Rule 23 Practice: Prefix AL-
 
 ---
 
 ## The Rule
 
-> AL- prefix has one L
+> Prefix AL-
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 23:
 
-> already &nbsp;&nbsp; although &nbsp;&nbsp; always &nbsp;&nbsp; also &nbsp;&nbsp; almost &nbsp;&nbsp; altogether &nbsp;&nbsp; alright &nbsp;&nbsp; albeit &nbsp;&nbsp; almighty
+> also &nbsp;&nbsp; always &nbsp;&nbsp; almost &nbsp;&nbsp; alone &nbsp;&nbsp; along &nbsp;&nbsp; already &nbsp;&nbsp; aloud &nbsp;&nbsp; alright &nbsp;&nbsp; although &nbsp;&nbsp; altogether
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-already &nbsp;&nbsp; although &nbsp;&nbsp; always &nbsp;&nbsp; also &nbsp;&nbsp; almost
+also &nbsp;&nbsp; always &nbsp;&nbsp; almost &nbsp;&nbsp; alone &nbsp;&nbsp; along
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

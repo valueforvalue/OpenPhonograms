@@ -1,10 +1,10 @@
-# Rule 17 Practice: TI CI SI spell /sh/ in Latin words
+# Rule 17 Practice: Latin /sh/ — TI, CI, SI
 
 ---
 
 ## The Rule
 
-> TI CI SI spell /sh/ in Latin words
+> Latin /sh/ — TI, CI, SI
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 17:
 
-> nation &nbsp;&nbsp; action &nbsp;&nbsp; station &nbsp;&nbsp; special &nbsp;&nbsp; social &nbsp;&nbsp; musician &nbsp;&nbsp; mission &nbsp;&nbsp; session &nbsp;&nbsp; vision &nbsp;&nbsp; fraction
+> nation &nbsp;&nbsp; station &nbsp;&nbsp; special &nbsp;&nbsp; official &nbsp;&nbsp; session &nbsp;&nbsp; mission &nbsp;&nbsp; vision &nbsp;&nbsp; action &nbsp;&nbsp; motion &nbsp;&nbsp; fraction
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-nation &nbsp;&nbsp; action &nbsp;&nbsp; station &nbsp;&nbsp; special &nbsp;&nbsp; social
+nation &nbsp;&nbsp; station &nbsp;&nbsp; special &nbsp;&nbsp; official &nbsp;&nbsp; session
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

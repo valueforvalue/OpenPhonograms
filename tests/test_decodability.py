@@ -105,10 +105,21 @@ def test_all_readers_have_minimum_word_count():
     too_short = []
     for path in _all_readers():
         content = path.read_text(encoding="utf-8")
-        m = re.search(r'## Story\s*(.+?)\s*##', content, re.DOTALL)
+        # Match the Story section. Two formats exist:
+        #   Pre-#20:  ## Story\n...text...\n## Think About It
+        #   Post-#20: ## Story\n<div class="reader-page">...</div>\n---\n## Think About It
+        # The lazy regex anchors on `\n## Think About It` (the next ## heading)
+        # OR `\n---` followed by `##` to avoid matching `---` inside per-page sidebars.
+        m = re.search(r'## Story\s*(.+?)(?:\n## Think About It|\n---\s*\n##)', content, re.DOTALL)
+        if not m:
+            # Fallback: stop at the next '## ' heading
+            m = re.search(r'## Story\s*(.+?)(?=\n## )', content, re.DOTALL)
         if not m:
             continue
-        story = re.sub(r'\*\*([^*]+)\*\*', r'\1', m.group(1))
+        # Strip HTML tags to get plain text word count
+        story_html = m.group(1)
+        story = re.sub(r'<[^>]+>', ' ', story_html)
+        story = re.sub(r'\*\*([^*]+)\*\*', r'\1', story)
         wc = len(re.findall(r"[a-zA-Z']+", story))
         if wc < 80:
             too_short.append((path, wc))

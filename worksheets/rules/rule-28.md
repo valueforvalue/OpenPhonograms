@@ -1,10 +1,10 @@
-# Rule 28 Practice: GH phonograms
+# Rule 28 Practice: GH phonograms (silent, /f/, /g/)
 
 ---
 
 ## The Rule
 
-> GH phonograms
+> GH phonograms (silent, /f/, /g/)
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 28:
 
-> light &nbsp;&nbsp; night &nbsp;&nbsp; right &nbsp;&nbsp; eight &nbsp;&nbsp; weigh &nbsp;&nbsp; though &nbsp;&nbsp; through &nbsp;&nbsp; rough &nbsp;&nbsp; tough &nbsp;&nbsp; laugh
+> high &nbsp;&nbsp; light &nbsp;&nbsp; night &nbsp;&nbsp; right &nbsp;&nbsp; sight &nbsp;&nbsp; fight &nbsp;&nbsp; eight &nbsp;&nbsp; weight &nbsp;&nbsp; ghost &nbsp;&nbsp; though
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-light &nbsp;&nbsp; night &nbsp;&nbsp; right &nbsp;&nbsp; eight &nbsp;&nbsp; weigh
+high &nbsp;&nbsp; light &nbsp;&nbsp; night &nbsp;&nbsp; right &nbsp;&nbsp; sight
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

@@ -1,10 +1,10 @@
-# Rule 20 Practice: Three sounds of -ED
+# Rule 20 Practice: -ED sounds (/ed/, /d/, /t/)
 
 ---
 
 ## The Rule
 
-> Three sounds of -ED
+> -ED sounds (/ed/, /d/, /t/)
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 20:
 
-> wanted &nbsp;&nbsp; needed &nbsp;&nbsp; rested &nbsp;&nbsp; played &nbsp;&nbsp; called &nbsp;&nbsp; showed &nbsp;&nbsp; fished &nbsp;&nbsp; jumped &nbsp;&nbsp; looked &nbsp;&nbsp; stopped
+> wanted &nbsp;&nbsp; rested &nbsp;&nbsp; tested &nbsp;&nbsp; planted &nbsp;&nbsp; played &nbsp;&nbsp; called &nbsp;&nbsp; showed &nbsp;&nbsp; rained &nbsp;&nbsp; stayed &nbsp;&nbsp; fished
 
 ---
 

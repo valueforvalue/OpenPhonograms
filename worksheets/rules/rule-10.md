@@ -1,10 +1,10 @@
-# Rule 10 Practice: A says /ä/ at end, after W, before L
+# Rule 10 Practice: A says /ä/
 
 ---
 
 ## The Rule
 
-> A says /ä/ at end, after W, before L
+> A says /ä/
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 10:
 
-> spa &nbsp;&nbsp; water &nbsp;&nbsp; watch &nbsp;&nbsp; want &nbsp;&nbsp; wash &nbsp;&nbsp; ball &nbsp;&nbsp; tall &nbsp;&nbsp; fall &nbsp;&nbsp; all &nbsp;&nbsp; call
+> father &nbsp;&nbsp; wash &nbsp;&nbsp; watch &nbsp;&nbsp; papa &nbsp;&nbsp; mama &nbsp;&nbsp; bra &nbsp;&nbsp; spa &nbsp;&nbsp; ma &nbsp;&nbsp; pa &nbsp;&nbsp; want
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-spa &nbsp;&nbsp; water &nbsp;&nbsp; watch &nbsp;&nbsp; want &nbsp;&nbsp; wash
+father &nbsp;&nbsp; wash &nbsp;&nbsp; watch &nbsp;&nbsp; papa &nbsp;&nbsp; mama
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

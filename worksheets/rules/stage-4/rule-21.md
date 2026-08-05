@@ -1,10 +1,10 @@
-# Rule 21 Practice: Plural -S and -ES
+# Rule 21 Practice: Plural nouns
 
 ---
 
 ## The Rule
 
-> Plural -S and -ES
+> Plural nouns
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 21:
 
-> cats &nbsp;&nbsp; dogs &nbsp;&nbsp; boxes &nbsp;&nbsp; dishes &nbsp;&nbsp; churches &nbsp;&nbsp; foxes &nbsp;&nbsp; buses &nbsp;&nbsp; houses &nbsp;&nbsp; pages &nbsp;&nbsp; races
+> cats &nbsp;&nbsp; dogs &nbsp;&nbsp; dishes &nbsp;&nbsp; boxes &nbsp;&nbsp; churches &nbsp;&nbsp; buses &nbsp;&nbsp; foxes &nbsp;&nbsp; babies &nbsp;&nbsp; ladies &nbsp;&nbsp; ponies
 
 ---
 

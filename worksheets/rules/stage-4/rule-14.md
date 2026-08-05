@@ -1,10 +1,10 @@
-# Rule 14 Practice: Double consonant (1-1-1 rule)
+# Rule 14 Practice: Double consonant for vowel suffix
 
 ---
 
 ## The Rule
 
-> Double consonant (1-1-1 rule)
+> Double consonant for vowel suffix
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 14:
 
-> running &nbsp;&nbsp; hopping &nbsp;&nbsp; swimming &nbsp;&nbsp; sitting &nbsp;&nbsp; getting &nbsp;&nbsp; cutting &nbsp;&nbsp; stopping &nbsp;&nbsp; planning &nbsp;&nbsp; begging &nbsp;&nbsp; jogging
+> run &nbsp;&nbsp; hop &nbsp;&nbsp; swim &nbsp;&nbsp; sit &nbsp;&nbsp; get &nbsp;&nbsp; cut &nbsp;&nbsp; bat &nbsp;&nbsp; hit &nbsp;&nbsp; let &nbsp;&nbsp; nap
 
 ---
 

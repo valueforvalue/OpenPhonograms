@@ -12,41 +12,297 @@
 
 ## Story
 
-**Dash the Fish**
+<div class="reader-page">
 
-Dash is a small fish. He has thin fins.
+<div class="reader-text">
 
-Dash lives in a pond. The pond has rocks. The pond has plants.
+Dash is a small fish. He has thin fins. Dash lives in a pond.
 
-One day, Dash sits on a rock. He looks up.
+</div>
 
-A bug! It is on a log. Yum!
+<div class="reader-sidebar">
 
-Dash swims up. He opens his mouth. ZAP!
+### Spelling Aid
 
-Dash has the bug. He has it for his snack.
+**New:** sh
 
-Then — a duck! A big brown duck.
+**Sounds:** dash, fish, dash
 
-"QUACK!" says the duck.
+**Phonograms on this page:** a, d, e, f, h
 
-Dash swims fast. He hides in the plants.
+**Rules in this story:**
 
-The duck looks. The duck can not find Dash.
+**Rule 18:** SH placement
 
-Dash sits still. His fins tick.
+**Rule 21:** Plural nouns
 
-The duck goes back. She swims off.
+</div>
 
-Dash pops up. He is safe.
+</div>
 
-"Whew!" says Dash. "That was too close."
+<div class="reader-page">
 
-Dash swims back to his rock. He sits in the sun.
+<div class="reader-text">
 
-Dash is a smart fish.
+The pond has rocks. The pond has plants. One day, Dash sits on a rock.
 
-The End.
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash
+
+**Phonograms on this page:** a, c, d, e, h
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He looks up. A bug! It is on a log.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** b, g, k, l, o
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Yum! Dash swims up. He opens his mouth.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash
+
+**Phonograms on this page:** a, d, e, h, i
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+ZAP! Dash has the bug. He has it for his snack.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash
+
+**Phonograms on this page:** a, b, c, d, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then — a duck! A big brown duck. "QUACK!" says the duck.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, g
+
+**Rules in this story:**
+
+**Rule 11:** Q always needs U
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Dash swims fast. He hides in the plants. The duck looks.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The duck can not find Dash. Dash sits still. His fins tick.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash, dash
+
+**Phonograms on this page:** a, c, d, f, h
+
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The duck goes back. She swims off. Dash pops up.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He is safe. "Whew!" says Dash. "That was too close."
+
+Dash swims back to his rock.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash, dash
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He sits in the sun. Dash is a smart fish.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** sh
+
+**Sounds:** dash, fish
+
+**Phonograms on this page:** a, d, f, h, i
+
+**Rules in this story:**
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
 
 ---
 

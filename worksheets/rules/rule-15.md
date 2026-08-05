@@ -1,10 +1,10 @@
-# Rule 15 Practice: Y changes to I before suffix
+# Rule 15 Practice: Y changes to I
 
 ---
 
 ## The Rule
 
-> Y changes to I before suffix
+> Y changes to I
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 15:
 
-> babies &nbsp;&nbsp; cries &nbsp;&nbsp; tries &nbsp;&nbsp; flies &nbsp;&nbsp; carried &nbsp;&nbsp; happiness &nbsp;&nbsp; beautiful &nbsp;&nbsp; funnier &nbsp;&nbsp; laziest &nbsp;&nbsp; earlier
+> baby &nbsp;&nbsp; cry &nbsp;&nbsp; happy &nbsp;&nbsp; carry &nbsp;&nbsp; fly &nbsp;&nbsp; try &nbsp;&nbsp; easy &nbsp;&nbsp; heavy &nbsp;&nbsp; lucky &nbsp;&nbsp; plenty
 
 ---
 

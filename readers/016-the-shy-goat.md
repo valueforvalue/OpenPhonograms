@@ -12,35 +12,249 @@
 
 ## Story
 
-**The Shy Goat**
+<div class="reader-page">
 
-Greta is a goat. Greta lives on a farm with a red barn, a long road, and a small blue pond.
+<div class="reader-text">
 
-Greta is shy. She stays by the old barn. She does not play with the other goats on the green hill.
+Greta is a goat. Greta lives on a farm with a red barn, a long road, and a small blue pond. Greta is shy.
 
-One day, a storm comes. Rain falls and falls. The road turns to mud.
+</div>
 
-A little toad hops down the road. His foot sticks in the mud! He can not get out!
+<div class="reader-sidebar">
 
-"Help!" cries the toad. "I can not get loose!"
+### Spelling Aid
 
-Greta sees the toad. She is shy, but she wants to help.
+**Phonograms on this page:** a, b, d, e, f
 
-Greta walks down the road. She steps in the mud. She puts her head low.
+**Rules in this story:**
 
-"Jump on!" says Greta.
+**Rule 3:** No English word ends in I, U, V, or J
 
-The toad jumps on Greta's back. Greta walks out of the mud.
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
-"Thank you, Greta!" says the toad. "You are so brave!"
+**Rule 6:** Y says /ī/ at end of one-syllable word
 
-Greta walks the toad to the pond. The toad hops in, glad and clean.
+</div>
 
-The other goats on the hill see Greta. They come down. "Greta, you are brave! Come play with us!"
+</div>
 
-Greta smiles. Being brave makes pals.
+<div class="reader-page">
 
-The End.
+<div class="reader-text">
+
+She stays by the old barn. She does not play with the other goats on the green hill. One day, a storm comes.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 9:** AY for /ā/ at end
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Rain falls and falls. The road turns to mud. A little toad hops down the road.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, h
+
+**Rules in this story:**
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+His foot sticks in the mud! He can not get out! "Help!" cries the toad.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"I can not get loose!"
+
+Greta sees the toad. She is shy, but she wants to help. Greta walks down the road.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, h
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She steps in the mud. She puts her head low. "Jump on!" says Greta.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The toad jumps on Greta's back. Greta walks out of the mud. "Thank you, Greta!" says the toad.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"You are so brave!"
+
+Greta walks the toad to the pond. The toad hops in, glad and clean. The other goats on the hill see Greta.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 29:** F vs V vs FE spelling
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+They come down. "Greta, you are brave! Come play with us!"
+
+Greta smiles.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 12:** Silent E — nine reasons
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Being brave makes pals.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, e, k, l
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 29:** F vs V vs FE spelling
+
+</div>
+
+</div>
 
 ---
 

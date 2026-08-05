@@ -1,10 +1,10 @@
-# Rule 9 Practice: AY spells /ā/ at end of base word
+# Rule 9 Practice: AY for /ā/ at end
 
 ---
 
 ## The Rule
 
-> AY spells /ā/ at end of base word
+> AY for /ā/ at end
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 9:
 
-> day &nbsp;&nbsp; say &nbsp;&nbsp; way &nbsp;&nbsp; may &nbsp;&nbsp; pay &nbsp;&nbsp; lay &nbsp;&nbsp; ray &nbsp;&nbsp; bay &nbsp;&nbsp; hay &nbsp;&nbsp; clay
+> day &nbsp;&nbsp; say &nbsp;&nbsp; way &nbsp;&nbsp; may &nbsp;&nbsp; pay &nbsp;&nbsp; play &nbsp;&nbsp; stay &nbsp;&nbsp; tray &nbsp;&nbsp; spray &nbsp;&nbsp; gray
 
 ---
 

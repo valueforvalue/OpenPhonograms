@@ -1,10 +1,10 @@
-# Rule 24 Practice: -FUL suffix has one L
+# Rule 24 Practice: Suffix -FUL
 
 ---
 
 ## The Rule
 
-> -FUL suffix has one L
+> Suffix -FUL
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 24:
 
-> hopeful &nbsp;&nbsp; careful &nbsp;&nbsp; useful &nbsp;&nbsp; joyful &nbsp;&nbsp; playful &nbsp;&nbsp; helpful &nbsp;&nbsp; thankful &nbsp;&nbsp; wonderful &nbsp;&nbsp; powerful &nbsp;&nbsp; beautiful
+> joyful &nbsp;&nbsp; helpful &nbsp;&nbsp; careful &nbsp;&nbsp; thankful &nbsp;&nbsp; peaceful &nbsp;&nbsp; playful &nbsp;&nbsp; useful &nbsp;&nbsp; hopeful &nbsp;&nbsp; spiteful &nbsp;&nbsp; truthful
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-hopeful &nbsp;&nbsp; careful &nbsp;&nbsp; useful &nbsp;&nbsp; joyful &nbsp;&nbsp; playful
+joyful &nbsp;&nbsp; helpful &nbsp;&nbsp; careful &nbsp;&nbsp; thankful &nbsp;&nbsp; peaceful
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

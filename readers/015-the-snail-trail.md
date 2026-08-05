@@ -12,29 +12,209 @@
 
 ## Story
 
-**The Snail Trail**
+<div class="reader-page">
+
+<div class="reader-text">
 
 Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
 
-Snappy leaves a thin trail as he goes. The trail shines in the sun like a small silver way.
+</div>
 
-"Where are you going, Snappy?" asks a bug on a leaf.
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, i
+
+**Rules in this story:**
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 31:** Schwa in unstressed syllables
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Snappy leaves a thin trail as he goes. The trail shines in the sun like a small silver way. "Where are you going, Snappy?" asks a bug on a leaf.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, e, f, g
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 21:** Plural nouns
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 "I am going to the garden," says Snappy. "It is a long way."
 
-"I can fly there in a day!" says the bug.
+"I can fly there in a day!" says the bug. "I cannot fly," says Snappy.
 
-"I cannot fly," says Snappy. "But I can wait. Slow and steady, that is my way."
+</div>
 
-The bug flies off. Snappy starts on his way. Day by day, Snappy goes on. The sun is hot. The rain comes down. Snappy keeps on.
+<div class="reader-sidebar">
 
-He does not stay in one spot. He does not wait too long. He just goes, slow and steady, every day.
+### Spelling Aid
 
-At last, Snappy gets to the garden. The garden has big green plants and red flowers and a cool pond to stay by.
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"But I can wait. Slow and steady, that is my way."
+
+The bug flies off. Snappy starts on his way.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Day by day, Snappy goes on. The sun is hot. The rain comes down.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, g
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Snappy keeps on. He does not stay in one spot. He does not wait too long.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, e, g, i, k
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He just goes, slow and steady, every day. At last, Snappy gets to the garden. The garden has big green plants and red flowers and a cool pond to stay by.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 "It was a long trail," says Snappy. "But I made it. Slow and steady wins the day."
 
-The End.
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, i
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+</div>
+
+</div>
 
 ---
 

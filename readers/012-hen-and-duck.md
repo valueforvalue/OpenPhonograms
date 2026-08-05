@@ -14,33 +14,193 @@
 
 ## Story
 
-**Hen and Duck**
+<div class="reader-page">
+
+<div class="reader-text">
 
 Hen has a nest in the grass. The nest has six eggs. Hen sits on the eggs to keep them warm and safe.
 
-Duck lives in the pond by the farm. Duck can swim and dive and splash.
+</div>
 
-"Quack!" says Duck. "Come swim with me, Hen! The water is fun!"
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, e, f, g, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Duck lives in the pond by the farm. Duck can swim and dive and splash. "Quack!" says Duck.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 11:** Q always needs U
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Come swim with me, Hen! The water is fun!"
 
 "I cannot swim," says Hen. "I must sit on my eggs."
 
-Duck gets out of the pond. Duck waddles up the bank to the nest.
+Duck gets out of the pond.
 
-"I will sit with you," says Duck. "The sun is hot. I will help keep the eggs cool."
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 12:** Silent E — nine reasons
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Duck waddles up the bank to the nest. "I will sit with you," says Duck. "The sun is hot.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+I will help keep the eggs cool."
 
 Hen and Duck sit by the nest. The wind blows. The grass sways.
 
-Then — CRACK! A small egg has a crack.
+</div>
 
-A small wet chick pops out. It blinks. It peeps.
+<div class="reader-sidebar">
 
-"Quack!" says Duck.
+### Spelling Aid
 
-"Cluck!" says Hen.
+**Phonograms on this page:** a, b, c, d, e
 
-The chick has two pals already.
+**Rules in this story:**
 
-The End.
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then — CRACK! A small egg has a crack. A small wet chick pops out.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, g, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+It blinks. It peeps. "Quack!" says Duck.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 11:** Q always needs U
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Cluck!" says Hen. The chick has two pals already.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, h
+
+**Rules in this story:**
+
+**Rule 23:** Prefix AL-
+
+</div>
+
+</div>
 
 ---
 

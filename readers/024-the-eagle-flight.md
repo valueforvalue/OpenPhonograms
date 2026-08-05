@@ -12,27 +12,189 @@
 
 ## Story
 
-**The Eagle Flight**
+<div class="reader-page">
 
-High above the mountain peaks, an eagle named Ember soars on the wind.
+<div class="reader-text">
 
-Ember has the most magnificent view in the world. From her height, she can see the curve of the earth. She can spot a mouse in the grass from a mile away.
+High above the mountain peaks, an eagle named Ember soars on the wind. Ember has the most magnificent view in the world. From her height, she can see the curve of the earth.
 
-Today is Ember's first solo flight. She has practiced with her mother for weeks. But now she is alone.
+</div>
 
-The wind is strong. Ember's wings tremble. "I can do this," she tells herself. "I was born to fly."
+<div class="reader-sidebar">
 
-She spreads her wings wide. The wind lifts her. Higher and higher she climbs.
+### Spelling Aid
 
-The world below becomes small. The river is a silver ribbon. The forest is a green carpet. The mountains are ancient guardians.
+**Phonograms on this page:** a, b, c, d, e
 
-Ember lets out a cry — a wild, free sound that echoes across the valley.
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 28:** GH phonograms (silent, /f/, /g/)
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She can spot a mouse in the grass from a mile away. Today is Ember's first solo flight. She has practiced with her mother for weeks.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+**Rule 31:** Schwa in unstressed syllables
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+But now she is alone. The wind is strong. Ember's wings tremble.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, g
+
+**Rules in this story:**
+
+**Rule 23:** Prefix AL-
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"I can do this," she tells herself. "I was born to fly."
+
+She spreads her wings wide. The wind lifts her.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Higher and higher she climbs. The world below becomes small. The river is a silver ribbon.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The forest is a green carpet. The mountains are ancient guardians. Ember lets out a cry — a wild, free sound that echoes across the valley.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 This is freedom. This is flight. This is what she was made for.
 
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
 When Ember returns to her nest at sunset, her mother nods with pride. "You are an eagle now."
 
-The End.
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, g
+
+**Rules in this story:**
+
+**Rule 31:** Schwa in unstressed syllables
+
+</div>
+
+</div>
 
 ---
 

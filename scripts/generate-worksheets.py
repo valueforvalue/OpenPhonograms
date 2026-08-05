@@ -15,6 +15,7 @@ OUT = ROOT / "worksheets"
 import sys
 sys.path.insert(0, str(ROOT / "framework"))
 from phonograms import SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE  # noqa: E402
+from rules import RULES as RULES_WORDS  # noqa: E402  (alias for backward compat)
 
 # Create subdirectories
 for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
@@ -32,39 +33,8 @@ RULE_STAGE = {
     "13":4,"14":4,"15":4,"16":4,"17":4,"18":4,"23":4,"24":4,"19":4,"21":4,"22":4,"29":4,
 }
 
-RULES_WORDS = {
-    "1": {"name": "C softens to /s/ before E, I, Y", "words": ["cent","city","cycle","face","ice","dance","since","rice","mice","nice","pace","race","lace","place","space"]},
-    "2": {"name": "G may soften to /j/ before E, I, Y", "words": ["gem","giant","gym","age","cage","page","huge","large","change","strange","danger","ginger","gentle","giraffe","engine"]},
-    "3": {"name": "No English word ends in I, U, V, or J", "words": ["have","give","live","love","blue","true","clue","day","play","boy","toy","new","few","saw","law"]},
-    "4": {"name": "A E O U say long at end of syllable", "words": ["go","no","so","he","me","she","we","be","baby","open","music","paper","even","unit","menu"]},
-    "5": {"name": "I and Y at end of syllable say /ĭ/ or /ī/", "words": ["item","bicycle","by","my","gym","cry","sky","try","fly","dry","fry","shy","why","spy","reply"]},
-    "6": {"name": "Y says /ī/ at end of one-syllable word", "words": ["by","my","cry","fly","sky","try","why","shy","dry","fry","pry","spy","sly","thy","ply"]},
-    "7": {"name": "I and Y may say /ē/", "words": ["baby","happy","funny","candy","silly","marine","radio","police","very","many","only","family","city","party","study"]},
-    "8": {"name": "I and O may say /ī/ /ō/ before two consonants", "words": ["find","kind","mind","child","wild","blind","old","cold","most","post","bolt","told","gold","hold","roll"]},
-    "9": {"name": "AY spells /ā/ at end of base word", "words": ["day","say","way","may","pay","lay","ray","bay","hay","clay","play","stay","gray","tray","pray"]},
-    "10": {"name": "A says /ä/ at end, after W, before L", "words": ["spa","water","watch","want","wash","ball","tall","fall","all","call","small","wall","walk","talk","halt"]},
-    "11": {"name": "Q always needs U", "words": ["queen","quit","quick","quack","quilt","quiz","quest","quiet","quite","quote","quarter","question","squish","squash","squeeze"]},
-    "12": {"name": "Silent E (9 reasons)", "words": ["make","have","give","live","love","nice","race","page","cage","size","prize","house","mouse","those","three"]},
-    "13": {"name": "Drop silent E for vowel suffix", "words": ["making","hoping","driving","using","baking","writing","smiling","raking","riding","taking","shining","taping","waving","saving"]},
-    "14": {"name": "Double consonant (1-1-1 rule)", "words": ["running","hopping","swimming","sitting","getting","cutting","stopping","planning","begging","jogging","shopping","clapping"]},
-    "15": {"name": "Y changes to I before suffix", "words": ["babies","cries","tries","flies","carried","happiness","beautiful","funnier","laziest","earlier","dried","spied","hurried"]},
-    "16": {"name": "Two I's cannot be adjacent", "words": ["crying","trying","flying","studying","carrying","marrying","hurrying","worrying","copying","varying"]},
-    "17": {"name": "TI CI SI spell /sh/ in Latin words", "words": ["nation","action","station","special","social","musician","mission","session","vision","fraction","precious","delicious"]},
-    "18": {"name": "SH at beginning/end of base word", "words": ["ship","fish","wish","dish","push","crash","flash","she","shut","shop","dashes","wishing","fishes","splashes","crashes"]},
-    "19": {"name": "Past tense formed with -ED", "words": ["walked","played","stopped","baked","carried","tried","hopped","hoped","planned","called","needed","wanted"]},
-    "20": {"name": "Three sounds of -ED", "words": ["wanted","needed","rested","played","called","showed","fished","jumped","looked","stopped","asked","liked","walked","talked","worked"]},
-    "21": {"name": "Plural -S and -ES", "words": ["cats","dogs","boxes","dishes","churches","foxes","buses","houses","pages","races","bridges","catches","wishes","judges","dishes"]},
-    "22": {"name": "3rd person singular -S and -ES", "words": ["runs","walks","fixes","washes","catches","watches","misses","goes","does","has","is","plays","stays","tries","carries"]},
-    "23": {"name": "AL- prefix has one L", "words": ["already","although","always","also","almost","altogether","alright","albeit","almighty"]},
-    "24": {"name": "-FUL suffix has one L", "words": ["hopeful","careful","useful","joyful","playful","helpful","thankful","wonderful","powerful","beautiful","graceful","peaceful"]},
-    "25": {"name": "DGE after short vowel", "words": ["bridge","edge","fudge","judge","badge","lodge","ledge","dodge","ridge","wedge","pledge","sledge","trudge"]},
-    "26": {"name": "CK after short vowel", "words": ["back","sick","duck","neck","lock","rock","sock","pack","pick","kick","tick","tuck","check","click","stick"]},
-    "27": {"name": "TCH after short vowel", "words": ["catch","match","patch","latch","batch","hatch","notch","ditch","hitch","pitch","witch","fetch","stretch","scratch"]},
-    "28": {"name": "GH phonograms", "words": ["light","night","right","eight","weigh","though","through","rough","tough","laugh","caught","taught","ghost","high","sigh"]},
-    "29": {"name": "Z not S at beginning for /z/", "words": ["zip","zap","zoo","zone","zero","zebra","zigzag","zoom","zesty","zipper","zinc","zany","zillion"]},
-    "30": {"name": "Double F L S (Floss Rule)", "words": ["off","cliff","stuff","bell","fill","tall","full","miss","grass","class","kiss","dress","glass","buzz","fizz"]},
-    "31": {"name": "Schwa in unstressed syllables", "words": ["about","seven","pencil","button","circus","animal","family","banana","chocolate","different","memory","happen"]},
-}
+# Spelling rules data imported from framework/rules.py (RULES alias above).
+
 
 # ── TEMPLATES ───────────────────────────────────────────────────────
 

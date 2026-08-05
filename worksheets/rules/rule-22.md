@@ -1,10 +1,10 @@
-# Rule 22 Practice: 3rd person singular -S and -ES
+# Rule 22 Practice: 3rd person singular verbs
 
 ---
 
 ## The Rule
 
-> 3rd person singular -S and -ES
+> 3rd person singular verbs
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 22:
 
-> runs &nbsp;&nbsp; walks &nbsp;&nbsp; fixes &nbsp;&nbsp; washes &nbsp;&nbsp; catches &nbsp;&nbsp; watches &nbsp;&nbsp; misses &nbsp;&nbsp; goes &nbsp;&nbsp; does &nbsp;&nbsp; has
+> runs &nbsp;&nbsp; jumps &nbsp;&nbsp; sings &nbsp;&nbsp; swims &nbsp;&nbsp; plays &nbsp;&nbsp; walks &nbsp;&nbsp; talks &nbsp;&nbsp; helps &nbsp;&nbsp; looks &nbsp;&nbsp; stops
 
 ---
 

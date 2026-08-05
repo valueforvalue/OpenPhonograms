@@ -12,31 +12,209 @@
 
 ## Story
 
-**The Eager Rabbit**
+<div class="reader-page">
 
-Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW.
+<div class="reader-text">
 
-"Hurry up, sun! I want to play!" Ruby shouts at dawn.
+Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, sun!
 
-"Hurry up, carrot! I want to eat!" Ruby shouts at the garden.
+</div>
 
-"Hurry up, friends! I want to race!" Ruby shouts at the other rabbits.
+<div class="reader-sidebar">
 
-But the sun takes its time. The carrot grows slowly. And her friends are not as fast as Ruby.
+### Spelling Aid
 
-One day, Ruby's mom says, "Ruby, sit with me. Watch the garden."
+**Phonograms on this page:** a, b, e, g, h
 
-"But I want to run!" says Ruby.
+**Rules in this story:**
 
-"Just for a moment," says Mom. "Be still."
+**Rule 22:** 3rd person singular verbs
 
-Ruby sits. At first, she is bored. But then she notices things she never saw before. A butterfly on a flower. A worm in the soil. The way the carrot tops wave in the breeze.
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
-"This is nice," Ruby whispers.
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+I want to play!" Ruby shouts at dawn. "Hurry up, carrot! I want to eat!" Ruby shouts at the garden.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 10:** A says /ä/
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Hurry up, friends! I want to race!" Ruby shouts at the other rabbits. But the sun takes its time.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 10:** A says /ä/
+
+**Rule 12:** Silent E — nine reasons
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The carrot grows slowly. And her friends are not as fast as Ruby. One day, Ruby's mom says, "Ruby, sit with me.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Watch the garden."
+
+"But I want to run!" says Ruby. "Just for a moment," says Mom. "Be still."
+
+Ruby sits.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 10:** A says /ä/
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 27:** TCH after short/broad vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+At first, she is bored. But then she notices things she never saw before. A butterfly on a flower.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+A worm in the soil. The way the carrot tops wave in the breeze. "This is nice," Ruby whispers.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, h
+
+**Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 29:** F vs V vs FE spelling
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 "Some things are better when you wait," says Mom. "Even eager rabbits can learn to be patient."
 
-The End.
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, e, g, h
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
 
 ---
 

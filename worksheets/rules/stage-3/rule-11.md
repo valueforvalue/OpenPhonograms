@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 11:
 
-> queen &nbsp;&nbsp; quit &nbsp;&nbsp; quick &nbsp;&nbsp; quack &nbsp;&nbsp; quilt &nbsp;&nbsp; quiz &nbsp;&nbsp; quest &nbsp;&nbsp; quiet &nbsp;&nbsp; quite &nbsp;&nbsp; quote
+> queen &nbsp;&nbsp; quit &nbsp;&nbsp; quick &nbsp;&nbsp; quack &nbsp;&nbsp; quilt &nbsp;&nbsp; quest &nbsp;&nbsp; quiet &nbsp;&nbsp; quite &nbsp;&nbsp; quote &nbsp;&nbsp; quart
 
 ---
 

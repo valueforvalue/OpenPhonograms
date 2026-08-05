@@ -1,10 +1,10 @@
-# Rule 12 Practice: Silent E (9 reasons)
+# Rule 12 Practice: Silent E — nine reasons
 
 ---
 
 ## The Rule
 
-> Silent E (9 reasons)
+> Silent E — nine reasons
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 12:
 
-> make &nbsp;&nbsp; have &nbsp;&nbsp; give &nbsp;&nbsp; live &nbsp;&nbsp; love &nbsp;&nbsp; nice &nbsp;&nbsp; race &nbsp;&nbsp; page &nbsp;&nbsp; cage &nbsp;&nbsp; size
+> make &nbsp;&nbsp; have &nbsp;&nbsp; race &nbsp;&nbsp; cage &nbsp;&nbsp; size &nbsp;&nbsp; prize &nbsp;&nbsp; house &nbsp;&nbsp; these &nbsp;&nbsp; come
 
 ---
 

@@ -12,43 +12,267 @@
 
 ## Story
 
-**The Farm**
+<div class="reader-page">
 
-It is dawn on the farm. The sky is pink.
+<div class="reader-text">
 
-A rooster crows. "Cock-a-doodle-doo!"
+It is dawn on the farm. The sky is pink. A rooster crows.
 
-Grandpa wakes up. He puts on his boots.
+</div>
 
-Today is barn day. Time to fix the roof.
+<div class="reader-sidebar">
 
-Grandpa climbs up. He has a hammer. He has nails.
+### Spelling Aid
 
-THUD! THUD! The hammer hits the nails.
+**Phonograms on this page:** a, c, d, e, f
 
-Then — a sound. A small sound. "Maaaa."
+**Rules in this story:**
 
-Grandpa looks down. A baby goat!
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
-The baby goat is stuck. She can not get up.
+**Rule 6:** Y says /ī/ at end of one-syllable word
 
-"Hold on!" calls Grandpa.
+</div>
 
-Grandpa climbs down. He lifts the baby goat.
+</div>
 
-"There you go!" says Grandpa.
+<div class="reader-page">
 
-The baby goat runs to her mom.
+<div class="reader-text">
 
-The mom goat licks her baby. She is so glad.
+"Cock-a-doodle-doo!"
 
-"Thank you," bleats the mom goat.
+Grandpa wakes up. He puts on his boots. Today is barn day.
 
-Grandpa smiles. Then he climbs back up.
+</div>
 
-THUD! THUD! The roof is fixed.
+<div class="reader-sidebar">
 
-The End.
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Time to fix the roof. Grandpa climbs up. He has a hammer.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He has nails. THUD! THUD!
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, h, i, l
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The hammer hits the nails. Then — a sound. A small sound.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Maaaa."
+
+Grandpa looks down. A baby goat! The baby goat is stuck.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** oa
+
+**Sounds:** goat, goat
+
+**Phonograms on this page:** a, b, c, d, g
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She can not get up. "Hold on!" calls Grandpa. Grandpa climbs down.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He lifts the baby goat. "There you go!" says Grandpa. The baby goat runs to her mom.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** oa
+
+**Sounds:** goat, goat
+
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The mom goat licks her baby. She is so glad. "Thank you," bleats the mom goat.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** oa
+
+**Sounds:** goat, goat
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Grandpa smiles. Then he climbs back up. THUD!
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+THUD! The roof is fixed.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** d, e, f, h, i
+
+</div>
+
+</div>
 
 ---
 

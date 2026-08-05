@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 16:
 
-> crying &nbsp;&nbsp; trying &nbsp;&nbsp; flying &nbsp;&nbsp; studying &nbsp;&nbsp; carrying &nbsp;&nbsp; marrying &nbsp;&nbsp; hurrying &nbsp;&nbsp; worrying &nbsp;&nbsp; copying &nbsp;&nbsp; varying
+> rain &nbsp;&nbsp; play &nbsp;&nbsp; wait &nbsp;&nbsp; train &nbsp;&nbsp; brain &nbsp;&nbsp; grain &nbsp;&nbsp; chain &nbsp;&nbsp; drain &nbsp;&nbsp; plain &nbsp;&nbsp; stain
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-crying &nbsp;&nbsp; trying &nbsp;&nbsp; flying &nbsp;&nbsp; studying &nbsp;&nbsp; carrying
+rain &nbsp;&nbsp; play &nbsp;&nbsp; wait &nbsp;&nbsp; train &nbsp;&nbsp; brain
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

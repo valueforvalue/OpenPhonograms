@@ -1,10 +1,10 @@
-# Rule 30 Practice: Double F L S (Floss Rule)
+# Rule 30 Practice: Double or single final consonant
 
 ---
 
 ## The Rule
 
-> Double F L S (Floss Rule)
+> Double or single final consonant
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 30:
 
-> off &nbsp;&nbsp; cliff &nbsp;&nbsp; stuff &nbsp;&nbsp; bell &nbsp;&nbsp; fill &nbsp;&nbsp; tall &nbsp;&nbsp; full &nbsp;&nbsp; miss &nbsp;&nbsp; grass &nbsp;&nbsp; class
+> of &nbsp;&nbsp; bel &nbsp;&nbsp; mis &nbsp;&nbsp; tal &nbsp;&nbsp; ful &nbsp;&nbsp; gras &nbsp;&nbsp; plan &nbsp;&nbsp; step &nbsp;&nbsp; shop &nbsp;&nbsp; trip
 
 ---
 

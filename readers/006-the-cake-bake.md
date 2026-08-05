@@ -12,39 +12,257 @@
 
 ## Story
 
-**The Cake Bake**
+<div class="reader-page">
 
-Today is Mom's birthday. Jake wants to bake her a cake.
+<div class="reader-text">
 
-"I will make the best cake ever!" Jake tells his sister Kate.
+Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best cake ever!" Jake tells his sister Kate.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 12:** Silent E — nine reasons
+
+**Rule 13:** Drop Silent E for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
 
 Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
 
-"Time to add the sugar," Jake says. He dumps in a cup.
+</div>
 
-He stirs. He tastes. "Hmm, it needs more!"
+<div class="reader-sidebar">
 
-Jake adds a cup of cocoa. The mix turns brown. Now it is a chocolate cake!
+### Spelling Aid
 
-He puts the cake in the oven. He sets the timer. Wait. Wait. Wait.
+**Phonograms on this page:** a, b, e, f, g
 
-DING! The cake is done!
+</div>
 
-Jake takes it out. It is hot. The smell fills the room.
+</div>
 
-He puts white frosting on top. He adds red berries. The cake looks fine.
+<div class="reader-page">
 
-Mom comes home. "What is that smell?" she asks.
+<div class="reader-text">
 
-"It is a cake!" says Jake. "For your birthday!"
+"Time to add the sugar," Jake says. He dumps in a cup. He stirs.
 
-Mom's eyes get wide. She takes a bite.
+</div>
 
-"This is the best cake I have ever had!" Mom smiles.
+<div class="reader-sidebar">
 
-Jake hugs Mom. "Happy birthday!"
+### Spelling Aid
 
-The End.
+**Phonograms on this page:** a, c, d, e, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He tastes. "Hmm, it needs more!"
+
+Jake adds a cup of cocoa. The mix turns brown.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Now it is a chocolate cake! He puts the cake in the oven. He sets the timer.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Wait. Wait. Wait.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, i, t, w, ai
+
+**Rules in this story:**
+
+**Rule 16:** Two I's cannot be adjacent
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+DING! The cake is done! Jake takes it out.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+It is hot. The smell fills the room. He puts white frosting on top.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** e, f, g, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He adds red berries. The cake looks fine. Mom comes home.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"What is that smell?" she asks. "It is a cake!" says Jake. "For your birthday!"
+
+Mom's eyes get wide.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She takes a bite. "This is the best cake I have ever had!" Mom smiles. Jake hugs Mom.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Happy birthday!"
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, h, i
+
+**Rules in this story:**
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
 
 ---
 

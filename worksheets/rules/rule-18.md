@@ -1,10 +1,10 @@
-# Rule 18 Practice: SH at beginning/end of base word
+# Rule 18 Practice: SH placement
 
 ---
 
 ## The Rule
 
-> SH at beginning/end of base word
+> SH placement
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 18:
 
-> ship &nbsp;&nbsp; fish &nbsp;&nbsp; wish &nbsp;&nbsp; dish &nbsp;&nbsp; push &nbsp;&nbsp; crash &nbsp;&nbsp; flash &nbsp;&nbsp; she &nbsp;&nbsp; shut &nbsp;&nbsp; shop
+> ship &nbsp;&nbsp; wish &nbsp;&nbsp; cash &nbsp;&nbsp; dish &nbsp;&nbsp; wash &nbsp;&nbsp; fish &nbsp;&nbsp; fresh &nbsp;&nbsp; brush &nbsp;&nbsp; crash &nbsp;&nbsp; smash
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-ship &nbsp;&nbsp; fish &nbsp;&nbsp; wish &nbsp;&nbsp; dish &nbsp;&nbsp; push
+ship &nbsp;&nbsp; wish &nbsp;&nbsp; cash &nbsp;&nbsp; dish &nbsp;&nbsp; wash
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 

@@ -1,10 +1,10 @@
-# Rule 27 Practice: TCH after short vowel
+# Rule 27 Practice: TCH after short/broad vowel
 
 ---
 
 ## The Rule
 
-> TCH after short vowel
+> TCH after short/broad vowel
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 27:
 
-> catch &nbsp;&nbsp; match &nbsp;&nbsp; patch &nbsp;&nbsp; latch &nbsp;&nbsp; batch &nbsp;&nbsp; hatch &nbsp;&nbsp; notch &nbsp;&nbsp; ditch &nbsp;&nbsp; hitch &nbsp;&nbsp; pitch
+> catch &nbsp;&nbsp; match &nbsp;&nbsp; patch &nbsp;&nbsp; latch &nbsp;&nbsp; batch &nbsp;&nbsp; hatch &nbsp;&nbsp; watch &nbsp;&nbsp; kitchen &nbsp;&nbsp; pitcher &nbsp;&nbsp; butcher
 
 ---
 

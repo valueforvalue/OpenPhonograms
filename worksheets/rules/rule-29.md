@@ -1,10 +1,10 @@
-# Rule 29 Practice: Z not S at beginning for /z/
+# Rule 29 Practice: F vs V vs FE spelling
 
 ---
 
 ## The Rule
 
-> Z not S at beginning for /z/
+> F vs V vs FE spelling
 
 ---
 
@@ -12,7 +12,7 @@
 
 Circle the words that follow Rule 29:
 
-> zip &nbsp;&nbsp; zap &nbsp;&nbsp; zoo &nbsp;&nbsp; zone &nbsp;&nbsp; zero &nbsp;&nbsp; zebra &nbsp;&nbsp; zigzag &nbsp;&nbsp; zoom &nbsp;&nbsp; zesty &nbsp;&nbsp; zipper
+> leaf &nbsp;&nbsp; calf &nbsp;&nbsp; half &nbsp;&nbsp; wolf &nbsp;&nbsp; knife &nbsp;&nbsp; life &nbsp;&nbsp; wife &nbsp;&nbsp; have &nbsp;&nbsp; love &nbsp;&nbsp; give
 
 ---
 
@@ -22,7 +22,7 @@ Write the correct form:
 
 Write each word and underline where the rule applies:
 
-zip &nbsp;&nbsp; zap &nbsp;&nbsp; zoo &nbsp;&nbsp; zone &nbsp;&nbsp; zero
+leaf &nbsp;&nbsp; calf &nbsp;&nbsp; half &nbsp;&nbsp; wolf &nbsp;&nbsp; knife
 
 _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________ &nbsp; _______________
 
