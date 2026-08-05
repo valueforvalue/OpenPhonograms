@@ -14,21 +14,39 @@
 
 **The Farm**
 
-Grandpa has a farm. The farm is far from town.
+It is dawn on the farm. The sky is pink.
 
-On the farm, there are many animals. There is a horse named Star. There is a goat named Billy. There are ten hens and one big rooster.
+A rooster crows. "Cock-a-doodle-doo!"
 
-Grandpa grows corn in the field. The corn is tall and green. The goats like to eat the corn!
+Grandpa wakes up. He puts on his boots.
 
-"Shoo, Billy!" calls Grandpa. "The corn is not for you!"
+Today is barn day. Time to fix the roof.
 
-There is a pond on the farm. Grandpa has a small boat. The boat is red.
+Grandpa climbs up. He has a hammer. He has nails.
 
-In the summer, the children visit the farm. They ride in the red boat. They feed the hens. They help Grandpa pick the corn.
+THUD! THUD! The hammer hits the nails.
 
-"Farms are the best," says Lily. "I want to live on a farm when I grow up."
+Then — a sound. A small sound. "Maaaa."
 
-Grandpa smiles. "You can visit any time."
+Grandpa looks down. A baby goat!
+
+The baby goat is stuck. She can not get up.
+
+"Hold on!" calls Grandpa.
+
+Grandpa climbs down. He lifts the baby goat.
+
+"There you go!" says Grandpa.
+
+The baby goat runs to her mom.
+
+The mom goat licks her baby. She is so glad.
+
+"Thank you," bleats the mom goat.
+
+Grandpa smiles. Then he climbs back up.
+
+THUD! THUD! The roof is fixed.
 
 The End.
 
@@ -36,7 +54,7 @@ The End.
 
 ## Think About It
 
-1. What animals live on the farm? (Horse, goat, hens, rooster.) 2. What does Grandpa grow? (Corn.) 3. What color is the boat? (Red.) 4. Find words with AR and OR. (farm, far, horse, corn, for, short)
+1. What does Grandpa fix in the story? (The barn roof.) 2. What sound does Grandpa hear? (A baby goat bleating.) 3. How does Grandpa help? (He lifts the baby goat.) 4. Find an EAR word in the story. (hear, learn, yearn — note 'ear' appears in 'learn' and 'hear')
 
 ---
 

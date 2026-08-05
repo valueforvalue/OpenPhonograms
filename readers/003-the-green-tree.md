@@ -14,23 +14,33 @@
 
 **The Green Tree**
 
-There is a big green tree in the park. The tree is old and tall.
+Deep in the park, there is a green tree. The tree is big and old.
 
-A frog sits on a log next to the tree. The frog is green, like the tree.
+A frog named Fern lives by the tree. She sits on a log next to the trunk.
 
-"I am glad to sit here," says the frog. "The tree keeps me cool."
+"It is good here," says Fern. "The tree keeps me cool."
 
-A bird is in the tree. The bird has a nest. The nest has three eggs.
+Up in the tree top, a bird has a nest. The nest has three small eggs.
 
-"I am glad to be here," says the bird. "The tree keeps my nest safe."
+The bird sings all day long.
 
-A child runs to the tree. The child stops and looks up.
+Then — strong wind! The wind shakes the tree.
 
-"I see the frog!" says the child. "I see the bird! I see the nest!"
+The nest slips! "Help!" sings the bird.
 
-The child sits under the green tree. The frog sings. The bird sings.
+Fern sees the nest fall. She jumps up. She catches it.
 
-The green tree is a good home.
+The eggs are safe. The bird is glad.
+
+"Thank you, Fern!" sings the bird.
+
+"You are welcome," says Fern.
+
+The wind stops. The sun comes back.
+
+Fern and the bird sit in the green tree. They are pals.
+
+The green tree is the best home.
 
 The End.
 
@@ -38,7 +48,7 @@ The End.
 
 ## Think About It
 
-1. Who lives in the tree? (A bird.) 2. Who sits next to the tree? (A frog.) 3. What color is the frog? (Green, like the tree.) 4. Find a word with EE. (tree, green, see, keep, etc.)
+1. Who lives in the green tree? (A bird with three eggs.) 2. What happens when the wind comes? (The nest falls.) 3. How does Fern help? (She catches the nest.) 4. Find an EE word in the story. (tree, green, see, keep, deep, three, seed)
 
 ---
 

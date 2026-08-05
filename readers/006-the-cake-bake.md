@@ -4,10 +4,6 @@
 
 ---
 
-![Jake the snake baking a cake](images/illustrations/jake-bakes-cake.png)
-
----
-
 ## Warm-Up Words — Read These First
 
 > cake, bake, make, take, time, hope, ride, drove, smile, plate
@@ -18,25 +14,35 @@
 
 **The Cake Bake**
 
-Jake wants to bake a cake. "I will make the best cake!" he says.
+Today is Mom's birthday. Jake wants to bake her a cake.
 
-Jake gets a big bowl. He gets the flour, eggs, and milk. He mixes them up.
+"I will make the best cake ever!" Jake tells his sister Kate.
 
-"Time to add the sugar," Jake says. He dumps in a cup of sugar.
+Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
 
-Jake puts the cake in the oven. He waits and waits. The cake rises up!
+"Time to add the sugar," Jake says. He dumps in a cup.
 
-The timer dings. Jake takes the cake out. It is golden and smells so fine!
+He stirs. He tastes. "Hmm, it needs more!"
 
-Jake puts white frosting on top. He adds red berries. The cake looks beautiful.
+Jake adds a cup of cocoa. The mix turns brown. Now it is a chocolate cake!
 
-Jake's sister, Kate, comes home. "What is that?" she asks.
+He puts the cake in the oven. He sets the timer. Wait. Wait. Wait.
 
-"It is a cake!" says Jake. "I baked it all by myself."
+DING! The cake is done!
 
-Kate takes a bite. Her eyes get wide. "Jake! This is the best cake I have ever had!"
+Jake takes it out. It is hot. The smell fills the room.
 
-Jake smiles. "I told you. I make the best cake."
+He puts white frosting on top. He adds red berries. The cake looks fine.
+
+Mom comes home. "What is that smell?" she asks.
+
+"It is a cake!" says Jake. "For your birthday!"
+
+Mom's eyes get wide. She takes a bite.
+
+"This is the best cake I have ever had!" Mom smiles.
+
+Jake hugs Mom. "Happy birthday!"
 
 The End.
 
@@ -44,7 +50,7 @@ The End.
 
 ## Think About It
 
-1. What does Jake bake? (A cake.) 2. What does he put on top? (White frosting and red berries.) 3. Who comes home? (His sister Kate.) 4. Find silent E words. (cake, bake, make, time, take, fine, plate, etc.)
+1. Whose birthday is it? (Mom's.) 2. What kind of cake does Jake make? (Chocolate.) 3. How does Mom react? (She says it's the best cake ever.) 4. Find a silent E word in the story. (cake, bake, make, time, take, fine, like, smiles, etc.)
 
 ---
 

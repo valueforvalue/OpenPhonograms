@@ -14,27 +14,37 @@
 
 **Dash the Fish**
 
-Dash is a fish. Dash swims in the big pond.
+Dash is a small fish. He has thin fins.
 
-The pond has rocks and plants. Dash likes the plants.
+Dash lives in a pond. The pond has rocks. The pond has plants.
 
-Dash sees a bug on a rock. "Yum!" Dash zips up.
+One day, Dash sits on a rock. He looks up.
 
-ZAP! Dash gets the bug.
+A bug! It is on a log. Yum!
 
-But then Dash sees a big duck! The duck is on the pond.
+Dash swims up. He opens his mouth. ZAP!
 
-The duck sees Dash. "Quack!" says the duck.
+Dash has the bug. He has it for his snack.
 
-Dash swims fast! Dash hides in the plants.
+Then — a duck! A big brown duck.
 
-The duck can not get Dash. Dash is safe.
+"QUACK!" says the duck.
 
-"Whew!" says Dash. "That was close!"
+Dash swims fast. He hides in the plants.
 
-The duck swims away. Dash comes out.
+The duck looks. The duck can not find Dash.
 
-Dash is glad. The pond is calm.
+Dash sits still. His fins tick.
+
+The duck goes back. She swims off.
+
+Dash pops up. He is safe.
+
+"Whew!" says Dash. "That was too close."
+
+Dash swims back to his rock. He sits in the sun.
+
+Dash is a smart fish.
 
 The End.
 
@@ -42,7 +52,7 @@ The End.
 
 ## Think About It
 
-1. Where does Dash live? (In a pond.) 2. What does Dash eat? (A bug.) 3. Why does Dash hide? (A duck wants to eat him!) 4. Find a CK word. (duck, back, rock, quick)
+1. What did Dash catch for his snack? (A bug.) 2. Why did Dash hide? (A big duck came.) 3. How did Dash stay safe? (He sat still in the plants.) 4. Find a CK word in the story. (duck, back, rock, snack, tick)
 
 ---
 

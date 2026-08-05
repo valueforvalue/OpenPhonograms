@@ -14,23 +14,37 @@
 
 **The Rainy Day**
 
-It is a rainy day. Rain falls on the roof. Rain falls on the street.
+Today is a fine day. The sky is blue.
 
-Sam looks out the window. "I want to play," he says. "But it is too wet."
+Sam has a red ball. He likes his ball.
 
-Sam's mom says, "You can play with your toys."
+"Let's play!" says Sam.
 
-Sam gets his toy train. The train has ten cars. Sam makes the train go on the floor.
+Sam and his pal Roy go out. Roy has a toy train.
 
-Then Sam gets his coins. He counts the coins. One, two, three, four, five!
+They run. They play. They shout.
 
-Sam's dog, Roy, comes in. Roy has a toy in his mouth. It is a toy boat!
+Then the ball flies up. Up, up!
 
-"Good boy, Roy!" says Sam. "Let's play!"
+It lands on the roof. Oh no!
 
-Sam and Roy play all day. The rain stops at night.
+"I want my ball!" cries Sam.
 
-"I had fun," says Sam. "Rainy days can be good days."
+Roy looks up. He thinks. He has an idea.
+
+"I have my train!" says Roy. "Watch!"
+
+Roy throws the train up. It hits the ball.
+
+The ball rolls off. It lands on the grass.
+
+Sam gets his ball. He is so glad.
+
+"Roy, you are a good pal!" says Sam.
+
+They play until the sun sets.
+
+Then they go in for milk.
 
 The End.
 
@@ -38,7 +52,7 @@ The End.
 
 ## Think About It
 
-1. Why can't Sam play outside? (It's raining.) 2. What toys does Sam play with? (Train and coins.) 3. Who is Roy? (Sam's dog.) 4. Find words with OY and AI. (toy, Roy, boy, rainy, train, paint)
+1. What does Sam have? (A red ball.) 2. Where does the ball land? (On the roof.) 3. How does Roy help? (He throws his train up to knock it down.) 4. Find an OI word in the story. (coin, join, soil)
 
 ---
 

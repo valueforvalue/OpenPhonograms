@@ -21,30 +21,40 @@ READERS.append({
     "warmup": "ship, fish, dash, this, that, back, duck, sick",
     "story": """**Dash the Fish**
 
-Dash is a fish. Dash swims in the big pond.
+Dash is a small fish. He has thin fins.
 
-The pond has rocks and plants. Dash likes the plants.
+Dash lives in a pond. The pond has rocks. The pond has plants.
 
-Dash sees a bug on a rock. "Yum!" Dash zips up.
+One day, Dash sits on a rock. He looks up.
 
-ZAP! Dash gets the bug.
+A bug! It is on a log. Yum!
 
-But then Dash sees a big duck! The duck is on the pond.
+Dash swims up. He opens his mouth. ZAP!
 
-The duck sees Dash. "Quack!" says the duck.
+Dash has the bug. He has it for his snack.
 
-Dash swims fast! Dash hides in the plants.
+Then — a duck! A big brown duck.
 
-The duck can not get Dash. Dash is safe.
+"QUACK!" says the duck.
 
-"Whew!" says Dash. "That was close!"
+Dash swims fast. He hides in the plants.
 
-The duck swims away. Dash comes out.
+The duck looks. The duck can not find Dash.
 
-Dash is glad. The pond is calm.
+Dash sits still. His fins tick.
+
+The duck goes back. She swims off.
+
+Dash pops up. He is safe.
+
+"Whew!" says Dash. "That was too close."
+
+Dash swims back to his rock. He sits in the sun.
+
+Dash is a smart fish.
 
 The End.""",
-    "talk": "1. Where does Dash live? (In a pond.) 2. What does Dash eat? (A bug.) 3. Why does Dash hide? (A duck wants to eat him!) 4. Find a CK word. (duck, back, rock, quick)",
+    "talk": "1. What did Dash catch for his snack? (A bug.) 2. Why did Dash hide? (A big duck came.) 3. How did Dash stay safe? (He sat still in the plants.) 4. Find a CK word in the story. (duck, back, rock, snack, tick)",
 })
 
 READERS.append({
@@ -56,26 +66,36 @@ READERS.append({
     "warmup": "tree, green, see, sleep, stop, frog, swim, glad, hand, lamp, nest",
     "story": """**The Green Tree**
 
-There is a big green tree in the park. The tree is old and tall.
+Deep in the park, there is a green tree. The tree is big and old.
 
-A frog sits on a log next to the tree. The frog is green, like the tree.
+A frog named Fern lives by the tree. She sits on a log next to the trunk.
 
-"I am glad to sit here," says the frog. "The tree keeps me cool."
+"It is good here," says Fern. "The tree keeps me cool."
 
-A bird is in the tree. The bird has a nest. The nest has three eggs.
+Up in the tree top, a bird has a nest. The nest has three small eggs.
 
-"I am glad to be here," says the bird. "The tree keeps my nest safe."
+The bird sings all day long.
 
-A child runs to the tree. The child stops and looks up.
+Then — strong wind! The wind shakes the tree.
 
-"I see the frog!" says the child. "I see the bird! I see the nest!"
+The nest slips! "Help!" sings the bird.
 
-The child sits under the green tree. The frog sings. The bird sings.
+Fern sees the nest fall. She jumps up. She catches it.
 
-The green tree is a good home.
+The eggs are safe. The bird is glad.
+
+"Thank you, Fern!" sings the bird.
+
+"You are welcome," says Fern.
+
+The wind stops. The sun comes back.
+
+Fern and the bird sit in the green tree. They are pals.
+
+The green tree is the best home.
 
 The End.""",
-    "talk": "1. Who lives in the tree? (A bird.) 2. Who sits next to the tree? (A frog.) 3. What color is the frog? (Green, like the tree.) 4. Find a word with EE. (tree, green, see, keep, etc.)",
+    "talk": "1. Who lives in the green tree? (A bird with three eggs.) 2. What happens when the wind comes? (The nest falls.) 3. How does Fern help? (She catches the nest.) 4. Find an EE word in the story. (tree, green, see, keep, deep, three, seed)",
 })
 
 READERS.append({
@@ -87,26 +107,40 @@ READERS.append({
     "warmup": "rain, day, play, stay, boy, toy, coin, join, paint, train, sail",
     "story": """**The Rainy Day**
 
-It is a rainy day. Rain falls on the roof. Rain falls on the street.
+Today is a fine day. The sky is blue.
 
-Sam looks out the window. "I want to play," he says. "But it is too wet."
+Sam has a red ball. He likes his ball.
 
-Sam's mom says, "You can play with your toys."
+"Let's play!" says Sam.
 
-Sam gets his toy train. The train has ten cars. Sam makes the train go on the floor.
+Sam and his pal Roy go out. Roy has a toy train.
 
-Then Sam gets his coins. He counts the coins. One, two, three, four, five!
+They run. They play. They shout.
 
-Sam's dog, Roy, comes in. Roy has a toy in his mouth. It is a toy boat!
+Then the ball flies up. Up, up!
 
-"Good boy, Roy!" says Sam. "Let's play!"
+It lands on the roof. Oh no!
 
-Sam and Roy play all day. The rain stops at night.
+"I want my ball!" cries Sam.
 
-"I had fun," says Sam. "Rainy days can be good days."
+Roy looks up. He thinks. He has an idea.
+
+"I have my train!" says Roy. "Watch!"
+
+Roy throws the train up. It hits the ball.
+
+The ball rolls off. It lands on the grass.
+
+Sam gets his ball. He is so glad.
+
+"Roy, you are a good pal!" says Sam.
+
+They play until the sun sets.
+
+Then they go in for milk.
 
 The End.""",
-    "talk": "1. Why can't Sam play outside? (It's raining.) 2. What toys does Sam play with? (Train and coins.) 3. Who is Roy? (Sam's dog.) 4. Find words with OY and AI. (toy, Roy, boy, rainy, train, paint)",
+    "talk": "1. What does Sam have? (A red ball.) 2. Where does the ball land? (On the roof.) 3. How does Roy help? (He throws his train up to knock it down.) 4. Find an OI word in the story. (coin, join, soil)",
 })
 
 READERS.append({
@@ -118,24 +152,42 @@ READERS.append({
     "warmup": "farm, car, horse, corn, goat, boat, road, learn, early, sister, under",
     "story": """**The Farm**
 
-Grandpa has a farm. The farm is far from town.
+It is dawn on the farm. The sky is pink.
 
-On the farm, there are many animals. There is a horse named Star. There is a goat named Billy. There are ten hens and one big rooster.
+A rooster crows. "Cock-a-doodle-doo!"
 
-Grandpa grows corn in the field. The corn is tall and green. The goats like to eat the corn!
+Grandpa wakes up. He puts on his boots.
 
-"Shoo, Billy!" calls Grandpa. "The corn is not for you!"
+Today is barn day. Time to fix the roof.
 
-There is a pond on the farm. Grandpa has a small boat. The boat is red.
+Grandpa climbs up. He has a hammer. He has nails.
 
-In the summer, the children visit the farm. They ride in the red boat. They feed the hens. They help Grandpa pick the corn.
+THUD! THUD! The hammer hits the nails.
 
-"Farms are the best," says Lily. "I want to live on a farm when I grow up."
+Then — a sound. A small sound. "Maaaa."
 
-Grandpa smiles. "You can visit any time."
+Grandpa looks down. A baby goat!
+
+The baby goat is stuck. She can not get up.
+
+"Hold on!" calls Grandpa.
+
+Grandpa climbs down. He lifts the baby goat.
+
+"There you go!" says Grandpa.
+
+The baby goat runs to her mom.
+
+The mom goat licks her baby. She is so glad.
+
+"Thank you," bleats the mom goat.
+
+Grandpa smiles. Then he climbs back up.
+
+THUD! THUD! The roof is fixed.
 
 The End.""",
-    "talk": "1. What animals live on the farm? (Horse, goat, hens, rooster.) 2. What does Grandpa grow? (Corn.) 3. What color is the boat? (Red.) 4. Find words with AR and OR. (farm, far, horse, corn, for, short)",
+    "talk": "1. What does Grandpa fix in the story? (The barn roof.) 2. What sound does Grandpa hear? (A baby goat bleating.) 3. How does Grandpa help? (He lifts the baby goat.) 4. Find an EAR word in the story. (hear, learn, yearn — note 'ear' appears in 'learn' and 'hear')",
 })
 
 # ── STAGE 3 READERS ──
@@ -149,28 +201,38 @@ READERS.append({
     "warmup": "cake, bake, make, take, time, hope, ride, drove, smile, plate",
     "story": """**The Cake Bake**
 
-Jake wants to bake a cake. "I will make the best cake!" he says.
+Today is Mom's birthday. Jake wants to bake her a cake.
 
-Jake gets a big bowl. He gets the flour, eggs, and milk. He mixes them up.
+"I will make the best cake ever!" Jake tells his sister Kate.
 
-"Time to add the sugar," Jake says. He dumps in a cup of sugar.
+Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
 
-Jake puts the cake in the oven. He waits and waits. The cake rises up!
+"Time to add the sugar," Jake says. He dumps in a cup.
 
-The timer dings. Jake takes the cake out. It is golden and smells so fine!
+He stirs. He tastes. "Hmm, it needs more!"
 
-Jake puts white frosting on top. He adds red berries. The cake looks beautiful.
+Jake adds a cup of cocoa. The mix turns brown. Now it is a chocolate cake!
 
-Jake's sister, Kate, comes home. "What is that?" she asks.
+He puts the cake in the oven. He sets the timer. Wait. Wait. Wait.
 
-"It is a cake!" says Jake. "I baked it all by myself."
+DING! The cake is done!
 
-Kate takes a bite. Her eyes get wide. "Jake! This is the best cake I have ever had!"
+Jake takes it out. It is hot. The smell fills the room.
 
-Jake smiles. "I told you. I make the best cake."
+He puts white frosting on top. He adds red berries. The cake looks fine.
+
+Mom comes home. "What is that smell?" she asks.
+
+"It is a cake!" says Jake. "For your birthday!"
+
+Mom's eyes get wide. She takes a bite.
+
+"This is the best cake I have ever had!" Mom smiles.
+
+Jake hugs Mom. "Happy birthday!"
 
 The End.""",
-    "talk": "1. What does Jake bake? (A cake.) 2. What does he put on top? (White frosting and red berries.) 3. Who comes home? (His sister Kate.) 4. Find silent E words. (cake, bake, make, time, take, fine, plate, etc.)",
+    "talk": "1. Whose birthday is it? (Mom's.) 2. What kind of cake does Jake make? (Chocolate.) 3. How does Mom react? (She says it's the best cake ever.) 4. Find a silent E word in the story. (cake, bake, make, time, take, fine, like, smiles, etc.)",
 })
 
 READERS.append({
