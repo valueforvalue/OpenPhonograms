@@ -120,8 +120,7 @@ Write each letter once. Say its sounds as you write.
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram h — it says /h/.")*
 
-</details>
-
+---
 
 ---
 

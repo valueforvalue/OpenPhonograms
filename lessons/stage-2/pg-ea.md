@@ -109,8 +109,7 @@ eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ea — it says /ē/ /ĕ/ /ā/.")*
 
-</details>
-
+---
 
 ---
 

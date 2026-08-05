@@ -107,8 +107,7 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ear — it says /er/.")*
 
-</details>
-
+---
 
 ---
 

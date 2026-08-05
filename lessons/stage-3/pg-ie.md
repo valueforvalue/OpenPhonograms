@@ -88,8 +88,7 @@ IE has two sounds: /ē/ (most common, as in 'field') and /ī/ (at the end of wor
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ie — it says /ē/ /ī/.")*
 
-</details>
-
+---
 
 ---
 

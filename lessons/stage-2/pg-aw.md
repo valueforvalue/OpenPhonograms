@@ -109,8 +109,7 @@ saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram aw — it says /ä/.")*
 
-</details>
-
+---
 
 ---
 

@@ -110,8 +110,7 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
 
-</details>
-
+---
 
 ---
 

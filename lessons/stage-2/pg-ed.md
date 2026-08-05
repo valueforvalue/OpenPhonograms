@@ -111,8 +111,7 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ed — it says /ed/ /d/ /t/.")*
 
-</details>
-
+---
 
 ---
 

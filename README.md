@@ -1,4 +1,4 @@
-# Uncovering the Logic of English — Open-Source Curriculum
+# OpenPhonograms — Open-Source Curriculum
 
 A print-first reading curriculum (Pre-K → Grade 3+) covering **248 lessons**, **75 phonograms**, **31 spelling rules**, and **25 decodable readers**.
 

@@ -1,4 +1,4 @@
-# Architecture — Uncovering the Logic of English
+# Architecture — OpenPhonograms
 
 How the codebase is organized, why it's shaped this way, and where to
 make changes safely. Read this before adding a new generator, refactoring

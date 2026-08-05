@@ -109,8 +109,7 @@ boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oy — it says /oi/.")*
 
-</details>
-
+---
 
 ---
 

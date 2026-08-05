@@ -109,8 +109,7 @@ book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oo — it says /ö/ /ü/ /ō/.")*
 
-</details>
-
+---
 
 ---
 

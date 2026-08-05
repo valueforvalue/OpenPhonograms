@@ -109,8 +109,7 @@ coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oi — it says /oi/.")*
 
-</details>
-
+---
 
 ---
 

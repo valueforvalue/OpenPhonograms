@@ -87,8 +87,7 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wr — it says /r/.")*
 
-</details>
-
+---
 
 ---
 

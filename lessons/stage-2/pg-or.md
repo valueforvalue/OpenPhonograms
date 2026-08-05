@@ -107,8 +107,7 @@ for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram or — it says /or/.")*
 
-</details>
-
+---
 
 ---
 

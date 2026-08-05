@@ -94,8 +94,7 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ough — it says /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/.")*
 
-</details>
-
+---
 
 ---
 

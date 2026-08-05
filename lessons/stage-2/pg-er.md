@@ -107,8 +107,7 @@ her &nbsp;&nbsp; sister &nbsp;&nbsp; under
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram er — it says /er/.")*
 
-</details>
-
+---
 
 ---
 

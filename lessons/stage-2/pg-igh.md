@@ -109,8 +109,7 @@ light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram igh — it says /ī/.")*
 
-</details>
-
+---
 
 ---
 

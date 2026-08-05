@@ -109,8 +109,7 @@ day &nbsp;&nbsp; play &nbsp;&nbsp; stay
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ay — it says /ā/.")*
 
-</details>
-
+---
 
 ---
 

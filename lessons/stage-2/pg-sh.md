@@ -107,8 +107,7 @@ ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram sh — it says /sh/.")*
 
-</details>
-
+---
 
 ---
 

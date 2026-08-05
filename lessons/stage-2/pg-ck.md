@@ -109,8 +109,7 @@ back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ck — it says /k/.")*
 
-</details>
-
+---
 
 ---
 

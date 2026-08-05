@@ -93,9 +93,9 @@ def build_readme(zf, args, stats):
     if args.list:
         stats["included"].append("README.md")
         return
-    readme_text = """Uncovering the Logic of English — Release ZIP
+    readme_text = """OpenPhonograms — Release ZIP
 
-This ZIP contains the complete open-source curriculum (248 lessons, 5 stages,
+This ZIP contains the complete OpenPhonograms curriculum (248 lessons, 5 stages,
 75 phonograms, 31 spelling rules, 25 decodable readers) plus all printable
 aids, the phonogram trainer web game, and 74 phonogram audio MP3s.
 

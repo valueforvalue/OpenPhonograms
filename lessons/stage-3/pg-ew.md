@@ -88,8 +88,7 @@ EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW 
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ew — it says /ü/ /ö/.")*
 
-</details>
-
+---
 
 ---
 

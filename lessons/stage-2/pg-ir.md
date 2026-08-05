@@ -107,8 +107,7 @@ girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ir — it says /er/.")*
 
-</details>
-
+---
 
 ---
 

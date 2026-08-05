@@ -90,8 +90,7 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram augh — it says /ä/ /ăf/.")*
 
-</details>
-
+---
 
 ---
 

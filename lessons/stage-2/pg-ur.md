@@ -107,8 +107,7 @@ hurt &nbsp;&nbsp; turn &nbsp;&nbsp; burn
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ur — it says /er/.")*
 
-</details>
-
+---
 
 ---
 

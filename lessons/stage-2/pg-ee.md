@@ -107,8 +107,7 @@ see &nbsp;&nbsp; feet &nbsp;&nbsp; green
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ee — it says /ē/.")*
 
-</details>
-
+---
 
 ---
 

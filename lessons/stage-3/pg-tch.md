@@ -89,8 +89,7 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram tch — it says /ch/.")*
 
-</details>
-
+---
 
 ---
 

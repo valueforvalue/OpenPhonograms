@@ -99,8 +99,7 @@ gem, giant, gym, change, large (G=/j/) Â· go, gap, gum, get, give, girl (G=/g/ â
 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
-</details>
-
+---
 
 ---
 

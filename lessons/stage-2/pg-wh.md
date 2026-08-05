@@ -107,8 +107,7 @@ when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wh — it says /hw/.")*
 
-</details>
-
+---
 
 ---
 

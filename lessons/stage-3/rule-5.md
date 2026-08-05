@@ -99,8 +99,7 @@ i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
-</details>
-
+---
 
 ---
 

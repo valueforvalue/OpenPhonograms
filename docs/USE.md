@@ -1,4 +1,4 @@
-# Using the Curriculum — For Teachers
+# Using OpenPhonograms — For Teachers
 
 **If you want to build the curriculum from source** (clone the repo, render PDFs yourself), see [docs/BUILD.md](BUILD.md) instead.
 

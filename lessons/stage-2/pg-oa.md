@@ -109,8 +109,7 @@ boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oa — it says /ō/.")*
 
-</details>
-
+---
 
 ---
 

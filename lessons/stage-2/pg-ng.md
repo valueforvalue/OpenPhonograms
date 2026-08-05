@@ -107,8 +107,7 @@ sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ng — it says /ng/.")*
 
-</details>
-
+---
 
 ---
 

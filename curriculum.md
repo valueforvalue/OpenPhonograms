@@ -1,4 +1,4 @@
-# Teach Your Child to Read: A Curriculum Based on *Uncovering the Logic of English*
+# Teach Your Child to Read: An OpenPhonograms Curriculum
 
 ## Adapted from the Methodology of Denise Eide
 

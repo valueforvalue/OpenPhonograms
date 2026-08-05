@@ -78,7 +78,7 @@ def make_start_here() -> Path:
 <body>
 
 <div class="hero">
-<h1>Welcome to Uncovering the Logic of English</h1>
+<h1>Welcome to OpenPhonograms</h1>
 <p>An open-source adaptation of Denise Eide's phonogram-and-rules reading curriculum.</p>
 </div>
 

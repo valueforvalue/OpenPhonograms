@@ -2,7 +2,7 @@
 
 Hand-curated. Read at session start. Keep under 30 lines.
 
-## Project: Uncovering the Logic of English Curriculum
+## Project: OpenPhonograms Curriculum
 
 Print-first reading curriculum. 248 markdown lessons, 75 phonograms, 31 spelling rules.
 

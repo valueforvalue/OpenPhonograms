@@ -87,8 +87,7 @@ PH is a two-letter /f/ that comes from Greek. Most English words with PH are Gre
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ph — it says /f/.")*
 
-</details>
-
+---
 
 ---
 

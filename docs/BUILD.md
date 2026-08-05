@@ -1,4 +1,4 @@
-# Build Guide — Uncovering the Logic of English
+# Build Guide — OpenPhonograms
 
 For developers, contributors, and anyone building the curriculum from source.
 

@@ -107,8 +107,7 @@ car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ar — it says /är/.")*
 
-</details>
-
+---
 
 ---
 

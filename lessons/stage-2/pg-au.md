@@ -109,8 +109,7 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
 
-</details>
-
+---
 
 ---
 

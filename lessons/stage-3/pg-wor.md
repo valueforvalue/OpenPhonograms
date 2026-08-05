@@ -87,8 +87,7 @@ WOR is a special phonogram where the W changes the sound of OR. Instead of /or/,
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wor — it says /wer/.")*
 
-</details>
-
+---
 
 ---
 

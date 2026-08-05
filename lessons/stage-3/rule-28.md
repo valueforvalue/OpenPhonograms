@@ -99,8 +99,7 @@ light, high (IGH — GH silent) · eight, neighbor (EIGH — GH silent) · thoug
 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
-</details>
-
+---
 
 ---
 

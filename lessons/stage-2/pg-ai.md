@@ -109,8 +109,7 @@ rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ai — it says /ā/.")*
 
-</details>
-
+---
 
 ---
 

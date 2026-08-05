@@ -4,14 +4,6 @@
 
 ---
 
-![An ostrich running across the savanna](images/illustrations/ostrich-running.png)
-
----
-
-![An ostrich, the largest living bird](images/animals/ostrich.png)
-
----
-
 ## Story: Ostriches: The Giants of the Bird World
 
 <div class="reader-page">

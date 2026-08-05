@@ -108,8 +108,7 @@ cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ow — it says /ow/ /ō/.")*
 
-</details>
-
+---
 
 ---
 
