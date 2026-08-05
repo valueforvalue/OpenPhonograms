@@ -220,6 +220,24 @@ READER4_TMP = """# Lesson {n}: {title}
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| {phonograms} |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> {warmup_words}
+
+---
+
 ## Story: {stitle}
 
 {story}
@@ -1274,6 +1292,8 @@ SUFFIXES = [
 
 def gen_firefly():
     return READER4_TMP.format(n=42, title="Reader: Firefly — Nightlight with Wings",
+        phonograms="y (=/ē/), silent E, igh, ir",
+        warmup_words="firefly &nbsp; light &nbsp; glow &nbsp; night &nbsp; wings &nbsp; summer &nbsp; garden &nbsp; dark &nbsp; blink &nbsp; shine",
         stitle="Firefly: Nightlight with Wings",
         story="""<div class="reader-page">
 <div class="reader-text">
@@ -1327,6 +1347,8 @@ The End.
 
 def gen_trains():
     return READER4_TMP.format(n=43, title="Reader: Trains — A Blast of Fast",
+        phonograms="ai, ay, silent E, er, tch",
+        warmup_words="train &nbsp; steam &nbsp; coal &nbsp; rail &nbsp; engine &nbsp; fast &nbsp; station &nbsp; track &nbsp; iron &nbsp; smoke",
         stitle="Trains: A Blast of Fast",
         story="""<div class="reader-page">
 <div class="reader-text">

@@ -4,6 +4,24 @@
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| silent E (all 9 reasons), ai, ay, dge, tch |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> Jake &nbsp; sail &nbsp; boat &nbsp; box &nbsp; shed &nbsp; blue &nbsp; paint &nbsp; folds &nbsp; tapes &nbsp; finds
+
+---
+
 ## Story: The Sail Box
 
 <div class="reader-page">

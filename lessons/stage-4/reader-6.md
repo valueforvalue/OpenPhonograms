@@ -4,6 +4,24 @@
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| ai, ay, silent E, er, tch |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> train &nbsp; steam &nbsp; coal &nbsp; rail &nbsp; engine &nbsp; fast &nbsp; station &nbsp; track &nbsp; iron &nbsp; smoke
+
+---
+
 ## Story: Trains: A Blast of Fast
 
 <div class="reader-page">

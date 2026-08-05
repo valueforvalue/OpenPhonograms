@@ -4,6 +4,24 @@
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| y (=/ē/), silent E, igh, ir |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> firefly &nbsp; light &nbsp; glow &nbsp; night &nbsp; wings &nbsp; summer &nbsp; garden &nbsp; dark &nbsp; blink &nbsp; shine
+
+---
+
 ## Story: Firefly: Nightlight with Wings
 
 <div class="reader-page">

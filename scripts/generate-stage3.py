@@ -1331,6 +1331,24 @@ def build_gwen():
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| g (both sounds), silent E, ee, ai, ay, ow |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> Gwen &nbsp; Grace &nbsp; gift &nbsp; goat &nbsp; goose &nbsp; green &nbsp; gives &nbsp; golden &nbsp; gate &nbsp; grass
+
+---
+
 ## Story: Gwen Gives a Gift
 
 <div class="reader-page">
@@ -1418,6 +1436,24 @@ def build_cole():
 
 ---
 
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| silent E, ie, ai, ay, ck |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> Cole &nbsp; Kate &nbsp; bike &nbsp; rides &nbsp; hill &nbsp; fast &nbsp; red &nbsp; friend &nbsp; share &nbsp; calls
+
+---
+
 ## Story: Cole and His Bike
 
 <div class="reader-page">
@@ -1502,6 +1538,24 @@ def build_sail():
     return """# Lesson 55: The Sail Box
 
 **Stage 3** · Lesson 55 · reader
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| silent E (all 9 reasons), ai, ay, dge, tch |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> Jake &nbsp; sail &nbsp; boat &nbsp; box &nbsp; shed &nbsp; blue &nbsp; paint &nbsp; folds &nbsp; tapes &nbsp; finds
 
 ---
 
