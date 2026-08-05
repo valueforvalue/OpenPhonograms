@@ -1,0 +1,6141 @@
+{
+  "spell_words": [
+    {
+      "word": "age",
+      "sentence": "The age is here.",
+      "stage": 1
+    },
+    {
+      "word": "as",
+      "sentence": "The as is here.",
+      "stage": 1
+    },
+    {
+      "word": "at",
+      "sentence": "The at is here.",
+      "stage": 1
+    },
+    {
+      "word": "ax",
+      "sentence": "The ax is here.",
+      "stage": 1
+    },
+    {
+      "word": "baby",
+      "sentence": "The baby is sleeping.",
+      "stage": 1
+    },
+    {
+      "word": "bad",
+      "sentence": "The bad is here.",
+      "stage": 1
+    },
+    {
+      "word": "bag",
+      "sentence": "The bag is here.",
+      "stage": 1
+    },
+    {
+      "word": "ball",
+      "sentence": "The ball is here.",
+      "stage": 1
+    },
+    {
+      "word": "bat",
+      "sentence": "The bat is here.",
+      "stage": 1
+    },
+    {
+      "word": "bed",
+      "sentence": "I sleep in my bed.",
+      "stage": 1
+    },
+    {
+      "word": "beg",
+      "sentence": "The beg is here.",
+      "stage": 1
+    },
+    {
+      "word": "bell",
+      "sentence": "The bell is here.",
+      "stage": 1
+    },
+    {
+      "word": "bend",
+      "sentence": "The bend is here.",
+      "stage": 1
+    },
+    {
+      "word": "best",
+      "sentence": "The best is here.",
+      "stage": 1
+    },
+    {
+      "word": "bet",
+      "sentence": "The bet is here.",
+      "stage": 1
+    },
+    {
+      "word": "big",
+      "sentence": "A big red ball.",
+      "stage": 1
+    },
+    {
+      "word": "bit",
+      "sentence": "The bit is here.",
+      "stage": 1
+    },
+    {
+      "word": "boat",
+      "sentence": "We ride in a boat.",
+      "stage": 1
+    },
+    {
+      "word": "book",
+      "sentence": "I read a book.",
+      "stage": 1
+    },
+    {
+      "word": "both",
+      "sentence": "The both is here.",
+      "stage": 1
+    },
+    {
+      "word": "box",
+      "sentence": "The box is here.",
+      "stage": 1
+    },
+    {
+      "word": "boy",
+      "sentence": "The boy runs fast.",
+      "stage": 1
+    },
+    {
+      "word": "brown",
+      "sentence": "The brown is here.",
+      "stage": 1
+    },
+    {
+      "word": "bug",
+      "sentence": "The bug is here.",
+      "stage": 1
+    },
+    {
+      "word": "bump",
+      "sentence": "The bump is here.",
+      "stage": 1
+    },
+    {
+      "word": "bun",
+      "sentence": "The bun is here.",
+      "stage": 1
+    },
+    {
+      "word": "but",
+      "sentence": "The but is here.",
+      "stage": 1
+    },
+    {
+      "word": "buzz",
+      "sentence": "The buzz is here.",
+      "stage": 1
+    },
+    {
+      "word": "by",
+      "sentence": "Stand by the door.",
+      "stage": 1
+    },
+    {
+      "word": "cab",
+      "sentence": "The cab is here.",
+      "stage": 1
+    },
+    {
+      "word": "cage",
+      "sentence": "The cage is here.",
+      "stage": 1
+    },
+    {
+      "word": "cap",
+      "sentence": "The cap is here.",
+      "stage": 1
+    },
+    {
+      "word": "cat",
+      "sentence": "The cat sat on the mat.",
+      "stage": 1
+    },
+    {
+      "word": "cent",
+      "sentence": "The cent is here.",
+      "stage": 1
+    },
+    {
+      "word": "change",
+      "sentence": "The change is here.",
+      "stage": 1
+    },
+    {
+      "word": "city",
+      "sentence": "I live in the city.",
+      "stage": 1
+    },
+    {
+      "word": "cop",
+      "sentence": "The cop is here.",
+      "stage": 1
+    },
+    {
+      "word": "cot",
+      "sentence": "The cot is here.",
+      "stage": 1
+    },
+    {
+      "word": "cry",
+      "sentence": "The baby starts to cry.",
+      "stage": 1
+    },
+    {
+      "word": "cub",
+      "sentence": "The cub is here.",
+      "stage": 1
+    },
+    {
+      "word": "cup",
+      "sentence": "The cup is here.",
+      "stage": 1
+    },
+    {
+      "word": "cut",
+      "sentence": "The cut is here.",
+      "stage": 1
+    },
+    {
+      "word": "cycle",
+      "sentence": "The cycle is here.",
+      "stage": 1
+    },
+    {
+      "word": "dad",
+      "sentence": "The dad is here.",
+      "stage": 1
+    },
+    {
+      "word": "dance",
+      "sentence": "The dance is here.",
+      "stage": 1
+    },
+    {
+      "word": "dark",
+      "sentence": "The dark is here.",
+      "stage": 1
+    },
+    {
+      "word": "dash",
+      "sentence": "The dash is here.",
+      "stage": 1
+    },
+    {
+      "word": "day",
+      "sentence": "It is a sunny day.",
+      "stage": 1
+    },
+    {
+      "word": "dear",
+      "sentence": "The dear is here.",
+      "stage": 1
+    },
+    {
+      "word": "deep",
+      "sentence": "The deep is here.",
+      "stage": 1
+    },
+    {
+      "word": "desk",
+      "sentence": "The desk is here.",
+      "stage": 1
+    },
+    {
+      "word": "dig",
+      "sentence": "The dig is here.",
+      "stage": 1
+    },
+    {
+      "word": "dim",
+      "sentence": "The dim is here.",
+      "stage": 1
+    },
+    {
+      "word": "dip",
+      "sentence": "The dip is here.",
+      "stage": 1
+    },
+    {
+      "word": "dish",
+      "sentence": "The dish is here.",
+      "stage": 1
+    },
+    {
+      "word": "dizzy",
+      "sentence": "The dizzy is here.",
+      "stage": 1
+    },
+    {
+      "word": "dog",
+      "sentence": "The dog runs in the park.",
+      "stage": 1
+    },
+    {
+      "word": "door",
+      "sentence": "The door is here.",
+      "stage": 1
+    },
+    {
+      "word": "dot",
+      "sentence": "The dot is here.",
+      "stage": 1
+    },
+    {
+      "word": "down",
+      "sentence": "The down is here.",
+      "stage": 1
+    },
+    {
+      "word": "dress",
+      "sentence": "The dress is here.",
+      "stage": 1
+    },
+    {
+      "word": "drink",
+      "sentence": "The drink is here.",
+      "stage": 1
+    },
+    {
+      "word": "drop",
+      "sentence": "The drop is here.",
+      "stage": 1
+    },
+    {
+      "word": "drum",
+      "sentence": "The drum is here.",
+      "stage": 1
+    },
+    {
+      "word": "dug",
+      "sentence": "The dug is here.",
+      "stage": 1
+    },
+    {
+      "word": "egg",
+      "sentence": "The egg is here.",
+      "stage": 1
+    },
+    {
+      "word": "end",
+      "sentence": "The end is here.",
+      "stage": 1
+    },
+    {
+      "word": "exam",
+      "sentence": "The exam is here.",
+      "stage": 1
+    },
+    {
+      "word": "exit",
+      "sentence": "The exit is here.",
+      "stage": 1
+    },
+    {
+      "word": "expect",
+      "sentence": "The expect is here.",
+      "stage": 1
+    },
+    {
+      "word": "expert",
+      "sentence": "The expert is here.",
+      "stage": 1
+    },
+    {
+      "word": "explain",
+      "sentence": "The explain is here.",
+      "stage": 1
+    },
+    {
+      "word": "explore",
+      "sentence": "The explore is here.",
+      "stage": 1
+    },
+    {
+      "word": "extra",
+      "sentence": "The extra is here.",
+      "stage": 1
+    },
+    {
+      "word": "extreme",
+      "sentence": "The extreme is here.",
+      "stage": 1
+    },
+    {
+      "word": "face",
+      "sentence": "The face is here.",
+      "stage": 1
+    },
+    {
+      "word": "fan",
+      "sentence": "The fan is here.",
+      "stage": 1
+    },
+    {
+      "word": "fast",
+      "sentence": "The fast is here.",
+      "stage": 1
+    },
+    {
+      "word": "fat",
+      "sentence": "The fat is here.",
+      "stage": 1
+    },
+    {
+      "word": "fed",
+      "sentence": "The fed is here.",
+      "stage": 1
+    },
+    {
+      "word": "feet",
+      "sentence": "The feet is here.",
+      "stage": 1
+    },
+    {
+      "word": "fig",
+      "sentence": "The fig is here.",
+      "stage": 1
+    },
+    {
+      "word": "fin",
+      "sentence": "The fin is here.",
+      "stage": 1
+    },
+    {
+      "word": "fish",
+      "sentence": "The fish swims fast.",
+      "stage": 1
+    },
+    {
+      "word": "fit",
+      "sentence": "The fit is here.",
+      "stage": 1
+    },
+    {
+      "word": "five",
+      "sentence": "The five is here.",
+      "stage": 1
+    },
+    {
+      "word": "fix",
+      "sentence": "The fix is here.",
+      "stage": 1
+    },
+    {
+      "word": "fizz",
+      "sentence": "The fizz is here.",
+      "stage": 1
+    },
+    {
+      "word": "flag",
+      "sentence": "The flag is here.",
+      "stage": 1
+    },
+    {
+      "word": "fly",
+      "sentence": "The bird can fly.",
+      "stage": 1
+    },
+    {
+      "word": "fog",
+      "sentence": "The fog is here.",
+      "stage": 1
+    },
+    {
+      "word": "food",
+      "sentence": "The food is hot.",
+      "stage": 1
+    },
+    {
+      "word": "four",
+      "sentence": "The four is here.",
+      "stage": 1
+    },
+    {
+      "word": "fox",
+      "sentence": "The fox is clever.",
+      "stage": 1
+    },
+    {
+      "word": "free",
+      "sentence": "The free is here.",
+      "stage": 1
+    },
+    {
+      "word": "frog",
+      "sentence": "The frog jumps high.",
+      "stage": 1
+    },
+    {
+      "word": "from",
+      "sentence": "The from is here.",
+      "stage": 1
+    },
+    {
+      "word": "full",
+      "sentence": "The full is here.",
+      "stage": 1
+    },
+    {
+      "word": "fun",
+      "sentence": "The fun is here.",
+      "stage": 1
+    },
+    {
+      "word": "funny",
+      "sentence": "That joke is funny.",
+      "stage": 1
+    },
+    {
+      "word": "fuzzy",
+      "sentence": "The fuzzy is here.",
+      "stage": 1
+    },
+    {
+      "word": "gap",
+      "sentence": "The gap is here.",
+      "stage": 1
+    },
+    {
+      "word": "gas",
+      "sentence": "The gas is here.",
+      "stage": 1
+    },
+    {
+      "word": "gem",
+      "sentence": "The gem is here.",
+      "stage": 1
+    },
+    {
+      "word": "gentle",
+      "sentence": "The gentle is here.",
+      "stage": 1
+    },
+    {
+      "word": "get",
+      "sentence": "The get is here.",
+      "stage": 1
+    },
+    {
+      "word": "giant",
+      "sentence": "The giant is here.",
+      "stage": 1
+    },
+    {
+      "word": "gig",
+      "sentence": "The gig is here.",
+      "stage": 1
+    },
+    {
+      "word": "ginger",
+      "sentence": "The ginger is here.",
+      "stage": 1
+    },
+    {
+      "word": "go",
+      "sentence": "The go is here.",
+      "stage": 1
+    },
+    {
+      "word": "got",
+      "sentence": "The got is here.",
+      "stage": 1
+    },
+    {
+      "word": "gum",
+      "sentence": "The gum is here.",
+      "stage": 1
+    },
+    {
+      "word": "gut",
+      "sentence": "The gut is here.",
+      "stage": 1
+    },
+    {
+      "word": "gym",
+      "sentence": "The gym is here.",
+      "stage": 1
+    },
+    {
+      "word": "had",
+      "sentence": "The had is here.",
+      "stage": 1
+    },
+    {
+      "word": "ham",
+      "sentence": "The ham is here.",
+      "stage": 1
+    },
+    {
+      "word": "hand",
+      "sentence": "The hand is here.",
+      "stage": 1
+    },
+    {
+      "word": "happy",
+      "sentence": "I am so happy.",
+      "stage": 1
+    },
+    {
+      "word": "has",
+      "sentence": "The has is here.",
+      "stage": 1
+    },
+    {
+      "word": "hat",
+      "sentence": "The hat is here.",
+      "stage": 1
+    },
+    {
+      "word": "help",
+      "sentence": "The help is here.",
+      "stage": 1
+    },
+    {
+      "word": "hen",
+      "sentence": "The hen sits on eggs.",
+      "stage": 1
+    },
+    {
+      "word": "her",
+      "sentence": "The her is here.",
+      "stage": 1
+    },
+    {
+      "word": "hill",
+      "sentence": "The hill is here.",
+      "stage": 1
+    },
+    {
+      "word": "him",
+      "sentence": "The him is here.",
+      "stage": 1
+    },
+    {
+      "word": "hip",
+      "sentence": "The hip is here.",
+      "stage": 1
+    },
+    {
+      "word": "his",
+      "sentence": "The his is here.",
+      "stage": 1
+    },
+    {
+      "word": "hit",
+      "sentence": "The hit is here.",
+      "stage": 1
+    },
+    {
+      "word": "hog",
+      "sentence": "The hog is here.",
+      "stage": 1
+    },
+    {
+      "word": "home",
+      "sentence": "The home is here.",
+      "stage": 1
+    },
+    {
+      "word": "hop",
+      "sentence": "The bunny can hop.",
+      "stage": 1
+    },
+    {
+      "word": "hope",
+      "sentence": "The hope is here.",
+      "stage": 1
+    },
+    {
+      "word": "hot",
+      "sentence": "The hot is here.",
+      "stage": 1
+    },
+    {
+      "word": "house",
+      "sentence": "The house is here.",
+      "stage": 1
+    },
+    {
+      "word": "hug",
+      "sentence": "The hug is here.",
+      "stage": 1
+    },
+    {
+      "word": "huge",
+      "sentence": "The huge is here.",
+      "stage": 1
+    },
+    {
+      "word": "hum",
+      "sentence": "The hum is here.",
+      "stage": 1
+    },
+    {
+      "word": "hut",
+      "sentence": "The hut is here.",
+      "stage": 1
+    },
+    {
+      "word": "ice",
+      "sentence": "The ice is here.",
+      "stage": 1
+    },
+    {
+      "word": "if",
+      "sentence": "The if is here.",
+      "stage": 1
+    },
+    {
+      "word": "in",
+      "sentence": "The in is here.",
+      "stage": 1
+    },
+    {
+      "word": "is",
+      "sentence": "The is is here.",
+      "stage": 1
+    },
+    {
+      "word": "it",
+      "sentence": "The it is here.",
+      "stage": 1
+    },
+    {
+      "word": "jack",
+      "sentence": "The jack is here.",
+      "stage": 1
+    },
+    {
+      "word": "jacket",
+      "sentence": "The jacket is here.",
+      "stage": 1
+    },
+    {
+      "word": "jam",
+      "sentence": "The jam is here.",
+      "stage": 1
+    },
+    {
+      "word": "jar",
+      "sentence": "The jar is here.",
+      "stage": 1
+    },
+    {
+      "word": "jazz",
+      "sentence": "The jazz is here.",
+      "stage": 1
+    },
+    {
+      "word": "jelly",
+      "sentence": "The jelly is here.",
+      "stage": 1
+    },
+    {
+      "word": "jet",
+      "sentence": "The jet is here.",
+      "stage": 1
+    },
+    {
+      "word": "jingle",
+      "sentence": "The jingle is here.",
+      "stage": 1
+    },
+    {
+      "word": "job",
+      "sentence": "The job is here.",
+      "stage": 1
+    },
+    {
+      "word": "jog",
+      "sentence": "The jog is here.",
+      "stage": 1
+    },
+    {
+      "word": "join",
+      "sentence": "Come join the game.",
+      "stage": 1
+    },
+    {
+      "word": "joke",
+      "sentence": "The joke is here.",
+      "stage": 1
+    },
+    {
+      "word": "joy",
+      "sentence": "I feel joy in my heart.",
+      "stage": 1
+    },
+    {
+      "word": "judge",
+      "sentence": "The judge is here.",
+      "stage": 1
+    },
+    {
+      "word": "jug",
+      "sentence": "The jug is here.",
+      "stage": 1
+    },
+    {
+      "word": "july",
+      "sentence": "The july is here.",
+      "stage": 1
+    },
+    {
+      "word": "jump",
+      "sentence": "The jump is here.",
+      "stage": 1
+    },
+    {
+      "word": "june",
+      "sentence": "The june is here.",
+      "stage": 1
+    },
+    {
+      "word": "jungle",
+      "sentence": "The jungle is here.",
+      "stage": 1
+    },
+    {
+      "word": "just",
+      "sentence": "The just is here.",
+      "stage": 1
+    },
+    {
+      "word": "kayak",
+      "sentence": "The kayak is here.",
+      "stage": 1
+    },
+    {
+      "word": "keep",
+      "sentence": "The keep is here.",
+      "stage": 1
+    },
+    {
+      "word": "kept",
+      "sentence": "The kept is here.",
+      "stage": 1
+    },
+    {
+      "word": "kernel",
+      "sentence": "The kernel is here.",
+      "stage": 1
+    },
+    {
+      "word": "kettle",
+      "sentence": "The kettle is here.",
+      "stage": 1
+    },
+    {
+      "word": "kid",
+      "sentence": "The kid is here.",
+      "stage": 1
+    },
+    {
+      "word": "kin",
+      "sentence": "The kin is here.",
+      "stage": 1
+    },
+    {
+      "word": "kind",
+      "sentence": "She is kind and nice.",
+      "stage": 1
+    },
+    {
+      "word": "king",
+      "sentence": "The king is here.",
+      "stage": 1
+    },
+    {
+      "word": "kiss",
+      "sentence": "The kiss is here.",
+      "stage": 1
+    },
+    {
+      "word": "kit",
+      "sentence": "The kit is here.",
+      "stage": 1
+    },
+    {
+      "word": "kite",
+      "sentence": "The kite is here.",
+      "stage": 1
+    },
+    {
+      "word": "kitten",
+      "sentence": "The kitten is here.",
+      "stage": 1
+    },
+    {
+      "word": "knee",
+      "sentence": "The knee is here.",
+      "stage": 1
+    },
+    {
+      "word": "knife",
+      "sentence": "The knife is here.",
+      "stage": 1
+    },
+    {
+      "word": "knit",
+      "sentence": "The knit is here.",
+      "stage": 1
+    },
+    {
+      "word": "knock",
+      "sentence": "The knock is here.",
+      "stage": 1
+    },
+    {
+      "word": "knot",
+      "sentence": "The knot is here.",
+      "stage": 1
+    },
+    {
+      "word": "know",
+      "sentence": "I know the way.",
+      "stage": 1
+    },
+    {
+      "word": "lace",
+      "sentence": "The lace is here.",
+      "stage": 1
+    },
+    {
+      "word": "lad",
+      "sentence": "The lad is here.",
+      "stage": 1
+    },
+    {
+      "word": "lamp",
+      "sentence": "The lamp is here.",
+      "stage": 1
+    },
+    {
+      "word": "land",
+      "sentence": "The land is here.",
+      "stage": 1
+    },
+    {
+      "word": "lap",
+      "sentence": "The lap is here.",
+      "stage": 1
+    },
+    {
+      "word": "large",
+      "sentence": "The large is here.",
+      "stage": 1
+    },
+    {
+      "word": "last",
+      "sentence": "The last is here.",
+      "stage": 1
+    },
+    {
+      "word": "led",
+      "sentence": "The led is here.",
+      "stage": 1
+    },
+    {
+      "word": "left",
+      "sentence": "The left is here.",
+      "stage": 1
+    },
+    {
+      "word": "leg",
+      "sentence": "The leg is here.",
+      "stage": 1
+    },
+    {
+      "word": "let",
+      "sentence": "The let is here.",
+      "stage": 1
+    },
+    {
+      "word": "lid",
+      "sentence": "The lid is here.",
+      "stage": 1
+    },
+    {
+      "word": "lift",
+      "sentence": "The lift is here.",
+      "stage": 1
+    },
+    {
+      "word": "like",
+      "sentence": "The like is here.",
+      "stage": 1
+    },
+    {
+      "word": "lip",
+      "sentence": "The lip is here.",
+      "stage": 1
+    },
+    {
+      "word": "lit",
+      "sentence": "The lit is here.",
+      "stage": 1
+    },
+    {
+      "word": "live",
+      "sentence": "The live is here.",
+      "stage": 1
+    },
+    {
+      "word": "log",
+      "sentence": "The log is here.",
+      "stage": 1
+    },
+    {
+      "word": "long",
+      "sentence": "The long is here.",
+      "stage": 1
+    },
+    {
+      "word": "look",
+      "sentence": "I look at the sky.",
+      "stage": 1
+    },
+    {
+      "word": "lot",
+      "sentence": "The lot is here.",
+      "stage": 1
+    },
+    {
+      "word": "love",
+      "sentence": "The love is here.",
+      "stage": 1
+    },
+    {
+      "word": "made",
+      "sentence": "The made is here.",
+      "stage": 1
+    },
+    {
+      "word": "make",
+      "sentence": "I can make a cake.",
+      "stage": 1
+    },
+    {
+      "word": "man",
+      "sentence": "The man is here.",
+      "stage": 1
+    },
+    {
+      "word": "many",
+      "sentence": "I have many books.",
+      "stage": 1
+    },
+    {
+      "word": "map",
+      "sentence": "The map is here.",
+      "stage": 1
+    },
+    {
+      "word": "mat",
+      "sentence": "The mat is here.",
+      "stage": 1
+    },
+    {
+      "word": "may",
+      "sentence": "The may is here.",
+      "stage": 1
+    },
+    {
+      "word": "men",
+      "sentence": "The men is here.",
+      "stage": 1
+    },
+    {
+      "word": "met",
+      "sentence": "The met is here.",
+      "stage": 1
+    },
+    {
+      "word": "mice",
+      "sentence": "The mice is here.",
+      "stage": 1
+    },
+    {
+      "word": "milk",
+      "sentence": "The milk is here.",
+      "stage": 1
+    },
+    {
+      "word": "mill",
+      "sentence": "The mill is here.",
+      "stage": 1
+    },
+    {
+      "word": "mix",
+      "sentence": "The mix is here.",
+      "stage": 1
+    },
+    {
+      "word": "mom",
+      "sentence": "The mom is here.",
+      "stage": 1
+    },
+    {
+      "word": "mop",
+      "sentence": "The mop is here.",
+      "stage": 1
+    },
+    {
+      "word": "more",
+      "sentence": "The more is here.",
+      "stage": 1
+    },
+    {
+      "word": "most",
+      "sentence": "Most kids like ice cream.",
+      "stage": 1
+    },
+    {
+      "word": "much",
+      "sentence": "The much is here.",
+      "stage": 1
+    },
+    {
+      "word": "mud",
+      "sentence": "The mud is here.",
+      "stage": 1
+    },
+    {
+      "word": "mug",
+      "sentence": "The mug is here.",
+      "stage": 1
+    },
+    {
+      "word": "must",
+      "sentence": "The must is here.",
+      "stage": 1
+    },
+    {
+      "word": "my",
+      "sentence": "The my is here.",
+      "stage": 1
+    },
+    {
+      "word": "myth",
+      "sentence": "The myth is here.",
+      "stage": 1
+    },
+    {
+      "word": "name",
+      "sentence": "The name is here.",
+      "stage": 1
+    },
+    {
+      "word": "nap",
+      "sentence": "The nap is here.",
+      "stage": 1
+    },
+    {
+      "word": "near",
+      "sentence": "The near is here.",
+      "stage": 1
+    },
+    {
+      "word": "need",
+      "sentence": "The need is here.",
+      "stage": 1
+    },
+    {
+      "word": "net",
+      "sentence": "The net is here.",
+      "stage": 1
+    },
+    {
+      "word": "never",
+      "sentence": "The never is here.",
+      "stage": 1
+    },
+    {
+      "word": "new",
+      "sentence": "I have a new book.",
+      "stage": 1
+    },
+    {
+      "word": "next",
+      "sentence": "The next is here.",
+      "stage": 1
+    },
+    {
+      "word": "nice",
+      "sentence": "The nice is here.",
+      "stage": 1
+    },
+    {
+      "word": "night",
+      "sentence": "The night is dark.",
+      "stage": 1
+    },
+    {
+      "word": "nine",
+      "sentence": "The nine is here.",
+      "stage": 1
+    },
+    {
+      "word": "nip",
+      "sentence": "The nip is here.",
+      "stage": 1
+    },
+    {
+      "word": "no",
+      "sentence": "The no is here.",
+      "stage": 1
+    },
+    {
+      "word": "nod",
+      "sentence": "The nod is here.",
+      "stage": 1
+    },
+    {
+      "word": "nose",
+      "sentence": "The nose is here.",
+      "stage": 1
+    },
+    {
+      "word": "not",
+      "sentence": "The not is here.",
+      "stage": 1
+    },
+    {
+      "word": "note",
+      "sentence": "The note is here.",
+      "stage": 1
+    },
+    {
+      "word": "nothing",
+      "sentence": "The nothing is here.",
+      "stage": 1
+    },
+    {
+      "word": "now",
+      "sentence": "The now is here.",
+      "stage": 1
+    },
+    {
+      "word": "number",
+      "sentence": "The number is here.",
+      "stage": 1
+    },
+    {
+      "word": "nut",
+      "sentence": "The nut is here.",
+      "stage": 1
+    },
+    {
+      "word": "odd",
+      "sentence": "The odd is here.",
+      "stage": 1
+    },
+    {
+      "word": "off",
+      "sentence": "The off is here.",
+      "stage": 1
+    },
+    {
+      "word": "old",
+      "sentence": "The house is old.",
+      "stage": 1
+    },
+    {
+      "word": "on",
+      "sentence": "The on is here.",
+      "stage": 1
+    },
+    {
+      "word": "only",
+      "sentence": "The only is here.",
+      "stage": 1
+    },
+    {
+      "word": "open",
+      "sentence": "The open is here.",
+      "stage": 1
+    },
+    {
+      "word": "over",
+      "sentence": "The over is here.",
+      "stage": 1
+    },
+    {
+      "word": "ox",
+      "sentence": "The ox is here.",
+      "stage": 1
+    },
+    {
+      "word": "pace",
+      "sentence": "The pace is here.",
+      "stage": 1
+    },
+    {
+      "word": "pack",
+      "sentence": "The pack is here.",
+      "stage": 1
+    },
+    {
+      "word": "page",
+      "sentence": "The page is here.",
+      "stage": 1
+    },
+    {
+      "word": "pan",
+      "sentence": "The pan is here.",
+      "stage": 1
+    },
+    {
+      "word": "park",
+      "sentence": "The park is here.",
+      "stage": 1
+    },
+    {
+      "word": "part",
+      "sentence": "The part is here.",
+      "stage": 1
+    },
+    {
+      "word": "pass",
+      "sentence": "The pass is here.",
+      "stage": 1
+    },
+    {
+      "word": "pat",
+      "sentence": "The pat is here.",
+      "stage": 1
+    },
+    {
+      "word": "pen",
+      "sentence": "The pen is here.",
+      "stage": 1
+    },
+    {
+      "word": "pet",
+      "sentence": "The pet is here.",
+      "stage": 1
+    },
+    {
+      "word": "pick",
+      "sentence": "The pick is here.",
+      "stage": 1
+    },
+    {
+      "word": "pig",
+      "sentence": "The pig is pink.",
+      "stage": 1
+    },
+    {
+      "word": "pin",
+      "sentence": "The pin is here.",
+      "stage": 1
+    },
+    {
+      "word": "pit",
+      "sentence": "The pit is here.",
+      "stage": 1
+    },
+    {
+      "word": "pizza",
+      "sentence": "The pizza is here.",
+      "stage": 1
+    },
+    {
+      "word": "plant",
+      "sentence": "The plant is here.",
+      "stage": 1
+    },
+    {
+      "word": "play",
+      "sentence": "The kids play outside.",
+      "stage": 1
+    },
+    {
+      "word": "please",
+      "sentence": "The please is here.",
+      "stage": 1
+    },
+    {
+      "word": "pop",
+      "sentence": "The pop is here.",
+      "stage": 1
+    },
+    {
+      "word": "post",
+      "sentence": "The post is here.",
+      "stage": 1
+    },
+    {
+      "word": "pot",
+      "sentence": "The pot is here.",
+      "stage": 1
+    },
+    {
+      "word": "print",
+      "sentence": "The print is here.",
+      "stage": 1
+    },
+    {
+      "word": "pull",
+      "sentence": "The pull is here.",
+      "stage": 1
+    },
+    {
+      "word": "pup",
+      "sentence": "The pup is here.",
+      "stage": 1
+    },
+    {
+      "word": "push",
+      "sentence": "The push is here.",
+      "stage": 1
+    },
+    {
+      "word": "put",
+      "sentence": "The put is here.",
+      "stage": 1
+    },
+    {
+      "word": "puzzle",
+      "sentence": "The puzzle is here.",
+      "stage": 1
+    },
+    {
+      "word": "quack",
+      "sentence": "The quack is here.",
+      "stage": 1
+    },
+    {
+      "word": "quail",
+      "sentence": "The quail is here.",
+      "stage": 1
+    },
+    {
+      "word": "quarry",
+      "sentence": "The quarry is here.",
+      "stage": 1
+    },
+    {
+      "word": "quarter",
+      "sentence": "The quarter is here.",
+      "stage": 1
+    },
+    {
+      "word": "queen",
+      "sentence": "The queen is here.",
+      "stage": 1
+    },
+    {
+      "word": "quench",
+      "sentence": "The quench is here.",
+      "stage": 1
+    },
+    {
+      "word": "quest",
+      "sentence": "The quest is here.",
+      "stage": 1
+    },
+    {
+      "word": "question",
+      "sentence": "The question is here.",
+      "stage": 1
+    },
+    {
+      "word": "quick",
+      "sentence": "The quick is here.",
+      "stage": 1
+    },
+    {
+      "word": "quiet",
+      "sentence": "The quiet is here.",
+      "stage": 1
+    },
+    {
+      "word": "quilt",
+      "sentence": "The quilt is here.",
+      "stage": 1
+    },
+    {
+      "word": "quit",
+      "sentence": "The quit is here.",
+      "stage": 1
+    },
+    {
+      "word": "quite",
+      "sentence": "The quite is here.",
+      "stage": 1
+    },
+    {
+      "word": "quiver",
+      "sentence": "The quiver is here.",
+      "stage": 1
+    },
+    {
+      "word": "quiz",
+      "sentence": "The quiz is here.",
+      "stage": 1
+    },
+    {
+      "word": "quote",
+      "sentence": "The quote is here.",
+      "stage": 1
+    },
+    {
+      "word": "rabbit",
+      "sentence": "The rabbit hops fast.",
+      "stage": 1
+    },
+    {
+      "word": "race",
+      "sentence": "The race is here.",
+      "stage": 1
+    },
+    {
+      "word": "rag",
+      "sentence": "The rag is here.",
+      "stage": 1
+    },
+    {
+      "word": "rain",
+      "sentence": "I love the rain.",
+      "stage": 1
+    },
+    {
+      "word": "rainbow",
+      "sentence": "The rainbow is here.",
+      "stage": 1
+    },
+    {
+      "word": "ran",
+      "sentence": "The ran is here.",
+      "stage": 1
+    },
+    {
+      "word": "rat",
+      "sentence": "The rat is here.",
+      "stage": 1
+    },
+    {
+      "word": "read",
+      "sentence": "The read is here.",
+      "stage": 1
+    },
+    {
+      "word": "red",
+      "sentence": "The apple is red.",
+      "stage": 1
+    },
+    {
+      "word": "rest",
+      "sentence": "The rest is here.",
+      "stage": 1
+    },
+    {
+      "word": "rice",
+      "sentence": "The rice is here.",
+      "stage": 1
+    },
+    {
+      "word": "ride",
+      "sentence": "I can ride a bike.",
+      "stage": 1
+    },
+    {
+      "word": "rig",
+      "sentence": "The rig is here.",
+      "stage": 1
+    },
+    {
+      "word": "right",
+      "sentence": "The right is here.",
+      "stage": 1
+    },
+    {
+      "word": "rip",
+      "sentence": "The rip is here.",
+      "stage": 1
+    },
+    {
+      "word": "river",
+      "sentence": "The river is here.",
+      "stage": 1
+    },
+    {
+      "word": "road",
+      "sentence": "The road is long.",
+      "stage": 1
+    },
+    {
+      "word": "rob",
+      "sentence": "The rob is here.",
+      "stage": 1
+    },
+    {
+      "word": "rock",
+      "sentence": "The rock is here.",
+      "stage": 1
+    },
+    {
+      "word": "room",
+      "sentence": "I sleep in my room.",
+      "stage": 1
+    },
+    {
+      "word": "rose",
+      "sentence": "The rose is here.",
+      "stage": 1
+    },
+    {
+      "word": "round",
+      "sentence": "The round is here.",
+      "stage": 1
+    },
+    {
+      "word": "rub",
+      "sentence": "The rub is here.",
+      "stage": 1
+    },
+    {
+      "word": "rug",
+      "sentence": "The rug is here.",
+      "stage": 1
+    },
+    {
+      "word": "run",
+      "sentence": "The run is here.",
+      "stage": 1
+    },
+    {
+      "word": "sad",
+      "sentence": "The sad is here.",
+      "stage": 1
+    },
+    {
+      "word": "sap",
+      "sentence": "The sap is here.",
+      "stage": 1
+    },
+    {
+      "word": "sat",
+      "sentence": "The sat is here.",
+      "stage": 1
+    },
+    {
+      "word": "saw",
+      "sentence": "I saw a bird.",
+      "stage": 1
+    },
+    {
+      "word": "say",
+      "sentence": "The say is here.",
+      "stage": 1
+    },
+    {
+      "word": "see",
+      "sentence": "I can see the sun.",
+      "stage": 1
+    },
+    {
+      "word": "set",
+      "sentence": "The set is here.",
+      "stage": 1
+    },
+    {
+      "word": "silly",
+      "sentence": "The silly is here.",
+      "stage": 1
+    },
+    {
+      "word": "sip",
+      "sentence": "The sip is here.",
+      "stage": 1
+    },
+    {
+      "word": "sit",
+      "sentence": "The sit is here.",
+      "stage": 1
+    },
+    {
+      "word": "six",
+      "sentence": "The six is here.",
+      "stage": 1
+    },
+    {
+      "word": "sky",
+      "sentence": "The sky is blue.",
+      "stage": 1
+    },
+    {
+      "word": "so",
+      "sentence": "The so is here.",
+      "stage": 1
+    },
+    {
+      "word": "sop",
+      "sentence": "The sop is here.",
+      "stage": 1
+    },
+    {
+      "word": "strange",
+      "sentence": "The strange is here.",
+      "stage": 1
+    },
+    {
+      "word": "sun",
+      "sentence": "The sun is hot.",
+      "stage": 1
+    },
+    {
+      "word": "tag",
+      "sentence": "The tag is here.",
+      "stage": 1
+    },
+    {
+      "word": "take",
+      "sentence": "The take is here.",
+      "stage": 1
+    },
+    {
+      "word": "tan",
+      "sentence": "The tan is here.",
+      "stage": 1
+    },
+    {
+      "word": "tap",
+      "sentence": "The tap is here.",
+      "stage": 1
+    },
+    {
+      "word": "tax",
+      "sentence": "The tax is here.",
+      "stage": 1
+    },
+    {
+      "word": "tell",
+      "sentence": "The tell is here.",
+      "stage": 1
+    },
+    {
+      "word": "ten",
+      "sentence": "The ten is here.",
+      "stage": 1
+    },
+    {
+      "word": "text",
+      "sentence": "The text is here.",
+      "stage": 1
+    },
+    {
+      "word": "these",
+      "sentence": "The these is here.",
+      "stage": 1
+    },
+    {
+      "word": "those",
+      "sentence": "The those is here.",
+      "stage": 1
+    },
+    {
+      "word": "time",
+      "sentence": "It is story time.",
+      "stage": 1
+    },
+    {
+      "word": "tin",
+      "sentence": "The tin is here.",
+      "stage": 1
+    },
+    {
+      "word": "tip",
+      "sentence": "The tip is here.",
+      "stage": 1
+    },
+    {
+      "word": "to",
+      "sentence": "The to is here.",
+      "stage": 1
+    },
+    {
+      "word": "ton",
+      "sentence": "The ton is here.",
+      "stage": 1
+    },
+    {
+      "word": "too",
+      "sentence": "The too is here.",
+      "stage": 1
+    },
+    {
+      "word": "top",
+      "sentence": "The top is here.",
+      "stage": 1
+    },
+    {
+      "word": "train",
+      "sentence": "The train is here.",
+      "stage": 1
+    },
+    {
+      "word": "tree",
+      "sentence": "The tree is tall.",
+      "stage": 1
+    },
+    {
+      "word": "truck",
+      "sentence": "The truck is here.",
+      "stage": 1
+    },
+    {
+      "word": "true",
+      "sentence": "That is a true story.",
+      "stage": 1
+    },
+    {
+      "word": "try",
+      "sentence": "I will try my best.",
+      "stage": 1
+    },
+    {
+      "word": "tub",
+      "sentence": "The tub is here.",
+      "stage": 1
+    },
+    {
+      "word": "turn",
+      "sentence": "The turn is here.",
+      "stage": 1
+    },
+    {
+      "word": "two",
+      "sentence": "The two is here.",
+      "stage": 1
+    },
+    {
+      "word": "up",
+      "sentence": "The up is here.",
+      "stage": 1
+    },
+    {
+      "word": "us",
+      "sentence": "The us is here.",
+      "stage": 1
+    },
+    {
+      "word": "use",
+      "sentence": "The use is here.",
+      "stage": 1
+    },
+    {
+      "word": "vacuum",
+      "sentence": "The vacuum is here.",
+      "stage": 1
+    },
+    {
+      "word": "valley",
+      "sentence": "The valley is here.",
+      "stage": 1
+    },
+    {
+      "word": "value",
+      "sentence": "The value is here.",
+      "stage": 1
+    },
+    {
+      "word": "van",
+      "sentence": "The van is here.",
+      "stage": 1
+    },
+    {
+      "word": "vat",
+      "sentence": "The vat is here.",
+      "stage": 1
+    },
+    {
+      "word": "vegetable",
+      "sentence": "The vegetable is here.",
+      "stage": 1
+    },
+    {
+      "word": "very",
+      "sentence": "The very is here.",
+      "stage": 1
+    },
+    {
+      "word": "vet",
+      "sentence": "The vet is here.",
+      "stage": 1
+    },
+    {
+      "word": "victory",
+      "sentence": "The victory is here.",
+      "stage": 1
+    },
+    {
+      "word": "view",
+      "sentence": "The view is here.",
+      "stage": 1
+    },
+    {
+      "word": "vig",
+      "sentence": "The vig is here.",
+      "stage": 1
+    },
+    {
+      "word": "village",
+      "sentence": "I live in a small village.",
+      "stage": 1
+    },
+    {
+      "word": "vim",
+      "sentence": "The vim is here.",
+      "stage": 1
+    },
+    {
+      "word": "vine",
+      "sentence": "The vine is here.",
+      "stage": 1
+    },
+    {
+      "word": "violin",
+      "sentence": "The violin is here.",
+      "stage": 1
+    },
+    {
+      "word": "visit",
+      "sentence": "The visit is here.",
+      "stage": 1
+    },
+    {
+      "word": "voice",
+      "sentence": "I hear a voice.",
+      "stage": 1
+    },
+    {
+      "word": "volcano",
+      "sentence": "The volcano is here.",
+      "stage": 1
+    },
+    {
+      "word": "vote",
+      "sentence": "The vote is here.",
+      "stage": 1
+    },
+    {
+      "word": "wag",
+      "sentence": "The wag is here.",
+      "stage": 1
+    },
+    {
+      "word": "want",
+      "sentence": "The want is here.",
+      "stage": 1
+    },
+    {
+      "word": "was",
+      "sentence": "The was is here.",
+      "stage": 1
+    },
+    {
+      "word": "watch",
+      "sentence": "The watch is here.",
+      "stage": 1
+    },
+    {
+      "word": "water",
+      "sentence": "The water is here.",
+      "stage": 1
+    },
+    {
+      "word": "wax",
+      "sentence": "The wax is here.",
+      "stage": 1
+    },
+    {
+      "word": "way",
+      "sentence": "The way is here.",
+      "stage": 1
+    },
+    {
+      "word": "web",
+      "sentence": "The web is here.",
+      "stage": 1
+    },
+    {
+      "word": "well",
+      "sentence": "The well is here.",
+      "stage": 1
+    },
+    {
+      "word": "went",
+      "sentence": "The went is here.",
+      "stage": 1
+    },
+    {
+      "word": "wet",
+      "sentence": "The wet is here.",
+      "stage": 1
+    },
+    {
+      "word": "white",
+      "sentence": "The white is here.",
+      "stage": 1
+    },
+    {
+      "word": "why",
+      "sentence": "The why is here.",
+      "stage": 1
+    },
+    {
+      "word": "wig",
+      "sentence": "The wig is here.",
+      "stage": 1
+    },
+    {
+      "word": "will",
+      "sentence": "The will is here.",
+      "stage": 1
+    },
+    {
+      "word": "win",
+      "sentence": "The win is here.",
+      "stage": 1
+    },
+    {
+      "word": "wish",
+      "sentence": "The wish is here.",
+      "stage": 1
+    },
+    {
+      "word": "wit",
+      "sentence": "The wit is here.",
+      "stage": 1
+    },
+    {
+      "word": "with",
+      "sentence": "The with is here.",
+      "stage": 1
+    },
+    {
+      "word": "word",
+      "sentence": "The word is here.",
+      "stage": 1
+    },
+    {
+      "word": "work",
+      "sentence": "The work is here.",
+      "stage": 1
+    },
+    {
+      "word": "world",
+      "sentence": "The world is here.",
+      "stage": 1
+    },
+    {
+      "word": "yak",
+      "sentence": "The yak is here.",
+      "stage": 1
+    },
+    {
+      "word": "yam",
+      "sentence": "The yam is here.",
+      "stage": 1
+    },
+    {
+      "word": "yell",
+      "sentence": "The yell is here.",
+      "stage": 1
+    },
+    {
+      "word": "yes",
+      "sentence": "The yes is here.",
+      "stage": 1
+    },
+    {
+      "word": "yet",
+      "sentence": "The yet is here.",
+      "stage": 1
+    },
+    {
+      "word": "yip",
+      "sentence": "The yip is here.",
+      "stage": 1
+    },
+    {
+      "word": "zag",
+      "sentence": "The zag is here.",
+      "stage": 1
+    },
+    {
+      "word": "zap",
+      "sentence": "The zap is here.",
+      "stage": 1
+    },
+    {
+      "word": "zebra",
+      "sentence": "The zebra is here.",
+      "stage": 1
+    },
+    {
+      "word": "zed",
+      "sentence": "The zed is here.",
+      "stage": 1
+    },
+    {
+      "word": "zero",
+      "sentence": "The zero is here.",
+      "stage": 1
+    },
+    {
+      "word": "zesty",
+      "sentence": "The zesty is here.",
+      "stage": 1
+    },
+    {
+      "word": "zig",
+      "sentence": "The zig is here.",
+      "stage": 1
+    },
+    {
+      "word": "zigzag",
+      "sentence": "The zigzag is here.",
+      "stage": 1
+    },
+    {
+      "word": "zip",
+      "sentence": "The zip is here.",
+      "stage": 1
+    },
+    {
+      "word": "zipper",
+      "sentence": "The zipper is here.",
+      "stage": 1
+    },
+    {
+      "word": "zone",
+      "sentence": "The zone is here.",
+      "stage": 1
+    },
+    {
+      "word": "zoo",
+      "sentence": "I see animals at the zoo.",
+      "stage": 1
+    },
+    {
+      "word": "zoom",
+      "sentence": "The zoom is here.",
+      "stage": 1
+    },
+    {
+      "word": "after",
+      "sentence": "The after is here.",
+      "stage": 2
+    },
+    {
+      "word": "alloy",
+      "sentence": "The alloy is here.",
+      "stage": 2
+    },
+    {
+      "word": "along",
+      "sentence": "The along is here.",
+      "stage": 2
+    },
+    {
+      "word": "always",
+      "sentence": "The always is here.",
+      "stage": 2
+    },
+    {
+      "word": "among",
+      "sentence": "The among is here.",
+      "stage": 2
+    },
+    {
+      "word": "annoy",
+      "sentence": "The annoy is here.",
+      "stage": 2
+    },
+    {
+      "word": "applause",
+      "sentence": "The applause is here.",
+      "stage": 2
+    },
+    {
+      "word": "are",
+      "sentence": "The are is here.",
+      "stage": 2
+    },
+    {
+      "word": "arm",
+      "sentence": "The arm is here.",
+      "stage": 2
+    },
+    {
+      "word": "art",
+      "sentence": "The art is here.",
+      "stage": 2
+    },
+    {
+      "word": "asked",
+      "sentence": "The asked is here.",
+      "stage": 2
+    },
+    {
+      "word": "astronaut",
+      "sentence": "The astronaut is here.",
+      "stage": 2
+    },
+    {
+      "word": "august",
+      "sentence": "The august is here.",
+      "stage": 2
+    },
+    {
+      "word": "author",
+      "sentence": "The author is here.",
+      "stage": 2
+    },
+    {
+      "word": "autumn",
+      "sentence": "The autumn is here.",
+      "stage": 2
+    },
+    {
+      "word": "avoid",
+      "sentence": "The avoid is here.",
+      "stage": 2
+    },
+    {
+      "word": "away",
+      "sentence": "The away is here.",
+      "stage": 2
+    },
+    {
+      "word": "awful",
+      "sentence": "The awful is here.",
+      "stage": 2
+    },
+    {
+      "word": "back",
+      "sentence": "Come back here.",
+      "stage": 2
+    },
+    {
+      "word": "bang",
+      "sentence": "The bang is here.",
+      "stage": 2
+    },
+    {
+      "word": "bar",
+      "sentence": "The bar is here.",
+      "stage": 2
+    },
+    {
+      "word": "bark",
+      "sentence": "The bark is here.",
+      "stage": 2
+    },
+    {
+      "word": "bath",
+      "sentence": "The bath is here.",
+      "stage": 2
+    },
+    {
+      "word": "bay",
+      "sentence": "The bay is here.",
+      "stage": 2
+    },
+    {
+      "word": "bead",
+      "sentence": "The bead is here.",
+      "stage": 2
+    },
+    {
+      "word": "bean",
+      "sentence": "The bean is here.",
+      "stage": 2
+    },
+    {
+      "word": "bear",
+      "sentence": "The bear is big.",
+      "stage": 2
+    },
+    {
+      "word": "bee",
+      "sentence": "The bee is here.",
+      "stage": 2
+    },
+    {
+      "word": "better",
+      "sentence": "The better is here.",
+      "stage": 2
+    },
+    {
+      "word": "bird",
+      "sentence": "The bird is here.",
+      "stage": 2
+    },
+    {
+      "word": "birth",
+      "sentence": "The birth is here.",
+      "stage": 2
+    },
+    {
+      "word": "blow",
+      "sentence": "The blow is here.",
+      "stage": 2
+    },
+    {
+      "word": "boil",
+      "sentence": "I boil the water.",
+      "stage": 2
+    },
+    {
+      "word": "born",
+      "sentence": "The born is here.",
+      "stage": 2
+    },
+    {
+      "word": "bow",
+      "sentence": "The bow is here.",
+      "stage": 2
+    },
+    {
+      "word": "brain",
+      "sentence": "The brain is here.",
+      "stage": 2
+    },
+    {
+      "word": "bread",
+      "sentence": "The bread is here.",
+      "stage": 2
+    },
+    {
+      "word": "break",
+      "sentence": "The break is here.",
+      "stage": 2
+    },
+    {
+      "word": "bright",
+      "sentence": "The bright is here.",
+      "stage": 2
+    },
+    {
+      "word": "bring",
+      "sentence": "The bring is here.",
+      "stage": 2
+    },
+    {
+      "word": "brochure",
+      "sentence": "The brochure is here.",
+      "stage": 2
+    },
+    {
+      "word": "brother",
+      "sentence": "The brother is here.",
+      "stage": 2
+    },
+    {
+      "word": "burn",
+      "sentence": "The burn is here.",
+      "stage": 2
+    },
+    {
+      "word": "burst",
+      "sentence": "The burst is here.",
+      "stage": 2
+    },
+    {
+      "word": "bush",
+      "sentence": "The bush is here.",
+      "stage": 2
+    },
+    {
+      "word": "called",
+      "sentence": "The called is here.",
+      "stage": 2
+    },
+    {
+      "word": "car",
+      "sentence": "The car is here.",
+      "stage": 2
+    },
+    {
+      "word": "card",
+      "sentence": "The card is here.",
+      "stage": 2
+    },
+    {
+      "word": "cash",
+      "sentence": "The cash is here.",
+      "stage": 2
+    },
+    {
+      "word": "cause",
+      "sentence": "The cause is here.",
+      "stage": 2
+    },
+    {
+      "word": "caution",
+      "sentence": "The caution is here.",
+      "stage": 2
+    },
+    {
+      "word": "caw",
+      "sentence": "The caw is here.",
+      "stage": 2
+    },
+    {
+      "word": "chain",
+      "sentence": "The chain is here.",
+      "stage": 2
+    },
+    {
+      "word": "chair",
+      "sentence": "The chair is here.",
+      "stage": 2
+    },
+    {
+      "word": "chalk",
+      "sentence": "The chalk is here.",
+      "stage": 2
+    },
+    {
+      "word": "chance",
+      "sentence": "The chance is here.",
+      "stage": 2
+    },
+    {
+      "word": "charm",
+      "sentence": "The charm is here.",
+      "stage": 2
+    },
+    {
+      "word": "chat",
+      "sentence": "The chat is here.",
+      "stage": 2
+    },
+    {
+      "word": "check",
+      "sentence": "The check is here.",
+      "stage": 2
+    },
+    {
+      "word": "chef",
+      "sentence": "The chef is here.",
+      "stage": 2
+    },
+    {
+      "word": "child",
+      "sentence": "The child is here.",
+      "stage": 2
+    },
+    {
+      "word": "chin",
+      "sentence": "The chin is here.",
+      "stage": 2
+    },
+    {
+      "word": "chip",
+      "sentence": "The chip is here.",
+      "stage": 2
+    },
+    {
+      "word": "choice",
+      "sentence": "The choice is here.",
+      "stage": 2
+    },
+    {
+      "word": "chop",
+      "sentence": "The chop is here.",
+      "stage": 2
+    },
+    {
+      "word": "church",
+      "sentence": "The church is here.",
+      "stage": 2
+    },
+    {
+      "word": "circle",
+      "sentence": "The circle is here.",
+      "stage": 2
+    },
+    {
+      "word": "circus",
+      "sentence": "The circus is here.",
+      "stage": 2
+    },
+    {
+      "word": "claw",
+      "sentence": "The claw is here.",
+      "stage": 2
+    },
+    {
+      "word": "clay",
+      "sentence": "The clay is here.",
+      "stage": 2
+    },
+    {
+      "word": "clean",
+      "sentence": "The clean is here.",
+      "stage": 2
+    },
+    {
+      "word": "clear",
+      "sentence": "The clear is here.",
+      "stage": 2
+    },
+    {
+      "word": "click",
+      "sentence": "The click is here.",
+      "stage": 2
+    },
+    {
+      "word": "cloud",
+      "sentence": "The cloud is here.",
+      "stage": 2
+    },
+    {
+      "word": "clown",
+      "sentence": "The clown is here.",
+      "stage": 2
+    },
+    {
+      "word": "coach",
+      "sentence": "The coach is here.",
+      "stage": 2
+    },
+    {
+      "word": "coal",
+      "sentence": "The coal is here.",
+      "stage": 2
+    },
+    {
+      "word": "coast",
+      "sentence": "The coast is here.",
+      "stage": 2
+    },
+    {
+      "word": "coat",
+      "sentence": "The coat is here.",
+      "stage": 2
+    },
+    {
+      "word": "coil",
+      "sentence": "The coil is here.",
+      "stage": 2
+    },
+    {
+      "word": "coin",
+      "sentence": "I drop a coin.",
+      "stage": 2
+    },
+    {
+      "word": "convoy",
+      "sentence": "The convoy is here.",
+      "stage": 2
+    },
+    {
+      "word": "cook",
+      "sentence": "The cook is here.",
+      "stage": 2
+    },
+    {
+      "word": "cool",
+      "sentence": "The water is cool.",
+      "stage": 2
+    },
+    {
+      "word": "corn",
+      "sentence": "The corn is here.",
+      "stage": 2
+    },
+    {
+      "word": "couple",
+      "sentence": "The couple is here.",
+      "stage": 2
+    },
+    {
+      "word": "cow",
+      "sentence": "The cow is here.",
+      "stage": 2
+    },
+    {
+      "word": "cowboy",
+      "sentence": "The cowboy is here.",
+      "stage": 2
+    },
+    {
+      "word": "coy",
+      "sentence": "The coy is here.",
+      "stage": 2
+    },
+    {
+      "word": "crown",
+      "sentence": "The crown is here.",
+      "stage": 2
+    },
+    {
+      "word": "curb",
+      "sentence": "The curb is here.",
+      "stage": 2
+    },
+    {
+      "word": "curl",
+      "sentence": "The curl is here.",
+      "stage": 2
+    },
+    {
+      "word": "curt",
+      "sentence": "The curt is here.",
+      "stage": 2
+    },
+    {
+      "word": "curve",
+      "sentence": "The curve is here.",
+      "stage": 2
+    },
+    {
+      "word": "daunt",
+      "sentence": "The daunt is here.",
+      "stage": 2
+    },
+    {
+      "word": "dawn",
+      "sentence": "We wake at dawn.",
+      "stage": 2
+    },
+    {
+      "word": "daylight",
+      "sentence": "The daylight is here.",
+      "stage": 2
+    },
+    {
+      "word": "dead",
+      "sentence": "The dead is here.",
+      "stage": 2
+    },
+    {
+      "word": "deck",
+      "sentence": "The deck is here.",
+      "stage": 2
+    },
+    {
+      "word": "decoy",
+      "sentence": "The decoy is here.",
+      "stage": 2
+    },
+    {
+      "word": "delight",
+      "sentence": "The delight is here.",
+      "stage": 2
+    },
+    {
+      "word": "deploy",
+      "sentence": "The deploy is here.",
+      "stage": 2
+    },
+    {
+      "word": "destroy",
+      "sentence": "The destroy is here.",
+      "stage": 2
+    },
+    {
+      "word": "dirt",
+      "sentence": "The dirt is here.",
+      "stage": 2
+    },
+    {
+      "word": "dirty",
+      "sentence": "The dirty is here.",
+      "stage": 2
+    },
+    {
+      "word": "double",
+      "sentence": "The double is here.",
+      "stage": 2
+    },
+    {
+      "word": "drain",
+      "sentence": "The drain is here.",
+      "stage": 2
+    },
+    {
+      "word": "draw",
+      "sentence": "The draw is here.",
+      "stage": 2
+    },
+    {
+      "word": "dream",
+      "sentence": "The dream is here.",
+      "stage": 2
+    },
+    {
+      "word": "duck",
+      "sentence": "The duck quacks loud.",
+      "stage": 2
+    },
+    {
+      "word": "during",
+      "sentence": "The during is here.",
+      "stage": 2
+    },
+    {
+      "word": "each",
+      "sentence": "The each is here.",
+      "stage": 2
+    },
+    {
+      "word": "ear",
+      "sentence": "The ear is here.",
+      "stage": 2
+    },
+    {
+      "word": "early",
+      "sentence": "The early is here.",
+      "stage": 2
+    },
+    {
+      "word": "earn",
+      "sentence": "The earn is here.",
+      "stage": 2
+    },
+    {
+      "word": "earnest",
+      "sentence": "The earnest is here.",
+      "stage": 2
+    },
+    {
+      "word": "earth",
+      "sentence": "The earth is here.",
+      "stage": 2
+    },
+    {
+      "word": "earthquake",
+      "sentence": "The earthquake is here.",
+      "stage": 2
+    },
+    {
+      "word": "eat",
+      "sentence": "The eat is here.",
+      "stage": 2
+    },
+    {
+      "word": "echo",
+      "sentence": "The echo is here.",
+      "stage": 2
+    },
+    {
+      "word": "employ",
+      "sentence": "The employ is here.",
+      "stage": 2
+    },
+    {
+      "word": "enjoy",
+      "sentence": "The enjoy is here.",
+      "stage": 2
+    },
+    {
+      "word": "ever",
+      "sentence": "The ever is here.",
+      "stage": 2
+    },
+    {
+      "word": "exhaust",
+      "sentence": "The exhaust is here.",
+      "stage": 2
+    },
+    {
+      "word": "fail",
+      "sentence": "The fail is here.",
+      "stage": 2
+    },
+    {
+      "word": "far",
+      "sentence": "The far is here.",
+      "stage": 2
+    },
+    {
+      "word": "father",
+      "sentence": "The father is here.",
+      "stage": 2
+    },
+    {
+      "word": "fault",
+      "sentence": "The fault is here.",
+      "stage": 2
+    },
+    {
+      "word": "fawn",
+      "sentence": "The fawn is here.",
+      "stage": 2
+    },
+    {
+      "word": "fear",
+      "sentence": "The fear is here.",
+      "stage": 2
+    },
+    {
+      "word": "fee",
+      "sentence": "The fee is here.",
+      "stage": 2
+    },
+    {
+      "word": "feed",
+      "sentence": "The feed is here.",
+      "stage": 2
+    },
+    {
+      "word": "fight",
+      "sentence": "The fight is here.",
+      "stage": 2
+    },
+    {
+      "word": "fir",
+      "sentence": "The fir is here.",
+      "stage": 2
+    },
+    {
+      "word": "firm",
+      "sentence": "The firm is here.",
+      "stage": 2
+    },
+    {
+      "word": "first",
+      "sentence": "The first is here.",
+      "stage": 2
+    },
+    {
+      "word": "fished",
+      "sentence": "The fished is here.",
+      "stage": 2
+    },
+    {
+      "word": "flaw",
+      "sentence": "The flaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "flight",
+      "sentence": "The flight is here.",
+      "stage": 2
+    },
+    {
+      "word": "float",
+      "sentence": "The float is here.",
+      "stage": 2
+    },
+    {
+      "word": "floor",
+      "sentence": "The floor is here.",
+      "stage": 2
+    },
+    {
+      "word": "flow",
+      "sentence": "The flow is here.",
+      "stage": 2
+    },
+    {
+      "word": "foal",
+      "sentence": "The foal is here.",
+      "stage": 2
+    },
+    {
+      "word": "foil",
+      "sentence": "The foil is here.",
+      "stage": 2
+    },
+    {
+      "word": "foot",
+      "sentence": "I have one foot.",
+      "stage": 2
+    },
+    {
+      "word": "for",
+      "sentence": "The for is here.",
+      "stage": 2
+    },
+    {
+      "word": "force",
+      "sentence": "The force is here.",
+      "stage": 2
+    },
+    {
+      "word": "fork",
+      "sentence": "The fork is here.",
+      "stage": 2
+    },
+    {
+      "word": "form",
+      "sentence": "The form is here.",
+      "stage": 2
+    },
+    {
+      "word": "found",
+      "sentence": "The found is here.",
+      "stage": 2
+    },
+    {
+      "word": "fright",
+      "sentence": "The fright is here.",
+      "stage": 2
+    },
+    {
+      "word": "frown",
+      "sentence": "The frown is here.",
+      "stage": 2
+    },
+    {
+      "word": "fur",
+      "sentence": "The fur is here.",
+      "stage": 2
+    },
+    {
+      "word": "furniture",
+      "sentence": "The furniture is here.",
+      "stage": 2
+    },
+    {
+      "word": "further",
+      "sentence": "The further is here.",
+      "stage": 2
+    },
+    {
+      "word": "gain",
+      "sentence": "The gain is here.",
+      "stage": 2
+    },
+    {
+      "word": "gaunt",
+      "sentence": "The gaunt is here.",
+      "stage": 2
+    },
+    {
+      "word": "gear",
+      "sentence": "The gear is here.",
+      "stage": 2
+    },
+    {
+      "word": "girl",
+      "sentence": "The girl is here.",
+      "stage": 2
+    },
+    {
+      "word": "gnaw",
+      "sentence": "The gnaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "goal",
+      "sentence": "The goal is here.",
+      "stage": 2
+    },
+    {
+      "word": "goat",
+      "sentence": "The goat eats grass.",
+      "stage": 2
+    },
+    {
+      "word": "good",
+      "sentence": "That is a good idea.",
+      "stage": 2
+    },
+    {
+      "word": "grain",
+      "sentence": "The grain is here.",
+      "stage": 2
+    },
+    {
+      "word": "gray",
+      "sentence": "The gray is here.",
+      "stage": 2
+    },
+    {
+      "word": "great",
+      "sentence": "The great is here.",
+      "stage": 2
+    },
+    {
+      "word": "green",
+      "sentence": "The grass is green.",
+      "stage": 2
+    },
+    {
+      "word": "groan",
+      "sentence": "The groan is here.",
+      "stage": 2
+    },
+    {
+      "word": "ground",
+      "sentence": "The ground is here.",
+      "stage": 2
+    },
+    {
+      "word": "group",
+      "sentence": "The group is here.",
+      "stage": 2
+    },
+    {
+      "word": "grow",
+      "sentence": "The grow is here.",
+      "stage": 2
+    },
+    {
+      "word": "gush",
+      "sentence": "The gush is here.",
+      "stage": 2
+    },
+    {
+      "word": "hail",
+      "sentence": "The hail is here.",
+      "stage": 2
+    },
+    {
+      "word": "hang",
+      "sentence": "The hang is here.",
+      "stage": 2
+    },
+    {
+      "word": "hard",
+      "sentence": "The hard is here.",
+      "stage": 2
+    },
+    {
+      "word": "haul",
+      "sentence": "The haul is here.",
+      "stage": 2
+    },
+    {
+      "word": "haunt",
+      "sentence": "The haunt is here.",
+      "stage": 2
+    },
+    {
+      "word": "hay",
+      "sentence": "The hay is here.",
+      "stage": 2
+    },
+    {
+      "word": "head",
+      "sentence": "The head is here.",
+      "stage": 2
+    },
+    {
+      "word": "hear",
+      "sentence": "The hear is here.",
+      "stage": 2
+    },
+    {
+      "word": "heard",
+      "sentence": "The heard is here.",
+      "stage": 2
+    },
+    {
+      "word": "heavy",
+      "sentence": "The heavy is here.",
+      "stage": 2
+    },
+    {
+      "word": "helped",
+      "sentence": "The helped is here.",
+      "stage": 2
+    },
+    {
+      "word": "high",
+      "sentence": "The bird flies high.",
+      "stage": 2
+    },
+    {
+      "word": "highlight",
+      "sentence": "The highlight is here.",
+      "stage": 2
+    },
+    {
+      "word": "hook",
+      "sentence": "The hook is here.",
+      "stage": 2
+    },
+    {
+      "word": "horn",
+      "sentence": "The horn is here.",
+      "stage": 2
+    },
+    {
+      "word": "horse",
+      "sentence": "The horse runs fast.",
+      "stage": 2
+    },
+    {
+      "word": "hour",
+      "sentence": "The hour is here.",
+      "stage": 2
+    },
+    {
+      "word": "how",
+      "sentence": "The how is here.",
+      "stage": 2
+    },
+    {
+      "word": "hurt",
+      "sentence": "The hurt is here.",
+      "stage": 2
+    },
+    {
+      "word": "hush",
+      "sentence": "The hush is here.",
+      "stage": 2
+    },
+    {
+      "word": "jail",
+      "sentence": "The jail is here.",
+      "stage": 2
+    },
+    {
+      "word": "jaunt",
+      "sentence": "The jaunt is here.",
+      "stage": 2
+    },
+    {
+      "word": "jaw",
+      "sentence": "The jaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "jeep",
+      "sentence": "The jeep is here.",
+      "stage": 2
+    },
+    {
+      "word": "jumped",
+      "sentence": "The jumped is here.",
+      "stage": 2
+    },
+    {
+      "word": "kick",
+      "sentence": "The kick is here.",
+      "stage": 2
+    },
+    {
+      "word": "lash",
+      "sentence": "The lash is here.",
+      "stage": 2
+    },
+    {
+      "word": "launch",
+      "sentence": "The launch is here.",
+      "stage": 2
+    },
+    {
+      "word": "law",
+      "sentence": "The law is fair.",
+      "stage": 2
+    },
+    {
+      "word": "lawn",
+      "sentence": "The lawn is green.",
+      "stage": 2
+    },
+    {
+      "word": "lay",
+      "sentence": "The lay is here.",
+      "stage": 2
+    },
+    {
+      "word": "lead",
+      "sentence": "The lead is here.",
+      "stage": 2
+    },
+    {
+      "word": "lean",
+      "sentence": "The lean is here.",
+      "stage": 2
+    },
+    {
+      "word": "learn",
+      "sentence": "The learn is here.",
+      "stage": 2
+    },
+    {
+      "word": "letter",
+      "sentence": "The letter is here.",
+      "stage": 2
+    },
+    {
+      "word": "light",
+      "sentence": "The light is bright.",
+      "stage": 2
+    },
+    {
+      "word": "liked",
+      "sentence": "The liked is here.",
+      "stage": 2
+    },
+    {
+      "word": "load",
+      "sentence": "The load is here.",
+      "stage": 2
+    },
+    {
+      "word": "loan",
+      "sentence": "The loan is here.",
+      "stage": 2
+    },
+    {
+      "word": "lock",
+      "sentence": "The lock is here.",
+      "stage": 2
+    },
+    {
+      "word": "looked",
+      "sentence": "The looked is here.",
+      "stage": 2
+    },
+    {
+      "word": "loud",
+      "sentence": "The loud is here.",
+      "stage": 2
+    },
+    {
+      "word": "low",
+      "sentence": "The low is here.",
+      "stage": 2
+    },
+    {
+      "word": "loyal",
+      "sentence": "The loyal is here.",
+      "stage": 2
+    },
+    {
+      "word": "luck",
+      "sentence": "The luck is here.",
+      "stage": 2
+    },
+    {
+      "word": "machine",
+      "sentence": "The machine is loud.",
+      "stage": 2
+    },
+    {
+      "word": "mail",
+      "sentence": "The mail is here.",
+      "stage": 2
+    },
+    {
+      "word": "main",
+      "sentence": "The main is here.",
+      "stage": 2
+    },
+    {
+      "word": "mark",
+      "sentence": "The mark is here.",
+      "stage": 2
+    },
+    {
+      "word": "mash",
+      "sentence": "The mash is here.",
+      "stage": 2
+    },
+    {
+      "word": "math",
+      "sentence": "The math is here.",
+      "stage": 2
+    },
+    {
+      "word": "maybe",
+      "sentence": "The maybe is here.",
+      "stage": 2
+    },
+    {
+      "word": "mean",
+      "sentence": "The mean is here.",
+      "stage": 2
+    },
+    {
+      "word": "meet",
+      "sentence": "The meet is here.",
+      "stage": 2
+    },
+    {
+      "word": "midnight",
+      "sentence": "The midnight is here.",
+      "stage": 2
+    },
+    {
+      "word": "might",
+      "sentence": "The might is here.",
+      "stage": 2
+    },
+    {
+      "word": "moan",
+      "sentence": "The moan is here.",
+      "stage": 2
+    },
+    {
+      "word": "moat",
+      "sentence": "The moat is here.",
+      "stage": 2
+    },
+    {
+      "word": "moon",
+      "sentence": "The moon glows at night.",
+      "stage": 2
+    },
+    {
+      "word": "morning",
+      "sentence": "The morning is here.",
+      "stage": 2
+    },
+    {
+      "word": "moth",
+      "sentence": "The moth is here.",
+      "stage": 2
+    },
+    {
+      "word": "mother",
+      "sentence": "The mother is here.",
+      "stage": 2
+    },
+    {
+      "word": "muck",
+      "sentence": "The muck is here.",
+      "stage": 2
+    },
+    {
+      "word": "mush",
+      "sentence": "The mush is here.",
+      "stage": 2
+    },
+    {
+      "word": "nail",
+      "sentence": "The nail is here.",
+      "stage": 2
+    },
+    {
+      "word": "neck",
+      "sentence": "The neck is here.",
+      "stage": 2
+    },
+    {
+      "word": "needed",
+      "sentence": "The needed is here.",
+      "stage": 2
+    },
+    {
+      "word": "noise",
+      "sentence": "The noise is here.",
+      "stage": 2
+    },
+    {
+      "word": "nor",
+      "sentence": "The nor is here.",
+      "stage": 2
+    },
+    {
+      "word": "north",
+      "sentence": "The north is here.",
+      "stage": 2
+    },
+    {
+      "word": "nurse",
+      "sentence": "The nurse is here.",
+      "stage": 2
+    },
+    {
+      "word": "oak",
+      "sentence": "The oak is here.",
+      "stage": 2
+    },
+    {
+      "word": "oil",
+      "sentence": "The oil is here.",
+      "stage": 2
+    },
+    {
+      "word": "or",
+      "sentence": "The or is here.",
+      "stage": 2
+    },
+    {
+      "word": "other",
+      "sentence": "The other is here.",
+      "stage": 2
+    },
+    {
+      "word": "our",
+      "sentence": "The our is here.",
+      "stage": 2
+    },
+    {
+      "word": "out",
+      "sentence": "The out is here.",
+      "stage": 2
+    },
+    {
+      "word": "oyster",
+      "sentence": "The oyster is here.",
+      "stage": 2
+    },
+    {
+      "word": "pail",
+      "sentence": "The pail is here.",
+      "stage": 2
+    },
+    {
+      "word": "pain",
+      "sentence": "The pain is here.",
+      "stage": 2
+    },
+    {
+      "word": "paper",
+      "sentence": "The paper is here.",
+      "stage": 2
+    },
+    {
+      "word": "path",
+      "sentence": "The path is here.",
+      "stage": 2
+    },
+    {
+      "word": "paul",
+      "sentence": "The paul is here.",
+      "stage": 2
+    },
+    {
+      "word": "pause",
+      "sentence": "I pause to think.",
+      "stage": 2
+    },
+    {
+      "word": "paw",
+      "sentence": "The paw is here.",
+      "stage": 2
+    },
+    {
+      "word": "pawn",
+      "sentence": "The pawn is here.",
+      "stage": 2
+    },
+    {
+      "word": "pay",
+      "sentence": "The pay is here.",
+      "stage": 2
+    },
+    {
+      "word": "pearl",
+      "sentence": "The pearl is here.",
+      "stage": 2
+    },
+    {
+      "word": "peck",
+      "sentence": "The peck is here.",
+      "stage": 2
+    },
+    {
+      "word": "per",
+      "sentence": "The per is here.",
+      "stage": 2
+    },
+    {
+      "word": "plain",
+      "sentence": "The plain is here.",
+      "stage": 2
+    },
+    {
+      "word": "planted",
+      "sentence": "The planted is here.",
+      "stage": 2
+    },
+    {
+      "word": "played",
+      "sentence": "The played is here.",
+      "stage": 2
+    },
+    {
+      "word": "ploy",
+      "sentence": "The ploy is here.",
+      "stage": 2
+    },
+    {
+      "word": "point",
+      "sentence": "I point to the sky.",
+      "stage": 2
+    },
+    {
+      "word": "poison",
+      "sentence": "The poison is here.",
+      "stage": 2
+    },
+    {
+      "word": "pool",
+      "sentence": "We swim in the pool.",
+      "stage": 2
+    },
+    {
+      "word": "pork",
+      "sentence": "The pork is here.",
+      "stage": 2
+    },
+    {
+      "word": "pow",
+      "sentence": "The pow is here.",
+      "stage": 2
+    },
+    {
+      "word": "pray",
+      "sentence": "The pray is here.",
+      "stage": 2
+    },
+    {
+      "word": "proud",
+      "sentence": "The proud is here.",
+      "stage": 2
+    },
+    {
+      "word": "purple",
+      "sentence": "The purple is here.",
+      "stage": 2
+    },
+    {
+      "word": "purse",
+      "sentence": "The purse is here.",
+      "stage": 2
+    },
+    {
+      "word": "rained",
+      "sentence": "The rained is here.",
+      "stage": 2
+    },
+    {
+      "word": "rang",
+      "sentence": "The rang is here.",
+      "stage": 2
+    },
+    {
+      "word": "raw",
+      "sentence": "The meat is raw.",
+      "stage": 2
+    },
+    {
+      "word": "ray",
+      "sentence": "The ray is here.",
+      "stage": 2
+    },
+    {
+      "word": "ready",
+      "sentence": "The ready is here.",
+      "stage": 2
+    },
+    {
+      "word": "rear",
+      "sentence": "The rear is here.",
+      "stage": 2
+    },
+    {
+      "word": "rehearse",
+      "sentence": "The rehearse is here.",
+      "stage": 2
+    },
+    {
+      "word": "rejoice",
+      "sentence": "The rejoice is here.",
+      "stage": 2
+    },
+    {
+      "word": "rested",
+      "sentence": "The rested is here.",
+      "stage": 2
+    },
+    {
+      "word": "return",
+      "sentence": "The return is here.",
+      "stage": 2
+    },
+    {
+      "word": "rich",
+      "sentence": "The rich is here.",
+      "stage": 2
+    },
+    {
+      "word": "ring",
+      "sentence": "The ring is here.",
+      "stage": 2
+    },
+    {
+      "word": "roam",
+      "sentence": "The roam is here.",
+      "stage": 2
+    },
+    {
+      "word": "row",
+      "sentence": "The row is here.",
+      "stage": 2
+    },
+    {
+      "word": "royal",
+      "sentence": "The royal is here.",
+      "stage": 2
+    },
+    {
+      "word": "rush",
+      "sentence": "The rush is here.",
+      "stage": 2
+    },
+    {
+      "word": "sail",
+      "sentence": "The sail is here.",
+      "stage": 2
+    },
+    {
+      "word": "sang",
+      "sentence": "The sang is here.",
+      "stage": 2
+    },
+    {
+      "word": "saturday",
+      "sentence": "The saturday is here.",
+      "stage": 2
+    },
+    {
+      "word": "sauce",
+      "sentence": "I like tomato sauce.",
+      "stage": 2
+    },
+    {
+      "word": "school",
+      "sentence": "I go to school.",
+      "stage": 2
+    },
+    {
+      "word": "search",
+      "sentence": "The search is here.",
+      "stage": 2
+    },
+    {
+      "word": "seed",
+      "sentence": "The seed is here.",
+      "stage": 2
+    },
+    {
+      "word": "shall",
+      "sentence": "The shall is here.",
+      "stage": 2
+    },
+    {
+      "word": "shed",
+      "sentence": "The shed is here.",
+      "stage": 2
+    },
+    {
+      "word": "sheep",
+      "sentence": "The sheep is here.",
+      "stage": 2
+    },
+    {
+      "word": "ship",
+      "sentence": "I see a ship on the sea.",
+      "stage": 2
+    },
+    {
+      "word": "shirt",
+      "sentence": "The shirt is here.",
+      "stage": 2
+    },
+    {
+      "word": "shop",
+      "sentence": "The shop is here.",
+      "stage": 2
+    },
+    {
+      "word": "short",
+      "sentence": "The short is here.",
+      "stage": 2
+    },
+    {
+      "word": "shot",
+      "sentence": "The shot is here.",
+      "stage": 2
+    },
+    {
+      "word": "show",
+      "sentence": "The show is here.",
+      "stage": 2
+    },
+    {
+      "word": "showed",
+      "sentence": "The showed is here.",
+      "stage": 2
+    },
+    {
+      "word": "shut",
+      "sentence": "The shut is here.",
+      "stage": 2
+    },
+    {
+      "word": "sick",
+      "sentence": "The sick is here.",
+      "stage": 2
+    },
+    {
+      "word": "sigh",
+      "sentence": "The sigh is here.",
+      "stage": 2
+    },
+    {
+      "word": "sight",
+      "sentence": "I see a beautiful sight.",
+      "stage": 2
+    },
+    {
+      "word": "sing",
+      "sentence": "The sing is here.",
+      "stage": 2
+    },
+    {
+      "word": "sir",
+      "sentence": "The sir is here.",
+      "stage": 2
+    },
+    {
+      "word": "sister",
+      "sentence": "The sister is here.",
+      "stage": 2
+    },
+    {
+      "word": "skirt",
+      "sentence": "The skirt is here.",
+      "stage": 2
+    },
+    {
+      "word": "slaw",
+      "sentence": "The slaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "sleep",
+      "sentence": "I sleep in bed.",
+      "stage": 2
+    },
+    {
+      "word": "slight",
+      "sentence": "The slight is here.",
+      "stage": 2
+    },
+    {
+      "word": "slow",
+      "sentence": "The slow is here.",
+      "stage": 2
+    },
+    {
+      "word": "smart",
+      "sentence": "The smart is here.",
+      "stage": 2
+    },
+    {
+      "word": "snow",
+      "sentence": "The snow is here.",
+      "stage": 2
+    },
+    {
+      "word": "soak",
+      "sentence": "The soak is here.",
+      "stage": 2
+    },
+    {
+      "word": "soap",
+      "sentence": "The soap is here.",
+      "stage": 2
+    },
+    {
+      "word": "sock",
+      "sentence": "The sock is here.",
+      "stage": 2
+    },
+    {
+      "word": "soil",
+      "sentence": "The soil is here.",
+      "stage": 2
+    },
+    {
+      "word": "song",
+      "sentence": "The song is here.",
+      "stage": 2
+    },
+    {
+      "word": "soon",
+      "sentence": "It will be soon.",
+      "stage": 2
+    },
+    {
+      "word": "sort",
+      "sentence": "The sort is here.",
+      "stage": 2
+    },
+    {
+      "word": "sound",
+      "sentence": "The sound is here.",
+      "stage": 2
+    },
+    {
+      "word": "soup",
+      "sentence": "The soup is here.",
+      "stage": 2
+    },
+    {
+      "word": "soy",
+      "sentence": "The soy is here.",
+      "stage": 2
+    },
+    {
+      "word": "spoil",
+      "sentence": "The spoil is here.",
+      "stage": 2
+    },
+    {
+      "word": "sport",
+      "sentence": "The sport is here.",
+      "stage": 2
+    },
+    {
+      "word": "spray",
+      "sentence": "The spray is here.",
+      "stage": 2
+    },
+    {
+      "word": "spread",
+      "sentence": "The spread is here.",
+      "stage": 2
+    },
+    {
+      "word": "spring",
+      "sentence": "The spring is here.",
+      "stage": 2
+    },
+    {
+      "word": "squaw",
+      "sentence": "The squaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "squirt",
+      "sentence": "The squirt is here.",
+      "stage": 2
+    },
+    {
+      "word": "stain",
+      "sentence": "The stain is here.",
+      "stage": 2
+    },
+    {
+      "word": "star",
+      "sentence": "The star is here.",
+      "stage": 2
+    },
+    {
+      "word": "start",
+      "sentence": "The start is here.",
+      "stage": 2
+    },
+    {
+      "word": "stay",
+      "sentence": "Please stay right here.",
+      "stage": 2
+    },
+    {
+      "word": "stayed",
+      "sentence": "The stayed is here.",
+      "stage": 2
+    },
+    {
+      "word": "steak",
+      "sentence": "The steak is here.",
+      "stage": 2
+    },
+    {
+      "word": "stick",
+      "sentence": "The stick is here.",
+      "stage": 2
+    },
+    {
+      "word": "stir",
+      "sentence": "The stir is here.",
+      "stage": 2
+    },
+    {
+      "word": "stood",
+      "sentence": "The stood is here.",
+      "stage": 2
+    },
+    {
+      "word": "stopped",
+      "sentence": "The stopped is here.",
+      "stage": 2
+    },
+    {
+      "word": "storm",
+      "sentence": "The storm is here.",
+      "stage": 2
+    },
+    {
+      "word": "story",
+      "sentence": "The story is here.",
+      "stage": 2
+    },
+    {
+      "word": "straw",
+      "sentence": "The straw is here.",
+      "stage": 2
+    },
+    {
+      "word": "string",
+      "sentence": "The string is here.",
+      "stage": 2
+    },
+    {
+      "word": "strong",
+      "sentence": "The strong is here.",
+      "stage": 2
+    },
+    {
+      "word": "such",
+      "sentence": "The such is here.",
+      "stage": 2
+    },
+    {
+      "word": "summer",
+      "sentence": "The summer is here.",
+      "stage": 2
+    },
+    {
+      "word": "sunlight",
+      "sentence": "The sunlight is here.",
+      "stage": 2
+    },
+    {
+      "word": "surf",
+      "sentence": "The surf is here.",
+      "stage": 2
+    },
+    {
+      "word": "sweet",
+      "sentence": "The sweet is here.",
+      "stage": 2
+    },
+    {
+      "word": "swirl",
+      "sentence": "The swirl is here.",
+      "stage": 2
+    },
+    {
+      "word": "tail",
+      "sentence": "The tail is here.",
+      "stage": 2
+    },
+    {
+      "word": "talked",
+      "sentence": "The talked is here.",
+      "stage": 2
+    },
+    {
+      "word": "tar",
+      "sentence": "The tar is here.",
+      "stage": 2
+    },
+    {
+      "word": "taunt",
+      "sentence": "The taunt is here.",
+      "stage": 2
+    },
+    {
+      "word": "tear",
+      "sentence": "The tear is here.",
+      "stage": 2
+    },
+    {
+      "word": "tested",
+      "sentence": "The tested is here.",
+      "stage": 2
+    },
+    {
+      "word": "than",
+      "sentence": "The than is here.",
+      "stage": 2
+    },
+    {
+      "word": "thank",
+      "sentence": "The thank is here.",
+      "stage": 2
+    },
+    {
+      "word": "that",
+      "sentence": "The that is here.",
+      "stage": 2
+    },
+    {
+      "word": "thaw",
+      "sentence": "The thaw is here.",
+      "stage": 2
+    },
+    {
+      "word": "their",
+      "sentence": "The their is here.",
+      "stage": 2
+    },
+    {
+      "word": "them",
+      "sentence": "The them is here.",
+      "stage": 2
+    },
+    {
+      "word": "then",
+      "sentence": "The then is here.",
+      "stage": 2
+    },
+    {
+      "word": "there",
+      "sentence": "The there is here.",
+      "stage": 2
+    },
+    {
+      "word": "thigh",
+      "sentence": "The thigh is here.",
+      "stage": 2
+    },
+    {
+      "word": "thin",
+      "sentence": "The thin is here.",
+      "stage": 2
+    },
+    {
+      "word": "thing",
+      "sentence": "The thing is here.",
+      "stage": 2
+    },
+    {
+      "word": "think",
+      "sentence": "The think is here.",
+      "stage": 2
+    },
+    {
+      "word": "third",
+      "sentence": "The third is here.",
+      "stage": 2
+    },
+    {
+      "word": "thirst",
+      "sentence": "The thirst is here.",
+      "stage": 2
+    },
+    {
+      "word": "thirteen",
+      "sentence": "The thirteen is here.",
+      "stage": 2
+    },
+    {
+      "word": "thirty",
+      "sentence": "The thirty is here.",
+      "stage": 2
+    },
+    {
+      "word": "this",
+      "sentence": "The this is here.",
+      "stage": 2
+    },
+    {
+      "word": "though",
+      "sentence": "The though is here.",
+      "stage": 2
+    },
+    {
+      "word": "three",
+      "sentence": "The three is here.",
+      "stage": 2
+    },
+    {
+      "word": "through",
+      "sentence": "We walk through the park.",
+      "stage": 2
+    },
+    {
+      "word": "thursday",
+      "sentence": "The thursday is here.",
+      "stage": 2
+    },
+    {
+      "word": "tick",
+      "sentence": "The tick is here.",
+      "stage": 2
+    },
+    {
+      "word": "tight",
+      "sentence": "The tight is here.",
+      "stage": 2
+    },
+    {
+      "word": "toad",
+      "sentence": "The toad is here.",
+      "stage": 2
+    },
+    {
+      "word": "today",
+      "sentence": "The today is here.",
+      "stage": 2
+    },
+    {
+      "word": "toil",
+      "sentence": "The toil is here.",
+      "stage": 2
+    },
+    {
+      "word": "toilet",
+      "sentence": "The toilet is here.",
+      "stage": 2
+    },
+    {
+      "word": "tonight",
+      "sentence": "The tonight is here.",
+      "stage": 2
+    },
+    {
+      "word": "took",
+      "sentence": "I took the book.",
+      "stage": 2
+    },
+    {
+      "word": "torn",
+      "sentence": "The torn is here.",
+      "stage": 2
+    },
+    {
+      "word": "touch",
+      "sentence": "The touch is here.",
+      "stage": 2
+    },
+    {
+      "word": "town",
+      "sentence": "The town is here.",
+      "stage": 2
+    },
+    {
+      "word": "toy",
+      "sentence": "I have a toy.",
+      "stage": 2
+    },
+    {
+      "word": "tray",
+      "sentence": "The tray is here.",
+      "stage": 2
+    },
+    {
+      "word": "trouble",
+      "sentence": "The trouble is here.",
+      "stage": 2
+    },
+    {
+      "word": "tuck",
+      "sentence": "The tuck is here.",
+      "stage": 2
+    },
+    {
+      "word": "turf",
+      "sentence": "The turf is here.",
+      "stage": 2
+    },
+    {
+      "word": "under",
+      "sentence": "The under is here.",
+      "stage": 2
+    },
+    {
+      "word": "vain",
+      "sentence": "The vain is here.",
+      "stage": 2
+    },
+    {
+      "word": "vault",
+      "sentence": "The vault is here.",
+      "stage": 2
+    },
+    {
+      "word": "walked",
+      "sentence": "The walked is here.",
+      "stage": 2
+    },
+    {
+      "word": "wanted",
+      "sentence": "The wanted is here.",
+      "stage": 2
+    },
+    {
+      "word": "war",
+      "sentence": "The war is here.",
+      "stage": 2
+    },
+    {
+      "word": "wash",
+      "sentence": "I wash my hands.",
+      "stage": 2
+    },
+    {
+      "word": "weed",
+      "sentence": "The weed is here.",
+      "stage": 2
+    },
+    {
+      "word": "week",
+      "sentence": "The week is here.",
+      "stage": 2
+    },
+    {
+      "word": "whale",
+      "sentence": "The whale is huge.",
+      "stage": 2
+    },
+    {
+      "word": "what",
+      "sentence": "The what is here.",
+      "stage": 2
+    },
+    {
+      "word": "wheat",
+      "sentence": "The wheat is here.",
+      "stage": 2
+    },
+    {
+      "word": "wheel",
+      "sentence": "The wheel is here.",
+      "stage": 2
+    },
+    {
+      "word": "when",
+      "sentence": "The when is here.",
+      "stage": 2
+    },
+    {
+      "word": "where",
+      "sentence": "The where is here.",
+      "stage": 2
+    },
+    {
+      "word": "whether",
+      "sentence": "The whether is here.",
+      "stage": 2
+    },
+    {
+      "word": "which",
+      "sentence": "The which is here.",
+      "stage": 2
+    },
+    {
+      "word": "while",
+      "sentence": "The while is here.",
+      "stage": 2
+    },
+    {
+      "word": "whisper",
+      "sentence": "The whisper is here.",
+      "stage": 2
+    },
+    {
+      "word": "whistle",
+      "sentence": "The whistle is here.",
+      "stage": 2
+    },
+    {
+      "word": "whoever",
+      "sentence": "The whoever is here.",
+      "stage": 2
+    },
+    {
+      "word": "whole",
+      "sentence": "The whole is here.",
+      "stage": 2
+    },
+    {
+      "word": "whom",
+      "sentence": "The whom is here.",
+      "stage": 2
+    },
+    {
+      "word": "whose",
+      "sentence": "The whose is here.",
+      "stage": 2
+    },
+    {
+      "word": "wing",
+      "sentence": "The wing is here.",
+      "stage": 2
+    },
+    {
+      "word": "wood",
+      "sentence": "The wood is here.",
+      "stage": 2
+    },
+    {
+      "word": "worked",
+      "sentence": "The worked is here.",
+      "stage": 2
+    },
+    {
+      "word": "worn",
+      "sentence": "The worn is here.",
+      "stage": 2
+    },
+    {
+      "word": "wow",
+      "sentence": "The wow is here.",
+      "stage": 2
+    },
+    {
+      "word": "wrong",
+      "sentence": "That is the wrong way.",
+      "stage": 2
+    },
+    {
+      "word": "yard",
+      "sentence": "The yard is here.",
+      "stage": 2
+    },
+    {
+      "word": "yawn",
+      "sentence": "I yawn when I am tired.",
+      "stage": 2
+    },
+    {
+      "word": "year",
+      "sentence": "The year is here.",
+      "stage": 2
+    },
+    {
+      "word": "you",
+      "sentence": "The you is here.",
+      "stage": 2
+    },
+    {
+      "word": "young",
+      "sentence": "The young is here.",
+      "stage": 2
+    },
+    {
+      "word": "achieve",
+      "sentence": "The achieve is here.",
+      "stage": 3
+    },
+    {
+      "word": "afghan",
+      "sentence": "The afghan is here.",
+      "stage": 3
+    },
+    {
+      "word": "align",
+      "sentence": "The align is here.",
+      "stage": 3
+    },
+    {
+      "word": "alphabet",
+      "sentence": "I learn the alphabet.",
+      "stage": 3
+    },
+    {
+      "word": "although",
+      "sentence": "The although is here.",
+      "stage": 3
+    },
+    {
+      "word": "assign",
+      "sentence": "The assign is here.",
+      "stage": 3
+    },
+    {
+      "word": "autograph",
+      "sentence": "The autograph is here.",
+      "stage": 3
+    },
+    {
+      "word": "badge",
+      "sentence": "The badge is here.",
+      "stage": 3
+    },
+    {
+      "word": "batch",
+      "sentence": "The batch is here.",
+      "stage": 3
+    },
+    {
+      "word": "believe",
+      "sentence": "The believe is here.",
+      "stage": 3
+    },
+    {
+      "word": "benign",
+      "sentence": "The benign is here.",
+      "stage": 3
+    },
+    {
+      "word": "biscuit",
+      "sentence": "The biscuit is here.",
+      "stage": 3
+    },
+    {
+      "word": "blew",
+      "sentence": "The blew is here.",
+      "stage": 3
+    },
+    {
+      "word": "borough",
+      "sentence": "The borough is here.",
+      "stage": 3
+    },
+    {
+      "word": "bought",
+      "sentence": "The bought is here.",
+      "stage": 3
+    },
+    {
+      "word": "breakthrough",
+      "sentence": "The breakthrough is here.",
+      "stage": 3
+    },
+    {
+      "word": "bridge",
+      "sentence": "We cross the bridge.",
+      "stage": 3
+    },
+    {
+      "word": "brief",
+      "sentence": "The brief is here.",
+      "stage": 3
+    },
+    {
+      "word": "bruise",
+      "sentence": "The bruise is here.",
+      "stage": 3
+    },
+    {
+      "word": "build",
+      "sentence": "The build is here.",
+      "stage": 3
+    },
+    {
+      "word": "butcher",
+      "sentence": "The butcher is here.",
+      "stage": 3
+    },
+    {
+      "word": "campaign",
+      "sentence": "The campaign is here.",
+      "stage": 3
+    },
+    {
+      "word": "catch",
+      "sentence": "The catch is here.",
+      "stage": 3
+    },
+    {
+      "word": "catcher",
+      "sentence": "The catcher is here.",
+      "stage": 3
+    },
+    {
+      "word": "caught",
+      "sentence": "The cat caught a mouse.",
+      "stage": 3
+    },
+    {
+      "word": "ceiling",
+      "sentence": "The ceiling is here.",
+      "stage": 3
+    },
+    {
+      "word": "chew",
+      "sentence": "The chew is here.",
+      "stage": 3
+    },
+    {
+      "word": "chief",
+      "sentence": "The chief is here.",
+      "stage": 3
+    },
+    {
+      "word": "chimney",
+      "sentence": "The chimney is here.",
+      "stage": 3
+    },
+    {
+      "word": "circuit",
+      "sentence": "The circuit is here.",
+      "stage": 3
+    },
+    {
+      "word": "condign",
+      "sentence": "The condign is here.",
+      "stage": 3
+    },
+    {
+      "word": "convey",
+      "sentence": "The convey is here.",
+      "stage": 3
+    },
+    {
+      "word": "cough",
+      "sentence": "The cough is here.",
+      "stage": 3
+    },
+    {
+      "word": "crew",
+      "sentence": "The crew is here.",
+      "stage": 3
+    },
+    {
+      "word": "cries",
+      "sentence": "The cries is here.",
+      "stage": 3
+    },
+    {
+      "word": "cruise",
+      "sentence": "The cruise is here.",
+      "stage": 3
+    },
+    {
+      "word": "daughter",
+      "sentence": "The daughter is here.",
+      "stage": 3
+    },
+    {
+      "word": "deceive",
+      "sentence": "The deceive is here.",
+      "stage": 3
+    },
+    {
+      "word": "design",
+      "sentence": "The design is here.",
+      "stage": 3
+    },
+    {
+      "word": "die",
+      "sentence": "The die is here.",
+      "stage": 3
+    },
+    {
+      "word": "dinghy",
+      "sentence": "The dinghy is here.",
+      "stage": 3
+    },
+    {
+      "word": "ditch",
+      "sentence": "The ditch is here.",
+      "stage": 3
+    },
+    {
+      "word": "dodge",
+      "sentence": "The dodge is here.",
+      "stage": 3
+    },
+    {
+      "word": "dolphin",
+      "sentence": "The dolphin is here.",
+      "stage": 3
+    },
+    {
+      "word": "donkey",
+      "sentence": "The donkey is here.",
+      "stage": 3
+    },
+    {
+      "word": "dough",
+      "sentence": "The dough is here.",
+      "stage": 3
+    },
+    {
+      "word": "draught",
+      "sentence": "The draught is here.",
+      "stage": 3
+    },
+    {
+      "word": "draughty",
+      "sentence": "The draughty is here.",
+      "stage": 3
+    },
+    {
+      "word": "dredge",
+      "sentence": "The dredge is here.",
+      "stage": 3
+    },
+    {
+      "word": "drew",
+      "sentence": "The drew is here.",
+      "stage": 3
+    },
+    {
+      "word": "dries",
+      "sentence": "The dries is here.",
+      "stage": 3
+    },
+    {
+      "word": "edge",
+      "sentence": "Stand back from the edge.",
+      "stage": 3
+    },
+    {
+      "word": "eight",
+      "sentence": "The eight is here.",
+      "stage": 3
+    },
+    {
+      "word": "eighteen",
+      "sentence": "The eighteen is here.",
+      "stage": 3
+    },
+    {
+      "word": "eighty",
+      "sentence": "The eighty is here.",
+      "stage": 3
+    },
+    {
+      "word": "either",
+      "sentence": "The either is here.",
+      "stage": 3
+    },
+    {
+      "word": "elephant",
+      "sentence": "The elephant is big.",
+      "stage": 3
+    },
+    {
+      "word": "enough",
+      "sentence": "I have enough toys.",
+      "stage": 3
+    },
+    {
+      "word": "eucalyptus",
+      "sentence": "The eucalyptus is here.",
+      "stage": 3
+    },
+    {
+      "word": "eulogy",
+      "sentence": "The eulogy is here.",
+      "stage": 3
+    },
+    {
+      "word": "euphoria",
+      "sentence": "The euphoria is here.",
+      "stage": 3
+    },
+    {
+      "word": "europe",
+      "sentence": "The europe is here.",
+      "stage": 3
+    },
+    {
+      "word": "feign",
+      "sentence": "The feign is here.",
+      "stage": 3
+    },
+    {
+      "word": "feisty",
+      "sentence": "The feisty is here.",
+      "stage": 3
+    },
+    {
+      "word": "fetch",
+      "sentence": "The fetch is here.",
+      "stage": 3
+    },
+    {
+      "word": "feud",
+      "sentence": "The feud is here.",
+      "stage": 3
+    },
+    {
+      "word": "few",
+      "sentence": "I have a few apples.",
+      "stage": 3
+    },
+    {
+      "word": "field",
+      "sentence": "The field is here.",
+      "stage": 3
+    },
+    {
+      "word": "fireworks",
+      "sentence": "The fireworks is here.",
+      "stage": 3
+    },
+    {
+      "word": "flew",
+      "sentence": "The flew is here.",
+      "stage": 3
+    },
+    {
+      "word": "flies",
+      "sentence": "The flies is here.",
+      "stage": 3
+    },
+    {
+      "word": "foreign",
+      "sentence": "The foreign is here.",
+      "stage": 3
+    },
+    {
+      "word": "fought",
+      "sentence": "The fought is here.",
+      "stage": 3
+    },
+    {
+      "word": "freight",
+      "sentence": "The freight is here.",
+      "stage": 3
+    },
+    {
+      "word": "fries",
+      "sentence": "The fries is here.",
+      "stage": 3
+    },
+    {
+      "word": "fruit",
+      "sentence": "The fruit is here.",
+      "stage": 3
+    },
+    {
+      "word": "fudge",
+      "sentence": "The fudge is here.",
+      "stage": 3
+    },
+    {
+      "word": "ghastly",
+      "sentence": "The ghastly is here.",
+      "stage": 3
+    },
+    {
+      "word": "ghetto",
+      "sentence": "The ghetto is here.",
+      "stage": 3
+    },
+    {
+      "word": "ghost",
+      "sentence": "The ghost is white.",
+      "stage": 3
+    },
+    {
+      "word": "ghostly",
+      "sentence": "The ghostly is here.",
+      "stage": 3
+    },
+    {
+      "word": "ghoul",
+      "sentence": "The ghoul is here.",
+      "stage": 3
+    },
+    {
+      "word": "ghoulish",
+      "sentence": "The ghoulish is here.",
+      "stage": 3
+    },
+    {
+      "word": "gnash",
+      "sentence": "The gnash is here.",
+      "stage": 3
+    },
+    {
+      "word": "gnat",
+      "sentence": "The gnat is here.",
+      "stage": 3
+    },
+    {
+      "word": "graph",
+      "sentence": "The graph is here.",
+      "stage": 3
+    },
+    {
+      "word": "grew",
+      "sentence": "The grew is here.",
+      "stage": 3
+    },
+    {
+      "word": "grief",
+      "sentence": "The grief is here.",
+      "stage": 3
+    },
+    {
+      "word": "grudge",
+      "sentence": "The grudge is here.",
+      "stage": 3
+    },
+    {
+      "word": "guild",
+      "sentence": "The guild is here.",
+      "stage": 3
+    },
+    {
+      "word": "guilt",
+      "sentence": "The guilt is here.",
+      "stage": 3
+    },
+    {
+      "word": "hatch",
+      "sentence": "The hatch is here.",
+      "stage": 3
+    },
+    {
+      "word": "haughty",
+      "sentence": "The haughty is here.",
+      "stage": 3
+    },
+    {
+      "word": "hedge",
+      "sentence": "The hedge is here.",
+      "stage": 3
+    },
+    {
+      "word": "height",
+      "sentence": "The height is here.",
+      "stage": 3
+    },
+    {
+      "word": "heist",
+      "sentence": "The heist is here.",
+      "stage": 3
+    },
+    {
+      "word": "hey",
+      "sentence": "The hey is here.",
+      "stage": 3
+    },
+    {
+      "word": "hitch",
+      "sentence": "The hitch is here.",
+      "stage": 3
+    },
+    {
+      "word": "homework",
+      "sentence": "The homework is here.",
+      "stage": 3
+    },
+    {
+      "word": "honey",
+      "sentence": "The honey is here.",
+      "stage": 3
+    },
+    {
+      "word": "inveigh",
+      "sentence": "The inveigh is here.",
+      "stage": 3
+    },
+    {
+      "word": "jewelry",
+      "sentence": "The jewelry is here.",
+      "stage": 3
+    },
+    {
+      "word": "juice",
+      "sentence": "The juice is here.",
+      "stage": 3
+    },
+    {
+      "word": "key",
+      "sentence": "The key is here.",
+      "stage": 3
+    },
+    {
+      "word": "kidney",
+      "sentence": "The kidney is here.",
+      "stage": 3
+    },
+    {
+      "word": "kitchen",
+      "sentence": "The kitchen is here.",
+      "stage": 3
+    },
+    {
+      "word": "knack",
+      "sentence": "The knack is here.",
+      "stage": 3
+    },
+    {
+      "word": "knapsack",
+      "sentence": "The knapsack is here.",
+      "stage": 3
+    },
+    {
+      "word": "kneel",
+      "sentence": "The kneel is here.",
+      "stage": 3
+    },
+    {
+      "word": "knew",
+      "sentence": "The knew is here.",
+      "stage": 3
+    },
+    {
+      "word": "knight",
+      "sentence": "The knight is here.",
+      "stage": 3
+    },
+    {
+      "word": "knitting",
+      "sentence": "The knitting is here.",
+      "stage": 3
+    },
+    {
+      "word": "knob",
+      "sentence": "The knob is here.",
+      "stage": 3
+    },
+    {
+      "word": "knowledge",
+      "sentence": "The knowledge is here.",
+      "stage": 3
+    },
+    {
+      "word": "knuckle",
+      "sentence": "The knuckle is here.",
+      "stage": 3
+    },
+    {
+      "word": "latch",
+      "sentence": "The latch is here.",
+      "stage": 3
+    },
+    {
+      "word": "laugh",
+      "sentence": "The laugh is here.",
+      "stage": 3
+    },
+    {
+      "word": "laughter",
+      "sentence": "The laughter is here.",
+      "stage": 3
+    },
+    {
+      "word": "ledge",
+      "sentence": "The ledge is here.",
+      "stage": 3
+    },
+    {
+      "word": "leisure",
+      "sentence": "The leisure is here.",
+      "stage": 3
+    },
+    {
+      "word": "leukemia",
+      "sentence": "The leukemia is here.",
+      "stage": 3
+    },
+    {
+      "word": "lie",
+      "sentence": "The lie is here.",
+      "stage": 3
+    },
+    {
+      "word": "lodge",
+      "sentence": "The lodge is here.",
+      "stage": 3
+    },
+    {
+      "word": "malign",
+      "sentence": "The malign is here.",
+      "stage": 3
+    },
+    {
+      "word": "match",
+      "sentence": "Strike a match to make fire.",
+      "stage": 3
+    },
+    {
+      "word": "microphone",
+      "sentence": "The microphone is here.",
+      "stage": 3
+    },
+    {
+      "word": "money",
+      "sentence": "The money is here.",
+      "stage": 3
+    },
+    {
+      "word": "monkey",
+      "sentence": "The monkey climbs trees.",
+      "stage": 3
+    },
+    {
+      "word": "naught",
+      "sentence": "The naught is here.",
+      "stage": 3
+    },
+    {
+      "word": "neigh",
+      "sentence": "The neigh is here.",
+      "stage": 3
+    },
+    {
+      "word": "neighbor",
+      "sentence": "The neighbor is here.",
+      "stage": 3
+    },
+    {
+      "word": "neither",
+      "sentence": "The neither is here.",
+      "stage": 3
+    },
+    {
+      "word": "nephew",
+      "sentence": "The nephew is here.",
+      "stage": 3
+    },
+    {
+      "word": "network",
+      "sentence": "The network is here.",
+      "stage": 3
+    },
+    {
+      "word": "neutral",
+      "sentence": "The neutral is here.",
+      "stage": 3
+    },
+    {
+      "word": "newspaper",
+      "sentence": "The newspaper is here.",
+      "stage": 3
+    },
+    {
+      "word": "notch",
+      "sentence": "The notch is here.",
+      "stage": 3
+    },
+    {
+      "word": "nudge",
+      "sentence": "The nudge is here.",
+      "stage": 3
+    },
+    {
+      "word": "nuisance",
+      "sentence": "The nuisance is here.",
+      "stage": 3
+    },
+    {
+      "word": "obey",
+      "sentence": "The obey is here.",
+      "stage": 3
+    },
+    {
+      "word": "paragraph",
+      "sentence": "The paragraph is here.",
+      "stage": 3
+    },
+    {
+      "word": "patch",
+      "sentence": "The patch is here.",
+      "stage": 3
+    },
+    {
+      "word": "perceive",
+      "sentence": "The perceive is here.",
+      "stage": 3
+    },
+    {
+      "word": "philip",
+      "sentence": "The philip is here.",
+      "stage": 3
+    },
+    {
+      "word": "phone",
+      "sentence": "I talk on the phone.",
+      "stage": 3
+    },
+    {
+      "word": "photo",
+      "sentence": "The photo is here.",
+      "stage": 3
+    },
+    {
+      "word": "photograph",
+      "sentence": "The photograph is here.",
+      "stage": 3
+    },
+    {
+      "word": "phrase",
+      "sentence": "The phrase is here.",
+      "stage": 3
+    },
+    {
+      "word": "pie",
+      "sentence": "The pie is here.",
+      "stage": 3
+    },
+    {
+      "word": "piece",
+      "sentence": "The piece is here.",
+      "stage": 3
+    },
+    {
+      "word": "pitch",
+      "sentence": "The pitch is here.",
+      "stage": 3
+    },
+    {
+      "word": "pitcher",
+      "sentence": "The pitcher is here.",
+      "stage": 3
+    },
+    {
+      "word": "pledge",
+      "sentence": "The pledge is here.",
+      "stage": 3
+    },
+    {
+      "word": "pneumonia",
+      "sentence": "The pneumonia is here.",
+      "stage": 3
+    },
+    {
+      "word": "prey",
+      "sentence": "The prey is here.",
+      "stage": 3
+    },
+    {
+      "word": "protein",
+      "sentence": "The protein is here.",
+      "stage": 3
+    },
+    {
+      "word": "pseudonym",
+      "sentence": "The pseudonym is here.",
+      "stage": 3
+    },
+    {
+      "word": "pursuit",
+      "sentence": "The pursuit is here.",
+      "stage": 3
+    },
+    {
+      "word": "receive",
+      "sentence": "The receive is here.",
+      "stage": 3
+    },
+    {
+      "word": "recruit",
+      "sentence": "The recruit is here.",
+      "stage": 3
+    },
+    {
+      "word": "reign",
+      "sentence": "The reign is here.",
+      "stage": 3
+    },
+    {
+      "word": "rein",
+      "sentence": "The rein is here.",
+      "stage": 3
+    },
+    {
+      "word": "relieve",
+      "sentence": "The relieve is here.",
+      "stage": 3
+    },
+    {
+      "word": "renew",
+      "sentence": "The renew is here.",
+      "stage": 3
+    },
+    {
+      "word": "resign",
+      "sentence": "The resign is here.",
+      "stage": 3
+    },
+    {
+      "word": "ridge",
+      "sentence": "The ridge is here.",
+      "stage": 3
+    },
+    {
+      "word": "rough",
+      "sentence": "The rough is here.",
+      "stage": 3
+    },
+    {
+      "word": "scratch",
+      "sentence": "The scratch is here.",
+      "stage": 3
+    },
+    {
+      "word": "seismic",
+      "sentence": "The seismic is here.",
+      "stage": 3
+    },
+    {
+      "word": "seize",
+      "sentence": "The seize is here.",
+      "stage": 3
+    },
+    {
+      "word": "shield",
+      "sentence": "The shield is here.",
+      "stage": 3
+    },
+    {
+      "word": "sign",
+      "sentence": "The sign is here.",
+      "stage": 3
+    },
+    {
+      "word": "slaughter",
+      "sentence": "The slaughter is here.",
+      "stage": 3
+    },
+    {
+      "word": "sledge",
+      "sentence": "The sledge is here.",
+      "stage": 3
+    },
+    {
+      "word": "sleigh",
+      "sentence": "The sleigh is here.",
+      "stage": 3
+    },
+    {
+      "word": "sleight",
+      "sentence": "The sleight is here.",
+      "stage": 3
+    },
+    {
+      "word": "smudge",
+      "sentence": "The smudge is here.",
+      "stage": 3
+    },
+    {
+      "word": "sorghum",
+      "sentence": "The sorghum is here.",
+      "stage": 3
+    },
+    {
+      "word": "sought",
+      "sentence": "The sought is here.",
+      "stage": 3
+    },
+    {
+      "word": "sovereign",
+      "sentence": "The sovereign is here.",
+      "stage": 3
+    },
+    {
+      "word": "spaghetti",
+      "sentence": "The spaghetti is here.",
+      "stage": 3
+    },
+    {
+      "word": "sphere",
+      "sentence": "The sphere is here.",
+      "stage": 3
+    },
+    {
+      "word": "spies",
+      "sentence": "The spies is here.",
+      "stage": 3
+    },
+    {
+      "word": "stew",
+      "sentence": "The stew is here.",
+      "stage": 3
+    },
+    {
+      "word": "stretch",
+      "sentence": "The stretch is here.",
+      "stage": 3
+    },
+    {
+      "word": "suit",
+      "sentence": "The suit is here.",
+      "stage": 3
+    },
+    {
+      "word": "suitable",
+      "sentence": "The suitable is here.",
+      "stage": 3
+    },
+    {
+      "word": "survey",
+      "sentence": "The survey is here.",
+      "stage": 3
+    },
+    {
+      "word": "taught",
+      "sentence": "Mom taught me a song.",
+      "stage": 3
+    },
+    {
+      "word": "telephone",
+      "sentence": "The telephone is here.",
+      "stage": 3
+    },
+    {
+      "word": "therapeutic",
+      "sentence": "The therapeutic is here.",
+      "stage": 3
+    },
+    {
+      "word": "they",
+      "sentence": "The they is here.",
+      "stage": 3
+    },
+    {
+      "word": "thief",
+      "sentence": "The thief is here.",
+      "stage": 3
+    },
+    {
+      "word": "thorough",
+      "sentence": "The thorough is here.",
+      "stage": 3
+    },
+    {
+      "word": "thought",
+      "sentence": "I thought it was fun.",
+      "stage": 3
+    },
+    {
+      "word": "threw",
+      "sentence": "The threw is here.",
+      "stage": 3
+    },
+    {
+      "word": "tie",
+      "sentence": "The tie is here.",
+      "stage": 3
+    },
+    {
+      "word": "tough",
+      "sentence": "This bread is tough.",
+      "stage": 3
+    },
+    {
+      "word": "tries",
+      "sentence": "The tries is here.",
+      "stage": 3
+    },
+    {
+      "word": "trophy",
+      "sentence": "The trophy is here.",
+      "stage": 3
+    },
+    {
+      "word": "trudge",
+      "sentence": "The trudge is here.",
+      "stage": 3
+    },
+    {
+      "word": "turkey",
+      "sentence": "The turkey is here.",
+      "stage": 3
+    },
+    {
+      "word": "typewriter",
+      "sentence": "The typewriter is here.",
+      "stage": 3
+    },
+    {
+      "word": "vein",
+      "sentence": "The vein is here.",
+      "stage": 3
+    },
+    {
+      "word": "watcher",
+      "sentence": "The watcher is here.",
+      "stage": 3
+    },
+    {
+      "word": "wedge",
+      "sentence": "The wedge is here.",
+      "stage": 3
+    },
+    {
+      "word": "weigh",
+      "sentence": "The weigh is here.",
+      "stage": 3
+    },
+    {
+      "word": "weight",
+      "sentence": "The weight is here.",
+      "stage": 3
+    },
+    {
+      "word": "witch",
+      "sentence": "The witch is here.",
+      "stage": 3
+    },
+    {
+      "word": "workshop",
+      "sentence": "The workshop is here.",
+      "stage": 3
+    },
+    {
+      "word": "worm",
+      "sentence": "The worm is here.",
+      "stage": 3
+    },
+    {
+      "word": "worse",
+      "sentence": "The worse is here.",
+      "stage": 3
+    },
+    {
+      "word": "worship",
+      "sentence": "The worship is here.",
+      "stage": 3
+    },
+    {
+      "word": "worst",
+      "sentence": "The worst is here.",
+      "stage": 3
+    },
+    {
+      "word": "worth",
+      "sentence": "The worth is here.",
+      "stage": 3
+    },
+    {
+      "word": "worthy",
+      "sentence": "The worthy is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrangle",
+      "sentence": "The wrangle is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrap",
+      "sentence": "The wrap is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrapping",
+      "sentence": "The wrapping is here.",
+      "stage": 3
+    },
+    {
+      "word": "wreath",
+      "sentence": "The wreath is here.",
+      "stage": 3
+    },
+    {
+      "word": "wreck",
+      "sentence": "The wreck is here.",
+      "stage": 3
+    },
+    {
+      "word": "wren",
+      "sentence": "The wren is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrench",
+      "sentence": "The wrench is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrestle",
+      "sentence": "The wrestle is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrinkle",
+      "sentence": "The wrinkle is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrist",
+      "sentence": "The wrist is here.",
+      "stage": 3
+    },
+    {
+      "word": "write",
+      "sentence": "I write with a pen.",
+      "stage": 3
+    },
+    {
+      "word": "writer",
+      "sentence": "The writer is here.",
+      "stage": 3
+    },
+    {
+      "word": "written",
+      "sentence": "The written is here.",
+      "stage": 3
+    },
+    {
+      "word": "wrote",
+      "sentence": "The wrote is here.",
+      "stage": 3
+    },
+    {
+      "word": "action",
+      "sentence": "Time for action.",
+      "stage": 4
+    },
+    {
+      "word": "apprehension",
+      "sentence": "The apprehension is here.",
+      "stage": 4
+    },
+    {
+      "word": "artificial",
+      "sentence": "The artificial is here.",
+      "stage": 4
+    },
+    {
+      "word": "audacious",
+      "sentence": "The audacious is here.",
+      "stage": 4
+    },
+    {
+      "word": "celebration",
+      "sentence": "The celebration is here.",
+      "stage": 4
+    },
+    {
+      "word": "collision",
+      "sentence": "The collision is here.",
+      "stage": 4
+    },
+    {
+      "word": "comprehension",
+      "sentence": "The comprehension is here.",
+      "stage": 4
+    },
+    {
+      "word": "confusion",
+      "sentence": "The confusion is here.",
+      "stage": 4
+    },
+    {
+      "word": "conscious",
+      "sentence": "The conscious is here.",
+      "stage": 4
+    },
+    {
+      "word": "creation",
+      "sentence": "The creation is here.",
+      "stage": 4
+    },
+    {
+      "word": "crucial",
+      "sentence": "The crucial is here.",
+      "stage": 4
+    },
+    {
+      "word": "decision",
+      "sentence": "The decision is here.",
+      "stage": 4
+    },
+    {
+      "word": "delicious",
+      "sentence": "The delicious is here.",
+      "stage": 4
+    },
+    {
+      "word": "dimension",
+      "sentence": "The dimension is here.",
+      "stage": 4
+    },
+    {
+      "word": "division",
+      "sentence": "The division is here.",
+      "stage": 4
+    },
+    {
+      "word": "efficient",
+      "sentence": "The efficient is here.",
+      "stage": 4
+    },
+    {
+      "word": "electric",
+      "sentence": "The electric is here.",
+      "stage": 4
+    },
+    {
+      "word": "emulsion",
+      "sentence": "The emulsion is here.",
+      "stage": 4
+    },
+    {
+      "word": "essential",
+      "sentence": "The essential is here.",
+      "stage": 4
+    },
+    {
+      "word": "explosion",
+      "sentence": "The explosion is here.",
+      "stage": 4
+    },
+    {
+      "word": "extension",
+      "sentence": "The extension is here.",
+      "stage": 4
+    },
+    {
+      "word": "fancied",
+      "sentence": "The fancied is here.",
+      "stage": 4
+    },
+    {
+      "word": "fictional",
+      "sentence": "The fictional is here.",
+      "stage": 4
+    },
+    {
+      "word": "fraction",
+      "sentence": "One half is a fraction.",
+      "stage": 4
+    },
+    {
+      "word": "glacier",
+      "sentence": "The glacier is here.",
+      "stage": 4
+    },
+    {
+      "word": "gracious",
+      "sentence": "The gracious is here.",
+      "stage": 4
+    },
+    {
+      "word": "initial",
+      "sentence": "The initial is here.",
+      "stage": 4
+    },
+    {
+      "word": "malicious",
+      "sentence": "The malicious is here.",
+      "stage": 4
+    },
+    {
+      "word": "mansion",
+      "sentence": "The mansion is here.",
+      "stage": 4
+    },
+    {
+      "word": "migration",
+      "sentence": "The migration is here.",
+      "stage": 4
+    },
+    {
+      "word": "mission",
+      "sentence": "I have a mission today.",
+      "stage": 4
+    },
+    {
+      "word": "motion",
+      "sentence": "The motion is here.",
+      "stage": 4
+    },
+    {
+      "word": "musician",
+      "sentence": "The musician is here.",
+      "stage": 4
+    },
+    {
+      "word": "nation",
+      "sentence": "We are one nation.",
+      "stage": 4
+    },
+    {
+      "word": "national",
+      "sentence": "The national is here.",
+      "stage": 4
+    },
+    {
+      "word": "occasion",
+      "sentence": "The occasion is here.",
+      "stage": 4
+    },
+    {
+      "word": "official",
+      "sentence": "The official is here.",
+      "stage": 4
+    },
+    {
+      "word": "operation",
+      "sentence": "The operation is here.",
+      "stage": 4
+    },
+    {
+      "word": "partial",
+      "sentence": "The partial is here.",
+      "stage": 4
+    },
+    {
+      "word": "passion",
+      "sentence": "The passion is here.",
+      "stage": 4
+    },
+    {
+      "word": "patient",
+      "sentence": "The patient is here.",
+      "stage": 4
+    },
+    {
+      "word": "pension",
+      "sentence": "The pension is here.",
+      "stage": 4
+    },
+    {
+      "word": "politician",
+      "sentence": "The politician is here.",
+      "stage": 4
+    },
+    {
+      "word": "precious",
+      "sentence": "This is a precious gift.",
+      "stage": 4
+    },
+    {
+      "word": "racial",
+      "sentence": "The racial is here.",
+      "stage": 4
+    },
+    {
+      "word": "rotation",
+      "sentence": "The rotation is here.",
+      "stage": 4
+    },
+    {
+      "word": "session",
+      "sentence": "The session is here.",
+      "stage": 4
+    },
+    {
+      "word": "social",
+      "sentence": "The social is here.",
+      "stage": 4
+    },
+    {
+      "word": "spacious",
+      "sentence": "The spacious is here.",
+      "stage": 4
+    },
+    {
+      "word": "special",
+      "sentence": "You are special.",
+      "stage": 4
+    },
+    {
+      "word": "station",
+      "sentence": "The station is here.",
+      "stage": 4
+    },
+    {
+      "word": "subtle",
+      "sentence": "The subtle is here.",
+      "stage": 4
+    },
+    {
+      "word": "suspension",
+      "sentence": "The suspension is here.",
+      "stage": 4
+    },
+    {
+      "word": "tension",
+      "sentence": "The tension is here.",
+      "stage": 4
+    },
+    {
+      "word": "version",
+      "sentence": "The version is here.",
+      "stage": 4
+    },
+    {
+      "word": "vibration",
+      "sentence": "The vibration is here.",
+      "stage": 4
+    },
+    {
+      "word": "vicious",
+      "sentence": "The vicious is here.",
+      "stage": 4
+    },
+    {
+      "word": "vision",
+      "sentence": "I have a vision of the future.",
+      "stage": 4
+    },
+    {
+      "word": "vivacious",
+      "sentence": "The vivacious is here.",
+      "stage": 4
+    }
+  ],
+  "phonogram_tiles": [
+    {
+      "pg": "a",
+      "sounds": "/\u0103/ /\u0101/ /\u00e4/",
+      "stage": 1
+    },
+    {
+      "pg": "b",
+      "sounds": "/b/",
+      "stage": 1
+    },
+    {
+      "pg": "c",
+      "sounds": "/k/ /s/",
+      "stage": 1
+    },
+    {
+      "pg": "d",
+      "sounds": "/d/",
+      "stage": 1
+    },
+    {
+      "pg": "e",
+      "sounds": "/\u0115/ /\u0113/",
+      "stage": 1
+    },
+    {
+      "pg": "f",
+      "sounds": "/f/",
+      "stage": 1
+    },
+    {
+      "pg": "g",
+      "sounds": "/g/ /j/",
+      "stage": 1
+    },
+    {
+      "pg": "h",
+      "sounds": "/h/",
+      "stage": 1
+    },
+    {
+      "pg": "i",
+      "sounds": "/\u012d/ /\u012b/ /\u0113/",
+      "stage": 1
+    },
+    {
+      "pg": "j",
+      "sounds": "/j/",
+      "stage": 1
+    },
+    {
+      "pg": "k",
+      "sounds": "/k/",
+      "stage": 1
+    },
+    {
+      "pg": "l",
+      "sounds": "/l/",
+      "stage": 1
+    },
+    {
+      "pg": "m",
+      "sounds": "/m/",
+      "stage": 1
+    },
+    {
+      "pg": "n",
+      "sounds": "/n/",
+      "stage": 1
+    },
+    {
+      "pg": "o",
+      "sounds": "/\u014f/ /\u014d/ /\u00f6/",
+      "stage": 1
+    },
+    {
+      "pg": "p",
+      "sounds": "/p/",
+      "stage": 1
+    },
+    {
+      "pg": "qu",
+      "sounds": "/kw/",
+      "stage": 1
+    },
+    {
+      "pg": "r",
+      "sounds": "/r/",
+      "stage": 1
+    },
+    {
+      "pg": "s",
+      "sounds": "/s/ /z/",
+      "stage": 1
+    },
+    {
+      "pg": "t",
+      "sounds": "/t/",
+      "stage": 1
+    },
+    {
+      "pg": "u",
+      "sounds": "/\u016d/ /\u016b/ /\u00f6/",
+      "stage": 1
+    },
+    {
+      "pg": "v",
+      "sounds": "/v/",
+      "stage": 1
+    },
+    {
+      "pg": "w",
+      "sounds": "/w/",
+      "stage": 1
+    },
+    {
+      "pg": "x",
+      "sounds": "/ks/ /z/",
+      "stage": 1
+    },
+    {
+      "pg": "y",
+      "sounds": "/y/ /\u012d/ /\u012b/ /\u0113/",
+      "stage": 1
+    },
+    {
+      "pg": "z",
+      "sounds": "/z/",
+      "stage": 1
+    },
+    {
+      "pg": "sh",
+      "sounds": "/sh/",
+      "stage": 2
+    },
+    {
+      "pg": "th",
+      "sounds": "/th/ (voiced) /th/ (unvoiced)",
+      "stage": 2
+    },
+    {
+      "pg": "ck",
+      "sounds": "/k/",
+      "stage": 2
+    },
+    {
+      "pg": "ee",
+      "sounds": "/\u0113/",
+      "stage": 2
+    },
+    {
+      "pg": "ng",
+      "sounds": "/ng/",
+      "stage": 2
+    },
+    {
+      "pg": "ar",
+      "sounds": "/\u00e4r/",
+      "stage": 2
+    },
+    {
+      "pg": "or",
+      "sounds": "/or/",
+      "stage": 2
+    },
+    {
+      "pg": "er",
+      "sounds": "/er/",
+      "stage": 2
+    },
+    {
+      "pg": "oi",
+      "sounds": "/oi/",
+      "stage": 2
+    },
+    {
+      "pg": "oy",
+      "sounds": "/oi/",
+      "stage": 2
+    },
+    {
+      "pg": "ai",
+      "sounds": "/\u0101/",
+      "stage": 2
+    },
+    {
+      "pg": "ay",
+      "sounds": "/\u0101/",
+      "stage": 2
+    },
+    {
+      "pg": "ch",
+      "sounds": "/ch/ /k/ /sh/",
+      "stage": 2
+    },
+    {
+      "pg": "wh",
+      "sounds": "/hw/",
+      "stage": 2
+    },
+    {
+      "pg": "ea",
+      "sounds": "/\u0113/ /\u0115/ /\u0101/",
+      "stage": 2
+    },
+    {
+      "pg": "ow",
+      "sounds": "/ow/ /\u014d/",
+      "stage": 2
+    },
+    {
+      "pg": "ou",
+      "sounds": "/ow/ /\u014d/ /\u00f6/ /\u016d/",
+      "stage": 2
+    },
+    {
+      "pg": "oo",
+      "sounds": "/\u00f6/ /\u00fc/ /\u014d/",
+      "stage": 2
+    },
+    {
+      "pg": "ed",
+      "sounds": "/ed/ /d/ /t/",
+      "stage": 2
+    },
+    {
+      "pg": "igh",
+      "sounds": "/\u012b/",
+      "stage": 2
+    },
+    {
+      "pg": "aw",
+      "sounds": "/\u00e4/",
+      "stage": 2
+    },
+    {
+      "pg": "au",
+      "sounds": "/\u00e4/",
+      "stage": 2
+    },
+    {
+      "pg": "ir",
+      "sounds": "/er/",
+      "stage": 2
+    },
+    {
+      "pg": "ur",
+      "sounds": "/er/",
+      "stage": 2
+    },
+    {
+      "pg": "oa",
+      "sounds": "/\u014d/",
+      "stage": 2
+    },
+    {
+      "pg": "ear",
+      "sounds": "/er/",
+      "stage": 2
+    },
+    {
+      "pg": "dge",
+      "sounds": "/j/",
+      "stage": 3
+    },
+    {
+      "pg": "tch",
+      "sounds": "/ch/",
+      "stage": 3
+    },
+    {
+      "pg": "kn",
+      "sounds": "/n/",
+      "stage": 3
+    },
+    {
+      "pg": "gn",
+      "sounds": "/n/",
+      "stage": 3
+    },
+    {
+      "pg": "wr",
+      "sounds": "/r/",
+      "stage": 3
+    },
+    {
+      "pg": "eigh",
+      "sounds": "/\u0101/",
+      "stage": 3
+    },
+    {
+      "pg": "ei",
+      "sounds": "/\u0113/ /\u0101/ /\u012b/",
+      "stage": 3
+    },
+    {
+      "pg": "ey",
+      "sounds": "/\u0101/ /\u0113/",
+      "stage": 3
+    },
+    {
+      "pg": "ph",
+      "sounds": "/f/",
+      "stage": 3
+    },
+    {
+      "pg": "gh",
+      "sounds": "/g/",
+      "stage": 3
+    },
+    {
+      "pg": "ough",
+      "sounds": "/\u014d/ /\u00f6/ /ow/ /\u016df/ /\u00e4f/",
+      "stage": 3
+    },
+    {
+      "pg": "augh",
+      "sounds": "/\u00e4/ /\u0103f/",
+      "stage": 3
+    },
+    {
+      "pg": "ew",
+      "sounds": "/\u00fc/ /\u00f6/",
+      "stage": 3
+    },
+    {
+      "pg": "ui",
+      "sounds": "/\u00fc/ /\u00f6/",
+      "stage": 3
+    },
+    {
+      "pg": "eu",
+      "sounds": "/\u00fc/",
+      "stage": 3
+    },
+    {
+      "pg": "wor",
+      "sounds": "/wer/",
+      "stage": 3
+    },
+    {
+      "pg": "ie",
+      "sounds": "/\u0113/ /\u012b/",
+      "stage": 3
+    },
+    {
+      "pg": "ti",
+      "sounds": "/sh/",
+      "stage": 4
+    },
+    {
+      "pg": "ci",
+      "sounds": "/sh/",
+      "stage": 4
+    },
+    {
+      "pg": "si",
+      "sounds": "/sh/",
+      "stage": 4
+    }
+  ]
+}

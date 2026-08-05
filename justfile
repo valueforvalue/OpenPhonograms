@@ -87,8 +87,14 @@ gen-animal-readers:
     @echo "==> Generating animal readers"
     @{{python}} {{scripts_dir_s}}/generate-animal-readers.py
 
+# Generate game data (phonograms + spell words) and inject into the HTML
+gen-game:
+    @echo "==> Generating + injecting game data"
+    @{{python}} {{scripts_dir_s}}/generate-game-data.py
+    @{{python}} {{scripts_dir_s}}/inject-game-data.py
+
 # Generate every markdown source from data
-gen-all: gen-worksheets gen-lessons gen-readers gen-animal-readers
+gen-all: gen-worksheets gen-lessons gen-readers gen-animal-readers gen-game
     @echo "==> All markdown sources generated"
 
 # Generate 15 interim quick-check HTMLs (3 per stage) + combined stage PDFs
