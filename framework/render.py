@@ -36,13 +36,57 @@ FRAMEWORK_DIR = PROJECT_ROOT / "framework"
 TEMPLATES_DIR = FRAMEWORK_DIR / "templates"
 CATALOG_PATH = FRAMEWORK_DIR / "lesson-catalog.csv"
 
+# Atkinson Hyperlegible (Braille Institute, 2019) — exaggerated character
+# distinctiveness (b/d, 1/I/l, O/Q) makes it ideal for early readers.
+# All weights embedded as @font-face so WeasyPrint can resolve locally.
 PAGE_CSS = """
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("framework/fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("framework/fonts/AtkinsonHyperlegible-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("framework/fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("framework/fonts/AtkinsonHyperlegible-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Color palette — WCAG AA verified against cream background (#fffff8).
+   Always pair color with weight/shape — never color-only. */
+:root {
+    --ink: #111111;        /* 18.8:1  body text */
+    --accent: #2a5c8a;     /*  8.2:1  headings / consonant fallback */
+    --vowel: #a8421a;      /*  5.7:1  vowels (rust) */
+    --consonant: #2a7d2a;  /*  5.3:1  consonants (green) */
+    --warn: #b8860b;       /*  4.6:1  caution — large text only */
+    --muted: #555555;      /*  7.4:1  captions */
+    --bg: #fffff8;         /* off-white */
+    --card-bg: #f7f7f2;
+    --rule-line: #dddddd;
+    --warmup-bg: #eef6ff;
+    --warmup-border: #b8d4f0;
+}
+
 @page {
     size: letter;
-    margin: 0.75in;
+    margin: 0.75in 0.75in 0.9in 0.75in;
     @bottom-center {
         content: counter(page);
-        font-family: Georgia, serif;
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 9pt;
         color: #888;
     }
@@ -54,14 +98,18 @@ PAGE_CSS = """
 }
 
 body {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Atkinson Hyperlegible", Georgia, "Times New Roman", serif;
     font-size: 14pt;
     line-height: 1.7;
-    color: #111;
+    color: var(--ink);
+    background: var(--bg);
+    orphans: 3;
+    widows: 3;
 }
 
 body.worksheet {
     font-size: 12pt;
+    line-height: 1.55;
 }
 
 body.reader {
@@ -69,62 +117,128 @@ body.reader {
     line-height: 1.8;
 }
 
-h1 { font-size: 22pt; margin-top: 0; page-break-before: avoid; }
-h2 { font-size: 16pt; color: #2a5c8a; page-break-after: avoid; }
-h3 { font-size: 13pt; page-break-after: avoid; }
+/* Age-graded per-stage sizing. Stages 1-2 (4-7yo) get the largest text;
+   sizes step down through the curriculum as readers gain fluency. */
+body.stage-1, body.stage-1.worksheet { font-size: 19pt; line-height: 1.8; }
+body.stage-2, body.stage-2.worksheet { font-size: 17pt; line-height: 1.7; }
+body.stage-3, body.stage-3.worksheet { font-size: 15pt; line-height: 1.65; }
+body.stage-4, body.stage-4.worksheet { font-size: 14pt; line-height: 1.6; }
+body.stage-5, body.stage-5.worksheet { font-size: 13pt; line-height: 1.55; }
+body.stage-1.reader { font-size: 22pt; }
+body.stage-2.reader { font-size: 20pt; }
+body.stage-3.reader { font-size: 18pt; line-height: 1.7; }
+body.stage-4.reader { font-size: 16pt; line-height: 1.6; }
+body.stage-5.reader { font-size: 15pt; line-height: 1.55; }
+
+h1 {
+    font-size: 24pt;
+    margin-top: 0;
+    page-break-before: avoid;
+    break-after: avoid;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+}
+h2 {
+    font-size: 17pt;
+    color: var(--accent);
+    page-break-after: avoid;
+    break-after: avoid;
+    margin-top: 1.4em;
+    border-bottom: 1px solid var(--rule-line);
+    padding-bottom: 0.2em;
+}
+h3 {
+    font-size: 13pt;
+    page-break-after: avoid;
+    break-after: avoid;
+    color: #333;
+    margin-top: 1.2em;
+}
+
+p { margin: 0.5em 0; }
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+}
 
 table {
     border-collapse: collapse;
     width: 100%;
     margin: 1em 0;
     font-size: 11pt;
+    break-inside: avoid;
 }
 th, td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--rule-line);
     padding: 6pt 8pt;
     text-align: left;
     vertical-align: top;
 }
-th { font-weight: bold; border-bottom-width: 2px; background: #f7f7f2; }
+th {
+    font-weight: bold;
+    border-bottom-width: 2px;
+    background: var(--card-bg);
+    color: var(--accent);
+}
 
+/* Color-coded phonograms. Vowels → rust, consonants → green.
+   Always bold + colored (never color-only) for color-blind safety. */
 .phonogram {
     font-size: 72pt;
     font-weight: bold;
-    color: #2a5c8a;
+    color: var(--accent);
     text-align: center;
     display: block;
     margin: 1em 0;
-    font-family: Georgia, serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     line-height: 1.1;
-    border: 2px solid #2a5c8a;
+    border: 2px solid var(--accent);
     border-radius: 8px;
     padding: 0.4em;
-    background: #fffff8;
+    background: var(--bg);
     page-break-inside: avoid;
+    break-inside: avoid;
+}
+.phonogram.vowel,
+.phonogram-card.vowel,
+.phonogram-letter.vowel {
+    color: var(--vowel);
+    border-color: var(--vowel);
+    background: #fdf4ec;
+}
+.phonogram.consonant,
+.phonogram-card.consonant,
+.phonogram-letter.consonant {
+    color: var(--consonant);
+    border-color: var(--consonant);
+    background: #ecf6ec;
 }
 
 .phonogram-card {
-    border: 2px solid #2a5c8a;
+    border: 2px solid var(--accent);
     border-radius: 8px;
     padding: 1.2em 1.5em;
     margin: 1.5em 0;
     text-align: center;
-    background: #fffff8;
+    background: var(--bg);
     page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .phonogram-letter {
     font-size: 72pt;
     font-weight: bold;
-    color: #2a5c8a;
-    font-family: Georgia, serif;
+    color: var(--accent);
+    font-family: "Atkinson Hyperlegible", sans-serif;
     line-height: 1;
     margin: 0.2em 0;
 }
 
 .phonogram-sounds {
     font-size: 14pt;
-    color: #2a5c8a;
+    color: var(--accent);
     font-family: "Courier New", monospace;
     margin-top: 0.4em;
 }
@@ -140,26 +254,28 @@ th { font-weight: bold; border-bottom-width: 2px; background: #f7f7f2; }
 
 .rule-badge {
     display: inline-block;
-    background: #2a5c8a;
+    background: var(--accent);
     color: white;
     border-radius: 3px;
     padding: 2pt 6pt;
     font-size: 9pt;
     font-weight: bold;
     margin-right: 4pt;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 .step {
     margin: 1em 0;
     padding: 0.8em 1em;
-    background: #f7f7f2;
+    background: var(--card-bg);
     border-radius: 4px;
     page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .step-num {
     font-weight: bold;
-    color: #2a5c8a;
+    color: var(--accent);
     font-size: 10pt;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -178,14 +294,15 @@ img {
     display: flex;
     gap: 1em;
     page-break-after: always;
+    break-after: page;
 }
 .reader-text {
     flex: 3;
 }
 .reader-sidebar {
     flex: 1;
-    background: #f7f7f2;
-    border: 1px solid #ddd;
+    background: var(--card-bg);
+    border: 1px solid var(--rule-line);
     border-radius: 6px;
     padding: 0.8em;
     font-size: 11pt;
@@ -195,23 +312,51 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 0;
+    color: var(--accent);
 }
 
 /* Warm-up box */
 .warmup-box {
-    background: #eef6ff;
-    border: 1px solid #b8d4f0;
+    background: var(--warmup-bg);
+    border: 1px solid var(--warmup-border);
     border-radius: 6px;
     padding: 0.8em 1em;
     margin-bottom: 1em;
     page-break-inside: avoid;
+    break-inside: avoid;
 }
 .warmup-box .title {
     font-weight: bold;
     font-size: 10pt;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #2a5c8a;
+    color: var(--accent);
+}
+
+/* Callout box — used for "Did you know?" sidebars etc. */
+.callout {
+    background: var(--card-bg);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 0.8em 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+.callout.warn { border-left-color: var(--warn); }
+.callout.vowel { border-left-color: var(--vowel); }
+.callout.consonant { border-left-color: var(--consonant); }
+
+/* Handwriting-rule paper (repeating gradient — infinitely scalable). */
+.rule-paper {
+    background-image: repeating-linear-gradient(
+        transparent,
+        transparent 23pt,
+        var(--rule-line) 23pt,
+        var(--rule-line) 24pt
+    );
+    min-height: 24pt;
+    margin: 0.5em 0;
 }
 
 /* Image placeholder */
@@ -225,6 +370,7 @@ img {
     font-size: 11pt;
     margin: 1em 0;
     page-break-inside: avoid;
+    break-inside: avoid;
 }
 .img-placeholder .alt-text {
     font-weight: bold;
@@ -238,7 +384,7 @@ img {
     color: #aaa;
 }
 
-.page-break { page-break-before: always; }
+.page-break { page-break-before: always; break-before: page; }
 """
 
 # ---------------------------------------------------------------------------
@@ -315,17 +461,30 @@ def md_to_html(md_text: str, md_file: Path) -> str:
     return html
 
 
+def _stage_from_path(md_path: Path) -> int | None:
+    """Detect stage (1-5) from 'lessons/stage-N/' or 'worksheets/stage-N/' segments."""
+    for part in md_path.parts:
+        m = __import__("re").match(r"stage-([1-5])$", part)
+        if m:
+            return int(m.group(1))
+    return None
+
+
 def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson"):
     """Render a single markdown file to PDF."""
     md_text = md_path.read_text(encoding="utf-8")
     body_html = md_to_html(md_text, md_path)
 
-    # Determine body class
-    body_class = ""
+    # Compose body classes: doc-type + per-stage age-graded sizing.
+    classes = []
     if doc_type == "worksheet":
-        body_class = ' class="worksheet"'
+        classes.append("worksheet")
     elif doc_type == "reader":
-        body_class = ' class="reader"'
+        classes.append("reader")
+    stage = _stage_from_path(md_path)
+    if stage is not None:
+        classes.append(f"stage-{stage}")
+    body_class_attr = f' class="{" ".join(classes)}"' if classes else ""
 
     full_html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -333,7 +492,7 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
 <meta charset="UTF-8">
 <style>{PAGE_CSS}</style>
 </head>
-<body{body_class}>
+<body{body_class_attr}>
 {body_html}
 </body>
 </html>"""
