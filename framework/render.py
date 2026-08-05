@@ -415,6 +415,7 @@ def md_to_html(md_text: str, md_file: Path) -> str:
     import re as _re
     def _rewrite_img_src(match):
         src = match.group(2)
+        alt = match.group(1)
         if not src.startswith(('http://', 'https://', '/', 'data:')):
             # Try resolving relative to markdown file first, then fall back to PROJECT_ROOT
             # (source MDs often assume images are at project root even when MD lives in a subdir).
@@ -423,12 +424,20 @@ def md_to_html(md_text: str, md_file: Path) -> str:
                 alt_candidate = (PROJECT_ROOT / src).resolve()
                 if alt_candidate.exists():
                     candidate = alt_candidate
+                else:
+                    # Neither location has the file — keep original src AND alt so
+                    # the downstream img_replacer can render a "missing image"
+                    # placeholder with the alt text intact.
+                    return f'<img src="{src}" alt="{alt}" />'
             try:
                 rel = candidate.relative_to(PROJECT_ROOT)
                 src = str(rel).replace('\\', '/')
             except ValueError:
                 pass
-        return f'<img src="{src}" alt="">'
+            # Image exists — empty alt marks it as decorative so pdftotext doesn't
+            # dump the alt into extracted text (see handoff notes for #11).
+            return f'<img src="{src}" alt="" />'
+        return f'<img src="{src}" alt="{alt}" />'
     md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', _rewrite_img_src, md_text)
 
     # python-markdown treats HTML block elements as opaque by default — markdown
@@ -457,7 +466,20 @@ def md_to_html(md_text: str, md_file: Path) -> str:
                 f'<span>Image not yet generated — replace with real PNG</span>'
                 f'</div>'
             )
-    html = re.sub(r'<img\s+alt="([^"]*)"\s+src="([^"]*)".*?>', img_replacer, html)
+    # Match either attribute order (markdown renders src then alt; some authors use alt then src).
+    # img_replacer expects (alt, src) so the second pattern swaps via a wrapper that
+    # returns full match for group(0) and the swapped values for group(1)/(2).
+    def _swap(m):
+        return img_replacer(m) if False else (
+            img_replacer(type('M', (), {
+                'group': lambda self, i, _m=m: (
+                    _m.group(0) if i == 0
+                    else (_m.group(2) if i == 1 else _m.group(1))
+                ),
+            })())
+        )
+    html = re.sub(r'<img[^>]*\salt="([^"]*)"[^>]*\bsrc="([^"]*)"[^>]*>', img_replacer, html)
+    html = re.sub(r'<img[^>]*\bsrc="([^"]*)"[^>]*\salt="([^"]*)"[^>]*>', _swap, html)
     return html
 
 
@@ -501,7 +523,11 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
     # base_url=PROJECT_ROOT so rewritten image paths like 'images/foo.png' resolve
     # regardless of where the markdown file lives.
     HTML(string=full_html, base_url=str(PROJECT_ROOT) + "/").write_pdf(str(output_path))
-    print(f"  OK {output_path.relative_to(PROJECT_ROOT)}")
+    try:
+        rel = output_path.relative_to(PROJECT_ROOT)
+    except ValueError:
+        rel = output_path  # outside project tree (e.g. tests)
+    print(f"  OK {rel}")
 
 
 def get_lessons_for_stage(stage: int) -> list[dict]:

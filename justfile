@@ -264,6 +264,16 @@ check: check-drift check-overflow check-coverage check-images
     @echo ""
     @echo "==> All checks complete"
 
+# Run pytest test suite (excludes slow integration tests by default)
+test:
+    @echo "==> Running pytest"
+    @{{python}} -m pytest
+
+# Run all tests including slow integration (build-stage-pdf + build-release)
+test-slow:
+    @echo "==> Running pytest including slow integration tests"
+    @{{python}} -m pytest -m 'slow or not slow' -o 'addopts=-ra --strict-markers --tb=short' tests/
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Aggregate — common workflows
 # ─────────────────────────────────────────────────────────────────────────────

@@ -248,7 +248,7 @@ There is an old bridge at the edge of town. The bridge goes over a wide river.
 
 "I do not like that bridge," says Meg. "It looks like it will break."
 
-"Don't be silly," says Tom. "That bridge has been there since I was a child."
+"Do not be silly," says Tom. "That bridge has been there since I was a child."
 
 Meg and Tom need to cross the river. There is no other way to get to the farm where they work.
 
@@ -293,7 +293,7 @@ Dad brought the dog inside. "We should stay in until this passes."
 
 The family sat in the living room. They could hear the wind howl outside. The lights flickered.
 
-"I'm scared," said little Sue.
+"I am scared," said little Sue.
 
 "It's okay," said Mom. "We are safe. The storm will pass."
 
@@ -336,9 +336,9 @@ The sun shone down. The machine hummed. Steam rose. And then — drip, drip, dri
 
 Dr. Chen tasted it. "It works!" she shouted. "It really works!"
 
-A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure. It could help millions of people who didn't have clean water.
+A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure. It could help millions of people who did not have clean water.
 
-"An invention isn't just a clever machine," Dr. Chen said. "An invention is a solution to a problem. And the best inventions help people."
+"An invention is not just a clever machine," Dr. Chen said. "An invention is a solution to a problem. And the best inventions help people."
 
 The End.""",
     "talk": "1. What problem does the SolarPure solve? (Turns ocean water into drinking water.) 2. What does Dr. Chen say about failure? (Every failure is a lesson.) 3. Find words with Latin prefixes. (invention, transportation, constructed, reconstructed.)",

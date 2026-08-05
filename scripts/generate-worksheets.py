@@ -10,10 +10,8 @@ OUT = ROOT / "worksheets"
 # Create subdirectories
 for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
     (OUT / d).mkdir(parents=True, exist_ok=True)
-# Stage-grouped subdirectories (mirror canonical content by stage for release ZIP)
-for d in ["phonograms", "rules", "cards"]:
-    for s in range(1, 6):
-        (OUT / d / f"stage-{s}").mkdir(parents=True, exist_ok=True)
+# Stage-grouped subdirectories are created lazily (only when content lands there)
+# to avoid empty stage-N/ dirs polluting the release ZIP.
 
 # Phonogram → stage mapping (which stage each PG is introduced in)
 PG_STAGE = {
@@ -309,7 +307,9 @@ def generate_pg_worksheets():
         content = PG_WORKSHEET.format(pg=pg, sounds=data["sounds"], circle_words=circle, fill_blanks=fill)
         (OUT / "phonograms" / f"pg-{pg}.md").write_text(content, encoding="utf-8")
         stage = PG_STAGE.get(pg, 2)
-        (OUT / "phonograms" / f"stage-{stage}" / f"pg-{pg}.md").write_text(content, encoding="utf-8")
+        stage_dir = OUT / "phonograms" / f"stage-{stage}"
+        stage_dir.mkdir(parents=True, exist_ok=True)
+        (stage_dir / f"pg-{pg}.md").write_text(content, encoding="utf-8")
         count += 1
     return count
 
@@ -351,7 +351,9 @@ def generate_rule_worksheets():
             circle_words=circle, apply_section=apply_sec)
         (OUT / "rules" / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
         stage = RULE_STAGE.get(rnum, 3)
-        (OUT / "rules" / f"stage-{stage}" / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
+        stage_dir = OUT / "rules" / f"stage-{stage}"
+        stage_dir.mkdir(parents=True, exist_ok=True)
+        (stage_dir / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
         count += 1
     return count
 
@@ -374,7 +376,9 @@ def generate_flash_cards():
             title=f"Single-Letter Phonograms (Page {(page//4)+1} of 7)",
             cards=cards)
         (OUT / "cards" / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
-        (OUT / "cards" / "stage-1" / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        singles_stage_dir = OUT / "cards" / "stage-1"
+        singles_stage_dir.mkdir(parents=True, exist_ok=True)
+        (singles_stage_dir / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
         count += 1
 
     # Multi-letter cards (4 per page) — Stage 2 (MULTI PGs)
@@ -394,7 +398,9 @@ def generate_flash_cards():
             title=f"Multi-Letter Phonograms (Stage 2 — Page {(page//4)+1} of {(len(multis_s2)//4)+1})",
             cards=cards)
         (OUT / "cards" / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
-        (OUT / "cards" / "stage-2" / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        s2 = OUT / "cards" / "stage-2"
+        s2.mkdir(parents=True, exist_ok=True)
+        (s2 / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
         count += 1
 
     # Multi-letter cards — Stage 3 (MULTI3 PGs: advanced + Latin /sh/ from Stage 4)
@@ -421,7 +427,9 @@ def generate_flash_cards():
             stage = 4
         else:
             stage = 3
-        (OUT / "cards" / f"stage-{stage}" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
+        s_adv = OUT / "cards" / f"stage-{stage}"
+        s_adv.mkdir(parents=True, exist_ok=True)
+        (s_adv / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
         count += 1
 
     return count
