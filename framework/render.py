@@ -253,9 +253,11 @@ def resolve_image_path(src: str, md_file: Path) -> Path:
 
 def md_to_html(md_text: str, md_file: Path) -> str:
     """Convert markdown to HTML, handling image placeholders."""
-    # Pre-convert markdown images to HTML img tags so they work inside HTML divs
+    # Pre-convert markdown images to HTML img tags so they work inside HTML divs.
+    # Empty alt (alt="") marks images as decorative — screen readers and pdftotext
+    # skip them, so image captions don't bleed into extracted text.
     import re as _re
-    md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', r'<img src="\2" alt="\1">', md_text)
+    md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', r'<img src="\2" alt="">', md_text)
 
     # python-markdown treats HTML block elements as opaque by default — markdown
     # inside <div class="reader-sidebar"> etc. would pass through as raw text.
