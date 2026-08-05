@@ -14,23 +14,25 @@
 
 **The Fox Den**
 
-Flick is a red fox. Flick is fast.
+Flick is a red fox. Flick has a den under a big log at the edge of the woods.
 
-Flick lives in a den. The den is under a big log.
+Flick is fast. His red fur shines in the sun. His feet are soft on the grass.
 
-Flick runs and runs. His red fur shines in the sun.
+One day, Flick is hungry. He sniffs the wind. He smells a hen!
 
-Flick sees a hen. The hen is by the pen.
+The hen is by the pen. Flick crouches low. He creeps up. He is so still.
 
-"Can I get the hen?" Flick thinks.
+Then — SNAP! Flick steps on a twig.
 
-But the hen is fast too! The hen runs to the pen.
+The hen looks up. "Cluck cluck!" She runs fast to the pen. The pen is shut.
 
 Flick stops. "Not today," he says.
 
-Flick goes back to his den. He sits on the log.
+Flick goes back to his den. He curls up under the log. He is sad, but he is not cross.
 
-The sun sets. Flick the fox rests. Tomorrow is a new day.
+Tomorrow, Flick will try again. Or he will find a bug. A bug is good too.
+
+The sun sets. Flick the fox rests. Being safe in his den is fine.
 
 The End.
 
@@ -38,7 +40,7 @@ The End.
 
 ## Think About It
 
-1. What is the fox's name? (Flick.) 2. Where does Flick live? (In a den under a log.) 3. What color is Flick? (Red.)
+1. What is the fox's name? (Flick.) 2. Where does Flick live? (In a den under a log.) 3. Why does Flick miss the hen? (He steps on a twig and she runs to the pen.)
 
 ---
 

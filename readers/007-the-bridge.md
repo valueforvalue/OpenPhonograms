@@ -18,7 +18,7 @@ There is an old bridge at the edge of town. The bridge goes over a wide river.
 
 "I do not like that bridge," says Meg. "It looks like it will break."
 
-"Don't be silly," says Tom. "That bridge has been there since I was a child."
+"Do not be silly," says Tom. "That bridge has been there since I was a child."
 
 Meg and Tom need to cross the river. There is no other way to get to the farm where they work.
 

@@ -20,26 +20,30 @@ READERS = [
 
 Cat is big. Dog is big too.
 
-Cat sits on the mat. Dog sits on the rug.
+Cat sits on the mat. Dog sits on the rug. They are pals.
 
-Cat sees a bug. Dog sees the bug too.
+One day, Cat sees a bug on the mat. The bug has six legs and a hard back.
 
-Cat runs at the bug. Dog runs at the bug.
+"Dog! Look!" says Cat.
 
-The bug is fast! The bug zips up.
+Dog runs up. He sniffs. The bug zips away.
 
-Cat and Dog stop. No bug.
+"It is on the rug now!" says Dog.
 
-Cat looks at Dog. Dog looks at Cat.
+Cat and Dog tip-toe to the rug. They get set to run. Cat counts. "One… two…"
 
-"It is fun to run," says Cat.
+But the bug is gone. Up, up, up it goes. Out the window.
 
-"It is fun to run with you," says Dog.
+"Oh no!" says Cat. "Now we have no bug to run at."
 
-Cat and Dog are pals.
+Dog sits. "It is fun to run, even with no bug."
+
+Cat grins. "It is fun to run with you, Dog."
+
+Cat and Dog sit on the rug. The sun is warm. The mat is soft. And being pals is the best fun of all.
 
 The End.""",
-        "talk": "1. Where does Cat sit? (On the mat.) 2. What do Cat and Dog chase? (A bug.) 3. Find CVC words. (cat, dog, sit, run, big, bug, fun, mat, rug, zip)",
+        "talk": "1. Where does Cat sit at first? (On the mat.) 2. Where does the bug go? (Out the window.) 3. Find CVC words. (cat, dog, sit, run, big, bug, fun, mat, rug, zip)",
     },
     {
         "slug": "011-the-pig-pen",
@@ -50,26 +54,28 @@ The End.""",
         "warmup": "pig, pen, mud, big, dig, fun, run, jump, the",
         "story": """**The Pig Pen**
 
-Pip is a pig. Pip is big and pink.
+Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm.
 
-Pip lives in a pen. The pen has mud.
-
-Pip digs in the mud. Pip digs and digs.
+Pip digs in the mud. Pip digs and digs. The mud is wet and cool.
 
 "Digging is fun!" says Pip.
 
-A hen comes to the pen. "Can I dig in the mud too?" asks the hen.
+But the mud is not just fun. The mud is hot in the sun. Pip sits in the mud to get cool. The mud keeps Pip from getting too hot.
 
-"Yes!" says Pip. "Dig with me!"
+A hen comes to the pen. "Can I sit in the mud too?" asks the hen. "I am hot."
 
-The hen digs in the mud. Pip digs in the mud.
+"Yes!" says Pip. "Sit with me!"
 
-The pen is a big mud pit! Pip and the hen have fun.
+The hen sits. Then a duck comes. Then a small pup.
 
-At the end of the day, Pip is a happy pig. Mud is the best!
+"This is the best spot on the farm!" says Pip.
+
+The sun goes down. The mud is cool. Pip and the hen and the duck and the pup are all pals.
+
+Being in the pen is fun. Having pals is better.
 
 The End.""",
-        "talk": "1. What is the pig's name? (Pip.) 2. What does Pip like to do? (Dig in mud.) 3. Who comes to join Pip? (A hen.)",
+        "talk": "1. What is the pig's name? (Pip.) 2. Why does Pip sit in the mud? (To get cool.) 3. Who comes to join Pip in the pen? (A hen, a duck, a pup.)",
     },
     {
         "slug": "012-hen-and-duck",
@@ -80,28 +86,32 @@ The End.""",
         "warmup": "hen, duck, egg, nest, pond, back, pick, sit, swim, quack",
         "story": """**Hen and Duck**
 
-Hen has a nest. The nest has six eggs.
+Hen has a nest in the grass. The nest has six eggs. Hen sits on the eggs to keep them warm and safe.
 
-Hen sits on the eggs to keep them warm.
+Duck lives in the pond by the farm. Duck can swim and dive and splash.
 
-Duck lives in the pond. Duck can swim.
-
-"Quack!" says Duck. "Come swim with me, Hen!"
+"Quack!" says Duck. "Come swim with me, Hen! The water is fun!"
 
 "I cannot swim," says Hen. "I must sit on my eggs."
 
-Duck gets out of the pond. Duck waddles to the nest.
+Duck gets out of the pond. Duck waddles up the bank to the nest.
 
-"I will sit with you," says Duck.
+"I will sit with you," says Duck. "The sun is hot. I will help keep the eggs cool."
 
-Hen and Duck sit by the nest. The sun is warm.
+Hen and Duck sit by the nest. The wind blows. The grass sways.
 
-"Thank you, Duck," says Hen. "You are a good pal."
+Then — CRACK! A small egg has a crack.
+
+A small wet chick pops out. It blinks. It peeps.
 
 "Quack!" says Duck.
 
+"Cluck!" says Hen.
+
+The chick has two pals already.
+
 The End.""",
-        "talk": "1. Where does Hen sit? (On her nest with eggs.) 2. Where does Duck live? (In the pond.) 3. What does Duck do for Hen? (Sits with her.)",
+        "talk": "1. Where does Hen sit? (On her nest with eggs.) 2. Where does Duck live? (In the pond.) 3. What hatches at the end? (A chick.)",
     },
     {
         "slug": "013-the-fox-den",
@@ -112,26 +122,28 @@ The End.""",
         "warmup": "fox, den, red, run, fast, big, log, sit, the, his",
         "story": """**The Fox Den**
 
-Flick is a red fox. Flick is fast.
+Flick is a red fox. Flick has a den under a big log at the edge of the woods.
 
-Flick lives in a den. The den is under a big log.
+Flick is fast. His red fur shines in the sun. His feet are soft on the grass.
 
-Flick runs and runs. His red fur shines in the sun.
+One day, Flick is hungry. He sniffs the wind. He smells a hen!
 
-Flick sees a hen. The hen is by the pen.
+The hen is by the pen. Flick crouches low. He creeps up. He is so still.
 
-"Can I get the hen?" Flick thinks.
+Then — SNAP! Flick steps on a twig.
 
-But the hen is fast too! The hen runs to the pen.
+The hen looks up. "Cluck cluck!" She runs fast to the pen. The pen is shut.
 
 Flick stops. "Not today," he says.
 
-Flick goes back to his den. He sits on the log.
+Flick goes back to his den. He curls up under the log. He is sad, but he is not cross.
 
-The sun sets. Flick the fox rests. Tomorrow is a new day.
+Tomorrow, Flick will try again. Or he will find a bug. A bug is good too.
+
+The sun sets. Flick the fox rests. Being safe in his den is fine.
 
 The End.""",
-        "talk": "1. What is the fox's name? (Flick.) 2. Where does Flick live? (In a den under a log.) 3. What color is Flick? (Red.)",
+        "talk": "1. What is the fox's name? (Flick.) 2. Where does Flick live? (In a den under a log.) 3. Why does Flick miss the hen? (He steps on a twig and she runs to the pen.)",
     },
     {
         "slug": "014-the-little-sheep",
@@ -142,24 +154,28 @@ The End.""",
         "warmup": "sheep, little, green, see, keep, sleep, deep, feel, need, tree",
         "story": """**The Little Sheep**
 
-Shep is a little sheep. Shep is white and soft.
+Shep is a little sheep. Shep has soft white wool and four small feet.
 
-Shep lives in a green field. The field has tall grass and a big tree.
+Shep lives in a green field. The field has tall green grass and a big green tree.
 
-Shep likes to run. Shep likes to jump. But most of all, Shep likes to sleep under the big green tree.
+Shep likes to run. Shep likes to jump. But most of all, Shep likes to sleep in the deep shade of the big green tree.
 
-One day, Shep cannot sleep. "I need a friend," Shep says.
+One day, Shep cannot sleep. He feels sad.
 
-Shep looks and looks. Shep sees a little bird in the tree.
+"I need a friend," Shep says. "Sheep should not be alone."
 
-"Will you be my friend?" asks Shep.
+Shep looks and looks. Then he sees a small bird up in the tree.
 
-"Tweet! Yes!" says the bird.
+"Will you be my friend?" Shep calls up.
 
-Now Shep has a friend. Shep and the bird sleep under the big green tree.
+The bird flies down. "Tweet! Yes! I will keep you company."
+
+Shep and the bird sleep in the deep grass under the tree.
+
+Now Shep feels glad. Friends are what he did need.
 
 The End.""",
-        "talk": "1. What is the sheep's name? (Shep.) 2. Where does Shep sleep? (Under the big green tree.) 3. Who becomes Shep's friend? (A little bird.)",
+        "talk": "1. What is the sheep's name? (Shep.) 2. Why does Shep feel sad? (He has no friend.) 3. Who becomes Shep's friend? (A little bird.)",
     },
     {
         "slug": "015-the-snail-trail",
@@ -170,23 +186,25 @@ The End.""",
         "warmup": "snail, trail, rain, sail, wait, slow, day, stay, play, way",
         "story": """**The Snail Trail**
 
-Snappy is a snail. Snappy is very slow.
+Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
 
-Snappy leaves a trail as he goes. The trail shines in the sun.
+Snappy leaves a thin trail as he goes. The trail shines in the sun like a small silver way.
 
-"Where are you going, Snappy?" asks a bug.
+"Where are you going, Snappy?" asks a bug on a leaf.
 
 "I am going to the garden," says Snappy. "It is a long way."
 
-"I can fly there!" says the bug. "It is fast!"
+"I can fly there in a day!" says the bug.
 
 "I cannot fly," says Snappy. "But I can wait. Slow and steady, that is my way."
 
-Snappy goes and goes. The sun is hot. The rain comes. Snappy keeps going.
+The bug flies off. Snappy starts on his way. Day by day, Snappy goes on. The sun is hot. The rain comes down. Snappy keeps on.
 
-At last, Snappy gets to the garden. The garden has big green plants and red flowers.
+He does not stay in one spot. He does not wait too long. He just goes, slow and steady, every day.
 
-"It was a long trail," says Snappy. "But I made it!"
+At last, Snappy gets to the garden. The garden has big green plants and red flowers and a cool pond to stay by.
+
+"It was a long trail," says Snappy. "But I made it. Slow and steady wins the day."
 
 The End.""",
         "talk": "1. What is the snail's name? (Snappy.) 2. Where is Snappy going? (To the garden.) 3. What does Snappy say about being slow? (Slow and steady is his way.)",
@@ -200,28 +218,34 @@ The End.""",
         "warmup": "goat, shy, boat, float, road, soap, coat, toad, farm, barn",
         "story": """**The Shy Goat**
 
-Greta is a goat. Greta lives on a farm.
+Greta is a goat. Greta lives on a farm with a red barn, a long road, and a small blue pond.
 
-Greta is shy. She does not play with the other goats. She stays by the old red barn.
+Greta is shy. She stays by the old barn. She does not play with the other goats on the green hill.
 
 One day, a storm comes. Rain falls and falls. The road turns to mud.
 
-A little toad gets stuck in the mud! "Help!" cries the toad.
+A little toad hops down the road. His foot sticks in the mud! He can not get out!
+
+"Help!" cries the toad. "I can not get loose!"
 
 Greta sees the toad. She is shy, but she wants to help.
 
-Greta steps into the mud. She puts her head down. The toad climbs onto Greta's back.
+Greta walks down the road. She steps in the mud. She puts her head low.
 
-"Hold on!" says Greta. She walks out of the mud.
+"Jump on!" says Greta.
+
+The toad jumps on Greta's back. Greta walks out of the mud.
 
 "Thank you, Greta!" says the toad. "You are so brave!"
 
-The other goats see what Greta did. They cheer for her.
+Greta walks the toad to the pond. The toad hops in, glad and clean.
 
-Greta is not so shy after that. She made a friend!
+The other goats on the hill see Greta. They come down. "Greta, you are brave! Come play with us!"
+
+Greta smiles. Being brave makes pals.
 
 The End.""",
-        "talk": "1. What is the goat's name? (Greta.) 2. Why doesn't Greta play with others? (She is shy.) 3. How does Greta help the toad? (She carries it out of the mud.)",
+        "talk": "1. What is the goat's name? (Greta.) 2. Why does Greta not play with others at first? (She is shy.) 3. How does Greta help the toad? (She carries it out of the mud on her back.)",
     },
 
     # ── STAGE 3: Silent E + vowel teams ──
@@ -502,13 +526,13 @@ The End.""",
 
 Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She also has a powerful secret — a scent that no animal wants to encounter.
 
-Because of her secret, the other animals keep their distance. "Don't get too close to Stella!" they whisper.
+Because of her secret, the other animals keep their distance. "Do not get too close to Stella!" they whisper.
 
 Stella is lonely. She just wants to explore the garden like everyone else.
 
 One evening, Stella notices something terrible. A fox is sneaking toward the rabbit den! The mama rabbit and her babies are in danger.
 
-Stella doesn't hesitate. She runs toward the fox and raises her tail. The fox catches the warning and bolts away.
+Stella does not hesitate. She runs toward the fox and raises her tail. The fox catches the warning and bolts away.
 
 The mama rabbit comes out of her den. "You saved my babies," she says. "Thank you, Stella."
 

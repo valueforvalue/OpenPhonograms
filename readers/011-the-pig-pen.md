@@ -14,23 +14,25 @@
 
 **The Pig Pen**
 
-Pip is a pig. Pip is big and pink.
+Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm.
 
-Pip lives in a pen. The pen has mud.
-
-Pip digs in the mud. Pip digs and digs.
+Pip digs in the mud. Pip digs and digs. The mud is wet and cool.
 
 "Digging is fun!" says Pip.
 
-A hen comes to the pen. "Can I dig in the mud too?" asks the hen.
+But the mud is not just fun. The mud is hot in the sun. Pip sits in the mud to get cool. The mud keeps Pip from getting too hot.
 
-"Yes!" says Pip. "Dig with me!"
+A hen comes to the pen. "Can I sit in the mud too?" asks the hen. "I am hot."
 
-The hen digs in the mud. Pip digs in the mud.
+"Yes!" says Pip. "Sit with me!"
 
-The pen is a big mud pit! Pip and the hen have fun.
+The hen sits. Then a duck comes. Then a small pup.
 
-At the end of the day, Pip is a happy pig. Mud is the best!
+"This is the best spot on the farm!" says Pip.
+
+The sun goes down. The mud is cool. Pip and the hen and the duck and the pup are all pals.
+
+Being in the pen is fun. Having pals is better.
 
 The End.
 
@@ -38,7 +40,7 @@ The End.
 
 ## Think About It
 
-1. What is the pig's name? (Pip.) 2. What does Pip like to do? (Dig in mud.) 3. Who comes to join Pip? (A hen.)
+1. What is the pig's name? (Pip.) 2. Why does Pip sit in the mud? (To get cool.) 3. Who comes to join Pip in the pen? (A hen, a duck, a pup.)
 
 ---
 

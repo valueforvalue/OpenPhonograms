@@ -14,23 +14,25 @@
 
 **The Snail Trail**
 
-Snappy is a snail. Snappy is very slow.
+Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
 
-Snappy leaves a trail as he goes. The trail shines in the sun.
+Snappy leaves a thin trail as he goes. The trail shines in the sun like a small silver way.
 
-"Where are you going, Snappy?" asks a bug.
+"Where are you going, Snappy?" asks a bug on a leaf.
 
 "I am going to the garden," says Snappy. "It is a long way."
 
-"I can fly there!" says the bug. "It is fast!"
+"I can fly there in a day!" says the bug.
 
 "I cannot fly," says Snappy. "But I can wait. Slow and steady, that is my way."
 
-Snappy goes and goes. The sun is hot. The rain comes. Snappy keeps going.
+The bug flies off. Snappy starts on his way. Day by day, Snappy goes on. The sun is hot. The rain comes down. Snappy keeps on.
 
-At last, Snappy gets to the garden. The garden has big green plants and red flowers.
+He does not stay in one spot. He does not wait too long. He just goes, slow and steady, every day.
 
-"It was a long trail," says Snappy. "But I made it!"
+At last, Snappy gets to the garden. The garden has big green plants and red flowers and a cool pond to stay by.
+
+"It was a long trail," says Snappy. "But I made it. Slow and steady wins the day."
 
 The End.
 

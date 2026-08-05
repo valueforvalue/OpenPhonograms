@@ -16,25 +16,29 @@
 
 **Hen and Duck**
 
-Hen has a nest. The nest has six eggs.
+Hen has a nest in the grass. The nest has six eggs. Hen sits on the eggs to keep them warm and safe.
 
-Hen sits on the eggs to keep them warm.
+Duck lives in the pond by the farm. Duck can swim and dive and splash.
 
-Duck lives in the pond. Duck can swim.
-
-"Quack!" says Duck. "Come swim with me, Hen!"
+"Quack!" says Duck. "Come swim with me, Hen! The water is fun!"
 
 "I cannot swim," says Hen. "I must sit on my eggs."
 
-Duck gets out of the pond. Duck waddles to the nest.
+Duck gets out of the pond. Duck waddles up the bank to the nest.
 
-"I will sit with you," says Duck.
+"I will sit with you," says Duck. "The sun is hot. I will help keep the eggs cool."
 
-Hen and Duck sit by the nest. The sun is warm.
+Hen and Duck sit by the nest. The wind blows. The grass sways.
 
-"Thank you, Duck," says Hen. "You are a good pal."
+Then — CRACK! A small egg has a crack.
+
+A small wet chick pops out. It blinks. It peeps.
 
 "Quack!" says Duck.
+
+"Cluck!" says Hen.
+
+The chick has two pals already.
 
 The End.
 
@@ -42,7 +46,7 @@ The End.
 
 ## Think About It
 
-1. Where does Hen sit? (On her nest with eggs.) 2. Where does Duck live? (In the pond.) 3. What does Duck do for Hen? (Sits with her.)
+1. Where does Hen sit? (On her nest with eggs.) 2. Where does Duck live? (In the pond.) 3. What hatches at the end? (A chick.)
 
 ---
 

@@ -16,13 +16,13 @@
 
 Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She also has a powerful secret — a scent that no animal wants to encounter.
 
-Because of her secret, the other animals keep their distance. "Don't get too close to Stella!" they whisper.
+Because of her secret, the other animals keep their distance. "Do not get too close to Stella!" they whisper.
 
 Stella is lonely. She just wants to explore the garden like everyone else.
 
 One evening, Stella notices something terrible. A fox is sneaking toward the rabbit den! The mama rabbit and her babies are in danger.
 
-Stella doesn't hesitate. She runs toward the fox and raises her tail. The fox catches the warning and bolts away.
+Stella does not hesitate. She runs toward the fox and raises her tail. The fox catches the warning and bolts away.
 
 The mama rabbit comes out of her den. "You saved my babies," she says. "Thank you, Stella."
 

@@ -18,23 +18,27 @@
 
 Cat is big. Dog is big too.
 
-Cat sits on the mat. Dog sits on the rug.
+Cat sits on the mat. Dog sits on the rug. They are pals.
 
-Cat sees a bug. Dog sees the bug too.
+One day, Cat sees a bug on the mat. The bug has six legs and a hard back.
 
-Cat runs at the bug. Dog runs at the bug.
+"Dog! Look!" says Cat.
 
-The bug is fast! The bug zips up.
+Dog runs up. He sniffs. The bug zips away.
 
-Cat and Dog stop. No bug.
+"It is on the rug now!" says Dog.
 
-Cat looks at Dog. Dog looks at Cat.
+Cat and Dog tip-toe to the rug. They get set to run. Cat counts. "One… two…"
 
-"It is fun to run," says Cat.
+But the bug is gone. Up, up, up it goes. Out the window.
 
-"It is fun to run with you," says Dog.
+"Oh no!" says Cat. "Now we have no bug to run at."
 
-Cat and Dog are pals.
+Dog sits. "It is fun to run, even with no bug."
+
+Cat grins. "It is fun to run with you, Dog."
+
+Cat and Dog sit on the rug. The sun is warm. The mat is soft. And being pals is the best fun of all.
 
 The End.
 
@@ -42,7 +46,7 @@ The End.
 
 ## Think About It
 
-1. Where does Cat sit? (On the mat.) 2. What do Cat and Dog chase? (A bug.) 3. Find CVC words. (cat, dog, sit, run, big, bug, fun, mat, rug, zip)
+1. Where does Cat sit at first? (On the mat.) 2. Where does the bug go? (Out the window.) 3. Find CVC words. (cat, dog, sit, run, big, bug, fun, mat, rug, zip)
 
 ---
 

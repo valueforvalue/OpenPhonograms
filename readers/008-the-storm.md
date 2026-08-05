@@ -22,7 +22,7 @@ Dad brought the dog inside. "We should stay in until this passes."
 
 The family sat in the living room. They could hear the wind howl outside. The lights flickered.
 
-"I'm scared," said little Sue.
+"I am scared," said little Sue.
 
 "It's okay," said Mom. "We are safe. The storm will pass."
 

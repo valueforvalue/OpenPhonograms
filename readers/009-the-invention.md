@@ -28,9 +28,9 @@ The sun shone down. The machine hummed. Steam rose. And then — drip, drip, dri
 
 Dr. Chen tasted it. "It works!" she shouted. "It really works!"
 
-A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure. It could help millions of people who didn't have clean water.
+A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure. It could help millions of people who did not have clean water.
 
-"An invention isn't just a clever machine," Dr. Chen said. "An invention is a solution to a problem. And the best inventions help people."
+"An invention is not just a clever machine," Dr. Chen said. "An invention is a solution to a problem. And the best inventions help people."
 
 The End.
 
