@@ -586,7 +586,10 @@ def main():
             phonograms=r["warmup"].replace(",", ""),
         )
         (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
-        print(f"  readers/{r['slug']}.md  [{r['animals']}]")
+        stage_dir = OUT / f"stage-{r['stage']}"
+        stage_dir.mkdir(parents=True, exist_ok=True)
+        (stage_dir / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        print(f"  readers/{r['slug']}.md (+ readers/stage-{r['stage']}/)  [{r['animals']}]")
 
     print(f"\n{len(READERS)} readers generated")
 

@@ -1,0 +1,63 @@
+# Phonogram Practice: s
+
+**Sounds:** /s/ /z/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">s</div>
+
+<div class="phonogram-sounds">/s/ /z/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **s** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **s** in these words:
+
+> sat &nbsp;&nbsp; sit &nbsp;&nbsp; set &nbsp;&nbsp; sun &nbsp;&nbsp; sad &nbsp;&nbsp; sip &nbsp;&nbsp; sop &nbsp;&nbsp; sap
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **s** to complete each word:
+
+- ____at &nbsp; → &nbsp; _______________
+- ____it &nbsp; → &nbsp; _______________
+- ____et &nbsp; → &nbsp; _______________
+- ____un &nbsp; → &nbsp; _______________
+- ____ad &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **s**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

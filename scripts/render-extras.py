@@ -30,7 +30,7 @@ from framework.render import render_md_to_pdf
 def main():
     count = 0
 
-    # Worksheets
+    # Worksheets (flat layout)
     for sub in ["phonograms", "rules", "cards", "blank"]:
         src_dir = WORKSHEETS / sub
         out_dir = OUT / "worksheets" / sub
@@ -42,14 +42,38 @@ def main():
             render_md_to_pdf(md, pdf, doc_type="worksheet")
             count += 1
 
-    # Readers
+    # Worksheets (stage-grouped mirrors → build/worksheets/<sub>/stage-N/)
+    for sub in ["phonograms", "rules", "cards"]:
+        for stage in range(1, 6):
+            stage_src = WORKSHEETS / sub / f"stage-{stage}"
+            if not stage_src.exists():
+                continue
+            stage_out = OUT / "worksheets" / sub / f"stage-{stage}"
+            stage_out.mkdir(parents=True, exist_ok=True)
+            for md in sorted(stage_src.glob("*.md")):
+                pdf = stage_out / (md.stem + ".pdf")
+                render_md_to_pdf(md, pdf, doc_type="worksheet")
+                count += 1
+
+    # Readers (flat + stage-grouped)
     if READERS.exists():
-        out_dir = OUT / "readers"
-        out_dir.mkdir(parents=True, exist_ok=True)
         for md in sorted(READERS.glob("*.md")):
-            pdf = out_dir / (md.stem + ".pdf")
+            if md.parent != READERS:
+                continue  # skip stage-N/ subdirs here; handled below
+            pdf = OUT / "readers" / (md.stem + ".pdf")
+            pdf.parent.mkdir(parents=True, exist_ok=True)
             render_md_to_pdf(md, pdf, doc_type="reader")
             count += 1
+        for stage in range(1, 6):
+            stage_src = READERS / f"stage-{stage}"
+            if not stage_src.exists():
+                continue
+            stage_out = OUT / "readers" / f"stage-{stage}"
+            stage_out.mkdir(parents=True, exist_ok=True)
+            for md in sorted(stage_src.glob("*.md")):
+                pdf = stage_out / (md.stem + ".pdf")
+                render_md_to_pdf(md, pdf, doc_type="reader")
+                count += 1
 
     print(f"==> Rendered {count} worksheet/reader PDFs")
 

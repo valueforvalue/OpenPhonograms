@@ -1,0 +1,63 @@
+# Phonogram Practice: o
+
+**Sounds:** /ŏ/ /ō/ /ö/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">o</div>
+
+<div class="phonogram-sounds">/ŏ/ /ō/ /ö/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **o** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **o** in these words:
+
+> on &nbsp;&nbsp; off &nbsp;&nbsp; odd &nbsp;&nbsp; got &nbsp;&nbsp; hot &nbsp;&nbsp; not &nbsp;&nbsp; pot &nbsp;&nbsp; dot
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **o** to complete each word:
+
+- ____n &nbsp; → &nbsp; _______________
+- ____ff &nbsp; → &nbsp; _______________
+- ____dd &nbsp; → &nbsp; _______________
+- g____t &nbsp; → &nbsp; _______________
+- h____t &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **o**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

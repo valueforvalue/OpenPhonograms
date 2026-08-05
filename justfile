@@ -163,6 +163,11 @@ render-extras:
     @echo "==> Rendering worksheet + reader PDFs"
     @{{python}} {{scripts_dir_s}}/render-extras.py
 
+# Merge per-stage PDFs into stage-N-worksheets.pdf + stage-N-readers.pdf + stage-N.pdf
+gen-stage-pdfs:
+    @echo "==> Building merged stage PDFs"
+    @{{python}} {{scripts_dir_s}}/build-stage-pdf.py
+
 # Copy assessment lesson PDFs into build/assessments/ for the release ZIP
 copy-assessments:
     @echo "==> Copying assessments"

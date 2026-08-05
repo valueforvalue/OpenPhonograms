@@ -70,9 +70,11 @@ def worksheet_for_lesson(row: dict) -> Path | None:
 
     # phonogram-intro → phonogram practice worksheet for the new PG
     if lesson_type == "phonogram-intro" and new_pg:
-        candidate = WORKSHEETS_PG / f"pg-{new_pg}.md"
-        if candidate.exists():
-            return candidate
+        # Try stage-grouped mirror first, then flat
+        for sub in (WORKSHEETS_PG / f"stage-{row['stage']}" / f"pg-{new_pg}.md",
+                    WORKSHEETS_PG / f"pg-{new_pg}.md"):
+            if sub.exists():
+                return sub
 
     # silent-e sub-reasons (12.1, 12.2, ..., 12.9) or '12.all' → rule-12 worksheet
     if new_rule.startswith("12.") or new_rule == "12" or new_rule == "12.all":
@@ -86,9 +88,10 @@ def worksheet_for_lesson(row: dict) -> Path | None:
     if new_rule:
         # Try first numeric token before any '.', '-', '+', ',' separator
         first_num = re.split(r"[.\-+,]", new_rule, maxsplit=1)[0]
-        candidate = WORKSHEETS_RULES / f"rule-{first_num}.md"
-        if candidate.exists():
-            return candidate
+        for sub in (WORKSHEETS_RULES / f"stage-{row['stage']}" / f"rule-{first_num}.md",
+                    WORKSHEETS_RULES / f"rule-{first_num}.md"):
+            if sub.exists():
+                return sub
 
     return None
 

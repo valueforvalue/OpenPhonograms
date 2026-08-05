@@ -1,0 +1,63 @@
+# Phonogram Practice: r
+
+**Sounds:** /r/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">r</div>
+
+<div class="phonogram-sounds">/r/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **r** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **r** in these words:
+
+> rat &nbsp;&nbsp; red &nbsp;&nbsp; rug &nbsp;&nbsp; run &nbsp;&nbsp; ran &nbsp;&nbsp; rip &nbsp;&nbsp; rob &nbsp;&nbsp; rub
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **r** to complete each word:
+
+- ____at &nbsp; → &nbsp; _______________
+- ____ed &nbsp; → &nbsp; _______________
+- ____ug &nbsp; → &nbsp; _______________
+- ____un &nbsp; → &nbsp; _______________
+- ____an &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **r**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

@@ -10,6 +10,41 @@ OUT = ROOT / "worksheets"
 # Create subdirectories
 for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
     (OUT / d).mkdir(parents=True, exist_ok=True)
+# Stage-grouped subdirectories (mirror canonical content by stage for release ZIP)
+for d in ["phonograms", "rules", "cards"]:
+    for s in range(1, 6):
+        (OUT / d / f"stage-{s}").mkdir(parents=True, exist_ok=True)
+
+# Phonogram → stage mapping (which stage each PG is introduced in)
+PG_STAGE = {
+    # Stage 1: single-letter PGs (a-z, qu)
+    **{k: 1 for k in ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","qu","r","s","t","u","v","w","x","y","z"]},
+    # Stage 2: first multi-letter PGs
+    **{
+        "sh":2,"th":2,"ck":2,"ee":2,"ng":2,"ar":2,"or":2,"er":2,
+        "oi":2,"oy":2,"ai":2,"ay":2,"ch":2,"wh":2,"ea":2,"ow":2,"ou":2,
+        "oo":2,"ed":2,"igh":2,"aw":2,"au":2,"ir":2,"ur":2,"oa":2,"ear":2,
+    },
+    # Stage 3: advanced PGs
+    **{
+        "dge":3,"tch":3,"kn":3,"gn":3,"wr":3,
+        "eigh":3,"ei":3,"ey":3,"ph":3,"gh":3,
+        "ough":3,"augh":3,"ew":3,"ui":3,"eu":3,"wor":3,"ie":3,
+    },
+    # Stage 4: Latin /sh/ spellings
+    **{"ti":4,"ci":4,"si":4},
+}
+
+# Rule → stage mapping (from lesson-catalog.csv)
+RULE_STAGE = {
+    "26":2,"3":2,"9":2,"20":2,"4":2,"28":2,"30":2,
+    "12":3,"1":3,"2":3,"25":3,"27":3,"5":3,"6":3,"7":3,"8":3,"10":3,"31":3,
+    "13":4,"14":4,"15":4,"16":4,"17":4,"18":4,"23":4,"24":4,"19":4,"21":4,"22":4,"29":4,
+}
+
+# Flash-card stage grouping
+SINGLES_STAGE = 1  # all single-letter PGs are Stage 1
+MULTIS_STAGE = 2   # default; MULTI3 PGs (Stage 3+) get their own group
 
 # ── PHONOGRAM DATA ──────────────────────────────────────────────────
 
@@ -273,6 +308,8 @@ def generate_pg_worksheets():
         
         content = PG_WORKSHEET.format(pg=pg, sounds=data["sounds"], circle_words=circle, fill_blanks=fill)
         (OUT / "phonograms" / f"pg-{pg}.md").write_text(content, encoding="utf-8")
+        stage = PG_STAGE.get(pg, 2)
+        (OUT / "phonograms" / f"stage-{stage}" / f"pg-{pg}.md").write_text(content, encoding="utf-8")
         count += 1
     return count
 
@@ -313,12 +350,15 @@ def generate_rule_worksheets():
             num=rnum, name=data["name"], statement=data["name"],
             circle_words=circle, apply_section=apply_sec)
         (OUT / "rules" / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
+        stage = RULE_STAGE.get(rnum, 3)
+        (OUT / "rules" / f"stage-{stage}" / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
         count += 1
     return count
 
 def generate_flash_cards():
-    """Printable phonogram flash card sheets."""
-    # Single-letter cards (4 per page, 7 pages)
+    """Printable phonogram flash card sheets. Each batch also writes a stage mirror."""
+    count = 0
+    # Single-letter cards (4 per page, 7 pages) — Stage 1
     singles = list(SINGLE.keys())
     for page in range(0, len(singles), 4):
         batch = singles[page:page+4]
@@ -329,31 +369,62 @@ def generate_flash_cards():
 <div class="phonogram-letter" style="font-size:60pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">{pg}</div>
 <div class="phonogram-sounds" style="font-size:12pt; color:#555;">{sounds}</div>
 </div>\n"""
-        
+
         content = FLASH_CARD_SHEET.format(
             title=f"Single-Letter Phonograms (Page {(page//4)+1} of 7)",
             cards=cards)
         (OUT / "cards" / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
-    
-    # Multi-letter cards (4 per page)
-    multis = list(MULTI.keys()) + list(MULTI3.keys())
-    for page in range(0, len(multis), 4):
-        batch = multis[page:page+4]
+        (OUT / "cards" / "stage-1" / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        count += 1
+
+    # Multi-letter cards (4 per page) — Stage 2 (MULTI PGs)
+    multis_s2 = list(MULTI.keys())
+    for page in range(0, len(multis_s2), 4):
+        batch = multis_s2[page:page+4]
         cards = ""
         for pg in batch:
-            data = {**MULTI, **MULTI3}.get(pg, {"sounds": "—"})
+            data = MULTI.get(pg, {"sounds": "—"})
             sounds = data["sounds"]
             cards += f"""<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
 <div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">{pg}</div>
 <div class="phonogram-sounds" style="font-size:10pt; color:#555;">{sounds}</div>
 </div>\n"""
-        
+
         content = FLASH_CARD_SHEET.format(
-            title=f"Multi-Letter Phonograms (Page {(page//4)+1} of {(len(multis)//4)+1})",
+            title=f"Multi-Letter Phonograms (Stage 2 — Page {(page//4)+1} of {(len(multis_s2)//4)+1})",
             cards=cards)
         (OUT / "cards" / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
-    
-    return len(singles) + len(multis)
+        (OUT / "cards" / "stage-2" / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        count += 1
+
+    # Multi-letter cards — Stage 3 (MULTI3 PGs: advanced + Latin /sh/ from Stage 4)
+    multis_s3 = list(MULTI3.keys())
+    for page in range(0, len(multis_s3), 4):
+        batch = multis_s3[page:page+4]
+        cards = ""
+        for pg in batch:
+            data = MULTI3.get(pg, {"sounds": "—"})
+            sounds = data["sounds"]
+            cards += f"""<div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
+<div class="phonogram-letter" style="font-size:48pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">{pg}</div>
+<div class="phonogram-sounds" style="font-size:10pt; color:#555;">{sounds}</div>
+</div>\n"""
+
+        content = FLASH_CARD_SHEET.format(
+            title=f"Advanced Phonograms (Stage 3+ — Page {(page//4)+1} of {(len(multis_s3)//4)+1})",
+            cards=cards)
+        # Continue flat numbering so existing pack references don't break
+        flat_idx = (page // 4) + 1 + (len(multis_s2) // 4)
+        (OUT / "cards" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
+        # Stage 3 mirror for most, Stage 4 for ti/ci/si
+        if any(pg in ("ti", "ci", "si") for pg in batch):
+            stage = 4
+        else:
+            stage = 3
+        (OUT / "cards" / f"stage-{stage}" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
+        count += 1
+
+    return count
 
 def generate_blank_templates():
     """Reusable blank worksheet templates."""

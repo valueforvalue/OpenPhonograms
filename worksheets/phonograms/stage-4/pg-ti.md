@@ -1,0 +1,63 @@
+# Phonogram Practice: ti
+
+**Sounds:** /sh/
+
+---
+
+<div class="phonogram-card">
+
+<div class="phonogram-letter">ti</div>
+
+<div class="phonogram-sounds">/sh/</div>
+
+</div>
+
+## Part 1: Write the Phonogram
+
+Write **ti** five times. Say its sounds as you write.
+
+| | | | | |
+|--|--|--|--|--|
+| | | | | |
+
+---
+
+## Part 2: Circle the Phonogram
+
+Circle every **ti** in these words:
+
+> nation &nbsp;&nbsp; station &nbsp;&nbsp; action &nbsp;&nbsp; motion &nbsp;&nbsp; fraction &nbsp;&nbsp; patient &nbsp;&nbsp; partial &nbsp;&nbsp; initial
+
+---
+
+## Part 3: Fill in the Missing Phonogram
+
+Write **ti** to complete each word:
+
+- na____on &nbsp; → &nbsp; _______________
+- sta____on &nbsp; → &nbsp; _______________
+- ac____on &nbsp; → &nbsp; _______________
+- mo____on &nbsp; → &nbsp; _______________
+- frac____on &nbsp; → &nbsp; _______________
+
+---
+
+## Part 4: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 5: Write a Sentence
+
+Write a sentence using a word with **ti**:
+
+> _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________

@@ -377,7 +377,10 @@ def main():
     for r in READERS:
         content = TMP.format(**r)
         (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
-        print(f"  readers/{r['slug']}.md")
+        stage_dir = OUT / f"stage-{r['stage']}"
+        stage_dir.mkdir(parents=True, exist_ok=True)
+        (stage_dir / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        print(f"  readers/{r['slug']}.md (+ readers/stage-{r['stage']}/)")
     print(f"\n{len(READERS)} additional readers generated")
 
 if __name__ == "__main__":

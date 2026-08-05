@@ -1,0 +1,51 @@
+# Rule 25 Practice: DGE after short vowel
+
+---
+
+## The Rule
+
+> DGE after short vowel
+
+---
+
+## Part 1: Find the Rule
+
+Circle the words that follow Rule 25:
+
+> bridge &nbsp;&nbsp; edge &nbsp;&nbsp; fudge &nbsp;&nbsp; judge &nbsp;&nbsp; badge &nbsp;&nbsp; lodge &nbsp;&nbsp; ledge &nbsp;&nbsp; dodge &nbsp;&nbsp; ridge &nbsp;&nbsp; wedge
+
+---
+
+## Part 2: Apply the Rule
+
+Write the correct form:
+
+DGE or GE?
+
+br i dge (short i → DGE) &nbsp; ca ge (long a → GE)
+
+fu ___ (short u) &nbsp; la ___ (long a) &nbsp; e ___ (short e)
+
+---
+
+## Part 3: Spelling Practice
+
+An adult will dictate these words. Write each one:
+
+1. _______________ &nbsp;&nbsp; 2. _______________ &nbsp;&nbsp; 3. _______________
+
+4. _______________ &nbsp;&nbsp; 5. _______________ &nbsp;&nbsp; 6. _______________
+
+---
+
+## Part 4: Write Two Sentences
+
+Write two sentences using words that follow Rule 25:
+
+1. _______________________________________________
+
+2. _______________________________________________
+
+---
+
+**Name:** _______________ &nbsp;&nbsp; **Date:** _______________
