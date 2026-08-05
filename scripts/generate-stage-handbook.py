@@ -31,6 +31,96 @@ def load_catalog() -> list[dict]:
         return list(csv.DictReader(f))
 
 
+# Human-readable section names per lesson type
+TYPE_LABELS = {
+    "phonemic-awareness": "Phonemic Awareness",
+    "phonogram-intro": "Phonogram Lessons",
+    "review": "Review Lessons",
+    "vowel-concept": "Vowel Concepts",
+    "handwriting": "Handwriting",
+    "assessment": "Stage Assessment",
+    "cvc-all": "CVC Words",
+    "cvc-continuant": "CVC Continuant Blends",
+    "cvc-stop": "CVC Stop Blends",
+    "vc-words": "VC Words",
+    "long-vowels": "Long Vowels",
+    "silent-e-1": "Silent E",
+    "silent-e-review-1": "Silent E Review",
+    "silent-e-mastery": "Silent E Mastery",
+    "silent-letter-review": "Silent Letter Review",
+    "rule-intro": "Spelling Rules",
+    "rule-practice": "Rule Practice",
+    "rule-review": "Rule Review",
+    "spelling-analysis": "Spelling Analysis",
+    "say-to-spell": "Say-to-Spell",
+    "syllable-division": "Syllable Division",
+    "schwa-practice": "Schwa Practice",
+    "hf-word": "High-Frequency Words",
+    "reader": "Decodable Readers",
+    "morphology": "Morphology",
+    "vocabulary": "Vocabulary",
+    "fluency": "Fluency",
+    "composition": "Composition",
+    "grammar": "Grammar",
+    "practice": "Practice",
+    "open-syllables": "Open Syllables",
+    "ccvc-blends": "CCVC Blends",
+    "ccvcc-blends": "CCVCC Blends",
+    "cvcc-blends": "CVCC Blends",
+}
+
+# Section ordering per stage: defines which groups appear and in what order
+# in the TOC. Stages not listed fall back to type-occurrence order.
+SECTION_ORDER = {
+    1: ["phonemic-awareness", "phonogram-intro", "review", "vowel-concept", "handwriting", "assessment"],
+    2: ["phonogram-intro", "hf-word", "rule-intro", "rule-practice", "spelling-analysis", "reader", "review", "assessment"],
+    3: ["silent-e-1", "silent-e-review-1", "phonogram-intro", "rule-intro", "syllable-division", "spelling-analysis", "hf-word", "reader", "assessment"],
+    4: ["schwa-practice", "phonogram-intro", "rule-intro", "morphology", "hf-word", "reader", "review", "assessment"],
+    5: ["phonogram-intro", "morphology", "vocabulary", "fluency", "composition", "grammar", "reader", "assessment"],
+}
+
+
+def make_toc(stage: int, lessons: list[dict]) -> str:
+    """Generate a markdown table of contents listing every lesson grouped by type.
+
+    Uses SECTION_ORDER when defined for the stage; otherwise falls back to
+    first-occurrence order of lesson types.
+    """
+    ordered = sorted(lessons, key=lambda r: int(r["lesson_num"]))
+
+    # Build groups: type -> list of (lesson_num, title)
+    groups: dict[str, list[tuple[int, str]]] = {}
+    for r in ordered:
+        t = r["type"]
+        groups.setdefault(t, []).append((int(r["lesson_num"]), r["title"]))
+
+    # Choose section order
+    if stage in SECTION_ORDER:
+        order = list(SECTION_ORDER[stage])
+        # Append any types that appeared but weren't in SECTION_ORDER
+        for t in groups:
+            if t not in order:
+                order.append(t)
+    else:
+        order = list(groups.keys())
+
+    lines = ["## Table of Contents", ""]
+    lines.append("All lessons in this stage, grouped by section. Page numbers match the bound PDF.")
+    lines.append("")
+
+    for t in order:
+        if t not in groups:
+            continue
+        label = TYPE_LABELS.get(t, t.replace("-", " ").title())
+        lines.append(f"### {label}")
+        lines.append("")
+        for ln, title in groups[t]:
+            lines.append(f"- **Lesson {ln}:** {title}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def make_stage_cover(stage: int, lessons: list[dict]) -> str:
     """Build a markdown cover-page for the stage handbook."""
     if stage == 1:
@@ -77,7 +167,9 @@ def make_stage_cover(stage: int, lessons: list[dict]) -> str:
         types[r["type"]] = types.get(r["type"], 0) + 1
     types_str = ", ".join(f"{v} {k}" for k, v in sorted(types.items(), key=lambda x: -x[1]))
 
-    return f"""# {title}
+    return f"""<style>.page-break {{ page-break-before: always; }}</style>
+
+# {title}
 
 **Stage {stage}** · {age} · {n_lessons} lessons
 
@@ -101,16 +193,19 @@ This handbook contains all {n_lessons} lessons of Stage {stage}, bound into a si
 
 1. **Print the lesson pack PDF** instead — each per-lesson pack bundles this lesson with its matched worksheet and flash cards. See `06-Lesson-Packs/stage-{stage}/` in the release ZIP.
 2. **Use this handbook** for at-the-desk reference, lesson planning, or on a tablet.
+3. **See the Table of Contents on the next page** for a printable index of all {n_lessons} lessons grouped by section.
 
 ### What this handbook replaces
 
-This is the open-source equivalent of a commercial curriculum's "Teacher's Manual" — one bound book with all lessons and a complete index. The print commercial version runs 200-350 pages per level; this PDF runs {n_lessons} + cover pages.
+This is the open-source equivalent of a commercial curriculum's "Teacher's Manual" — one bound book with all lessons and a complete index. The print commercial version runs 200-350 pages per level; this PDF runs {n_lessons} + cover + TOC pages.
 
 ---
 
 *Curriculum: Uncovering the Logic of English (open-source adaptation)*
 
 <div class="page-break"></div>
+
+{make_toc(stage, lessons)}
 
 """
 
