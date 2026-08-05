@@ -179,6 +179,7 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
 
     # Materials checklist
     checklist = [
+        "- [ ] At-a-glance reference card (page 2)",
         "- [ ] Phonogram cards for review",
         "- [ ] Whiteboard + marker",
         "- [ ] Pencil and paper",
@@ -218,8 +219,9 @@ Print this pack before the lesson. Check off as you gather materials.
 | Page | Section |
 |------|---------|
 | 1 | This cover page |
-| 2 | Teacher script |
-| 3+ | Worksheet (if any) |
+| 2 | At-a-glance reference card |
+| 3 | Teacher script |
+| 4+ | Worksheet (if any) |
 | last | Flash cards for review |
 {"| last | Reader (if any) |" if ltype == "reader" or (row.get("reader") or "").strip() else ""}
 
@@ -246,6 +248,170 @@ def build_home_practice(lesson_md: str) -> str:
         f"> {practice}\n\n"
         f"---\n\n"
         f"*Sign and date when complete:* _______________________\n"
+    )
+
+
+# At-a-glance data per phonogram: sounds + 5 example words + common mistake.
+# Sourced from worksheets/phonograms/ data; this is a teaching summary,
+# not the full worksheet.
+AT_A_GLANCE_PG = {
+    # Stage 1 single-letter
+    "a": ("/ă/ /ā/ /ä/", "at, make, father", "Always teach all 3 sounds. 'A' is not just 'a says /ă/'."),
+    "b": ("/b/", "bat, boy, bell", "B never says /b/ silently like the P-rule. Different sound."),
+    "c": ("/k/ /s/", "cat, city", "Hard /k/ by default. Soft /s/ before e/i/y (Rule 1)."),
+    "d": ("/d/", "dog, dig, desk", "D never goes silent in English."),
+    "e": ("/ĕ/ /ē/", "bed, me", "Short at start of word, long when final or 'open syllable'."),
+    "f": ("/f/", "fun, fish, four", "F is one of few sounds that can be spelled two ways (ph, gh)."),
+    "g": ("/g/ /j/", "go, gem", "Hard /g/ by default. Soft /j/ before e/i/y (Rule 2)."),
+    "h": ("/h/", "hat, his, house", "H is silent in a few words (honest, hour)."),
+    "i": ("/ĭ/ /ī/ /ē/", "it, find, baby", "Three sounds. The /ē/ sound comes from open syllables (Rule 6)."),
+    "j": ("/j/", "jam, jump, jug", "J never starts a true English base word."),
+    "k": ("/k/", "kit, king, knee", "Silent K before N is common (knee, know, knife)."),
+    "l": ("/l/", "leg, log, lake", "L is always pronounced in English."),
+    "m": ("/m/", "man, make, more", "M is always pronounced."),
+    "n": ("/n/", "net, nine, night", "Silent N in 'gn' before vowels (gnome, sign)."),
+    "o": ("/ŏ/ /ō/", "hot, go", "Open-syllable O says /ō/ (no, open, total)."),
+    "p": ("/p/", "pat, play, pen", "Silent P in a few words (pneumonia, psalm)."),
+    "qu": ("/kw/", "quit, queen, quick", "Q always comes with U. U is silent in 'qu'."),
+    "r": ("/r/", "red, run, rose", "R never goes silent in English."),
+    "s": ("/s/ /z/", "sun, his, has", "S says /z/ between vowels (his, has, easy)."),
+    "t": ("/t/", "top, tree, time", "Silent T in a few words (castle, listen, whistle)."),
+    "u": ("/ŭ/ /ū/ /ü/", "up, use, put", "Three sounds. Long /ū/ in open syllables (music, unit)."),
+    "v": ("/v/", "van, very, voice", "V never goes silent. Common: 5 vs V."),
+    "w": ("/w/", "wet, win, water", "Silent W in a few words (wrong, write, two)."),
+    "x": ("/ks/ /gz/", "box, exact", "X says /ks/ at end, /gz/ inside word (exact)."),
+    "y": ("/y/ /ē/ /ī/", "yes, baby, by", "Three roles: consonant at start, vowel in middle/end (Rule 6, 7)."),
+    "z": ("/z/", "zip, zoo, zero", "Z never goes silent."),
+    # Stage 2 multi-letter
+    "sh": ("/sh/", "ship, fish, shut", "Don't confuse sh with ch. sh = quiet, ch = louder."),
+    "th": ("/th/ (voiced) /th/ (unvoiced)", "this, thin", "Two sounds. Voiced: this, that. Unvoiced: thin, bath."),
+    "ck": ("/k/", "back, sick, duck", "Only after a short vowel (Rule 26). Long vowel uses 'k' (make, take)."),
+    "ee": ("/ē/", "see, tree, feet", "EE always says /ē/. No exceptions."),
+    "ng": ("/ng/", "ring, sing, long", "NG never says /n/ alone in English. No 'n' before 'g' without /ng/."),
+    "ar": ("/är/", "car, far, star", "AR is controlled R + /ä/."),
+    "or": ("/ôr/", "for, born, corn", "OR is controlled R + /ô/."),
+    "er": ("/er/", "her, fern, bird", "ER is controlled R + /er/. Also unstressed: water, better (Rule 31)."),
+    "oi": ("/oi/", "boil, coin, soil", "OI never at end of base word. Use OY (Rule 3)."),
+    "oy": ("/oi/", "boy, toy, soy", "OY comes only at end of base word (Rule 3)."),
+    "ai": ("/ā/", "rain, sail, train", "AI never at end. Use AY (Rule 3)."),
+    "ay": ("/ā/", "day, play, stay", "AY only at end of base word (Rule 3)."),
+    "ch": ("/ch/", "chip, beach, church", "CH says /ch/ after most consonants. CH after S = /sh/ (Rule 17)."),
+    "wh": ("/hw/ /h/", "when, who", "WH often says /hw/ (which, what). WH before O = /h/ (who, whole)."),
+    "ea": ("/ē/ /ĕ/", "eat, bread", "Two main sounds. EE-rule words say /ē/. Others vary."),
+    "ow": ("/ō/ /ou/", "snow, cow", "Two sounds. /ō/ in 'snow, know', /ou/ in 'cow, now'."),
+    "ou": ("/ou/ /ü/", "house, soup", "Multiple sounds. Most common /ou/ (house). /ü/ in soup, route, group."),
+    "oo": ("/ü/ /ö/", "book, moon", "Two sounds. Short /ü/ (book, look). Long /ö/ (moon, food)."),
+    "ed": ("/ĕd/ /d/ /t/", "jumped, played, walked", "Three sounds of -ED (Rule 20). Always spelling -ED."),
+    "igh": ("/ī/", "high, light, night", "IGH says /ī/. GH is silent (Rule 28)."),
+    "aw": ("/ô/", "saw, claw, yawn", "AW says /ô/. Common in 'aw' words."),
+    "au": ("/ô/", "haul, sauce, author", "AU says /ô/. Common in 'au' words."),
+    "ir": ("/er/", "bird, girl, first", "IR is controlled R + /er/."),
+    "ur": ("/er/", "turn, burn, curl", "UR is controlled R + /er/."),
+    "oa": ("/ō/", "boat, coat, road", "OA says /ō/. Comes before consonants."),
+    "ear": ("/ēr/ /er/", "hear, earth", "Multiple sounds. /ēr/ (hear). /er/ (earth, learn)."),
+    # Stage 3 advanced
+    "dge": ("/j/", "bridge, badge, edge", "DGE only after short vowel (Rule 25). Long vowel uses 'j' (age, stage)."),
+    "tch": ("/ch/", "catch, patch, witch", "TCH only after short vowel (Rule 27). Long vowel uses 'ch' (beach, teach)."),
+    "kn": ("/n/", "knee, knife, knock", "K is silent in KN. N keeps the /n/ sound."),
+    "gn": ("/n/", "gnome, sign, design", "G is silent in GN at start. Sometimes at end too (sign, design)."),
+    "wr": ("/r/", "write, wrong, wrap", "W is silent in WR. R keeps the /r/ sound."),
+    "eigh": ("/ā/", "eight, weigh, sleigh", "EIGH says /ā/. GH silent (Rule 28)."),
+    "ei": ("/ē/ /ā/ /ī/", "ceiling, vein, height", "Three sounds. Most common /ē/ (ceiling). /ā/ in 'vein'. /ī/ in 'height'."),
+    "ey": ("/ā/ /ē/", "they, key, money", "Two sounds. /ā/ at end of base word (they, survey). /ē/ inside (key, money)."),
+    "ph": ("/f/", "phone, elephant, graph", "PH always says /f/."),
+    "gh": ("/g/ (sometimes silent)", "ghost, ghost, ghost", "GH says /g/ at start (ghost). Often silent (high, light)."),
+    "ough": ("/ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/", "though, dough, bough, tough, laugh, through", "Six sounds! Toughest PG in English. Memorize per-word."),
+    "augh": ("/ä/ /äf/", "laugh, draught", "Two sounds. /ä/ (daughter). /äf/ (laugh)."),
+    "ew": ("/ü/ /ö/", "few, dew, new, threw", "Two sounds. /ü/ (few). /ö/ (new, threw)."),
+    "ui": ("/ü/ /ö/", "suit, fruit, ruin", "Two sounds. /ü/ (suit). /ö/ (fruit, ruin)."),
+    "eu": ("/ü/ /ö/", "feud, maneuver", "Two sounds. Less common PG."),
+    "wor": ("/wer/", "work, word, world", "WOR says /wer/. Schwa + R (Rule 31.3)."),
+    "ie": ("/ē/ /ī/", "piece, field, chief, lie", "Two sounds. /ē/ most common (piece, field). /ī/ in 'lie, tie'."),
+    # Stage 4 Latin /sh/
+    "ti": ("/sh/", "motion, nation, station", "TI says /sh/ inside words (Rule 17). Exception after S: question."),
+    "ci": ("/sh/", "special, social, ancient", "CI says /sh/ inside words (Rule 17)."),
+    "si": ("/sh/ /s/ /z/", "vision, mission, session", "SI says /sh/ at end of word after a vowel: vision, mission. Says /s/ or /z/ after consonant: session, prism."),
+}
+
+
+def build_at_a_glance(row: dict) -> str:
+    """Build a 1-page at-a-glance reference card for the lesson.
+
+    Shows the phonogram/rule at a glance with sounds, key words, and the
+    most common mistake. Falls back to lesson title if no specific data.
+    """
+    stage = row["stage"]
+    lnum = int(row["lesson_num"])
+    title = row["title"]
+    new_pg = (row.get("new_phonogram") or "").strip()
+    new_rule = (row.get("new_rule") or "").strip()
+    ltype = row["type"]
+
+    # Pick what to show at the top
+    if new_pg and new_pg in AT_A_GLANCE_PG:
+        sounds, words, mistake = AT_A_GLANCE_PG[new_pg]
+        pg_label = new_pg
+        header_label = f"Phonogram {new_pg}"
+        top_block = f"# {new_pg}"
+        sounds_line = f"**Sounds:** {sounds}"
+        words_line = words
+        mistake_line = mistake
+    elif new_pg:
+        # PG not in our at-a-glance table — fall back to title
+        pg_label = title.split()[-1]
+        header_label = title
+        top_block = f"# {title}"
+        sounds_line = "**Sounds:** see lesson"
+        words_line = "(see lesson for examples)"
+        mistake_line = ""
+    elif new_rule:
+        # Rule lesson — refer to handbook for full details
+        header_label = f"Rule {new_rule}"
+        top_block = f"# Rule {new_rule}"
+        sounds_line = f"**Rule:** see handbook for full text"
+        words_line = "examples in lesson"
+        mistake_line = "See handbook Rule " + str(new_rule)
+    elif ltype == "reader":
+        header_label = "Decodable Reader"
+        top_block = f"# {title}"
+        sounds_line = "**Focus:** see lesson for phonograms practiced"
+        words_line = ""
+        mistake_line = ""
+    else:
+        # Other lesson types (review, PA, handwriting, etc.)
+        header_label = title
+        top_block = f"# {title}"
+        sounds_line = ""
+        words_line = ""
+        mistake_line = ""
+
+    mistake_block = (
+        f"\n\n**Common mistake:** {mistake_line}\n" if mistake_line else ""
+    )
+
+    return (
+        f"<style>.at-a-glance {{ border: 3px solid #2a5c8a; padding: 18px; "
+        f"border-radius: 8px; page-break-inside: avoid; }}\n"
+        f".at-a-glance h1 {{ font-size: 48pt; text-align: center; margin: 0.1em 0; "
+        f"color: #2a5c8a; }}\n"
+        f".at-a-glance .label {{ font-size: 10pt; text-align: center; "
+        f"text-transform: uppercase; letter-spacing: 0.1em; color: #666; "
+        f"margin-bottom: 1em; }}\n"
+        f".at-a-glance .stage {{ font-size: 9pt; text-align: center; "
+        f"color: #888; margin-top: 0.5em; }}\n"
+        f".at-a-glance .tear {{ border-top: 2px dashed #999; margin-top: 18px; "
+        f"padding-top: 8px; text-align: center; font-size: 9pt; color: #888; }}</style>\n\n"
+        f"<div class=\"at-a-glance\">\n\n"
+        f"<div class=\"label\">At a Glance — {header_label}</div>\n\n"
+        f"{top_block}\n\n"
+        f"<div style=\"text-align:center; font-size: 13pt;\">{sounds_line}</div>\n\n"
+        + (
+            f"**Key words:** {words_line}\n" if words_line else ""
+        )
+        + mistake_block
+        + f"\n<div class=\"stage\">Stage {stage} · Lesson {lnum}</div>\n"
+        f"<div class=\"tear\">\u2702 Cut along dashed line for take-home reference card</div>\n"
+        f"</div>\n"
     )
 
 
@@ -294,6 +460,8 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     # Compose pack
     parts = []
     parts.append(build_cover_page(row, missing))
+    parts.append(PAGE_BREAK)
+    parts.append(build_at_a_glance(row))
     parts.append(lesson_text)
     if worksheet_path:
         parts.append(PAGE_BREAK)
