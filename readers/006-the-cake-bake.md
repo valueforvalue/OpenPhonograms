@@ -4,6 +4,10 @@
 
 ---
 
+![Jake the snake baking a cake](images/illustrations/jake-bakes-cake.png)
+
+---
+
 ## Warm-Up Words — Read These First
 
 > cake, bake, make, take, time, hope, ride, drove, smile, plate

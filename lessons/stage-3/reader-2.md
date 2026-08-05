@@ -4,6 +4,14 @@
 
 ---
 
+![Gwen the goose with a gift for her friend Grace](images/illustrations/gwen-goose-gift.png)
+
+---
+
+![A goose, the main character of this story](images/animals/goose.png)
+
+---
+
 ## Warm-Up: Phonogram Flash Review
 
 > Quick flash of phonograms used in today's story.

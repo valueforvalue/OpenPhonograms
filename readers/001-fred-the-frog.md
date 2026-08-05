@@ -48,9 +48,7 @@ This is Fred.
 
 </div>
 
-<div class="page-break"></div>
 
----
 
 ## Page 2
 
@@ -86,9 +84,7 @@ Splash!
 
 </div>
 
-<div class="page-break"></div>
 
----
 
 ## Page 3
 
@@ -128,9 +124,7 @@ Fred and Fish are pals.
 
 </div>
 
-<div class="page-break"></div>
 
----
 
 ## Page 4
 
@@ -178,16 +172,16 @@ What happened? Tell the story in your own words.
 ### Word Hunt
 Find every word with **sh**. Write them here:
 
-> _______________________________________________
+> ———————————————
 
 Find every word with **ck**. Write them here:
 
-> _______________________________________________
+> ———————————————
 
 ### Write Your Own Sentence
 Use a word with **sh** in a new sentence:
 
-> _______________________________________________
+> ———————————————
 
 ---
 

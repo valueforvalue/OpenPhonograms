@@ -244,8 +244,13 @@ check-coverage:
     @echo "==> Worksheet coverage check"
     @{{python}} {{scripts_dir_s}}/check-worksheet-coverage.py
 
-# Run all three checks (drift + overflow + coverage)
-check: check-drift check-overflow check-coverage
+# Validate every PNG on disk is referenced (and vice versa) in markdown
+check-images:
+    @echo "==> Image coverage check"
+    @{{python}} {{scripts_dir_s}}/check-image-coverage.py
+
+# Run all checks (drift + overflow + coverage + images)
+check: check-drift check-overflow check-coverage check-images
     @echo ""
     @echo "==> All checks complete"
 

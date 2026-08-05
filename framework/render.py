@@ -165,6 +165,14 @@ th { font-weight: bold; border-bottom-width: 2px; background: #f7f7f2; }
     letter-spacing: 0.05em;
 }
 
+/* Constrain images so they don't blow up to full-page size in print. */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5em auto;
+}
+
 /* Reader layout: two-column with sidebar */
 .reader-page {
     display: flex;
@@ -256,8 +264,26 @@ def md_to_html(md_text: str, md_file: Path) -> str:
     # Pre-convert markdown images to HTML img tags so they work inside HTML divs.
     # Empty alt (alt="") marks images as decorative — screen readers and pdftotext
     # skip them, so image captions don't bleed into extracted text.
+    # Also rewrite image src to be relative to PROJECT_ROOT so images resolve
+    # regardless of where the markdown file lives.
     import re as _re
-    md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', r'<img src="\2" alt="">', md_text)
+    def _rewrite_img_src(match):
+        src = match.group(2)
+        if not src.startswith(('http://', 'https://', '/', 'data:')):
+            # Try resolving relative to markdown file first, then fall back to PROJECT_ROOT
+            # (source MDs often assume images are at project root even when MD lives in a subdir).
+            candidate = (md_file.parent / src).resolve()
+            if not candidate.exists():
+                alt_candidate = (PROJECT_ROOT / src).resolve()
+                if alt_candidate.exists():
+                    candidate = alt_candidate
+            try:
+                rel = candidate.relative_to(PROJECT_ROOT)
+                src = str(rel).replace('\\', '/')
+            except ValueError:
+                pass
+        return f'<img src="{src}" alt="">'
+    md_text = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', _rewrite_img_src, md_text)
 
     # python-markdown treats HTML block elements as opaque by default — markdown
     # inside <div class="reader-sidebar"> etc. would pass through as raw text.
@@ -313,7 +339,9 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
 </html>"""
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    HTML(string=full_html).write_pdf(str(output_path))
+    # base_url=PROJECT_ROOT so rewritten image paths like 'images/foo.png' resolve
+    # regardless of where the markdown file lives.
+    HTML(string=full_html, base_url=str(PROJECT_ROOT) + "/").write_pdf(str(output_path))
     print(f"  OK {output_path.relative_to(PROJECT_ROOT)}")
 
 

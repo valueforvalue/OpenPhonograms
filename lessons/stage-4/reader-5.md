@@ -4,6 +4,14 @@
 
 ---
 
+![A firefly blinking in the summer night garden](images/illustrations/firefly-night.png)
+
+---
+
+![A firefly up close, showing its glowing abdomen](images/animals/firefly.png)
+
+---
+
 ## Warm-Up: Phonogram Flash Review
 
 > Quick flash of phonograms used in today's story.

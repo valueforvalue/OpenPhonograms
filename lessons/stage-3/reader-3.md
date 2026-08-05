@@ -4,6 +4,10 @@
 
 ---
 
+![Cole and his friend Kate with the red bike](images/illustrations/cole-bike.png)
+
+---
+
 ## Warm-Up: Phonogram Flash Review
 
 > Quick flash of phonograms used in today's story.

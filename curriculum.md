@@ -239,6 +239,8 @@ Teach ALL sounds for each, in order of frequency. The first sound listed is the 
 
 ### Multi-Letter Phonograms (49)
 
+![Wall chart of all multi-letter phonograms taught in this curriculum](images/phonograms/all-multi.png)
+
 Organized approximately by teaching order. The official Logic of English teaches **75 basic phonograms** (current edition). Earlier printings listed 74; the difference is one multi-letter phonogram added in later editions. The count in this curriculum is the current canonical 75.
 
 > **Important:** Multi-letter phonograms are NOT saved for after all single-letter phonograms are mastered. They are interleaved starting in Stage 2 — `sh` and `th` appear once the child knows ~15 single-letter phonograms, because real words need them. See the Stage 2 phonogram introduction schedule.
@@ -486,6 +488,8 @@ Each page (or two-page spread) includes a sidebar showing the target phonogram(s
 
 ### 3. Diacritical Marks in Warm-Up Only
 Do NOT mark vowels in the story text itself — the child must decode without crutches. Instead, include a **warm-up word box** before the story where target words appear with diacritical marks:
+
+![Diacritical marks used throughout the curriculum: breve (˘) for short vowels, macron (¯) for long vowels, two dots above for special cases](images/misc/diacritical-marks.png)
 
 ```
 [WARM-UP — read these first]

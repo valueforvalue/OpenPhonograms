@@ -4,6 +4,10 @@
 
 ---
 
+![A train at the station, ready to depart](images/illustrations/train.png)
+
+---
+
 ## Warm-Up: Phonogram Flash Review
 
 > Quick flash of phonograms used in today's story.

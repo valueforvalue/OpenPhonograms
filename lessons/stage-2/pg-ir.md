@@ -4,6 +4,10 @@
 
 ---
 
+![A small bird perched on a branch](images/animals/bird.png)
+
+---
+
 ## Warm-Up: Phonogram Flash Review
 
 > Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
