@@ -42,6 +42,12 @@ default:
 # Doctor — environment sanity check
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Optimize source PNGs (trim whitespace, resize, recompress).
+# One-time optimization. Run after adding new illustrations.
+optimize-images:
+    @echo "==> Optimizing source PNGs"
+    @{{python}} {{framework_dir_s}}/optimize_images.py
+
 # Check prerequisites: Python deps, MSYS2/GTK3 (Windows), scripts present
 doctor:
     @echo "==> Checking environment"
