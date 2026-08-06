@@ -12,10 +12,13 @@ Renders:
 
 Usage:
   python scripts/render-extras.py
+  python scripts/render-extras.py --jobs 4
 """
 
+import argparse
 import io
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -27,25 +30,30 @@ OUT = ROOT / "build"
 
 # Import render helper from framework
 sys.path.insert(0, str(ROOT))
-from framework.render import render_md_to_pdf
+from framework.render import render_md_to_pdf, _render_worker
+from framework.build_log import (
+    get_logger, phase, Progress, WorkerLogQueue,
+    set_worker_queue, drain_worker_queue,
+)
+
+log = get_logger("render-extras")
 
 
-def main():
-    count = 0
+def _collect_jobs() -> list[tuple[Path, Path, str]]:
+    """Enumerate (md_path, pdf_path, doc_type) for all worksheets + readers."""
+    jobs: list[tuple[Path, Path, str]] = []
 
     # Worksheets (flat layout)
     for sub in ["phonograms", "rules", "cards", "blank"]:
         src_dir = WORKSHEETS / sub
-        out_dir = OUT / "worksheets" / sub
-        out_dir.mkdir(parents=True, exist_ok=True)
         if not src_dir.exists():
             continue
+        out_dir = OUT / "worksheets" / sub
+        out_dir.mkdir(parents=True, exist_ok=True)
         for md in sorted(src_dir.glob("*.md")):
-            pdf = out_dir / (md.stem + ".pdf")
-            render_md_to_pdf(md, pdf, doc_type="worksheet")
-            count += 1
+            jobs.append((md, out_dir / (md.stem + ".pdf"), "worksheet"))
 
-    # Worksheets (stage-grouped mirrors → build/worksheets/<sub>/stage-N/)
+    # Worksheets (stage-grouped mirrors)
     for sub in ["phonograms", "rules", "cards"]:
         for stage in range(1, 6):
             stage_src = WORKSHEETS / sub / f"stage-{stage}"
@@ -54,19 +62,16 @@ def main():
             stage_out = OUT / "worksheets" / sub / f"stage-{stage}"
             stage_out.mkdir(parents=True, exist_ok=True)
             for md in sorted(stage_src.glob("*.md")):
-                pdf = stage_out / (md.stem + ".pdf")
-                render_md_to_pdf(md, pdf, doc_type="worksheet")
-                count += 1
+                jobs.append((md, stage_out / (md.stem + ".pdf"), "worksheet"))
 
     # Readers (flat + stage-grouped)
     if READERS.exists():
         for md in sorted(READERS.glob("*.md")):
             if md.parent != READERS:
-                continue  # skip stage-N/ subdirs here; handled below
+                continue
             pdf = OUT / "readers" / (md.stem + ".pdf")
             pdf.parent.mkdir(parents=True, exist_ok=True)
-            render_md_to_pdf(md, pdf, doc_type="reader")
-            count += 1
+            jobs.append((md, pdf, "reader"))
         for stage in range(1, 6):
             stage_src = READERS / f"stage-{stage}"
             if not stage_src.exists():
@@ -74,11 +79,59 @@ def main():
             stage_out = OUT / "readers" / f"stage-{stage}"
             stage_out.mkdir(parents=True, exist_ok=True)
             for md in sorted(stage_src.glob("*.md")):
-                pdf = stage_out / (md.stem + ".pdf")
-                render_md_to_pdf(md, pdf, doc_type="reader")
-                count += 1
+                jobs.append((md, stage_out / (md.stem + ".pdf"), "reader"))
 
-    print(f"==> Rendered {count} worksheet/reader PDFs")
+    return jobs
+
+
+def _run_serial(jobs: list[tuple[Path, Path, str]]) -> int:
+    for md, pdf, dtype in jobs:
+        render_md_to_pdf(md, pdf, doc_type=dtype)
+    return len(jobs)
+
+
+def _run_parallel(jobs: list[tuple[Path, Path, str]], workers: int) -> int:
+    queue = WorkerLogQueue()
+    set_worker_queue(queue)
+    log.info(f"render-extras: {len(jobs)} files, {workers} workers")
+    with Progress("render-extras", total=len(jobs)) as progress:
+        executor = ProcessPoolExecutor(max_workers=workers)
+        try:
+            futures = [
+                executor.submit(_render_worker, str(md), str(pdf), dtype)
+                for md, pdf, dtype in jobs
+            ]
+            ok = 0
+            for fut in as_completed(futures):
+                drain_worker_queue(queue, log)
+                try:
+                    fut.result()
+                    ok += 1
+                except Exception as exc:
+                    log.error(f"FAIL: {exc}")
+                progress.tick()
+                drain_worker_queue(queue, log)
+        finally:
+            executor.shutdown(wait=True)
+            set_worker_queue(None)
+    return ok
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Render worksheets + readers to PDFs")
+    parser.add_argument("--jobs", "-j", type=int, default=1, help="Parallel worker processes (default: 1)")
+    args = parser.parse_args()
+
+    phase("Render Worksheets + Readers")
+    jobs = _collect_jobs()
+    if not jobs:
+        log.info("no worksheets or readers found")
+        return
+    if args.jobs > 1:
+        ok = _run_parallel(jobs, args.jobs)
+    else:
+        ok = _run_serial(jobs)
+    log.info(f"rendered {ok}/{len(jobs)} worksheet/reader PDFs")
 
 
 if __name__ == "__main__":

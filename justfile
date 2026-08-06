@@ -29,6 +29,11 @@ project_root_s := replace(project_root, "\\", "/")
 # Python interpreter
 python := if os() == "windows" { "python" } else { "python3" }
 
+# Parallel worker count for render + pack recipes. Override with `just jobs=8 build`.
+# Default = number of logical CPUs. weasyprint is CPU-bound; >=physical cores is fine.
+_default_jobs := if os() == "windows" { `wmic cpu get NumberOfLogicalProcessors /value 2^>nul ^| findstr NumberOfLogicalProcessors ^| awk -F= "{print $2}"` } else { `nproc` }
+jobs := env_var_or_default("jobs", "4")
+
 # Default: list all recipes
 default:
     @just --list
@@ -118,13 +123,13 @@ render-file path:
 
 # Render all lessons in one stage (1-5) — output: build/stage-N/*.pdf
 render-stage stage:
-    @echo "==> Rendering Stage {{stage}} lessons"
-    @{{python}} {{framework_dir_s}}/render.py --stage {{stage}}
+    @echo "==> Rendering Stage {{stage}} lessons ({{jobs}} workers)"
+    @{{python}} {{framework_dir_s}}/render.py --stage {{stage}} --jobs {{jobs}}
 
 # Render all 248 lessons across all stages — output: build/stage-N/*.pdf
 render-lessons:
-    @echo "==> Rendering all lessons (all stages)"
-    @{{python}} {{framework_dir_s}}/render.py --all
+    @echo "==> Rendering all lessons (all stages, {{jobs}} workers)"
+    @{{python}} {{framework_dir_s}}/render.py --all --jobs {{jobs}}
 
 # Render the full curriculum.md as one PDF — output: build/curriculum.pdf
 render-curriculum:
@@ -176,13 +181,13 @@ gen-binding-instructions:
 
 # Render all worksheet and reader MDs to PDFs (worksheets/ + readers/ → build/)
 render-extras:
-    @echo "==> Rendering worksheet + reader PDFs"
-    @{{python}} {{scripts_dir_s}}/render-extras.py
+    @echo "==> Rendering worksheet + reader PDFs ({{jobs}} workers)"
+    @{{python}} {{scripts_dir_s}}/render-extras.py --jobs {{jobs}}
 
 # Render reference/*.html files to PDF for printable distribution
 render-references:
-    @echo "==> Rendering reference HTMLs to PDF"
-    @{{python}} {{scripts_dir_s}}/render-references.py
+    @echo "==> Rendering reference HTMLs to PDF ({{jobs}} workers)"
+    @{{python}} {{scripts_dir_s}}/render-references.py --jobs {{jobs}}
 
 # Merge per-stage PDFs into stage-N-worksheets.pdf + stage-N-readers.pdf + stage-N.pdf
 gen-stage-pdfs:
@@ -206,12 +211,12 @@ pack-lesson lesson_id:
 # Build all 48 packs for one stage (1-5)
 pack-stage stage:
     @echo "==> Building Stage {{stage}} packs"
-    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --stage {{stage}}
+    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --stage {{stage}} --jobs {{jobs}}
 
 # Build all 248 lesson packs — output: packs/stage-N/lesson-NN-slug.pdf
 pack-all:
-    @echo "==> Building all 248 lesson packs"
-    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all
+    @echo "==> Building all 248 lesson packs ({{jobs}} workers)"
+    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all --jobs {{jobs}}
 
 # Build packs without rendering PDFs (debug the assembly logic only)
 pack-all-debug:

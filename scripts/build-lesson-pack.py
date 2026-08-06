@@ -27,6 +27,7 @@ import io
 import os
 import re
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 # Force utf-8 stdout on Windows
@@ -42,6 +43,19 @@ if sys.platform == "win32" and "WEASYPRINT_DLL_DIRECTORIES" not in os.environ:
     candidate = Path(r"C:/msys64/mingw64/bin")
     if candidate.exists():
         os.environ["WEASYPRINT_DLL_DIRECTORIES"] = str(candidate)
+
+# Build logging (file + console). Must be imported after sys.path is set.
+from framework.build_log import (
+    get_logger,
+    phase,
+    Progress,
+    WorkerLogQueue,
+    set_worker_queue,
+    attach_worker_handler,
+    drain_worker_queue,
+)
+
+log = get_logger("pack")
 LESSONS_DIR = ROOT / "lessons"
 WORKSHEETS_PG = ROOT / "worksheets" / "phonograms"
 WORKSHEETS_RULES = ROOT / "worksheets" / "rules"
@@ -425,6 +439,33 @@ def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
+def _pack_worker(lesson_id: str, no_render: bool) -> dict:
+    """Worker entry point for ProcessPoolExecutor.
+
+    Loads the catalog in the worker process (cheap — single CSV read),
+    builds one pack, returns a status dict (JSON-safe).
+    """
+    worker_log = get_logger("pack.worker")
+    attach_worker_handler(worker_log)
+    catalog = load_catalog()
+    row = next((r for r in catalog if r["lesson_id"] == lesson_id), None)
+    if row is None:
+        return {"lesson_id": lesson_id, "status": "MISSING", "missing": ["catalog row"]}
+    try:
+        out, missing, md_path = build_one_pack(row, catalog, no_render=no_render)
+    except Exception as exc:
+        worker_log.error(f"FAIL {lesson_id}: {exc}", exc_info=True)
+        return {"lesson_id": lesson_id, "status": "FAIL", "error": str(exc)}
+    target = out if out else md_path
+    target_str = str(target.relative_to(ROOT)) if target else None
+    return {
+        "lesson_id": lesson_id,
+        "status": "OK" if not missing else "WARN",
+        "target": target_str,
+        "missing": missing,
+    }
+
+
 def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_render: bool = False) -> tuple[Path | None, list[str], Path | None]:
     """Build a single lesson pack. Returns (output_pdf_path, missing_assets, combined_md_path)."""
     stage = row["stage"]
@@ -505,12 +546,10 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     temp_md.write_text(combined, encoding="utf-8")
 
     try:
-        import io as _io
-        import contextlib
         from framework.render import render_md_to_pdf
-        # Suppress render.py's "  OK ..." output — we print our own status
-        with contextlib.redirect_stdout(_io.StringIO()):
-            render_md_to_pdf(temp_md, out_pdf, doc_type="lesson")
+        # render's logger is wired to the build logger; in worker processes
+        # the log line is captured by WorkerLogHandler and drained by main.
+        render_md_to_pdf(temp_md, out_pdf, doc_type="lesson")
     except ModuleNotFoundError as e:
         missing.append(f"render unavailable: {e}")
         return None, missing, debug_md
@@ -521,43 +560,75 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     return out_pdf, missing, debug_md
 
 
+def _run_stage_parallel(rows: list[dict], no_render: bool, jobs: int, label: str) -> tuple[int, int]:
+    """Build N packs in parallel. Returns (ok_count, warn_count)."""
+    if not rows:
+        return 0, 0
+    n_workers = max(1, jobs)
+    queue = WorkerLogQueue()
+    set_worker_queue(queue)
+    log.info(f"{label}: {len(rows)} packs, {n_workers} workers")
+    ok = warn = 0
+    with Progress(label, total=len(rows)) as progress:
+        executor = ProcessPoolExecutor(max_workers=n_workers)
+        try:
+            futures = {
+                executor.submit(_pack_worker, row["lesson_id"], no_render): row
+                for row in rows
+            }
+            for fut in as_completed(futures):
+                drain_worker_queue(queue, log)
+                result = fut.result()
+                status = result.get("status", "FAIL")
+                if status == "OK":
+                    ok += 1
+                    log.info(f"  OK {result.get('target')}")
+                elif status == "WARN":
+                    warn += 1
+                    log.warning(f"  WARN {result.get('target')}: missing {', '.join(result.get('missing', []))}")
+                elif status == "MISSING":
+                    log.warning(f"  SKIP {result['lesson_id']}: missing {result.get('missing', ['?'])[0]}")
+                else:
+                    log.error(f"  FAIL {result['lesson_id']}: {result.get('error')}")
+                progress.tick()
+                drain_worker_queue(queue, log)
+        finally:
+            executor.shutdown(wait=True)
+            set_worker_queue(None)
+    log.info(f"{label}: {ok} ok, {warn} with warnings")
+    return ok, warn
+
+
 def cmd_lesson(lesson_id: str, catalog: list[dict], no_render: bool = False):
     row = next((r for r in catalog if r["lesson_id"] == lesson_id), None)
     if not row:
-        print(f"Error: lesson_id not found in catalog: {lesson_id}")
+        log.error(f"lesson_id not found in catalog: {lesson_id}")
         sys.exit(1)
     out, missing, md_path = build_one_pack(row, catalog, no_render=no_render)
     if out is None and md_path is None:
-        print(f"  SKIP {lesson_id}: missing lesson MD")
+        log.warning(f"SKIP {lesson_id}: missing lesson MD")
         return
     target = out if out else md_path
-    status = "OK" if not missing else f"WARN (missing: {', '.join(missing)})"
-    print(f"  {status} {target.relative_to(ROOT)}")
+    if missing:
+        log.warning(f"WARN {target.relative_to(ROOT)}: missing {', '.join(missing)}")
+    else:
+        log.info(f"OK {target.relative_to(ROOT)}")
 
 
-def cmd_stage(stage: int, bundle: bool, catalog: list[dict], no_render: bool = False):
+def cmd_stage(stage: int, bundle: bool, catalog: list[dict], no_render: bool = False, jobs: int = 1):
+    phase(f"Pack Stage {stage}")
     rows = [r for r in catalog if int(r["stage"]) == stage]
-    print(f"Building Stage {stage} packs: {len(rows)} lessons")
-    n_ok = n_warn = 0
-    for row in rows:
-        out, missing, md_path = build_one_pack(row, catalog, no_render=no_render)
-        if out is None and md_path is None:
-            print(f"  SKIP {row['lesson_id']}: missing lesson MD")
-            continue
-        if missing:
-            n_warn += 1
-            target = out if out else md_path
-            print(f"  WARN {target.relative_to(ROOT)}: missing {', '.join(missing)}")
-        else:
-            n_ok += 1
-    print(f"Done: {n_ok} clean, {n_warn} with warnings")
+    log.info(f"Building Stage {stage} packs: {len(rows)} lessons")
+    ok, warn = _run_stage_parallel(rows, no_render, jobs, f"pack-stage-{stage}")
     if bundle:
-        print("(bundle mode not yet implemented — render per-lesson packs only)")
+        log.warning("(bundle mode not yet implemented — render per-lesson packs only)")
 
 
-def cmd_all(catalog: list[dict], no_render: bool = False):
-    for stage in range(1, 6):
-        cmd_stage(stage, False, catalog, no_render=no_render)
+def cmd_all(catalog: list[dict], no_render: bool = False, jobs: int = 1):
+    phase("Pack All Lessons")
+    rows = list(catalog)
+    log.info(f"Building all {len(rows)} packs")
+    _run_stage_parallel(rows, no_render, jobs, "pack-all")
 
 
 def main():
@@ -567,6 +638,10 @@ def main():
     parser.add_argument("--all", action="store_true", help="Build all 248 packs")
     parser.add_argument("--bundle", action="store_true", help="(Future) merge all stage packs into one PDF")
     parser.add_argument("--no-render", action="store_true", help="Skip PDF rendering (test pack assembly only)")
+    parser.add_argument(
+        "--jobs", "-j", type=int, default=1,
+        help="Parallel worker processes (default: 1 = serial). Stage/all only.",
+    )
     args = parser.parse_args()
 
     PACKS_DIR.mkdir(parents=True, exist_ok=True)
@@ -575,9 +650,9 @@ def main():
     if args.lesson:
         cmd_lesson(args.lesson, catalog, no_render=args.no_render)
     elif args.stage:
-        cmd_stage(args.stage, args.bundle, catalog, no_render=args.no_render)
+        cmd_stage(args.stage, args.bundle, catalog, no_render=args.no_render, jobs=args.jobs)
     elif args.all:
-        cmd_all(catalog, no_render=args.no_render)
+        cmd_all(catalog, no_render=args.no_render, jobs=args.jobs)
     else:
         parser.print_help()
 

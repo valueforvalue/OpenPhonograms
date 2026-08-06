@@ -10,6 +10,7 @@ Usage:
     python render.py --stage 2
     python render.py --all
     python render.py --curriculum
+    python render.py --stage 2 --jobs 4          # parallel render
 
 Output:
     Same directory as source, with .pdf extension.
@@ -20,10 +21,25 @@ import argparse
 import csv
 import os
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 import markdown
 from weasyprint import HTML, CSS
+
+# Ensure framework package is importable when called as `python render.py`
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_log import (
+    get_logger,
+    phase,
+    Progress,
+    WorkerLogQueue,
+    set_worker_queue,
+    attach_worker_handler,
+    drain_worker_queue,
+)
+
+log = get_logger("render")
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -496,7 +512,20 @@ def _stage_from_path(md_path: Path) -> int | None:
 
 
 def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson"):
-    """Render a single markdown file to PDF."""
+    """Render a single markdown file to PDF.
+
+    Safe to call from a worker process — imports are lazy, no shared state.
+
+    Args:
+        md_path: Path to the markdown source.
+        output_path: Path where the PDF will be written.
+        doc_type: 'lesson' (default), 'worksheet', or 'reader' — selects
+            page sizing + body class.
+    """
+    # Lazy weasyprint import: this is expensive (~1-2s) and we only want
+    # to pay the cost when actually rendering, not at module import time.
+    from weasyprint import HTML
+
     md_text = md_path.read_text(encoding="utf-8")
     body_html = md_to_html(md_text, md_path)
 
@@ -530,7 +559,23 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
         rel = output_path.relative_to(PROJECT_ROOT)
     except ValueError:
         rel = output_path  # outside project tree (e.g. tests)
-    print(f"  OK {rel}")
+    log.info(f"  OK {rel}")
+
+
+def _render_worker(md_path_str: str, output_path_str: str, doc_type: str) -> str:
+    """Worker entry point for ProcessPoolExecutor.
+
+    Takes only strings (Path objects don't pickle cleanly across processes
+    on Windows spawn). Returns the relative output path on success.
+    """
+    worker_log = get_logger("render.worker")
+    attach_worker_handler(worker_log)
+    try:
+        render_md_to_pdf(Path(md_path_str), Path(output_path_str), doc_type)
+        return output_path_str
+    except Exception as exc:
+        worker_log.error(f"FAIL {md_path_str}: {exc}", exc_info=True)
+        raise
 
 
 def get_lessons_for_stage(stage: int) -> list[dict]:
@@ -551,7 +596,7 @@ def get_lessons_for_stage(stage: int) -> list[dict]:
 def cmd_render_single(md_path_str: str):
     md_path = Path(md_path_str).resolve()
     if not md_path.exists():
-        print(f"Error: file not found: {md_path}")
+        log.error(f"file not found: {md_path}")
         sys.exit(1)
     output_path = md_path.with_suffix(".pdf")
     # Detect type
@@ -560,33 +605,96 @@ def cmd_render_single(md_path_str: str):
         doc_type = "worksheet"
     elif "readers" in str(md_path):
         doc_type = "reader"
-    print(f"Rendering: {md_path.relative_to(PROJECT_ROOT)}")
+    log.info(f"Rendering: {md_path}")
     render_md_to_pdf(md_path, output_path, doc_type)
 
 
-def cmd_render_stage(stage: int):
-    lessons = get_lessons_for_stage(stage)
-    print(f"Rendering Stage {stage}: {len(lessons)} lessons")
-    for lesson in lessons:
-        lesson_id = lesson["lesson_id"]
-        stage_dir = LESSONS_DIR / f"stage-{stage}"
-        md_path = stage_dir / f"{lesson_id}.md"
-        if md_path.exists():
-            output_path = BUILD_DIR / f"stage-{stage}" / f"{lesson_id}.pdf"
-            render_md_to_pdf(md_path, output_path)
-        else:
-            print(f"  MISSING: {md_path.relative_to(PROJECT_ROOT)} (run generate.py first)")
+def _collect_render_jobs(stage: int | None = None) -> list[tuple[Path, Path, str]]:
+    """Enumerate (md_path, pdf_path, doc_type) for the requested scope.
+
+    For stage=all (stage=None), iterate all 5 stages. Missing MDs are skipped
+    with a logged warning — caller decides whether to fail.
+    """
+    jobs: list[tuple[Path, Path, str]] = []
+    stages = range(stage, stage + 1) if stage else range(1, 6)
+    for s in stages:
+        for lesson in get_lessons_for_stage(s):
+            md_path = LESSONS_DIR / f"stage-{s}" / f"{lesson['lesson_id']}.md"
+            if not md_path.exists():
+                log.warning(f"MISSING: {md_path.relative_to(PROJECT_ROOT)} (run generate.py first)")
+                continue
+            pdf_path = BUILD_DIR / f"stage-{s}" / f"{lesson['lesson_id']}.pdf"
+            jobs.append((md_path, pdf_path, "lesson"))
+    return jobs
 
 
-def cmd_render_all():
-    for stage in range(1, 6):
-        cmd_render_stage(stage)
+def _run_parallel_jobs(
+    jobs: list[tuple[Path, Path, str]],
+    jobs_arg: int,
+    label: str,
+) -> tuple[int, int]:
+    """Dispatch jobs to a process pool. Returns (ok_count, fail_count)."""
+    if not jobs:
+        return 0, 0
+
+    n_workers = max(1, jobs_arg)
+    queue = WorkerLogQueue()
+    set_worker_queue(queue)
+
+    log.info(f"{label}: {len(jobs)} files, {n_workers} workers")
+    ok = 0
+    fail = 0
+
+    with Progress(label, total=len(jobs)) as progress:
+        # spawn is required on Windows; default is fine on Linux/macOS.
+        executor = ProcessPoolExecutor(max_workers=n_workers)
+        try:
+            futures = {
+                executor.submit(_render_worker, str(md), str(pdf), dtype): (md, pdf)
+                for md, pdf, dtype in jobs
+            }
+            for fut in as_completed(futures):
+                drain_worker_queue(queue, log)
+                md, _pdf = futures[fut]
+                try:
+                    fut.result()
+                    ok += 1
+                except Exception as exc:
+                    log.error(f"FAIL {md}: {exc}")
+                    fail += 1
+                progress.tick()
+                drain_worker_queue(queue, log)
+        finally:
+            executor.shutdown(wait=True)
+            set_worker_queue(None)
+
+    log.info(f"{label}: {ok} ok, {fail} failed")
+    return ok, fail
+
+
+def cmd_render_stage(stage: int, jobs: int = 1):
+    phase(f"Render Stage {stage}")
+    jobs_list = _collect_render_jobs(stage)
+    log.info(f"Rendering Stage {stage}: {len(jobs_list)} lessons")
+    ok, fail = _run_parallel_jobs(jobs_list, jobs, f"render-stage-{stage}")
+    if fail:
+        sys.exit(1)
+
+
+def cmd_render_all(jobs: int = 1):
+    phase("Render All Lessons")
+    jobs_list = _collect_render_jobs()
+    log.info(f"Rendering all {len(jobs_list)} lessons")
+    ok, fail = _run_parallel_jobs(jobs_list, jobs, "render-all")
+    if fail:
+        sys.exit(1)
 
 
 def cmd_render_curriculum():
+    phase("Render Curriculum")
     md_path = PROJECT_ROOT / "curriculum.md"
     output_path = BUILD_DIR / "curriculum.pdf"
-    print(f"Rendering full curriculum...")
+    log.info("Rendering full curriculum...")
     render_md_to_pdf(md_path, output_path)
 
 
@@ -600,14 +708,18 @@ def main():
     parser.add_argument("--stage", type=int, choices=[1, 2, 3, 4, 5], help="Render all lessons in a stage")
     parser.add_argument("--all", action="store_true", help="Render all lessons (all stages)")
     parser.add_argument("--curriculum", action="store_true", help="Render curriculum.md to PDF")
+    parser.add_argument(
+        "--jobs", "-j", type=int, default=1,
+        help="Parallel worker processes (default: 1 = serial). Stage/all only.",
+    )
     args = parser.parse_args()
 
     if args.file:
         cmd_render_single(args.file)
     elif args.stage:
-        cmd_render_stage(args.stage)
+        cmd_render_stage(args.stage, jobs=args.jobs)
     elif args.all:
-        cmd_render_all()
+        cmd_render_all(jobs=args.jobs)
     elif args.curriculum:
         cmd_render_curriculum()
     else:

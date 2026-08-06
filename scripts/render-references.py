@@ -14,10 +14,12 @@ a browser.
 Usage:
     python scripts/render-references.py
     python scripts/render-references.py --html diacritical-legend.html
+    python scripts/render-references.py --jobs 4
 """
 import argparse
 import io
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -27,11 +29,13 @@ REF_DIR = ROOT / "reference"
 ASSETS = ROOT / "assets"
 BUILD = ROOT / "build" / "handbook"
 
-try:
-    from weasyprint import HTML
-except ImportError:
-    print("Error: weasyprint not installed. Install with: pip install weasyprint")
-    sys.exit(2)
+sys.path.insert(0, str(ROOT))
+from framework.build_log import (
+    get_logger, phase, Progress, WorkerLogQueue,
+    set_worker_queue, drain_worker_queue, attach_worker_handler,
+)
+
+log = get_logger("render-references")
 
 # Atkinson Hyperlegible @font-face — mirrors framework/render.py PAGE_CSS
 # so reference PDFs match lesson PDFs in typography.
@@ -62,6 +66,7 @@ _FONT_FACE_CSS = """
 def render_html(html_path: Path, out_path: Path) -> bool:
     """Render a single HTML reference to PDF. Returns True on success."""
     try:
+        from weasyprint import HTML
         html_text = html_path.read_text(encoding="utf-8")
         # Inject font @font-face right after <style> or before </head>
         # so WeasyPrint embeds Atkinson Hyperlegible.
@@ -77,33 +82,89 @@ def render_html(html_path: Path, out_path: Path) -> bool:
              base_url=str(REF_DIR) + "/").write_pdf(str(out_path))
         return True
     except Exception as e:
-        print(f"  FAIL {html_path.name}: {e}")
+        log.error(f"FAIL {html_path.name}: {e}")
         return False
+
+
+def _ref_worker(html_path_str: str, out_path_str: str) -> str:
+    """Worker entry point for ProcessPoolExecutor."""
+    worker_log = get_logger("render-references.worker")
+    attach_worker_handler(worker_log)
+    try:
+        render_html(Path(html_path_str), Path(out_path_str))
+        return out_path_str
+    except Exception as exc:
+        worker_log.error(f"FAIL {html_path_str}: {exc}", exc_info=True)
+        raise
 
 
 def main():
     parser = argparse.ArgumentParser(description="Render reference HTMLs to PDF")
     parser.add_argument("--html", help="Render only this file (e.g. glossary.html)")
+    parser.add_argument("--jobs", "-j", type=int, default=1, help="Parallel worker processes (default: 1)")
     args = parser.parse_args()
 
+    try:
+        from weasyprint import HTML  # noqa: F401  -- eager check
+    except ImportError:
+        log.error("weasyprint not installed. Install with: pip install weasyprint")
+        sys.exit(2)
+
+    phase("Render Reference HTMLs")
     BUILD.mkdir(parents=True, exist_ok=True)
     targets = [REF_DIR / args.html] if args.html else sorted(REF_DIR.glob("*.html"))
 
     if not targets:
-        print(f"No HTML files found in {REF_DIR}")
+        log.info(f"No HTML files found in {REF_DIR}")
+        return
+
+    # Filter + materialize jobs up-front
+    jobs: list[tuple[Path, Path]] = []
+    for html in targets:
+        if not html.exists():
+            log.warning(f"MISSING: {html.name}")
+            continue
+        jobs.append((html, BUILD / (html.stem + ".pdf")))
+
+    if not jobs:
+        log.info("nothing to render")
         return
 
     ok = 0
-    for html in targets:
-        if not html.exists():
-            print(f"  MISSING: {html.name}")
-            continue
-        out = BUILD / (html.stem + ".pdf")
-        if render_html(html, out):
-            ok += 1
-            print(f"  OK  {out.relative_to(ROOT)}")
+    fail = 0
+    if args.jobs > 1:
+        queue = WorkerLogQueue()
+        set_worker_queue(queue)
+        workers = max(1, args.jobs)
+        log.info(f"render-references: {len(jobs)} files, {workers} workers")
+        with Progress("render-references", total=len(jobs)) as progress:
+            executor = ProcessPoolExecutor(max_workers=workers)
+            try:
+                futures = [
+                    executor.submit(_ref_worker, str(html), str(pdf))
+                    for html, pdf in jobs
+                ]
+                for fut in as_completed(futures):
+                    drain_worker_queue(queue, log)
+                    try:
+                        fut.result()
+                        ok += 1
+                    except Exception as exc:
+                        log.error(f"FAIL: {exc}")
+                        fail += 1
+                    progress.tick()
+                    drain_worker_queue(queue, log)
+            finally:
+                executor.shutdown(wait=True)
+                set_worker_queue(None)
+    else:
+        for html, pdf in jobs:
+            if render_html(html, pdf):
+                ok += 1
+            else:
+                fail += 1
 
-    print(f"\nRendered {ok}/{len(targets)} reference PDFs")
+    log.info(f"rendered {ok}/{len(jobs)} reference PDFs (fail={fail})")
 
 
 if __name__ == "__main__":
