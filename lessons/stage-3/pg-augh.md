@@ -66,7 +66,7 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram augh — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram augh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -91,7 +91,3 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram augh — it says /ä/ /ăf/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

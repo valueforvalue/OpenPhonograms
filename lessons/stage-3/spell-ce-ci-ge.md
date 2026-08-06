@@ -53,7 +53,3 @@ Today we practice spelling words where C says /s/ and G says /j/.
 ---
 
 *Practice at home: Find words with ce, ci, ge, gi in a book.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

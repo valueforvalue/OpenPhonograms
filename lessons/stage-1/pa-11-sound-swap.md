@@ -64,7 +64,3 @@ Word ladder game: Each step change one sound. Adult starts with 'cat.' Child cha
 ---
 
 *Practice at home: Play 'Sound Swap' in the car. Start with any 3-sound word and see how many new words you can make!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

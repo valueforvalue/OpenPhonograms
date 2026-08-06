@@ -63,7 +63,3 @@ Can you say ALL 6 phonograms from Group 2 with their sounds in under 30 seconds?
 ---
 
 *Practice at home: Play the "Phonogram Hunt" game with a family member!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

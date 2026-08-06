@@ -103,7 +103,3 @@ Can you say ALL 26 phonograms from Group ALL with their sounds in under 30 secon
 ---
 
 *Practice at home: Play the "Phonogram Hunt" game with a family member!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

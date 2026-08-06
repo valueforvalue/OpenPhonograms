@@ -72,7 +72,3 @@ We'll learn ALL of these in Stage 3!
 ---
 
 *Practice at home: Find 5 words with long vowels in a book.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

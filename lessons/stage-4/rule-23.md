@@ -68,7 +68,3 @@ I already ate. Although it is late, I always read. I also almost finished!
 ---
 
 *Practice at home: Find AL- words in a book. Write them and circle the one-L prefix.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

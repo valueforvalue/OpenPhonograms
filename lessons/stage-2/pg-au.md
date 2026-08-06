@@ -85,7 +85,7 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram au — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram au — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

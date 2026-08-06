@@ -77,7 +77,3 @@ Find a synonym AND an antonym for each:
 ---
 
 *Practice at home: Find 5 synonym pairs and 5 antonym pairs in a book.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

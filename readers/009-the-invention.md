@@ -279,7 +279,3 @@ Chen said. "An invention is a solution to a problem. And the best inventions hel
 ---
 
 **Phonograms used:** all + morphology focus
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

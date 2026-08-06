@@ -112,5 +112,3 @@ The End.
 ---
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

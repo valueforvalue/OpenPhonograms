@@ -85,7 +85,7 @@ rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ai — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ai — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ai — it says /ā/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

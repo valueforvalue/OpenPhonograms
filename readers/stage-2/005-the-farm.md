@@ -283,7 +283,3 @@ THUD! The roof is fixed.
 ---
 
 **Phonograms used:** oa, ear + all previous
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

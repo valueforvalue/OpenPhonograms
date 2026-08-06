@@ -65,7 +65,7 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram dge — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram dge — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -90,7 +90,3 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram dge — it says /j/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

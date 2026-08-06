@@ -85,7 +85,7 @@ light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram igh — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram igh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ light &nbsp;&nbsp; night &nbsp;&nbsp; right
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram igh — it says /ī/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

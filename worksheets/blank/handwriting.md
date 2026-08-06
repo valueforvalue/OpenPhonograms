@@ -26,7 +26,3 @@ _______________ &nbsp;&nbsp; _______________ &nbsp;&nbsp; _______________
 ---
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -62,7 +62,3 @@ Be a buzzing bee! Fly around the room saying /z/ /z/ /z/. Then be a quiet snake 
 ---
 
 *Practice at home: Play 'Voice On, Voice Off' with a family member at dinner.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

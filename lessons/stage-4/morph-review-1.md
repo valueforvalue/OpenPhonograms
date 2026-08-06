@@ -52,7 +52,3 @@ redo (do again), untie (opposite of tie), prepay (pay before), submarine (under 
 ---
 
 *Practice at home: Review your morpheme wall!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

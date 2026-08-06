@@ -83,7 +83,7 @@ sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ng — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ng — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ng — it says /ng/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

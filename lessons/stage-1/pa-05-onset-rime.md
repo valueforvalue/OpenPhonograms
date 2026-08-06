@@ -68,7 +68,3 @@ Stand in a circle (or just stand up). Adult says an /at/ word. Everyone hops! Ad
 ---
 
 *Practice at home: Play 'Mystery Word' in the car. Adult says /p/ ... /ark/ and child guesses 'park!'*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

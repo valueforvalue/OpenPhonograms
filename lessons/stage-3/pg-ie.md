@@ -64,7 +64,7 @@ IE has two sounds: /ē/ (most common, as in 'field') and /ī/ (at the end of wor
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ie — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ie — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -89,7 +89,3 @@ IE has two sounds: /ē/ (most common, as in 'field') and /ī/ (at the end of wor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ie — it says /ē/ /ī/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

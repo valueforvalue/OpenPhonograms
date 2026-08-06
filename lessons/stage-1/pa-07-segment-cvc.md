@@ -69,7 +69,3 @@ Be a robot! Adult says a word. Child walks like a robot, saying one sound per st
 ---
 
 *Practice at home: At dinner, everyone segments a word from the meal: /m/ /ĭ/ /l/ /k/ → milk!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

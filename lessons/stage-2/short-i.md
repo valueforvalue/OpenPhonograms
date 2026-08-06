@@ -88,7 +88,3 @@ Adult reads these sentences aloud. Child writes them.
 *Practice at home: Find 5 things in your house with the short /ĭ/ sound.*
 
 
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

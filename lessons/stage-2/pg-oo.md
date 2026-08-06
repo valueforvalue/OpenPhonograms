@@ -85,7 +85,7 @@ book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram oo — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram oo — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oo — it says /ö/ /ü/ /ō/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

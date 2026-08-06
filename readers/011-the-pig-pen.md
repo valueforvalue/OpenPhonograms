@@ -191,7 +191,3 @@ Being in the pen is fun. Having pals is better.
 ---
 
 **Phonograms used:** pig pen mud big dig fun run jump the
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

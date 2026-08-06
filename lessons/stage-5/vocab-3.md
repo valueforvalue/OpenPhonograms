@@ -69,7 +69,3 @@ Name the relationship for each pair:
 ---
 
 *Practice at home: Find 5 word pairs in a book and name their relationship.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

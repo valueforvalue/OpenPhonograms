@@ -66,7 +66,3 @@ Fill in the blanks with a **geo** word:
 ---
 
 *Practice at home: Find 3 words with **geo** in a book. Write each and its meaning.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

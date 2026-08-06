@@ -261,7 +261,3 @@ But he ran his best race. And that is enough.
 ---
 
 **Phonograms used:** horse fast race more before ride time make take came
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -46,7 +46,3 @@ For each word: (1) Say it normally, (2) identify the schwa syllable, (3) say-to-
 ---
 
 *Practice at home: Pick your 3 hardest schwa words. Write each one 5 times with say-to-spell.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

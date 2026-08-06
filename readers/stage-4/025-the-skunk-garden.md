@@ -183,7 +183,3 @@ She patrols at dusk, keeping the smaller creatures safe. Her secret power, once 
 ---
 
 **Phonograms used:** skunk garden protection powerful dangerous respect distance nature creature understand
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

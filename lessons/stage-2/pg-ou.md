@@ -86,7 +86,7 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ou — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ou — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -111,7 +111,3 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

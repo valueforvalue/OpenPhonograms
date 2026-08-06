@@ -219,7 +219,3 @@ She was never meant to blend in. She was meant to shine.
 ---
 
 **Phonograms used:** whale white when whole while deep sea great shine bright
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

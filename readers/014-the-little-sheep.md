@@ -175,7 +175,3 @@ Friends are what he did need.
 ---
 
 **Phonograms used:** sheep little green see keep sleep deep feel need tree
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

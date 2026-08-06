@@ -65,7 +65,7 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram eigh — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram eigh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -90,7 +90,3 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram eigh — it says /ā/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -41,7 +41,3 @@ Spell these words from dictation. Name the root in each:
 ---
 
 *Practice at home: Review all 13 Greek roots flashcards!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

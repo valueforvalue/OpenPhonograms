@@ -190,5 +190,3 @@ Use a word with **sh** in a new sentence:
 ---
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

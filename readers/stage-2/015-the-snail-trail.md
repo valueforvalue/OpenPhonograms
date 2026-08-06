@@ -225,7 +225,3 @@ He just goes, slow and steady, every day. At last, Snappy gets to the garden. Th
 ---
 
 **Phonograms used:** snail trail rain sail wait slow day stay play way
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

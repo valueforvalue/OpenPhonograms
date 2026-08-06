@@ -57,7 +57,3 @@ Write each word. Say the say-to-spell version aloud as you write.
 ---
 
 *Practice at home: Find 5 schwa words in a book. Write the say-to-spell version for each.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

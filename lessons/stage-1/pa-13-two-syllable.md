@@ -66,7 +66,3 @@ Clap and blend! Adult says a two-syllable word. Child claps once per syllable, t
 ---
 
 *Practice at home: Practice two-syllable blending with animal names: ti-ger, ze-bra, pan-da, mon-key.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

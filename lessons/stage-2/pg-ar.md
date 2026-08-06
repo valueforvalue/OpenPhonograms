@@ -83,7 +83,7 @@ car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ar — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ar — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ar — it says /är/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

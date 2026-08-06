@@ -70,7 +70,3 @@ Adult says a word. If it ends with /t/, child touches their TOES. If it ends wit
 ---
 
 *Practice at home: On a walk, play: 'I see a tree. What's the last sound in tree?'*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

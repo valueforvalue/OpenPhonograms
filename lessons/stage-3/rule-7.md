@@ -79,7 +79,7 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 
 
 <details class="teacher-script">
-<summary>📖 Rule 7 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 7 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 7: **I and Y May Say /ē/**."
 
@@ -100,7 +100,3 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

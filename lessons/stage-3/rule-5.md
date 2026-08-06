@@ -79,7 +79,7 @@ i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 
 
 <details class="teacher-script">
-<summary>📖 Rule 5 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 5 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 5: **I and Y at End of Syllable**."
 
@@ -100,7 +100,3 @@ i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

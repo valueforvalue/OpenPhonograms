@@ -74,7 +74,3 @@ The babies cried. I carried the bag. Happiness is the funniest thing!
 ---
 
 *Practice at home: Write the -es, -ed, and -ing forms of 'cry' and 'try.'*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

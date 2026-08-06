@@ -69,7 +69,3 @@ The babies are happy. She cries and cries. True happiness is beautiful. I carrie
 ---
 
 *Practice at home: Find 5 words where Y changed to I. Write the base word and the new form.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

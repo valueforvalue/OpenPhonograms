@@ -78,7 +78,7 @@ Read these words sound by sound:
 
 
 <details class="teacher-script">
-<summary>📖 Rule 20 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 20 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 20: **Three Sounds of -ED**."
 
@@ -99,7 +99,3 @@ Read these words sound by sound:
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

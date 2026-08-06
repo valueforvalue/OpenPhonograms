@@ -65,7 +65,7 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ei — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ei — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -90,7 +90,3 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ei — it says /ē/ /ā/ /ī/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

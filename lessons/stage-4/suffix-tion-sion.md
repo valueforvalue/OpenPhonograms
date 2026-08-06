@@ -70,7 +70,3 @@ Write each word. Underline the Suffix. Say the meaning aloud.
 ---
 
 *Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

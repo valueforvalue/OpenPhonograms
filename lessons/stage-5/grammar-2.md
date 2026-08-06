@@ -56,7 +56,3 @@ Write 3 sentences that follow today's grammar pattern:
 ---
 
 *Practice at home: Find one of each sentence type in a book. Write them down!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -83,7 +83,7 @@ hurt &nbsp;&nbsp; turn &nbsp;&nbsp; burn
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ur — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ur — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ hurt &nbsp;&nbsp; turn &nbsp;&nbsp; burn
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ur — it says /er/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

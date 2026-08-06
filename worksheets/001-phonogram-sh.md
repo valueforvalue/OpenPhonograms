@@ -79,5 +79,3 @@ Write one sentence using a word that contains **sh**.
 ---
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

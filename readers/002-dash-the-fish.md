@@ -313,7 +313,3 @@ He sits in the sun. Dash is a smart fish.
 ---
 
 **Phonograms used:** sh, th, ck + all single-letter
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

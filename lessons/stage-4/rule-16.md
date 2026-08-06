@@ -67,7 +67,3 @@ The baby is crying. A bird is flying. I am studying my rules. Keep trying!
 ---
 
 *Practice at home: Write the -ing forms of: cry, try, fly, study, carry. Explain why the Y stays.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

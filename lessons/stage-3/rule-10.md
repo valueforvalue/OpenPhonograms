@@ -79,7 +79,7 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 
 
 <details class="teacher-script">
-<summary>📖 Rule 10 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 10 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 10: **A Says /ä/**."
 
@@ -100,7 +100,3 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -225,7 +225,3 @@ The mat is soft. And being pals is the best fun of all.
 ---
 
 **Phonograms used:** cat dog sit run big fun the and see
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

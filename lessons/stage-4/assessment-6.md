@@ -102,7 +102,3 @@ If ≥85%: Continue. If weaker, review trouble spots for 1 week and retest.
 ---
 
 *Almost done with all 75 phonograms and 31 rules!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

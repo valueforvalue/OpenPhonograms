@@ -255,7 +255,3 @@ Then they go in for milk.
 ---
 
 **Phonograms used:** oi, oy, ai, ay + all previous
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

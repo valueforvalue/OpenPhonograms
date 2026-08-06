@@ -285,7 +285,3 @@ The old man is so happy. He gives Meg and Tom each a coin.
 ---
 
 **Phonograms used:** dge, tch, kn, gn, wr + all previous
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

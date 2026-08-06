@@ -85,7 +85,7 @@ boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram oy — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram oy — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oy — it says /oi/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

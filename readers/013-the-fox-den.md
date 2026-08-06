@@ -235,7 +235,3 @@ Being safe in his den is fine.
 ---
 
 **Phonograms used:** fox den red run fast big log sit the his
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

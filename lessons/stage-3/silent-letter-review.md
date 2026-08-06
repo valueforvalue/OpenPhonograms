@@ -51,7 +51,3 @@ Spell these words from dictation:
 ---
 
 *Practice at home: Write each kn/gn/wr word 3 times!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

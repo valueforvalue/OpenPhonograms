@@ -82,7 +82,3 @@ If you try to spell 'about' by sound, you might write 'ubout' — because schwa 
 ---
 
 *Practice at home: Find 5 schwa words in a book. Say each one normally, then say-to-spell.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

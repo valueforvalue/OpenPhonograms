@@ -61,7 +61,3 @@ TI says /sh/ when followed by another vowel (most often -tion). The T and I work
 ---
 
 *Practice at home: Find 5 words with -tion in a book!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

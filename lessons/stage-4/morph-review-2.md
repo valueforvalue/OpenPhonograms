@@ -56,7 +56,3 @@ teacher (one who teaches), collection (act of collecting), readable (able to be 
 ---
 
 *Practice at home: Review your morpheme wall!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

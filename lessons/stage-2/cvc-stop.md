@@ -78,7 +78,3 @@ Read these sentences:
 *Practice at home: Build 3 words from today's pattern on your whiteboard.*
 
 
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

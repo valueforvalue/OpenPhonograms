@@ -85,7 +85,3 @@ Adult reads these sentences. Child writes them.
 ---
 
 *Practice at home: Find today's words in a book. Write each one and underline the tricky phonograms.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

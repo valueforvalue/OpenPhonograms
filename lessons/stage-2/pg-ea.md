@@ -85,7 +85,7 @@ eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ea — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ea — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ea — it says /ē/ /ĕ/ /ā/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -71,7 +71,3 @@ Some irregular verbs follow patterns:
 ---
 
 *Practice at home: Write 5 sentences using today's irregular past tense verbs.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

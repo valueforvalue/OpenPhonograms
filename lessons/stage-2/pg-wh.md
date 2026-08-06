@@ -83,7 +83,7 @@ when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram wh — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram wh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ when &nbsp;&nbsp; which &nbsp;&nbsp; white
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wh — it says /hw/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

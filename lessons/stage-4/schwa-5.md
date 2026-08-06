@@ -80,7 +80,3 @@ Most of these words end in -ar or -or, and the ending syllable is unstressed. Th
 ---
 
 *Practice at home: Find words ending in -ar and -or. Does the ending say /er/?*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

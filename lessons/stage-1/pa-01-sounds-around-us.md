@@ -63,7 +63,3 @@ Stand up and be a sound machine! Adult names an animal. Child makes its sound. S
 ---
 
 *Practice at home: Close your eyes before bed tonight. Name 5 sounds you hear.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

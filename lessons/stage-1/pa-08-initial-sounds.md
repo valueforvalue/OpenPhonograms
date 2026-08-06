@@ -72,7 +72,3 @@ Scavenger hunt! Find something in the room that starts with /b/ (book?), /k/ (cu
 ---
 
 *Practice at home: Play 'I Spy' with sounds! 'I spy something that starts with /b/...'*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -70,7 +70,7 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ough — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ough — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -95,7 +95,3 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ough — it says /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

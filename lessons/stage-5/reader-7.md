@@ -63,7 +63,3 @@ The End.
 ---
 
 *Practice at home: Read this aloud to your family!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

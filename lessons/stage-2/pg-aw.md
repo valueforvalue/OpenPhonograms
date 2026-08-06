@@ -85,7 +85,7 @@ saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram aw — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram aw — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram aw — it says /ä/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

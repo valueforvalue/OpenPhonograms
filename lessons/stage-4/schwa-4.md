@@ -78,7 +78,3 @@ Remember: rules describe patterns, not absolute laws. O before TH/M/N/V OFTEN sa
 ---
 
 *Practice at home: Find words with O→/ŭ/: love, mother, some, done, above, cover.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

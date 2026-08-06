@@ -63,7 +63,3 @@ Spell these words from dictation. Take your time — sound each one out.
 *Practice at home: Play "Which One Wins?" with a family member!*
 
 
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

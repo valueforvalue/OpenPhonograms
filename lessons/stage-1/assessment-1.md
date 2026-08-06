@@ -138,7 +138,3 @@ If all sections pass: Move to Stage 2! If any section is weak, return to those l
 ---
 
 *You completed Stage 1! Celebrate with a special reading together.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

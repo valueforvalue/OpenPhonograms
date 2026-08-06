@@ -68,7 +68,3 @@ The dog is running and hopping. I am swimming and getting tired. Stop cutting th
 ---
 
 *Practice at home: Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

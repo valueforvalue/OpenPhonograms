@@ -63,7 +63,3 @@ And it all started with careful observation and patient inspection of the smalle
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

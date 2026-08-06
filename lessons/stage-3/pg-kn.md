@@ -63,7 +63,7 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram kn — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram kn — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -88,7 +88,3 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram kn — it says /n/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

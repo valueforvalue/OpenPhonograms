@@ -79,7 +79,7 @@ by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 
 
 <details class="teacher-script">
-<summary>📖 Rule 6 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 6 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 6: **Y Says /ī/ at End of One-Syllable Word**."
 
@@ -100,7 +100,3 @@ by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

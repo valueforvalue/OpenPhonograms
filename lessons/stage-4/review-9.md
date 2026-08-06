@@ -39,7 +39,3 @@ Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?
 ---
 
 *Practice at home: Review all Stage 4 flashcards!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

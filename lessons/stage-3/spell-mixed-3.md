@@ -56,7 +56,3 @@ Today we practice ALL the spelling skills from Stage 3: silent E, new phonograms
 ---
 
 *Practice at home: Choose 3 words from today. Write each one 3 times.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

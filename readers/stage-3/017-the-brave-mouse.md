@@ -211,7 +211,3 @@ From that night on, Milo is not scared of the dark. He knows he can be brave whe
 ---
 
 **Phonograms used:** mouse house brave cake make take time ride home safe
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

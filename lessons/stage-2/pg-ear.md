@@ -83,7 +83,7 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ear — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ear — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ear — it says /er/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

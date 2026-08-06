@@ -65,7 +65,3 @@ Use each word in a sentence about spelling or reading:
 ---
 
 *Practice at home: Find 3 Tier 2 words in a book. Write them and their meanings.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

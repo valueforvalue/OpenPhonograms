@@ -65,7 +65,3 @@ Build each fragment into a complete sentence with details:
 ---
 
 *Practice at home: Write 5 complete sentences about your day. Add details to each one!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

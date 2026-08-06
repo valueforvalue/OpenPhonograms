@@ -98,7 +98,7 @@ Write each letter once. Say its sounds as you write.
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram u — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram u — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -123,7 +123,3 @@ Write each letter once. Say its sounds as you write.
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram u — it says /ŭ/ /ū/ /ö/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

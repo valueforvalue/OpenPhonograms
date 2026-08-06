@@ -97,7 +97,3 @@ Three of Y's four sounds are vowels!
 ---
 
 *Practice at home: Find 5 things in the house. Say their names. Count the vowels in each word!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -69,7 +69,3 @@ Blend-freeze! Adult says words. If the word starts with a blend, child FREEZES l
 ---
 
 *Practice at home: Look in a book. Find 3 words that start with a consonant blend.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

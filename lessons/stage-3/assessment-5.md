@@ -131,7 +131,3 @@ If ≥85%: Move to Stage 4! If weaker, review specific trouble areas and retest 
 ---
 
 *Great work! You're more than halfway through learning all 75 phonograms!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

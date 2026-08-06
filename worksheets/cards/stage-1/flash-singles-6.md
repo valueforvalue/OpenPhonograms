@@ -26,7 +26,3 @@ Cut along the dotted lines. Practice daily!
 
 **Instructions:** Flash one card at a time. Child says ALL sounds within 2 seconds.
 Sort into "fast" and "needs practice" piles.
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

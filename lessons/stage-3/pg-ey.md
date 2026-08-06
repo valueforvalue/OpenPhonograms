@@ -64,7 +64,7 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ey — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ey — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -89,7 +89,3 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ey — it says /ā/ /ē/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

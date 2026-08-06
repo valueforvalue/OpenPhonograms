@@ -69,7 +69,3 @@ The nation has a special vision. The musician's mission is action!
 ---
 
 *Practice at home: Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

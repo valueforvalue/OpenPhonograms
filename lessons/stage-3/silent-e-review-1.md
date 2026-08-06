@@ -50,7 +50,3 @@ Spell these words from dictation:
 ---
 
 *Practice at home: Review reasons 12.1-12.4 at home!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

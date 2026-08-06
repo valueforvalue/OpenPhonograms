@@ -22,7 +22,3 @@ For each word, follow: Hear & Say → Segment → Write → Analyze → Read
 ---
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

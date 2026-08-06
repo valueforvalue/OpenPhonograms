@@ -39,7 +39,3 @@ bridge (Rule 25), catch (Rule 27), know (KN), sign (GN), write (WR), eight (Rule
 ---
 
 *Practice at home: Flash all 75 phonogram cards!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

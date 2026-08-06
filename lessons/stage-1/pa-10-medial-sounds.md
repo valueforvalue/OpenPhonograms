@@ -78,7 +78,3 @@ Vowel dance! Adult says /ă/, child makes an 'A' shape with arms. /ŏ/ = make 'O
 ---
 
 *Practice at home: Say words around the house: 'lamp' — middle sound? /ă/. 'desk' — middle sound? /ĕ/.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

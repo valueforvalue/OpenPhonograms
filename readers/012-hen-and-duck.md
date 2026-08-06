@@ -211,7 +211,3 @@ It blinks. It peeps. "Quack!" says Duck.
 ---
 
 **Phonograms used:** hen duck egg nest pond back pick sit swim quack
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

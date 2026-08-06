@@ -106,7 +106,3 @@ Can you write your first name? Sound it out. Use the letters you know!
 ---
 
 *Practice at home: Write one row of each letter group letter in a notebook.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

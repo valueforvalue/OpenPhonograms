@@ -64,7 +64,7 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ui — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ui — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -89,7 +89,3 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ui — it says /ü/ /ö/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

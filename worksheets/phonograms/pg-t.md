@@ -61,7 +61,3 @@ Write a sentence using a word with **t**:
 ---
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

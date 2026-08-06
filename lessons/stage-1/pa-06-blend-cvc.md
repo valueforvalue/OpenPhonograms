@@ -69,7 +69,3 @@ Adult says three sounds. If they make a real word, child jumps. If they make a n
 ---
 
 *Practice at home: Play the blending game while waiting anywhere — the grocery line, the car, the doctor's office.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

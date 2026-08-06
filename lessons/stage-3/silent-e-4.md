@@ -76,7 +76,3 @@ Read these sentences:
 ---
 
 *Practice at home: Find 3 words in a book that follow Silent E Reason 12.4.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

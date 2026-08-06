@@ -85,7 +85,7 @@ back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ck — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ck — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ck — it says /k/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

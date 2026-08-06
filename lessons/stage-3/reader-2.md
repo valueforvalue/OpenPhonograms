@@ -100,7 +100,3 @@ The End.
 ---
 
 *Practice at home: Read this story aloud to a family member!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

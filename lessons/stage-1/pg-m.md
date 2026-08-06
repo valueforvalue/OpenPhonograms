@@ -97,7 +97,7 @@ Write each letter once. Say its sounds as you write.
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram m — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram m — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -122,7 +122,3 @@ Write each letter once. Say its sounds as you write.
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram m — it says /m/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -61,7 +61,3 @@ Write 3 sentences that follow today's grammar pattern:
 ---
 
 *Practice at home: Write 5 sentences using all 5 punctuation marks correctly!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -61,7 +61,3 @@
 ---
 
 *Practice at home: Find SI words in a book. Does SI say /sh/ or /zh/?*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

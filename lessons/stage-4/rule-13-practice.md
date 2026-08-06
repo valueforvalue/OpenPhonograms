@@ -80,7 +80,3 @@ I am making a cake and hoping it tastes good. Be careful and useful!
 ---
 
 *Practice at home: Find 3 words with -ing that dropped a silent E. Write the base word and the new word.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

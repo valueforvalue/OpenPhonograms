@@ -80,7 +80,3 @@ The nation has a special mission. My vision of the action is clear. The musician
 ---
 
 *Practice at home: Write 3 words with SH and 3 with Latin /sh/. Explain the difference!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

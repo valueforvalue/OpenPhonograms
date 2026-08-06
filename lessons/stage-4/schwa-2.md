@@ -78,7 +78,3 @@ Schwa hides spelling information. When you say 'about' normally (/ə-bout/), you
 ---
 
 *Practice at home: Practice say-to-spell with: about, seven, pencil, animal, family.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

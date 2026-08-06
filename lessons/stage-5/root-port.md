@@ -66,7 +66,3 @@ Fill in the blanks with a **port** word:
 ---
 
 *Practice at home: Find 3 words with **port** in a book. Write each and its meaning.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

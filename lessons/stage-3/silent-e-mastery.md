@@ -59,7 +59,3 @@ For each word, identify which Silent E reason (12.1–12.9) applies. Some words 
 ---
 
 *Practice at home: Find 10 silent E words in a book. Name the reason for each!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

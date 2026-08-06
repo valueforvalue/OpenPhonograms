@@ -205,7 +205,3 @@ The beaver family rests on their dam, proud of their creation.
 ---
 
 **Phonograms used:** beaver river construction building family together stronger underwater amazing protection
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -55,7 +55,3 @@ Use at least 4 sentences. Include a topic sentence and a closing sentence.
 ---
 
 *Practice at home: Write a paragraph about your day. Make sure it has a topic sentence and a closing sentence!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

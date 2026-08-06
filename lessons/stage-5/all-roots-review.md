@@ -41,7 +41,3 @@ Spell these words from dictation. Name the root in each:
 ---
 
 *Practice at home: You know 25 Latin and Greek roots! That unlocks thousands of words.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

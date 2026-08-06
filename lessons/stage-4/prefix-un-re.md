@@ -74,5 +74,3 @@ Write each word. Underline the Prefix. Say the meaning aloud.
 ---
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

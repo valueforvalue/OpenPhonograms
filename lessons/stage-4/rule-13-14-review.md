@@ -39,7 +39,3 @@ Explain why these DON'T change: sleeping (2 vowels), jumping (2 final consonants
 ---
 
 *Practice at home: Review Rules 13 and 14 flashcards!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

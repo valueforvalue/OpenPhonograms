@@ -225,7 +225,3 @@ The sun came out. A rainbow stretched across the sky. "Look!" said Sue.
 ---
 
 **Phonograms used:** ough, augh, ew, ui, eu + all previous
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

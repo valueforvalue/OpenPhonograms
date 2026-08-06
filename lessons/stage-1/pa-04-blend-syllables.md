@@ -71,7 +71,3 @@ March around the room! Each step = one syllable. Adult calls out words, child ma
 ---
 
 *Practice at home: At meals, clap the syllables in food words: piz-za (2), spa-ghet-ti (3), milk (1).*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

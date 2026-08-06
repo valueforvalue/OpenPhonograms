@@ -122,7 +122,3 @@ If ≥85%: Continue to second half of Stage 3. If weaker, review trouble spots.
 ---
 
 *Great work! You're more than halfway through learning all 75 phonograms!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

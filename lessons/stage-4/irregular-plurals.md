@@ -83,7 +83,3 @@ Most nouns add -S or -ES for plurals. But some old English words keep their anci
 ---
 
 *Practice at home: Find 5 irregular plurals in a book. Write the singular and plural.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

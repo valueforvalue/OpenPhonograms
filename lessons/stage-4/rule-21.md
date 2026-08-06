@@ -67,7 +67,3 @@ The cats and dogs have boxes. The dishes are in the churches. Foxes ride buses!
 ---
 
 *Practice at home: Write the plural of: cat, box, dish, church, fox, bus. Circle the ones that use -ES.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

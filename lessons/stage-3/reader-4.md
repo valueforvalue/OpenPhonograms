@@ -99,7 +99,3 @@ The End.
 ---
 
 *Practice at home: Read this story aloud! Then try to build your own boat from a box!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

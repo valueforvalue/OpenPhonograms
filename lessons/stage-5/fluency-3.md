@@ -72,7 +72,3 @@ Elephants teach us that intelligence takes many forms. Their wisdom is written n
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

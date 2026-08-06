@@ -217,7 +217,3 @@ Tully smiles and tucks into his shell.
 ---
 
 **Phonograms used:** turtle little purple circle simple gentle start far farm hard
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

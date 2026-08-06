@@ -67,7 +67,3 @@ I walked to the park and played. The rain stopped. Mom baked a cake. I carried i
 ---
 
 *Practice at home: Write the past tense of: walk, stop, bake, carry, play, try. Name the rules you used.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

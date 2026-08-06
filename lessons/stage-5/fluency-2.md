@@ -79,7 +79,3 @@ A perfect rainbow stretched from horizon to horizon — a silent promise after t
 ---
 
 *Practice at home: Read the passage aloud 2 more times tonight!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

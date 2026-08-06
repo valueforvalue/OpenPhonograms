@@ -79,7 +79,7 @@ gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ �
 
 
 <details class="teacher-script">
-<summary>📖 Rule 2 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 2 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 2: **G May Soften to /j/ Before E, I, or Y**."
 
@@ -100,7 +100,3 @@ gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ �
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -63,7 +63,7 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram wr — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram wr — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -88,7 +88,3 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wr — it says /r/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

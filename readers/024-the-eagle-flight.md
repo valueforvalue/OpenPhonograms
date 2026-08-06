@@ -205,7 +205,3 @@ When Ember returns to her nest at sunset, her mother nods with pride. "You are a
 ---
 
 **Phonograms used:** eagle mountain majestic soaring freedom silence magnificent distance vision courage
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

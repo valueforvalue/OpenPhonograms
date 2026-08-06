@@ -49,7 +49,3 @@ Write two sentences using words that follow Rule 4:
 ---
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

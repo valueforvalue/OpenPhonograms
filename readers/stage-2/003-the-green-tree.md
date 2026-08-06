@@ -207,7 +207,3 @@ Fern and the bird sit in the green tree. They are pals. The green tree is the be
 ---
 
 **Phonograms used:** sh, th, ck, ee + blends
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

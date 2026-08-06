@@ -73,7 +73,3 @@ I am running to the pool and swimming. Mom is opening the door. The cat is sleep
 ---
 
 *Practice at home: Write the -ing form of 5 one-syllable words. Check the 1-1-1 rule for each!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

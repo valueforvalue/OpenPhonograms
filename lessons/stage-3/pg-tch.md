@@ -65,7 +65,7 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram tch — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram tch — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -90,7 +90,3 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram tch — it says /ch/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

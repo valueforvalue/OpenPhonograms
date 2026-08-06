@@ -114,7 +114,3 @@ If ≥85%: Advance to Stage 5. If weaker, review specific lessons for 1-2 weeks.
 ---
 
 *Almost done with all 75 phonograms and 31 rules!*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

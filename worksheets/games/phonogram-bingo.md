@@ -43,5 +43,3 @@ Cut along lines. Adult draws one card and reads the sound aloud.
 ---
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

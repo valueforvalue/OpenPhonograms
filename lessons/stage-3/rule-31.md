@@ -79,7 +79,7 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 
 
 <details class="teacher-script">
-<summary>📖 Rule 31 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 31 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 31: **Schwa**."
 
@@ -100,7 +100,3 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -87,7 +87,7 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ed — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ed — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -112,7 +112,3 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ed — it says /ed/ /d/ /t/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

@@ -265,7 +265,3 @@ Being brave makes pals.
 ---
 
 **Phonograms used:** goat shy boat float road soap coat toad farm barn
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

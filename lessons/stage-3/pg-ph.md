@@ -63,7 +63,7 @@ PH is a two-letter /f/ that comes from Greek. Most English words with PH are Gre
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ph — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram ph — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -88,7 +88,3 @@ PH is a two-letter /f/ that comes from Greek. Most English words with PH are Gre
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ph — it says /f/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

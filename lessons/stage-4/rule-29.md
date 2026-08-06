@@ -67,7 +67,3 @@ Zip, zap, zoom! The zebra at the zoo runs from zone zero. Zigzag fast!
 ---
 
 *Practice at home: Write 5 words that start with Z. Compare: zip/sip, zoo/Sue, zone/sown.*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

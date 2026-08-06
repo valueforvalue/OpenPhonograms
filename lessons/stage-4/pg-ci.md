@@ -60,7 +60,3 @@ Both say /sh/ in Latin words! TI is more common overall, especially in -tion. CI
 ---
 
 *Practice at home: Find CI words in a book. How many end in -cial?*
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

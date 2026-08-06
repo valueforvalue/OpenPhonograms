@@ -79,7 +79,7 @@ light, high (IGH — GH silent) · eight, neighbor (EIGH — GH silent) · thoug
 
 
 <details class="teacher-script">
-<summary>📖 Rule 28 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 28 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 28: **GH Phonograms**."
 
@@ -100,7 +100,3 @@ light, high (IGH — GH silent) · eight, neighbor (EIGH — GH silent) · thoug
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

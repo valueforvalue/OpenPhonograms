@@ -79,7 +79,7 @@ cent, city, cycle, face, ice, dance (C=/s/) · cat, cot, cup, clip, crab (C=/k/)
 
 
 <details class="teacher-script">
-<summary>📖 Rule 1 — Teacher Script (click to expand)</summary>
+<summary>📖 Rule 1 — Teacher Script</summary>
 
 > **Say:** "Today we are learning Spelling Rule 1: **C Softens to /s/ Before E, I, or Y**."
 
@@ -100,7 +100,3 @@ cent, city, cycle, face, ice, dance (C=/s/) · cat, cot, cup, clip, crab (C=/k/)
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

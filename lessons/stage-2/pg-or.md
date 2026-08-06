@@ -83,7 +83,7 @@ for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram or — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram or — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -108,7 +108,3 @@ for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram or — it says /or/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

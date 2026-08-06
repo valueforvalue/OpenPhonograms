@@ -63,7 +63,7 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram gh — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram gh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -88,7 +88,3 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gh — it says /g/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

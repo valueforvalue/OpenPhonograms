@@ -167,7 +167,3 @@ All the animals follow Silas to the lake. The fire stops at the water's edge. "Y
 ---
 
 **Phonograms used:** snake wise make take time slide hide safe home stone
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

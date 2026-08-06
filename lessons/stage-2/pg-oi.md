@@ -85,7 +85,7 @@ coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram oi — Teacher Script (click to expand)</summary>
+<summary>📖 Phonogram oi — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
@@ -110,7 +110,3 @@ coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oi — it says /oi/.")*
 
 ---
-
----
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
