@@ -166,14 +166,13 @@ def build_handbook_nav(zf, args, stats):
                 continue
             arc = f"04-Quick-Reference/{name}"
         elif "handbook" in name and name.startswith("stage-"):
-            # Stage handbooks handled by build_handbooks() unless --no-handbooks
-            if args.no_handbooks:
-                continue
-            arc = f"05-Teacher-Handbooks/{name}"
+            # Stage handbooks are added by build_handbooks() — skip here
+            # to avoid duplicate-name warnings in the ZIP.
+            continue
         elif name.startswith("certificate-"):
-            if args.no_certs:
-                continue
-            arc = f"13-Certificates/{name}"
+            # Certificates are added by build_certs() — skip here to avoid
+            # duplicate-name warnings in the ZIP.
+            continue
         elif "readers-index" in name:
             if args.no_readers:
                 continue
