@@ -54,6 +54,7 @@ from framework.build_log import (
     attach_worker_handler,
     drain_worker_queue,
 )
+from framework.pdf_merge import compile_pack as _compile_pack
 
 log = get_logger("pack")
 LESSONS_DIR = ROOT / "lessons"
@@ -64,6 +65,7 @@ WORKSHEETS_BLANK = ROOT / "worksheets" / "blank"
 READERS_DIR = ROOT / "readers"
 CATALOG_PATH = ROOT / "framework" / "lesson-catalog.csv"
 PACKS_DIR = ROOT / "packs"
+BUILD_DIR = ROOT / "build"
 
 PAGE_BREAK = "\n\n<div class=\"page-break\"></div>\n\n"
 
@@ -439,11 +441,15 @@ def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def _pack_worker(lesson_id: str, no_render: bool) -> dict:
+def _pack_worker(lesson_id: str, no_render: bool, cache_only: bool = False) -> dict:
     """Worker entry point for ProcessPoolExecutor.
 
     Loads the catalog in the worker process (cheap — single CSV read),
     builds one pack, returns a status dict (JSON-safe).
+
+    cache_only=True: skip the inline-render fallback. If a component
+    PDF is missing, mark WARN with reason 'cache miss' instead of
+    rendering fresh. Use for fast rebuilds from a complete build/ cache.
     """
     worker_log = get_logger("pack.worker")
     attach_worker_handler(worker_log)
@@ -452,7 +458,9 @@ def _pack_worker(lesson_id: str, no_render: bool) -> dict:
     if row is None:
         return {"lesson_id": lesson_id, "status": "MISSING", "missing": ["catalog row"]}
     try:
-        out, missing, md_path = build_one_pack(row, catalog, no_render=no_render)
+        out, missing, md_path = build_one_pack(
+            row, catalog, no_render=no_render, cache_only=cache_only,
+        )
     except Exception as exc:
         worker_log.error(f"FAIL {lesson_id}: {exc}", exc_info=True)
         return {"lesson_id": lesson_id, "status": "FAIL", "error": str(exc)}
@@ -466,7 +474,7 @@ def _pack_worker(lesson_id: str, no_render: bool) -> dict:
     }
 
 
-def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_render: bool = False) -> tuple[Path | None, list[str], Path | None]:
+def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_render: bool = False, cache_only: bool = False) -> tuple[Path | None, list[str], Path | None]:
     """Build a single lesson pack. Returns (output_pdf_path, missing_assets, combined_md_path)."""
     stage = row["stage"]
     lnum = int(row["lesson_num"])
@@ -540,19 +548,165 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     if no_render:
         return None, missing, debug_md
 
-    # Write combined MD to a temp path so render can read it
-    # Use lesson dir as base so image paths in lesson MD still resolve
-    temp_md = lesson_path.parent / f"_pack-{lesson_id}.md"
-    temp_md.write_text(combined, encoding="utf-8")
+    # Try cache-first merge: reuse PDFs already produced by render-all +
+    # render-extras. Only render the cover page fresh (it's pack-specific).
+    # Fall back to inline render if any component PDF is missing — keeps
+    # the script useful when called standalone (e.g. `just pack-lesson foo`
+    # without prior render).
+    cover = _render_cover_pdf(row, missing, lesson_path, lesson_text)
+    if cover is None:
+        return None, missing, debug_md
+    cover_pdf = cover.pdf
+    cover_tmpdir = cover.tmpdir
 
+    components: list[tuple[Path, str]] = [(cover_pdf, "cover")]
+
+    # Lesson component from build/stage-N/{lesson_id}.pdf
+    lesson_pdf = BUILD_DIR / f"stage-{stage}" / f"{lesson_id}.pdf"
+    if lesson_pdf.exists():
+        components.append((lesson_pdf, "lesson"))
+    elif not missing:
+        missing.append(f"lesson PDF: build/stage-{stage}/{lesson_id}.pdf (run just render-all)")
+
+    # Worksheet component(s)
+    ws_md = worksheet_path
+    if ws_md:
+        ws_pdf = _expected_pdf(ws_md)
+        if ws_pdf.exists():
+            components.append((ws_pdf, "worksheet"))
+        elif not missing:
+            missing.append(f"worksheet PDF: {ws_pdf.relative_to(ROOT)}")
+
+    # Flash cards
+    for cp_md in card_paths:
+        cp_pdf = _expected_pdf(cp_md)
+        if cp_pdf.exists():
+            components.append((cp_pdf, "cards"))
+        elif not missing:
+            missing.append(f"cards PDF: {cp_pdf.relative_to(ROOT)}")
+
+    # Reader (only if separate from lesson — reader-type lessons already inline)
+    if reader_path and row["type"] != "reader":
+        reader_pdf = _expected_pdf(reader_path)
+        if reader_pdf.exists():
+            components.append((reader_pdf, "reader"))
+        elif not missing:
+            missing.append(f"reader PDF: {reader_pdf.relative_to(ROOT)}")
+
+    # If any required component is missing AND we have the source MD,
+    # fall back to inline render so standalone use still works — unless
+    # cache_only=True, in which case we report the cache miss instead.
+    result = _compile_pack(out_pdf, components)
+    # Always clean up the cover tempdir after merge.
+    _cleanup_cover(cover_tmpdir)
+    if not result.ok and not missing and not cache_only:
+        log.warning(f"pack {lesson_id}: cache miss, falling back to inline render: {result.error}")
+        _render_pack_inline(lesson_text, lesson_path, lesson_id, out_pdf, missing)
+        return out_pdf, missing, debug_md
+    if not result.ok:
+        # Cache miss or no source — caller decides
+        missing.append(f"merge failed: {result.error}")
+        return None, missing, debug_md
+
+    return out_pdf, missing, debug_md
+
+
+def _cleanup_cover(tmpdir: Path) -> None:
+    """Remove the cover tempdir if it still exists."""
+    import shutil
+    shutil.rmtree(tmpdir, ignore_errors=True)
+
+
+def _expected_pdf(md_path: Path) -> Path:
+    """Map a markdown source path to its expected PDF output path.
+
+    Lessons: lessons/stage-N/X.md           → build/stage-N/X.pdf
+    Worksheets: worksheets/<sub>/X.md      → build/worksheets/<sub>/X.pdf
+    Readers: readers/<stage?>/X.md         → build/readers/<stage?>/X.pdf
+    """
+    rel = md_path.relative_to(ROOT)
+    parts = list(rel.parts)
+    # Path is rooted at a known source directory
+    if parts[0] == "lessons":
+        # lessons/stage-N/X.md → build/stage-N/X.pdf
+        return ROOT / "build" / Path(*parts[1:]).with_suffix(".pdf")
+    if parts[0] == "worksheets":
+        return ROOT / "build" / Path(*parts).with_suffix(".pdf")
+    if parts[0] == "readers":
+        return ROOT / "build" / Path(*parts).with_suffix(".pdf")
+    # Fallback: same parent, .pdf extension
+    return md_path.with_suffix(".pdf")
+
+
+def _render_cover_pdf(
+    row: dict,
+    missing: list[str],
+    lesson_path: Path,
+    lesson_text: str,
+) -> Path | None:
+    """Render the pack cover + at-a-glance card to a tiny PDF.
+
+    Returns the temp PDF path, or None on failure. The temp PDF lives
+    in a fresh tempdir that the caller is responsible for cleaning up
+    (see _pack_worker, which uses TemporaryDirectory).
+    """
+    import tempfile
+    part1 = build_cover_page(row, missing)
+    part2 = build_at_a_glance(row)
+    part3 = build_home_practice(lesson_text)
+    cover_md = part1 + PAGE_BREAK + part2 + "\n" + part3
+    tmp_dir = Path(tempfile.mkdtemp(prefix="pack-cover-"))
+    temp_md = tmp_dir / "cover.md"
+    temp_pdf = tmp_dir / "cover.pdf"
+    temp_md.write_text(cover_md, encoding="utf-8")
     try:
         from framework.render import render_md_to_pdf
-        # render's logger is wired to the build logger; in worker processes
-        # the log line is captured by WorkerLogHandler and drained by main.
+        render_md_to_pdf(temp_md, temp_pdf, doc_type="lesson")
+        # Return BOTH the PDF and the tempdir so caller can clean up.
+        # Stash on result via a small wrapper.
+        return _CoverPdf(pdf=temp_pdf, tmpdir=tmp_dir)
+    except Exception as exc:
+        missing.append(f"cover render failed: {exc}")
+        # Cleanup on failure
+        import shutil
+        shutil.rmtree(tmp_dir, ignore_errors=True)
+        return None
+
+
+class _CoverPdf:
+    """Wrapper that pairs the cover PDF with its tempdir for cleanup."""
+
+    __slots__ = ("pdf", "tmpdir")
+
+    def __init__(self, pdf: Path, tmpdir: Path) -> None:
+        self.pdf = pdf
+        self.tmpdir = tmpdir
+
+
+def _render_pack_inline(
+    lesson_text: str,
+    lesson_path: Path,
+    lesson_id: str,
+    out_pdf: Path,
+    missing: list[str],
+) -> None:
+    """Fallback path: render the entire combined MD as one PDF."""
+    # `combined` would be the full assembled MD; for the inline fallback we
+    # re-assemble from the cached combined written earlier (debug_md).
+    # Caller already wrote it; we just need the path.
+    debug_md = out_pdf.with_suffix(".md")
+    temp_md = lesson_path.parent / f"_pack-{lesson_id}.md"
+    if debug_md.exists():
+        import shutil
+        shutil.copy(debug_md, temp_md)
+    else:
+        # Reconstruct from lesson_text — should not happen in practice
+        temp_md.write_text(lesson_text, encoding="utf-8")
+    try:
+        from framework.render import render_md_to_pdf
         render_md_to_pdf(temp_md, out_pdf, doc_type="lesson")
-    except ModuleNotFoundError as e:
-        missing.append(f"render unavailable: {e}")
-        return None, missing, debug_md
+    except Exception as exc:
+        missing.append(f"inline render failed: {exc}")
     finally:
         if temp_md.exists():
             temp_md.unlink()
@@ -560,20 +714,20 @@ def build_one_pack(row: dict, catalog: list[dict], bundle: bool = False, no_rend
     return out_pdf, missing, debug_md
 
 
-def _run_stage_parallel(rows: list[dict], no_render: bool, jobs: int, label: str) -> tuple[int, int]:
-    """Build N packs in parallel. Returns (ok_count, warn_count)."""
+def _run_stage_parallel(rows: list[dict], no_render: bool, jobs: int, label: str, cache_only: bool = False) -> tuple[int, int, int]:
+    """Build N packs in parallel. Returns (ok_count, warn_count, fail_count)."""
     if not rows:
-        return 0, 0
+        return 0, 0, 0
     n_workers = max(1, jobs)
     queue = WorkerLogQueue()
     set_worker_queue(queue)
-    log.info(f"{label}: {len(rows)} packs, {n_workers} workers")
-    ok = warn = 0
+    log.info(f"{label}: {len(rows)} packs, {n_workers} workers, cache_only={cache_only}")
+    ok = warn = fail = 0
     with Progress(label, total=len(rows)) as progress:
         executor = ProcessPoolExecutor(max_workers=n_workers)
         try:
             futures = {
-                executor.submit(_pack_worker, row["lesson_id"], no_render): row
+                executor.submit(_pack_worker, row["lesson_id"], no_render, cache_only): row
                 for row in rows
             }
             for fut in as_completed(futures):
@@ -587,24 +741,26 @@ def _run_stage_parallel(rows: list[dict], no_render: bool, jobs: int, label: str
                     warn += 1
                     log.warning(f"  WARN {result.get('target')}: missing {', '.join(result.get('missing', []))}")
                 elif status == "MISSING":
+                    fail += 1
                     log.warning(f"  SKIP {result['lesson_id']}: missing {result.get('missing', ['?'])[0]}")
                 else:
+                    fail += 1
                     log.error(f"  FAIL {result['lesson_id']}: {result.get('error')}")
                 progress.tick()
                 drain_worker_queue(queue, log)
         finally:
             executor.shutdown(wait=True)
             set_worker_queue(None)
-    log.info(f"{label}: {ok} ok, {warn} with warnings")
-    return ok, warn
+    log.info(f"{label}: {ok} ok, {warn} with warnings, {fail} failed")
+    return ok, warn, fail
 
 
-def cmd_lesson(lesson_id: str, catalog: list[dict], no_render: bool = False):
+def cmd_lesson(lesson_id: str, catalog: list[dict], no_render: bool = False, cache_only: bool = False):
     row = next((r for r in catalog if r["lesson_id"] == lesson_id), None)
     if not row:
         log.error(f"lesson_id not found in catalog: {lesson_id}")
         sys.exit(1)
-    out, missing, md_path = build_one_pack(row, catalog, no_render=no_render)
+    out, missing, md_path = build_one_pack(row, catalog, no_render=no_render, cache_only=cache_only)
     if out is None and md_path is None:
         log.warning(f"SKIP {lesson_id}: missing lesson MD")
         return
@@ -615,20 +771,24 @@ def cmd_lesson(lesson_id: str, catalog: list[dict], no_render: bool = False):
         log.info(f"OK {target.relative_to(ROOT)}")
 
 
-def cmd_stage(stage: int, bundle: bool, catalog: list[dict], no_render: bool = False, jobs: int = 1):
+def cmd_stage(stage: int, bundle: bool, catalog: list[dict], no_render: bool = False, jobs: int = 1, cache_only: bool = False):
     phase(f"Pack Stage {stage}")
     rows = [r for r in catalog if int(r["stage"]) == stage]
     log.info(f"Building Stage {stage} packs: {len(rows)} lessons")
-    ok, warn = _run_stage_parallel(rows, no_render, jobs, f"pack-stage-{stage}")
+    ok, warn, fail = _run_stage_parallel(rows, no_render, jobs, f"pack-stage-{stage}", cache_only=cache_only)
     if bundle:
         log.warning("(bundle mode not yet implemented — render per-lesson packs only)")
+    if fail:
+        sys.exit(1)
 
 
-def cmd_all(catalog: list[dict], no_render: bool = False, jobs: int = 1):
+def cmd_all(catalog: list[dict], no_render: bool = False, jobs: int = 1, cache_only: bool = False):
     phase("Pack All Lessons")
     rows = list(catalog)
     log.info(f"Building all {len(rows)} packs")
-    _run_stage_parallel(rows, no_render, jobs, "pack-all")
+    ok, warn, fail = _run_stage_parallel(rows, no_render, jobs, "pack-all", cache_only=cache_only)
+    if fail:
+        sys.exit(1)
 
 
 def main():
@@ -642,17 +802,22 @@ def main():
         "--jobs", "-j", type=int, default=1,
         help="Parallel worker processes (default: 1 = serial). Stage/all only.",
     )
+    parser.add_argument(
+        "--cache-only", action="store_true",
+        help="Skip inline-render fallback. Fail on cache miss instead. "
+             "Use when build/ is fully populated and you want a fast rebuild.",
+    )
     args = parser.parse_args()
 
     PACKS_DIR.mkdir(parents=True, exist_ok=True)
     catalog = load_catalog()
 
     if args.lesson:
-        cmd_lesson(args.lesson, catalog, no_render=args.no_render)
+        cmd_lesson(args.lesson, catalog, no_render=args.no_render, cache_only=args.cache_only)
     elif args.stage:
-        cmd_stage(args.stage, args.bundle, catalog, no_render=args.no_render, jobs=args.jobs)
+        cmd_stage(args.stage, args.bundle, catalog, no_render=args.no_render, jobs=args.jobs, cache_only=args.cache_only)
     elif args.all:
-        cmd_all(catalog, no_render=args.no_render, jobs=args.jobs)
+        cmd_all(catalog, no_render=args.no_render, jobs=args.jobs, cache_only=args.cache_only)
     else:
         parser.print_help()
 

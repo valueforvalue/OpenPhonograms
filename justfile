@@ -223,6 +223,17 @@ pack-all-debug:
     @echo "==> Building all 248 packs (no-render mode)"
     @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all --no-render
 
+# Rebuild packs from cached PDFs only (no render fallback). Use after
+# changing pack assembly logic to skip re-rendering 248 PDFs.
+rebuild-packs:
+    @echo "==> Rebuilding packs from cached PDFs (no render)"
+    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all --jobs {{jobs}} --cache-only
+
+# Rebuild one stage's packs from cache only
+rebuild-packs-stage stage:
+    @echo "==> Rebuilding Stage {{stage}} packs from cache (no render)"
+    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --stage {{stage}} --jobs {{jobs}} --cache-only
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Audio — neural TTS phonogram audio for the web game
 # ─────────────────────────────────────────────────────────────────────────────
