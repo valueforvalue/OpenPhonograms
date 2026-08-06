@@ -73,4 +73,4 @@ The ship had fish and dishes. I am wishing for a special nation!
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

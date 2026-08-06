@@ -194,4 +194,4 @@ Being in the pen is fun. Having pals is better.
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

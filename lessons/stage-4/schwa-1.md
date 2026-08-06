@@ -85,4 +85,4 @@ If you try to spell 'about' by sound, you might write 'ubout' — because schwa 
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

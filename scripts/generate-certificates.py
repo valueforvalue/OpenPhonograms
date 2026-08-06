@@ -114,7 +114,7 @@ body {{
 <div class="cert">
   <div class="header">Certificate of Completion</div>
   <div class="title">{title}</div>
-  <div class="subtitle">Uncovering the Logic of English · {age}</div>
+  <div class="subtitle">OpenPhonograms · {age}</div>
 
   <div class="body">
     This certifies that
@@ -127,7 +127,7 @@ body {{
     <div class="signature">Teacher / Parent Signature</div>
   </div>
 
-  <div class="footer-stamp">UNCOVERING THE LOGIC OF ENGLISH · OPEN-SOURCE CURRICULUM</div>
+  <div class="footer-stamp">OPENPHONOGRAMS · OPEN-SOURCE CURRICULUM</div>
 </div>
 
 </body></html>"""

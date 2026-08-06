@@ -59,4 +59,4 @@ Today we practice ALL the spelling skills from Stage 3: silent E, new phonograms
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

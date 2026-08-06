@@ -23,6 +23,7 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 CATALOG = ROOT / "framework" / "lesson-catalog.csv"
 BUILD = ROOT / "build"
 OUT_DIR = ROOT / "build" / "handbook"
@@ -170,9 +171,7 @@ def make_stage_cover(stage: int, lessons: list[dict]) -> str:
         types[r["type"]] = types.get(r["type"], 0) + 1
     types_str = ", ".join(f"{v} {k}" for k, v in sorted(types.items(), key=lambda x: -x[1]))
 
-    return f"""<style>.page-break {{ page-break-before: always; }}</style>
-
-# {title}
+    return f"""# {title}
 
 **Stage {stage}** · {age} · {n_lessons} lessons
 
@@ -204,7 +203,7 @@ This is the open-source equivalent of a commercial curriculum's "Teacher's Manua
 
 ---
 
-*Curriculum: Uncovering the Logic of English (open-source adaptation)*
+*Curriculum: OpenPhonograms (open-source, MIT licensed)*
 
 <div class="page-break"></div>
 
@@ -228,9 +227,9 @@ def assemble_handbook(stage: int, no_render: bool = False):
     if no_render:
         return cover_md
 
-    from weasyprint import HTML as WHTML
     cover_pdf = cover_md.with_suffix(".pdf")
-    WHTML(filename=str(cover_md)).write_pdf(str(cover_pdf))
+    from framework.render import render_md_to_pdf
+    render_md_to_pdf(cover_md, cover_pdf, doc_type="lesson")
 
     # 2. Merge cover + all lesson PDFs into one handbook
     from pypdf import PdfReader, PdfWriter

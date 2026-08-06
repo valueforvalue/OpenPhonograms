@@ -74,4 +74,4 @@ The baker is making a cake. I am hoping to drive. She is writing and smiling.
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

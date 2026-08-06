@@ -249,7 +249,7 @@ Print this pack before the lesson. Check off as you gather materials.
 
 ---
 
-*Pack generated for the *Uncovering the Logic of English* curriculum.*
+*Pack generated for the *OpenPhonograms* curriculum.*
 {missing_block}
 
 <div class=\"page-break\"></div>

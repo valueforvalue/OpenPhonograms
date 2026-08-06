@@ -2,12 +2,11 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Verify generated PDFs contain source attribution (issue #36).
+"""Verify generated PDFs contain the standard footer (issue #36).
 
-Uses pypdf to extract text from all pages of a sample PDF per stage
-and asserts the text contains "Denise Eide" or "Uncovering the Logic
-of English". Wired into the build pipeline as
-'just check-pdf-credits'.
+Uses pypdf to extract text from a sample PDF per stage and asserts
+the text contains the standard OpenPhonograms footer markers. Wired
+into the build pipeline as 'just check-pdf-credits'.
 
 We check all pages (not just page 1) because the footer often lands on
 the last page when content fills the first.
@@ -26,12 +25,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
 
-# Phrases that confirm the source attribution is present in a PDF
-# (We check for the methodology author name, not the literal footer
-# string, because pdftotext extraction can rewrap words.)
+# Phrases that confirm the standardized footer is present in a PDF.
+# Post-rebrand (issue #32 / commit 1379999) the footer reads
+# 'Open-source. MIT licensed. Phonograms are drawn from the public-domain
+# phonics tradition (1800s onward).'
 CREDIT_PHRASES = (
-    "Denise Eide",
-    "Uncovering the Logic of English",
+    "Open-source",
+    "MIT licensed",
 )
 
 
@@ -126,7 +126,7 @@ def main():
             failures.append((stage, pdf.name, "no credit phrase found"))
             # Show first 200 chars of text for debugging
             preview = text[:200].replace("\n", " ").strip()
-            print(f"  Stage {stage}: FAIL {pdf.name}: no 'Denise Eide' / 'Uncovering the Logic of English'")
+            print(f"  Stage {stage}: FAIL {pdf.name}: no 'Open-source. MIT licensed.' footer")
             print(f"             Text preview: {preview!r}")
 
     if failures:

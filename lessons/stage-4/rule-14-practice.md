@@ -76,4 +76,4 @@ I am running to the pool and swimming. Mom is opening the door. The cat is sleep
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

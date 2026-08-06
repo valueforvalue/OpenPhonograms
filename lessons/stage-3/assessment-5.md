@@ -134,4 +134,4 @@ If ≥85%: Move to Stage 4! If weaker, review specific trouble areas and retest 
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*

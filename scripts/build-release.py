@@ -130,16 +130,15 @@ Speech-to-print. Spelling drives reading. 75 phonograms + 31 spelling rules
 cover 98% of English words. No sight words. The 5-step Spelling Analysis
 routine is used in every lesson.
 
-Source methodology: Uncovering the Logic of English by Denise Eide
-(https://logicofenglish.com/).
+Source methodology: Open-source. MIT licensed. Phonograms drawn from the
+public-domain phonics tradition (1800s onward).
 
 LICENSE
 -------
 This is an open-source adaptation released for educational use. The
 methodology and phonogram list are not copyrighted (drawn from public-domain
 phonics tradition). The lesson content, generators, and design are released
-under MIT license. The commercial LoE product line (Doodling Dragons /
-Whistling Whales / Knitting Knights artwork, etc.) is not included.
+under MIT license.
 
 For questions, issues, or contributions, see the project repository.
 """

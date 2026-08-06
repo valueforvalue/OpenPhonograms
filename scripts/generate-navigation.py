@@ -79,13 +79,13 @@ def make_start_here() -> Path:
 
 <div class="hero">
 <h1>Welcome to OpenPhonograms</h1>
-<p>An open-source adaptation of Denise Eide's phonogram-and-rules reading curriculum.</p>
+<p>An open-source, print-first reading curriculum that teaches the 75 phonograms and 31 spelling rules governing English spelling.</p>
 </div>
 
 <div class="meta">Edition 1.0 · 248 lessons · 75 phonograms · 31 spelling rules · 5 stages (Pre-K through Grade 3+)</div>
 
 <h2>What is this curriculum?</h2>
-<p>A complete, print-first reading curriculum based on <em>Uncovering the Logic of English</em> by Denise Eide. Every lesson, worksheet, and reader is generated from version-controlled data — no DRM, no internet required, no locked PDFs.</p>
+<p>A complete, print-first reading curriculum. Every lesson, worksheet, and reader is generated from version-controlled data — no DRM, no internet required, no locked PDFs.</p>
 
 <p>The methodology: <strong>spelling drives reading</strong>. Children learn the 75 phonograms (sound-units) and 31 spelling rules that govern 98% of English words. They practice a 5-step <em>Spelling Analysis</em> routine that turns spelling into a decoding tool for reading.</p>
 
@@ -423,7 +423,7 @@ def make_quick_refs() -> list[Path]:
 {rows[26*2:]}
 </table>
 
-<p><em>Source methodology: <a href="https://logicofenglish.com/">Uncovering the Logic of English</a> by Denise Eide.</em></p>
+<p><em>Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).</em></p>
 
 </body></html>"""
     out = OUT_DIR / "04-Quick-Reference-Phonograms.md"
@@ -480,7 +480,7 @@ def make_quick_refs() -> list[Path]:
 {rows}
 </table>
 
-<p><em>Source methodology: <a href="https://logicofenglish.com/">Uncovering the Logic of English</a> by Denise Eide.</em></p>
+<p><em>Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).</em></p>
 
 </body></html>"""
     out = OUT_DIR / "04-Quick-Reference-Spelling-Rules.md"

@@ -20,32 +20,40 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FOOTER = (
     "\n---\n\n"
-    "*Source: Adapted from the methodology of Uncovering the Logic of "
-    "English by Denise Eide. License: MIT — see LICENSE.*\n"
+    "*Open-source. MIT licensed. Phonograms are drawn from the "
+    "public-domain phonics tradition (1800s onward).*\n"
 )
-FOOTER_MARKER = "*Source: Adapted from the methodology"
+FOOTER_MARKER = "Open-source. MIT licensed"
+# Old (pre-rebrand) footer marker. Matched so we can strip it during the
+# one-time migration of remaining MD files.
+LEGACY_FOOTER_MARKER = "Source: Adapted from the methodology"
 
 
 def needs_footer(content: str) -> bool:
     """True if the file should have the footer appended/replaced."""
-    if FOOTER_MARKER not in content:
+    # Has the legacy footer (pre-rebrand)? Always needs replacement.
+    if LEGACY_FOOTER_MARKER in content:
         return True
-    # Already has the marker — check if it's the LAST block
-    return not content.rstrip().endswith(FOOTER.rstrip())
+    # Has the new footer? Check if it's the LAST block.
+    if FOOTER_MARKER in content:
+        return not content.rstrip().endswith(FOOTER.rstrip())
+    # No footer at all.
+    return True
 
 
 def strip_existing_footer(content: str) -> str:
-    """Remove any prior instance of the footer (kept for idempotency)."""
-    if FOOTER_MARKER not in content:
-        return content
-    # Find the line containing the marker and drop everything from there
-    lines = content.splitlines()
-    out = []
-    for line in lines:
-        if FOOTER_MARKER in line:
-            break
-        out.append(line)
-    return "\n".join(out).rstrip() + "\n"
+    """Remove any existing footer (new or legacy) so we can write a fresh one."""
+    for marker in (FOOTER_MARKER, LEGACY_FOOTER_MARKER):
+        if marker not in content:
+            continue
+        lines = content.splitlines()
+        out = []
+        for line in lines:
+            if marker in line:
+                break
+            out.append(line)
+        content = "\n".join(out).rstrip() + "\n"
+    return content
 
 
 def add_footer(path: Path, dry_run: bool = False) -> str:
@@ -88,7 +96,7 @@ def main():
     print(f"  {verb} {added} files, updated {updated}, unchanged {unchanged}, "
           f"skipped {skipped}")
     if not args.dry_run and (added or updated):
-        print(f"  Footer: 'Source: Adapted from ... Denise Eide ... MIT ...'")
+        print(f"  Footer: 'Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition.'")
 
 
 if __name__ == "__main__":

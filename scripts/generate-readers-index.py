@@ -97,7 +97,7 @@ def main():
 {rows_html}
 </table>
 
-<p><em>Methodology: <a href="https://logicofenglish.com/">Uncovering the Logic of English</a> by Denise Eide.</em></p>
+<p><em>Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).</em></p>
 
 </body></html>"""
 

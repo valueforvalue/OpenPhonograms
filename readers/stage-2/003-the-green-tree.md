@@ -210,4 +210,4 @@ Fern and the bird sit in the green tree. They are pals. The green tree is the be
 
 ---
 
-*Source: Adapted from the methodology of Uncovering the Logic of English by Denise Eide. License: MIT — see LICENSE.*
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
