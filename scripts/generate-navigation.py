@@ -32,29 +32,35 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Common CSS for all navigation PDFs
 CSS = """
-@page { size: letter; margin: 0.75in; @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #555; } }
-body { font-family: Georgia, "Times New Roman", serif; font-size: 12pt; line-height: 1.6; color: #222; }
-h1 { font-size: 26pt; color: #2a5c8a; margin: 0 0 0.3em 0; border-bottom: 3px solid #2a5c8a; padding-bottom: 0.3em; bookmark-level: 1; page-break-before: avoid; }
-h2 { font-size: 18pt; color: #2a5c8a; margin-top: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; bookmark-level: 2; page-break-after: avoid; }
-h3 { font-size: 14pt; color: #2a5c8a; margin-top: 1.2em; bookmark-level: 3; page-break-after: avoid; }
-h4 { font-size: 12pt; color: #333; margin-top: 1em; bookmark-level: 4; }
-.meta { color: #555; font-size: 10pt; margin-bottom: 1.5em; }
+@page { size: letter; margin: 0.6in; @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #555; } @bottom-left { content: "OpenPhonograms · MIT licensed"; font-family: Georgia, serif; font-size: 7pt; color: #aaa; } }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.5; color: #222; }
+h1 { font-size: 22pt; color: #2a5c8a; margin: 0 0 0.3em 0; border-bottom: 3px solid #2a5c8a; padding-bottom: 0.3em; bookmark-level: 1; page-break-before: avoid; }
+h2 { font-size: 15pt; color: #2a5c8a; margin-top: 1.2em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; bookmark-level: 2; page-break-after: avoid; }
+h3 { font-size: 12pt; color: #2a5c8a; margin-top: 1em; bookmark-level: 3; page-break-after: avoid; }
+h4 { font-size: 11pt; color: #333; margin-top: 0.8em; bookmark-level: 4; }
+.meta { color: #555; font-size: 9pt; margin-bottom: 1em; }
 a { color: #2a5c8a; text-decoration: none; border-bottom: 1px dotted #2a5c8a; }
 a:hover { background: #f0f4f8; }
-table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 11pt; }
-th, td { border-bottom: 1px solid #ccc; padding: 5pt 8pt; text-align: left; vertical-align: top; }
+table { border-collapse: collapse; width: 100%; margin: 0.6em 0; font-size: 10pt; }
+th, td { border-bottom: 1px solid #ccc; padding: 4pt 6pt; text-align: left; vertical-align: top; }
 th { background: #f0f4f8; font-weight: bold; }
-code { background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: "Courier New", monospace; font-size: 11pt; }
-ul, ol { margin: 0.5em 0; padding-left: 1.5em; }
-li { margin: 0.2em 0; }
-.hero { background: linear-gradient(135deg, #2a5c8a 0%, #4a7caa 100%); color: white; padding: 1.5em; border-radius: 8px; margin: 1em 0; }
-.hero h1 { color: white; border-bottom: 3px solid white; }
-.hero p { color: rgba(255,255,255,0.95); }
-.callout { background: #f8f4e8; padding: 0.8em 1em; border-left: 4px solid #c8a832; margin: 1em 0; }
-.success { background: #e8f4e8; padding: 0.8em 1em; border-left: 4px solid #4a8a3a; margin: 1em 0; }
-.toc-item { display: flex; justify-content: space-between; padding: 0.4em 0; border-bottom: 1px dotted #ccc; }
+code { background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: "Courier New", monospace; font-size: 10pt; }
+ul, ol { margin: 0.4em 0; padding-left: 1.5em; }
+li { margin: 0.15em 0; }
+.hero { background: linear-gradient(135deg, #2a5c8a 0%, #4a7caa 100%); color: white; padding: 1.2em; border-radius: 8px; margin: 1em 0; }
+.hero h1 { color: white; border-bottom: 3px solid white; font-size: 20pt; }
+.hero p { color: rgba(255,255,255,0.95); font-size: 11pt; }
+.callout { background: #f8f4e8; padding: 0.6em 0.9em; border-left: 4px solid #c8a832; margin: 0.8em 0; }
+.success { background: #e8f4e8; padding: 0.6em 0.9em; border-left: 4px solid #4a8a3a; margin: 0.8em 0; }
+.toc-item { display: flex; justify-content: space-between; padding: 0.3em 0; border-bottom: 1px dotted #ccc; }
 .toc-item .title { font-weight: bold; }
-.toc-item .page { color: #555; font-family: "Courier New", monospace; font-size: 10pt; }
+.toc-item .page { color: #555; font-family: "Courier New", monospace; font-size: 9pt; }
+.phonogram { font-size: 36pt; font-weight: bold; text-align: center; margin: 0.4em 0; padding: 0.3em; border: 2px solid #2a5c8a; border-radius: 6px; }
+.phonogram-letter { font-size: 36pt; font-weight: bold; color: #2a5c8a; text-align: center; }
+.phonogram-sounds { font-family: "Courier New", monospace; font-size: 11pt; text-align: center; color: #2a5c8a; }
+.phonogram-card { border: 2px solid #2a5c8a; border-radius: 6px; padding: 0.8em 1em; margin: 0.8em 0; text-align: center; }
+.teacher-script { font-size: 10pt; line-height: 1.35; padding: 0.5em 0.8em; border-left: 3px solid #888; background: #fafaf6; margin: 0.6em 0; border-radius: 0 4px 4px 0; }
+.teacher-script > summary { font-weight: bold; color: #2a5c8a; cursor: pointer; }
 """
 
 

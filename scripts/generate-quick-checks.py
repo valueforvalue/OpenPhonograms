@@ -132,7 +132,7 @@ def render_quick_check(stage: int, slot: str, data: dict, stage_data: dict) -> s
 <meta charset="UTF-8">
 <title>{title} — Stage {stage}</title>
 <style>
-@page {{ size: letter; margin: 0.5in; }}
+@page {{ size: letter; margin: 0.5in; @bottom-left {{ content: "OpenPhonograms · MIT licensed"; font-family: Georgia, serif; font-size: 7pt; color: #aaa; }} }}
 body {{ font-family: Georgia, "Times New Roman", serif; font-size: 12pt; line-height: 1.5; color: #222; max-width: 7.5in; margin: 0 auto; }}
 h1 {{ font-size: 20pt; margin: 0 0 0.2em 0; color: #2a5c8a; border-bottom: 2px solid #2a5c8a; padding-bottom: 0.2em; }}
 h2 {{ font-size: 14pt; color: #2a5c8a; margin-top: 1.2em; }}

@@ -18,11 +18,11 @@ OUT_DIR = ROOT / "build" / "handbook"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 CSS = """
-@page { size: letter; margin: 0.75in; @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #555; } }
-body { font-family: Georgia, "Times New Roman", serif; font-size: 12pt; line-height: 1.6; color: #222; }
-h1 { font-size: 26pt; color: #2a5c8a; margin: 0 0 0.3em 0; border-bottom: 3px solid #2a5c8a; padding-bottom: 0.3em; bookmark-level: 1; }
-h2 { font-size: 18pt; color: #2a5c8a; margin-top: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; bookmark-level: 2; }
-.meta { color: #555; font-size: 10pt; margin-bottom: 1.5em; }
+@page { size: letter; margin: 0.75in; @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #555; } @bottom-left { content: "OpenPhonograms · MIT licensed"; font-family: Georgia, serif; font-size: 7pt; color: #aaa; } }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.5; color: #222; }
+h1 { font-size: 22pt; color: #2a5c8a; margin: 0 0 0.3em 0; border-bottom: 3px solid #2a5c8a; padding-bottom: 0.3em; bookmark-level: 1; }
+h2 { font-size: 15pt; color: #2a5c8a; margin-top: 1.2em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; bookmark-level: 2; }
+.meta { color: #555; font-size: 9pt; margin-bottom: 1em; }
 table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 11pt; }
 th, td { border-bottom: 1px solid #ccc; padding: 5pt 8pt; text-align: left; }
 th { background: #f0f4f8; font-weight: bold; }

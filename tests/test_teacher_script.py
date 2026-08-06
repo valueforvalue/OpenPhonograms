@@ -56,7 +56,7 @@ class TestTeacherScriptModule:
                 result = fn("word", "A sentence with word.")
             assert '<details class="teacher-script">' in result
             assert "<summary>" in result
-            assert "click to expand" in result
+            assert "Teacher Script" in result
             assert "</details>" in result
 
     def test_strip_frontmatter_drops_h2(self, helper):

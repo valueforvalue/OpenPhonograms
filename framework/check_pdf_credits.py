@@ -26,11 +26,11 @@ ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
 
 # Phrases that confirm the standardized footer is present in a PDF.
-# Post-rebrand (issue #32 / commit 1379999) the footer reads
-# 'Open-source. MIT licensed. Phonograms are drawn from the public-domain
-# phonics tradition (1800s onward).'
+# Post-rebrand (issue #32 / commit 1379999) plus post-CSS-density refactor:
+# the footer is rendered by framework/render.py's @page CSS at the
+# bottom-left of every page. Text: 'OpenPhonograms · MIT licensed'.
 CREDIT_PHRASES = (
-    "Open-source",
+    "OpenPhonograms",
     "MIT licensed",
 )
 
@@ -126,12 +126,13 @@ def main():
             failures.append((stage, pdf.name, "no credit phrase found"))
             # Show first 200 chars of text for debugging
             preview = text[:200].replace("\n", " ").strip()
-            print(f"  Stage {stage}: FAIL {pdf.name}: no 'Open-source. MIT licensed.' footer")
+            print(f"  Stage {stage}: FAIL {pdf.name}: no 'OpenPhonograms · MIT licensed.' footer")
             print(f"             Text preview: {preview!r}")
 
     if failures:
         print(f"\n  {len(failures)} of {sum(1 for v in samples.values() if v)} PDFs missing source attribution.")
-        print("  Run 'just gen-footers' then 'just render-all' to add footers and re-render.")
+        print("  The footer is rendered by framework/render.py's @page CSS.")
+        print("  Re-run 'just render-all' to refresh PDFs.")
         sys.exit(1)
     else:
         print(f"\n  All {sum(1 for v in samples.values() if v)} sampled PDFs contain source attribution.")

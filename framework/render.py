@@ -109,11 +109,29 @@ PAGE_CSS = """
         font-size: 9pt;
         color: #888;
     }
+    @bottom-left {
+        content: "OpenPhonograms · MIT licensed";
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-size: 7pt;
+        color: #aaa;
+    }
 }
 
 @page worksheet {
     size: letter;
     margin: 0.5in;
+    @bottom-center {
+        content: counter(page);
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-size: 9pt;
+        color: #888;
+    }
+    @bottom-left {
+        content: "OpenPhonograms · MIT licensed";
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-size: 7pt;
+        color: #aaa;
+    }
 }
 
 body {
@@ -148,6 +166,136 @@ body.stage-2.reader { font-size: 20pt; }
 body.stage-3.reader { font-size: 18pt; line-height: 1.7; }
 body.stage-4.reader { font-size: 16pt; line-height: 1.6; }
 body.stage-5.reader { font-size: 15pt; line-height: 1.55; }
+
+/* ── Density classes ──────────────────────────────────────────────────
+   Teacher-facing and admin material should be dense (smaller fonts,
+   tighter line-height). Use these as wrappers or body classes.
+
+   In a lesson MD:
+     <details class="teacher-script">    — collapsible adult content
+     <div class="teacher-only">           — non-collapsible adult content
+     <div class="reference-card">         — single-page reference cards
+
+   On the body for fully-admin docs:
+     body.administrative   — nav PDFs (start-here, scope, index)
+     body.handbook         — stage handbooks (dense teacher binder)
+     body.index            — master index / TOC
+
+   Combined with stage (e.g. lesson in a stage-2 pack rendered inline
+   inside a stage-2 handbook), the body.handbook font wins. */
+.teacher-script {
+    font-size: 11pt;
+    line-height: 1.35;
+    color: #333;
+    background: #fafaf6;
+    border-left: 3px solid #888;
+    padding: 0.6em 0.9em;
+    margin: 0.8em 0;
+    border-radius: 0 4px 4px 0;
+    page-break-inside: auto;
+}
+.teacher-script > summary {
+    font-weight: bold;
+    font-size: 12pt;
+    color: var(--accent);
+    margin-bottom: 0.4em;
+    list-style: none;
+}
+.teacher-script > summary::-webkit-details-marker { display: none; }
+.teacher-script > summary::before {
+    content: "📖 ";
+    margin-right: 0.3em;
+}
+.teacher-script > summary::after {
+    content: " — Teacher Script";
+    font-weight: normal;
+    font-style: italic;
+    color: #666;
+    font-size: 10pt;
+}
+.teacher-script h1, .teacher-script h2, .teacher-script h3 {
+    color: var(--accent);
+    margin: 0.6em 0 0.3em;
+}
+.teacher-script h2 { font-size: 13pt; border-bottom: 1px solid #ddd; }
+.teacher-script h3 { font-size: 11pt; }
+.teacher-script p { margin: 0.3em 0; }
+.teacher-script ul, .teacher-script ol { margin: 0.3em 0 0.3em 1.5em; }
+.teacher-script table { font-size: 10pt; margin: 0.4em 0; }
+.teacher-script .phonogram { font-size: 36pt; margin: 0.3em 0; padding: 0.2em; }
+
+.teacher-only {
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #444;
+    border-left: 2px solid #c8c8c8;
+    padding: 0.4em 0.8em;
+    margin: 0.6em 0;
+    background: #fefefa;
+}
+
+.reference-card {
+    /* A printable take-home card. Compact, single-page. */
+    font-size: 12pt;
+    line-height: 1.4;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 0.8em 1em;
+    margin: 0.5em 0;
+    page-break-inside: avoid;
+}
+.reference-card h1, .reference-card h2, .reference-card h3 {
+    color: var(--accent);
+    margin: 0.3em 0;
+}
+.reference-card h1 { font-size: 22pt; }
+.reference-card h2 { font-size: 14pt; border-bottom: 1px solid #ddd; }
+.reference-card h3 { font-size: 11pt; }
+.reference-card .phonogram,
+.reference-card .phonogram-letter {
+    font-size: 48pt;
+    margin: 0.2em 0;
+    padding: 0.2em;
+}
+
+body.administrative {
+    font-size: 10pt;
+    line-height: 1.4;
+    color: var(--ink);
+}
+body.administrative h1 { font-size: 18pt; margin-top: 0; }
+body.administrative h2 { font-size: 13pt; margin-top: 1em; }
+body.administrative h3 { font-size: 11pt; }
+body.administrative p { margin: 0.3em 0; }
+body.administrative table { font-size: 9pt; margin: 0.5em 0; }
+body.administrative ul, body.administrative ol { margin: 0.2em 0 0.2em 1.5em; }
+body.administrative .phonogram { font-size: 36pt; }
+
+body.handbook {
+    font-size: 11pt;
+    line-height: 1.4;
+    color: var(--ink);
+}
+body.handbook h1 { font-size: 18pt; margin-top: 0; }
+body.handbook h2 { font-size: 13pt; margin-top: 1em; }
+body.handbook h3 { font-size: 11pt; }
+body.handbook p { margin: 0.3em 0; }
+body.handbook table { font-size: 10pt; margin: 0.5em 0; }
+body.handbook .phonogram { font-size: 48pt; }
+body.handbook .phonogram-letter { font-size: 56pt; }
+body.handbook .teacher-script { font-size: 10pt; padding: 0.4em 0.7em; }
+
+body.index {
+    font-size: 9pt;
+    line-height: 1.35;
+    color: var(--ink);
+}
+body.index h1 { font-size: 16pt; margin-top: 0; }
+body.index h2 { font-size: 11pt; margin-top: 0.8em; }
+body.index h3 { font-size: 10pt; }
+body.index p { margin: 0.2em 0; }
+body.index table { font-size: 8pt; margin: 0.3em 0; }
+body.index ul, body.index ol { margin: 0.1em 0 0.1em 1.2em; }
 
 h1 {
     font-size: 24pt;
@@ -511,7 +659,7 @@ def _stage_from_path(md_path: Path) -> int | None:
     return None
 
 
-def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson"):
+def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson", body_class: str | None = None):
     """Render a single markdown file to PDF.
 
     Safe to call from a worker process — imports are lazy, no shared state.
@@ -521,6 +669,9 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
         output_path: Path where the PDF will be written.
         doc_type: 'lesson' (default), 'worksheet', or 'reader' — selects
             page sizing + body class.
+        body_class: Optional explicit body class to override detection,
+            e.g. 'administrative', 'handbook', 'index'. Used by
+            navigation/handbook generators that don't want per-stage sizing.
     """
     # Lazy weasyprint import: this is expensive (~1-2s) and we only want
     # to pay the cost when actually rendering, not at module import time.
@@ -529,15 +680,20 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson")
     md_text = md_path.read_text(encoding="utf-8")
     body_html = md_to_html(md_text, md_path)
 
-    # Compose body classes: doc-type + per-stage age-graded sizing.
+    # Compose body classes: doc-type + per-stage age-graded sizing,
+    # OR an explicit body_class override (admin/handbook/index).
     classes = []
-    if doc_type == "worksheet":
-        classes.append("worksheet")
-    elif doc_type == "reader":
-        classes.append("reader")
-    stage = _stage_from_path(md_path)
-    if stage is not None:
-        classes.append(f"stage-{stage}")
+    if body_class:
+        # explicit override wins (e.g. 'administrative', 'handbook', 'index')
+        classes.append(body_class)
+    else:
+        if doc_type == "worksheet":
+            classes.append("worksheet")
+        elif doc_type == "reader":
+            classes.append("reader")
+        stage = _stage_from_path(md_path)
+        if stage is not None:
+            classes.append(f"stage-{stage}")
     body_class_attr = f' class="{" ".join(classes)}"' if classes else ""
 
     full_html = f"""<!DOCTYPE html>

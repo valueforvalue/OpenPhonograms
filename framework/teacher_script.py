@@ -48,7 +48,7 @@ def _wrap_collapsible(body: str, label: str) -> str:
     as a clickable card. Inside, the original Markdown is preserved so
     pdftotext + WeasyPrint can render it.
     """
-    summary = f"📖 {label} (click to expand)"
+    summary = f"📖 {label}"
     return (
         f'\n<details class="teacher-script">\n'
         f'<summary>{summary}</summary>\n\n'

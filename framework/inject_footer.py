@@ -1,49 +1,55 @@
 """Inject source-attribution footer into generated MD files (issue #32).
 
-After generators emit their MD content, this script ensures every
-lesson/worksheet/reader MD ends with the standardized source
-attribution footer. The footer is the same one added to the templates
-in framework/templates/*.md.
+DEPRECATED (post-CSS-density refactor): the footer is now rendered by
+the framework's @page CSS rules, not injected into MD content. This
+script is kept as a no-op so existing build pipelines still work.
+
+The script still recognizes both the new ('Open-source. MIT licensed')
+and legacy ('Source: Adapted from the methodology') footers and
+STrips them from MD files. After running, the framework's CSS renders
+the footer at the bottom of every PDF page automatically.
 
 Usage:
-    python framework/inject_footer.py                # walk defaults
+    python framework/inject_footer.py                # walk defaults + strip
     python framework/inject_footer.py lessons/ worksheets/ readers/
     python framework/inject_footer.py --dry-run      # preview only
-
-The script is idempotent: files that already have the footer are
-skipped. Files where the footer is not the LAST block are updated.
 """
 import argparse
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# FOOTER is the fallback template used by HTML files (HTMLs don't get
+# the CSS @page footer). The PDF footer is rendered by render.py's
+# @page CSS, not from this string.
 FOOTER = (
     "\n---\n\n"
-    "*Open-source. MIT licensed. Phonograms are drawn from the "
+    "*OpenPhonograms · MIT licensed. Phonograms are drawn from the "
     "public-domain phonics tradition (1800s onward).*\n"
 )
-FOOTER_MARKER = "Open-source. MIT licensed"
+FOOTER_MARKER = "OpenPhonograms · MIT licensed"  # marker for current FOOTER
 # Old (pre-rebrand) footer marker. Matched so we can strip it during the
 # one-time migration of remaining MD files.
 LEGACY_FOOTER_MARKER = "Source: Adapted from the methodology"
+# Pre-CSS-density in-text footer (used between rebrand and CSS-density
+# refactor). Strip on migration to the new CSS-rendered footer.
+LEGACY2_FOOTER_MARKER = "Open-source. MIT licensed"
 
 
 def needs_footer(content: str) -> bool:
-    """True if the file should have the footer appended/replaced."""
-    # Has the legacy footer (pre-rebrand)? Always needs replacement.
+    """True if the file has a footer that should be stripped."""
     if LEGACY_FOOTER_MARKER in content:
         return True
-    # Has the new footer? Check if it's the LAST block.
+    if LEGACY2_FOOTER_MARKER in content:
+        return True
     if FOOTER_MARKER in content:
-        return not content.rstrip().endswith(FOOTER.rstrip())
-    # No footer at all.
-    return True
+        return True
+    return False
 
 
 def strip_existing_footer(content: str) -> str:
-    """Remove any existing footer (new or legacy) so we can write a fresh one."""
-    for marker in (FOOTER_MARKER, LEGACY_FOOTER_MARKER):
+    """Remove any existing footer (current or legacy) so we can write a fresh one."""
+    for marker in (FOOTER_MARKER, LEGACY_FOOTER_MARKER, LEGACY2_FOOTER_MARKER):
         if marker not in content:
             continue
         lines = content.splitlines()
@@ -56,21 +62,28 @@ def strip_existing_footer(content: str) -> str:
     return content
 
 
-def add_footer(path: Path, dry_run: bool = False) -> str:
-    """Inject footer into a single MD file. Returns 'added', 'updated', or 'unchanged'."""
+def strip_footer(path: Path, dry_run: bool = False) -> str:
+    """Strip footer from a single MD file. Returns 'updated' or 'unchanged'."""
     try:
         content = path.read_text(encoding="utf-8")
     except (UnicodeDecodeError, OSError):
         return "skipped"
     if not needs_footer(content):
         return "unchanged"
-    content = strip_existing_footer(content)
-    if not content.endswith("\n"):
-        content += "\n"
-    new_content = content + FOOTER
+    new_content = strip_existing_footer(content)
     if not dry_run:
         path.write_text(new_content, encoding="utf-8")
-    return "added" if FOOTER_MARKER not in content else "updated"
+    return "updated"
+
+
+# Backwards compat alias — old callers used add_footer.
+def add_footer(path: Path, dry_run: bool = False) -> str:
+    """DEPRECATED: now strips the footer instead of injecting it.
+
+    Kept for callers that haven't migrated. Returns 'updated' if the
+    footer was removed, 'unchanged' if none was present.
+    """
+    return strip_footer(path, dry_run)
 
 
 def main():
