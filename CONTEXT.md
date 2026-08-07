@@ -45,7 +45,7 @@ Lesson opening. Always phonogram flash review. Child sees card, says ALL sounds 
 ## File Types
 
 ### lesson
-A single teaching session. Markdown file in `lessons/stage-X/`. 248 total. Has header, warm-up, new learning, spelling analysis, quick check, next lesson, home practice.
+A single teaching session. Markdown file in `lessons/stage-X/`. 244 total. Has header, warm-up, new learning, spelling analysis, quick check, next lesson, home practice.
 
 ### worksheet
 Student practice page. In `worksheets/`. Types: phonogram practice, rule practice, blank templates, flash cards, game cards.
@@ -57,7 +57,7 @@ Decodable story. Standalone in `readers/` or embedded in a lesson. Controlled vo
 Teacher-facing printable aid. HTML files in `reference/`. 8 total: quickstart, phonogram chart, spelling rules, spelling analysis, word lists, HF words, troubleshooting, morpheme wall.
 
 ### catalog
-`framework/lesson-catalog.csv`. CSV index of all 248 lessons. Source of truth for lesson order, types, IDs, phonograms, rules.
+`framework/lesson-catalog.csv`. CSV index of all 244 lessons. Source of truth for lesson order, types, IDs, phonograms, rules.
 
 ### generator
 Python script in `scripts/` that produces markdown files from data. Output must not be hand-edited — fix the generator.
@@ -72,7 +72,7 @@ Python script in `scripts/` that produces markdown files from data. Output must 
 | 2 | 49-104 | K (5-6) | 25 multi-letter PGs + short vowels + 6 rules |
 | 3 | 105-160 | Gr 1 (6-7) | Silent E + 17 PGs + 9 rules + syllables |
 | 4 | 161-208 | Gr 2 (7-8) | Schwa + suffixing + Latin /sh/ + morphology |
-| 5 | 209-248 | Gr 3+ (8+) | 25 roots + fluency + composition + grammar |
+| 5 | 204-244 | Gr 3+ (8+) | 25 roots + fluency + composition + grammar |
 
 ---
 

@@ -4,7 +4,7 @@ Hand-curated. Read at session start. Keep under 30 lines.
 
 ## Project: OpenPhonograms Curriculum
 
-Print-first reading curriculum. 248 markdown lessons, 75 phonograms, 31 spelling rules.
+Print-first reading curriculum. 244 markdown lessons, 75 phonograms, 31 spelling rules.
 
 ## Key Files
 
@@ -13,7 +13,7 @@ Print-first reading curriculum. 248 markdown lessons, 75 phonograms, 31 spelling
 - `curriculum.md` — Full methodology, phonogram list, rules, scope (55KB)
 - `docs/BUILD.md` — Build from source (requirements, justfile, troubleshooting)
 - `docs/USE.md` — Use the curriculum (teachers)
-- `framework/lesson-catalog.csv` — 248-lesson index (source of truth)
+- `framework/lesson-catalog.csv` — 244-lesson index (source of truth)
 - `framework/render.py` — Markdown → PDF pipeline (weasyprint)
 - `scripts/generate-stage*.py` — Lesson/worksheet/reader generators
 - `games/phonogram-trainer.html` — Web game (self-contained HTML)
@@ -39,6 +39,7 @@ Every lesson has: `# Lesson N: Title` / `**Stage X** · Lesson N · type` / `## 
 - Generator output vs catalog: filenames must match `lesson_id` column
 - Worksheet data vs lesson data: same phonogram sounds, same words
 - Game phonogram data vs curriculum: 75 phonograms, same sounds
+- Worksheet phonograms: 75/75 (100% coverage; check via `just check-coverage`)
 - PDF vs markdown: tables must fit letter-size page
 
 ## Domain Glossary

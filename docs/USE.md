@@ -32,7 +32,7 @@ A complete print-first reading curriculum, organized by stage:
 | 4 | Grade 2 (7-8) | 48 | Schwa, suffixing, Latin /sh/, morphology |
 | 5 | Grade 3+ (8+) | 40 | 25 Latin/Greek roots + fluency + composition + grammar |
 
-**Total: 248 lessons** + 178 worksheets + 25 decodable readers + 8 reference aids.
+**Total: 244 lessons** + 178 worksheets + 25 decodable readers + 8 reference aids.
 
 Approximate total time: 2-3 school years at 4 lessons/week.
 
@@ -62,7 +62,7 @@ Uncovering-the-Logic-of-English/
 ├── 02-Scope-and-Sequence.pdf                  # Full curriculum map
 ├── 04-Quick-Reference/                        # Phonograms, rules, spelling analysis
 ├── 05-Teacher-Handbooks/                      # 5 bound-book-style handbooks (PDF)
-├── 06-Lesson-Packs/                           # 248 per-lesson bundles
+├── 06-Lesson-Packs/                           # 244 per-lesson bundles
 │   └── stage-1/ ... stage-5/
 ├── 07-Worksheets/                             # 178 standalone practice sheets
 │   ├── phonograms/                            #   One per phonogram (72)
@@ -295,7 +295,7 @@ A: Take the placement test (if available in your release), or start at Stage 1 L
 **Q: How is this different from the official Logic of English curriculum?**
 
 A: This is a free, open-source adaptation. Scope:
-- 248 lessons vs. official's 350-360 units (we compress multi-part lessons into single teaching sessions)
+- 244 lessons vs. official's 350-360 units (we compress multi-part lessons into single teaching sessions)
 - Same 75 phonograms, 31 rules
 - Same methodology (spelling analysis, say-to-spell, no sight words)
 - Open-source generators, customizable, no DRM

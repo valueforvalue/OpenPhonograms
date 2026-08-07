@@ -5,14 +5,14 @@
 
 ## Context
 
-248 lessons, 148 worksheets, 16 readers, 75 phonogram flash cards. Hand-authoring each file is error-prone and slow. Changes to content schema require updating hundreds of files.
+244 lessons, 148 worksheets, 16 readers, 75 phonogram flash cards. Hand-authoring each file is error-prone and slow. Changes to content schema require updating hundreds of files.
 
 ## Decision
 
 Python generator scripts in `scripts/` are the source of truth for all generated content. Output markdown files in `lessons/`, `worksheets/`, `readers/` must not be hand-edited. To change content, change the generator and regenerate.
 
 Generator scripts:
-- `scripts/generate-stage1.py` through `generate-stage5.py` — 248 lessons
+- `scripts/generate-stage1.py` through `generate-stage5.py` — 244 lessons
 - `scripts/generate-worksheets.py` — 148 worksheets, flash cards, templates
 - `scripts/generate-readers.py` — 9 standalone readers
 - `scripts/generate-audio-edge.py` — audio pack for web game

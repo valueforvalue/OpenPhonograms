@@ -13,7 +13,7 @@ the renderer, or onboarding.
 UncoveringtheLogic/
 ├── curriculum.md              # Methodology reference (single source of truth)
 ├── TEACHER-GUIDE.md           # Human entry point
-├── lessons/                   # 248 lesson MDs, organized by stage
+├── lessons/                   # 244 lesson MDs, organized by stage
 │   └── stage-{1..5}/          #   (each lesson: warmup + new learning + spelling + check)
 ├── readers/                   # 25 decodable readers, mirrored stage-{1..5}/
 ├── worksheets/                # 75 PG + 31 rule + 19 flash card + 3 blank sheets
@@ -25,7 +25,7 @@ UncoveringtheLogic/
 ├── framework/                 # ← shared library (importable, no entry points)
 │   ├── render.py              #   Markdown→PDF pipeline
 │   ├── phonograms.py          #   Phonogram catalog (single source of truth)
-│   ├── lesson-catalog.csv     #   248-lesson metadata (stage, type, PG, rule, ...)
+│   ├── lesson-catalog.csv     #   244-lesson metadata (stage, type, PG, rule, ...)
 │   ├── fonts/                 #   Atkinson Hyperlegible TTFs (OFL)
 │   ├── templates/             #   Markdown templates used by stage generators
 │   └── README.md, STYLE-GUIDE.md
@@ -36,7 +36,7 @@ UncoveringtheLogic/
 │   └── render-*.py            #   2 render orchestration scripts
 ├── games/                     # Web game + audio
 │   ├── phonogram-trainer.html
-│   └── audio/                 # 74 phonogram MP3s
+│   └── audio/                 # 75 phonogram MP3s
 ├── images/                    # 35 PG illustrations (Montessori style)
 ├── docs/                      # Long-form docs (BUILD.md, USE.md, this file)
 ├── tests/                     # 119 pytest tests (90 fast + 29 slow)
@@ -88,7 +88,7 @@ Pure-Python, importable from any script. **No side effects on import.**
 No `if __name__ == "__main__"` here.
 
 - `phonograms.py` — owns SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE. The
-  canonical catalog of all 72 phonograms. Other modules import from here.
+  canonical catalog of all 75 phonograms. Other modules import from here.
   Adding a new PG? Edit this file, run `just check-coverage` to confirm
   the catalog matches `lesson-catalog.csv`.
 
@@ -100,7 +100,7 @@ No `if __name__ == "__main__"` here.
   - `PAGE_CSS` — Atkinson Hyperlegible + WCAG palette. Modify with care;
     all 887 rendered PDFs will pick up the change.
 
-- `lesson-catalog.csv` — 248 rows. Authoritative source for stage, type,
+- `lesson-catalog.csv` — 244 rows. Authoritative source for stage, type,
   phonogram, rule, and reader mapping. Parsed by every check-*.py script.
 
 - `fonts/` — 4 TTF files. Required for `@font-face` in `render.py`.

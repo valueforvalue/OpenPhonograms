@@ -24,12 +24,12 @@ For developers, contributors, and anyone building the curriculum from source.
 
 ## What This Project Is
 
-A print-first reading curriculum (248 lessons, Pre-K → Gr 3+) generated from data:
+A print-first reading curriculum (244 lessons, Pre-K → Gr 3+) generated from data:
 
 - **75 phonograms** (26 single-letter + 49 multi-letter)
 - **31 spelling rules** (numbered, with sub-rules)
 - **32 decodable readers** (controlled vocabulary)
-- **248 lesson PDFs + 178 worksheet PDFs + 25 reader PDFs + 9 reference HTMLs**
+- **244 lesson PDFs + 178 worksheet PDFs + 25 reader PDFs + 9 reference HTMLs**
 - **8 stage assessments**, **1 phonogram trainer web game**, **74 audio MP3s**
 
 Every printed artifact is generated from a Markdown source by Python scripts. The Markdown is human-readable and version-controlled. The generators are deterministic — re-runs produce identical output.
@@ -39,7 +39,7 @@ Source: [Uncovering the Logic of English](https://logicofenglish.com/) by Denise
 ## Architecture in 60 Seconds
 
 ```
-framework/lesson-catalog.csv       ← Source of truth (248 rows)
+framework/lesson-catalog.csv       ← Source of truth (244 rows)
         ↓
 scripts/generate-*.py             ← Python generators (data → MD)
         ↓
@@ -167,9 +167,9 @@ The `justfile` at repo root wraps every script. Run `just` with no args to list 
 just doctor              # Verify environment (Python deps, GTK3, scripts)
 just build               # Full pipeline without release ZIP (~80s)
 just all                 # Full pipeline + release ZIP (~85s)
-just render-lessons      # Render all 248 lesson PDFs
+just render-lessons      # Render all 244 lesson PDFs
 just render-stage 3      # Render just Stage 3 lessons
-just pack-all            # Build all 248 lesson packs
+just pack-all            # Build all 244 lesson packs
 just pack-stage 3        # Build Stage 3 packs only
 just pack-lesson pg-d    # Build one pack (great for testing)
 just gen-all             # Regenerate all Markdown from data
@@ -186,7 +186,7 @@ just clean-all           # Remove all build artifacts (keeps sources)
 ```
 doctor                          # Environment sanity check
 gen-worksheets                  # Generate phonogram/rule/flash worksheets
-gen-lessons                     # Generate all 248 lesson MD files
+gen-lessons                     # Generate all 244 lesson MD files
 gen-lessons-stage <1-5>         # Generate one stage
 gen-readers                     # Generate standalone readers
 gen-animal-readers              # Generate animal-themed readers
@@ -194,13 +194,13 @@ gen-all                         # Generate every Markdown source
 
 render-file <path>              # Render one MD file to PDF
 render-stage <1-5>              # Render all lessons in a stage
-render-lessons                  # Render all 248 lessons
+render-lessons                  # Render all 244 lessons
 render-curriculum               # Render curriculum.md as one PDF
 render-all                      # Render all lessons + curriculum
 
 pack-lesson <lesson_id>         # Build one lesson pack
 pack-stage <1-5>                # Build all packs for a stage
-pack-all                        # Build all 248 packs
+pack-all                        # Build all 244 packs
 pack-all-debug                  # Build packs in --no-render mode (debug assembly)
 
 audio                           # Generate 74 MP3s (edge-tts)
@@ -244,7 +244,7 @@ build/                          # Rendered PDFs (gitignored)
   assessments/                  #   8 stage mastery assessments
   curriculum.pdf                #   Master reference (1 PDF)
 
-packs/                          # Per-lesson bundles (gitignored) — 248 PDFs
+packs/                          # Per-lesson bundles (gitignored) — 244 PDFs
   stage-N/lesson-NN-{lesson_id}.pdf   # cover + lesson + worksheet + cards
 
 release.zip                     # Everything in LOE-style folder structure (18.6 MB, 446 files)
@@ -259,7 +259,7 @@ README.md                                 # Text overview
 02-Scope-and-Sequence.pdf                 # Full curriculum map
 04-Quick-Reference/                       # Phonograms, rules, spelling analysis
 05-Teacher-Handbooks/                     # 5 bound-book-style handbooks (PDF)
-06-Lesson-Packs/                          # 248 per-lesson bundles
+06-Lesson-Packs/                          # 244 per-lesson bundles
 07-Worksheets/                            # 178 standalone practice sheets
 08-Decodable-Readers/                     # 25 decodable story PDFs + index
 09-Quick-Checks/                          # Placement test + 5 stage quick-checks
@@ -320,7 +320,7 @@ Install Just: `winget install Casey.Just` (Windows) / `brew install just` (macOS
 
 ### Pack builder warns about missing assets
 
-Should not happen — all 248 packs build clean. If you see warnings, the catalog or worksheets are out of sync. Run `just gen-worksheets` to refresh.
+Should not happen — all 244 packs build clean. If you see warnings, the catalog or worksheets are out of sync. Run `just gen-worksheets` to refresh.
 
 ### Render output looks different from expected
 
@@ -400,7 +400,7 @@ Three validators that catch drift, layout problems, and coverage gaps:
 Compares each generated lesson MD against its PDF in `build/`. Reports any MD newer than its PDF — meaning a source edit hasn't been re-rendered yet.
 
 ```bash
-just check-drift                          # all 248 lessons
+just check-drift                          # all 244 lessons
 just check-drift --stage 3                # one stage
 python scripts/check-drift.py --include-worksheets --include-readers
 ```
@@ -458,7 +458,7 @@ UncoveringtheLogic/
 │
 ├── framework/                  ← Build tools
 │   ├── README.md               ← Toolchain reference
-│   ├── lesson-catalog.csv      ← 248-lesson index (source of truth)
+│   ├── lesson-catalog.csv      ← 244-lesson index (source of truth)
 │   ├── image-manifest.csv      ← Image inventory
 │   ├── render.py               ← MD → PDF
 │   ├── image-check.py          ← Missing-image scanner
@@ -479,7 +479,7 @@ UncoveringtheLogic/
 │   ├── build-lesson-pack.py    # Per-lesson cohesive bundles
 │   └── build-release.py        # Final ZIP packaging
 │
-├── lessons/                    ← 248 lesson MD files (generated)
+├── lessons/                    ← 244 lesson MD files (generated)
 │   ├── stage-1/ ... stage-5/
 │
 ├── worksheets/                 ← 178 worksheet MD files (generated)

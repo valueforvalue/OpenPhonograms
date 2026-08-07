@@ -19,7 +19,7 @@ English spelling is 98% predictable when you know 75 phonograms + 31 rules. This
 - 75 basic phonograms (26 single-letter + 49 multi-letter)
 - 31 spelling rules
 - 44 phonemes (speech sounds)
-- 248 lessons across 5 stages
+- 244 lessons across 5 stages
 - 98% of English words covered
 
 ## The 5 Stages
