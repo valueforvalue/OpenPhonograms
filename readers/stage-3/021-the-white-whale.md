@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The White Whale
+
+**Stage 3 Decodable Reader** · For use after Lesson 35
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 35
 

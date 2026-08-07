@@ -466,6 +466,35 @@ img {
     margin: 0.5em auto;
 }
 
+/* Reader cover page: distinct visual treatment so the reader is easy to
+   identify on a shelf. See issue #19. */
+.reader-cover {
+    text-align: center;
+    padding: 2.5em 1.5em;
+    border: 3px solid #2a5c8a;
+    border-radius: 12px;
+    margin: 1em auto;
+    max-width: 85%;
+    page-break-after: always;
+    break-after: page;
+}
+.reader-cover h1 {
+    font-size: 36pt;
+    color: #2a5c8a;
+    margin: 0.3em 0 0.2em 0;
+    border-bottom: 2px solid #2a5c8a;
+    padding-bottom: 0.2em;
+}
+.reader-cover p {
+    color: #444;
+    font-size: 12pt;
+    margin: 0.4em 0;
+}
+.page-break {
+    page-break-after: always;
+    break-after: page;
+}
+
 /* Reader layout: two-column with sidebar */
 .reader-page {
     display: flex;

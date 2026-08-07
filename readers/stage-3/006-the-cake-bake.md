@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Cake Bake
+
+**Stage 3 Decodable Reader** · For use after Lesson 13
+
+**Phonograms practiced:** silent E + all previous
+
+**Word count:** 168 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 13
 

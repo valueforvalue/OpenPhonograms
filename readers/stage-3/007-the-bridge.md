@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Bridge
+
+**Stage 3 Decodable Reader** · For use after Lesson 23
+
+**Phonograms practiced:** dge, tch, kn, gn, wr + all previous
+
+**Word count:** 204 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 23
 

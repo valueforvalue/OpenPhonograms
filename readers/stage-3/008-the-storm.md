@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Storm
+
+**Stage 3 Decodable Reader** · For use after Lesson 35
+
+**Phonograms practiced:** ough, augh, ew, ui, eu + all previous
+
+**Word count:** 166 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 35
 

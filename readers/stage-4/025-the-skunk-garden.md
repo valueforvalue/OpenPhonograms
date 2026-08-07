@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Skunk Garden
+
+**Stage 4 Decodable Reader** · For use after Lesson 30
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 4** · Decodable Reader · After Lesson 30
 

@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Farm
+
+**Stage 2 Decodable Reader** · For use after Lesson 50
+
+**Phonograms practiced:** oa, ear + all previous
+
+**Word count:** 131 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 50
 

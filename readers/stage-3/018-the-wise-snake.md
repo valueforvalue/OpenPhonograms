@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Wise Snake
+
+**Stage 3 Decodable Reader** · For use after Lesson 13
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 13
 

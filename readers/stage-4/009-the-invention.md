@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Invention
+
+**Stage 4 Decodable Reader** · For use after Lesson 33
+
+**Phonograms practiced:** all + morphology focus
+
+**Word count:** 211 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 4** · Decodable Reader · After Lesson 33
 

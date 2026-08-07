@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Shy Goat
+
+**Stage 2 Decodable Reader** · For use after Lesson 50
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 50
 

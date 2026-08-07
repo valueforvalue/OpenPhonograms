@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Little Sheep
+
+**Stage 2 Decodable Reader** · For use after Lesson 15
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 15
 

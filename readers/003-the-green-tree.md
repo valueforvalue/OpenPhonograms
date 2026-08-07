@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Green Tree
+
+**Stage 2 Decodable Reader** · For use after Lesson 18
+
+**Phonograms practiced:** sh, th, ck, ee + blends
+
+**Word count:** 141 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 18
 

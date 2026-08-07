@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # Cat and Dog
+
+**Stage 2 Decodable Reader** · For use after Lesson 10
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 10
 

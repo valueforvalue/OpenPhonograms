@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Beaver Dam
+
+**Stage 4 Decodable Reader** · For use after Lesson 10
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 4** · Decodable Reader · After Lesson 10
 

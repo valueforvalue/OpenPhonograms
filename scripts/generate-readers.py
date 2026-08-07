@@ -353,7 +353,19 @@ The End.""",
 
 # ── WRITE ───────────────────────────────────────────────────────────
 
-TMP = """# {title}
+TMP = """<div class="reader-cover">
+
+# {title}
+
+**Stage {stage} Decodable Reader** · For use after Lesson {after_lesson}
+
+**Phonograms practiced:** {phonograms}
+
+**Word count:** {word_count} words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage {stage}** · Decodable Reader · After Lesson {after_lesson}
 
@@ -417,6 +429,10 @@ def main():
         # Build per-page story with sidebars
         r_with_pages = dict(r)
         r_with_pages["story_pages"] = _build_story_pages(r)
+        # Word count for cover page
+        import re as _wc_re
+        word_count = len(_wc_re.findall(r"\b\w+\b", r.get("story", "")))
+        r_with_pages["word_count"] = word_count
         content = TMP.format(**r_with_pages)
         (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
         stage_dir = OUT / f"stage-{r['stage']}"

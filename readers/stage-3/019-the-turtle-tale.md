@@ -1,4 +1,12 @@
+<div class="reader-cover">
+
 # The Turtle Tale
+
+**Stage 3 Decodable Reader** · For use after Lesson 47
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 3** · Decodable Reader · After Lesson 47
 

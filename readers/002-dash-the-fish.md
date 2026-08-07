@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # Dash the Fish
+
+**Stage 2 Decodable Reader** · For use after Lesson 14
+
+**Phonograms practiced:** sh, th, ck + all single-letter
+
+**Word count:** 133 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 14
 

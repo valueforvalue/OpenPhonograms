@@ -552,7 +552,15 @@ The End.""",
     },
 ]
 
-TMP = """# {title}
+TMP = """<div class="reader-cover">
+
+# {title}
+
+**Stage {stage} Decodable Reader** · For use after Lesson {after}
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage {stage}** · Decodable Reader · After Lesson {after}
 

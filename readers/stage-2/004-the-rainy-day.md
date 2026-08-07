@@ -1,4 +1,16 @@
+<div class="reader-cover">
+
 # The Rainy Day
+
+**Stage 2 Decodable Reader** · For use after Lesson 31
+
+**Phonograms practiced:** oi, oy, ai, ay + all previous
+
+**Word count:** 128 words
+
+</div>
+
+<div class="page-break"></div>
 
 **Stage 2** · Decodable Reader · After Lesson 31
 
