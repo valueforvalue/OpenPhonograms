@@ -710,6 +710,26 @@ def md_to_html(md_text: str, md_file: Path) -> str:
         )
     html = re.sub(r'<img[^>]*\salt="([^"]*)"[^>]*\bsrc="([^"]*)"[^>]*>', img_replacer, html)
     html = re.sub(r'<img[^>]*\bsrc="([^"]*)"[^>]*\salt="([^"]*)"[^>]*>', _swap, html)
+
+    # Inject "Printable pack" callout for lesson files. See issue #11.
+    # Adds a small box at the bottom of every lesson page with the path to
+    # the matching lesson pack PDF (the printable bundle). Clickable relative
+    # link works in PDF readers that support internal+external PDF refs.
+    if "lessons" in str(md_file).replace("\\", "/") and "/stage-" in str(md_file).replace("\\", "/"):
+        pack_match = re.search(r"lessons/stage-(\d+)/([a-z0-9\-]+)\.md$", str(md_file).replace("\\", "/"))
+        if pack_match:
+            stage_n = pack_match.group(1)
+            lesson_slug = pack_match.group(2)
+            pack_path = f"../../packs/stage-{stage_n}/{lesson_slug}.pdf"
+            callout = (
+                f'<div class="lesson-pack-callout" style="margin-top: 1em; padding: 0.6em 0.8em; background: #f4f1e8; border-left: 4px solid #2a5c8a; font-size: 10pt;">'
+                f'<strong>\U0001f4c4 Printable pack:</strong> '
+                f'<a href="{pack_path}" style="color: #2a5c8a; text-decoration: none; font-weight: 600;">packs/stage-{stage_n}/{lesson_slug}.pdf</a>'
+                f' &mdash; lesson + worksheet + flash cards'
+                f'</div>'
+            )
+            html += callout
+
     return html
 
 
