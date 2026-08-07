@@ -1,6 +1,6 @@
-# Lesson 29: Phonogram ay
+# Lesson 28: Phonogram ai
 
-**Stage 2** · Lesson 29 · phonogram-intro
+**Stage 2** · Lesson 28 · phonogram-intro
 
 ---
 
@@ -14,28 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy |
 
 ---
 
-## New Learning: The Phonogram **ay**
+## New Learning: The Phonogram **ai**
 
-### What Is **ay**?
+### What Is **ai**?
 
-<div class="phonogram">ay</div>
+<div class="phonogram">ai</div>
 
-**ay** says 1 sound: /ā/
+**ai** says 1 sound: /ā/
 
-AY says /ā/ and is used at the END of a base word.
+AI is a two-letter /ā/. It is NEVER used at the end of an English word (Rule 3).
 
 
-> **Spelling Rule:** Rule 9: AY usually spells the sound /ā/ at the end of a base word.
+> **Spelling Rule:** Rule 3: No English word ends in I. AI never ends a word. Use AY instead.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ā/ | day, play, stay, may |
+| /ā/ | rain, paint, sail, train |
 
 ---
 
@@ -43,9 +43,9 @@ AY says /ā/ and is used at the END of a base word.
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| day | d (/d/), ay (/ā/) | AY at end — Rule 9 | /dā/ |
-| play | p (/p/), l (/l/), ay (/ā/) | AY at end | /plā/ |
-| stay | s (/s/), t (/t/), ay (/ā/) | AY at end | /stā/ |
+| rain | r (/r/), ai (/ā/), n (/n/) | AI never at end — Rule 3 | /rān/ |
+| sail | s (/s/), ai (/ā/), l (/l/) | AI in middle | /sāl/ |
+| train | t (/t/), r (/r/), ai (/ā/), n (/n/) | AI in middle | /trān/ |
 
 ---
 
@@ -53,53 +53,53 @@ AY says /ā/ and is used at the END of a base word.
 
 Read these words sound by sound, then blend:
 
-> day &nbsp;&nbsp; play &nbsp;&nbsp; stay
+> rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 Read these sentences:
 
-> The day is here.
+> The rain is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ay** in each word.
+Write each word once. Underline the **ai** in each word.
 
-day &nbsp;&nbsp; play &nbsp;&nbsp; stay
+rain &nbsp;&nbsp; sail &nbsp;&nbsp; train
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ay — it says /ā/)*
-2. Is ay a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with ay? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram ai — it says /ā/)*
+2. Is ai a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with ai? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 30: Rule 9: AY at End
+**Next lesson:** Lesson 29: Rule 8: AY at End
 
 ---
 
-*Practice at home: Flash your **ay** card 5 times. Find **ay** in a book — how many can you find?*
+*Practice at home: Flash your **ai** card 5 times. Find **ai** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ay — Teacher Script</summary>
+<summary>📖 Phonogram ai — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ay</div>
+<div class="phonogram">ai</div>
 
-> **Say:** "This is the phonogram **ay**." *(Point to the card.)* "It says /ā/."
+> **Say:** "This is the phonogram **ai**." *(Point to the card.)* "It says /ā/."
 
 > **Say:** "Listen to me say its sounds: /ā/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ay.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ai.)*
 
-> **Say:** "Now you write **ay** three times. Say '/ā/' each time you write it."
+> **Say:** "Now you write **ai** three times. Say '/ā/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +107,11 @@ day &nbsp;&nbsp; play &nbsp;&nbsp; stay
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ay — it says /ā/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ai — it says /ā/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

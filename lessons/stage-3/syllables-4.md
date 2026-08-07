@@ -1,6 +1,6 @@
-# Lesson 46: Syllable Division: Consonant + LE
+# Lesson 45: Syllable Division: Consonant + LE
 
-**Stage 3** · Lesson 46 · syllable-division
+**Stage 3** · Lesson 45 · syllable-division
 
 ---
 
@@ -68,7 +68,7 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 ---
 
-**Next lesson:** Lesson 47: Schwa
+**Next lesson:** Lesson 46: Syllables: C+LE
 
 ---
 

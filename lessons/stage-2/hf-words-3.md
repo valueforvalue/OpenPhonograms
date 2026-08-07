@@ -1,6 +1,6 @@
-# Lesson 53: High-Frequency Words — Set 3
+# Lesson 52: High-Frequency Words — Set 3
 
-**Stage 2** · Lesson 53 · hf-word
+**Stage 2** · Lesson 52 · hf-word
 
 ---
 
@@ -86,7 +86,7 @@ Adult reads these sentences. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 54: Rule 30: Floss Rule
+**Next lesson:** Lesson 53: Rule 29: Floss Rule
 
 ---
 

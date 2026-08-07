@@ -1,6 +1,6 @@
-# Lesson 12: Root mit/miss — "send"
+# Lesson 11: Root mit/miss — "send"
 
-**Stage 5** · Lesson 12 · morphology
+**Stage 5** · Lesson 11 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **mit/miss** word:
 
 ---
 
-**Next lesson:** Lesson 13: Root: vid/vis
+**Next lesson:** Lesson 12: Root: mit/miss
 
 ---
 

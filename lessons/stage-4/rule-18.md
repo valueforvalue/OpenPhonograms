@@ -1,6 +1,6 @@
-# Lesson 22: Rule 18 — SH Placement
+# Lesson 21: Rule 18 — SH Placement
 
-**Stage 4** · Lesson 22 · rule-intro
+**Stage 4** · Lesson 21 · rule-intro
 
 ---
 
@@ -65,7 +65,7 @@ The ship had fish and dishes. I am wishing for a special nation!
 
 ---
 
-**Next lesson:** Lesson 23: Latin /sh/ Mastery
+**Next lesson:** Lesson 23: Rule 18: SH Placement
 
 ---
 

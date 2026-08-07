@@ -1,6 +1,6 @@
-# Lesson 48: Review: ow ou oo ed igh aw au ir ur oa ear
+# Lesson 47: Review: ow ou oo ed igh aw au ir ur oa ear
 
-**Stage 2** · Lesson 48 · review
+**Stage 2** · Lesson 47 · review
 
 ---
 
@@ -60,7 +60,7 @@ Spell these words from dictation. Take your time — sound each one out.
 
 ---
 
-**Next lesson:** Lesson 49: Phonogram oa
+**Next lesson:** Lesson 48: Phonogram oa
 
 ---
 

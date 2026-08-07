@@ -1,6 +1,6 @@
-# Lesson 37: Rule 21 — Plural -S and -ES
+# Lesson 36: Rule 21 — Plural -S and -ES
 
-**Stage 4** · Lesson 37 · rule-intro
+**Stage 4** · Lesson 36 · rule-intro
 
 ---
 
@@ -62,7 +62,7 @@ The cats and dogs have boxes. The dishes are in the churches. Foxes ride buses!
 
 ---
 
-**Next lesson:** Lesson 38: Rule 22: 3rd Person -S -ES
+**Next lesson:** Lesson 38: Rule 21: Plural -S -ES
 
 ---
 

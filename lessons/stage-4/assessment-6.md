@@ -1,6 +1,6 @@
-# Lesson 13: Mid-Stage 4 Assessment
+# Lesson 12: Mid-Stage 4 Assessment
 
-**Stage 4** · Lesson 13 · assessment
+**Stage 4** · Lesson 12 · assessment
 
 ---
 

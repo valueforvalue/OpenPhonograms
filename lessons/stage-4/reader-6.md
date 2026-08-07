@@ -1,6 +1,6 @@
-# Lesson 43: Reader: Trains — A Blast of Fast
+# Lesson 42: Reader: Trains — A Blast of Fast
 
-**Stage 4** · Lesson 43 · reader
+**Stage 4** · Lesson 42 · reader
 
 ---
 
@@ -82,7 +82,7 @@ The End.
 
 ---
 
-**Next lesson:** Lesson 44: Morpheme Review: Prefixes
+**Next lesson:** Lesson 44: Reader: Trains
 
 ---
 

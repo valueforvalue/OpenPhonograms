@@ -1,6 +1,6 @@
-# Lesson 4: Schwa in Multi-Syllable Words
+# Lesson 3: Schwa in Multi-Syllable Words
 
-**Stage 4** · Lesson 4 · schwa-practice
+**Stage 4** · Lesson 3 · schwa-practice
 
 ---
 
@@ -52,7 +52,7 @@ Write each word. Say the say-to-spell version aloud as you write.
 
 ---
 
-**Next lesson:** Lesson 5: Rule 31.2: O→/ŭ/
+**Next lesson:** Lesson 4: Schwa in Multi-Syllable Words
 
 ---
 

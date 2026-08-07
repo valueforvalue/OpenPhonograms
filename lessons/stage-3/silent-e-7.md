@@ -1,6 +1,6 @@
-# Lesson 10: Silent E Reason 12.7 — TH Voiced
+# Lesson 9: Silent E Reason 12.7 — TH Voiced
 
-**Stage 3** · Lesson 10 · rule-intro
+**Stage 3** · Lesson 9 · rule-intro
 
 ---
 
@@ -68,7 +68,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 11: SE 8: Clarify Meaning
+**Next lesson:** Lesson 10: SE 7: TH Voiced
 
 ---
 

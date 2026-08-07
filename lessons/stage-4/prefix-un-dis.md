@@ -1,6 +1,6 @@
-# Lesson 24: Prefixes un- and re-
+# Lesson 23: Prefixes un- and re-
 
-**Stage 4** · Lesson 24 · morphology
+**Stage 4** · Lesson 23 · morphology
 
 ---
 

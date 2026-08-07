@@ -1,6 +1,6 @@
-# Lesson 40: Rule 10 — A Says /ä/
+# Lesson 39: Rule 10 — A Says /ä/
 
-**Stage 3** · Lesson 40 · rule-intro
+**Stage 3** · Lesson 39 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 
 ---
 
-**Next lesson:** Lesson 41: Phonogram wor
+**Next lesson:** Lesson 40: Rule 10: A Says /ä/
 
 ---
 
@@ -100,3 +100,8 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

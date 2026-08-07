@@ -110,3 +110,8 @@ boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oa — it says /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

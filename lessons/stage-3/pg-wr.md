@@ -1,6 +1,6 @@
-# Lesson 22: Phonogram wr
+# Lesson 21: Phonogram wr
 
-**Stage 3** · Lesson 22 · phonogram-intro
+**Stage 3** · Lesson 21 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 
 ---
 
-**Next lesson:** Lesson 23: Review: kn gn wr
+**Next lesson:** Lesson 22: Phonogram wr
 
 ---
 
@@ -88,3 +88,8 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wr — it says /r/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

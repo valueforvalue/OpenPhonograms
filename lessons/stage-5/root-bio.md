@@ -1,6 +1,6 @@
-# Lesson 17: Root bio — "life"
+# Lesson 16: Root bio — "life"
 
-**Stage 5** · Lesson 17 · morphology
+**Stage 5** · Lesson 16 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **bio** word:
 
 ---
 
-**Next lesson:** Lesson 18: Root: geo
+**Next lesson:** Lesson 17: Root: bio
 
 ---
 

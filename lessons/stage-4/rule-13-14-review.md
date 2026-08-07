@@ -1,6 +1,6 @@
-# Lesson 12: Drop E and Double Consonant Review
+# Lesson 11: Drop E and Double Consonant Review
 
-**Stage 4** · Lesson 12 · review
+**Stage 4** · Lesson 11 · review
 
 ---
 
@@ -34,7 +34,7 @@ Explain why these DON'T change: sleeping (2 vowels), jumping (2 final consonants
 
 ---
 
-**Next lesson:** Lesson 13: Mid-Stage 4 Assessment
+**Next lesson:** Lesson 12: Drop E & Double Review
 
 ---
 

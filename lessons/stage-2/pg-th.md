@@ -1,6 +1,6 @@
-# Lesson 12: Phonogram th
+# Lesson 11: Phonogram sh
 
-**Stage 2** · Lesson 12 · phonogram-intro
+**Stage 2** · Lesson 11 · phonogram-intro
 
 ---
 
@@ -14,27 +14,26 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh |
+| (No multi-letter phonograms yet) |
 
 ---
 
-## New Learning: The Phonogram **th**
+## New Learning: The Phonogram **sh**
 
-### What Is **th**?
+### What Is **sh**?
 
-<div class="phonogram">th</div>
+<div class="phonogram">sh</div>
 
-**th** says 2 sounds: /th/ (voiced) /th/ (unvoiced)
+**sh** says 1 sound: /sh/
 
-TH has TWO sounds: buzzing (voiced, as in 'this') and quiet (unvoiced, as in 'thin'). Put your hand on your throat to tell them apart!
+SH is a two-letter phonogram. Both letters work together to make one sound!
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /th (voiced)/ | this, that, them |
-| /th (unvoiced)/ | thin, with, path |
+| /sh/ | ship, fish, wish, dash |
 
 ---
 
@@ -42,9 +41,9 @@ TH has TWO sounds: buzzing (voiced, as in 'this') and quiet (unvoiced, as in 'th
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| this | th (/th/ voiced), i (/ĭ/), s (/s/) | th voiced — buzz on | /thĭs/ |
-| thin | th (/th/ unvoiced), i (/ĭ/), n (/n/) | th unvoiced — no buzz | /thĭn/ |
-| with | w (/w/), i (/ĭ/), th (/th/ unvoiced) | th at end | /wĭth/ |
+| ship | sh (/sh/), i (/ĭ/), p (/p/) | sh = two-letter phonogram | /shĭp/ |
+| fish | f (/f/), i (/ĭ/), sh (/sh/) | sh at end | /fĭsh/ |
+| dash | d (/d/), a (/ă/), sh (/sh/) | sh at end | /dăsh/ |
 
 ---
 
@@ -52,53 +51,53 @@ TH has TWO sounds: buzzing (voiced, as in 'this') and quiet (unvoiced, as in 'th
 
 Read these words sound by sound, then blend:
 
-> this &nbsp;&nbsp; thin &nbsp;&nbsp; with
+> ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 
 Read these sentences:
 
-> The this is here.
+> The ship is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **th** in each word.
+Write each word once. Underline the **sh** in each word.
 
-this &nbsp;&nbsp; thin &nbsp;&nbsp; with
+ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram th — it says /th/ (voiced) /th/ (unvoiced))*
-2. Is th a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of th? *(/th/)*
+1. What did you learn today? *(The phonogram sh — it says /sh/)*
+2. Is sh a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of sh? *(/sh/)*
 
 ---
 
-**Next lesson:** Lesson 13: Phonogram ck
+**Next lesson:** Lesson 12: Phonogram ck
 
 ---
 
-*Practice at home: Flash your **th** card 5 times. Find **th** in a book — how many can you find?*
+*Practice at home: Flash your **sh** card 5 times. Find **sh** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram th — Teacher Script</summary>
+<summary>📖 Phonogram sh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">th</div>
+<div class="phonogram">sh</div>
 
-> **Say:** "This is the phonogram **th**." *(Point to the card.)* "It says /th/ (voiced) /th/ (unvoiced)."
+> **Say:** "This is the phonogram **sh**." *(Point to the card.)* "It says /sh/."
 
-> **Say:** "Listen to me say its sounds: /th/ (voiced) /th/ (unvoiced). Now you say them."
+> **Say:** "Listen to me say its sounds: /sh/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing th.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing sh.)*
 
-> **Say:** "Now you write **th** three times. Say '/th/ (voiced) /th/ (unvoiced)' each time you write it."
+> **Say:** "Now you write **sh** three times. Say '/sh/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -106,6 +105,11 @@ this &nbsp;&nbsp; thin &nbsp;&nbsp; with
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram th — it says /th/ (voiced) /th/ (unvoiced).")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram sh — it says /sh/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

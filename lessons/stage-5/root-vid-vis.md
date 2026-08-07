@@ -1,6 +1,6 @@
-# Lesson 13: Root vid/vis — "see"
+# Lesson 12: Root vid/vis — "see"
 
-**Stage 5** · Lesson 13 · morphology
+**Stage 5** · Lesson 12 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **vid/vis** word:
 
 ---
 
-**Next lesson:** Lesson 14: Latin Roots Review 1
+**Next lesson:** Lesson 13: Root: vid/vis
 
 ---
 

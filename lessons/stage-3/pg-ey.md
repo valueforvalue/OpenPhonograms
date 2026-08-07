@@ -1,6 +1,6 @@
-# Lesson 27: Phonogram ey
+# Lesson 26: Phonogram ey
 
-**Stage 3** · Lesson 27 · phonogram-intro
+**Stage 3** · Lesson 26 · phonogram-intro
 
 ---
 
@@ -56,7 +56,7 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 
 ---
 
-**Next lesson:** Lesson 28: Phonogram ph
+**Next lesson:** Lesson 27: Phonogram ey
 
 ---
 
@@ -89,3 +89,8 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ey — it says /ā/ /ē/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

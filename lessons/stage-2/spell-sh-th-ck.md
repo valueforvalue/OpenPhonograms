@@ -1,6 +1,6 @@
-# Lesson 14: Spelling Analysis: sh th ck
+# Lesson 13: Spelling Analysis: sh th ck
 
-**Stage 2** · Lesson 14 · spelling-analysis
+**Stage 2** · Lesson 13 · spelling-analysis
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Phonograms to review |
 |----------------------|
-| All 26 a-z + sh, th, ck |
+| All 26 a-z + sh, th |
 
 ---
 
@@ -67,7 +67,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 15: Phonogram ee
+**Next lesson:** Lesson 14: Phonogram ee
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 44: Phonogram aw
+# Lesson 43: Phonogram igh
 
-**Stage 2** · Lesson 44 · phonogram-intro
+**Stage 2** · Lesson 43 · phonogram-intro
 
 ---
 
@@ -14,28 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed |
 
 ---
 
-## New Learning: The Phonogram **aw**
+## New Learning: The Phonogram **igh**
 
-### What Is **aw**?
+### What Is **igh**?
 
-<div class="phonogram">aw</div>
+<div class="phonogram">igh</div>
 
-**aw** says 1 sound: /ä/
+**igh** says 1 sound: /ī/
 
-AW says /ä/ and is used at the END of a base word (Rule 3).
+IGH is a three-letter /ī/. The GH is silent here.
 
 
-> **Spelling Rule:** Rule 3: No English word ends in U. AW ends many words.
+> **Spelling Rule:** Rule 28: GH is often silent after I.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ä/ | saw, draw, law, straw |
+| /ī/ | light, high, night, right |
 
 ---
 
@@ -43,9 +43,9 @@ AW says /ä/ and is used at the END of a base word (Rule 3).
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| saw | s (/s/), aw (/ä/) | AW at end — Rule 3 | /sä/ |
-| draw | d (/d/), r (/r/), aw (/ä/) | AW at end | /drä/ |
-| law | l (/l/), aw (/ä/) | AW at end | /lä/ |
+| light | l (/l/), igh (/ī/), t (/t/) | Rule 28: GH silent after I | /līt/ |
+| night | n (/n/), igh (/ī/), t (/t/) | Rule 28: GH silent | /nīt/ |
+| right | r (/r/), igh (/ī/), t (/t/) | Rule 28: GH silent | /rīt/ |
 
 ---
 
@@ -53,53 +53,53 @@ AW says /ä/ and is used at the END of a base word (Rule 3).
 
 Read these words sound by sound, then blend:
 
-> saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
+> light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
 Read these sentences:
 
-> The saw is here.
+> The light is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **aw** in each word.
+Write each word once. Underline the **igh** in each word.
 
-saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
+light &nbsp;&nbsp; night &nbsp;&nbsp; right
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram aw — it says /ä/)*
-2. Is aw a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with aw? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram igh — it says /ī/)*
+2. Is igh a single-letter or multi-letter phonogram? *(Multi-letter — 3 letters that make one sound!)*
+3. What rule did we learn with igh? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 45: Phonogram au
+**Next lesson:** Lesson 44: Phonogram au
 
 ---
 
-*Practice at home: Flash your **aw** card 5 times. Find **aw** in a book — how many can you find?*
+*Practice at home: Flash your **igh** card 5 times. Find **igh** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram aw — Teacher Script</summary>
+<summary>📖 Phonogram igh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">aw</div>
+<div class="phonogram">igh</div>
 
-> **Say:** "This is the phonogram **aw**." *(Point to the card.)* "It says /ä/."
+> **Say:** "This is the phonogram **igh**." *(Point to the card.)* "It says /ī/."
 
-> **Say:** "Listen to me say its sounds: /ä/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ī/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing aw.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing igh.)*
 
-> **Say:** "Now you write **aw** three times. Say '/ä/' each time you write it."
+> **Say:** "Now you write **igh** three times. Say '/ī/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +107,11 @@ saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram aw — it says /ä/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram igh — it says /ī/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

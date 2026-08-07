@@ -1,6 +1,6 @@
-# Lesson 33: Phonogram wh
+# Lesson 32: Phonogram ch
 
-**Stage 2** · Lesson 33 · phonogram-intro
+**Stage 2** · Lesson 32 · phonogram-intro
 
 ---
 
@@ -14,26 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay |
 
 ---
 
-## New Learning: The Phonogram **wh**
+## New Learning: The Phonogram **ch**
 
-### What Is **wh**?
+### What Is **ch**?
 
-<div class="phonogram">wh</div>
+<div class="phonogram">ch</div>
 
-**wh** says 1 sound: /hw/
+**ch** says 3 sounds: /ch/ /k/ /sh/
 
-WH says /hw/. Blow a little air when you say it — you should feel it on your hand.
+CH has three sounds! /ch/ is most common (English words). /k/ comes from Greek words. /sh/ comes from French words.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /hw/ | when, which, white, whale |
+| /ch/ | chin, much, chip |
+| /k/ | school, echo, chemist |
+| /sh/ | chef, machine, brochure |
 
 ---
 
@@ -41,9 +43,9 @@ WH says /hw/. Blow a little air when you say it — you should feel it on your h
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| when | wh (/hw/), e (/ĕ/), n (/n/) | WH always /hw/ | /hwĕn/ |
-| which | wh (/hw/), i (/ĭ/), ch (/ch/) | WH + CH in same word! | /hwĭch/ |
-| white | wh (/hw/), i (/ī/), t (/t/), e — silent E (12.1) | WH + silent E | /hwīt/ |
+| chin | ch (/ch/), i (/ĭ/), n (/n/) | CH = /ch/ (most common) | /chĭn/ |
+| much | m (/m/), u (/ŭ/), ch (/ch/) | CH at end | /mŭch/ |
+| school | s (/s/), ch (/k/), oo (/ü/), l (/l/) | CH says /k/ (Greek) | skül |
 
 ---
 
@@ -51,53 +53,53 @@ WH says /hw/. Blow a little air when you say it — you should feel it on your h
 
 Read these words sound by sound, then blend:
 
-> when &nbsp;&nbsp; which &nbsp;&nbsp; white
+> chin &nbsp;&nbsp; much &nbsp;&nbsp; school
 
 Read these sentences:
 
-> The when is here.
+> The chin is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **wh** in each word.
+Write each word once. Underline the **ch** in each word.
 
-when &nbsp;&nbsp; which &nbsp;&nbsp; white
+chin &nbsp;&nbsp; much &nbsp;&nbsp; school
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram wh — it says /hw/)*
-2. Is wh a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of wh? *(/hw/)*
+1. What did you learn today? *(The phonogram ch — it says /ch/ /k/ /sh/)*
+2. Is ch a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ch? *(/ch/)*
 
 ---
 
-**Next lesson:** Lesson 34: Phonogram ea
+**Next lesson:** Lesson 33: Phonogram ea
 
 ---
 
-*Practice at home: Flash your **wh** card 5 times. Find **wh** in a book — how many can you find?*
+*Practice at home: Flash your **ch** card 5 times. Find **ch** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram wh — Teacher Script</summary>
+<summary>📖 Phonogram ch — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">wh</div>
+<div class="phonogram">ch</div>
 
-> **Say:** "This is the phonogram **wh**." *(Point to the card.)* "It says /hw/."
+> **Say:** "This is the phonogram **ch**." *(Point to the card.)* "It says /ch/ /k/ /sh/."
 
-> **Say:** "Listen to me say its sounds: /hw/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ch/ /k/ /sh/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing wh.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ch.)*
 
-> **Say:** "Now you write **wh** three times. Say '/hw/' each time you write it."
+> **Say:** "Now you write **ch** three times. Say '/ch/ /k/ /sh/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +107,11 @@ when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram wh — it says /hw/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ch — it says /ch/ /k/ /sh/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

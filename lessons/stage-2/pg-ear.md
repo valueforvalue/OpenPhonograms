@@ -1,6 +1,6 @@
-# Lesson 50: Phonogram ear
+# Lesson 49: Phonogram oa
 
-**Stage 2** · Lesson 50 · phonogram-intro
+**Stage 2** · Lesson 49 · phonogram-intro
 
 ---
 
@@ -14,26 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur |
 
 ---
 
-## New Learning: The Phonogram **ear**
+## New Learning: The Phonogram **oa**
 
-### What Is **ear**?
+### What Is **oa**?
 
-<div class="phonogram">ear</div>
+<div class="phonogram">oa</div>
 
-**ear** says 1 sound: /er/
+**oa** says 1 sound: /ō/
 
-EAR says /er/ as in 'early'. Another way to spell the /er/ sound!
+OA is a two-letter /ō/. It is NEVER at the end of an English word (Rule 3).
 
+
+> **Spelling Rule:** Rule 3: No English word ends in A? Actually, OA doesn't end words because of how English spelling works.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /er/ | learn, earth, early, heard |
+| /ō/ | boat, road, soap, goat |
 
 ---
 
@@ -41,9 +43,9 @@ EAR says /er/ as in 'early'. Another way to spell the /er/ sound!
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| learn | l (/l/), ear (/er/), n (/n/) | EAR = /er/ | /lern/ |
-| earth | ear (/er/), th (/th/) | EAR = /er/ | /erth/ |
-| early | ear (/er/), l (/l/), y (/ē/) | EAR = /er/ at start | er-lē |
+| boat | b (/b/), oa (/ō/), t (/t/) | OA = /ō/, never at end | /bōt/ |
+| road | r (/r/), oa (/ō/), d (/d/) | OA in middle | /rōd/ |
+| soap | s (/s/), oa (/ō/), p (/p/) | OA in middle | /sōp/ |
 
 ---
 
@@ -51,53 +53,53 @@ EAR says /er/ as in 'early'. Another way to spell the /er/ sound!
 
 Read these words sound by sound, then blend:
 
-> learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
+> boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 
 Read these sentences:
 
-> The learn is here.
+> The boat is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ear** in each word.
+Write each word once. Underline the **oa** in each word.
 
-learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
+boat &nbsp;&nbsp; road &nbsp;&nbsp; soap
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ear — it says /er/)*
-2. Is ear a single-letter or multi-letter phonogram? *(Multi-letter — 3 letters that make one sound!)*
-3. What is the most common sound of ear? *(/er/)*
+1. What did you learn today? *(The phonogram oa — it says /ō/)*
+2. Is oa a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with oa? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 51: HF Words Set 1
+**Next lesson:** Lesson 50: HF Words Set 1
 
 ---
 
-*Practice at home: Flash your **ear** card 5 times. Find **ear** in a book — how many can you find?*
+*Practice at home: Flash your **oa** card 5 times. Find **oa** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ear — Teacher Script</summary>
+<summary>📖 Phonogram oa — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ear</div>
+<div class="phonogram">oa</div>
 
-> **Say:** "This is the phonogram **ear**." *(Point to the card.)* "It says /er/."
+> **Say:** "This is the phonogram **oa**." *(Point to the card.)* "It says /ō/."
 
-> **Say:** "Listen to me say its sounds: /er/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ō/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ear.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing oa.)*
 
-> **Say:** "Now you write **ear** three times. Say '/er/' each time you write it."
+> **Say:** "Now you write **oa** three times. Say '/ō/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +107,11 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ear — it says /er/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram oa — it says /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

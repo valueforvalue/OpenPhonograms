@@ -1,6 +1,6 @@
-# Lesson 24: Root photo/logy — "light/study"
+# Lesson 23: Root photo/logy — "light/study"
 
-**Stage 5** · Lesson 24 · morphology
+**Stage 5** · Lesson 23 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **photo/logy** word:
 
 ---
 
-**Next lesson:** Lesson 25: Greek Roots Review
+**Next lesson:** Lesson 24: Roots: photo + logy
 
 ---
 

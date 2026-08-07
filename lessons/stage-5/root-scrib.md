@@ -1,6 +1,6 @@
-# Lesson 11: Root scrib/script — "write"
+# Lesson 10: Root scrib/script — "write"
 
-**Stage 5** · Lesson 11 · morphology
+**Stage 5** · Lesson 10 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **scrib/script** word:
 
 ---
 
-**Next lesson:** Lesson 12: Root: mit/miss
+**Next lesson:** Lesson 11: Root: scrib/script
 
 ---
 

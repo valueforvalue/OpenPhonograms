@@ -1,6 +1,6 @@
-# Lesson 26: Phonogram oy
+# Lesson 25: Phonogram oi
 
-**Stage 2** · Lesson 26 · phonogram-intro
+**Stage 2** · Lesson 25 · phonogram-intro
 
 ---
 
@@ -14,28 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi |
+| sh, th, ck, ee, ng, ar, or, er |
 
 ---
 
-## New Learning: The Phonogram **oy**
+## New Learning: The Phonogram **oi**
 
-### What Is **oy**?
+### What Is **oi**?
 
-<div class="phonogram">oy</div>
+<div class="phonogram">oi</div>
 
-**oy** says 1 sound: /oi/
+**oi** says 1 sound: /oi/
 
-OY says /oi/ and is used at the END of a base word (because of Rule 3).
+OI says /oi/. It is NEVER used at the end of an English word (because of Rule 3).
 
 
-> **Spelling Rule:** Rule 3: No English word ends in I. Since /oi/ can't end with I, we use OY.
+> **Spelling Rule:** Rule 3: No English word ends in I, U, V, or J. This is why we use OI in the middle and OY at the end.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /oi/ | boy, toy, enjoy, destroy |
+| /oi/ | coin, oil, join, soil |
 
 ---
 
@@ -43,9 +43,9 @@ OY says /oi/ and is used at the END of a base word (because of Rule 3).
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| boy | b (/b/), oy (/oi/) | OY at end — Rule 3 | /boi/ |
-| toy | t (/t/), oy (/oi/) | OY at end | /toi/ |
-| enjoy | e (/ĕ/), n (/n/), j (/j/), oy (/oi/) | OY at end of base | en-joy |
+| coin | c (/k/), oi (/oi/), n (/n/) | OI — never at end | /koin/ |
+| oil | oi (/oi/), l (/l/) | OI at start | /oil/ |
+| join | j (/j/), oi (/oi/), n (/n/) | OI in middle | /join/ |
 
 ---
 
@@ -53,53 +53,53 @@ OY says /oi/ and is used at the END of a base word (because of Rule 3).
 
 Read these words sound by sound, then blend:
 
-> boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
+> coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 
 Read these sentences:
 
-> The boy is here.
+> The coin is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **oy** in each word.
+Write each word once. Underline the **oi** in each word.
 
-boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
+coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram oy — it says /oi/)*
-2. Is oy a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with oy? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram oi — it says /oi/)*
+2. Is oi a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with oi? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 27: Rule 3: No I U V J at End
+**Next lesson:** Lesson 26: Rule 2: No I U V J at End
 
 ---
 
-*Practice at home: Flash your **oy** card 5 times. Find **oy** in a book — how many can you find?*
+*Practice at home: Flash your **oi** card 5 times. Find **oi** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram oy — Teacher Script</summary>
+<summary>📖 Phonogram oi — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">oy</div>
+<div class="phonogram">oi</div>
 
-> **Say:** "This is the phonogram **oy**." *(Point to the card.)* "It says /oi/."
+> **Say:** "This is the phonogram **oi**." *(Point to the card.)* "It says /oi/."
 
 > **Say:** "Listen to me say its sounds: /oi/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing oy.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing oi.)*
 
-> **Say:** "Now you write **oy** three times. Say '/oi/' each time you write it."
+> **Say:** "Now you write **oi** three times. Say '/oi/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +107,11 @@ boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram oy — it says /oi/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram oi — it says /oi/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

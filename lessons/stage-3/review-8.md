@@ -1,6 +1,6 @@
-# Lesson 51: Review: All Stage 3 Phonograms
+# Lesson 50: Review: All Stage 3 Phonograms
 
-**Stage 3** · Lesson 51 · review
+**Stage 3** · Lesson 50 · review
 
 ---
 
@@ -36,7 +36,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 52: Rules Review
+**Next lesson:** Lesson 51: Phonogram Review
 
 ---
 

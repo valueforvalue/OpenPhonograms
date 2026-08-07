@@ -1,6 +1,6 @@
-# Lesson 33: Suffixes -less and -ous
+# Lesson 32: Suffixes -less and -ous
 
-**Stage 4** · Lesson 33 · morphology
+**Stage 4** · Lesson 32 · morphology
 
 ---
 

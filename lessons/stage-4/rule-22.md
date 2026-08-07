@@ -1,6 +1,6 @@
-# Lesson 38: Rule 22 — 3rd Person Singular -S and -ES
+# Lesson 37: Rule 22 — 3rd Person Singular -S and -ES
 
-**Stage 4** · Lesson 38 · rule-intro
+**Stage 4** · Lesson 37 · rule-intro
 
 ---
 
@@ -61,7 +61,7 @@ He runs and walks. She fixes the box. It washes away. He catches the ball and wa
 
 ---
 
-**Next lesson:** Lesson 39: Rule 29: Z at Beginning
+**Next lesson:** Lesson 39: Rule 22: 3rd Person -S -ES
 
 ---
 

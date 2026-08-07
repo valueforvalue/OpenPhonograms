@@ -1,6 +1,6 @@
-# Lesson 35: Spelling Analysis: ch wh ea
+# Lesson 34: Spelling Analysis: ch wh ea
 
-**Stage 2** · Lesson 35 · spelling-analysis
+**Stage 2** · Lesson 34 · spelling-analysis
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Phonograms to review |
 |----------------------|
-| All 26 a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea |
+| All 26 a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh |
 
 ---
 
@@ -67,7 +67,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 36: Phonogram ow
+**Next lesson:** Lesson 35: Phonogram ow
 
 ---
 

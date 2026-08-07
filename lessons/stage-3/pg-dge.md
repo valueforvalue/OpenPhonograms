@@ -1,6 +1,6 @@
-# Lesson 17: Phonogram dge
+# Lesson 16: Phonogram dge
 
-**Stage 3** · Lesson 17 · phonogram-intro
+**Stage 3** · Lesson 16 · phonogram-intro
 
 ---
 
@@ -57,7 +57,7 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 
 ---
 
-**Next lesson:** Lesson 18: Phonogram tch
+**Next lesson:** Lesson 17: Phonogram dge
 
 ---
 
@@ -90,3 +90,8 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram dge — it says /j/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

@@ -1,6 +1,6 @@
-# Lesson 34: Rule 23 — AL- Prefix Has One L
+# Lesson 33: Rule 23 — AL- Prefix Has One L
 
-**Stage 4** · Lesson 34 · rule-intro
+**Stage 4** · Lesson 33 · rule-intro
 
 ---
 
@@ -63,7 +63,7 @@ I already ate. Although it is late, I always read. I also almost finished!
 
 ---
 
-**Next lesson:** Lesson 35: Rule 24: -FUL
+**Next lesson:** Lesson 35: Rule 23: AL-
 
 ---
 

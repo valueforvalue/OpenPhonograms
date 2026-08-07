@@ -1,6 +1,6 @@
-# Lesson 21: Phonogram gn
+# Lesson 20: Phonogram gn
 
-**Stage 3** · Lesson 21 · phonogram-intro
+**Stage 3** · Lesson 20 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ GN is a two-letter /n/. At the beginning of a word, the G is silent (gnat, gnaw)
 
 ---
 
-**Next lesson:** Lesson 22: Phonogram wr
+**Next lesson:** Lesson 21: Phonogram gn
 
 ---
 
@@ -88,3 +88,8 @@ GN is a two-letter /n/. At the beginning of a word, the G is silent (gnat, gnaw)
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gn — it says /n/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

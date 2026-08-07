@@ -1,6 +1,6 @@
-# Lesson 9: Silent E Reason 12.6 — Make the Word Look Bigger
+# Lesson 8: Silent E Reason 12.6 — Make the Word Look Bigger
 
-**Stage 3** · Lesson 9 · rule-intro
+**Stage 3** · Lesson 8 · rule-intro
 
 ---
 
@@ -69,7 +69,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 10: SE 7: TH Voiced
+**Next lesson:** Lesson 9: SE 6: Look Bigger
 
 ---
 

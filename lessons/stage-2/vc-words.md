@@ -1,6 +1,6 @@
-# Lesson 7: VC Words: at in on up it
+# Lesson 6: VC Words: at in on up it
 
-**Stage 2** · Lesson 7 · word-building
+**Stage 2** · Lesson 6 · word-building
 
 ---
 
@@ -69,7 +69,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 8: CVC with Continuant Consonants
+**Next lesson:** Lesson 7: CVC with Continuant Consonants
 
 ---
 

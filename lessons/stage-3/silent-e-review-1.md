@@ -1,6 +1,6 @@
-# Lesson 7: Silent E Review: Reasons 12.1–12.4
+# Lesson 6: Silent E Review: Reasons 12.1–12.4
 
-**Stage 3** · Lesson 7 · review
+**Stage 3** · Lesson 6 · review
 
 ---
 
@@ -45,7 +45,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 8: SE 5: Not Plural
+**Next lesson:** Lesson 7: SE Review 12.1-4
 
 ---
 

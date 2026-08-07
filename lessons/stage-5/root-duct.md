@@ -1,6 +1,6 @@
-# Lesson 3: Root duct/duc — "lead"
+# Lesson 2: Root duct/duc — "lead"
 
-**Stage 5** · Lesson 3 · morphology
+**Stage 5** · Lesson 2 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **duct/duc** word:
 
 ---
 
-**Next lesson:** Lesson 4: Root: spect
+**Next lesson:** Lesson 3: Root: duct
 
 ---
 

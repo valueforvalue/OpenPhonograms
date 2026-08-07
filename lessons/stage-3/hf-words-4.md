@@ -1,6 +1,6 @@
-# Lesson 53: High-Frequency Words — Set 4
+# Lesson 52: High-Frequency Words — Set 4
 
-**Stage 3** · Lesson 53 · hf-word
+**Stage 3** · Lesson 52 · hf-word
 
 ---
 
@@ -80,7 +80,7 @@ Adult reads these sentences. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 54: HF Words 5
+**Next lesson:** Lesson 53: HF Words 4
 
 ---
 

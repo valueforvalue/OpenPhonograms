@@ -1,6 +1,6 @@
-# Lesson 9: CVC with Stop Consonants
+# Lesson 8: CVC with Stop Consonants
 
-**Stage 2** · Lesson 9 · word-building
+**Stage 2** · Lesson 8 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 10: All CVC Combinations
+**Next lesson:** Lesson 9: All CVC Combinations
 
 ---
 

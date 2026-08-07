@@ -1,6 +1,6 @@
-# Lesson 15: Root graph — "write"
+# Lesson 14: Root graph — "write"
 
-**Stage 5** · Lesson 15 · morphology
+**Stage 5** · Lesson 14 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **graph** word:
 
 ---
 
-**Next lesson:** Lesson 16: Root: phon
+**Next lesson:** Lesson 15: Root: graph
 
 ---
 

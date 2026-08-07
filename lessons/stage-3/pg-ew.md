@@ -1,6 +1,6 @@
-# Lesson 33: Phonogram ew
+# Lesson 32: Phonogram ew
 
-**Stage 3** · Lesson 33 · phonogram-intro
+**Stage 3** · Lesson 32 · phonogram-intro
 
 ---
 
@@ -56,7 +56,7 @@ EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW 
 
 ---
 
-**Next lesson:** Lesson 34: Phonogram ui
+**Next lesson:** Lesson 33: Phonogram ew
 
 ---
 
@@ -89,3 +89,8 @@ EW says /ü/ (as in 'few') most of the time. Only 'sew' uses the /ö/ sound. EW 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ew — it says /ü/ /ö/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

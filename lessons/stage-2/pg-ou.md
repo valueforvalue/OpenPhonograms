@@ -1,6 +1,6 @@
-# Lesson 37: Phonogram ou
+# Lesson 36: Phonogram ow
 
-**Stage 2** · Lesson 37 · phonogram-intro
+**Stage 2** · Lesson 36 · phonogram-intro
 
 ---
 
@@ -14,29 +14,27 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea |
 
 ---
 
-## New Learning: The Phonogram **ou**
+## New Learning: The Phonogram **ow**
 
-### What Is **ou**?
+### What Is **ow**?
 
-<div class="phonogram">ou</div>
+<div class="phonogram">ow</div>
 
-**ou** says 4 sounds: /ow/ /ō/ /ö/ /ŭ/
+**ow** says 2 sounds: /ow/ /ō/
 
-OU has four sounds! /ow/ is most common. Try each sound when you read a new OU word.
+OW has two sounds: /ow/ as in 'cow' and /ō/ as in 'snow'. You need to try both to figure out which one works.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ow/ | out, house, round |
-| /ō/ | soul, four, pour |
-| /ö/ | you, group, soup |
-| /ŭ/ | touch, young, double |
+| /ow/ | cow, how, now, brown |
+| /ō/ | snow, grow, low, show |
 
 ---
 
@@ -44,9 +42,9 @@ OU has four sounds! /ow/ is most common. Try each sound when you read a new OU w
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| out | ou (/ow/), t (/t/) | OU = /ow/ (most common) | /owt/ |
-| you | y (/y/), ou (/ö/) | OU = /ö/ | /yö/ |
-| touch | t (/t/), ou (/ŭ/), ch (/ch/) | OU = /ŭ/ | /tŭch/ |
+| cow | c (/k/), ow (/ow/) | OW = /ow/ | /kow/ |
+| snow | s (/s/), n (/n/), ow (/ō/) | OW = /ō/ (second sound) | /snō/ |
+| how | h (/h/), ow (/ow/) | OW = /ow/ | /how/ |
 
 ---
 
@@ -54,53 +52,53 @@ OU has four sounds! /ow/ is most common. Try each sound when you read a new OU w
 
 Read these words sound by sound, then blend:
 
-> out &nbsp;&nbsp; you &nbsp;&nbsp; touch
+> cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 
 Read these sentences:
 
-> The out is here.
+> The cow is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ou** in each word.
+Write each word once. Underline the **ow** in each word.
 
-out &nbsp;&nbsp; you &nbsp;&nbsp; touch
+cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/)*
-2. Is ou a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of ou? *(/ow/)*
+1. What did you learn today? *(The phonogram ow — it says /ow/ /ō/)*
+2. Is ow a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ow? *(/ow/)*
 
 ---
 
-**Next lesson:** Lesson 38: Rule 4: Long at End
+**Next lesson:** Lesson 37: Rule 3: Long at End
 
 ---
 
-*Practice at home: Flash your **ou** card 5 times. Find **ou** in a book — how many can you find?*
+*Practice at home: Flash your **ow** card 5 times. Find **ow** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ou — Teacher Script</summary>
+<summary>📖 Phonogram ow — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ou</div>
+<div class="phonogram">ow</div>
 
-> **Say:** "This is the phonogram **ou**." *(Point to the card.)* "It says /ow/ /ō/ /ö/ /ŭ/."
+> **Say:** "This is the phonogram **ow**." *(Point to the card.)* "It says /ow/ /ō/."
 
-> **Say:** "Listen to me say its sounds: /ow/ /ō/ /ö/ /ŭ/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ow/ /ō/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ou.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ow.)*
 
-> **Say:** "Now you write **ou** three times. Say '/ow/ /ō/ /ö/ /ŭ/' each time you write it."
+> **Say:** "Now you write **ow** three times. Say '/ow/ /ō/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -108,6 +106,11 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ow — it says /ow/ /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

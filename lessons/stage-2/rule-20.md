@@ -1,6 +1,6 @@
-# Lesson 42: Rule 20 — Three Sounds of -ED
+# Lesson 41: Rule 20 — Three Sounds of -ED
 
-**Stage 2** · Lesson 42 · rule-intro
+**Stage 2** · Lesson 41 · rule-intro
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Phonograms to review |
 |----------------------|
-| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed |
+| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo |
 
 ---
 
@@ -70,7 +70,7 @@ Read these words sound by sound:
 
 ---
 
-**Next lesson:** Lesson 43: Phonogram igh
+**Next lesson:** Lesson 42: Phonogram igh
 
 ---
 
@@ -99,3 +99,37 @@ Read these words sound by sound:
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+
+
+
+<details class="teacher-script">
+<summary>📖 Rule 20 — Teacher Script</summary>
+
+> **Say:** "Today we are learning Spelling Rule 20: **Three Sounds of -ED**."
+
+> **Say:** "Here is the rule: The past-tense ending **-ED** says /ed/ after **D** or **T**, /d/ after a voiced sound, and /t/ after an unvoiced consonant."
+
+> **Say:** "Let me show you what this means." *(Write an example word.)*
+
+> **Say:** "See how the rule works in this word? Let's find more words that follow this rule."
+
+> *(Go through the word list together. For each word, ask:)*
+
+> **Say:** "Does this word follow Rule 20? How do you know?"
+
+> **Say:** "Now you try. I'll say a word — you write it and tell me if Rule 20 applies."
+
+> *(Dictate practice words. Child writes and explains.)*
+
+> **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
+
+---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

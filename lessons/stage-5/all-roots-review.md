@@ -1,6 +1,6 @@
-# Lesson 26: All Roots Review
+# Lesson 25: All Roots Review
 
-**Stage 5** · Lesson 26 · review
+**Stage 5** · Lesson 25 · review
 
 ---
 

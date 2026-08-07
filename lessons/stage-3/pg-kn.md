@@ -1,6 +1,6 @@
-# Lesson 20: Phonogram kn
+# Lesson 19: Phonogram kn
 
-**Stage 3** · Lesson 20 · phonogram-intro
+**Stage 3** · Lesson 19 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 
 ---
 
-**Next lesson:** Lesson 21: Phonogram gn
+**Next lesson:** Lesson 20: Phonogram kn
 
 ---
 
@@ -88,3 +88,8 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram kn — it says /n/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

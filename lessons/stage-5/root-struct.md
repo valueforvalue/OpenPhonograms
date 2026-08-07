@@ -1,6 +1,6 @@
-# Lesson 7: Root struct — "build"
+# Lesson 6: Root struct — "build"
 
-**Stage 5** · Lesson 7 · morphology
+**Stage 5** · Lesson 6 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **struct** word:
 
 ---
 
-**Next lesson:** Lesson 8: Root: rupt
+**Next lesson:** Lesson 7: Root: struct
 
 ---
 

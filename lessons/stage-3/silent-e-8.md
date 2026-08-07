@@ -1,6 +1,6 @@
-# Lesson 11: Silent E Reason 12.8 — Clarify Meaning
+# Lesson 10: Silent E Reason 12.8 — Clarify Meaning
 
-**Stage 3** · Lesson 11 · rule-intro
+**Stage 3** · Lesson 10 · rule-intro
 
 ---
 
@@ -69,7 +69,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 12: SE 9: Unseen Reason
+**Next lesson:** Lesson 11: SE 8: Clarify Meaning
 
 ---
 

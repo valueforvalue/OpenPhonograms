@@ -1,6 +1,6 @@
-# Lesson 26: Phonogram ei
+# Lesson 25: Phonogram ei
 
-**Stage 3** · Lesson 26 · phonogram-intro
+**Stage 3** · Lesson 25 · phonogram-intro
 
 ---
 
@@ -57,7 +57,7 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 
 ---
 
-**Next lesson:** Lesson 27: Phonogram ey
+**Next lesson:** Lesson 26: Phonogram ei
 
 ---
 
@@ -90,3 +90,8 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ei — it says /ē/ /ā/ /ī/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

@@ -1,6 +1,6 @@
-# Lesson 2: Root dict — "say, speak"
+# Lesson 1: Root dict — "say, speak"
 
-**Stage 5** · Lesson 2 · morphology
+**Stage 5** · Lesson 1 · morphology
 
 ---
 
@@ -62,7 +62,7 @@ Fill in the blanks with a **dict** word:
 
 ---
 
-**Next lesson:** Lesson 3: Root: duct
+**Next lesson:** Lesson 2: Root: dict
 
 ---
 

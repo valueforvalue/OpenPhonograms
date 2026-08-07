@@ -1,6 +1,6 @@
-# Lesson 20: Phonogram ar
+# Lesson 19: Phonogram ng
 
-**Stage 2** · Lesson 20 · phonogram-intro
+**Stage 2** · Lesson 19 · phonogram-intro
 
 ---
 
@@ -14,26 +14,26 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng |
+| sh, th, ck, ee |
 
 ---
 
-## New Learning: The Phonogram **ar**
+## New Learning: The Phonogram **ng**
 
-### What Is **ar**?
+### What Is **ng**?
 
-<div class="phonogram">ar</div>
+<div class="phonogram">ng</div>
 
-**ar** says 1 sound: /är/
+**ng** says 1 sound: /ng/
 
-AR is an R-controlled vowel. The R changes the sound of the A.
+NG is a nasal sound — the air comes through your nose. It's one sound, even though it uses two letters.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /är/ | car, farm, star, dark |
+| /ng/ | sing, long, ring, song |
 
 ---
 
@@ -41,9 +41,9 @@ AR is an R-controlled vowel. The R changes the sound of the A.
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| car | c (/k/), ar (/är/) | AR = R-controlled A | /kär/ |
-| farm | f (/f/), ar (/är/), m (/m/) | AR in middle | /färm/ |
-| star | s (/s/), t (/t/), ar (/är/) | AR at end | /stär/ |
+| sing | s (/s/), i (/ĭ/), ng (/ng/) | ng = one nasal sound | /sĭng/ |
+| long | l (/l/), o (/ŏ/), ng (/ng/) | ng at end | /lŏng/ |
+| ring | r (/r/), i (/ĭ/), ng (/ng/) | ng after short i | /rĭng/ |
 
 ---
 
@@ -51,53 +51,53 @@ AR is an R-controlled vowel. The R changes the sound of the A.
 
 Read these words sound by sound, then blend:
 
-> car &nbsp;&nbsp; farm &nbsp;&nbsp; star
+> sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 
 Read these sentences:
 
-> The car is here.
+> The sing is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ar** in each word.
+Write each word once. Underline the **ng** in each word.
 
-car &nbsp;&nbsp; farm &nbsp;&nbsp; star
+sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ar — it says /är/)*
-2. Is ar a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of ar? *(/är/)*
+1. What did you learn today? *(The phonogram ng — it says /ng/)*
+2. Is ng a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ng? *(/ng/)*
 
 ---
 
-**Next lesson:** Lesson 21: Phonogram or
+**Next lesson:** Lesson 20: Phonogram or
 
 ---
 
-*Practice at home: Flash your **ar** card 5 times. Find **ar** in a book — how many can you find?*
+*Practice at home: Flash your **ng** card 5 times. Find **ng** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ar — Teacher Script</summary>
+<summary>📖 Phonogram ng — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ar</div>
+<div class="phonogram">ng</div>
 
-> **Say:** "This is the phonogram **ar**." *(Point to the card.)* "It says /är/."
+> **Say:** "This is the phonogram **ng**." *(Point to the card.)* "It says /ng/."
 
-> **Say:** "Listen to me say its sounds: /är/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ng/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ar.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ng.)*
 
-> **Say:** "Now you write **ar** three times. Say '/är/' each time you write it."
+> **Say:** "Now you write **ng** three times. Say '/ng/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +105,11 @@ car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ar — it says /är/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ng — it says /ng/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

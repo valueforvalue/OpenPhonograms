@@ -1,6 +1,6 @@
-# Lesson 8: Rule 13 — Drop the Silent E for a Vowel Suffix
+# Lesson 7: Rule 13 — Drop the Silent E for a Vowel Suffix
 
-**Stage 4** · Lesson 8 · rule-intro
+**Stage 4** · Lesson 7 · rule-intro
 
 ---
 
@@ -66,7 +66,7 @@ The baker is making a cake. I am hoping to drive. She is writing and smiling.
 
 ---
 
-**Next lesson:** Lesson 9: Drop E Practice
+**Next lesson:** Lesson 9: Rule 13: Drop Silent E
 
 ---
 

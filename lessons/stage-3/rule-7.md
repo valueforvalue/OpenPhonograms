@@ -1,6 +1,6 @@
-# Lesson 38: Rule 7 — I and Y May Say /ē/
+# Lesson 37: Rule 7 — I and Y May Say /ē/
 
-**Stage 3** · Lesson 38 · rule-intro
+**Stage 3** · Lesson 37 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 
 ---
 
-**Next lesson:** Lesson 39: Rule 8: I/O Before Two Consonants
+**Next lesson:** Lesson 38: Rule 7: I/Y May Say /ē/
 
 ---
 
@@ -100,3 +100,8 @@ baby, happy, funny, candy, silly (Y=/ē/) · marine, police (I=/ē/ with silent 
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

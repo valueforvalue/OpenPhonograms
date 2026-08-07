@@ -1,6 +1,6 @@
-# Lesson 42: Reader: Firefly — Nightlight with Wings
+# Lesson 41: Reader: Firefly — Nightlight with Wings
 
-**Stage 4** · Lesson 42 · reader
+**Stage 4** · Lesson 41 · reader
 
 ---
 
@@ -82,7 +82,7 @@ The End.
 
 ---
 
-**Next lesson:** Lesson 43: Reader: Trains
+**Next lesson:** Lesson 43: Reader: Firefly
 
 ---
 

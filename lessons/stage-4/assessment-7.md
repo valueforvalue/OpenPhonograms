@@ -1,6 +1,6 @@
-# Lesson 48: Stage 4 Mastery Check
+# Lesson 47: Stage 4 Mastery Check
 
-**Stage 4** · Lesson 48 · assessment
+**Stage 4** · Lesson 47 · assessment
 
 ---
 

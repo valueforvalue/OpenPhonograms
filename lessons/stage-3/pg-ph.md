@@ -1,6 +1,6 @@
-# Lesson 28: Phonogram ph
+# Lesson 27: Phonogram ph
 
-**Stage 3** · Lesson 28 · phonogram-intro
+**Stage 3** · Lesson 27 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ PH is a two-letter /f/ that comes from Greek. Most English words with PH are Gre
 
 ---
 
-**Next lesson:** Lesson 29: Phonogram gh
+**Next lesson:** Lesson 28: Phonogram ph
 
 ---
 
@@ -88,3 +88,8 @@ PH is a two-letter /f/ that comes from Greek. Most English words with PH are Gre
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ph — it says /f/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

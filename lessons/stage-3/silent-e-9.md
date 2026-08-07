@@ -1,6 +1,6 @@
-# Lesson 12: Silent E Reason 12.9 — Unseen Reason
+# Lesson 11: Silent E Reason 12.9 — Unseen Reason
 
-**Stage 3** · Lesson 12 · rule-intro
+**Stage 3** · Lesson 11 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 13: SE: Name That Reason
+**Next lesson:** Lesson 12: SE 9: Unseen Reason
 
 ---
 

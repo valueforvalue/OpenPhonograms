@@ -1,6 +1,6 @@
-# Lesson 34: Phonogram ea
+# Lesson 33: Phonogram wh
 
-**Stage 2** · Lesson 34 · phonogram-intro
+**Stage 2** · Lesson 33 · phonogram-intro
 
 ---
 
@@ -14,28 +14,26 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch |
 
 ---
 
-## New Learning: The Phonogram **ea**
+## New Learning: The Phonogram **wh**
 
-### What Is **ea**?
+### What Is **wh**?
 
-<div class="phonogram">ea</div>
+<div class="phonogram">wh</div>
 
-**ea** says 3 sounds: /ē/ /ĕ/ /ā/
+**wh** says 1 sound: /hw/
 
-EA has three sounds! /ē/ is most common. /ĕ/ is the second sound. /ā/ is rare — only a few words use it.
+WH says /hw/. Blow a little air when you say it — you should feel it on your hand.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ē/ | eat, read, team |
-| /ĕ/ | head, bread, weather |
-| /ā/ | great, break, steak |
+| /hw/ | when, which, white, whale |
 
 ---
 
@@ -43,9 +41,9 @@ EA has three sounds! /ē/ is most common. /ĕ/ is the second sound. /ā/ is rare
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| eat | ea (/ē/), t (/t/) | EA = /ē/ (most common) | /ēt/ |
-| head | h (/h/), ea (/ĕ/), d (/d/) | EA = /ĕ/ (second sound) | /hĕd/ |
-| great | g (/g/), r (/r/), ea (/ā/), t (/t/) | EA = /ā/ (rare!) | /grāt/ |
+| when | wh (/hw/), e (/ĕ/), n (/n/) | WH always /hw/ | /hwĕn/ |
+| which | wh (/hw/), i (/ĭ/), ch (/ch/) | WH + CH in same word! | /hwĭch/ |
+| white | wh (/hw/), i (/ī/), t (/t/), e — silent E (12.1) | WH + silent E | /hwīt/ |
 
 ---
 
@@ -53,53 +51,53 @@ EA has three sounds! /ē/ is most common. /ĕ/ is the second sound. /ā/ is rare
 
 Read these words sound by sound, then blend:
 
-> eat &nbsp;&nbsp; head &nbsp;&nbsp; great
+> when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 Read these sentences:
 
-> The eat is here.
+> The when is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ea** in each word.
+Write each word once. Underline the **wh** in each word.
 
-eat &nbsp;&nbsp; head &nbsp;&nbsp; great
+when &nbsp;&nbsp; which &nbsp;&nbsp; white
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ea — it says /ē/ /ĕ/ /ā/)*
-2. Is ea a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of ea? *(/ē/)*
+1. What did you learn today? *(The phonogram wh — it says /hw/)*
+2. Is wh a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of wh? *(/hw/)*
 
 ---
 
-**Next lesson:** Lesson 35: Spelling: ch wh ea
+**Next lesson:** Lesson 34: Spelling: ch wh ea
 
 ---
 
-*Practice at home: Flash your **ea** card 5 times. Find **ea** in a book — how many can you find?*
+*Practice at home: Flash your **wh** card 5 times. Find **wh** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ea — Teacher Script</summary>
+<summary>📖 Phonogram wh — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ea</div>
+<div class="phonogram">wh</div>
 
-> **Say:** "This is the phonogram **ea**." *(Point to the card.)* "It says /ē/ /ĕ/ /ā/."
+> **Say:** "This is the phonogram **wh**." *(Point to the card.)* "It says /hw/."
 
-> **Say:** "Listen to me say its sounds: /ē/ /ĕ/ /ā/. Now you say them."
+> **Say:** "Listen to me say its sounds: /hw/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ea.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing wh.)*
 
-> **Say:** "Now you write **ea** three times. Say '/ē/ /ĕ/ /ā/' each time you write it."
+> **Say:** "Now you write **wh** three times. Say '/hw/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +105,11 @@ eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ea — it says /ē/ /ĕ/ /ā/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram wh — it says /hw/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

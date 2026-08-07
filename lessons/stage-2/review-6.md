@@ -1,6 +1,6 @@
-# Lesson 23: Review: sh th ck ee ng ar or er
+# Lesson 22: Review: sh th ck ee ng ar or er
 
-**Stage 2** · Lesson 23 · review
+**Stage 2** · Lesson 22 · review
 
 ---
 
@@ -60,7 +60,7 @@ Spell these words from dictation. Take your time — sound each one out.
 
 ---
 
-**Next lesson:** Lesson 24: Mid-Stage 2 Assessment
+**Next lesson:** Lesson 23: Mid-Stage 2 Assessment
 
 ---
 

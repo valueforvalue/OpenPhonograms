@@ -1,6 +1,6 @@
-# Lesson 6: Root form — "shape"
+# Lesson 5: Root form — "shape"
 
-**Stage 5** · Lesson 6 · morphology
+**Stage 5** · Lesson 5 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **form** word:
 
 ---
 
-**Next lesson:** Lesson 7: Root: struct
+**Next lesson:** Lesson 6: Root: form
 
 ---
 

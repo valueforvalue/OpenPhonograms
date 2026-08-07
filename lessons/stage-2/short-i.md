@@ -1,6 +1,6 @@
-# Lesson 3: Short Vowel I — /ĭ/
+# Lesson 2: Short Vowel I — /ĭ/
 
-**Stage 2** · Lesson 3 · vowel-concept
+**Stage 2** · Lesson 2 · vowel-concept
 
 ---
 
@@ -81,7 +81,7 @@ Adult reads these sentences aloud. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 4: Short Vowel o
+**Next lesson:** Lesson 3: Short Vowel o
 
 ---
 

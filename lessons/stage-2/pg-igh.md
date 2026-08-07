@@ -110,3 +110,8 @@ light &nbsp;&nbsp; night &nbsp;&nbsp; right
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram igh — it says /ī/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

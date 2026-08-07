@@ -1,6 +1,6 @@
-# Lesson 20: Root meter/metr — "measure"
+# Lesson 19: Root meter/metr — "measure"
 
-**Stage 5** · Lesson 20 · morphology
+**Stage 5** · Lesson 19 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **meter/metr** word:
 
 ---
 
-**Next lesson:** Lesson 21: Root: scope
+**Next lesson:** Lesson 20: Root: meter
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 10: Root tract — "pull, draw"
+# Lesson 9: Root tract — "pull, draw"
 
-**Stage 5** · Lesson 10 · morphology
+**Stage 5** · Lesson 9 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **tract** word:
 
 ---
 
-**Next lesson:** Lesson 11: Root: scrib/script
+**Next lesson:** Lesson 10: Root: tract
 
 ---
 

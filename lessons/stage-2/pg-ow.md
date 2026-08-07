@@ -109,3 +109,8 @@ cow &nbsp;&nbsp; snow &nbsp;&nbsp; how
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ow — it says /ow/ /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

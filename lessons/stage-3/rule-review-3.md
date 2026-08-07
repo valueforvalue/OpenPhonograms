@@ -1,6 +1,6 @@
-# Lesson 52: All Stage 3 Rules Review
+# Lesson 51: All Stage 3 Rules Review
 
-**Stage 3** · Lesson 52 · review
+**Stage 3** · Lesson 51 · review
 
 ---
 
@@ -58,7 +58,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 53: HF Words 4
+**Next lesson:** Lesson 52: Rules Review
 
 ---
 

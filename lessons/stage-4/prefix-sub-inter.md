@@ -1,6 +1,6 @@
-# Lesson 27: Prefixes sub- and inter-
+# Lesson 26: Prefixes sub- and inter-
 
-**Stage 4** · Lesson 27 · morphology
+**Stage 4** · Lesson 26 · morphology
 
 ---
 

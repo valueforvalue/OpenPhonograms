@@ -1,6 +1,6 @@
-# Lesson 39: Open Syllable Words
+# Lesson 38: Open Syllable Words
 
-**Stage 2** · Lesson 39 · word-building
+**Stage 2** · Lesson 38 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 40: Phonogram oo
+**Next lesson:** Lesson 39: Phonogram oo
 
 ---
 

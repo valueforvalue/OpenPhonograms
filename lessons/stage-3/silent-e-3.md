@@ -1,6 +1,6 @@
-# Lesson 5: Silent E Reason 12.3 — C Says /s/ and G Says /j/
+# Lesson 4: Silent E Reason 12.3 — C Says /s/ and G Says /j/
 
-**Stage 3** · Lesson 5 · rule-intro
+**Stage 3** · Lesson 4 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 6: SE 4: Syllable Needs Vowel
+**Next lesson:** Lesson 5: SE 3: C→/s/ G→/j/
 
 ---
 

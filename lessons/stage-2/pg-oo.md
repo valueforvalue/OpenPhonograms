@@ -110,3 +110,8 @@ book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oo — it says /ö/ /ü/ /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

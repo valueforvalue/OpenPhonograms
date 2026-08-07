@@ -1,6 +1,6 @@
-# Lesson 30: Suffixes -able and -ible
+# Lesson 29: Suffixes -able and -ible
 
-**Stage 4** · Lesson 30 · morphology
+**Stage 4** · Lesson 29 · morphology
 
 ---
 

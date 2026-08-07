@@ -1,6 +1,6 @@
-# Lesson 32: Suffixes -ly and -ful
+# Lesson 31: Suffixes -ly and -ful
 
-**Stage 4** · Lesson 32 · morphology
+**Stage 4** · Lesson 31 · morphology
 
 ---
 

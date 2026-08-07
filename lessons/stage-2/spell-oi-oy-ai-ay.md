@@ -1,6 +1,6 @@
-# Lesson 31: Spelling Analysis: oi oy ai ay
+# Lesson 30: Spelling Analysis: oi oy ai ay
 
-**Stage 2** · Lesson 31 · spelling-analysis
+**Stage 2** · Lesson 30 · spelling-analysis
 
 ---
 
@@ -67,7 +67,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 32: Phonogram ch
+**Next lesson:** Lesson 31: Phonogram ch
 
 ---
 

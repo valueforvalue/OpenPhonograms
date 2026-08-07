@@ -1,6 +1,6 @@
-# Lesson 18: Root geo — "earth"
+# Lesson 17: Root geo — "earth"
 
-**Stage 5** · Lesson 18 · morphology
+**Stage 5** · Lesson 17 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **geo** word:
 
 ---
 
-**Next lesson:** Lesson 19: Root: therm
+**Next lesson:** Lesson 18: Root: geo
 
 ---
 

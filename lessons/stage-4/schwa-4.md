@@ -1,6 +1,6 @@
-# Lesson 5: Rule 31.2: O→/ŭ/ Before W TH M N V
+# Lesson 4: Rule 31.2: O→/ŭ/ Before W TH M N V
 
-**Stage 4** · Lesson 5 · rule-intro
+**Stage 4** · Lesson 4 · rule-intro
 
 ---
 
@@ -73,7 +73,7 @@ Remember: rules describe patterns, not absolute laws. O before TH/M/N/V OFTEN sa
 
 ---
 
-**Next lesson:** Lesson 6: Rule 31.3: AR/OR→/er/
+**Next lesson:** Lesson 5: Rule 31.2: O→/ŭ/
 
 ---
 

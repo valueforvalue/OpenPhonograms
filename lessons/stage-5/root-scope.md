@@ -1,6 +1,6 @@
-# Lesson 21: Root scope — "see"
+# Lesson 20: Root scope — "see"
 
-**Stage 5** · Lesson 21 · morphology
+**Stage 5** · Lesson 20 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **scope** word:
 
 ---
 
-**Next lesson:** Lesson 22: Roots: auto + tele
+**Next lesson:** Lesson 21: Root: scope
 
 ---
 

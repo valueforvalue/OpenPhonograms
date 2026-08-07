@@ -1,6 +1,6 @@
-# Lesson 36: Rule 5 — I and Y at End of Syllable
+# Lesson 35: Rule 5 — I and Y at End of Syllable
 
-**Stage 3** · Lesson 36 · rule-intro
+**Stage 3** · Lesson 35 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 
 ---
 
-**Next lesson:** Lesson 37: Rule 6: Y=/ī/ One-Syllable
+**Next lesson:** Lesson 36: Rule 5: I/Y End Syllable
 
 ---
 
@@ -100,3 +100,8 @@ i/tem (I=/ī/), bi/cy/cle (Y=/ĭ/ first, then silent), by (Y=/ī/), gym (Y=/ĭ/)
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

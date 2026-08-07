@@ -1,6 +1,6 @@
-# Lesson 31: Suffixes -ment and -ness
+# Lesson 30: Suffixes -ment and -ness
 
-**Stage 4** · Lesson 31 · morphology
+**Stage 4** · Lesson 30 · morphology
 
 ---
 

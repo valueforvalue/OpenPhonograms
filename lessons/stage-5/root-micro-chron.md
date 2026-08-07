@@ -1,6 +1,6 @@
-# Lesson 23: Root micro/chron — "small/time"
+# Lesson 22: Root micro/chron — "small/time"
 
-**Stage 5** · Lesson 23 · morphology
+**Stage 5** · Lesson 22 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **micro/chron** word:
 
 ---
 
-**Next lesson:** Lesson 24: Roots: photo + logy
+**Next lesson:** Lesson 23: Roots: micro + chron
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 5: Root port — "carry"
+# Lesson 4: Root port — "carry"
 
-**Stage 5** · Lesson 5 · morphology
+**Stage 5** · Lesson 4 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **port** word:
 
 ---
 
-**Next lesson:** Lesson 6: Root: form
+**Next lesson:** Lesson 5: Root: port
 
 ---
 

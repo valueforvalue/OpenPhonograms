@@ -1001,24 +1001,15 @@ def build_review3(num, title, g1_title, g1, g2_title, g2, g3_title, g3, challeng
 
 def generate():
     # 1: Review Stage 2
-    yield 1, build_review3(1, "Review Stage 2 Phonograms and Rules",
-        "Fast Flash",
-        "Flash these multi-letter phonograms: sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear. Say ALL sounds for each.",
-        "Rule Roundup",
-        "Name these rules:\n- Rule 26 (CK after short vowel)\n- Rule 3 (No I, U, V, J at end)\n- Rule 9 (AY at end)\n- Rule 4 (Long at end of syllable)\n- Rule 20 (Three sounds of -ED)\n- Rule 30 (Floss Rule — double F, L, S)",
-        "Word Build Challenge",
-        "Adult says a word. Child writes it and circles any multi-letter phonograms: ship, back, rain, day, light, boat, girl, hurt, coin, book.",
-        ["ship","back","rain","day","light","boat","girl","hurt","coin"], "Flash all cards today!")
-
     # 2: Long Vowels
-    yield 2, build_long_vowels()
+    yield 1, build_long_vowels()
 
     # 3-6: Silent E reasons 12.1-12.4
     for i, key in enumerate(["12.1","12.2","12.3","12.4"]):
-        yield 3+i, build_silent_e(3+i, key)
+        yield 2+i, build_silent_e(2+i, key)
 
     # 7: SE Review 12.1-4
-    yield 7, build_review3(7, "Silent E Review: Reasons 12.1–12.4",
+    yield 6, build_review3(6, "Silent E Review: Reasons 12.1–12.4",
         "Name That Reason",
         "Adult says a word. Child names which Silent E reason (12.1, 12.2, 12.3, or 12.4) applies.\n\ntape → 12.1 (vowel says long)\nhave → 12.2 (no V at end)\ndance → 12.3 (C says /s/)\nlittle → 12.4 (syllable needs vowel)\nmake → 12.1\nblue → 12.2\nchange → 12.3\ntable → 12.4",
         "Word Sort",
@@ -1029,20 +1020,20 @@ def generate():
 
     # 8-12: Silent E reasons 12.5-12.9
     for i, key in enumerate(["12.5","12.6","12.7","12.8","12.9"]):
-        yield 8+i, build_silent_e(8+i, key)
+        yield 7+i, build_silent_e(7+i, key)
 
     # 13: Name That Reason practice
-    yield 13, build_se_practice()
+    yield 12, build_se_practice()
 
     # 14-16: Rules 1, 2 + Spelling
-    yield 14, build_rule3(14, "1")
-    yield 15, build_rule3(15, "2")
-    yield 16, build_se_ce_ge_spelling()
+    yield 13, build_rule3(13, "1")
+    yield 14, build_rule3(14, "2")
+    yield 15, build_se_ce_ge_spelling()
 
     # 17-23: dge, tch, kn, gn, wr + reviews
-    yield 17, build_multi3(17, "dge")
-    yield 18, build_multi3(18, "tch")
-    yield 19, build_review3(19, "Review: DGE and TCH",
+    yield 16, build_multi3(16, "dge")
+    yield 17, build_multi3(17, "tch")
+    yield 18, build_review3(18, "Review: DGE and TCH",
         "DGE or GE?",
         "Adult says a word. Child decides: DGE or GE?\n\nbridge (DGE — short i)\ncage (GE — long a)\nfudge (DGE — short u)\nlarge (GE — consonant r before)\nedge (DGE — short e)\nhuge (GE — long u)",
         "TCH or CH?",
@@ -1051,11 +1042,11 @@ def generate():
         "Write: bridge, edge, catch, watch, large, inch. Underline DGE/TCH/GE/CH.",
         ["bridge","catch","large","watch","edge","inch"], "Find TCH and DGE words in a book!")
 
-    yield 20, build_multi3(20, "kn")
-    yield 21, build_multi3(21, "gn")
-    yield 22, build_multi3(22, "wr")
+    yield 19, build_multi3(19, "kn")
+    yield 20, build_multi3(20, "gn")
+    yield 21, build_multi3(21, "wr")
 
-    yield 23, build_review3(23, "Review: Silent Letter Phonograms kn gn wr",
+    yield 22, build_review3(22, "Review: Silent Letter Phonograms kn gn wr",
         "Silent Letter Hunt",
         "Which letter is silent?\n\nknife → K is silent\nsign → G is silent\nwrite → W is silent\nknee → K\ngnat → G\nwrong → W\nknow → K\ndesign → G\nwrist → W",
         "Read the Word",
@@ -1065,42 +1056,42 @@ def generate():
         ["know","sign","write","knee","gnat","wrap"], "Write each kn/gn/wr word 3 times!")
 
     # 24: Mid-Assessment
-    yield 24, build_mid3()
+    yield 23, build_mid3()
 
     # 25-35: More PGs + Rule 28
-    for num, pg in [(25,"eigh"),(26,"ei"),(27,"ey"),(28,"ph"),(29,"gh"),(30,"ough"),(31,"augh")]:
+    for num, pg in [(24, "eigh"),(25, "ei"),(26, "ey"),(27, "ph"),(28, "gh"),(29, "ough"),(30, "augh")]:
         yield num, build_multi3(num, pg)
-    yield 32, build_rule3(32, "28")
-    for num, pg in [(33,"ew"),(34,"ui"),(35,"eu")]:
+    yield 31, build_rule3(31, "28")
+    for num, pg in [(32, "ew"),(33, "ui"),(34, "eu")]:
         yield num, build_multi3(num, pg)
 
     # 36-40: Rules 5,6,7,8,10
-    for num, key in [(36,"5"),(37,"6"),(38,"7"),(39,"8"),(40,"10")]:
+    for num, key in [(35, "5"),(36, "6"),(37, "7"),(38, "8"),(39, "10")]:
         yield num, build_rule3(num, key)
 
     # 41-42: wor, ie
-    yield 41, build_multi3(41, "wor")
-    yield 42, build_multi3(42, "ie")
+    yield 40, build_multi3(40, "wor")
+    yield 41, build_multi3(41, "ie")
 
     # 43-46: Syllable Division
-    yield 43, build_syllable(43, "compound")
-    yield 44, build_syllable(44, "vccv")
-    yield 45, build_syllable(45, "vcv")
-    yield 46, build_syllable(46, "cle")
+    yield 42, build_syllable(42, "compound")
+    yield 43, build_syllable(43, "vccv")
+    yield 44, build_syllable(44, "vcv")
+    yield 45, build_syllable(45, "cle")
 
     # 47: Schwa
-    yield 47, build_rule3(47, "31")
+    yield 46, build_rule3(46, "31")
 
     # 48-49: Readers
-    yield 48, build_gwen()
-    yield 49, build_cole()
+    yield 47, build_gwen()
+    yield 48, build_cole()
 
     # 50: Mixed Spelling
-    yield 50, build_mixed_spelling()
+    yield 49, build_mixed_spelling()
 
     # 51-52: Reviews
     pg_list_3 = "dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie"
-    yield 51, build_review3(51, "Review: All Stage 3 Phonograms",
+    yield 50, build_review3(50, "Review: All Stage 3 Phonograms",
         "Speed Flash", f"Flash ALL 75 phonograms. Focus on new ones: {pg_list_3}.",
         "Phonogram Bingo",
         "Pick 9 phonograms. Adult calls sounds. Cross off matching phonograms. Get 3 in a row to win!",
@@ -1108,7 +1099,7 @@ def generate():
         "Which Stage 3 phonogram has the most sounds? (ough — 6 sounds!) Name all 6.",
         ["bridge","catch","know","sign","write","eight","phone","ghost","though","caught","few","fruit","work","field"], "Flash all cards!")
 
-    yield 52, build_review3(52, "All Stage 3 Rules Review",
+    yield 51, build_review3(51, "All Stage 3 Rules Review",
         "Rule Speed Round",
         "Adult says a rule number. Child states the rule:\n\n1 (C softens before E I Y)\n2 (G may soften before E I Y)\n5 (I/Y at end of syllable)\n6 (Y=/ī/ in one-syllable)\n7 (I/Y may say /ē/)\n8 (I/O before two consonants)\n10 (A=/ä/ at end, after W, before L)\n25 (DGE after short vowel)\n27 (TCH after short vowel)\n28 (GH phonograms)\n31 (Schwa in unstressed syllables)",
         "Which Rule?",
@@ -1118,20 +1109,20 @@ def generate():
         ["dance","large","bridge","catch","by","baby","find","water","laugh","light"], "Review your rule flashcards!")
 
     # 53-54: HF Words
-    yield 53, build_hf3(53, 4, HF4,
+    yield 52, build_hf3(52, 4, HF4,
         "Where is the cat? There is a dog! Their hats are red. We were in the park. Come here!",
         "Where is the dog? We were in the park. Come here now!",
         "where")
-    yield 54, build_hf3(54, 5, HF5,
+    yield 53, build_hf3(53, 5, HF5,
         "I read it once. Two cats ran. Does the dog bark? Any cat can jump. Many dogs play.",
         "I went once. Two cats ran. Does it bark?",
         "once")
 
     # 55: Sail Box reader
-    yield 55, build_sail()
+    yield 54, build_sail()
 
     # 56: Assessment
-    yield 56, build_final3()
+    yield 55, build_final3()
 
 
 def build_long_vowels():
@@ -1757,26 +1748,26 @@ def build_final3():
 # ── WRITE ───────────────────────────────────────────────────────────
 
 S = {
-    1:"review-stage2",2:"long-vowels",
-    3:"silent-e-1",4:"silent-e-2",5:"silent-e-3",6:"silent-e-4",
-    7:"silent-e-review-1",8:"silent-e-5",9:"silent-e-6",10:"silent-e-7",
-    11:"silent-e-8",12:"silent-e-9",13:"silent-e-mastery",
-    14:"rule-1",15:"rule-2",16:"spell-ce-ci-ge",
-    17:"pg-dge",18:"pg-tch",19:"rule-25-27",
-    20:"pg-kn",21:"pg-gn",22:"pg-wr",23:"silent-letter-review",
-    24:"assessment-4",
-    25:"pg-eigh",26:"pg-ei",27:"pg-ey",28:"pg-ph",29:"pg-gh",
-    30:"pg-ough",31:"pg-augh",32:"rule-28",
-    33:"pg-ew",34:"pg-ui",35:"pg-eu",
-    36:"rule-5",37:"rule-6",38:"rule-7",39:"rule-8",40:"rule-10",
-    41:"pg-wor",42:"pg-ie",
-    43:"syllables-1",44:"syllables-2",45:"syllables-3",46:"syllables-4",
-    47:"rule-31",
-    48:"reader-2",49:"reader-3",
-    50:"spell-mixed-3",
-    51:"review-8",52:"rule-review-3",
-    53:"hf-words-4",54:"hf-words-5",
-    55:"reader-4",56:"assessment-5",
+    1:"long-vowels",
+    2:"silent-e-1",3:"silent-e-2",4:"silent-e-3",5:"silent-e-4",
+    6:"silent-e-review-1",7:"silent-e-5",8:"silent-e-6",9:"silent-e-7",
+    10:"silent-e-8",11:"silent-e-9",12:"silent-e-mastery",
+    13:"rule-1",14:"rule-2",15:"spell-ce-ci-ge",
+    16:"pg-dge",17:"pg-tch",18:"rule-25-27",
+    19:"pg-kn",20:"pg-gn",21:"pg-wr",22:"silent-letter-review",
+    23:"assessment-4",
+    24:"pg-eigh",25:"pg-ei",26:"pg-ey",27:"pg-ph",28:"pg-gh",
+    29:"pg-ough",30:"pg-augh",31:"rule-28",
+    32:"pg-ew",33:"pg-ui",34:"pg-eu",
+    35:"rule-5",36:"rule-6",37:"rule-7",38:"rule-8",39:"rule-10",
+    40:"pg-wor",41:"pg-ie",
+    42:"syllables-1",43:"syllables-2",44:"syllables-3",45:"syllables-4",
+    46:"rule-31",
+    47:"reader-2",48:"reader-3",
+    49:"spell-mixed-3",
+    50:"review-8",51:"rule-review-3",
+    52:"hf-words-4",53:"hf-words-5",
+    54:"reader-4",55:"assessment-5",
 }
 
 def main():

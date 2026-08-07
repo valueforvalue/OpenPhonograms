@@ -1,6 +1,6 @@
-# Lesson 22: Root auto/tele — "self/far"
+# Lesson 21: Root auto/tele — "self/far"
 
-**Stage 5** · Lesson 22 · morphology
+**Stage 5** · Lesson 21 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **auto/tele** word:
 
 ---
 
-**Next lesson:** Lesson 23: Roots: micro + chron
+**Next lesson:** Lesson 22: Roots: auto + tele
 
 ---
 

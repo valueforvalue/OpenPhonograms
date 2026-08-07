@@ -1,6 +1,6 @@
-# Lesson 21: Phonogram or
+# Lesson 20: Phonogram ar
 
-**Stage 2** · Lesson 21 · phonogram-intro
+**Stage 2** · Lesson 20 · phonogram-intro
 
 ---
 
@@ -14,26 +14,26 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar |
+| sh, th, ck, ee, ng |
 
 ---
 
-## New Learning: The Phonogram **or**
+## New Learning: The Phonogram **ar**
 
-### What Is **or**?
+### What Is **ar**?
 
-<div class="phonogram">or</div>
+<div class="phonogram">ar</div>
 
-**or** says 1 sound: /or/
+**ar** says 1 sound: /är/
 
-OR is an R-controlled vowel. The R changes the sound of the O.
+AR is an R-controlled vowel. The R changes the sound of the A.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /or/ | for, corn, sort, horse |
+| /är/ | car, farm, star, dark |
 
 ---
 
@@ -41,9 +41,9 @@ OR is an R-controlled vowel. The R changes the sound of the O.
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| for | f (/f/), or (/or/) | OR = R-controlled O | /for/ |
-| corn | c (/k/), or (/or/), n (/n/) | OR in middle | /korn/ |
-| sort | s (/s/), or (/or/), t (/t/) | OR before t | /sort/ |
+| car | c (/k/), ar (/är/) | AR = R-controlled A | /kär/ |
+| farm | f (/f/), ar (/är/), m (/m/) | AR in middle | /färm/ |
+| star | s (/s/), t (/t/), ar (/är/) | AR at end | /stär/ |
 
 ---
 
@@ -51,53 +51,53 @@ OR is an R-controlled vowel. The R changes the sound of the O.
 
 Read these words sound by sound, then blend:
 
-> for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
+> car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 Read these sentences:
 
-> The for is here.
+> The car is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **or** in each word.
+Write each word once. Underline the **ar** in each word.
 
-for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
+car &nbsp;&nbsp; farm &nbsp;&nbsp; star
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram or — it says /or/)*
-2. Is or a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of or? *(/or/)*
+1. What did you learn today? *(The phonogram ar — it says /är/)*
+2. Is ar a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of ar? *(/är/)*
 
 ---
 
-**Next lesson:** Lesson 22: Phonogram er
+**Next lesson:** Lesson 21: Phonogram er
 
 ---
 
-*Practice at home: Flash your **or** card 5 times. Find **or** in a book — how many can you find?*
+*Practice at home: Flash your **ar** card 5 times. Find **ar** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram or — Teacher Script</summary>
+<summary>📖 Phonogram ar — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">or</div>
+<div class="phonogram">ar</div>
 
-> **Say:** "This is the phonogram **or**." *(Point to the card.)* "It says /or/."
+> **Say:** "This is the phonogram **ar**." *(Point to the card.)* "It says /är/."
 
-> **Say:** "Listen to me say its sounds: /or/. Now you say them."
+> **Say:** "Listen to me say its sounds: /är/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing or.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ar.)*
 
-> **Say:** "Now you write **or** three times. Say '/or/' each time you write it."
+> **Say:** "Now you write **ar** three times. Say '/är/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +105,11 @@ for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram or — it says /or/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ar — it says /är/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

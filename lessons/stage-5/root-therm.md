@@ -1,6 +1,6 @@
-# Lesson 19: Root therm — "heat"
+# Lesson 18: Root therm — "heat"
 
-**Stage 5** · Lesson 19 · morphology
+**Stage 5** · Lesson 18 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **therm** word:
 
 ---
 
-**Next lesson:** Lesson 20: Root: meter
+**Next lesson:** Lesson 19: Root: therm
 
 ---
 

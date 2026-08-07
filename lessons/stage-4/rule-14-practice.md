@@ -1,6 +1,6 @@
-# Lesson 11: Double Consonant Practice
+# Lesson 10: Double Consonant Practice
 
-**Stage 4** · Lesson 11 · rule-practice
+**Stage 4** · Lesson 10 · rule-practice
 
 ---
 
@@ -68,7 +68,7 @@ I am running to the pool and swimming. Mom is opening the door. The cat is sleep
 
 ---
 
-**Next lesson:** Lesson 12: Drop E & Double Review
+**Next lesson:** Lesson 12: Double Consonant Practice
 
 ---
 

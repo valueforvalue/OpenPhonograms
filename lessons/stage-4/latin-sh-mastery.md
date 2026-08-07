@@ -1,6 +1,6 @@
-# Lesson 23: Latin /sh/ Mastery
+# Lesson 22: Latin /sh/ Mastery
 
-**Stage 4** · Lesson 23 · rule-practice
+**Stage 4** · Lesson 22 · rule-practice
 
 ---
 
@@ -75,7 +75,7 @@ The nation has a special mission. My vision of the action is clear. The musician
 
 ---
 
-**Next lesson:** Lesson 24: Prefixes un- re-
+**Next lesson:** Lesson 24: Latin /sh/ Mastery
 
 ---
 

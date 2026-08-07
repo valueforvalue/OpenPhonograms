@@ -1,6 +1,6 @@
-# Lesson 18: Phonogram tch
+# Lesson 17: Phonogram tch
 
-**Stage 3** · Lesson 18 · phonogram-intro
+**Stage 3** · Lesson 17 · phonogram-intro
 
 ---
 
@@ -57,7 +57,7 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 
 ---
 
-**Next lesson:** Lesson 19: Review: dge tch
+**Next lesson:** Lesson 18: Phonogram tch
 
 ---
 
@@ -90,3 +90,8 @@ TCH is a three-letter /ch/ used ONLY after a short vowel (or broad A in 'watch')
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram tch — it says /ch/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

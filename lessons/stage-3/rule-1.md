@@ -1,6 +1,6 @@
-# Lesson 14: Rule 1 — C Softens to /s/ Before E, I, or Y
+# Lesson 13: Rule 1 — C Softens to /s/ Before E, I, or Y
 
-**Stage 3** · Lesson 14 · rule-intro
+**Stage 3** · Lesson 13 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ cent, city, cycle, face, ice, dance (C=/s/) · cat, cot, cup, clip, crab (C=/k/)
 
 ---
 
-**Next lesson:** Lesson 15: Rule 2: G Softens
+**Next lesson:** Lesson 14: Rule 1: C Softens
 
 ---
 
@@ -100,3 +100,8 @@ cent, city, cycle, face, ice, dance (C=/s/) · cat, cot, cup, clip, crab (C=/k/)
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

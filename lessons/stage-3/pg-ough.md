@@ -1,6 +1,6 @@
-# Lesson 30: Phonogram ough
+# Lesson 29: Phonogram ough
 
-**Stage 3** · Lesson 30 · phonogram-intro
+**Stage 3** · Lesson 29 · phonogram-intro
 
 ---
 
@@ -62,7 +62,7 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 
 ---
 
-**Next lesson:** Lesson 31: Phonogram augh
+**Next lesson:** Lesson 30: Phonogram ough
 
 ---
 
@@ -95,3 +95,8 @@ OUGH is the wildest phonogram — it has SIX sounds! /ō/ (though), /ö/ (throug
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ough — it says /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

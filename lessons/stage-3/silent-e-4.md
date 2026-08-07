@@ -1,6 +1,6 @@
-# Lesson 6: Silent E Reason 12.4 — Every Syllable Needs a Vowel
+# Lesson 5: Silent E Reason 12.4 — Every Syllable Needs a Vowel
 
-**Stage 3** · Lesson 6 · rule-intro
+**Stage 3** · Lesson 5 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 7: SE Review 12.1-4
+**Next lesson:** Lesson 6: SE 4: Syllable Needs Vowel
 
 ---
 

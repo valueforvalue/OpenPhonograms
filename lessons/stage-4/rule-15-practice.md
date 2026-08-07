@@ -1,6 +1,6 @@
-# Lesson 15: Y→I Practice
+# Lesson 14: Y→I Practice
 
-**Stage 4** · Lesson 15 · rule-practice
+**Stage 4** · Lesson 14 · rule-practice
 
 ---
 
@@ -69,7 +69,7 @@ The babies cried. I carried the bag. Happiness is the funniest thing!
 
 ---
 
-**Next lesson:** Lesson 16: Rule 16: Two I's
+**Next lesson:** Lesson 16: Y→I Practice
 
 ---
 

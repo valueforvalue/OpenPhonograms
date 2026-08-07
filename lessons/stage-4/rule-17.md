@@ -1,6 +1,6 @@
-# Lesson 21: Rule 17 — Latin /sh/ — TI, CI, SI
+# Lesson 20: Rule 17 — Latin /sh/ — TI, CI, SI
 
-**Stage 4** · Lesson 21 · rule-intro
+**Stage 4** · Lesson 20 · rule-intro
 
 ---
 
@@ -64,7 +64,7 @@ The nation has a special vision. The musician's mission is action!
 
 ---
 
-**Next lesson:** Lesson 22: Rule 18: SH Placement
+**Next lesson:** Lesson 22: Rule 17: Latin /sh/
 
 ---
 

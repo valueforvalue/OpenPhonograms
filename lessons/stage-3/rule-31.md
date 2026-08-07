@@ -1,6 +1,6 @@
-# Lesson 47: Rule 31 — Schwa
+# Lesson 46: Rule 31 — Schwa
 
-**Stage 3** · Lesson 47 · rule-intro
+**Stage 3** · Lesson 46 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 
 ---
 
-**Next lesson:** Lesson 48: Reader: Gwen
+**Next lesson:** Lesson 47: Schwa
 
 ---
 
@@ -100,3 +100,8 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

@@ -1,6 +1,6 @@
-# Lesson 26: Prefixes pre- and pro-
+# Lesson 25: Prefixes pre- and pro-
 
-**Stage 4** · Lesson 26 · morphology
+**Stage 4** · Lesson 25 · morphology
 
 ---
 

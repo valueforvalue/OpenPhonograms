@@ -1,6 +1,6 @@
-# Lesson 39: Rule 8 — I and O Before Two Consonants
+# Lesson 38: Rule 8 — I and O Before Two Consonants
 
-**Stage 3** · Lesson 39 · rule-intro
+**Stage 3** · Lesson 38 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ find, kind, mind, child, wild, blind (I=/ī/) · old, cold, most, post, bolt, ro
 
 ---
 
-**Next lesson:** Lesson 40: Rule 10: A Says /ä/
+**Next lesson:** Lesson 39: Rule 8: I/O Before Two Consonants
 
 ---
 
@@ -100,3 +100,8 @@ find, kind, mind, child, wild, blind (I=/ī/) · old, cold, most, post, bolt, ro
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

@@ -1,6 +1,6 @@
-# Lesson 8: Root rupt — "break"
+# Lesson 7: Root rupt — "break"
 
-**Stage 5** · Lesson 8 · morphology
+**Stage 5** · Lesson 7 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **rupt** word:
 
 ---
 
-**Next lesson:** Lesson 9: Root: ject
+**Next lesson:** Lesson 8: Root: rupt
 
 ---
 

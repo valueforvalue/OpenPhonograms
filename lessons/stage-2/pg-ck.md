@@ -1,6 +1,6 @@
-# Lesson 13: Phonogram ck
+# Lesson 12: Phonogram th
 
-**Stage 2** · Lesson 13 · phonogram-intro
+**Stage 2** · Lesson 12 · phonogram-intro
 
 ---
 
@@ -14,28 +14,27 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th |
+| sh |
 
 ---
 
-## New Learning: The Phonogram **ck**
+## New Learning: The Phonogram **th**
 
-### What Is **ck**?
+### What Is **th**?
 
-<div class="phonogram">ck</div>
+<div class="phonogram">th</div>
 
-**ck** says 1 sound: /k/
+**th** says 2 sounds: /th/ (voiced) /th/ (unvoiced)
 
-CK is a two-letter /k/ used ONLY after a short vowel. It never comes at the beginning of a word.
+TH has TWO sounds: buzzing (voiced, as in 'this') and quiet (unvoiced, as in 'thin'). Put your hand on your throat to tell them apart!
 
-
-> **Spelling Rule:** Rule 26: CK is used only after a single vowel which says its short sound. Never at the beginning.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /k/ | back, stick, duck, clock |
+| /th (voiced)/ | this, that, them |
+| /th (unvoiced)/ | thin, with, path |
 
 ---
 
@@ -43,9 +42,9 @@ CK is a two-letter /k/ used ONLY after a short vowel. It never comes at the begi
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| back | b (/b/), a (/ă/), ck (/k/) | Rule 26: CK after short vowel | /băk/ |
-| duck | d (/d/), u (/ŭ/), ck (/k/) | Rule 26: CK after short ŭ | /dŭk/ |
-| sick | s (/s/), i (/ĭ/), ck (/k/) | Rule 26: CK after short ĭ | /sĭk/ |
+| this | th (/th/ voiced), i (/ĭ/), s (/s/) | th voiced — buzz on | /thĭs/ |
+| thin | th (/th/ unvoiced), i (/ĭ/), n (/n/) | th unvoiced — no buzz | /thĭn/ |
+| with | w (/w/), i (/ĭ/), th (/th/ unvoiced) | th at end | /wĭth/ |
 
 ---
 
@@ -53,53 +52,53 @@ CK is a two-letter /k/ used ONLY after a short vowel. It never comes at the begi
 
 Read these words sound by sound, then blend:
 
-> back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
+> this &nbsp;&nbsp; thin &nbsp;&nbsp; with
 
 Read these sentences:
 
-> The back is here.
+> The this is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ck** in each word.
+Write each word once. Underline the **th** in each word.
 
-back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
+this &nbsp;&nbsp; thin &nbsp;&nbsp; with
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ck — it says /k/)*
-2. Is ck a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with ck? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram th — it says /th/ (voiced) /th/ (unvoiced))*
+2. Is th a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of th? *(/th/)*
 
 ---
 
-**Next lesson:** Lesson 14: Spelling Analysis: sh th ck
+**Next lesson:** Lesson 13: Spelling Analysis: sh th ck
 
 ---
 
-*Practice at home: Flash your **ck** card 5 times. Find **ck** in a book — how many can you find?*
+*Practice at home: Flash your **th** card 5 times. Find **th** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ck — Teacher Script</summary>
+<summary>📖 Phonogram th — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ck</div>
+<div class="phonogram">th</div>
 
-> **Say:** "This is the phonogram **ck**." *(Point to the card.)* "It says /k/."
+> **Say:** "This is the phonogram **th**." *(Point to the card.)* "It says /th/ (voiced) /th/ (unvoiced)."
 
-> **Say:** "Listen to me say its sounds: /k/. Now you say them."
+> **Say:** "Listen to me say its sounds: /th/ (voiced) /th/ (unvoiced). Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ck.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing th.)*
 
-> **Say:** "Now you write **ck** three times. Say '/k/' each time you write it."
+> **Say:** "Now you write **th** three times. Say '/th/ (voiced) /th/ (unvoiced)' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +106,11 @@ back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ck — it says /k/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram th — it says /th/ (voiced) /th/ (unvoiced).")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

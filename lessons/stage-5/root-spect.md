@@ -1,6 +1,6 @@
-# Lesson 4: Root spect/spic — "see, look"
+# Lesson 3: Root spect/spic — "see, look"
 
-**Stage 5** · Lesson 4 · morphology
+**Stage 5** · Lesson 3 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **spect/spic** word:
 
 ---
 
-**Next lesson:** Lesson 5: Root: port
+**Next lesson:** Lesson 4: Root: spect
 
 ---
 

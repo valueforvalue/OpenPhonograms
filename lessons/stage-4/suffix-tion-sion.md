@@ -1,6 +1,6 @@
-# Lesson 29: Suffixes -tion and -sion
+# Lesson 28: Suffixes -tion and -sion
 
-**Stage 4** · Lesson 29 · morphology
+**Stage 4** · Lesson 28 · morphology
 
 ---
 

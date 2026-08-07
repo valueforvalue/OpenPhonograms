@@ -1,6 +1,6 @@
-# Lesson 4: Short Vowel O — /ŏ/
+# Lesson 3: Short Vowel O — /ŏ/
 
-**Stage 2** · Lesson 4 · vowel-concept
+**Stage 2** · Lesson 3 · vowel-concept
 
 ---
 
@@ -81,7 +81,7 @@ Adult reads these sentences aloud. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 5: Short Vowel u
+**Next lesson:** Lesson 4: Short Vowel u
 
 ---
 

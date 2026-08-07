@@ -1,6 +1,6 @@
-# Lesson 47: Review: All Stage 4 Concepts
+# Lesson 46: Review: All Stage 4 Concepts
 
-**Stage 4** · Lesson 47 · review
+**Stage 4** · Lesson 46 · review
 
 ---
 
@@ -34,7 +34,7 @@ Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?
 
 ---
 
-**Next lesson:** Lesson 48: Stage 4 Mastery Check
+**Next lesson:** Lesson 47: All Stage 4 Review
 
 ---
 

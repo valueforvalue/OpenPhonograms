@@ -1150,31 +1150,31 @@ def multi_list_str(num):
 
 def next_title(num):
     titles = {
-        1: "Review Stage 1 Phonograms", 2: "Short Vowel a", 3: "Short Vowel i",
-        4: "Short Vowel o", 5: "Short Vowel u", 6: "Short Vowel e",
-        7: "VC Words", 8: "CVC with Continuant Consonants",
-        9: "CVC with Stop Consonants", 10: "All CVC Combinations",
-        11: "Phonogram sh", 12: "Phonogram th", 13: "Phonogram ck",
-        14: "Spelling Analysis: sh th ck", 15: "Phonogram ee",
-        16: "CCVC Blends", 17: "CVCC Blends", 18: "CCVCC Blends",
-        19: "Phonogram ng", 20: "Phonogram ar", 21: "Phonogram or",
-        22: "Phonogram er", 23: "Review: First 8 Multi-Letter",
-        24: "Mid-Stage 2 Assessment", 25: "Phonogram oi",
-        26: "Phonogram oy", 27: "Rule 3: No I U V J at End",
-        28: "Phonogram ai", 29: "Phonogram ay",
-        30: "Rule 9: AY at End", 31: "Spelling: oi oy ai ay",
-        32: "Phonogram ch", 33: "Phonogram wh", 34: "Phonogram ea",
-        35: "Spelling: ch wh ea", 36: "Phonogram ow",
-        37: "Phonogram ou", 38: "Rule 4: Long at End",
-        39: "Open Syllables", 40: "Phonogram oo",
-        41: "Phonogram ed", 42: "Rule 20: -ED",
-        43: "Phonogram igh", 44: "Phonogram aw", 45: "Phonogram au",
-        46: "Phonogram ir", 47: "Phonogram ur",
-        48: "Review: ow to ur", 49: "Phonogram oa",
-        50: "Phonogram ear", 51: "HF Words Set 1",
-        52: "HF Words Set 2", 53: "HF Words Set 3",
-        54: "Rule 30: Floss Rule", 55: "Reader: Fred the Frog",
-        56: "Stage 2 Mastery Check",
+        1: "Short Vowel a", 2: "Short Vowel i",
+        3: "Short Vowel o", 4: "Short Vowel u", 5: "Short Vowel e",
+        6: "VC Words", 7: "CVC with Continuant Consonants",
+        8: "CVC with Stop Consonants", 9: "All CVC Combinations",
+        10: "Phonogram sh", 11: "Phonogram th", 12: "Phonogram ck",
+        13: "Spelling Analysis: sh th ck", 14: "Phonogram ee",
+        15: "CCVC Blends", 16: "CVCC Blends", 17: "CCVCC Blends",
+        18: "Phonogram ng", 19: "Phonogram ar", 20: "Phonogram or",
+        21: "Phonogram er", 22: "Review: First 8 Multi-Letter",
+        23: "Mid-Stage 2 Assessment", 24: "Phonogram oi",
+        25: "Phonogram oy", 26: "Rule 2: No I U V J at End",
+        27: "Phonogram ai", 28: "Phonogram ay",
+        29: "Rule 8: AY at End", 30: "Spelling: oi oy ai ay",
+        31: "Phonogram ch", 32: "Phonogram wh", 33: "Phonogram ea",
+        34: "Spelling: ch wh ea", 35: "Phonogram ow",
+        36: "Phonogram ou", 37: "Rule 3: Long at End",
+        38: "Open Syllables", 39: "Phonogram oo",
+        40: "Phonogram ed", 41: "Rule 19: -ED",
+        42: "Phonogram igh", 43: "Phonogram aw", 44: "Phonogram au",
+        45: "Phonogram ir", 46: "Phonogram ur",
+        47: "Review: ow to ur", 48: "Phonogram oa",
+        49: "Phonogram ear", 50: "HF Words Set 1",
+        51: "HF Words Set 2", 52: "HF Words Set 3",
+        53: "Rule 29: Floss Rule", 54: "Reader: Fred the Frog",
+        55: "Stage 2 Mastery Check",
     }
     return titles.get(num, f"Lesson {num}")
 
@@ -1341,54 +1341,45 @@ def build_review(num, title, pgs, game2_rows, sound_choices, challenge_words):
 # ── MAIN GENERATOR ──────────────────────────────────────────────────
 
 def generate_all():
-    # ── Lesson 1: Review Stage 1 Phonograms ──
-    yield 1, build_review(
-        1, "Review Stage 1 Phonograms",
-        ["a","d","g","c","o","qu","s","t","i","p","u","j","r","n","m","e","l","b","h","k","f","v","w","x","y","z"],
-        "| cat | c, a, t | No — all single |\n| ship | sh, i, p | Yes — sh! |\n| dog | d, o, g | No |\n| quit | qu, i, t | Yes — qu! |",
-        "- /ă/ — a or o? *a!*\n- /k/ — c or k? *Both can!*\n- /j/ — j or g? *Both can!*\n- /kw/ — q alone, qu, or k? *qu!*",
-        ["cat", "dog", "sun", "quit", "jam", "zip"]
-    )
-
     # ── Lessons 2-6: Short Vowels ──
-    yield 2, build_short_vowel(2, "a", "ă",
+    yield 1, build_short_vowel(1, "a", "ă",
         "The short sound of A is /ă/ — like the first sound in 'apple.' Your mouth is open, your tongue is low. Try singing it: /ăăăă/. You can't hold it as long as /ā/, can you? That's why it's called 'short.'",
         ["cat","hat","bat","rat","sat","mat","fat","pat","cap","map","tap","lap","nap","sap","gap","bag","tag","rag","wag","sag","had","bad","mad","sad","dad","pad","lad","fad"])
 
-    yield 3, build_short_vowel(3, "i", "ĭ",
+    yield 2, build_short_vowel(2, "i", "ĭ",
         "The short sound of I is /ĭ/ — like the first sound in 'igloo.' Your mouth is slightly open, your tongue is high in the front. Most children find /ĭ/ easier to say than /ĕ/. Say it: /ĭ/ (short and crisp!).",
         ["sit","fit","hit","bit","pit","lit","kit","wit","it","in","if","is","big","dig","fig","pig","rig","wig","jig","him","rim","dim","Tim","Jim","pin","fin","tin","win","bin","sin","tip","hip","lip","rip","sip","zip"])
 
-    yield 4, build_short_vowel(4, "o", "ŏ",
+    yield 3, build_short_vowel(3, "o", "ŏ",
         "The short sound of O is /ŏ/ — like the first sound in 'octopus.' Your mouth makes a round circle. Imagine you're surprised: 'O!' but shorter. Say it: /ŏ/.",
         ["hot","pot","not","got","dot","lot","rot","cot","jot","top","hop","pop","mop","cop","bop","dog","log","fog","hog","jog","bog","on","ox","box","fox","sox","mom","Tom","rod","nod","sod","pod","cod","god"])
 
-    yield 5, build_short_vowel(5, "u", "ŭ",
+    yield 4, build_short_vowel(4, "u", "ŭ",
         "The short sound of U is /ŭ/ — like the first sound in 'up' or 'umbrella.' Your mouth is relaxed and slightly open. Point UP when you say /ŭ/!",
         ["up","cup","pup","sup","us","bus","mud","bud","dud","bug","rug","hug","jug","lug","tug","mug","dug","fun","run","sun","bun","gun","nun","pun","cut","hut","nut","rut","but","gut","jut","tut","put","hum","gum","sum","mum","rum"])
 
-    yield 6, build_short_vowel(6, "e", "ĕ",
+    yield 5, build_short_vowel(5, "e", "ĕ",
         "The short sound of E is /ĕ/ — like the first sound in 'egg' or 'elephant.' Your mouth is open a little. This is often the hardest short vowel for children, so practice it often! Think of a creaky door: 'ehhh.' Say it: /ĕ/.",
         ["bed","red","fed","led","wed","Ted","Ned","get","set","let","met","pet","vet","wet","jet","net","bet","yet","hen","pen","ten","men","den","Ben","Ken","Len","leg","peg","beg","Meg","peg","hem","gem","them"])
 
     # ── Lessons 7-10: Word Building ──
-    yield 7, build_word_building(7, "VC Words: at in on up it", "Two-Letter Words",
+    yield 6, build_word_building(6, "VC Words: at in on up it", "Two-Letter Words",
         "Today we build the smallest real words — just two letters: a vowel and a consonant (VC). These are the foundation of all reading!",
         VC_WORDS, check_word="at")
 
-    yield 8, build_word_building(8, "CVC with Continuant Consonants", "CVC Words — Easy First Sounds",
+    yield 7, build_word_building(7, "CVC with Continuant Consonants", "CVC Words — Easy First Sounds",
         "Continuant consonants are sounds you can STRETCH: /m/, /n/, /f/, /s/, /l/, /r/. Words that start with these are easier to blend because you can hold the first sound while your brain finds the next one.",
         CVC_CONTINUANT,
         variation_note="> **Tip:** Stretch the first sound: /mmmmmm/ /ă/ /n/ → man. It's much easier than stopping and starting.\n",
         check_word="man")
 
-    yield 9, build_word_building(9, "CVC with Stop Consonants", "CVC Words — Stop Sounds",
+    yield 8, build_word_building(8, "CVC with Stop Consonants", "CVC Words — Stop Sounds",
         "Stop consonants are sounds you CAN'T stretch: /k/, /d/, /g/, /p/, /t/, /b/. Words that start with these are harder to blend. Don't add 'uh' (/ə/) to the end — say /k/ not /kuh/!",
         CVC_STOP,
         variation_note="> **Tip:** Don't add 'uh' to stop sounds! /k/ is crisp and quick — not /kuh/. Say the sound, then go straight to the next one.\n",
         check_word="cat")
 
-    yield 10, build_word_building(10, "All CVC Combinations", "All CVC Words Together",
+    yield 9, build_word_building(9, "All CVC Combinations", "All CVC Words Together",
         "Now we can read ANY CVC word with short vowels! Today we practice mixing continuant and stop consonants with all five short vowels.",
         CVC_ALL[:15],
         variation_note="> **You can now read over 500 CVC words!** Every new phonogram you learn unlocks hundreds more.\n",
@@ -1411,7 +1402,7 @@ def generate_all():
         ("fish", "f (/f/), i (/ĭ/), sh (/sh/)", "sh at end", "/fĭsh/"),
         ("duck", "d (/d/), u (/ŭ/), ck (/k/)", "Rule 26", "/dŭk/"),
     ]
-    yield 14, build_spelling_analysis(14, "Spelling Analysis: sh th ck",
+    yield 13, build_spelling_analysis(13, "Spelling Analysis: sh th ck",
         "sh, th, ck", "sh, th, ck",
         "Today we practice spelling with our first three multi-letter phonograms. Use the 5-step routine for each word.",
         sa_words_14,
@@ -1421,19 +1412,19 @@ def generate_all():
         "ship")
 
     # ── Lessons 16-18: Consonant Blends ──
-    yield 16, build_word_building(16, "CCVC: Beginning Blends", "Words That Start with Two Consonants",
+    yield 15, build_word_building(15, "CCVC: Beginning Blends", "Words That Start with Two Consonants",
         "When two consonants come together at the start of a word, we blend them quickly. The first consonant 'slides' into the second. Try /s/ + /l/ = /sl/ — now add /ĭ/ /p/ = slip!",
         CCVC_BLENDS,
         variation_note="> **Blend tip:** Say the first two sounds together quickly: /st/, /fr/, /sl/, /cr/, /sw/. Then add the rest.\n",
         check_word="stop")
 
-    yield 17, build_word_building(17, "CVCC: Ending Blends", "Words That End with Two Consonants",
+    yield 16, build_word_building(16, "CVCC: Ending Blends", "Words That End with Two Consonants",
         "Consonant blends can also come at the END of words. Listen carefully for both final sounds — they can be tricky! /h/ /ă/ /n/ /d/ → hand.",
         CVCC_BLENDS,
         variation_note="> **Listen carefully:** The last two sounds are separate — don't skip one! 'hand' has 4 sounds: /h/ /ă/ /n/ /d/.\n",
         check_word="hand")
 
-    yield 18, build_word_building(18, "CCVCC: Both Blends", "Blends at BOTH Ends!",
+    yield 17, build_word_building(17, "CCVCC: Both Blends", "Blends at BOTH Ends!",
         "The ultimate blending challenge — words with consonant blends at the beginning AND the end. Five sounds to blend! /p/ /l/ /ă/ /n/ /t/ → plant.",
         CCVCC_BLENDS,
         variation_note="> **Five sounds!** These are the longest one-syllable words: /s/+/t/+/ă/+/m/+/p/ = stamp. Count them on your fingers.\n",
@@ -1441,14 +1432,14 @@ def generate_all():
 
     # ── Lesson 23: Review first wave ──
     first_wave_pgs = ["sh","th","ck","ee","ng","ar","or","er"]
-    yield 23, build_review(23, "Review: sh th ck ee ng ar or er",
+    yield 22, build_review(22, "Review: sh th ck ee ng ar or er",
         sorted(list(SINGLE_PGS.keys())) + first_wave_pgs,
         "| ship | sh + i + p | sh |\n| back | b + a + ck | ck — Rule 26 |\n| see | s + ee | ee — always /ē/ |\n| sing | s + i + ng | ng |\n| car | c + ar | ar = R-controlled |\n| for | f + or | or = R-controlled |\n| her | h + er | er at end |",
         "- /sh/ — sh or s? *sh!*\n- /ē/ — ee or e? *ee!*\n- /ng/ — ng or n? *ng!*\n- /är/ — ar or a? *ar!*\n- /er/ — er, ir, or ur? *er is most common!*",
         ["ship","that","back","see","sing","car","for","her"])
 
     # ── Lesson 24: Mid-Stage 2 Assessment ──
-    yield 24, build_mid_assessment()
+    yield 23, build_mid_assessment()
 
     # ── Lessons 25-50: Second Wave Multi-Letter PGs + Rules ──
 
@@ -1466,10 +1457,10 @@ def generate_all():
         yield num, build_multi_pg(num, pg)
 
     # ── Lesson 27: Rule 3 ──
-    yield 27, build_rule(27, "3")
+    yield 26, build_rule(26, "3")
 
     # ── Lesson 30: Rule 9 ──
-    yield 30, build_rule(30, "9")
+    yield 29, build_rule(29, "9")
 
     # ── Lesson 31: Spelling Analysis oi oy ai ay ──
     sa_words_31 = [
@@ -1479,7 +1470,7 @@ def generate_all():
         ("day", "d (/d/), ay (/ā/)", "AY at end — Rule 9", "/dā/"),
         ("toy", "t (/t/), oy (/oi/)", "OY at end", "/toi/"),
     ]
-    yield 31, build_spelling_analysis(31, "Spelling Analysis: oi oy ai ay",
+    yield 30, build_spelling_analysis(30, "Spelling Analysis: oi oy ai ay",
         "oi, oy, ai, ay", "oi/oy and ai/ay Pairs",
         "Each of these pairs makes the same sound — one is for the middle of a word, one is for the end. Rule 3 explains why!",
         sa_words_31,
@@ -1496,7 +1487,7 @@ def generate_all():
         ("head", "h (/h/), ea (/ĕ/), d (/d/)", "EA = /ĕ/ (second sound)", "/hĕd/"),
         ("much", "m (/m/), u (/ŭ/), ch (/ch/)", "CH at end", "/mŭch/"),
     ]
-    yield 35, build_spelling_analysis(35, "Spelling Analysis: ch wh ea",
+    yield 34, build_spelling_analysis(34, "Spelling Analysis: ch wh ea",
         "ch, wh, ea", "ch, wh, ea",
         "CH has three sounds (but /ch/ is most common). WH says /hw/. EA has three sounds (/ē/ is most common).",
         sa_words_35,
@@ -1506,50 +1497,50 @@ def generate_all():
         "when")
 
     # ── Lesson 38: Rule 4 ──
-    yield 38, build_rule(38, "4")
+    yield 37, build_rule(37, "4")
 
     # ── Lesson 39: Open Syllables ──
-    yield 39, build_word_building(39, "Open Syllable Words", "When a Syllable Ends with a Vowel",
+    yield 38, build_word_building(38, "Open Syllable Words", "When a Syllable Ends with a Vowel",
         "An open syllable ends with a vowel. The vowel says its LONG sound! go, he, me, no, so, she, we, be. This is Rule 4 in action.",
         ["go","no","so","he","me","she","we","be","hi","by","my","try","fly","sky","cry","dry","fry","why","baby","lady","lazy","crazy","tiny"],
         variation_note="> **Open = vowel not 'closed' by a consonant.** In 'go,' the syllable ends with O, so O says /ō/. In 'got,' the T closes the syllable, so O says /ŏ/.\n",
         check_word="go")
 
     # ── Lesson 42: Rule 20 ──
-    yield 42, build_rule(42, "20")
+    yield 41, build_rule(41, "20")
 
     # ── Lesson 48: Review Second Wave ──
     second_wave_pgs = ["ow","ou","oo","ed","igh","aw","au","ir","ur","oa","ear"]
-    yield 48, build_review(48, "Review: ow ou oo ed igh aw au ir ur oa ear",
+    yield 47, build_review(47, "Review: ow ou oo ed igh aw au ir ur oa ear",
         sorted(list(SINGLE_PGS.keys())) + first_wave_pgs + second_wave_pgs,
         "| cow | c + ow | OW = /ow/ |\n| out | ou + t | OU = /ow/ |\n| book | b + oo + k | OO = /ö/ |\n| played | p + l + ay + ed | ED = /d/ |\n| light | l + igh + t | Rule 28 |\n| saw | s + aw | AW at end |\n| girl | g + ir + l | IR = /er/ |\n| hurt | h + ur + t | UR = /er/ |",
         "- /ow/ — ow or ou? *Both can!*\n- /er/ — er, ir, or ur? *All three!*\n- /ō/ — oa or ow? *oa in middle, ow often at end.*\n- /ä/ — aw or au? *aw at end, au in middle.*",
         ["cow","out","book","played","light","saw","cause","girl","hurt","boat","learn"])
 
     # ── Lessons 51-53: High-Frequency Words ──
-    yield 51, build_hf_words(51, 1, HF_WORDS_SET1,
+    yield 50, build_hf_words(50, 1, HF_WORDS_SET1,
         "The cat is big. I see a dog. The sun is hot.",
         "The cat is big. A dog is here.",
         "the")
 
-    yield 52, build_hf_words(52, 2, HF_WORDS_SET2,
+    yield 51, build_hf_words(51, 2, HF_WORDS_SET2,
         "Do you see the cat? He was in the bed. Has the dog run? She said yes!",
         "Do you see the dog? She said yes.",
         "you")
 
-    yield 53, build_hf_words(53, 3, HF_WORDS_SET3,
+    yield 52, build_hf_words(52, 3, HF_WORDS_SET3,
         "We are at the park. I have a big hat. Come and give it to me. Some dogs run fast.",
         "We are at home. Come and have some fun.",
         "have")
 
     # ── Lesson 54: Rule 30 (Floss Rule) ──
-    yield 54, build_rule(54, "30")
+    yield 53, build_rule(53, "30")
 
     # ── Lesson 55: Fred the Frog (Reader) ──
-    yield 55, build_fred_reader()
+    yield 54, build_fred_reader()
 
     # ── Lesson 56: Stage 2 Mastery Check ──
-    yield 56, build_final_assessment()
+    yield 55, build_final_assessment()
 
 
 def build_mid_assessment():
@@ -1678,31 +1669,31 @@ The End.
 def main():
     for num, content in generate_all():
         slugs = {
-            1: "review-stage1", 2: "short-a", 3: "short-i", 4: "short-o", 5: "short-u", 6: "short-e",
-            7: "vc-words", 8: "cvc-continuant", 9: "cvc-stop", 10: "cvc-all",
-            11: "pg-sh", 12: "pg-th", 13: "pg-ck",
-            14: "spell-sh-th-ck",
-            15: "pg-ee",
-            16: "ccvc-blends", 17: "cvcc-blends", 18: "ccvcc-blends",
-            19: "pg-ng", 20: "pg-ar", 21: "pg-or", 22: "pg-er",
-            23: "review-6",
-            24: "assessment-2",
-            25: "pg-oi", 26: "pg-oy", 27: "rule-3",
-            28: "pg-ai", 29: "pg-ay", 30: "rule-9",
-            31: "spell-oi-oy-ai-ay",
-            32: "pg-ch", 33: "pg-wh", 34: "pg-ea",
-            35: "spell-ch-wh-ea",
-            36: "pg-ow", 37: "pg-ou", 38: "rule-4",
-            39: "open-syllables",
-            40: "pg-oo", 41: "pg-ed", 42: "rule-20",
-            43: "pg-igh", 44: "pg-aw", 45: "pg-au",
-            46: "pg-ir", 47: "pg-ur",
-            48: "review-7",
-            49: "pg-oa", 50: "pg-ear",
-            51: "hf-words-1", 52: "hf-words-2", 53: "hf-words-3",
-            54: "rule-30",
-            55: "reader-1",
-            56: "assessment-3",
+            1: "short-a", 2: "short-i", 3: "short-o", 4: "short-u", 5: "short-e",
+            6: "vc-words", 7: "cvc-continuant", 8: "cvc-stop", 9: "cvc-all",
+            10: "pg-sh", 11: "pg-th", 12: "pg-ck",
+            13: "spell-sh-th-ck",
+            14: "pg-ee",
+            15: "ccvc-blends", 16: "cvcc-blends", 17: "ccvcc-blends",
+            18: "pg-ng", 19: "pg-ar", 20: "pg-or", 21: "pg-er",
+            22: "review-6",
+            23: "assessment-2",
+            24: "pg-oi", 25: "pg-oy", 26: "rule-3",
+            27: "pg-ai", 28: "pg-ay", 29: "rule-9",
+            30: "spell-oi-oy-ai-ay",
+            31: "pg-ch", 32: "pg-wh", 33: "pg-ea",
+            34: "spell-ch-wh-ea",
+            35: "pg-ow", 36: "pg-ou", 37: "rule-4",
+            38: "open-syllables",
+            39: "pg-oo", 40: "pg-ed", 41: "rule-20",
+            42: "pg-igh", 43: "pg-aw", 44: "pg-au",
+            45: "pg-ir", 46: "pg-ur",
+            47: "review-7",
+            48: "pg-oa", 49: "pg-ear",
+            50: "hf-words-1", 51: "hf-words-2", 52: "hf-words-3",
+            53: "rule-30",
+            54: "reader-1",
+            55: "assessment-3",
         }
         slug = slugs.get(num, f"lesson-{num:03d}")
         filepath = OUT_DIR / f"{slug}.md"

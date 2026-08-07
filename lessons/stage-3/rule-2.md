@@ -1,6 +1,6 @@
-# Lesson 15: Rule 2 — G May Soften to /j/ Before E, I, or Y
+# Lesson 14: Rule 2 — G May Soften to /j/ Before E, I, or Y
 
-**Stage 3** · Lesson 15 · rule-intro
+**Stage 3** · Lesson 14 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ �
 
 ---
 
-**Next lesson:** Lesson 16: Spelling: ce ci ge gi
+**Next lesson:** Lesson 15: Rule 2: G Softens
 
 ---
 
@@ -100,3 +100,8 @@ gem, giant, gym, change, large (G=/j/) · go, gap, gum, get, give, girl (G=/g/ �
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

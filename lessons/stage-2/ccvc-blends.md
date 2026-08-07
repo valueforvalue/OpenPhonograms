@@ -1,6 +1,6 @@
-# Lesson 16: CCVC: Beginning Blends
+# Lesson 15: CCVC: Beginning Blends
 
-**Stage 2** · Lesson 16 · word-building
+**Stage 2** · Lesson 15 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 17: CVCC Blends
+**Next lesson:** Lesson 16: CVCC Blends
 
 ---
 

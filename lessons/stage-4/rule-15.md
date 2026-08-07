@@ -1,6 +1,6 @@
-# Lesson 14: Rule 15 — Y Changes to I Before a Suffix
+# Lesson 13: Rule 15 — Y Changes to I Before a Suffix
 
-**Stage 4** · Lesson 14 · rule-intro
+**Stage 4** · Lesson 13 · rule-intro
 
 ---
 
@@ -64,7 +64,7 @@ The babies are happy. She cries and cries. True happiness is beautiful. I carrie
 
 ---
 
-**Next lesson:** Lesson 15: Y→I Practice
+**Next lesson:** Lesson 15: Rule 15: Y→I
 
 ---
 

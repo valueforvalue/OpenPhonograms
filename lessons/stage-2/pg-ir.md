@@ -1,6 +1,6 @@
-# Lesson 46: Phonogram ir
+# Lesson 45: Phonogram au
 
-**Stage 2** · Lesson 46 · phonogram-intro
+**Stage 2** · Lesson 45 · phonogram-intro
 
 ---
 
@@ -14,26 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw |
 
 ---
 
-## New Learning: The Phonogram **ir**
+## New Learning: The Phonogram **au**
 
-### What Is **ir**?
+### What Is **au**?
 
-<div class="phonogram">ir</div>
+<div class="phonogram">au</div>
 
-**ir** says 1 sound: /er/
+**au** says 1 sound: /ä/
 
-IR says /er/ as in 'first'. This is one of five ways to spell the /er/ sound (er, ir, ur, ear, wor).
+AU says /ä/ and is NEVER used at the end of an English word (Rule 3).
 
+
+> **Spelling Rule:** Rule 3 + 28: AU never at end. Some AU words have silent GH after.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /er/ | girl, bird, first, shirt |
+| /ä/ | cause, author, autumn, haul |
 
 ---
 
@@ -41,9 +43,9 @@ IR says /er/ as in 'first'. This is one of five ways to spell the /er/ sound (er
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| girl | g (/g/), ir (/er/), l (/l/) | IR = /er/ | /gerl/ |
-| bird | b (/b/), ir (/er/), d (/d/) | IR = /er/ | /berd/ |
-| first | f (/f/), ir (/er/), s (/s/), t (/t/) | IR = /er/ | /ferst/ |
+| cause | c (/k/), au (/ä/), s (/s/), e — silent E (12.9) | AU never at end | /käz/ |
+| haul | h (/h/), au (/ä/), l (/l/) | AU in middle | /häl/ |
+| August | au (/ä/), g (/g/), u (/ŭ/), s (/s/), t (/t/) | AU at start | ä-gŭst |
 
 ---
 
@@ -51,53 +53,53 @@ IR says /er/ as in 'first'. This is one of five ways to spell the /er/ sound (er
 
 Read these words sound by sound, then blend:
 
-> girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
+> cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 
 Read these sentences:
 
-> The girl is here.
+> The cause is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ir** in each word.
+Write each word once. Underline the **au** in each word.
 
-girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
+cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ir — it says /er/)*
-2. Is ir a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of ir? *(/er/)*
+1. What did you learn today? *(The phonogram au — it says /ä/)*
+2. Is au a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with au? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 47: Phonogram ur
+**Next lesson:** Lesson 46: Phonogram ur
 
 ---
 
-*Practice at home: Flash your **ir** card 5 times. Find **ir** in a book — how many can you find?*
+*Practice at home: Flash your **au** card 5 times. Find **au** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ir — Teacher Script</summary>
+<summary>📖 Phonogram au — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ir</div>
+<div class="phonogram">au</div>
 
-> **Say:** "This is the phonogram **ir**." *(Point to the card.)* "It says /er/."
+> **Say:** "This is the phonogram **au**." *(Point to the card.)* "It says /ä/."
 
-> **Say:** "Listen to me say its sounds: /er/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ä/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ir.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing au.)*
 
-> **Say:** "Now you write **ir** three times. Say '/er/' each time you write it."
+> **Say:** "Now you write **au** three times. Say '/ä/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +107,11 @@ girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ir — it says /er/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

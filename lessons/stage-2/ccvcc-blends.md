@@ -1,6 +1,6 @@
-# Lesson 18: CCVCC: Both Blends
+# Lesson 17: CCVCC: Both Blends
 
-**Stage 2** · Lesson 18 · word-building
+**Stage 2** · Lesson 17 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 19: Phonogram ng
+**Next lesson:** Lesson 18: Phonogram ng
 
 ---
 

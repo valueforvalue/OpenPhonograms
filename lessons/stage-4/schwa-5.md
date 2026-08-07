@@ -1,6 +1,6 @@
-# Lesson 6: Rule 31.3: AR/OR→/er/ Unstressed
+# Lesson 5: Rule 31.3: AR/OR→/er/ Unstressed
 
-**Stage 4** · Lesson 6 · rule-intro
+**Stage 4** · Lesson 5 · rule-intro
 
 ---
 
@@ -75,7 +75,7 @@ Most of these words end in -ar or -or, and the ending syllable is unstressed. Th
 
 ---
 
-**Next lesson:** Lesson 7: Schwa Mastery
+**Next lesson:** Lesson 6: Rule 31.3: AR/OR→/er/
 
 ---
 

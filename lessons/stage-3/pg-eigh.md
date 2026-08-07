@@ -1,6 +1,6 @@
-# Lesson 25: Phonogram eigh
+# Lesson 24: Phonogram eigh
 
-**Stage 3** · Lesson 25 · phonogram-intro
+**Stage 3** · Lesson 24 · phonogram-intro
 
 ---
 
@@ -57,7 +57,7 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 
 ---
 
-**Next lesson:** Lesson 26: Phonogram ei
+**Next lesson:** Lesson 25: Phonogram eigh
 
 ---
 
@@ -90,3 +90,8 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram eigh — it says /ā/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

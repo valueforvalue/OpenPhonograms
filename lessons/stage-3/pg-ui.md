@@ -1,6 +1,6 @@
-# Lesson 34: Phonogram ui
+# Lesson 33: Phonogram ui
 
-**Stage 3** · Lesson 34 · phonogram-intro
+**Stage 3** · Lesson 33 · phonogram-intro
 
 ---
 
@@ -56,7 +56,7 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 
 ---
 
-**Next lesson:** Lesson 35: Phonogram eu
+**Next lesson:** Lesson 34: Phonogram ui
 
 ---
 
@@ -89,3 +89,8 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ui — it says /ü/ /ö/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

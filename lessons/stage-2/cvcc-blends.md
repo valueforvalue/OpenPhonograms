@@ -1,6 +1,6 @@
-# Lesson 17: CVCC: Ending Blends
+# Lesson 16: CVCC: Ending Blends
 
-**Stage 2** · Lesson 17 · word-building
+**Stage 2** · Lesson 16 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 18: CCVCC Blends
+**Next lesson:** Lesson 17: CCVCC Blends
 
 ---
 

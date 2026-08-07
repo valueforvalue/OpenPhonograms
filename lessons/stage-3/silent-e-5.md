@@ -1,6 +1,6 @@
-# Lesson 8: Silent E Reason 12.5 — Keep S from Looking Plural
+# Lesson 7: Silent E Reason 12.5 — Keep S from Looking Plural
 
-**Stage 3** · Lesson 8 · rule-intro
+**Stage 3** · Lesson 7 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 9: SE 6: Look Bigger
+**Next lesson:** Lesson 8: SE 5: Not Plural
 
 ---
 

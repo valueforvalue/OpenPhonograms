@@ -1,6 +1,6 @@
-# Lesson 35: Rule 24 — -FUL Suffix Has One L
+# Lesson 34: Rule 24 — -FUL Suffix Has One L
 
-**Stage 4** · Lesson 35 · rule-intro
+**Stage 4** · Lesson 34 · rule-intro
 
 ---
 
@@ -62,7 +62,7 @@ Be hopeful and careful. The beautiful painting is useful. I am joyful and thankf
 
 ---
 
-**Next lesson:** Lesson 36: Rule 19: Past Tense -ED
+**Next lesson:** Lesson 36: Rule 24: -FUL
 
 ---
 

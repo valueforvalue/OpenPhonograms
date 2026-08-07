@@ -1,6 +1,6 @@
-# Lesson 25: Prefixes in- and dis-
+# Lesson 24: Prefixes in- and dis-
 
-**Stage 4** · Lesson 25 · morphology
+**Stage 4** · Lesson 24 · morphology
 
 ---
 

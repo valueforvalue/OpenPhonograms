@@ -1,6 +1,6 @@
-# Lesson 43: Syllable Division: Compound Words
+# Lesson 42: Syllable Division: Compound Words
 
-**Stage 3** · Lesson 43 · syllable-division
+**Stage 3** · Lesson 42 · syllable-division
 
 ---
 
@@ -68,7 +68,7 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 ---
 
-**Next lesson:** Lesson 44: Syllables: VCCV
+**Next lesson:** Lesson 43: Syllables: Compound
 
 ---
 

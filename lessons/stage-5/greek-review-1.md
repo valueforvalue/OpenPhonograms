@@ -1,6 +1,6 @@
-# Lesson 25: Greek Roots Review
+# Lesson 24: Greek Roots Review
 
-**Stage 5** · Lesson 25 · review
+**Stage 5** · Lesson 24 · review
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 35: Phonogram eu
+# Lesson 34: Phonogram eu
 
-**Stage 3** · Lesson 35 · phonogram-intro
+**Stage 3** · Lesson 34 · phonogram-intro
 
 ---
 
@@ -56,7 +56,7 @@ EU says /ü/ in most words (neutral, feud). It appears in words of Greek and Lat
 
 ---
 
-**Next lesson:** Lesson 36: Rule 5: I/Y End Syllable
+**Next lesson:** Lesson 35: Phonogram eu
 
 ---
 
@@ -89,3 +89,8 @@ EU says /ü/ in most words (neutral, feud). It appears in words of Greek and Lat
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram eu — it says /ü/ /ö/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

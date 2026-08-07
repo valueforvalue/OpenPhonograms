@@ -1,6 +1,6 @@
-# Lesson 31: Phonogram augh
+# Lesson 30: Phonogram augh
 
-**Stage 3** · Lesson 31 · phonogram-intro
+**Stage 3** · Lesson 30 · phonogram-intro
 
 ---
 
@@ -58,7 +58,7 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 
 ---
 
-**Next lesson:** Lesson 32: Rule 28: GH
+**Next lesson:** Lesson 31: Phonogram augh
 
 ---
 
@@ -91,3 +91,8 @@ AUGH has two sounds: /ä/ (most common, as in 'caught') and /ăf/ (only in 'laug
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram augh — it says /ä/ /ăf/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

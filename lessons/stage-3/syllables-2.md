@@ -1,6 +1,6 @@
-# Lesson 44: Syllable Division: VCCV Pattern
+# Lesson 43: Syllable Division: VCCV Pattern
 
-**Stage 3** · Lesson 44 · syllable-division
+**Stage 3** · Lesson 43 · syllable-division
 
 ---
 
@@ -68,7 +68,7 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 ---
 
-**Next lesson:** Lesson 45: Syllables: VCV
+**Next lesson:** Lesson 44: Syllables: VCCV
 
 ---
 

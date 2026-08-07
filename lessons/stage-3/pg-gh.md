@@ -1,6 +1,6 @@
-# Lesson 29: Phonogram gh
+# Lesson 28: Phonogram gh
 
-**Stage 3** · Lesson 29 · phonogram-intro
+**Stage 3** · Lesson 28 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 
 ---
 
-**Next lesson:** Lesson 30: Phonogram ough
+**Next lesson:** Lesson 29: Phonogram gh
 
 ---
 
@@ -88,3 +88,8 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gh — it says /g/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

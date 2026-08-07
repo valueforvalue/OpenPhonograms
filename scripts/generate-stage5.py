@@ -1085,15 +1085,13 @@ def gen_final_assessment():
 # ── MAIN ────────────────────────────────────────────────────────────
 
 def generate():
-    yield 1, gen_review_s4()
-
     # 2-13: Latin Roots Set 1
     for i in range(12):
-        n, nn = 2+i, 3+i
+        n, nn = 1+i, 2+i
         yield n, build_root_lesson(n, i, nn)
     
     # 14: Latin Roots Review
-    yield 14, build_review5(14, "Latin Roots Review Set 1",
+    yield 13, build_review5(13, "Latin Roots Review Set 1",
         "Match Root to Meaning",
         "dict (say), duct (lead), spect (see), port (carry), form (shape), struct (build), rupt (break), ject (throw), tract (pull), scrib (write), mit/miss (send), vid/vis (see)",
         "Root Detective",
@@ -1105,12 +1103,12 @@ def generate():
 
     # 15-24: Greek Roots
     for i in range(12, 22):
-        n = 3 + i  # 15 through 24
+        n = 2 + i  # 15 through 24
         nn = n + 1
         yield n, build_root_lesson(n, i, nn)
 
     # 25: Greek Roots Review
-    yield 25, build_review5(25, "Greek Roots Review",
+    yield 24, build_review5(24, "Greek Roots Review",
         "Match Root to Meaning",
         "graph (write), phon (sound), bio (life), geo (earth), therm (heat), meter (measure), scope (see), auto (self), tele (far), micro (small), chron (time), photo (light), logy (study)",
         "Root Detective",
@@ -1121,7 +1119,7 @@ def generate():
         "Review all 13 Greek roots flashcards!", 26)
 
     # 26: All Roots Review
-    yield 26, build_review5(26, "All Roots Review",
+    yield 25, build_review5(25, "All Roots Review",
         "Latin vs Greek",
         "Sort: dict (L), graph (G), spect (L), phon (G), port (L), bio (G), rupt (L), geo (G), ject (L), meter (G).",
         "Word Build Challenge",
@@ -1132,49 +1130,49 @@ def generate():
         "You know 25 Latin and Greek roots! That unlocks thousands of words.", 27)
 
     # 27-29: Vocabulary
-    yield 27, gen_vocab_27()
-    yield 28, gen_vocab_28()
-    yield 29, gen_vocab_29()
+    yield 26, gen_vocab_27()
+    yield 27, gen_vocab_28()
+    yield 28, gen_vocab_29()
 
     # 30-32: Fluency
-    yield 30, gen_fluency_30()
-    yield 31, gen_fluency_31()
-    yield 32, gen_fluency_32()
+    yield 29, gen_fluency_30()
+    yield 30, gen_fluency_31()
+    yield 31, gen_fluency_32()
 
     # 33-35: Composition
-    yield 33, gen_comp_33()
-    yield 34, gen_comp_34()
-    yield 35, gen_comp_35()
+    yield 32, gen_comp_33()
+    yield 33, gen_comp_34()
+    yield 34, gen_comp_35()
 
     # 36-38: Grammar
-    yield 36, gen_grammar_36()
-    yield 37, gen_grammar_37()
-    yield 38, gen_grammar_38()
+    yield 35, gen_grammar_36()
+    yield 36, gen_grammar_37()
+    yield 37, gen_grammar_38()
 
     # 39: Reader
-    yield 39, gen_ostrich_reader()
+    yield 38, gen_ostrich_reader()
 
     # 40: Assessment
-    yield 40, gen_final_assessment()
+    yield 39, gen_final_assessment()
 
 # ── SLUGS ───────────────────────────────────────────────────────────
 
 S = {
-    1:"review-stage4",
-    2:"root-dict",3:"root-duct",4:"root-spect",5:"root-port",
-    6:"root-form",7:"root-struct",8:"root-rupt",9:"root-ject",
-    10:"root-tract",11:"root-scrib",12:"root-mit-miss",13:"root-vid-vis",
-    14:"latin-review-1",
-    15:"root-graph",16:"root-phon",17:"root-bio",18:"root-geo",
-    19:"root-therm",20:"root-meter",21:"root-scope",
-    22:"root-auto-tele",23:"root-micro-chron",24:"root-photo-logy",
-    25:"greek-review-1",
-    26:"all-roots-review",
-    27:"vocab-1",28:"vocab-2",29:"vocab-3",
-    30:"fluency-1",31:"fluency-2",32:"fluency-3",
-    33:"composition-1",34:"composition-2",35:"composition-3",
-    36:"grammar-1",37:"grammar-2",38:"grammar-3",
-    39:"reader-7",40:"assessment-8",
+    
+    1:"root-dict",2:"root-duct",3:"root-spect",4:"root-port",
+    5:"root-form",6:"root-struct",7:"root-rupt",8:"root-ject",
+    9:"root-tract",10:"root-scrib",11:"root-mit-miss",12:"root-vid-vis",
+    13:"latin-review-1",
+    14:"root-graph",15:"root-phon",16:"root-bio",17:"root-geo",
+    18:"root-therm",19:"root-meter",20:"root-scope",
+    21:"root-auto-tele",22:"root-micro-chron",23:"root-photo-logy",
+    24:"greek-review-1",
+    25:"all-roots-review",
+    26:"vocab-1",27:"vocab-2",28:"vocab-3",
+    29:"fluency-1",30:"fluency-2",31:"fluency-3",
+    32:"composition-1",33:"composition-2",34:"composition-3",
+    35:"grammar-1",36:"grammar-2",37:"grammar-3",
+    38:"reader-7",39:"assessment-8",
 }
 
 def main():

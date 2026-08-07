@@ -1,6 +1,6 @@
-# Lesson 23: Review: Silent Letter Phonograms kn gn wr
+# Lesson 22: Review: Silent Letter Phonograms kn gn wr
 
-**Stage 3** · Lesson 23 · review
+**Stage 3** · Lesson 22 · review
 
 ---
 
@@ -46,7 +46,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 24: Mid-Stage 3 Assessment
+**Next lesson:** Lesson 23: Review: kn gn wr
 
 ---
 

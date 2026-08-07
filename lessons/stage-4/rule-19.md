@@ -1,6 +1,6 @@
-# Lesson 36: Rule 19 — Past Tense -ED Sounds
+# Lesson 35: Rule 19 — Past Tense -ED Sounds
 
-**Stage 4** · Lesson 36 · rule-intro
+**Stage 4** · Lesson 35 · rule-intro
 
 ---
 
@@ -62,7 +62,7 @@ I walked to the park and played. The rain stopped. Mom baked a cake. I carried i
 
 ---
 
-**Next lesson:** Lesson 37: Rule 21: Plural -S -ES
+**Next lesson:** Lesson 37: Rule 19: Past Tense -ED
 
 ---
 

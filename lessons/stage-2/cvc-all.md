@@ -1,6 +1,6 @@
-# Lesson 10: All CVC Combinations
+# Lesson 9: All CVC Combinations
 
-**Stage 2** · Lesson 10 · word-building
+**Stage 2** · Lesson 9 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 11: Phonogram sh
+**Next lesson:** Lesson 10: Phonogram sh
 
 ---
 

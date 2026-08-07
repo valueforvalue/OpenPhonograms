@@ -1,6 +1,6 @@
-# Lesson 9: Root ject — "throw"
+# Lesson 8: Root ject — "throw"
 
-**Stage 5** · Lesson 9 · morphology
+**Stage 5** · Lesson 8 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **ject** word:
 
 ---
 
-**Next lesson:** Lesson 10: Root: tract
+**Next lesson:** Lesson 9: Root: ject
 
 ---
 

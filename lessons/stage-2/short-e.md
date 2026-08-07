@@ -1,6 +1,6 @@
-# Lesson 6: Short Vowel E — /ĕ/
+# Lesson 5: Short Vowel E — /ĕ/
 
-**Stage 2** · Lesson 6 · vowel-concept
+**Stage 2** · Lesson 5 · vowel-concept
 
 ---
 
@@ -81,7 +81,7 @@ Adult reads these sentences aloud. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 7: VC Words
+**Next lesson:** Lesson 6: VC Words
 
 ---
 

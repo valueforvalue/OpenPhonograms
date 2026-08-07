@@ -1,6 +1,6 @@
-# Lesson 51: High-Frequency Words — Set 1
+# Lesson 50: High-Frequency Words — Set 1
 
-**Stage 2** · Lesson 51 · hf-word
+**Stage 2** · Lesson 50 · hf-word
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Review all known |
 |------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa |
 
 ---
 
@@ -86,7 +86,7 @@ Adult reads these sentences. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 52: HF Words Set 2
+**Next lesson:** Lesson 51: HF Words Set 2
 
 ---
 

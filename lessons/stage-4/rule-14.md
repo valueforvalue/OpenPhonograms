@@ -1,6 +1,6 @@
-# Lesson 10: Rule 14 — Double the Consonant for a Vowel Suffix
+# Lesson 9: Rule 14 — Double the Consonant for a Vowel Suffix
 
-**Stage 4** · Lesson 10 · rule-intro
+**Stage 4** · Lesson 9 · rule-intro
 
 ---
 
@@ -63,7 +63,7 @@ The dog is running and hopping. I am swimming and getting tired. Stop cutting th
 
 ---
 
-**Next lesson:** Lesson 11: Double Consonant Practice
+**Next lesson:** Lesson 11: Rule 14: Double Consonant
 
 ---
 

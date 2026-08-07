@@ -1,6 +1,6 @@
-# Lesson 9: Drop E Practice
+# Lesson 8: Drop E Practice
 
-**Stage 4** · Lesson 9 · rule-practice
+**Stage 4** · Lesson 8 · rule-practice
 
 ---
 
@@ -75,7 +75,7 @@ I am making a cake and hoping it tastes good. Be careful and useful!
 
 ---
 
-**Next lesson:** Lesson 10: Rule 14: Double Consonant
+**Next lesson:** Lesson 10: Drop E Practice
 
 ---
 

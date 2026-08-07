@@ -1,6 +1,6 @@
-# Lesson 16: Root phon — "sound"
+# Lesson 15: Root phon — "sound"
 
-**Stage 5** · Lesson 16 · morphology
+**Stage 5** · Lesson 15 · morphology
 
 ---
 
@@ -61,7 +61,7 @@ Fill in the blanks with a **phon** word:
 
 ---
 
-**Next lesson:** Lesson 17: Root: bio
+**Next lesson:** Lesson 16: Root: phon
 
 ---
 

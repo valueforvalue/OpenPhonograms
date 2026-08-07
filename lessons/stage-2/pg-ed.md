@@ -1,6 +1,6 @@
-# Lesson 41: Phonogram ed
+# Lesson 40: Phonogram oo
 
-**Stage 2** · Lesson 41 · phonogram-intro
+**Stage 2** · Lesson 40 · phonogram-intro
 
 ---
 
@@ -14,30 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou |
 
 ---
 
-## New Learning: The Phonogram **ed**
+## New Learning: The Phonogram **oo**
 
-### What Is **ed**?
+### What Is **oo**?
 
-<div class="phonogram">ed</div>
+<div class="phonogram">oo</div>
 
-**ed** says 3 sounds: /ed/ /d/ /t/
+**oo** says 3 sounds: /ö/ /ü/ /ō/
 
-ED is a verb ending. It has three sounds: /ed/ after d/t, /d/ after voiced sounds, /t/ after unvoiced sounds.
+OO has three sounds. /ö/ (as in 'book') and /ü/ (as in 'food') are most common.
 
-
-> **Spelling Rule:** Rule 20: The past-tense ending -ED says /ed/ after D or T, /d/ after a voiced sound, and /t/ after an unvoiced consonant.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ed/ | wanted, needed, rented |
-| /d/ | played, called, showed |
-| /t/ | fished, jumped, looked |
+| /ö/ | book, look, foot, good |
+| /ü/ | food, moon, soon, too |
+| /ō/ | floor, door |
 
 ---
 
@@ -45,9 +43,9 @@ ED is a verb ending. It has three sounds: /ed/ after d/t, /d/ after voiced sound
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| wanted | w (/w/), a (/ŏ/), n (/n/), t (/t/), ed (/ed/) | ED = /ed/ after D/T | wŏn-ted |
-| played | p (/p/), l (/l/), ay (/ā/), ed (/d/) | ED = /d/ after voiced | /plād/ |
-| fished | f (/f/), i (/ĭ/), sh (/sh/), ed (/t/) | ED = /t/ after unvoiced | /fĭsht/ |
+| book | b (/b/), oo (/ö/), k (/k/) | OO = /ö/ | /bök/ |
+| food | f (/f/), oo (/ü/), d (/d/) | OO = /ü/ | /füd/ |
+| floor | f (/f/), l (/l/), oo (/ō/), r (/r/) | OO = /ō/ (rare!) | /flōr/ |
 
 ---
 
@@ -55,53 +53,53 @@ ED is a verb ending. It has three sounds: /ed/ after d/t, /d/ after voiced sound
 
 Read these words sound by sound, then blend:
 
-> wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
+> book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
 Read these sentences:
 
-> The wanted is here.
+> The book is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **ed** in each word.
+Write each word once. Underline the **oo** in each word.
 
-wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
+book &nbsp;&nbsp; food &nbsp;&nbsp; floor
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ed — it says /ed/ /d/ /t/)*
-2. Is ed a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with ed? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram oo — it says /ö/ /ü/ /ō/)*
+2. Is oo a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of oo? *(/ö/)*
 
 ---
 
-**Next lesson:** Lesson 42: Rule 20: -ED
+**Next lesson:** Lesson 41: Rule 19: -ED
 
 ---
 
-*Practice at home: Flash your **ed** card 5 times. Find **ed** in a book — how many can you find?*
+*Practice at home: Flash your **oo** card 5 times. Find **oo** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram ed — Teacher Script</summary>
+<summary>📖 Phonogram oo — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">ed</div>
+<div class="phonogram">oo</div>
 
-> **Say:** "This is the phonogram **ed**." *(Point to the card.)* "It says /ed/ /d/ /t/."
+> **Say:** "This is the phonogram **oo**." *(Point to the card.)* "It says /ö/ /ü/ /ō/."
 
-> **Say:** "Listen to me say its sounds: /ed/ /d/ /t/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ö/ /ü/ /ō/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ed.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing oo.)*
 
-> **Say:** "Now you write **ed** three times. Say '/ed/ /d/ /t/' each time you write it."
+> **Say:** "Now you write **oo** three times. Say '/ö/ /ü/ /ō/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -109,6 +107,11 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ed — it says /ed/ /d/ /t/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram oo — it says /ö/ /ü/ /ō/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

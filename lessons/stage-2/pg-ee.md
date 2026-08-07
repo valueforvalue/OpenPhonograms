@@ -108,3 +108,8 @@ see &nbsp;&nbsp; feet &nbsp;&nbsp; green
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ee — it says /ē/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

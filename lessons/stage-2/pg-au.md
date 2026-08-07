@@ -1,6 +1,6 @@
-# Lesson 45: Phonogram au
+# Lesson 44: Phonogram aw
 
-**Stage 2** · Lesson 45 · phonogram-intro
+**Stage 2** · Lesson 44 · phonogram-intro
 
 ---
 
@@ -14,28 +14,28 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw |
+| sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh |
 
 ---
 
-## New Learning: The Phonogram **au**
+## New Learning: The Phonogram **aw**
 
-### What Is **au**?
+### What Is **aw**?
 
-<div class="phonogram">au</div>
+<div class="phonogram">aw</div>
 
-**au** says 1 sound: /ä/
+**aw** says 1 sound: /ä/
 
-AU says /ä/ and is NEVER used at the end of an English word (Rule 3).
+AW says /ä/ and is used at the END of a base word (Rule 3).
 
 
-> **Spelling Rule:** Rule 3 + 28: AU never at end. Some AU words have silent GH after.
+> **Spelling Rule:** Rule 3: No English word ends in U. AW ends many words.
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /ä/ | cause, author, autumn, haul |
+| /ä/ | saw, draw, law, straw |
 
 ---
 
@@ -43,9 +43,9 @@ AU says /ä/ and is NEVER used at the end of an English word (Rule 3).
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| cause | c (/k/), au (/ä/), s (/s/), e — silent E (12.9) | AU never at end | /käz/ |
-| haul | h (/h/), au (/ä/), l (/l/) | AU in middle | /häl/ |
-| August | au (/ä/), g (/g/), u (/ŭ/), s (/s/), t (/t/) | AU at start | ä-gŭst |
+| saw | s (/s/), aw (/ä/) | AW at end — Rule 3 | /sä/ |
+| draw | d (/d/), r (/r/), aw (/ä/) | AW at end | /drä/ |
+| law | l (/l/), aw (/ä/) | AW at end | /lä/ |
 
 ---
 
@@ -53,53 +53,53 @@ AU says /ä/ and is NEVER used at the end of an English word (Rule 3).
 
 Read these words sound by sound, then blend:
 
-> cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
+> saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 Read these sentences:
 
-> The cause is here.
+> The saw is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **au** in each word.
+Write each word once. Underline the **aw** in each word.
 
-cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
+saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram au — it says /ä/)*
-2. Is au a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What rule did we learn with au? *(Restate in your own words.)*
+1. What did you learn today? *(The phonogram aw — it says /ä/)*
+2. Is aw a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What rule did we learn with aw? *(Restate in your own words.)*
 
 ---
 
-**Next lesson:** Lesson 46: Phonogram ir
+**Next lesson:** Lesson 45: Phonogram ir
 
 ---
 
-*Practice at home: Flash your **au** card 5 times. Find **au** in a book — how many can you find?*
+*Practice at home: Flash your **aw** card 5 times. Find **aw** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram au — Teacher Script</summary>
+<summary>📖 Phonogram aw — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">au</div>
+<div class="phonogram">aw</div>
 
-> **Say:** "This is the phonogram **au**." *(Point to the card.)* "It says /ä/."
+> **Say:** "This is the phonogram **aw**." *(Point to the card.)* "It says /ä/."
 
 > **Say:** "Listen to me say its sounds: /ä/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing au.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing aw.)*
 
-> **Say:** "Now you write **au** three times. Say '/ä/' each time you write it."
+> **Say:** "Now you write **aw** three times. Say '/ä/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -107,6 +107,11 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram aw — it says /ä/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

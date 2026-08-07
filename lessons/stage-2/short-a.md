@@ -1,6 +1,6 @@
-# Lesson 2: Short Vowel A — /ă/
+# Lesson 1: Short Vowel A — /ă/
 
-**Stage 2** · Lesson 2 · vowel-concept
+**Stage 2** · Lesson 1 · vowel-concept
 
 ---
 
@@ -81,7 +81,7 @@ Adult reads these sentences aloud. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 3: Short Vowel i
+**Next lesson:** Lesson 2: Short Vowel i
 
 ---
 

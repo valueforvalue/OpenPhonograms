@@ -1,6 +1,6 @@
-# Lesson 39: Rule 29 — Z, Not S, at Beginning
+# Lesson 38: Rule 29 — Z, Not S, at Beginning
 
-**Stage 4** · Lesson 39 · rule-intro
+**Stage 4** · Lesson 38 · rule-intro
 
 ---
 
@@ -62,7 +62,7 @@ Zip, zap, zoom! The zebra at the zoo runs from zone zero. Zigzag fast!
 
 ---
 
-**Next lesson:** Lesson 40: Irregular Verbs
+**Next lesson:** Lesson 40: Rule 29: Z at Beginning
 
 ---
 

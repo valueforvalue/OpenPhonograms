@@ -1,6 +1,6 @@
-# Lesson 3: Say-to-Spell: Unlocking Schwa Words
+# Lesson 2: Say-to-Spell: Unlocking Schwa Words
 
-**Stage 4** · Lesson 3 · say-to-spell
+**Stage 4** · Lesson 2 · say-to-spell
 
 ---
 
@@ -73,7 +73,7 @@ Schwa hides spelling information. When you say 'about' normally (/ə-bout/), you
 
 ---
 
-**Next lesson:** Lesson 4: Schwa in Multi-Syllable Words
+**Next lesson:** Lesson 3: Say-to-Spell: Unlocking Schwa
 
 ---
 

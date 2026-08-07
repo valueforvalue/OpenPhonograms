@@ -1,6 +1,6 @@
-# Lesson 17: All Suffixing Rules Review
+# Lesson 16: All Suffixing Rules Review
 
-**Stage 4** · Lesson 17 · review
+**Stage 4** · Lesson 16 · review
 
 ---
 
@@ -34,7 +34,7 @@ Write: cry→cr____ (es), baby→bab____ (es), happy→happ____ (ness). Write cr
 
 ---
 
-**Next lesson:** Lesson 18: Phonogram ti
+**Next lesson:** Lesson 17: Suffixing Rules Review
 
 ---
 

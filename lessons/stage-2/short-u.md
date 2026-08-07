@@ -1,6 +1,6 @@
-# Lesson 5: Short Vowel U — /ŭ/
+# Lesson 4: Short Vowel U — /ŭ/
 
-**Stage 2** · Lesson 5 · vowel-concept
+**Stage 2** · Lesson 4 · vowel-concept
 
 ---
 
@@ -81,7 +81,7 @@ Adult reads these sentences aloud. Child writes them.
 
 ---
 
-**Next lesson:** Lesson 6: Short Vowel e
+**Next lesson:** Lesson 5: Short Vowel e
 
 ---
 

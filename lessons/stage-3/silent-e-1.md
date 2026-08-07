@@ -1,6 +1,6 @@
-# Lesson 3: Silent E Reason 12.1 — Vowel Says Its Long Sound
+# Lesson 2: Silent E Reason 12.1 — Vowel Says Its Long Sound
 
-**Stage 3** · Lesson 3 · rule-intro
+**Stage 3** · Lesson 2 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 4: SE 2: No V/U End
+**Next lesson:** Lesson 3: SE 1: Vowel Long
 
 ---
 

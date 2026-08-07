@@ -1,6 +1,6 @@
-# Lesson 8: CVC with Continuant Consonants
+# Lesson 7: CVC with Continuant Consonants
 
-**Stage 2** · Lesson 8 · word-building
+**Stage 2** · Lesson 7 · word-building
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 9: CVC with Stop Consonants
+**Next lesson:** Lesson 8: CVC with Stop Consonants
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 22: Phonogram er
+# Lesson 21: Phonogram or
 
-**Stage 2** · Lesson 22 · phonogram-intro
+**Stage 2** · Lesson 21 · phonogram-intro
 
 ---
 
@@ -14,26 +14,26 @@
 
 | Multi-letter so far |
 |---------------------|
-| sh, th, ck, ee, ng, ar, or |
+| sh, th, ck, ee, ng, ar |
 
 ---
 
-## New Learning: The Phonogram **er**
+## New Learning: The Phonogram **or**
 
-### What Is **er**?
+### What Is **or**?
 
-<div class="phonogram">er</div>
+<div class="phonogram">or</div>
 
-**er** says 1 sound: /er/
+**or** says 1 sound: /or/
 
-ER says /er/ as in 'her'. This is the most common spelling of the /er/ sound. It appears at the end of many words.
+OR is an R-controlled vowel. The R changes the sound of the O.
 
 
 ### Sound Table
 
 | Sound | Example Words |
 |-------|--------------|
-| /er/ | her, sister, under, never |
+| /or/ | for, corn, sort, horse |
 
 ---
 
@@ -41,9 +41,9 @@ ER says /er/ as in 'her'. This is the most common spelling of the /er/ sound. It
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| her | h (/h/), er (/er/) | ER at end | /her/ |
-| sister | s (/s/), i (/ĭ/), s (/s/), t (/t/), er (/er/) | ER at end | sĭs-ter |
-| under | u (/ŭ/), n (/n/), d (/d/), er (/er/) | ER at end | ŭn-der |
+| for | f (/f/), or (/or/) | OR = R-controlled O | /for/ |
+| corn | c (/k/), or (/or/), n (/n/) | OR in middle | /korn/ |
+| sort | s (/s/), or (/or/), t (/t/) | OR before t | /sort/ |
 
 ---
 
@@ -51,53 +51,53 @@ ER says /er/ as in 'her'. This is the most common spelling of the /er/ sound. It
 
 Read these words sound by sound, then blend:
 
-> her &nbsp;&nbsp; sister &nbsp;&nbsp; under
+> for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 Read these sentences:
 
-> The her is here.
+> The for is here.
 
 ---
 
 ## Handwriting Practice
 
-Write each word once. Underline the **er** in each word.
+Write each word once. Underline the **or** in each word.
 
-her &nbsp;&nbsp; sister &nbsp;&nbsp; under
+for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 
 ---
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram er — it says /er/)*
-2. Is er a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
-3. What is the most common sound of er? *(/er/)*
+1. What did you learn today? *(The phonogram or — it says /or/)*
+2. Is or a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
+3. What is the most common sound of or? *(/or/)*
 
 ---
 
-**Next lesson:** Lesson 23: Review: First 8 Multi-Letter
+**Next lesson:** Lesson 22: Review: First 8 Multi-Letter
 
 ---
 
-*Practice at home: Flash your **er** card 5 times. Find **er** in a book — how many can you find?*
+*Practice at home: Flash your **or** card 5 times. Find **or** in a book — how many can you find?*
 
 
 <details class="teacher-script">
-<summary>📖 Phonogram er — Teacher Script</summary>
+<summary>📖 Phonogram or — Teacher Script</summary>
 
 > **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
 
-<div class="phonogram">er</div>
+<div class="phonogram">or</div>
 
-> **Say:** "This is the phonogram **er**." *(Point to the card.)* "It says /er/."
+> **Say:** "This is the phonogram **or**." *(Point to the card.)* "It says /or/."
 
-> **Say:** "Listen to me say its sounds: /er/. Now you say them."
+> **Say:** "Listen to me say its sounds: /or/. Now you say them."
 
 > *(Child repeats.)*
 
-> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing er.)*
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing or.)*
 
-> **Say:** "Now you write **er** three times. Say '/er/' each time you write it."
+> **Say:** "Now you write **or** three times. Say '/or/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -105,6 +105,11 @@ her &nbsp;&nbsp; sister &nbsp;&nbsp; under
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram er — it says /er/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram or — it says /or/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

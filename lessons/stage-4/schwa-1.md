@@ -1,6 +1,6 @@
-# Lesson 2: Schwa: The Lazy Vowel Sound
+# Lesson 1: Schwa: The Lazy Vowel Sound
 
-**Stage 4** · Lesson 2 · rule-intro
+**Stage 4** · Lesson 1 · rule-intro
 
 ---
 
@@ -77,7 +77,7 @@ If you try to spell 'about' by sound, you might write 'ubout' — because schwa 
 
 ---
 
-**Next lesson:** Lesson 3: Say-to-Spell: Unlocking Schwa
+**Next lesson:** Lesson 2: Schwa: The Lazy Vowel
 
 ---
 

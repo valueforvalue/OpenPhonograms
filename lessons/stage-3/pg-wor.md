@@ -1,6 +1,6 @@
-# Lesson 41: Phonogram wor
+# Lesson 40: Phonogram wor
 
-**Stage 3** · Lesson 41 · phonogram-intro
+**Stage 3** · Lesson 40 · phonogram-intro
 
 ---
 
@@ -55,7 +55,7 @@ WOR is a special phonogram where the W changes the sound of OR. Instead of /or/,
 
 ---
 
-**Next lesson:** Lesson 42: Phonogram ie
+**Next lesson:** Lesson 41: Phonogram wor
 
 ---
 
@@ -88,3 +88,8 @@ WOR is a special phonogram where the W changes the sound of OR. Instead of /or/,
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wor — it says /wer/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

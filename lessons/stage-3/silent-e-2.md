@@ -1,6 +1,6 @@
-# Lesson 4: Silent E Reason 12.2 — No V or U at the End
+# Lesson 3: Silent E Reason 12.2 — No V or U at the End
 
-**Stage 3** · Lesson 4 · rule-intro
+**Stage 3** · Lesson 3 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ Read these sentences:
 
 ---
 
-**Next lesson:** Lesson 5: SE 3: C→/s/ G→/j/
+**Next lesson:** Lesson 4: SE 2: No V/U End
 
 ---
 

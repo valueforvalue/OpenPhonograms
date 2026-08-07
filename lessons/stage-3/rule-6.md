@@ -1,6 +1,6 @@
-# Lesson 37: Rule 6 — Y Says /ī/ at End of One-Syllable Word
+# Lesson 36: Rule 6 — Y Says /ī/ at End of One-Syllable Word
 
-**Stage 3** · Lesson 37 · rule-intro
+**Stage 3** · Lesson 36 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 
 ---
 
-**Next lesson:** Lesson 38: Rule 7: I/Y May Say /ē/
+**Next lesson:** Lesson 37: Rule 6: Y=/ī/ One-Syllable
 
 ---
 
@@ -100,3 +100,8 @@ by, my, cry, fly, sky, try, why, shy, dry, fry, pry, spy
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

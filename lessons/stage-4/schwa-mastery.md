@@ -1,6 +1,6 @@
-# Lesson 7: Schwa Mastery: Mixed Practice
+# Lesson 6: Schwa Mastery: Mixed Practice
 
-**Stage 4** · Lesson 7 · schwa-practice
+**Stage 4** · Lesson 6 · schwa-practice
 
 ---
 
@@ -41,7 +41,7 @@ For each word: (1) Say it normally, (2) identify the schwa syllable, (3) say-to-
 
 ---
 
-**Next lesson:** Lesson 8: Rule 13: Drop Silent E
+**Next lesson:** Lesson 7: Schwa Mastery
 
 ---
 
