@@ -244,6 +244,33 @@ MULTI3 = {
                   ("pie","p (/p/), ie (/ī/)","IE=/ī/ at end","/pī/"),
                   ("chief","ch (/ch/), ie (/ē/), f (/f/)","IE=/ē/","/chēf/")],
     },
+    "bu": {
+        "sounds": "/b/",
+        "sc": 1,
+        "examples": [("b","build, buy, busy, business, bury")],
+        "tip": "In BU at the start of a word, the U is silent — only B is heard. Common in everyday words.",
+        "words": [("build","b (/b/), u (silent), i (/ĭ/), l (/l/), d (/d/)","BU=/b/, U silent","/bĭld/"),
+                  ("buy","b (/b/), u (silent), y (/ī/)","BU=/b/","/bī/"),
+                  ("busy","b (/b/), u (silent), s (/z/), y (/ē/)","BU=/b/, S=/z/ between vowels","/bĭz-ē/")],
+    },
+    "gu": {
+        "sounds": "/g/",
+        "sc": 1,
+        "examples": [("g","guide, guess, guard, guitar, guest")],
+        "tip": "In GU at the start of a word, the U is silent — only G is heard. Common in everyday words.",
+        "words": [("guide","g (/g/), u (silent), i (/ī/), d (/d/), e (silent)","GU=/g/, U silent","/gīd/"),
+                  ("guess","g (/g/), u (silent), e (/ĕ/), s (/s/), s (/s/)","GU=/g/","/gĕs/"),
+                  ("guard","g (/g/), u (silent), a (/ä/), r (/r/), d (/d/)","GU=/g/, AR=/är/","/gärd/")],
+    },
+    "q": {
+        "sounds": "/kw/",
+        "sc": 1,
+        "examples": [("kw","Iraq, Iraqi, qadi, qat")],
+        "tip": "Q alone (not followed by U) still says /kw/. Most common in borrowed words and proper nouns. When Q is followed by U, use the QU phonogram instead.",
+        "words": [("Iraq","I (/ĭ/), r (/r/), a (/ä/), q (/kw/)","Q=/kw/ alone","/ĭ-rä-kw/"),
+                  ("Iraqi","I (/ĭ/), r (/r/), a (/ä/), q (/kw/), i (/ē/)","Q=/kw/ alone","/ĭ-rä-kwē/"),
+                  ("qadi","q (/kw/), a (/ä/), d (/d/), i (/ē/)","Q=/kw/ at start","/kwä-dē/")],
+    },
 }
 
 # ── STAGE 3 RULES ───────────────────────────────────────────────────
@@ -1072,26 +1099,29 @@ def generate():
     # 41-42: wor, ie
     yield 40, build_multi3(40, "wor")
     yield 41, build_multi3(41, "ie")
+    yield 42, build_multi3(42, "q")
+    yield 43, build_multi3(43, "bu")
+    yield 44, build_multi3(44, "gu")
 
-    # 43-46: Syllable Division
-    yield 42, build_syllable(42, "compound")
-    yield 43, build_syllable(43, "vccv")
-    yield 44, build_syllable(44, "vcv")
-    yield 45, build_syllable(45, "cle")
+
+    yield 45, build_syllable(45, "compound")
+    yield 46, build_syllable(46, "vccv")
+    yield 47, build_syllable(47, "vcv")
+    yield 48, build_syllable(48, "cle")
 
     # 47: Schwa
-    yield 46, build_rule3(46, "31")
+    yield 49, build_rule3(49, "31")
 
     # 48-49: Readers
-    yield 47, build_gwen()
-    yield 48, build_cole()
+    yield 50, build_gwen()
+    yield 51, build_cole()
 
     # 50: Mixed Spelling
-    yield 49, build_mixed_spelling()
+    yield 52, build_mixed_spelling()
 
     # 51-52: Reviews
-    pg_list_3 = "dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie"
-    yield 50, build_review3(50, "Review: All Stage 3 Phonograms",
+    pg_list_3 = "dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie, q, bu, gu"
+    yield 53, build_review3(53, "Review: All Stage 3 Phonograms",
         "Speed Flash", f"Flash ALL 75 phonograms. Focus on new ones: {pg_list_3}.",
         "Phonogram Bingo",
         "Pick 9 phonograms. Adult calls sounds. Cross off matching phonograms. Get 3 in a row to win!",
@@ -1099,7 +1129,7 @@ def generate():
         "Which Stage 3 phonogram has the most sounds? (ough — 6 sounds!) Name all 6.",
         ["bridge","catch","know","sign","write","eight","phone","ghost","though","caught","few","fruit","work","field"], "Flash all cards!")
 
-    yield 51, build_review3(51, "All Stage 3 Rules Review",
+    yield 54, build_review3(54, "All Stage 3 Rules Review",
         "Rule Speed Round",
         "Adult says a rule number. Child states the rule:\n\n1 (C softens before E I Y)\n2 (G may soften before E I Y)\n5 (I/Y at end of syllable)\n6 (Y=/ī/ in one-syllable)\n7 (I/Y may say /ē/)\n8 (I/O before two consonants)\n10 (A=/ä/ at end, after W, before L)\n25 (DGE after short vowel)\n27 (TCH after short vowel)\n28 (GH phonograms)\n31 (Schwa in unstressed syllables)",
         "Which Rule?",
@@ -1109,20 +1139,20 @@ def generate():
         ["dance","large","bridge","catch","by","baby","find","water","laugh","light"], "Review your rule flashcards!")
 
     # 53-54: HF Words
-    yield 52, build_hf3(52, 4, HF4,
+    yield 55, build_hf3(55, 4, HF4,
         "Where is the cat? There is a dog! Their hats are red. We were in the park. Come here!",
         "Where is the dog? We were in the park. Come here now!",
         "where")
-    yield 53, build_hf3(53, 5, HF5,
+    yield 56, build_hf3(56, 5, HF5,
         "I read it once. Two cats ran. Does the dog bark? Any cat can jump. Many dogs play.",
         "I went once. Two cats ran. Does it bark?",
         "once")
 
     # 55: Sail Box reader
-    yield 54, build_sail()
+    yield 57, build_sail()
 
     # 56: Assessment
-    yield 55, build_final3()
+    yield 58, build_final3()
 
 
 def build_long_vowels():
@@ -1760,14 +1790,14 @@ S = {
     29:"pg-ough",30:"pg-augh",31:"rule-28",
     32:"pg-ew",33:"pg-ui",34:"pg-eu",
     35:"rule-5",36:"rule-6",37:"rule-7",38:"rule-8",39:"rule-10",
-    40:"pg-wor",41:"pg-ie",
-    42:"syllables-1",43:"syllables-2",44:"syllables-3",45:"syllables-4",
-    46:"rule-31",
-    47:"reader-2",48:"reader-3",
-    49:"spell-mixed-3",
-    50:"review-8",51:"rule-review-3",
-    52:"hf-words-4",53:"hf-words-5",
-    54:"reader-4",55:"assessment-5",
+    40:"pg-wor",41:"pg-ie",42:"pg-q",43:"pg-bu",44:"pg-gu",
+    45:"syllables-1",46:"syllables-2",47:"syllables-3",48:"syllables-4",
+    49:"rule-31",
+    50:"reader-2",51:"reader-3",
+    52:"spell-mixed-3",
+    53:"review-8",54:"rule-review-3",
+    55:"hf-words-4",56:"hf-words-5",
+    57:"reader-4",58:"assessment-5",
 }
 
 def main():

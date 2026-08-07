@@ -4431,8 +4431,48 @@
       "stage": 3
     },
     {
+      "word": "bundle",
+      "sentence": "The bundle is here.",
+      "stage": 3
+    },
+    {
+      "word": "bunny",
+      "sentence": "The bunny is here.",
+      "stage": 3
+    },
+    {
+      "word": "bury",
+      "sentence": "The bury is here.",
+      "stage": 3
+    },
+    {
+      "word": "bushel",
+      "sentence": "The bushel is here.",
+      "stage": 3
+    },
+    {
+      "word": "business",
+      "sentence": "The business is here.",
+      "stage": 3
+    },
+    {
+      "word": "busy",
+      "sentence": "The busy is here.",
+      "stage": 3
+    },
+    {
       "word": "butcher",
       "sentence": "The butcher is here.",
+      "stage": 3
+    },
+    {
+      "word": "button",
+      "sentence": "The button is here.",
+      "stage": 3
+    },
+    {
+      "word": "buy",
+      "sentence": "The buy is here.",
       "stage": 3
     },
     {
@@ -4776,6 +4816,26 @@
       "stage": 3
     },
     {
+      "word": "guard",
+      "sentence": "The guard is here.",
+      "stage": 3
+    },
+    {
+      "word": "guess",
+      "sentence": "The guess is here.",
+      "stage": 3
+    },
+    {
+      "word": "guest",
+      "sentence": "The guest is here.",
+      "stage": 3
+    },
+    {
+      "word": "guide",
+      "sentence": "The guide is here.",
+      "stage": 3
+    },
+    {
       "word": "guild",
       "sentence": "The guild is here.",
       "stage": 3
@@ -4783,6 +4843,31 @@
     {
       "word": "guilt",
       "sentence": "The guilt is here.",
+      "stage": 3
+    },
+    {
+      "word": "guitar",
+      "sentence": "The guitar is here.",
+      "stage": 3
+    },
+    {
+      "word": "gulf",
+      "sentence": "The gulf is here.",
+      "stage": 3
+    },
+    {
+      "word": "gust",
+      "sentence": "The gust is here.",
+      "stage": 3
+    },
+    {
+      "word": "gutter",
+      "sentence": "The gutter is here.",
+      "stage": 3
+    },
+    {
+      "word": "guy",
+      "sentence": "The guy is here.",
       "stage": 3
     },
     {
@@ -4833,6 +4918,16 @@
     {
       "word": "inveigh",
       "sentence": "The inveigh is here.",
+      "stage": 3
+    },
+    {
+      "word": "iraq",
+      "sentence": "The iraq is here.",
+      "stage": 3
+    },
+    {
+      "word": "iraqi",
+      "sentence": "The iraqi is here.",
       "stage": 3
     },
     {
@@ -4943,6 +5038,11 @@
     {
       "word": "lodge",
       "sentence": "The lodge is here.",
+      "stage": 3
+    },
+    {
+      "word": "macaque",
+      "sentence": "The macaque is here.",
       "stage": 3
     },
     {
@@ -5118,6 +5218,61 @@
     {
       "word": "pursuit",
       "sentence": "The pursuit is here.",
+      "stage": 3
+    },
+    {
+      "word": "qadi",
+      "sentence": "The qadi is here.",
+      "stage": 3
+    },
+    {
+      "word": "qadis",
+      "sentence": "The qadis is here.",
+      "stage": 3
+    },
+    {
+      "word": "qaid",
+      "sentence": "The qaid is here.",
+      "stage": 3
+    },
+    {
+      "word": "qanat",
+      "sentence": "The qanat is here.",
+      "stage": 3
+    },
+    {
+      "word": "qanats",
+      "sentence": "The qanats is here.",
+      "stage": 3
+    },
+    {
+      "word": "qat",
+      "sentence": "The qat is here.",
+      "stage": 3
+    },
+    {
+      "word": "qi",
+      "sentence": "The qi is here.",
+      "stage": 3
+    },
+    {
+      "word": "qibla",
+      "sentence": "The qibla is here.",
+      "stage": 3
+    },
+    {
+      "word": "qiblas",
+      "sentence": "The qiblas is here.",
+      "stage": 3
+    },
+    {
+      "word": "qoph",
+      "sentence": "The qoph is here.",
+      "stage": 3
+    },
+    {
+      "word": "qophs",
+      "sentence": "The qophs is here.",
       "stage": 3
     },
     {
@@ -6120,6 +6275,21 @@
     {
       "pg": "ie",
       "sounds": "/\u0113/ /\u012b/",
+      "stage": 3
+    },
+    {
+      "pg": "bu",
+      "sounds": "/b/",
+      "stage": 3
+    },
+    {
+      "pg": "gu",
+      "sounds": "/g/",
+      "stage": 3
+    },
+    {
+      "pg": "q",
+      "sounds": "/kw/",
       "stage": 3
     },
     {

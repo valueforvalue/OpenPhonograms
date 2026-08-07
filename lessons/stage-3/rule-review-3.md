@@ -1,6 +1,6 @@
-# Lesson 51: All Stage 3 Rules Review
+# Lesson 54: All Stage 3 Rules Review
 
-**Stage 3** · Lesson 51 · review
+**Stage 3** · Lesson 54 · review
 
 ---
 
@@ -58,7 +58,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 52: Rules Review
+**Next lesson:** Lesson 55: Reader: Sail Box
 
 ---
 

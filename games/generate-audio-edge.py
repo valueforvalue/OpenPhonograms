@@ -19,7 +19,7 @@ PHONOGRAMS = [
     ("g", "go, gem"), ("h", "hat"), ("i", "it, item, radio"),
     ("j", "jet"), ("k", "kit"), ("l", "leg"),
     ("m", "man"), ("n", "net"), ("o", "odd, go, to"),
-    ("p", "pen"), ("qu", "queen"), ("r", "red"),
+    ("p", "pen"), ("qu", "queen"), ("q", "Iraq"), ("r", "red"),
     ("s", "sit, has"), ("t", "top"), ("u", "up, unit, put"),
     ("v", "van"), ("w", "wet"), ("x", "box, xylophone"),
     ("y", "yes, gym, by, baby"), ("z", "zip"),
@@ -52,7 +52,7 @@ async def generate_one(pg, text):
         print(f"  {pg}.mp3 — already exists, skipping")
         return
     cmd = [
-        "edge-tts", "--voice", VOICE, "--rate", RATE,
+        "python", "-m", "edge_tts", "--voice", VOICE, "--rate=" + RATE,
         "--text", text, "--write-media", str(mp3),
     ]
     proc = await asyncio.create_subprocess_exec(*cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE)

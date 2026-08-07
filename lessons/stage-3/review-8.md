@@ -1,6 +1,6 @@
-# Lesson 50: Review: All Stage 3 Phonograms
+# Lesson 53: Review: All Stage 3 Phonograms
 
-**Stage 3** · Lesson 50 · review
+**Stage 3** · Lesson 53 · review
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## Speed Flash
 
-Flash ALL 75 phonograms. Focus on new ones: dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie.
+Flash ALL 75 phonograms. Focus on new ones: dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie, q, bu, gu.
 
 ---
 
@@ -36,7 +36,7 @@ Spell these words from dictation:
 
 ---
 
-**Next lesson:** Lesson 51: Phonogram Review
+**Next lesson:** Lesson 54: HF Words 5
 
 ---
 

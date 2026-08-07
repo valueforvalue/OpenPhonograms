@@ -105,6 +105,9 @@ MULTI3: dict[str, dict] = {
     "eu": {"sounds": "/ü/", "words": ["neutral","feud","Europe","eucalyptus","pneumonia","therapeutic","leukemia","pseudonym","eulogy","euphoria"]},
     "wor": {"sounds": "/wer/", "words": ["work","word","world","worm","worse","worst","worth","worship","worthy","workshop","network","homework","fireworks","typewriter"]},
     "ie": {"sounds": "/ē/ /ī/", "words": ["field","piece","chief","brief","grief","thief","believe","achieve","relieve","shield","pie","tie","lie","die","fries","cries","dries","tries","flies","spies"]},
+    "bu": {"sounds": "/b/", "words": ["build","buy","busy","business","bury","bunny","burn","burst","bump","bundle","bushel","button"]},
+    "gu": {"sounds": "/g/", "words": ["guide","guess","guard","guitar","guest","guilt","gulf","gut","gust","gutter","guy","guild"]},
+    "q": {"sounds": "/kw/", "words": ["qi","qat","qaid","qanat","qibla","qoph","qadi","qanats","qiblas","qophs","qadis","Iraq","Iraqi","macaque"]},
 }
 
 # ── Latin /sh/ spellings (3 PGs, taught in Stage 4) ──

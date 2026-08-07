@@ -1,6 +1,6 @@
-# Lesson 46: Rule 31 — Schwa
+# Lesson 49: Rule 31 — Schwa
 
-**Stage 3** · Lesson 46 · rule-intro
+**Stage 3** · Lesson 49 · rule-intro
 
 ---
 
@@ -71,7 +71,7 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 
 ---
 
-**Next lesson:** Lesson 47: Schwa
+**Next lesson:** Lesson 50: Mixed Spelling
 
 ---
 

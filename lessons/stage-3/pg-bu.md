@@ -1,0 +1,95 @@
+# Lesson 43: Phonogram bu
+
+**Stage 3** · Lesson 43 · phonogram-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
+
+| All known phonograms |
+|----------------------|
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
+
+---
+
+## New Learning: The Phonogram **bu**
+
+<div class="phonogram">bu</div>
+
+**bu** says 1 sound: /b/
+
+In BU at the start of a word, the U is silent — only B is heard. Common in everyday words.
+
+
+| Sound | Example Words |
+|-------|--------------|
+| /b/ | build, buy, busy, business, bury |
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| build | b (/b/), u (silent), i (/ĭ/), l (/l/), d (/d/) | BU=/b/, U silent | /bĭld/ |
+| buy | b (/b/), u (silent), y (/ī/) | BU=/b/ | /bī/ |
+| busy | b (/b/), u (silent), s (/z/), y (/ē/) | BU=/b/, S=/z/ between vowels | /bĭz-ē/ |
+
+---
+
+## Reading Practice
+
+> build &nbsp;&nbsp; buy &nbsp;&nbsp; busy
+
+> The build is here. I see a buy.
+
+---
+
+## Quick Check
+
+1. What does **bu** say? *(/b/)*
+2. Is bu used at the beginning, middle, or end of words?
+3. Write the word "build" from dictation.
+
+---
+
+**Next lesson:** Lesson 44: Syllables: VCCV
+
+---
+
+*Practice at home: Flash your **bu** card. Find **bu** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram bu — Teacher Script</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">bu</div>
+
+> **Say:** "This is the phonogram **bu**." *(Point to the card.)* "It says /b/."
+
+> **Say:** "Listen to me say its sounds: /b/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing bu.)*
+
+> **Say:** "Now you write **bu** three times. Say '/b/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram bu — it says /b/.")*
+
+---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

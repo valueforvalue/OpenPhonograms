@@ -1,0 +1,95 @@
+# Lesson 42: Phonogram q
+
+**Stage 3** · Lesson 42 · phonogram-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
+
+| All known phonograms |
+|----------------------|
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
+
+---
+
+## New Learning: The Phonogram **q**
+
+<div class="phonogram">q</div>
+
+**q** says 1 sound: /kw/
+
+Q alone (not followed by U) still says /kw/. Most common in borrowed words and proper nouns. When Q is followed by U, use the QU phonogram instead.
+
+
+| Sound | Example Words |
+|-------|--------------|
+| /kw/ | Iraq, Iraqi, qadi, qat |
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| Iraq | I (/ĭ/), r (/r/), a (/ä/), q (/kw/) | Q=/kw/ alone | /ĭ-rä-kw/ |
+| Iraqi | I (/ĭ/), r (/r/), a (/ä/), q (/kw/), i (/ē/) | Q=/kw/ alone | /ĭ-rä-kwē/ |
+| qadi | q (/kw/), a (/ä/), d (/d/), i (/ē/) | Q=/kw/ at start | /kwä-dē/ |
+
+---
+
+## Reading Practice
+
+> Iraq &nbsp;&nbsp; Iraqi &nbsp;&nbsp; qadi
+
+> The Iraq is here. I see a Iraqi.
+
+---
+
+## Quick Check
+
+1. What does **q** say? *(/kw/)*
+2. Is q used at the beginning, middle, or end of words?
+3. Write the word "Iraq" from dictation.
+
+---
+
+**Next lesson:** Lesson 43: Syllables: Compound
+
+---
+
+*Practice at home: Flash your **q** card. Find **q** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram q — Teacher Script</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">q</div>
+
+> **Say:** "This is the phonogram **q**." *(Point to the card.)* "It says /kw/."
+
+> **Say:** "Listen to me say its sounds: /kw/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing q.)*
+
+> **Say:** "Now you write **q** three times. Say '/kw/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram q — it says /kw/.")*
+
+---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+

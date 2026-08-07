@@ -1,0 +1,95 @@
+# Lesson 44: Phonogram gu
+
+**Stage 3** · Lesson 44 · phonogram-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
+
+| All known phonograms |
+|----------------------|
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
+
+---
+
+## New Learning: The Phonogram **gu**
+
+<div class="phonogram">gu</div>
+
+**gu** says 1 sound: /g/
+
+In GU at the start of a word, the U is silent — only G is heard. Common in everyday words.
+
+
+| Sound | Example Words |
+|-------|--------------|
+| /g/ | guide, guess, guard, guitar, guest |
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| guide | g (/g/), u (silent), i (/ī/), d (/d/), e (silent) | GU=/g/, U silent | /gīd/ |
+| guess | g (/g/), u (silent), e (/ĕ/), s (/s/), s (/s/) | GU=/g/ | /gĕs/ |
+| guard | g (/g/), u (silent), a (/ä/), r (/r/), d (/d/) | GU=/g/, AR=/är/ | /gärd/ |
+
+---
+
+## Reading Practice
+
+> guide &nbsp;&nbsp; guess &nbsp;&nbsp; guard
+
+> The guide is here. I see a guess.
+
+---
+
+## Quick Check
+
+1. What does **gu** say? *(/g/)*
+2. Is gu used at the beginning, middle, or end of words?
+3. Write the word "guide" from dictation.
+
+---
+
+**Next lesson:** Lesson 45: Syllables: VCV
+
+---
+
+*Practice at home: Flash your **gu** card. Find **gu** in a book.*
+
+
+<details class="teacher-script">
+<summary>📖 Phonogram gu — Teacher Script</summary>
+
+> **Say:** "Today we are going to learn a new phonogram. A phonogram is a letter or group of letters that makes one or more sounds."
+
+<div class="phonogram">gu</div>
+
+> **Say:** "This is the phonogram **gu**." *(Point to the card.)* "It says /g/."
+
+> **Say:** "Listen to me say its sounds: /g/. Now you say them."
+
+> *(Child repeats.)*
+
+> **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing gu.)*
+
+> **Say:** "Now you write **gu** three times. Say '/g/' each time you write it."
+
+> *(Child writes on whiteboard. Check formation.)*
+
+> **Say:** "Every time you see this phonogram, you will try each of its sounds until the word makes sense. Let's practice with some words."
+
+
+
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram gu — it says /g/.")*
+
+---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>
+
