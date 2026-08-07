@@ -75,7 +75,7 @@ def load_counts() -> dict:
 
     Returns a dict with keys: lessons, by_stage, phonograms, pg_singles, pg_multis,
     pg_multis2, pg_multis3, rules, assessments, readers, worksheets, quick_checks,
-    reference_htmls, handbooks, certificates, stages.
+    reference_htmls, audio_mp3s, handbooks, certificates, stages.
     """
     counts: dict = {}
     # Lessons + per-stage + assessments
@@ -138,6 +138,12 @@ def load_counts() -> dict:
             )
         else:
             counts["quick_checks"] = 0
+    # Audio MP3s
+    audio_dir = ROOT / "games" / "audio"
+    if audio_dir.exists():
+        counts["audio_mp3s"] = sum(1 for _ in audio_dir.glob("*.mp3"))
+    else:
+        counts["audio_mp3s"] = 0
     # Reference HTMLs
     ref_dir = ROOT / "reference"
     if ref_dir.exists():
@@ -186,7 +192,7 @@ def make_start_here() -> Path:
 <p>Open <a href="09-Quick-Checks/placement-test.pdf">09-Quick-Checks/placement-test.pdf</a>. It's an oral, JS-scored diagnostic that tells you which stage to begin. (Print it; tick boxes as your child responds; the scoring works in any browser.)</p>
 
 <h3>4. Read the Teacher's Guide for your stage</h3>
-<p>Each stage folder (<a href="06-Lesson-Packs/stage-1/00-stage-1-cover.pdf">06-Lesson-Packs/stage-1/</a>, etc.) opens with a cover page explaining what's in that stage and a checklist of what to print.</p>
+<p>Each stage has a dedicated <a href="05-Teacher-Handbooks/stage-1-handbook.pdf">teacher handbook</a> with stage description, materials list, and printing checklist.</p>
 
 <h3>5. Print the phonogram chart and spelling rules poster</h3>
 <p>Print <a href="04-Quick-Reference/04-Quick-Reference-Phonograms.pdf">04-Quick-Reference-Phonograms.pdf</a> for the wall. Print <a href="04-Quick-Reference/04-Quick-Reference-Spelling-Rules.pdf">04-Quick-Reference-Spelling-Rules.pdf</a> as a desk reference.</p>
@@ -209,8 +215,8 @@ def make_start_here() -> Path:
 <tr><td>08-Decodable-Readers/</td><td>25 decodable story PDFs + index</td></tr>
 <tr><td>09-Quick-Checks/</td><td>Placement test + 5 stage quick-check PDFs (informal diagnostics)</td></tr>
 <tr><td>10-Assessments/</td><td>Stage mastery assessments (8 total)</td></tr>
-<tr><td>11-Game/</td><td>Phonogram trainer (4 modes: Flash, Match, Speed, Browse, Spell)</td></tr>
-<tr><td>12-Audio/</td><td>74 phonogram MP3s (neural TTS)</td></tr>
+<tr><td>11-Game/</td><td>Phonogram trainer (6 modes: Flash, Match, Speed, Spell, Build, Browse)</td></tr>
+<tr><td>12-Audio/</td><td>{counts["audio_mp3s"]} phonogram MP3s (neural TTS) — {counts["phonograms"]} total phonograms; run `just audio` to generate any missing</td></tr>
 <tr><td>13-Certificates/</td><td>Printable completion certificates (one per stage)</td></tr>
 </table>
 
@@ -219,10 +225,10 @@ def make_start_here() -> Path:
 <table>
 <tr><th>Stage</th><th>Age</th><th>Lessons</th><th>Focus</th></tr>
 <tr><td>1</td><td>Pre-K (4-5)</td><td>48</td><td>Phonemic awareness + 26 single-letter phonograms</td></tr>
-<tr><td>2</td><td>K (5-6)</td><td>56</td><td>CVC words + 25 multi-letter phonograms + 6 rules</td></tr>
-<tr><td>3</td><td>Gr 1 (6-7)</td><td>56</td><td>Silent E (9 reasons) + 17 PGs + 9 rules + syllable division</td></tr>
-<tr><td>4</td><td>Gr 2 (7-8)</td><td>48</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
-<tr><td>5</td><td>Gr 3+ (8+)</td><td>40</td><td>25 roots + fluency + composition + grammar</td></tr>
+<tr><td>2</td><td>K (5-6)</td><td>55</td><td>Short vowels + 25 multi-letter PGs + first 6 rules</td></tr>
+<tr><td>3</td><td>Gr 1 (6-7)</td><td>58</td><td>Silent E (9 reasons) + 20 PGs + 11 rules + syllable division</td></tr>
+<tr><td>4</td><td>Gr 2 (7-8)</td><td>44</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
+<tr><td>5</td><td>Gr 3+ (8+)</td><td>39</td><td>25 roots + fluency + composition + grammar</td></tr>
 <tr><td><strong>Total</strong></td><td></td><td><strong>{counts["lessons"]}</strong></td><td></td></tr>
 </table>
 
@@ -312,10 +318,10 @@ def make_master_index() -> Path:
 <h2>Teacher Handbooks (per stage)</h2>
 
 <div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-1-handbook.pdf">Stage 1 Handbook</a></span><span class="page">→ Pre-K, 48 lessons, single bound PDF</span></div>
-<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-2-handbook.pdf">Stage 2 Handbook</a></span><span class="page">→ K, 56 lessons</span></div>
-<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-3-handbook.pdf">Stage 3 Handbook</a></span><span class="page">→ Grade 1, 56 lessons</span></div>
-<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-4-handbook.pdf">Stage 4 Handbook</a></span><span class="page">→ Grade 2, 48 lessons</span></div>
-<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-5-handbook.pdf">Stage 5 Handbook</a></span><span class="page">→ Grade 3+, 40 lessons</span></div>
+<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-2-handbook.pdf">Stage 2 Handbook</a></span><span class="page">→ Kindergarten, 55 lessons, single bound PDF</span></div>
+<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-3-handbook.pdf">Stage 3 Handbook</a></span><span class="page">→ Gr 1, 58 lessons, single bound PDF</span></div>
+<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-4-handbook.pdf">Stage 4 Handbook</a></span><span class="page">→ Gr 2, 44 lessons, single bound PDF</span></div>
+<div class="toc-item"><span class="title"><a href="05-Teacher-Handbooks/stage-5-handbook.pdf">Stage 5 Handbook</a></span><span class="page">→ Gr 3+, 39 lessons, single bound PDF</span></div>
 
 <h2>Lesson Packs (per-lesson bundles)</h2>
 
@@ -354,7 +360,7 @@ def make_master_index() -> Path:
 
 <h2 id="extras">Extras</h2>
 
-<div class="toc-item"><span class="title"><a href="11-Game/phonogram-trainer.html">Phonogram Trainer (web game)</a></span><span class="page">→ 5 modes: Flash, Match, Speed, Browse, Spell</span></div>
+<div class="toc-item"><span class="title"><a href="11-Game/phonogram-trainer.html">Phonogram Trainer (web game)</a></span><span class="page">→ 6 modes: Flash, Match, Speed, Spell, Build, Browse</span></div>
 <div class="toc-item"><span class="title"><a href="12-Audio/">Phonogram audio MP3s</a></span><span class="page">→ 74 neural-TTS MP3s</span></div>
 <div class="toc-item"><span class="title"><a href="13-Certificates/certificate-stage-1.pdf">Certificate — Stage 1</a></span><span class="page">→ printable completion certificate</span></div>
 <div class="toc-item"><span class="title"><a href="13-Certificates/certificate-stage-2.pdf">Certificate — Stage 2</a></span><span class="page">→ printable completion certificate</span></div>
@@ -447,10 +453,10 @@ def make_scope_sequence() -> Path:
 <table>
 <tr><th>Stage</th><th>Age</th><th>Lessons</th><th>Focus</th></tr>
 <tr><td><a href="#stage-1">1</a></td><td>Pre-K (4-5)</td><td>48</td><td>Phonemic awareness + 26 single-letter phonograms</td></tr>
-<tr><td><a href="#stage-2">2</a></td><td>K (5-6)</td><td>56</td><td>CVC words + 25 multi-letter PGs + 6 rules</td></tr>
-<tr><td><a href="#stage-3">3</a></td><td>Gr 1 (6-7)</td><td>56</td><td>Silent E (9 reasons) + 17 PGs + 9 rules + syllables</td></tr>
-<tr><td><a href="#stage-4">4</a></td><td>Gr 2 (7-8)</td><td>48</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
-<tr><td><a href="#stage-5">5</a></td><td>Gr 3+ (8+)</td><td>40</td><td>25 roots + fluency + composition + grammar</td></tr>
+<tr><td><a href="#stage-2">2</a></td><td>K (5-6)</td><td>55</td><td>Short vowels + 25 multi-letter PGs + first 6 rules</td></tr>
+<tr><td><a href="#stage-3">3</a></td><td>Gr 1 (6-7)</td><td>58</td><td>Silent E (9 reasons) + 20 PGs + 11 rules + syllable division</td></tr>
+<tr><td><a href="#stage-4">4</a></td><td>Gr 2 (7-8)</td><td>44</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
+<tr><td><a href="#stage-5">5</a></td><td>Gr 3+ (8+)</td><td>39</td><td>25 roots + fluency + composition + grammar</td></tr>
 <tr><td><strong>Total</strong></td><td></td><td><strong>{counts["lessons"]}</strong></td><td></td></tr>
 </table>
 
