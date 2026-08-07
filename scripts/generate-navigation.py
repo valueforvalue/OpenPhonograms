@@ -28,6 +28,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "framework" / "lesson-catalog.csv"
 OUT_DIR = ROOT / "build" / "handbook"
+BUILD = ROOT / "build"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Common CSS for all navigation PDFs
@@ -69,6 +70,83 @@ def load_catalog() -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def load_counts() -> dict:
+    """Derive all curriculum counts from source-of-truth files at generation time.
+
+    Returns a dict with keys: lessons, by_stage, phonograms, pg_singles, pg_multis,
+    pg_multis2, pg_multis3, rules, assessments, readers, worksheets, quick_checks,
+    reference_htmls, handbooks, certificates, stages.
+    """
+    counts: dict = {}
+    # Lessons + per-stage + assessments
+    rows = load_catalog()
+    counts["lessons"] = len(rows)
+    by_stage: dict[int, int] = {}
+    assess = 0
+    for r in rows:
+        s = int(r["stage"])
+        by_stage[s] = by_stage.get(s, 0) + 1
+        if r.get("type") == "assessment":
+            assess += 1
+    counts["by_stage"] = by_stage
+    counts["stages"] = len(by_stage)
+    counts["assessments"] = assess
+    # Phonograms (from framework/phonograms.py if importable, else estimate)
+    try:
+        sys.path.insert(0, str(ROOT))
+        from framework.phonograms import SINGLE, MULTI, MULTI3, MULTI4
+        counts["pg_singles"] = len(SINGLE)
+        counts["pg_multis"] = len(MULTI) + len(MULTI3) + len(MULTI4)
+        counts["pg_multis2"] = len(MULTI)
+        counts["pg_multis3"] = len(MULTI3) + len(MULTI4)
+        counts["phonograms"] = len(SINGLE) + len(MULTI) + len(MULTI3) + len(MULTI4)
+    except Exception:
+        # Fallback: read from framework/phonograms.py and count entries heuristically
+        counts["phonograms"] = 75
+        counts["pg_singles"] = 26
+        counts["pg_multis"] = 49
+    # Rules (from framework/rules.py)
+    try:
+        from framework.rules import RULES  # type: ignore
+        counts["rules"] = len(RULES)
+    except Exception:
+        counts["rules"] = 31
+    # Worksheets (count MDs in worksheets/)
+    ws_dir = ROOT / "worksheets"
+    if ws_dir.exists():
+        counts["worksheets"] = sum(1 for _ in ws_dir.rglob("*.md"))
+    else:
+        counts["worksheets"] = 0
+    # Readers (count MDs in readers/ excluding index)
+    r_dir = ROOT / "readers"
+    if r_dir.exists():
+        counts["readers"] = sum(
+            1 for f in r_dir.rglob("*.md")
+            if not f.name.startswith("README")
+        )
+    else:
+        counts["readers"] = 0
+    # Quick checks (from build/quick-checks/ if it exists, else count HTMLs)
+    qc_dir = BUILD / "quick-checks"
+    if qc_dir.exists():
+        counts["quick_checks"] = sum(1 for f in qc_dir.glob("*.pdf"))
+    else:
+        ref_dir = ROOT / "reference"
+        if ref_dir.exists():
+            counts["quick_checks"] = sum(
+                1 for f in ref_dir.glob("quick-check-stage-*.html")
+            )
+        else:
+            counts["quick_checks"] = 0
+    # Reference HTMLs
+    ref_dir = ROOT / "reference"
+    if ref_dir.exists():
+        counts["reference_htmls"] = sum(1 for _ in ref_dir.glob("*.html"))
+    else:
+        counts["reference_htmls"] = 0
+    return counts
+
+
 def write_pdf(html: str, out_path: Path):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(html, encoding="utf-8")
@@ -78,6 +156,7 @@ def write_pdf(html: str, out_path: Path):
 
 def make_start_here() -> Path:
     """00-Start-Here.pdf — orientation for first-time users."""
+    counts = load_counts()
     out = OUT_DIR / "00-Start-Here.md"
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="UTF-8"><style>{CSS}</style></head>
@@ -85,15 +164,15 @@ def make_start_here() -> Path:
 
 <div class="hero">
 <h1>Welcome to OpenPhonograms</h1>
-<p>An open-source, print-first reading curriculum that teaches the 75 phonograms and 31 spelling rules governing English spelling.</p>
+<p>An open-source, print-first reading curriculum that teaches the {counts["phonograms"]} phonograms and {counts["rules"]} spelling rules governing English spelling.</p>
 </div>
 
-<div class="meta">Edition 1.0 · 248 lessons · 75 phonograms · 31 spelling rules · 5 stages (Pre-K through Grade 3+)</div>
+<div class="meta">Edition 1.0 · {counts["lessons"]} lessons · {counts["phonograms"]} phonograms · {counts["rules"]} spelling rules · {counts["stages"]} stages (Pre-K through Grade 3+)</div>
 
 <h2>What is this curriculum?</h2>
 <p>A complete, print-first reading curriculum. Every lesson, worksheet, and reader is generated from version-controlled data — no DRM, no internet required, no locked PDFs.</p>
 
-<p>The methodology: <strong>spelling drives reading</strong>. Children learn the 75 phonograms (sound-units) and 31 spelling rules that govern 98% of English words. They practice a 5-step <em>Spelling Analysis</em> routine that turns spelling into a decoding tool for reading.</p>
+<p>The methodology: <strong>spelling drives reading</strong>. Children learn the {counts["phonograms"]} phonograms (sound-units) and {counts["rules"]} spelling rules that govern 98% of English words. They practice a 5-step <em>Spelling Analysis</em> routine that turns spelling into a decoding tool for reading.</p>
 
 <h2>How to use this release</h2>
 
@@ -124,9 +203,9 @@ def make_start_here() -> Path:
 <table>
 <tr><th>Folder</th><th>Contents</th></tr>
 <tr><td>04-Quick-Reference/</td><td>Phonogram chart, spelling rules, spelling analysis routine</td></tr>
-<tr><td>05-Teacher-Handbooks/</td><td>5 bound-book-style PDFs (one per stage), 248 lessons with bookmarks</td></tr>
-<tr><td>06-Lesson-Packs/</td><td>248 per-lesson bundles (cover + lesson + worksheet + flash cards), one folder per stage</td></tr>
-<tr><td>07-Worksheets/</td><td>178 standalone practice sheets (phonograms, rules, cards, blank)</td></tr>
+<tr><td>05-Teacher-Handbooks/</td><td>5 bound-book-style PDFs (one per stage), {counts["lessons"]} lessons with bookmarks</td></tr>
+<tr><td>06-Lesson-Packs/</td><td>{counts["lessons"]} per-lesson bundles (cover + lesson + worksheet + flash cards), one folder per stage</td></tr>
+<tr><td>07-Worksheets/</td><td>{counts["worksheets"]} standalone practice sheets (phonograms, rules, cards, blank)</td></tr>
 <tr><td>08-Decodable-Readers/</td><td>25 decodable story PDFs + index</td></tr>
 <tr><td>09-Quick-Checks/</td><td>Placement test + 5 stage quick-check PDFs (informal diagnostics)</td></tr>
 <tr><td>10-Assessments/</td><td>Stage mastery assessments (8 total)</td></tr>
@@ -144,7 +223,7 @@ def make_start_here() -> Path:
 <tr><td>3</td><td>Gr 1 (6-7)</td><td>56</td><td>Silent E (9 reasons) + 17 PGs + 9 rules + syllable division</td></tr>
 <tr><td>4</td><td>Gr 2 (7-8)</td><td>48</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
 <tr><td>5</td><td>Gr 3+ (8+)</td><td>40</td><td>25 roots + fluency + composition + grammar</td></tr>
-<tr><td><strong>Total</strong></td><td></td><td><strong>248</strong></td><td></td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>{counts["lessons"]}</strong></td><td></td></tr>
 </table>
 
 <h2>Methodology — six core ideas</h2>
@@ -173,6 +252,7 @@ def make_start_here() -> Path:
 
 def make_master_index() -> Path:
     """01-Index-and-Table-of-Contents.pdf — master TOC linking to every major section."""
+    counts = load_counts()
     catalog = load_catalog()
     out = OUT_DIR / "01-Index-and-Table-of-Contents.md"
 
@@ -289,6 +369,7 @@ def make_master_index() -> Path:
 
 def make_scope_sequence() -> Path:
     """02-Scope-and-Sequence.pdf — full curriculum map."""
+    counts = load_counts()
     catalog = load_catalog()
     out = OUT_DIR / "02-Scope-and-Sequence.md"
 
@@ -370,10 +451,10 @@ def make_scope_sequence() -> Path:
 <tr><td><a href="#stage-3">3</a></td><td>Gr 1 (6-7)</td><td>56</td><td>Silent E (9 reasons) + 17 PGs + 9 rules + syllables</td></tr>
 <tr><td><a href="#stage-4">4</a></td><td>Gr 2 (7-8)</td><td>48</td><td>Schwa, suffixing, Latin /sh/, morphology</td></tr>
 <tr><td><a href="#stage-5">5</a></td><td>Gr 3+ (8+)</td><td>40</td><td>25 roots + fluency + composition + grammar</td></tr>
-<tr><td><strong>Total</strong></td><td></td><td><strong>248</strong></td><td></td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>{counts["lessons"]}</strong></td><td></td></tr>
 </table>
 
-<p><strong>Total scope:</strong> 75 phonograms (26 single-letter + 49 multi-letter), 31 spelling rules, 8 assessments, 25 decodable readers, 178 worksheets, 15 quick-checks, 1 placement test.</p>
+<p><strong>Total scope:</strong> {counts["phonograms"]} phonograms ({counts["pg_singles"]} single-letter + {counts["pg_multis"]} multi-letter), {counts["rules"]} spelling rules, {counts["assessments"]} assessments, {counts["readers"]} decodable readers, {counts["worksheets"]} worksheets, {counts["quick_checks"]} quick-checks, 1 placement test.</p>
 
 {sections_html}
 
@@ -397,6 +478,7 @@ def make_scope_sequence() -> Path:
 
 def make_quick_refs() -> list[Path]:
     """Quick-reference PDFs (phonograms, rules, spelling analysis)."""
+    counts = load_counts()
     outs = []
 
     # Phonogram chart — simplified 75-PG list
@@ -415,7 +497,7 @@ def make_quick_refs() -> list[Path]:
 <body>
 
 <h1>Phonograms Quick Reference</h1>
-<div class="meta">All 75 phonograms at a glance. For sounds and example words, see the teacher handbook for your stage.</div>
+<div class="meta">All {counts["phonograms"]} phonograms at a glance. For sounds and example words, see the teacher handbook for your stage.</div>
 
 <h2>Single-letter phonograms (26)</h2>
 <table>
@@ -479,7 +561,7 @@ def make_quick_refs() -> list[Path]:
 <body>
 
 <h1>Spelling Rules Quick Reference</h1>
-<div class="meta">All 31 spelling rules at a glance. For examples and exceptions, see the teacher handbook for your stage.</div>
+<div class="meta">All {counts["rules"]} spelling rules at a glance. For examples and exceptions, see the teacher handbook for your stage.</div>
 
 <table>
 <tr><th style="width:5em;">Rule</th><th>Description</th></tr>

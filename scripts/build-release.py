@@ -44,6 +44,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
 
+# Source-of-truth list of reference HTML basenames that get rendered to PDF
+# and shipped under 04-Quick-Reference/ in the release ZIP.
+# Derived from reference/*.html at import time; excludes quick-checks
+# (which go to 09-Quick-Checks/) and the 04-Quick-Reference-{Phonograms,Spelling-Analysis,Spelling-Rules}
+# entries which are generated separately by build-quick-references.py.
+def _load_reference_basenames() -> set[str]:
+    ref_dir = ROOT / "reference"
+    if not ref_dir.exists():
+        return set()
+    out = set()
+    for html in ref_dir.glob("*.html"):
+        if html.name.startswith("quick-check-stage-"):
+            continue
+        out.add(html.name.removesuffix(".html"))
+    return out
+
+
+REFERENCE_PDF_BASENAMES = _load_reference_basenames()
+
 
 # ── Helpers ────────────────────────────────────────────────────────────
 
@@ -174,6 +193,18 @@ def build_handbook_nav(zf, args, stats):
             if args.no_readers:
                 continue
             arc = f"08-Decodable-Readers/{name}"
+        # Issue #12: include all rendered reference HTMLs as PDFs in 04-Quick-Reference/.
+        # Matches the source-of-truth list in reference/*.html (excluding quick-checks,
+        # which go to 09-Quick-Checks/).
+        elif name.removesuffix(".pdf") in REFERENCE_PDF_BASENAMES:
+            if args.no_reference:
+                continue
+            arc = f"04-Quick-Reference/{name}"
+        # Issue #12 (option a): route quick-check PDFs through 09-Quick-Checks/.
+        elif name.startswith("quick-check-stage-"):
+            if args.no_quick_checks:
+                continue
+            arc = f"09-Quick-Checks/{name}"
         else:
             continue  # Other handbook PDFs (assessments, quick-checks) handled separately
         if args.list:
