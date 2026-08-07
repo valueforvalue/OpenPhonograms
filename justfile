@@ -195,15 +195,10 @@ render-references:
     @echo "==> Rendering reference HTMLs to PDF ({{jobs}} workers)"
     @{{python}} {{scripts_dir_s}}/render-references.py --jobs {{jobs}}
 
-# Merge per-stage PDFs into stage-N-worksheets.pdf + stage-N-readers.pdf + stage-N.pdf
+# Merge per-stage PDFs into a single stage-N.pdf (worksheets + readers + cards)
 gen-stage-pdfs:
     @echo "==> Building merged stage PDFs"
     @{{python}} {{scripts_dir_s}}/build-stage-pdf.py
-
-# Copy assessment lesson PDFs into build/assessments/ for the release ZIP
-copy-assessments:
-    @echo "==> Copying assessments"
-    @{{python}} {{scripts_dir_s}}/copy-assessments.py
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Packs — cohesive per-lesson bundles for teachers
@@ -332,7 +327,7 @@ test-slow:
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (long; ~5-10 min)
-all: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all copy-assessments release
+all: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all release
     @echo ""
     @echo "==> Full build complete"
     @echo "    PDFs:      {{build_dir_s}}/"
@@ -340,7 +335,7 @@ all: gen-all gen-footers render-all render-extras render-references gen-stage-pd
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop)
-build: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all copy-assessments
+build: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all
     @echo ""
     @echo "==> Build complete (no release ZIP)"
     @echo "    PDFs:  {{build_dir_s}}/"

@@ -87,26 +87,19 @@ def main():
     reader_subdir = {s: f"readers/stage-{s}" for s in stages}
 
     for s in stages:
-        ws_out = BUILD / f"stage-{s}-worksheets.pdf"
-        rd_out = BUILD / f"stage-{s}-readers.pdf"
         all_out = BUILD / f"stage-{s}.pdf"
 
         ws_pdfs = collect_pdfs(*ws_subdirs[s])
         rd_pdfs = collect_pdfs(reader_subdir[s])
 
-        ws_pages = merge_pdfs(ws_pdfs, ws_out) if ws_pdfs else 0
-        rd_pages = merge_pdfs(rd_pdfs, rd_out) if rd_pdfs else 0
+        ws_count = len(ws_pdfs)
+        rd_count = len(rd_pdfs)
         all_pages = merge_pdfs(ws_pdfs + rd_pdfs, all_out) if (ws_pdfs or rd_pdfs) else 0
 
-        # Drop empty outputs (no inputs)
-        for f in (ws_out, rd_out, all_out):
-            if f.exists() and f.stat().st_size < 1000:
-                f.unlink()
+        if all_out.exists() and all_out.stat().st_size < 1000:
+            all_out.unlink()
 
-        print(f"Stage {s}: {ws_pages:>3}ws pages, {rd_pages:>3}rd pages → "
-              f"{ws_out.name if ws_pages else '(no ws)'}, "
-              f"{rd_out.name if rd_pages else '(no rd)'}, "
-              f"{all_out.name if all_pages else '(no all)'}")
+        print(f"Stage {s}: {ws_count}ws + {rd_count}rd → {all_out.name if all_pages else '(empty)'}")
 
 
 if __name__ == "__main__":

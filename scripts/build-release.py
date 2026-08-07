@@ -118,9 +118,7 @@ WHAT'S IN THIS RELEASE
 06-Stage-Overview/stage-N.pdf          — merged per-stage review (PDF)
 07-Worksheets/                         — 178 standalone practice sheets
                                           (organized by stage + category)
-07-Worksheets/stage-N-worksheets.pdf   — merged per-stage worksheets
 08-Decodable-Readers/                  — 25 decodable story PDFs + index
-08-Decodable-Readers/stage-N-readers.pdf — merged per-stage readers
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
 10-Assessments/                        — 8 stage mastery assessments
 
@@ -358,18 +356,27 @@ def build_quick_checks(zf, args, stats):
 
 
 def build_assessments(zf, args, stats):
-    """Section 10: Assessment PDFs from build/assessments/."""
+    """Section 10: Assessment PDFs pulled from build/stage-N/assessment-*.pdf."""
     if args.no_assessments:
         stats["skipped"].append("10-Assessments/")
         return
-    assessments_dir = BUILD / "assessments"
-    if assessments_dir.exists():
-        if args.list:
-            stats["included"].append("10-Assessments/")
-        else:
-            count = add_directory(zf, assessments_dir, "10-Assessments")
-            if count:
-                print(f"  OK  10-Assessments/  ({count} files)")
+    assessment_files = []
+    for stage in _stages(args):
+        stage_dir = BUILD / f"stage-{stage}"
+        if not stage_dir.exists():
+            continue
+        for pdf in sorted(stage_dir.glob("assessment-*.pdf")):
+            assessment_files.append(pdf)
+    if not assessment_files:
+        return
+    if args.list:
+        stats["included"].append(f"10-Assessments/ ({len(assessment_files)} files)")
+        return
+    count = 0
+    for pdf in assessment_files:
+        zf.write(pdf, f"10-Assessments/{pdf.name}")
+        count += 1
+    print(f"  OK  10-Assessments/  ({count} files)")
 
 
 def build_reference(zf, args, stats):
