@@ -123,6 +123,19 @@ def make_toc(stage: int, lessons: list[dict]) -> str:
             lines.append(f"- **Lesson {ln}:** {title}")
         lines.append("")
 
+    # Linear-order quick reference (all lessons in numerical order)
+    lines.append("---")
+    lines.append("")
+    lines.append("## Quick Reference: Lessons in Teaching Order")
+    lines.append("")
+    lines.append("All lessons in this stage in strict numerical order. PDF reader sidebar shows page numbers via bookmarks.")
+    lines.append("")
+    for r in ordered:
+        ln = int(r["lesson_num"])
+        title = r["title"]
+        lines.append(f"- **Lesson {ln}:** {title}")
+    lines.append("")
+
     return "\n".join(lines)
 
 
@@ -209,6 +222,21 @@ This handbook contains all {n_lessons} lessons of Stage {stage}, bound into a si
 ### What this handbook replaces
 
 This is the open-source equivalent of a commercial curriculum's "Teacher's Manual" — one bound book with all lessons and a complete index. The print commercial version runs 200-350 pages per level; this PDF runs {n_lessons} + cover + TOC pages.
+
+---
+
+## Materials Needed for Stage {stage}
+
+Before starting this stage, gather or print the following:
+
+- **Whiteboard + markers** (or paper + pencil for each student)
+- **Phonogram flashcards** (Stage {stage}: {pg_count} new phonograms — printed from `04-Quick-Reference/Phonogram-Chart.pdf` or `worksheets/cards/stage-{stage}/`)
+- **Lesson packs** (printed from `06-Lesson-Packs/stage-{stage}/` — one pack per lesson, includes worksheet + flash cards)
+- **Decodable readers** as needed (Stage {stage} uses readers listed in `08-Decodable-Readers/stage-{stage}/`)
+- **Timer** (for spelling analysis and assessments)
+- **Pencils, erasers, lined paper**
+
+See the `binding-instructions.pdf` in the release root for help organizing these into a 3-ring binder per stage.
 
 ---
 
