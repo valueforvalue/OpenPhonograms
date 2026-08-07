@@ -1,6 +1,6 @@
-# Lesson 38: Rule 29 — Z, Not S, at Beginning
+# Lesson 32: Rule 19 — Past Tense -ED Sounds
 
-**Stage 4** · Lesson 38 · rule-intro
+**Stage 4** · Lesson 32 · rule-intro
 
 ---
 
@@ -10,29 +10,29 @@
 
 ---
 
-## New Learning: Rule 29
+## New Learning: Rule 19
 
 ### The Rule
 
-> ****Z**, never **S**, is used at the beginning of a base word for the /z/ sound.**
+> **The past-tense ending **-ED** forms the past tense of regular verbs. Its spelling is always -ED, but its sound varies.**
 
 ### Why It Matters
 
-English uses Z for /z/ at the beginning of words: zip, zap, zoo, zone. S at the beginning says /s/ (sit, sun, see). S says /z/ in the middle or at the end: has, is, music, visit.
+You already learned the three sounds of -ED from Rule 20 (Stage 2). Rule 19 is about using -ED to form past tense. Most verbs just add -ED. Some double the consonant (Rule 14: stop→stopped). Some drop silent E (Rule 13: bake→baked). Some change Y→I (Rule 15: carry→carried).
 
 ### Examples
 
-zip, zap, zoo, zone, zebra, zero, zigzag, zoom
+walk→walked, play→played, stop→stopped, bake→baked, carry→carried, try→tried, hop→hopped, hope→hoped
 
 ### Spot the Rule
 
-| Word | How Rule 29 Applies |
+| Word | How Rule 19 Applies |
 |------|------------------------|
-| zip | Z at start = /z/ ✓ |
-| sip | S at start = /s/ — different word! ✗ |
-| has | S at end = /z/ ✓ |
-| is | S at end = /z/ ✓ |
-| music | S in middle = /z/ (between vowels) ✓ |
+| walk + ed | walked — no change needed |
+| stop + ed | stopped — double P (Rule 14) |
+| bake + ed | baked — drop E (Rule 13) |
+| carry + ed | carried — Y→I (Rule 15) |
+| play + ed | played — no change (AY is a phonogram) |
 
 ---
 
@@ -40,30 +40,30 @@ zip, zap, zoo, zone, zebra, zero, zigzag, zoom
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| zip | z (/z/), i (/ĭ/), p (/p/) | Rule 29 | /zĭp/ |
-| zebra | z (/z/), e (/ē/), b (/b/), r (/r/), a (/ə/) | Rule 29 + 4 + 31 | /zē-brə/ |
-| zero | z (/z/), e (/ē/), r (/r/), o (/ō/) | Rules 4 + 29 | /zē-rō/ |
+| walked | w (/w/), a (/ä/), l (/l/), k (/k/), ed (/t/) | Rule 19: ED says /t/ after unvoiced /k/ | /wäkt/ |
+| played | p (/p/), l (/l/), ay (/ā/), ed (/d/) | Rules 19-20: ED=/d/ after voiced | /plād/ |
+| stopped | s (/s/), t (/t/), o (/ŏ/), p (/p/), p (/p/), ed (/t/) | Rules 14 + 19 + 20 | /stŏpt/ |
 
 ---
 
 ## Reading Practice
 
-> zip &nbsp; zap &nbsp; zoo &nbsp; zone &nbsp; zebra &nbsp; zero &nbsp; zigzag &nbsp; zoom
+> walked &nbsp; played &nbsp; stopped &nbsp; baked &nbsp; carried &nbsp; tried
 
-Zip, zap, zoom! The zebra at the zoo runs from zone zero. Zigzag fast!
+I walked to the park and played. The rain stopped. Mom baked a cake. I carried it home.
 
 ---
 
 ## Quick Check
 
-1. What is Rule 29? *(Restate in your own words.)*
+1. What is Rule 19? *(Restate in your own words.)*
 2. Give two examples that follow this rule.
-3. Why isn't the first sound in 'zip' spelled with S? *(Rule 29: Z, not S, spells /z/ at the beginning of a base word.)*
+3. How many rules can apply when forming past tense? *(Up to 3: Rules 13, 14, 15, 19, 20!)*
 
 ---
 
-**Next lesson:** Lesson 40: Rule 29: Z at Beginning
+**Next lesson:** Lesson 34: Suffixes -less -ous
 
 ---
 
-*Practice at home: Write 5 words that start with Z. Compare: zip/sip, zoo/Sue, zone/sown.*
+*Practice at home: Write the past tense of: walk, stop, bake, carry, play, try. Name the rules you used.*

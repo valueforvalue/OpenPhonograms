@@ -1,72 +1,72 @@
-# Lesson 24: Prefixes in- and dis-
+# Lesson 18: Rule 18 — SH Placement
 
-**Stage 4** · Lesson 24 · morphology
+**Stage 4** · Lesson 18 · rule-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash all 75 phonograms.
+> Quick flash of all 75 phonograms.
 
 ---
 
-## New Learning: **in-/dis-**
+## New Learning: Rule 18
 
-### What Is Prefix?
+### The Rule
 
-IN- (and its forms im-, il-, ir-) means 'not.' DIS- also means 'not' or 'opposite.'
+> ****SH** is used at the beginning or end of a base word, at the end of a syllable, but NOT at the beginning of a syllable after the first one.**
 
-### Prefix Means: "not, opposite"
+### Why It Matters
 
-### Words with Prefix
+SH is the 'regular English' way to spell /sh/. TI/CI/SI are the 'Latin' way. SH appears in everyday English words: ship, fish, wishing. Latin /sh/ (TI/CI/SI) appears in more formal or academic words: nation, special, mission.
 
-| Word | Prefix + Root | Meaning |
-|------|------||---------|
-| in correct → incorrect | — | — |
-| dis agree → disagree | — | — |
-| im possible → impossible | — | — |
-| dis like → dislike | — | — |
+### Examples
+
+SH at start: ship, she, show, shoe
+SH at end: fish, wish, push, crash
+SH in middle (end of syllable): dish·es, push·ing, wash·ing
+Latin /sh/ (mid-word after first syllable): nation, special, session
+
+### Spot the Rule
+
+| Word | How Rule 18 Applies |
+|------|------------------------|
+| ship | SH at beginning ✓ |
+| fish | SH at end ✓ |
+| dishes | SH at end of first syllable ✓ |
+| nation | TI = /sh/ (Latin, after first syllable) ✓ |
+| nashun | NOT English — use 'nation' ✗ |
 
 ---
 
-## Word Building
+## Spelling Analysis
 
-Add **Prefix** to these root words. Write the new word and its meaning.
-
-| Root Word | + Prefix | New Word | Meaning |
-|-----------|------||----------|---------|
-| correct | in-/dis- correct | — | — |
-| agree | in-/dis- agree | — | — |
-| like | in-/dis- like | — | — |
-| appear | in-/dis- appear | — | — |
-| honest | in-/dis- honest | — | — |
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| dishes | d (/d/), i (/ĭ/), sh (/sh/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 18 + 31 | /di-shĕz/ |
+| wishing | w (/w/), i (/ĭ/), sh (/sh/), i (/ĭ/), ng (/ng/) | Rule 18 | /wi-shĭng/ |
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /nā-shŏn/ |
 
 ---
 
 ## Reading Practice
 
-> incorrect, disagree, dislike, disappear, dishonest, unable, replay
+> ship &nbsp; fish &nbsp; dishes &nbsp; wishing &nbsp; nation &nbsp; special
 
----
-
-## Spelling
-
-Write each word. Underline the Prefix. Say the meaning aloud.
-
-> incorrect &nbsp;&nbsp; disagree &nbsp;&nbsp; dislike &nbsp;&nbsp; disappear &nbsp;&nbsp; unable
+The ship had fish and dishes. I am wishing for a special nation!
 
 ---
 
 ## Quick Check
 
-1. What does **Prefix** mean? *(not, opposite)*
-2. Build a new word using Prefix + a root.
-3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+1. What is Rule 18? *(Restate in your own words.)*
+2. Give two examples that follow this rule.
+3. When do you use SH vs. TI/CI/SI for /sh/? *(SH for everyday words and at start/end. TI/CI/SI for Latin words in the middle.)*
 
 ---
 
-**Next lesson:** Lesson 26: Prefixes pre- pro-
+**Next lesson:** Lesson 20: Phonogram ci
 
 ---
 
-*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*
+*Practice at home: Find 5 words with SH and 3 with Latin /sh/. Compare them!*

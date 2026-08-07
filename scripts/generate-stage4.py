@@ -150,6 +150,87 @@ PRACTICE_TMP = """# Lesson {n}: {title}
 *Practice at home: {home}*
 """
 
+RULE_FULL_TMP = """# Lesson {n}: Rule {rn} — {name}
+
+**Stage 4** · Lesson {n} · rule-intro+practice
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of all 75 phonograms.
+
+---
+
+## New Learning: Rule {rn}
+
+### The Rule
+
+> **{statement}**
+
+### Why It Matters
+
+{why}
+
+### Examples
+
+{examples}
+
+### Spot the Rule
+
+| Word | How Rule {rn} Applies |
+|------|------------------------|
+{spot}
+
+---
+
+## Practice: {practice_focus}
+
+{practice_body}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{words}
+
+### Practice Words
+
+| Word | Base Word | Suffix | Changed? | Say-to-Spell |
+|------|-----------|--------|----------|--------------|
+{practice_sa}
+
+---
+
+## Reading Practice
+
+> {reading}
+
+### Practice Reading
+
+> {practice_reading}
+
+---
+
+## Quick Check
+
+1. What is Rule {rn}? *(Restate in your own words.)*
+2. {q3}
+3. {practice_q1}
+4. {practice_q2}
+5. {practice_q3}
+
+---
+
+**Next lesson:** Lesson {nn}: {ntitle}
+
+---
+
+*Practice at home: {home}*
+"""
+
 MORPH_TMP = """# Lesson {n}: {title}
 
 **Stage 4** · Lesson {n} · morphology
@@ -722,113 +803,42 @@ For each word: (1) Say it normally, (2) identify the schwa syllable, (3) say-to-
         home="Pick your 3 hardest schwa words. Write each one 5 times with say-to-spell.")
 
 def gen_rule13():
-    return RULE_TMP.format(n=7, rn=13, name="Drop the Silent E for a Vowel Suffix",
+    return RULE_FULL_TMP.format(n=7, rn=13, name="Drop the Silent E for a Vowel Suffix",
         statement="When adding a vowel suffix, drop the silent final E.",
         why="When you add a suffix that starts with a vowel (like -ing, -ed, -er), the silent E has done its job. The vowel suffix now provides a vowel for that syllable. 'Make' + 'ing' = 'making' — drop the E, add -ing. The A still says /ā/ because the syllable is open: ma·king.",
         examples="make→making, hope→hoping, drive→driving, use→using, bake→baking, write→writing, smile→smiling, rake→raking",
         spot="| make + ing | Drop E → making |\n| hope + ed | Drop E → hoped |\n| drive + er | Drop E → driver |\n| use + ing | Drop E → using |\n| bake + er | Drop E → baker |\n| write + ing | Drop E → writing |\n| smile + ing | Drop E → smiling |\n| rake + ed | Drop E → raked |",
         words="| making | m (/m/), a (/ā/), k (/k/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 (open syllable) | /māk-ing/ |\n| hoping | h (/h/), o (/ō/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 | /hōp-ing/ |\n| driving | d (/d/), r (/r/), i (/ī/), v (/v/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 | /drīv-ing/ |\n| using | u (/ū/), s (/s/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 | /ūz-ing/ |",
         reading="making &nbsp; hoping &nbsp; driving &nbsp; using &nbsp; baking &nbsp; writing &nbsp; smiling &nbsp; raking\n\nThe baker is making a cake. I am hoping to drive. She is writing and smiling.",
-        nn=9, ntitle=nt(8), q3="What happens if you DON'T drop the E? Try 'makeing' — does it look right?",
-        home="Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word!")
-
-def gen_rule13_practice():
-    body = """Add -ing and -ed to each word. Remember: drop the silent E!
-
-| Base Word | + -ing | + -ed |
-|-----------|--------|-------|
-| make | making | made (special!) |
-| hope | hoping | hoped |
-| drive | driving | drove (special!) |
-| use | using | used |
-| bake | baking | baked |
-| write | writing | wrote (special!) |
-| smile | smiling | smiled |
-| rake | raking | raked |
-| ride | riding | rode (special!) |
-| take | taking | took (special!) |
-
-> **Watch out!** Some past-tense forms are irregular (made, drove, wrote). We'll learn those later.
-
-### When NOT to Drop the E
-
-Keep the E when adding a CONSONANT suffix (one that starts with a consonant).
-
-| Base Word | + -ful (consonant suffix) | Keep E? |
-|-----------|--------------------------|---------|
-| hope | hopeful | YES — -ful starts with F (consonant) |
-| care | careful | YES |
-| use | useful | YES |
-| peace | peaceful | YES |
-
-### But what about truly, duly, arguing?
-
-When the E is needed to keep C or G soft, don't drop it!
-- change → changeable (keep E so G still says /j/)
-- notice → noticeable (keep E so C still says /s/)"""
-
-    sa = """| making | make → mak + ing | Drop E (Rule 13) | /māk-ing/ |
-| hoping | hope → hop + ing | Drop E (Rule 13) | /hōp-ing/ |
-| careful | care + ful | Keep E (consonant suffix) | /kār-fŭl/ |
-| changeable | change + able | Keep E (Rule 2: G→/j/) | /chānj-ă-bl/ |"""
-
-    return PRACTICE_TMP.format(n=8, title="Drop E Practice", typ="rule-practice",
-        focus="Rule 13: Drop Silent E before vowel suffix", body=body,
-        sa=sa, reading="making &nbsp; hoping &nbsp; driving &nbsp; careful &nbsp; useful &nbsp; changeable\n\nI am making a cake and hoping it tastes good. Be careful and useful!",
-        nn=10, ntitle=nt(9),
-        check="1. When do you drop the silent E? *(Before a vowel suffix.)*\n2. When do you KEEP the silent E? *(Before a consonant suffix, or to keep C/G soft.)*\n3. Spell 'making' and 'hoping' from dictation.",
-        home="Find 3 words with -ing that dropped a silent E. Write the base word and the new word.")
+        practice_focus="Rule 13: Drop Silent E before vowel suffix",
+        practice_body="Add -ing and -ed to each word. Remember: drop the silent E!\n\n| Base Word | + -ing | + -ed |\n|-----------|--------|-------|\n| make | making | made (special!) |\n| hope | hoping | hoped |\n| drive | driving | drove (special!) |\n| use | using | used |\n| bake | baking | baked |\n| write | writing | wrote (special!) |\n| smile | smiling | smiled |\n| rake | raking | raked |\n| ride | riding | rode (special!) |\n| take | taking | took (special!) |\n\n> **Watch out!** Some past-tense forms are irregular (made, drove, wrote). We'll learn those later.\n\n### When NOT to Drop the E\n\nKeep the E when adding a CONSONANT suffix (one that starts with a consonant).\n\n| Base Word | + -ful (consonant suffix) | Keep E? |\n|-----------|--------------------------|---------|\n| hope | hopeful | YES — -ful starts with F (consonant) |\n| care | careful | YES |\n| use | useful | YES |\n| peace | peaceful | YES |\n\n### But what about truly, duly, arguing?\n\nWhen the E is needed to keep C or G soft, don't drop it!\n- change → changeable (keep E so G still says /j/)\n- notice → noticeable (keep E so C still says /s/)",
+        practice_sa="| making | make → mak + ing | Drop E (Rule 13) | /māk-ing/ |\n| hoping | hope → hop + ing | Drop E (Rule 13) | /hōp-ing/ |\n| careful | care + ful | Keep E (consonant suffix) | /kār-fǕl/ |\n| changeable | change + able | Keep E (Rule 2: G→/j/) | /chānj-ā-bl/ |",
+        practice_reading="making &nbsp; hoping &nbsp; driving &nbsp; careful &nbsp; useful &nbsp; changeable\n\nI am making a cake and hoping it tastes good. Be careful and useful!",
+        q3="What happens if you DON'T drop the E? Try 'makeing' — does it look right?",
+        practice_q1="When do you drop the silent E? *(Before a vowel suffix.)*)",
+        practice_q2="When do you KEEP the silent E? *(Before a consonant suffix, or to keep C/G soft.)*)",
+        practice_q3="Spell 'making' and 'hoping' from dictation.",
+        nn=8, ntitle=nt(8),
+        home="Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word. Then find 3 words where the E is KEPT (consonant suffix).")
 
 def gen_rule14():
-    return RULE_TMP.format(n=9, rn=14, name="Double the Consonant for a Vowel Suffix",
+    return RULE_FULL_TMP.format(n=8, rn=14, name="Double the Consonant for a Vowel Suffix",
         statement="When adding a vowel suffix, double the final consonant if the word is one syllable, has one vowel, and ends in one consonant (1-1-1 rule).",
         why="This is the '1-1-1 Rule.' If a word has 1 syllable, 1 vowel, and ends in 1 consonant, double that consonant before adding a vowel suffix. Why? To keep the vowel short! 'Hop' + 'ing' = 'hopping' (short O). Without the double P, it would be 'hoping' (long O — from hope). The extra consonant closes the syllable and keeps the vowel short.",
         examples="run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, stop→stopping, cut→cutting, big→bigger",
         spot="| run + ing | 1 syll, 1 vowel (u), 1 final consonant (n) → running |\n| hop + ing | 1 syll, 1 vowel (o), 1 final consonant (p) → hopping |\n| swim + ing | 1 syll, 1 vowel (i), 1 final consonant (m) → swimming |\n| open + ing | 2 syllables → NO double → opening |\n| sleep + ing | 2 vowels (ee) → NO double → sleeping |\n| jump + ing | 2 final consonants (mp) → NO double → jumping |",
-        words="| running | r (/r/), u (/ŭ/), n (/n/), n (/n/), i (/ĭ/), ng (/ng/) | Rule 14: 1-1-1 → double N | /rŭn-ing/ |\n| hopping | h (/h/), o (/ŏ/), p (/p/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 14: double P keeps O short | /hŏp-ing/ |\n| swimming | s (/s/), w (/w/), i (/ĭ/), m (/m/), m (/m/), i (/ĭ/), ng (/ng/) | Rule 14 | /swĭm-ing/ |",
+        words="| running | r (/r/), u (/ŭ/), n (/n/), n (/n/), i (/ĭ/), ng (/ng/) | Rule 14: 1-1-1 → double N | /rǕn-ing/ |\n| hopping | h (/h/), o (/ō/), p (/p/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 14: double P keeps O short | /hōp-ing/ |\n| swimming | s (/s/), w (/w/), i (/ĭ/), m (/m/), m (/m/), i (/ĭ/), ng (/ng/) | Rule 14 | /swĭm-ing/ |",
         reading="running &nbsp; hopping &nbsp; swimming &nbsp; sitting &nbsp; getting &nbsp; stopping &nbsp; cutting &nbsp; bigger\n\nThe dog is running and hopping. I am swimming and getting tired. Stop cutting the paper!",
-        nn=11, ntitle=nt(10), q3="Why don't we double the P in 'sleeping'? *(Two vowels — EE — not one. The 1-1-1 rule doesn't apply.)*",
-        home="Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check.")
-
-def gen_rule14_practice():
-    body = """### The 1-1-1 Rule Check
-
-For each word, ask: 1 syllable? 1 vowel? End in 1 consonant? If YES to all three → double the final consonant.
-
-| Base Word | 1 Syllable? | 1 Vowel? | 1 Final Consonant? | Double? | + -ing |
-|-----------|------------|----------|-------------------|---------|--------|
-| run | YES | YES (u) | YES (n) | YES | running |
-| hop | YES | YES (o) | YES (p) | YES | hopping |
-| swim | YES | YES (i) | YES (m) | YES | swimming |
-| sit | YES | YES (i) | YES (t) | YES | sitting |
-| get | YES | YES (e) | YES (t) | YES | getting |
-| cut | YES | YES (u) | YES (t) | YES | cutting |
-| open | NO (2 syll) | — | — | NO | opening |
-| sleep | YES | NO (ee = 2 letters) | — | NO | sleeping |
-| jump | YES | YES (u) | NO (mp = 2) | NO | jumping |
-| read | YES | NO (ea = 2) | — | NO | reading |
-| rain | YES | NO (ai = 2) | — | NO | raining |
-| help | YES | YES (e) | NO (lp = 2) | NO | helping |
-
-### Practice
-
-Write the -ing form for each:
-
-| hop → hopping | run → ______ | sit → ______ | get → ______ |
-| cut → ______ | stop → ______ | swim → ______ | plan → ______ |
-| sleep → ______ | jump → ______ | read → ______ | open → ______ |"""
-
-    sa = """| running | run + n + ing | Rule 14: 1-1-1 | /rŭn-ing/ |
-| hopping | hop + p + ing | Rule 14: keeps O short | /hŏp-ing/ |
-| opening | open + ing | Rule 4: open syllable | /ō-pen-ing/ |
-| sleeping | sleep + ing | No double (two vowels) | /slēp-ing/ |"""
-
-    return PRACTICE_TMP.format(n=10, title="Double Consonant Practice", typ="rule-practice",
-        focus="Rule 14: 1-1-1 Rule", body=body,
-        sa=sa, reading="running &nbsp; hopping &nbsp; swimming &nbsp; opening &nbsp; sleeping &nbsp; jumping\n\nI am running to the pool and swimming. Mom is opening the door. The cat is sleeping and jumping.",
-        nn=12, ntitle=nt(11),
-        check="1. What three things must be true to double the consonant? *(1 syllable, 1 vowel, 1 final consonant.)*\n2. Why don't we double in 'sleeping'? *(EE is two vowel letters — not one.)*\n3. Spell 'running' and 'hopping' from dictation.",
-        home="Write the -ing form of 5 one-syllable words. Check the 1-1-1 rule for each!")
+        practice_focus="Rule 14: 1-1-1 Rule",
+        practice_body="For each word, ask: 1 syllable? 1 vowel? End in 1 consonant? If YES to all three → double the final consonant.\n\n| Base Word | 1 Syllable? | 1 Vowel? | 1 Final Consonant? | Double? | + -ing |\n|-----------|------------|----------|-------------------|---------|--------|\n| run | YES | YES (u) | YES (n) | YES | running |\n| hop | YES | YES (o) | YES (p) | YES | hopping |\n| swim | YES | YES (i) | YES (m) | YES | swimming |\n| sit | YES | YES (i) | YES (t) | YES | sitting |\n| get | YES | YES (e) | YES (t) | YES | getting |\n| cut | YES | YES (u) | YES (t) | YES | cutting |\n| open | NO (2 syll) | — | — | NO | opening |\n| sleep | YES | NO (ee = 2 letters) | — | NO | sleeping |\n| jump | YES | YES (u) | NO (mp = 2) | NO | jumping |\n| read | YES | NO (ea = 2) | — | NO | reading |\n| rain | YES | NO (ai = 2) | — | NO | raining |\n| help | YES | YES (e) | NO (lp = 2) | NO | helping |\n\nWrite the -ing form for each:\n\n| hop → hopping | run → ______ | sit → ______ | get → ______ |\n| cut → ______ | stop → ______ | swim → ______ | plan → ______ |\n| sleep → ______ | jump → ______ | read → ______ | open → ______ |",
+        practice_sa="| running | run + n + ing | Rule 14: 1-1-1 | /rǕn-ing/ |\n| hopping | hop + p + ing | Rule 14: keeps O short | /hōp-ing/ |\n| opening | open + ing | Rule 4: open syllable | /ō-pen-ing/ |\n| sleeping | sleep + ing | No double (two vowels) | /slēp-ing/ |",
+        practice_reading="running &nbsp; hopping &nbsp; swimming &nbsp; opening &nbsp; sleeping &nbsp; jumping\n\nI am running to the pool and swimming. Mom is opening the door. The cat is sleeping and jumping.",
+        q3="Why don't we double the P in 'sleeping'? *(Two vowels — EE — not one. The 1-1-1 rule doesn't apply.)*",
+        practice_q1="What three things must be true to double the consonant? *(1 syllable, 1 vowel, 1 final consonant.)*)",
+        practice_q2="Why don't we double in 'sleeping'? *(EE is two vowel letters — not one.)*)",
+        practice_q3="Spell 'running' and 'hopping' from dictation.",
+        nn=9, ntitle=nt(9),
+        home="Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check. Then find 3 -ing words that do NOT double (and explain why).")
 
 def gen_rule14_review():
     body = """## Part 1: Drop E or Double?
@@ -872,70 +882,37 @@ Some words need neither rule:
         home="Review Rules 13 and 14 flashcards!")
 
 def gen_rule15():
-    return RULE_TMP.format(n=13, rn=15, name="Y Changes to I Before a Suffix",
-        statement="When adding a suffix to a word that ends in Y, change the Y to I unless the suffix begins with I.",
-        why="Y at the end of a word often says /ē/ (baby) or /ī/ (cry). When we add a suffix, the Y changes to I to keep the spelling regular. Baby + es → babies. BUT: cry + ing → crying (don't change — two I's can't be adjacent; that's Rule 16).",
-        examples="baby→babies, cry→cries, happy→happiness, beauty→beautiful, carry→carried, dry→dried, fly→flies, try→tries",
-        spot="| baby + es | Y→I + es → babies |\n| cry + es | Y→I + es → cries |\n| happy + ness | Y→I + ness → happiness |\n| beauty + ful | Y→I + ful → beautiful |\n| carry + ed | Y→I + ed → carried |\n| cry + ing | NO change — suffix begins with I |",
-        words="| babies | b (/b/), a (/ā/), b (/b/), ie (/ē/), s (/z/) | Rule 15 + Rule 3 (no I at end) | /bā-bēz/ |\n| cries | c (/k/), r (/r/), ie (/ī/), s (/z/) | Rule 15 | /krīz/ |\n| happiness | h (/h/), a (/ă/), p (/p/), p (/p/), i (/ĭ/), n (/n/), e (/ĕ/), s (/s/), s (/s/) | Rule 15 | /hăp-ē-nĕs/ |\n| carried | c (/k/), a (/ă/), r (/r/), r (/r/), ie (/ē/), ed (/d/) | Rule 15 + Rule 14 (double R!) | /kăr-ēd/ |",
-        reading="babies &nbsp; cries &nbsp; happiness &nbsp; beautiful &nbsp; carried &nbsp; dried\n\nThe babies are happy. She cries and cries. True happiness is beautiful. I carried the bag.",
-        nn=15, ntitle=nt(14), q3="Why don't we change Y to I in 'crying'? *(The suffix -ing begins with I. Two I's can't be next to each other — Rule 16.)*",
-        home="Find 5 words where Y changed to I. Write the base word and the new form.")
-
-def gen_rule15_practice():
-    body = """### Y→I Transformation
-
-Change Y to I before adding the suffix. Watch out for -ing!
-
-| Base Word | + es | + ed | + ing | Other |
-|-----------|------|------|-------|-------|
-| cry | cries | cried | crying (keep Y!) | crier |
-| try | tries | tried | trying (keep Y!) | trial |
-| baby | babies | babied | babying (keep Y!) | babyish |
-| carry | carries | carried | carrying | carriage |
-| happy | happier | — | — | happiness |
-| pretty | prettier | prettied | prettying | prettiness |
-| funny | funnier | funnied | funnyman | funniness |
-| lazy | lazier | lazied | lazying | laziness |
-| dry | dries | dried | drying (keep Y!) | drier, driest |
-
-### Special Pattern: ier/iest
-
-For words ending in Y after a consonant, the -er and -est forms change Y→I:
-
-| Base | + er | + est |
-|------|------|-------|
-| happy | happier | happiest |
-| pretty | prettier | prettiest |
-| funny | funnier | funniest |
-| lazy | lazier | laziest |
-| early | earlier | earliest |"""
-
-    sa = """| babies | baby → bab + i + es | Rule 15: Y→I | /bā-bēz/ |
-| carried | carry → carr + i + ed | Rules 14 + 15 | /kăr-ēd/ |
-| happiness | happy → happ + i + ness | Rule 15 | /hăp-ē-nĕs/ |
-| cries | cry → cr + i + es | Rule 15 | /krīz/ |"""
-
-    return PRACTICE_TMP.format(n=14, title="Y→I Practice", typ="rule-practice",
-        focus="Rule 15: Y changes to I before suffixes", body=body,
-        sa=sa, reading="babies &nbsp; carried &nbsp; happiness &nbsp; cries &nbsp; funnier &nbsp; lazier\n\nThe babies cried. I carried the bag. Happiness is the funniest thing!",
-        nn=16, ntitle=nt(15),
-        check="1. When do you change Y to I? *(Before a suffix that does NOT begin with I.)*\n2. Why is 'crying' spelled with a Y? *(The suffix -ing starts with I — two I's can't be next to each other.)*\n3. Spell 'happiness' and 'carried' from dictation.",
-        home="Write the -es, -ed, and -ing forms of 'cry' and 'try.'")
+    return RULE_FULL_TMP.format(n=9, rn=15, name="Y Changes to I Before a Suffix",
+        statement="When adding a suffix to a word ending in Y (with a consonant before it), change the Y to I.",
+        why="Y is a tricky letter. When a word ends in Y, we need to ask: what sound does the Y make? If Y is the only vowel in the word AND says /ĭ/ or /ē/ (long I or long E), change it to I before adding a suffix. 'Cry' + 'ed' = 'cried' (the Y says /ī/, change to I). 'Happy' + 'ness' = 'happiness' (the Y says /ē/, change to I). But 'boy' + 'hood' = 'boyhood' (the Y says /oi/, keep as Y).",
+        examples="cry→cried, try→tried, happy→happiness, easy→easier, carry→carried, study→studied, fly→flies",
+        spot="| cry + ed | Y says /ī/, change → cried |\n| happy + ness | Y says /ē/, change → happiness |\n| try + ing | Y says /ī/, change → trying |\n| boy + hood | Y says /oi/, KEEP → boyhood |\n| play + ed | Y says /ā/, KEEP → played |\n| key + s | Y says /ē/, KEEP → keys (Y is the only vowel so... wait, see Rule 16.) |",
+        words="| cried | c (/k/), r (/r/), i (/ī/), e (/ē/), d (/d/) | Rule 15: Y→I | /krīd/ |\n| tried | t (/t/), r (/r/), i (/ī/), e (/ē/), d (/d/) | Rule 15 | /trīd/ |\n| happiness | h (/h/), a (/ā/), p (/p/), i (/ĭ/), n (/n/), e (/ē/), s (/s/), s (/s/) | Rule 15: Y→I + -ness | /hāp-ĭ-nēs/ |\n| carried | c (/k/), a (/ā/), r (/r/), r (/r/), i (/ĭ/), e (/ē/), d (/d/) | Rule 15 | /kār-ĭd/ |",
+        reading="cried &nbsp; tried &nbsp; studied &nbsp; carried &nbsp; worried &nbsp; hurried &nbsp; spied &nbsp; replied\n\nThe baby cried and tried to sleep. I studied hard and carried the heavy bag. She worried and hurried to class.",
+        practice_focus="Rule 15: Y Changes to I",
+        practice_body="For each word, ask: does Y say /i/ or /e/? Is there a consonant before the Y? If YES to both → change Y to I before adding the suffix.\n\n| Base Word | Y Sound? | Consonant Before Y? | + -ed | + -ing | + -er | + -est |\n|-----------|---------|--------------------|----|--------|-------|--------|\n| cry | /ī/ | YES (r) | cried | crying | crier | — |\n| try | /ī/ | YES (r) | tried | trying | trier | — |\n| happy | /ē/ | YES (p) | happied(?) | — | happier | happiest |\n| easy | /ē/ | YES (s) | — | — | easier | easiest |\n| carry | /ē/ | YES (r) | carried | carrying | carrier | — |\n| study | /ē/ | YES (d) | studied | studying | — | — |\n| fly | /ī/ | YES (l) | flied(?) | flying | flier | — |\n| boy | /oi/ | NO (vowel before) | boyed(?) | — | — | — |\n| play | /ā/ | NO (vowel before) | played | playing | player | — |\n| key | /ē/ | NO (vowel before) | — | — | — | — |\n\n> **Watch out!** Words like 'flied' and 'happied' exist but are unusual — most English speakers just add the suffix without Y→I when the result is awkward. And remember Rule 16: two I's can't be next to each other, so 'cry' + 'ing' = 'crying' (just add -ing), but 'study' + 'ing' = 'studying' (Y→I, then add -ing).",
+        practice_sa="| cried | cr + i + ed | Rule 15: Y→I | /krīd/ |\n| trying | tr + i + ing | Rule 15 + Rule 16 (no II) | /trī-ĭng/ |\n| happiness | happi + ness | Rule 15: Y→I + -ness | /hāp-ĭ-nēs/ |\n| carried | carri + ed | Rule 15: Y→I | /kār-ĭd/ |\n| boyhood | boy + hood | No change (Y=/oi/) | /boi-hǝd/ |",
+        practice_reading="cried &nbsp; tried &nbsp; worried &nbsp; hurried &nbsp; happiness &nbsp; easier &nbsp; carried &nbsp; studying\n\nI cried because I tried so hard. The happiness was real. She worried and hurried to her studying.",
+        q3="Why don't we change Y to I in 'boyhood'? *(The Y says /oi/ — it's a vowel team with O. The Y→I rule only applies when Y is the ONLY vowel.)*",
+        practice_q1="When do we change Y to I? *(When Y is the only vowel, says /i/ or /e/, and a consonant comes before it.)*)",
+        practice_q2="Why don't we double-I in 'crying'? *(Rule 16: two I's cannot be adjacent — just add -ing.)*)",
+        practice_q3="Spell 'cried', 'happiness', and 'tried' from dictation.",
+        nn=10, ntitle=nt(10),
+        home="Find 5 -ed, -ing, -er, or -ness words where the Y changed to I. Write the base word and the new word. Then find 2 words where Y was KEPT (vowel before it).")
 
 def gen_rule16():
-    return RULE_TMP.format(n=15, rn=16, name="Two I's Cannot Be Adjacent",
+    return RULE_TMP.format(n=11, rn=16, name="Two I's Cannot Be Adjacent",
         statement="Two I's may not be next to each other in an English word.",
         why="English spelling avoids two I's side by side. This is why we don't change Y to I before -ing: 'cry' + 'ing' = 'crying' (not 'criing'). It's also why words like 'skiing' look odd — they're borrowed from other languages and break the rule!",
         examples="cry→crying (NOT criing), try→trying, fly→flying, study→studying, carry→carrying, marry→marrying",
         spot="| cry + ing | crying (keep Y — two I's would be 'criing') |\n| try + ing | trying |\n| fly + ing | flying |\n| study + ing | studying |\n| carry + ing | carrying |",
         words="| crying | c (/k/), r (/r/), y (/ī/), i (/ĭ/), ng (/ng/) | Rule 16: keep Y before -ing | /krī-ing/ |\n| flying | f (/f/), l (/l/), y (/ī/), i (/ĭ/), ng (/ng/) | Rule 16 | /flī-ing/ |\n| studying | s (/s/), t (/t/), u (/ŭ/), d (/d/), y (/ē/), i (/ĭ/), ng (/ng/) | Rule 16 | /stŭd-ē-ing/ |",
         reading="crying &nbsp; flying &nbsp; studying &nbsp; trying &nbsp; carrying &nbsp; marrying\n\nThe baby is crying. A bird is flying. I am studying my rules. Keep trying!",
-        nn=17, ntitle=nt(16), q3="Why does 'skiing' look so strange? *(It's borrowed from Norwegian — it breaks the English 'No Two I's' rule!)*",
+        nn=12, ntitle=nt(11), q3="Why does 'skiing' look so strange? *(It's borrowed from Norwegian — it breaks the English 'No Two I's' rule!)*",
         home="Write the -ing forms of: cry, try, fly, study, carry. Explain why the Y stays.")
 
 def gen_suffix_review_17():
-    return REVIEW_TMP.format(n=16, title="All Suffixing Rules Review", nn=17, ntitle=nt(17),
+    return REVIEW_TMP.format(n=12, title="All Suffixing Rules Review", nn=10, ntitle=nt(12),
         g1="Rule 13: Drop Silent E", gb1="Write the -ing form: make→____, drive→____, use→____, hope→____, bake→____.",
         g2="Rule 14: Double Consonant", gb2="Write the -ing form: run→____, hop→____, swim→____, sit→____, get→____. Write opening, sleeping, jumping — why NO double?",
         g3="Rules 15 & 16: Y→I and No Two I's", gb3="Write: cry→cr____ (es), baby→bab____ (es), happy→happ____ (ness). Write crying, trying, flying — why keep Y?",
@@ -1140,25 +1117,25 @@ def gen_si():
 """
 
 def gen_rule17():
-    return RULE_TMP.format(n=20, rn=17, name="Latin /sh/ — TI, CI, SI",
+    return RULE_TMP.format(n=17, rn=17, name="Latin /sh/ — TI, CI, SI",
         statement="**TI**, **CI**, and **SI** spell /sh/ in words of Latin origin. TI is most common; SI can also say /zh/.",
         why="English borrowed thousands of words from Latin. Latin had a sound like /sh/ that was spelled differently depending on the root word. English kept these spellings! -tion is the most common (nation, action), -cial comes next (special, social), and -sion is least common but can say /zh/ (vision).",
         examples="TI: nation, action, station, fraction, patient, partial\nCI: special, social, musician, precious, delicious\nSI: mission, session, vision (/zh/), television (/zh/)",
         spot="| nation | -tion → TI = /sh/ |\n| special | -cial → CI = /sh/ |\n| mission | -sion → SI = /sh/ |\n| vision | -sion → SI = /zh/ |\n| musician | -cian → CI = /sh/ |",
         words="| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 | /nā-shŏn/ |\n| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/ STSp, l | Rule 17 + 31 | /spe-shăl/ |\n| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |",
         reading="nation &nbsp; special &nbsp; vision &nbsp; action &nbsp; musician &nbsp; mission\n\nThe nation has a special vision. The musician's mission is action!",
-        nn=22, ntitle=nt(21), q3="Which Latin /sh/ spelling is the most common? *(TI — especially in -tion words.)*",
+        nn=19, ntitle=nt(18), q3="Which Latin /sh/ spelling is the most common? *(TI — especially in -tion words.)*",
         home="Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.")
 
 def gen_rule18():
-    return RULE_TMP.format(n=21, rn=18, name="SH Placement",
+    return RULE_TMP.format(n=18, rn=18, name="SH Placement",
         statement="**SH** is used at the beginning or end of a base word, at the end of a syllable, but NOT at the beginning of a syllable after the first one.",
         why="SH is the 'regular English' way to spell /sh/. TI/CI/SI are the 'Latin' way. SH appears in everyday English words: ship, fish, wishing. Latin /sh/ (TI/CI/SI) appears in more formal or academic words: nation, special, mission.",
         examples="SH at start: ship, she, show, shoe\nSH at end: fish, wish, push, crash\nSH in middle (end of syllable): dish·es, push·ing, wash·ing\nLatin /sh/ (mid-word after first syllable): nation, special, session",
         spot="| ship | SH at beginning ✓ |\n| fish | SH at end ✓ |\n| dishes | SH at end of first syllable ✓ |\n| nation | TI = /sh/ (Latin, after first syllable) ✓ |\n| nashun | NOT English — use 'nation' ✗ |",
         words="| dishes | d (/d/), i (/ĭ/), sh (/sh/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 18 + 31 | /di-shĕz/ |\n| wishing | w (/w/), i (/ĭ/), sh (/sh/), i (/ĭ/), ng (/ng/) | Rule 18 | /wi-shĭng/ |\n| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /nā-shŏn/ |",
         reading="ship &nbsp; fish &nbsp; dishes &nbsp; wishing &nbsp; nation &nbsp; special\n\nThe ship had fish and dishes. I am wishing for a special nation!",
-        nn=23, ntitle=nt(22), q3="When do you use SH vs. TI/CI/SI for /sh/? *(SH for everyday words and at start/end. TI/CI/SI for Latin words in the middle.)*",
+        nn=20, ntitle=nt(19), q3="When do you use SH vs. TI/CI/SI for /sh/? *(SH for everyday words and at start/end. TI/CI/SI for Latin words in the middle.)*",
         home="Find 5 words with SH and 3 with Latin /sh/. Compare them!")
 
 def gen_latin_mastery():
@@ -1201,10 +1178,10 @@ Write the correct Latin /sh/ spelling for each word:
 | mission | m, i (/ĭ/), ss, si (/sh/), o→/ŏ/, n | Rule 17 | /mi-shŏn/ |
 | vision | v, i (/ĭ/), si (/zh/), o→/ŏ/, n | Rule 17 (/zh/) | /vi-zhŏn/ |"""
 
-    return PRACTICE_TMP.format(n=22, title="Latin /sh/ Mastery", typ="rule-practice",
+    return PRACTICE_TMP.format(n=19, title="Latin /sh/ Mastery", typ="rule-practice",
         focus="TI, CI, SI — Latin /sh/ spellings", body=body,
         sa=sa, reading="nation &nbsp; special &nbsp; mission &nbsp; vision &nbsp; action &nbsp; musician\n\nThe nation has a special mission. My vision of the action is clear. The musician plays!",
-        nn=24, ntitle=nt(23),
+        nn=21, ntitle=nt(20),
         check="1. Which Latin /sh/ spelling says /zh/? *(SI — as in vision and television.)*\n2. What's the difference between SH and TI? *(SH is for everyday English; TI is Latin for -tion words.)*\n3. Spell 'nation,' 'special,' and 'mission' from dictation.",
         home="Write 3 words with SH and 3 with Latin /sh/. Explain the difference!")
 
@@ -1222,25 +1199,25 @@ def gen_morph(n, title, affix, typ, meaning, definition, example_pairs, build_wo
         spell=" &nbsp;&nbsp; ".join(spell_words), nn=nn, ntitle=nt(nn), sep=sep, sep2=sep2)
 
 def gen_rule23():
-    return RULE_TMP.format(n=33, rn=23, name="AL- Prefix Has One L",
+    return RULE_TMP.format(n=30, rn=23, name="AL- Prefix Has One L",
         statement="The prefix **AL-** has only one L.",
         why="AL- is a prefix meaning 'all' or 'to/toward.' Even though 'all' has two L's, the prefix AL- has only one. Compare: all + ready → already, all + though → although, all + ways → always. The prefix 'almost always' has one L!",
         examples="already, although, always, also, almost, altogether, albeit",
         spot="| already | AL- (one L) + ready |\n| although | AL- (one L) + though |\n| always | AL- (one L) + ways |\n| almost | AL- (one L) + most |\n| also | AL- (one L) + so |\n| altogether | AL- + together |",
         words="| already | al- (/äl/), r (/r/), ea (/ĕ/), d (/d/), y (/ē/) | Rule 23 | /äl-red-ē/ |\n| always | al- (/äl/), w (/w/), ay (/ā/), s (/z/) | Rule 23 | /äl-wāz/ |\n| almost | al- (/äl/), m (/m/), o (/ō/), s (/s/), t (/t/) | Rule 23 | /äl-mōst/ |",
         reading="already &nbsp; although &nbsp; always &nbsp; also &nbsp; almost\n\nI already ate. Although it is late, I always read. I also almost finished!",
-        nn=35, ntitle=nt(34), q3="Why does 'already' have one L but 'all ready' has two? *(The prefix AL- has one L. 'All ready' is two separate words.)*",
+        nn=32, ntitle=nt(31), q3="Why does 'already' have one L but 'all ready' has two? *(The prefix AL- has one L. 'All ready' is two separate words.)*",
         home="Find AL- words in a book. Write them and circle the one-L prefix.")
 
 def gen_rule24():
-    return RULE_TMP.format(n=34, rn=24, name="-FUL Suffix Has One L",
+    return RULE_TMP.format(n=31, rn=24, name="-FUL Suffix Has One L",
         statement="The suffix **-FUL** has only one L.",
         why="Though 'full' has two L's, the suffix -FUL has only one. Compare: hope + full → hopeful (one L), use + full → useful, beauty + full → beautiful. Only one L in the suffix!",
         examples="hopeful, useful, beautiful, careful, joyful, playful, helpful, thankful, wonderful, powerful",
         spot="| hope + ful | helpful — one L |\n| care + ful | careful — one L |\n| use + ful | useful — one L |\n| beauty + ful | beautiful — one L (Y→I first!) |\n| joy + ful | joyful — one L |",
         words="| hopeful | h (/h/), o (/ō/), p (/p/), e (/ə/→/ĕ/ STSp), ful (/fŭl/) | Rules 24 + 31 | /hōp-fŭl/ |\n| careful | c (/k/), are (/ār/), ful (/fŭl/) | Rule 24 | /kār-fŭl/ |\n| beautiful | b (/b/), eau (/ü/), ti (/t/), i→/ĭ/, ful (/fŭl/) | Rules 15 + 24 | /büt-ĭ-fŭl/ |",
         reading="hopeful &nbsp; careful &nbsp; beautiful &nbsp; useful &nbsp; joyful &nbsp; thankful\n\nBe hopeful and careful. The beautiful painting is useful. I am joyful and thankful!",
-        nn=36, ntitle=nt(35), q3="Why does 'beautiful' change Y to I? *(Rule 15: Y→I before a suffix. Beauty + ful → beautiful.)*",
+        nn=33, ntitle=nt(32), q3="Why does 'beautiful' change Y to I? *(Rule 15: Y→I before a suffix. Beauty + ful → beautiful.)*",
         home="Write 5 words with the -ful suffix. Circle the one-L suffix in each.")
 
 # ── MORPHOLOGY DATA ─────────────────────────────────────────────────
@@ -1294,7 +1271,7 @@ SUFFIXES = [
 # ── READERS ─────────────────────────────────────────────────────────
 
 def gen_firefly():
-    return READER4_TMP.format(n=41, title="Reader: Firefly — Nightlight with Wings",
+    return READER4_TMP.format(n=38, title="Reader: Firefly — Nightlight with Wings",
         phonograms="y (=/ē/), silent E, igh, ir",
         warmup_words="firefly &nbsp; light &nbsp; glow &nbsp; night &nbsp; wings &nbsp; summer &nbsp; garden &nbsp; dark &nbsp; blink &nbsp; shine",
         stitle="Firefly: Nightlight with Wings",
@@ -1346,10 +1323,10 @@ The End.
 </div>
 </div>""",
         talk="1. How does a firefly make light? *(Bioluminescence — a chemical reaction in its body!)*\n2. Why does the firefly blink? *(To find a friend/mate.)*\n3. Find 3 words with silent E in the story.",
-        nn=43, ntitle=nt(42))
+        nn=40, ntitle=nt(39))
 
 def gen_trains():
-    return READER4_TMP.format(n=42, title="Reader: Trains — A Blast of Fast",
+    return READER4_TMP.format(n=39, title="Reader: Trains — A Blast of Fast",
         phonograms="ai, ay, silent E, er, tch",
         warmup_words="train &nbsp; steam &nbsp; coal &nbsp; rail &nbsp; engine &nbsp; fast &nbsp; station &nbsp; track &nbsp; iron &nbsp; smoke",
         stitle="Trains: A Blast of Fast",
@@ -1401,52 +1378,52 @@ The End.
 </div>
 </div>""",
         talk="1. What powered the first trains? *(Steam engines burning coal.)*\n2. How fast can maglev trains go? *(Over 200 miles per hour!)*\n3. Find words with AI and OA in the story.",
-        nn=44, ntitle=nt(43))
+        nn=41, ntitle=nt(40))
 
 # ── ADDITIONAL RULES ────────────────────────────────────────────────
 
 def gen_rule19():
-    return RULE_TMP.format(n=35, rn=19, name="Past Tense -ED Sounds",
+    return RULE_TMP.format(n=32, rn=19, name="Past Tense -ED Sounds",
         statement="The past-tense ending **-ED** forms the past tense of regular verbs. Its spelling is always -ED, but its sound varies.",
         why="You already learned the three sounds of -ED from Rule 20 (Stage 2). Rule 19 is about using -ED to form past tense. Most verbs just add -ED. Some double the consonant (Rule 14: stop→stopped). Some drop silent E (Rule 13: bake→baked). Some change Y→I (Rule 15: carry→carried).",
         examples="walk→walked, play→played, stop→stopped, bake→baked, carry→carried, try→tried, hop→hopped, hope→hoped",
         spot="| walk + ed | walked — no change needed |\n| stop + ed | stopped — double P (Rule 14) |\n| bake + ed | baked — drop E (Rule 13) |\n| carry + ed | carried — Y→I (Rule 15) |\n| play + ed | played — no change (AY is a phonogram) |",
         words="| walked | w (/w/), a (/ä/), l (/l/), k (/k/), ed (/t/) | Rule 19: ED says /t/ after unvoiced /k/ | /wäkt/ |\n| played | p (/p/), l (/l/), ay (/ā/), ed (/d/) | Rules 19-20: ED=/d/ after voiced | /plād/ |\n| stopped | s (/s/), t (/t/), o (/ŏ/), p (/p/), p (/p/), ed (/t/) | Rules 14 + 19 + 20 | /stŏpt/ |",
         reading="walked &nbsp; played &nbsp; stopped &nbsp; baked &nbsp; carried &nbsp; tried\n\nI walked to the park and played. The rain stopped. Mom baked a cake. I carried it home.",
-        nn=37, ntitle=nt(36), q3="How many rules can apply when forming past tense? *(Up to 3: Rules 13, 14, 15, 19, 20!)*",
+        nn=34, ntitle=nt(33), q3="How many rules can apply when forming past tense? *(Up to 3: Rules 13, 14, 15, 19, 20!)*",
         home="Write the past tense of: walk, stop, bake, carry, play, try. Name the rules you used.")
 
 def gen_rule21():
-    return RULE_TMP.format(n=36, rn=21, name="Plural -S and -ES",
+    return RULE_TMP.format(n=33, rn=21, name="Plural -S and -ES",
         statement="To make most nouns plural, add **-S**. Add **-ES** when the word ends in S, SH, CH, X, or Z.",
         why="The -ES adds a syllable /ez/ so you can hear the plural. 'Box' + 's' = 'boxs' (hard to say!). 'Box' + 'es' = 'boxes' (easy!). The E provides an extra syllable.",
         examples="cat→cats, dog→dogs, box→boxes, dish→dishes, church→churches, buzz→buzzes, bus→buses, fox→foxes",
         spot="| cat + s | cats — just add S |\n| box + es | boxes — ends in X, needs ES |\n| dish + es | dishes — ends in SH, needs ES |\n| church + es | churches — ends in CH, needs ES |\n| buzz + es | buzzes — ends in Z, needs ES |",
         words="| boxes | b (/b/), o (/ŏ/), x (/ks/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 21 | /bŏk-sĕz/ |\n| dishes | d, i (/ĭ/), sh (/sh/), e→/ĕ/, s (/z/) | Rule 21 + 31 | /dĭ-shĕz/ |\n| churches | ch (/ch/), ur (/er/), ch (/ch/), e→/ĕ/, s | Rule 21 + 31 | /cher-chĕz/ |",
         reading="cats &nbsp; dogs &nbsp; boxes &nbsp; dishes &nbsp; churches &nbsp; foxes &nbsp; buses\n\nThe cats and dogs have boxes. The dishes are in the churches. Foxes ride buses!",
-        nn=38, ntitle=nt(37), q3="Why does 'box' need -ES instead of just -S? *(It ends in X — you can't hear the plural without the extra syllable!)*",
+        nn=35, ntitle=nt(34), q3="Why does 'box' need -ES instead of just -S? *(It ends in X — you can't hear the plural without the extra syllable!)*",
         home="Write the plural of: cat, box, dish, church, fox, bus. Circle the ones that use -ES.")
 
 def gen_rule22():
-    return RULE_TMP.format(n=37, rn=22, name="3rd Person Singular -S and -ES",
+    return RULE_TMP.format(n=34, rn=22, name="3rd Person Singular -S and -ES",
         statement="To make a verb agree with he/she/it in present tense, add **-S**. Add **-ES** when the verb ends in S, SH, CH, X, or Z.",
         why="Same pattern as plural nouns! He/she/it verbs need -S. When the verb ends in a hissing sound (S, SH, CH, X, Z), add -ES so you can hear the ending.",
         examples="run→runs, walk→walks, fix→fixes, wash→washes, watch→watches, buzz→buzzes, miss→misses, catch→catches",
         spot="| he run + s | he runs — just add S |\n| she fix + es | she fixes — ends in X |\n| it wash + es | it washes — ends in SH |\n| he catch + es | he catches — ends in CH (Rule 27: TCH after short a!) |",
         words="| fixes | f (/f/), i (/ĭ/), x (/ks/), e→/ĕ/, s | Rule 22 + 31 | /fĭk-sĕz/ |\n| washes | w (/w/), a (/ä/), sh (/sh/), e→/ĕ/, s | Rules 10 + 22 | /wä-shĕz/ |\n| catches | c (/k/), a (/ă/), tch (/ch/), e→/ĕ/, s | Rules 22 + 27 | /kă-chĕz/ |",
         reading="runs &nbsp; walks &nbsp; fixes &nbsp; washes &nbsp; catches &nbsp; watches\n\nHe runs and walks. She fixes the box. It washes away. He catches the ball and watches the game.",
-        nn=39, ntitle=nt(38), q3="What do plural nouns and 3rd person verbs have in common? *(Both use -S or -ES following the same rules!)*",
+        nn=36, ntitle=nt(35), q3="What do plural nouns and 3rd person verbs have in common? *(Both use -S or -ES following the same rules!)*",
         home="Write: he (run), she (fix), it (wash), he (catch). Apply Rule 22 to each.")
 
 def gen_rule29():
-    return RULE_TMP.format(n=38, rn=29, name="Z, Not S, at Beginning",
+    return RULE_TMP.format(n=35, rn=29, name="Z, Not S, at Beginning",
         statement="**Z**, never **S**, is used at the beginning of a base word for the /z/ sound.",
         why="English uses Z for /z/ at the beginning of words: zip, zap, zoo, zone. S at the beginning says /s/ (sit, sun, see). S says /z/ in the middle or at the end: has, is, music, visit.",
         examples="zip, zap, zoo, zone, zebra, zero, zigzag, zoom",
         spot="| zip | Z at start = /z/ ✓ |\n| sip | S at start = /s/ — different word! ✗ |\n| has | S at end = /z/ ✓ |\n| is | S at end = /z/ ✓ |\n| music | S in middle = /z/ (between vowels) ✓ |",
         words="| zip | z (/z/), i (/ĭ/), p (/p/) | Rule 29 | /zĭp/ |\n| zebra | z (/z/), e (/ē/), b (/b/), r (/r/), a (/ə/) | Rule 29 + 4 + 31 | /zē-brə/ |\n| zero | z (/z/), e (/ē/), r (/r/), o (/ō/) | Rules 4 + 29 | /zē-rō/ |",
         reading="zip &nbsp; zap &nbsp; zoo &nbsp; zone &nbsp; zebra &nbsp; zero &nbsp; zigzag &nbsp; zoom\n\nZip, zap, zoom! The zebra at the zoo runs from zone zero. Zigzag fast!",
-        nn=40, ntitle=nt(39), q3="Why isn't the first sound in 'zip' spelled with S? *(Rule 29: Z, not S, spells /z/ at the beginning of a base word.)*",
+        nn=37, ntitle=nt(36), q3="Why isn't the first sound in 'zip' spelled with S? *(Rule 29: Z, not S, spells /z/ at the beginning of a base word.)*",
         home="Write 5 words that start with Z. Compare: zip/sip, zoo/Sue, zone/sown.")
 
 def gen_irregular_verbs():
@@ -1728,13 +1705,11 @@ def generate():
 
     # 8-17: Suffixing Rules
     yield 7, gen_rule13()
-    yield 8, gen_rule13_practice()
-    yield 9, gen_rule14()
-    yield 10, gen_rule14_practice()
-    yield 11, gen_rule14_review()
+    yield 8, gen_rule14()
+    yield 9, gen_rule14_review()
 
     # 13: Mid-Assessment
-    yield 12, ASSESS_TMP.format(n=12, title="Mid-Stage 4 Assessment",
+    yield 10, ASSESS_TMP.format(n=10, title="Mid-Stage 4 Assessment",
         overview="Check progress on schwa, Rules 13-14, and say-to-spell.",
         schwa_check="| about | | ☐ |\n| seven | | ☐ |\n| pencil | | ☐ |\n| love | | ☐ |\n| dollar | | ☐ |",
         schwa_total=5,
@@ -1749,10 +1724,9 @@ def generate():
         next="If ≥85%: Continue. If weaker, review trouble spots for 1 week and retest.")
 
     # 14-17: Rules 15-16 + Review
-    yield 13, gen_rule15()
-    yield 14, gen_rule15_practice()
-    yield 15, gen_rule16()
-    yield 16, gen_suffix_review_17()
+    yield 11, gen_rule15()
+    yield 12, gen_rule16()
+    yield 13, gen_suffix_review_17()
 
     # 18-23: Latin /sh/
     yield 17, gen_ti()
@@ -1776,21 +1750,21 @@ def generate():
 
     # 40-41: Irregulars
     yield 39, gen_irregular_verbs()
-    yield 40, gen_irregular_plurals()
+    yield 37, gen_irregular_plurals()
 
     # 42-43: Readers
-    yield 41, gen_firefly()
-    yield 42, gen_trains()
+    yield 38, gen_firefly()
+    yield 39, gen_trains()
 
     # 44-45: Morpheme Reviews
-    yield 43, gen_morph_review("prefixes")
-    yield 44, gen_morph_review("suffixes")
+    yield 40, gen_morph_review("prefixes")
+    yield 41, gen_morph_review("suffixes")
 
     # 46: Mixed Spelling
-    yield 45, gen_mixed_spelling_4()
+    yield 42, gen_mixed_spelling_4()
 
     # 47: Review
-    yield 46, REVIEW_TMP.format(n=46, title="Review: All Stage 4 Concepts", nn=47, ntitle=nt(47),
+    yield 43, REVIEW_TMP.format(n=40, title="Review: All Stage 4 Concepts", nn=38, ntitle=nt(38),
         g1="Schwa Check", gb1="Say-to-spell: about, seven, pencil, love, mother, dollar, doctor, animal, family, chocolate.",
         g2="Suffixing Check", gb2="Write -ing form: make, hop, use, run, sit, swim, cry, study. Which rules apply?",
         g3="Latin /sh/ Check", gb3="Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?",
@@ -1798,7 +1772,7 @@ def generate():
         home="Review all Stage 4 flashcards!")
 
     # 48: Assessment
-    yield 47, ASSESS_TMP.format(n=47, title="Stage 4 Mastery Check",
+    yield 44, ASSESS_TMP.format(n=41, title="Stage 4 Mastery Check",
         overview="Final Stage 4 assessment. Check mastery of schwa, suffixing rules, Latin /sh/, morphology, and all Stage 4 concepts.",
         schwa_check="| about | | ☐ |\n| pencil | | ☐ |\n| love | | ☐ |\n| dollar | | ☐ |\n| doctor | | ☐ |\n| family | | ☐ |",
         schwa_total=6,
@@ -1817,19 +1791,19 @@ def generate():
 S = {
     1:"schwa-1",2:"schwa-2",3:"schwa-3",4:"schwa-4",5:"schwa-5",
     6:"schwa-mastery",
-    7:"rule-13",8:"rule-13-practice",9:"rule-14",10:"rule-14-practice",
-    11:"rule-13-14-review",12:"assessment-6",
-    13:"rule-15",14:"rule-15-practice",15:"rule-16",16:"suffixing-review",
-    17:"pg-ti",18:"pg-ci",19:"pg-si",20:"rule-17",21:"rule-18",
-    22:"latin-sh-mastery",
-    23:"prefix-un-dis",24:"prefix-in-dis",25:"prefix-pre-pro",26:"prefix-sub-inter",
-    27:"suffix-er-or",28:"suffix-tion-sion",29:"suffix-able-ible",
-    30:"suffix-ment-ness",31:"suffix-ly-ful",32:"suffix-less-ous",
-    33:"rule-23",34:"rule-24",35:"rule-19",36:"rule-21",37:"rule-22",38:"rule-29",
-    39:"irregular-verbs",40:"irregular-plurals",
-    41:"reader-5",42:"reader-6",
-    43:"morph-review-1",44:"morph-review-2",
-    45:"spell-mixed-4",46:"review-9",47:"assessment-7",
+    7:"rule-13",8:"rule-14",
+    9:"rule-13-14-review",10:"assessment-6",
+    10:"assessment-6",11:"rule-15",12:"rule-16",13:"suffixing-review",
+    14:"pg-ti",15:"pg-ci",16:"pg-si",17:"rule-17",18:"rule-18",
+    19:"latin-sh-mastery",
+    20:"prefix-un-dis",21:"prefix-in-dis",22:"prefix-pre-pro",23:"prefix-sub-inter",
+    24:"suffix-er-or",25:"suffix-tion-sion",26:"suffix-able-ible",
+    27:"suffix-ment-ness",28:"suffix-ly-ful",29:"suffix-less-ous",
+    30:"rule-23",31:"rule-24",32:"rule-19",33:"rule-21",34:"rule-22",35:"rule-29",
+    36:"irregular-verbs",37:"irregular-plurals",
+    38:"reader-5",39:"reader-6",
+    40:"morph-review-1",41:"morph-review-2",
+    42:"spell-mixed-4",43:"review-9",44:"assessment-7"
 }
 
 def main():

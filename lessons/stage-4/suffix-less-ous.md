@@ -1,6 +1,6 @@
-# Lesson 32: Suffixes -less and -ous
+# Lesson 29: Suffixes -able and -ible
 
-**Stage 4** · Lesson 32 · morphology
+**Stage 4** · Lesson 29 · morphology
 
 ---
 
@@ -10,22 +10,22 @@
 
 ---
 
-## New Learning: **-less/-ous**
+## New Learning: **-able/-ible**
 
 ### What Is Suffix?
 
--LESS means 'without.' -OUS means 'full of' or 'having the quality of.'
+-ABLE and -IBLE mean 'able to be' or 'can be done.' Most words use -able.
 
-### Suffix Means: "without, full of"
+### Suffix Means: "able to be"
 
 ### Words with Suffix
 
 | Word | Suffix + Root | Meaning |
 |------|---|------||---------|
-| hope less → hopeless | — | — |
-| danger ous → dangerous | — | — |
-| fear less → fearless | — | — |
-| joy ous → joyous | — | — |
+| wash able → washable | — | — |
+| vis ible → visible | — | — |
+| read able → readable | — | — |
+| flex ible → flexible | — | — |
 
 ---
 
@@ -35,17 +35,17 @@ Add **Suffix** to these root words. Write the new word and its meaning.
 
 | Root Word | + Suffix | New Word | Meaning |
 |-----------|---|------||----------|---------|
-| hope | -less/-oushope -less/-ous |  |  |
-| fear | -less/-ousfear -less/-ous |  |  |
-| danger | -less/-ousdanger -less/-ous |  |  |
-| joy | -less/-ousjoy -less/-ous |  |  |
-| nerve | -less/-ousnerve -less/-ous |  |  |
+| wash | -able/-iblewash -able/-ible |  |  |
+| read | -able/-ibleread -able/-ible |  |  |
+| flex | -able/-ibleflex -able/-ible |  |  |
+| break | -able/-iblebreak -able/-ible |  |  |
+| love | -able/-iblelove -able/-ible |  |  |
 
 ---
 
 ## Reading Practice
 
-> hopeless, fearless, dangerous, joyous, nervous, careless, famous
+> washable, readable, flexible, breakable, lovable, visible, audible
 
 ---
 
@@ -53,19 +53,19 @@ Add **Suffix** to these root words. Write the new word and its meaning.
 
 Write each word. Underline the Suffix. Say the meaning aloud.
 
-> hopeless &nbsp;&nbsp; fearless &nbsp;&nbsp; dangerous &nbsp;&nbsp; joyous &nbsp;&nbsp; nervous
+> washable &nbsp;&nbsp; readable &nbsp;&nbsp; flexible &nbsp;&nbsp; breakable &nbsp;&nbsp; visible
 
 ---
 
 ## Quick Check
 
-1. What does **Suffix** mean? *(without, full of)*
+1. What does **Suffix** mean? *(able to be)*
 2. Build a new word using Suffix + a root.
 3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 34: Rule 23: AL-
+**Next lesson:** Lesson 31: Suffixes -ment -ness
 
 ---
 

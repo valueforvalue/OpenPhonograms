@@ -1,6 +1,6 @@
-# Lesson 31: Suffixes -ly and -ful
+# Lesson 28: Suffixes -tion and -sion
 
-**Stage 4** · Lesson 31 · morphology
+**Stage 4** · Lesson 28 · morphology
 
 ---
 
@@ -10,22 +10,22 @@
 
 ---
 
-## New Learning: **-ly/-ful**
+## New Learning: **-tion/-sion**
 
 ### What Is Suffix?
 
--LY means 'in a ___ way' (adverbs). -FUL means 'full of.'
+-TION and -SION mean 'the act of' or 'state of.' They turn verbs into nouns.
 
-### Suffix Means: "in a way, full of"
+### Suffix Means: "act of, state of"
 
 ### Words with Suffix
 
 | Word | Suffix + Root | Meaning |
 |------|---|------||---------|
-| quick ly → quickly | — | — |
-| hope ful → hopeful | — | — |
-| slow ly → slowly | — | — |
-| joy ful → joyful | — | — |
+| act tion → action | — | — |
+| divi sion → division | — | — |
+| collect tion → collection | — | — |
+| deci sion → decision | — | — |
 
 ---
 
@@ -35,17 +35,17 @@ Add **Suffix** to these root words. Write the new word and its meaning.
 
 | Root Word | + Suffix | New Word | Meaning |
 |-----------|---|------||----------|---------|
-| quick | -ly/-fulquick -ly/-ful |  |  |
-| slow | -ly/-fulslow -ly/-ful |  |  |
-| hope | -ly/-fulhope -ly/-ful |  |  |
-| joy | -ly/-fuljoy -ly/-ful |  |  |
-| care | -ly/-fulcare -ly/-ful |  |  |
+| act | -tion/-sionact -tion/-sion |  |  |
+| collect | -tion/-sioncollect -tion/-sion |  |  |
+| divide | -tion/-siondivide -tion/-sion |  |  |
+| decide | -tion/-siondecide -tion/-sion |  |  |
+| direct | -tion/-siondirect -tion/-sion |  |  |
 
 ---
 
 ## Reading Practice
 
-> quickly, slowly, hopeful, joyful, careful, softly, peaceful
+> action, collection, division, decision, direction, nation, mission
 
 ---
 
@@ -53,19 +53,19 @@ Add **Suffix** to these root words. Write the new word and its meaning.
 
 Write each word. Underline the Suffix. Say the meaning aloud.
 
-> quickly &nbsp;&nbsp; slowly &nbsp;&nbsp; hopeful &nbsp;&nbsp; joyful &nbsp;&nbsp; careful
+> action &nbsp;&nbsp; collection &nbsp;&nbsp; division &nbsp;&nbsp; decision &nbsp;&nbsp; nation
 
 ---
 
 ## Quick Check
 
-1. What does **Suffix** mean? *(in a way, full of)*
+1. What does **Suffix** mean? *(act of, state of)*
 2. Build a new word using Suffix + a root.
 3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 33: Suffixes -less -ous
+**Next lesson:** Lesson 30: Suffixes -able -ible
 
 ---
 

@@ -1,6 +1,6 @@
 # Lesson 7: Rule 13 — Drop the Silent E for a Vowel Suffix
 
-**Stage 4** · Lesson 7 · rule-intro
+**Stage 4** · Lesson 7 · rule-intro+practice
 
 ---
 
@@ -39,6 +39,44 @@ make→making, hope→hoping, drive→driving, use→using, bake→baking, write
 
 ---
 
+## Practice: Rule 13: Drop Silent E before vowel suffix
+
+Add -ing and -ed to each word. Remember: drop the silent E!
+
+| Base Word | + -ing | + -ed |
+|-----------|--------|-------|
+| make | making | made (special!) |
+| hope | hoping | hoped |
+| drive | driving | drove (special!) |
+| use | using | used |
+| bake | baking | baked |
+| write | writing | wrote (special!) |
+| smile | smiling | smiled |
+| rake | raking | raked |
+| ride | riding | rode (special!) |
+| take | taking | took (special!) |
+
+> **Watch out!** Some past-tense forms are irregular (made, drove, wrote). We'll learn those later.
+
+### When NOT to Drop the E
+
+Keep the E when adding a CONSONANT suffix (one that starts with a consonant).
+
+| Base Word | + -ful (consonant suffix) | Keep E? |
+|-----------|--------------------------|---------|
+| hope | hopeful | YES — -ful starts with F (consonant) |
+| care | careful | YES |
+| use | useful | YES |
+| peace | peaceful | YES |
+
+### But what about truly, duly, arguing?
+
+When the E is needed to keep C or G soft, don't drop it!
+- change → changeable (keep E so G still says /j/)
+- notice → noticeable (keep E so C still says /s/)
+
+---
+
 ## Spelling Analysis
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
@@ -48,6 +86,15 @@ make→making, hope→hoping, drive→driving, use→using, bake→baking, write
 | driving | d (/d/), r (/r/), i (/ī/), v (/v/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 | /drīv-ing/ |
 | using | u (/ū/), s (/s/), i (/ĭ/), ng (/ng/) | Rule 13 + Rule 4 | /ūz-ing/ |
 
+### Practice Words
+
+| Word | Base Word | Suffix | Changed? | Say-to-Spell |
+|------|-----------|--------|----------|--------------|
+| making | make → mak + ing | Drop E (Rule 13) | /māk-ing/ |
+| hoping | hope → hop + ing | Drop E (Rule 13) | /hōp-ing/ |
+| careful | care + ful | Keep E (consonant suffix) | /kār-fǕl/ |
+| changeable | change + able | Keep E (Rule 2: G→/j/) | /chānj-ā-bl/ |
+
 ---
 
 ## Reading Practice
@@ -56,18 +103,26 @@ make→making, hope→hoping, drive→driving, use→using, bake→baking, write
 
 The baker is making a cake. I am hoping to drive. She is writing and smiling.
 
+### Practice Reading
+
+> making &nbsp; hoping &nbsp; driving &nbsp; careful &nbsp; useful &nbsp; changeable
+
+I am making a cake and hoping it tastes good. Be careful and useful!
+
 ---
 
 ## Quick Check
 
 1. What is Rule 13? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. What happens if you DON'T drop the E? Try 'makeing' — does it look right?
+2. What happens if you DON'T drop the E? Try 'makeing' — does it look right?
+3. When do you drop the silent E? *(Before a vowel suffix.)*)
+4. When do you KEEP the silent E? *(Before a consonant suffix, or to keep C/G soft.)*)
+5. Spell 'making' and 'hoping' from dictation.
 
 ---
 
-**Next lesson:** Lesson 9: Rule 13: Drop Silent E
+**Next lesson:** Lesson 8: Rule 13: Drop Silent E
 
 ---
 
-*Practice at home: Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word!*
+*Practice at home: Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word. Then find 3 words where the E is KEPT (consonant suffix).*

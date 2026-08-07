@@ -1,41 +1,31 @@
-# Lesson 21: Rule 18 — SH Placement
+# Lesson 19: Phonogram ci
 
-**Stage 4** · Lesson 21 · rule-intro
+**Stage 4** · Lesson 19 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Quick flash of all 75 phonograms.
+> Flash all 75 phonograms. Include ti from yesterday!
 
 ---
 
-## New Learning: Rule 18
+## New Learning: The Phonogram **ci**
 
-### The Rule
+<div class="phonogram">ci</div>
 
-> ****SH** is used at the beginning or end of a base word, at the end of a syllable, but NOT at the beginning of a syllable after the first one.**
+**ci** says /sh/ in Latin-based words.
 
-### Why It Matters
+> **Rule 17:** CI is the second most common Latin /sh/ spelling. It usually appears in the middle of words.
 
-SH is the 'regular English' way to spell /sh/. TI/CI/SI are the 'Latin' way. SH appears in everyday English words: ship, fish, wishing. Latin /sh/ (TI/CI/SI) appears in more formal or academic words: nation, special, mission.
+| Usage | Example Words |
+|-------|--------------|
+| /sh/ before vowels | special, social, gracious, precious |
+| /sh/ in -cian words | musician, magician, physician |
 
-### Examples
+### CI vs. TI
 
-SH at start: ship, she, show, shoe
-SH at end: fish, wish, push, crash
-SH in middle (end of syllable): dish·es, push·ing, wash·ing
-Latin /sh/ (mid-word after first syllable): nation, special, session
-
-### Spot the Rule
-
-| Word | How Rule 18 Applies |
-|------|------------------------|
-| ship | SH at beginning ✓ |
-| fish | SH at end ✓ |
-| dishes | SH at end of first syllable ✓ |
-| nation | TI = /sh/ (Latin, after first syllable) ✓ |
-| nashun | NOT English — use 'nation' ✗ |
+Both say /sh/ in Latin words! TI is more common overall, especially in -tion. CI appears in -cial, -cian, and -cious words.
 
 ---
 
@@ -43,30 +33,30 @@ Latin /sh/ (mid-word after first syllable): nation, special, session
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| dishes | d (/d/), i (/ĭ/), sh (/sh/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 18 + 31 | /di-shĕz/ |
-| wishing | w (/w/), i (/ĭ/), sh (/sh/), i (/ĭ/), ng (/ng/) | Rule 18 | /wi-shĭng/ |
-| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /nā-shŏn/ |
+| special | s (/s/), p (/p/), e (/ĕ/), ci (/sh/), a (/ă/→/ə/), l (/l/) | Rule 17 + 31 | /spe-shăl/ |
+| social | s (/s/), o (/ō/), ci (/sh/), a→/ă/ STSp, l | Rule 17 + 31 | /sō-shăl/ |
+| musician | m (/m/), u (/ü/), s (/s/), i (/ĭ/), ci (/sh/), a→/ă/ STSp, n | Rule 17 | /mü-zĭ-shăn/ |
 
 ---
 
-## Reading Practice
+## Reading
 
-> ship &nbsp; fish &nbsp; dishes &nbsp; wishing &nbsp; nation &nbsp; special
+> special &nbsp; social &nbsp; musician &nbsp; precious &nbsp; delicious &nbsp; gracious
 
-The ship had fish and dishes. I am wishing for a special nation!
+> This is a special song. The musician plays a social show. The food is delicious and precious!
 
 ---
 
 ## Quick Check
 
-1. What is Rule 18? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. When do you use SH vs. TI/CI/SI for /sh/? *(SH for everyday words and at start/end. TI/CI/SI for Latin words in the middle.)*
+1. What sound does CI make? *(/sh/ in Latin words)*
+2. Where does CI usually appear? *(In the middle — -cial, -cian, -cious)*
+3. Spell 'special' and 'social' from dictation.
 
 ---
 
-**Next lesson:** Lesson 23: Rule 18: SH Placement
+**Next lesson:** Lesson 20: Phonogram si
 
 ---
 
-*Practice at home: Find 5 words with SH and 3 with Latin /sh/. Compare them!*
+*Practice at home: Find CI words in a book. How many end in -cial?*

@@ -1,6 +1,6 @@
-# Lesson 27: Suffixes -er and -or
+# Lesson 24: Prefixes in- and dis-
 
-**Stage 4** · Lesson 27 · morphology
+**Stage 4** · Lesson 24 · morphology
 
 ---
 
@@ -10,22 +10,22 @@
 
 ---
 
-## New Learning: **-er/-or**
+## New Learning: **in-/dis-**
 
 ### What Is Prefix?
 
--ER and -OR both mean 'one who' or 'that which does something.'
+IN- (and its forms im-, il-, ir-) means 'not.' DIS- also means 'not' or 'opposite.'
 
-### Prefix Means: "one who, that which"
+### Prefix Means: "not, opposite"
 
 ### Words with Prefix
 
 | Word | Prefix + Root | Meaning |
 |------|------||---------|
-| teach er → teacher | — | — |
-| act or → actor | — | — |
-| bake er → baker | — | — |
-| sail or → sailor | — | — |
+| in correct → incorrect | — | — |
+| dis agree → disagree | — | — |
+| im possible → impossible | — | — |
+| dis like → dislike | — | — |
 
 ---
 
@@ -35,17 +35,17 @@ Add **Prefix** to these root words. Write the new word and its meaning.
 
 | Root Word | + Prefix | New Word | Meaning |
 |-----------|------||----------|---------|
-| teach | -er/-or teach | — | — |
-| bake | -er/-or bake | — | — |
-| act | -er/-or act | — | — |
-| sail | -er/-or sail | — | — |
-| invent | -er/-or invent | — | — |
+| correct | in-/dis- correct | — | — |
+| agree | in-/dis- agree | — | — |
+| like | in-/dis- like | — | — |
+| appear | in-/dis- appear | — | — |
+| honest | in-/dis- honest | — | — |
 
 ---
 
 ## Reading Practice
 
-> teacher, baker, actor, sailor, inventor, driver, writer
+> incorrect, disagree, dislike, disappear, dishonest, unable, replay
 
 ---
 
@@ -53,19 +53,19 @@ Add **Prefix** to these root words. Write the new word and its meaning.
 
 Write each word. Underline the Prefix. Say the meaning aloud.
 
-> teacher &nbsp;&nbsp; baker &nbsp;&nbsp; actor &nbsp;&nbsp; sailor &nbsp;&nbsp; inventor
+> incorrect &nbsp;&nbsp; disagree &nbsp;&nbsp; dislike &nbsp;&nbsp; disappear &nbsp;&nbsp; unable
 
 ---
 
 ## Quick Check
 
-1. What does **Prefix** mean? *(one who, that which)*
+1. What does **Prefix** mean? *(not, opposite)*
 2. Build a new word using Prefix + a root.
 3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 29: Suffixes -tion -sion
+**Next lesson:** Lesson 26: Prefixes pre- pro-
 
 ---
 

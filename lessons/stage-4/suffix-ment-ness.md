@@ -1,6 +1,6 @@
-# Lesson 30: Suffixes -ment and -ness
+# Lesson 27: Suffixes -er and -or
 
-**Stage 4** · Lesson 30 · morphology
+**Stage 4** · Lesson 27 · morphology
 
 ---
 
@@ -10,63 +10,63 @@
 
 ---
 
-## New Learning: **-ment/-ness**
+## New Learning: **-er/-or**
 
-### What Is Suffix?
+### What Is Prefix?
 
--MENT means 'the result of' or 'state of.' -NESS means 'the quality of being.'
+-ER and -OR both mean 'one who' or 'that which does something.'
 
-### Suffix Means: "state of, quality of"
+### Prefix Means: "one who, that which"
 
-### Words with Suffix
+### Words with Prefix
 
-| Word | Suffix + Root | Meaning |
-|------|---|------||---------|
-| enjoy ment → enjoyment | — | — |
-| dark ness → darkness | — | — |
-| pay ment → payment | — | — |
-| kind ness → kindness | — | — |
+| Word | Prefix + Root | Meaning |
+|------|------||---------|
+| teach er → teacher | — | — |
+| act or → actor | — | — |
+| bake er → baker | — | — |
+| sail or → sailor | — | — |
 
 ---
 
 ## Word Building
 
-Add **Suffix** to these root words. Write the new word and its meaning.
+Add **Prefix** to these root words. Write the new word and its meaning.
 
-| Root Word | + Suffix | New Word | Meaning |
-|-----------|---|------||----------|---------|
-| enjoy | -ment/-nessenjoy -ment/-ness |  |  |
-| pay | -ment/-nesspay -ment/-ness |  |  |
-| dark | -ment/-nessdark -ment/-ness |  |  |
-| kind | -ment/-nesskind -ment/-ness |  |  |
-| soft | -ment/-nesssoft -ment/-ness |  |  |
+| Root Word | + Prefix | New Word | Meaning |
+|-----------|------||----------|---------|
+| teach | -er/-or teach | — | — |
+| bake | -er/-or bake | — | — |
+| act | -er/-or act | — | — |
+| sail | -er/-or sail | — | — |
+| invent | -er/-or invent | — | — |
 
 ---
 
 ## Reading Practice
 
-> enjoyment, payment, darkness, kindness, softness, treatment, sadness
+> teacher, baker, actor, sailor, inventor, driver, writer
 
 ---
 
 ## Spelling
 
-Write each word. Underline the Suffix. Say the meaning aloud.
+Write each word. Underline the Prefix. Say the meaning aloud.
 
-> enjoyment &nbsp;&nbsp; payment &nbsp;&nbsp; darkness &nbsp;&nbsp; kindness &nbsp;&nbsp; softness
+> teacher &nbsp;&nbsp; baker &nbsp;&nbsp; actor &nbsp;&nbsp; sailor &nbsp;&nbsp; inventor
 
 ---
 
 ## Quick Check
 
-1. What does **Suffix** mean? *(state of, quality of)*
-2. Build a new word using Suffix + a root.
-3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+1. What does **Prefix** mean? *(one who, that which)*
+2. Build a new word using Prefix + a root.
+3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 32: Suffixes -ly -ful
+**Next lesson:** Lesson 29: Suffixes -tion -sion
 
 ---
 
-*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*
+*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*

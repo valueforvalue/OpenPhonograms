@@ -1,82 +1,63 @@
-# Lesson 22: Latin /sh/ Mastery
+# Lesson 20: Phonogram si
 
-**Stage 4** · Lesson 22 · rule-practice
+**Stage 4** · Lesson 20 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Flash all 75 phonograms.
+> Flash all 75 phonograms. Include ti and ci!
 
 ---
 
-## Practice: TI, CI, SI — Latin /sh/ spellings
+## New Learning: The Phonogram **si**
 
-### TI, CI, or SI?
+<div class="phonogram">si</div>
 
-Write the correct Latin /sh/ spelling for each word:
+**si** says /sh/ or /zh/ in Latin-based words.
 
-| Word Fragment | Complete the Word | Which Spelling? |
-|---------------|-------------------|----------------|
-| na____on | nation | TI |
-| spe____al | special | CI |
-| mis____on | mission | SI |
-| ac____on | action | TI |
-| mu____ian | musician | CI |
-| vi____on | vision | SI (/zh/!) |
-| frac____on | fraction | TI |
-| deli____ous | delicious | CI |
-| ses____on | session | SI |
-| sta____on | station | TI |
+> **Rule 17:** SI is the least common Latin /sh/ spelling. It can also say /zh/ (as in 'vision').
 
-### SH or Latin?
+| Sound | Example Words |
+|-------|--------------|
+| /sh/ | session, mission, discussion, passion |
+| /zh/ | vision, division, television, occasion |
 
-| Word | /sh/ Spelling | SH or Latin? |
-|------|--------------|-------------|
-| ship | sh | SH |
-| nation | ti | Latin |
-| fish | sh | SH |
-| special | ci | Latin |
-| dishes | sh | SH |
-| mission | si | Latin |
-| push | sh | SH |
-| fraction | ti | Latin |
+### The /zh/ Sound
 
-### Mixed Spelling
-
-| nation | action | special | mission | fish | ship | dishes | vision | musician | session |
+/zh/ is the voiced version of /sh/. It's the sound in 'treasure' and 'vision.' SI is one of the only ways to spell this sound!
 
 ---
 
 ## Spelling Analysis
 
-| Word | Base Word | Suffix | Changed? | Final Word | Rules |
-|------|-----------|--------|----------|------------|-------|
-| nation | n, a (/ā/), ti (/sh/), o→/ŏ/, n | Rule 17 | /nā-shŏn/ |
-| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/, l | Rule 17 | /spe-shăl/ |
-| mission | m, i (/ĭ/), ss, si (/sh/), o→/ŏ/, n | Rule 17 | /mi-shŏn/ |
-| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/, n | Rule 17 (/zh/) | /vi-zhŏn/ |
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+| session | s (/s/), e (/ĕ/), s (/s/), si (/sh/), o→/ŏ/ STSp, n | Rule 17 | /se-shŏn/ |
+| mission | m (/m/), i (/ĭ/), s (/s/), si (/sh/), o→/ŏ/ STSp, n | Rule 17 | /mi-shŏn/ |
+| vision | v (/v/), i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |
+| television | t (/t/), e (/ĕ/), l (/l/), e (/ĕ/), v (/v/), i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /tel-ĕ-vi-zhŏn/ |
 
 ---
 
-## Reading Practice
+## Reading
 
-> nation &nbsp; special &nbsp; mission &nbsp; vision &nbsp; action &nbsp; musician
+> session &nbsp; mission &nbsp; vision &nbsp; television &nbsp; discussion &nbsp; division
 
-The nation has a special mission. My vision of the action is clear. The musician plays!
+> The session is a mission. My vision is good. Watch television after the discussion.
 
 ---
 
 ## Quick Check
 
-1. Which Latin /sh/ spelling says /zh/? *(SI — as in vision and television.)*
-2. What's the difference between SH and TI? *(SH is for everyday English; TI is Latin for -tion words.)*
-3. Spell 'nation,' 'special,' and 'mission' from dictation.
+1. What TWO sounds can SI make? *(/sh/ and /zh/)*
+2. Give a word where SI says /zh/. *(vision, television, division)*
+3. Spell 'mission' and 'vision' from dictation.
 
 ---
 
-**Next lesson:** Lesson 24: Latin /sh/ Mastery
+**Next lesson:** Lesson 21: Rule 17
 
 ---
 
-*Practice at home: Write 3 words with SH and 3 with Latin /sh/. Explain the difference!*
+*Practice at home: Find SI words in a book. Does SI say /sh/ or /zh/?*

@@ -1,6 +1,6 @@
-# Lesson 25: Prefixes pre- and pro-
+# Lesson 19: Latin /sh/ Mastery
 
-**Stage 4** · Lesson 25 · morphology
+**Stage 4** · Lesson 19 · rule-practice
 
 ---
 
@@ -10,63 +10,73 @@
 
 ---
 
-## New Learning: **pre-/pro-**
+## Practice: TI, CI, SI — Latin /sh/ spellings
 
-### What Is Prefix?
+### TI, CI, or SI?
 
-PRE- means 'before.' PRO- means 'forward' or 'for.'
+Write the correct Latin /sh/ spelling for each word:
 
-### Prefix Means: "before, forward"
+| Word Fragment | Complete the Word | Which Spelling? |
+|---------------|-------------------|----------------|
+| na____on | nation | TI |
+| spe____al | special | CI |
+| mis____on | mission | SI |
+| ac____on | action | TI |
+| mu____ian | musician | CI |
+| vi____on | vision | SI (/zh/!) |
+| frac____on | fraction | TI |
+| deli____ous | delicious | CI |
+| ses____on | session | SI |
+| sta____on | station | TI |
 
-### Words with Prefix
+### SH or Latin?
 
-| Word | Prefix + Root | Meaning |
-|------|------||---------|
-| pre view → preview | — | — |
-| pro ceed → proceed | — | — |
-| pre pay → prepay | — | — |
-| pro pel → propel | — | — |
+| Word | /sh/ Spelling | SH or Latin? |
+|------|--------------|-------------|
+| ship | sh | SH |
+| nation | ti | Latin |
+| fish | sh | SH |
+| special | ci | Latin |
+| dishes | sh | SH |
+| mission | si | Latin |
+| push | sh | SH |
+| fraction | ti | Latin |
+
+### Mixed Spelling
+
+| nation | action | special | mission | fish | ship | dishes | vision | musician | session |
 
 ---
 
-## Word Building
+## Spelling Analysis
 
-Add **Prefix** to these root words. Write the new word and its meaning.
-
-| Root Word | + Prefix | New Word | Meaning |
-|-----------|------||----------|---------|
-| view | pre-/pro- view | — | — |
-| pay | pre-/pro- pay | — | — |
-| test | pre-/pro- test | — | — |
-| cede | pre-/pro- cede | — | — |
-| claim | pre-/pro- claim | — | — |
+| Word | Base Word | Suffix | Changed? | Final Word | Rules |
+|------|-----------|--------|----------|------------|-------|
+| nation | n, a (/ā/), ti (/sh/), o→/ŏ/, n | Rule 17 | /nā-shŏn/ |
+| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/, l | Rule 17 | /spe-shăl/ |
+| mission | m, i (/ĭ/), ss, si (/sh/), o→/ŏ/, n | Rule 17 | /mi-shŏn/ |
+| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/, n | Rule 17 (/zh/) | /vi-zhŏn/ |
 
 ---
 
 ## Reading Practice
 
-> preview, prepay, pretest, proceed, proclaim, propel, prefix
+> nation &nbsp; special &nbsp; mission &nbsp; vision &nbsp; action &nbsp; musician
 
----
-
-## Spelling
-
-Write each word. Underline the Prefix. Say the meaning aloud.
-
-> preview &nbsp;&nbsp; prepay &nbsp;&nbsp; proceed &nbsp;&nbsp; propel &nbsp;&nbsp; pretest
+The nation has a special mission. My vision of the action is clear. The musician plays!
 
 ---
 
 ## Quick Check
 
-1. What does **Prefix** mean? *(before, forward)*
-2. Build a new word using Prefix + a root.
-3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+1. Which Latin /sh/ spelling says /zh/? *(SI — as in vision and television.)*
+2. What's the difference between SH and TI? *(SH is for everyday English; TI is Latin for -tion words.)*
+3. Spell 'nation,' 'special,' and 'mission' from dictation.
 
 ---
 
-**Next lesson:** Lesson 27: Prefixes sub- inter-
+**Next lesson:** Lesson 21: Phonogram si
 
 ---
 
-*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*
+*Practice at home: Write 3 words with SH and 3 with Latin /sh/. Explain the difference!*

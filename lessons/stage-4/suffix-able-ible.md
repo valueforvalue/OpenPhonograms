@@ -1,6 +1,6 @@
-# Lesson 29: Suffixes -able and -ible
+# Lesson 26: Prefixes sub- and inter-
 
-**Stage 4** · Lesson 29 · morphology
+**Stage 4** · Lesson 26 · morphology
 
 ---
 
@@ -10,63 +10,63 @@
 
 ---
 
-## New Learning: **-able/-ible**
+## New Learning: **sub-/inter-**
 
-### What Is Suffix?
+### What Is Prefix?
 
--ABLE and -IBLE mean 'able to be' or 'can be done.' Most words use -able.
+SUB- means 'under' or 'below.' INTER- means 'between' or 'among.'
 
-### Suffix Means: "able to be"
+### Prefix Means: "under, between"
 
-### Words with Suffix
+### Words with Prefix
 
-| Word | Suffix + Root | Meaning |
-|------|---|------||---------|
-| wash able → washable | — | — |
-| vis ible → visible | — | — |
-| read able → readable | — | — |
-| flex ible → flexible | — | — |
+| Word | Prefix + Root | Meaning |
+|------|------||---------|
+| sub marine → submarine | — | — |
+| inter national → international | — | — |
+| sub way → subway | — | — |
+| inter act → interact | — | — |
 
 ---
 
 ## Word Building
 
-Add **Suffix** to these root words. Write the new word and its meaning.
+Add **Prefix** to these root words. Write the new word and its meaning.
 
-| Root Word | + Suffix | New Word | Meaning |
-|-----------|---|------||----------|---------|
-| wash | -able/-iblewash -able/-ible |  |  |
-| read | -able/-ibleread -able/-ible |  |  |
-| flex | -able/-ibleflex -able/-ible |  |  |
-| break | -able/-iblebreak -able/-ible |  |  |
-| love | -able/-iblelove -able/-ible |  |  |
+| Root Word | + Prefix | New Word | Meaning |
+|-----------|------||----------|---------|
+| marine | sub-/inter- marine | — | — |
+| way | sub-/inter- way | — | — |
+| merge | sub-/inter- merge | — | — |
+| view | sub-/inter- view | — | — |
+| change | sub-/inter- change | — | — |
 
 ---
 
 ## Reading Practice
 
-> washable, readable, flexible, breakable, lovable, visible, audible
+> submarine, subway, submerge, interview, international, interact
 
 ---
 
 ## Spelling
 
-Write each word. Underline the Suffix. Say the meaning aloud.
+Write each word. Underline the Prefix. Say the meaning aloud.
 
-> washable &nbsp;&nbsp; readable &nbsp;&nbsp; flexible &nbsp;&nbsp; breakable &nbsp;&nbsp; visible
+> submarine &nbsp;&nbsp; subway &nbsp;&nbsp; interview &nbsp;&nbsp; international &nbsp;&nbsp; interact
 
 ---
 
 ## Quick Check
 
-1. What does **Suffix** mean? *(able to be)*
-2. Build a new word using Suffix + a root.
-3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+1. What does **Prefix** mean? *(under, between)*
+2. Build a new word using Prefix + a root.
+3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 31: Suffixes -ment -ness
+**Next lesson:** Lesson 28: Suffixes -er -or
 
 ---
 
-*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*
+*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*

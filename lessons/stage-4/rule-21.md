@@ -1,6 +1,6 @@
-# Lesson 36: Rule 21 — Plural -S and -ES
+# Lesson 30: Rule 23 — AL- Prefix Has One L
 
-**Stage 4** · Lesson 36 · rule-intro
+**Stage 4** · Lesson 30 · rule-intro
 
 ---
 
@@ -10,29 +10,30 @@
 
 ---
 
-## New Learning: Rule 21
+## New Learning: Rule 23
 
 ### The Rule
 
-> **To make most nouns plural, add **-S**. Add **-ES** when the word ends in S, SH, CH, X, or Z.**
+> **The prefix **AL-** has only one L.**
 
 ### Why It Matters
 
-The -ES adds a syllable /ez/ so you can hear the plural. 'Box' + 's' = 'boxs' (hard to say!). 'Box' + 'es' = 'boxes' (easy!). The E provides an extra syllable.
+AL- is a prefix meaning 'all' or 'to/toward.' Even though 'all' has two L's, the prefix AL- has only one. Compare: all + ready → already, all + though → although, all + ways → always. The prefix 'almost always' has one L!
 
 ### Examples
 
-cat→cats, dog→dogs, box→boxes, dish→dishes, church→churches, buzz→buzzes, bus→buses, fox→foxes
+already, although, always, also, almost, altogether, albeit
 
 ### Spot the Rule
 
-| Word | How Rule 21 Applies |
+| Word | How Rule 23 Applies |
 |------|------------------------|
-| cat + s | cats — just add S |
-| box + es | boxes — ends in X, needs ES |
-| dish + es | dishes — ends in SH, needs ES |
-| church + es | churches — ends in CH, needs ES |
-| buzz + es | buzzes — ends in Z, needs ES |
+| already | AL- (one L) + ready |
+| although | AL- (one L) + though |
+| always | AL- (one L) + ways |
+| almost | AL- (one L) + most |
+| also | AL- (one L) + so |
+| altogether | AL- + together |
 
 ---
 
@@ -40,30 +41,30 @@ cat→cats, dog→dogs, box→boxes, dish→dishes, church→churches, buzz→bu
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| boxes | b (/b/), o (/ŏ/), x (/ks/), e (/ə/→/ĕ/ STSp), s (/z/) | Rule 21 | /bŏk-sĕz/ |
-| dishes | d, i (/ĭ/), sh (/sh/), e→/ĕ/, s (/z/) | Rule 21 + 31 | /dĭ-shĕz/ |
-| churches | ch (/ch/), ur (/er/), ch (/ch/), e→/ĕ/, s | Rule 21 + 31 | /cher-chĕz/ |
+| already | al- (/äl/), r (/r/), ea (/ĕ/), d (/d/), y (/ē/) | Rule 23 | /äl-red-ē/ |
+| always | al- (/äl/), w (/w/), ay (/ā/), s (/z/) | Rule 23 | /äl-wāz/ |
+| almost | al- (/äl/), m (/m/), o (/ō/), s (/s/), t (/t/) | Rule 23 | /äl-mōst/ |
 
 ---
 
 ## Reading Practice
 
-> cats &nbsp; dogs &nbsp; boxes &nbsp; dishes &nbsp; churches &nbsp; foxes &nbsp; buses
+> already &nbsp; although &nbsp; always &nbsp; also &nbsp; almost
 
-The cats and dogs have boxes. The dishes are in the churches. Foxes ride buses!
+I already ate. Although it is late, I always read. I also almost finished!
 
 ---
 
 ## Quick Check
 
-1. What is Rule 21? *(Restate in your own words.)*
+1. What is Rule 23? *(Restate in your own words.)*
 2. Give two examples that follow this rule.
-3. Why does 'box' need -ES instead of just -S? *(It ends in X — you can't hear the plural without the extra syllable!)*
+3. Why does 'already' have one L but 'all ready' has two? *(The prefix AL- has one L. 'All ready' is two separate words.)*
 
 ---
 
-**Next lesson:** Lesson 38: Rule 21: Plural -S -ES
+**Next lesson:** Lesson 32: Suffixes -ment -ness
 
 ---
 
-*Practice at home: Write the plural of: cat, box, dish, church, fox, bus. Circle the ones that use -ES.*
+*Practice at home: Find AL- words in a book. Write them and circle the one-L prefix.*

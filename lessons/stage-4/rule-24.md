@@ -1,69 +1,72 @@
-# Lesson 34: Rule 24 — -FUL Suffix Has One L
+# Lesson 31: Suffixes -ly and -ful
 
-**Stage 4** · Lesson 34 · rule-intro
+**Stage 4** · Lesson 31 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Quick flash of all 75 phonograms.
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Rule 24
+## New Learning: **-ly/-ful**
 
-### The Rule
+### What Is Suffix?
 
-> **The suffix **-FUL** has only one L.**
+-LY means 'in a ___ way' (adverbs). -FUL means 'full of.'
 
-### Why It Matters
+### Suffix Means: "in a way, full of"
 
-Though 'full' has two L's, the suffix -FUL has only one. Compare: hope + full → hopeful (one L), use + full → useful, beauty + full → beautiful. Only one L in the suffix!
+### Words with Suffix
 
-### Examples
-
-hopeful, useful, beautiful, careful, joyful, playful, helpful, thankful, wonderful, powerful
-
-### Spot the Rule
-
-| Word | How Rule 24 Applies |
-|------|------------------------|
-| hope + ful | helpful — one L |
-| care + ful | careful — one L |
-| use + ful | useful — one L |
-| beauty + ful | beautiful — one L (Y→I first!) |
-| joy + ful | joyful — one L |
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| quick ly → quickly | — | — |
+| hope ful → hopeful | — | — |
+| slow ly → slowly | — | — |
+| joy ful → joyful | — | — |
 
 ---
 
-## Spelling Analysis
+## Word Building
 
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-| hopeful | h (/h/), o (/ō/), p (/p/), e (/ə/→/ĕ/ STSp), ful (/fŭl/) | Rules 24 + 31 | /hōp-fŭl/ |
-| careful | c (/k/), are (/ār/), ful (/fŭl/) | Rule 24 | /kār-fŭl/ |
-| beautiful | b (/b/), eau (/ü/), ti (/t/), i→/ĭ/, ful (/fŭl/) | Rules 15 + 24 | /büt-ĭ-fŭl/ |
+Add **Suffix** to these root words. Write the new word and its meaning.
+
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| quick | -ly/-fulquick -ly/-ful |  |  |
+| slow | -ly/-fulslow -ly/-ful |  |  |
+| hope | -ly/-fulhope -ly/-ful |  |  |
+| joy | -ly/-fuljoy -ly/-ful |  |  |
+| care | -ly/-fulcare -ly/-ful |  |  |
 
 ---
 
 ## Reading Practice
 
-> hopeful &nbsp; careful &nbsp; beautiful &nbsp; useful &nbsp; joyful &nbsp; thankful
+> quickly, slowly, hopeful, joyful, careful, softly, peaceful
 
-Be hopeful and careful. The beautiful painting is useful. I am joyful and thankful!
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> quickly &nbsp;&nbsp; slowly &nbsp;&nbsp; hopeful &nbsp;&nbsp; joyful &nbsp;&nbsp; careful
 
 ---
 
 ## Quick Check
 
-1. What is Rule 24? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. Why does 'beautiful' change Y to I? *(Rule 15: Y→I before a suffix. Beauty + ful → beautiful.)*
+1. What does **Suffix** mean? *(in a way, full of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 36: Rule 24: -FUL
+**Next lesson:** Lesson 33: Suffixes -less -ous
 
 ---
 
-*Practice at home: Write 5 words with the -ful suffix. Circle the one-L suffix in each.*
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

@@ -1,69 +1,72 @@
-# Lesson 35: Rule 19 — Past Tense -ED Sounds
+# Lesson 32: Suffixes -less and -ous
 
-**Stage 4** · Lesson 35 · rule-intro
+**Stage 4** · Lesson 32 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Quick flash of all 75 phonograms.
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Rule 19
+## New Learning: **-less/-ous**
 
-### The Rule
+### What Is Suffix?
 
-> **The past-tense ending **-ED** forms the past tense of regular verbs. Its spelling is always -ED, but its sound varies.**
+-LESS means 'without.' -OUS means 'full of' or 'having the quality of.'
 
-### Why It Matters
+### Suffix Means: "without, full of"
 
-You already learned the three sounds of -ED from Rule 20 (Stage 2). Rule 19 is about using -ED to form past tense. Most verbs just add -ED. Some double the consonant (Rule 14: stop→stopped). Some drop silent E (Rule 13: bake→baked). Some change Y→I (Rule 15: carry→carried).
+### Words with Suffix
 
-### Examples
-
-walk→walked, play→played, stop→stopped, bake→baked, carry→carried, try→tried, hop→hopped, hope→hoped
-
-### Spot the Rule
-
-| Word | How Rule 19 Applies |
-|------|------------------------|
-| walk + ed | walked — no change needed |
-| stop + ed | stopped — double P (Rule 14) |
-| bake + ed | baked — drop E (Rule 13) |
-| carry + ed | carried — Y→I (Rule 15) |
-| play + ed | played — no change (AY is a phonogram) |
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| hope less → hopeless | — | — |
+| danger ous → dangerous | — | — |
+| fear less → fearless | — | — |
+| joy ous → joyous | — | — |
 
 ---
 
-## Spelling Analysis
+## Word Building
 
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-| walked | w (/w/), a (/ä/), l (/l/), k (/k/), ed (/t/) | Rule 19: ED says /t/ after unvoiced /k/ | /wäkt/ |
-| played | p (/p/), l (/l/), ay (/ā/), ed (/d/) | Rules 19-20: ED=/d/ after voiced | /plād/ |
-| stopped | s (/s/), t (/t/), o (/ŏ/), p (/p/), p (/p/), ed (/t/) | Rules 14 + 19 + 20 | /stŏpt/ |
+Add **Suffix** to these root words. Write the new word and its meaning.
+
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| hope | -less/-oushope -less/-ous |  |  |
+| fear | -less/-ousfear -less/-ous |  |  |
+| danger | -less/-ousdanger -less/-ous |  |  |
+| joy | -less/-ousjoy -less/-ous |  |  |
+| nerve | -less/-ousnerve -less/-ous |  |  |
 
 ---
 
 ## Reading Practice
 
-> walked &nbsp; played &nbsp; stopped &nbsp; baked &nbsp; carried &nbsp; tried
+> hopeless, fearless, dangerous, joyous, nervous, careless, famous
 
-I walked to the park and played. The rain stopped. Mom baked a cake. I carried it home.
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> hopeless &nbsp;&nbsp; fearless &nbsp;&nbsp; dangerous &nbsp;&nbsp; joyous &nbsp;&nbsp; nervous
 
 ---
 
 ## Quick Check
 
-1. What is Rule 19? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. How many rules can apply when forming past tense? *(Up to 3: Rules 13, 14, 15, 19, 20!)*
+1. What does **Suffix** mean? *(without, full of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 37: Rule 19: Past Tense -ED
+**Next lesson:** Lesson 34: Rule 23: AL-
 
 ---
 
-*Practice at home: Write the past tense of: walk, stop, bake, carry, play, try. Name the rules you used.*
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

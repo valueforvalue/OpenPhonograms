@@ -1,6 +1,6 @@
-# Lesson 42: Reader: Trains — A Blast of Fast
+# Lesson 39: Reader: Trains — A Blast of Fast
 
-**Stage 4** · Lesson 42 · reader
+**Stage 4** · Lesson 39 · reader
 
 ---
 
@@ -82,7 +82,7 @@ The End.
 
 ---
 
-**Next lesson:** Lesson 44: Reader: Trains
+**Next lesson:** Lesson 41: Irregular Verbs
 
 ---
 

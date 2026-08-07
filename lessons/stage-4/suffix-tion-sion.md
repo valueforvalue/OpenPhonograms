@@ -1,6 +1,6 @@
-# Lesson 28: Suffixes -tion and -sion
+# Lesson 25: Prefixes pre- and pro-
 
-**Stage 4** · Lesson 28 · morphology
+**Stage 4** · Lesson 25 · morphology
 
 ---
 
@@ -10,63 +10,63 @@
 
 ---
 
-## New Learning: **-tion/-sion**
+## New Learning: **pre-/pro-**
 
-### What Is Suffix?
+### What Is Prefix?
 
--TION and -SION mean 'the act of' or 'state of.' They turn verbs into nouns.
+PRE- means 'before.' PRO- means 'forward' or 'for.'
 
-### Suffix Means: "act of, state of"
+### Prefix Means: "before, forward"
 
-### Words with Suffix
+### Words with Prefix
 
-| Word | Suffix + Root | Meaning |
-|------|---|------||---------|
-| act tion → action | — | — |
-| divi sion → division | — | — |
-| collect tion → collection | — | — |
-| deci sion → decision | — | — |
+| Word | Prefix + Root | Meaning |
+|------|------||---------|
+| pre view → preview | — | — |
+| pro ceed → proceed | — | — |
+| pre pay → prepay | — | — |
+| pro pel → propel | — | — |
 
 ---
 
 ## Word Building
 
-Add **Suffix** to these root words. Write the new word and its meaning.
+Add **Prefix** to these root words. Write the new word and its meaning.
 
-| Root Word | + Suffix | New Word | Meaning |
-|-----------|---|------||----------|---------|
-| act | -tion/-sionact -tion/-sion |  |  |
-| collect | -tion/-sioncollect -tion/-sion |  |  |
-| divide | -tion/-siondivide -tion/-sion |  |  |
-| decide | -tion/-siondecide -tion/-sion |  |  |
-| direct | -tion/-siondirect -tion/-sion |  |  |
+| Root Word | + Prefix | New Word | Meaning |
+|-----------|------||----------|---------|
+| view | pre-/pro- view | — | — |
+| pay | pre-/pro- pay | — | — |
+| test | pre-/pro- test | — | — |
+| cede | pre-/pro- cede | — | — |
+| claim | pre-/pro- claim | — | — |
 
 ---
 
 ## Reading Practice
 
-> action, collection, division, decision, direction, nation, mission
+> preview, prepay, pretest, proceed, proclaim, propel, prefix
 
 ---
 
 ## Spelling
 
-Write each word. Underline the Suffix. Say the meaning aloud.
+Write each word. Underline the Prefix. Say the meaning aloud.
 
-> action &nbsp;&nbsp; collection &nbsp;&nbsp; division &nbsp;&nbsp; decision &nbsp;&nbsp; nation
+> preview &nbsp;&nbsp; prepay &nbsp;&nbsp; proceed &nbsp;&nbsp; propel &nbsp;&nbsp; pretest
 
 ---
 
 ## Quick Check
 
-1. What does **Suffix** mean? *(act of, state of)*
-2. Build a new word using Suffix + a root.
-3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
+1. What does **Prefix** mean? *(before, forward)*
+2. Build a new word using Prefix + a root.
+3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 30: Suffixes -able -ible
+**Next lesson:** Lesson 27: Prefixes sub- inter-
 
 ---
 
-*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*
+*Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*

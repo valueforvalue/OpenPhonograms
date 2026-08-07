@@ -1,6 +1,6 @@
-# Lesson 37: Rule 22 — 3rd Person Singular -S and -ES
+# Lesson 31: Rule 24 — -FUL Suffix Has One L
 
-**Stage 4** · Lesson 37 · rule-intro
+**Stage 4** · Lesson 31 · rule-intro
 
 ---
 
@@ -10,28 +10,29 @@
 
 ---
 
-## New Learning: Rule 22
+## New Learning: Rule 24
 
 ### The Rule
 
-> **To make a verb agree with he/she/it in present tense, add **-S**. Add **-ES** when the verb ends in S, SH, CH, X, or Z.**
+> **The suffix **-FUL** has only one L.**
 
 ### Why It Matters
 
-Same pattern as plural nouns! He/she/it verbs need -S. When the verb ends in a hissing sound (S, SH, CH, X, Z), add -ES so you can hear the ending.
+Though 'full' has two L's, the suffix -FUL has only one. Compare: hope + full → hopeful (one L), use + full → useful, beauty + full → beautiful. Only one L in the suffix!
 
 ### Examples
 
-run→runs, walk→walks, fix→fixes, wash→washes, watch→watches, buzz→buzzes, miss→misses, catch→catches
+hopeful, useful, beautiful, careful, joyful, playful, helpful, thankful, wonderful, powerful
 
 ### Spot the Rule
 
-| Word | How Rule 22 Applies |
+| Word | How Rule 24 Applies |
 |------|------------------------|
-| he run + s | he runs — just add S |
-| she fix + es | she fixes — ends in X |
-| it wash + es | it washes — ends in SH |
-| he catch + es | he catches — ends in CH (Rule 27: TCH after short a!) |
+| hope + ful | helpful — one L |
+| care + ful | careful — one L |
+| use + ful | useful — one L |
+| beauty + ful | beautiful — one L (Y→I first!) |
+| joy + ful | joyful — one L |
 
 ---
 
@@ -39,30 +40,30 @@ run→runs, walk→walks, fix→fixes, wash→washes, watch→watches, buzz→bu
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| fixes | f (/f/), i (/ĭ/), x (/ks/), e→/ĕ/, s | Rule 22 + 31 | /fĭk-sĕz/ |
-| washes | w (/w/), a (/ä/), sh (/sh/), e→/ĕ/, s | Rules 10 + 22 | /wä-shĕz/ |
-| catches | c (/k/), a (/ă/), tch (/ch/), e→/ĕ/, s | Rules 22 + 27 | /kă-chĕz/ |
+| hopeful | h (/h/), o (/ō/), p (/p/), e (/ə/→/ĕ/ STSp), ful (/fŭl/) | Rules 24 + 31 | /hōp-fŭl/ |
+| careful | c (/k/), are (/ār/), ful (/fŭl/) | Rule 24 | /kār-fŭl/ |
+| beautiful | b (/b/), eau (/ü/), ti (/t/), i→/ĭ/, ful (/fŭl/) | Rules 15 + 24 | /büt-ĭ-fŭl/ |
 
 ---
 
 ## Reading Practice
 
-> runs &nbsp; walks &nbsp; fixes &nbsp; washes &nbsp; catches &nbsp; watches
+> hopeful &nbsp; careful &nbsp; beautiful &nbsp; useful &nbsp; joyful &nbsp; thankful
 
-He runs and walks. She fixes the box. It washes away. He catches the ball and watches the game.
+Be hopeful and careful. The beautiful painting is useful. I am joyful and thankful!
 
 ---
 
 ## Quick Check
 
-1. What is Rule 22? *(Restate in your own words.)*
+1. What is Rule 24? *(Restate in your own words.)*
 2. Give two examples that follow this rule.
-3. What do plural nouns and 3rd person verbs have in common? *(Both use -S or -ES following the same rules!)*
+3. Why does 'beautiful' change Y to I? *(Rule 15: Y→I before a suffix. Beauty + ful → beautiful.)*
 
 ---
 
-**Next lesson:** Lesson 39: Rule 22: 3rd Person -S -ES
+**Next lesson:** Lesson 33: Suffixes -ly -ful
 
 ---
 
-*Practice at home: Write: he (run), she (fix), it (wash), he (catch). Apply Rule 22 to each.*
+*Practice at home: Write 5 words with the -ful suffix. Circle the one-L suffix in each.*

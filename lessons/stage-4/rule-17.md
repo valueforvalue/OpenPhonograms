@@ -1,40 +1,31 @@
-# Lesson 20: Rule 17 — Latin /sh/ — TI, CI, SI
+# Lesson 18: Phonogram ti
 
-**Stage 4** · Lesson 20 · rule-intro
+**Stage 4** · Lesson 18 · phonogram-intro
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Quick flash of all 75 phonograms.
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Rule 17
+## New Learning: The Phonogram **ti**
 
-### The Rule
+<div class="phonogram">ti</div>
 
-> ****TI**, **CI**, and **SI** spell /sh/ in words of Latin origin. TI is most common; SI can also say /zh/.**
+**ti** says /sh/ in Latin-based words.
 
-### Why It Matters
+> **Rule 17:** TI, CI, and SI spell /sh/ in words of Latin origin. TI is the most common.
 
-English borrowed thousands of words from Latin. Latin had a sound like /sh/ that was spelled differently depending on the root word. English kept these spellings! -tion is the most common (nation, action), -cial comes next (special, social), and -sion is least common but can say /zh/ (vision).
+| Usage | Example Words |
+|-------|--------------|
+| /sh/ in -tion words | nation, action, station, fraction |
+| /sh/ in other Latin words | patient, partial, initial, martial |
 
-### Examples
+### Where Does TI Say /sh/?
 
-TI: nation, action, station, fraction, patient, partial
-CI: special, social, musician, precious, delicious
-SI: mission, session, vision (/zh/), television (/zh/)
-
-### Spot the Rule
-
-| Word | How Rule 17 Applies |
-|------|------------------------|
-| nation | -tion → TI = /sh/ |
-| special | -cial → CI = /sh/ |
-| mission | -sion → SI = /sh/ |
-| vision | -sion → SI = /zh/ |
-| musician | -cian → CI = /sh/ |
+TI says /sh/ when followed by another vowel (most often -tion). The T and I work together to make one sound: /sh/.
 
 ---
 
@@ -42,30 +33,31 @@ SI: mission, session, vision (/zh/), television (/zh/)
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| nation | n, a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 | /nā-shŏn/ |
-| special | s, p, e (/ĕ/), ci (/sh/), a→/ă/ STSp, l | Rule 17 + 31 | /spe-shăl/ |
-| vision | v, i (/ĭ/), si (/zh/), o→/ŏ/ STSp, n | Rule 17 | /vi-zhŏn/ |
+| nation | n (/n/), a (/ā/), ti (/sh/), o (/ə/→/ŏ/ STSp), n (/n/) | Rule 17: Latin TI=/sh/ | /nā-shŏn/ |
+| action | a (/ă/), c (/k/), ti (/sh/), o (/ə/→/ŏ/ STSp), n (/n/) | Rule 17 | /ăk-shŏn/ |
+| station | s (/s/), t (/t/), a (/ā/), ti (/sh/), o→/ŏ/ STSp, n | Rule 17 + 31 | /stā-shŏn/ |
+| patient | p (/p/), a (/ā/), ti (/sh/), e (/ĕ/), n (/n/), t (/t/) | Rule 17 | /pā-shĕnt/ |
 
 ---
 
-## Reading Practice
+## Reading
 
-> nation &nbsp; special &nbsp; vision &nbsp; action &nbsp; musician &nbsp; mission
+> nation &nbsp; action &nbsp; station &nbsp; patient &nbsp; fraction &nbsp; partial &nbsp; initial
 
-The nation has a special vision. The musician's mission is action!
+> The nation took action. The train station is near. Be patient with fractions!
 
 ---
 
 ## Quick Check
 
-1. What is Rule 17? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. Which Latin /sh/ spelling is the most common? *(TI — especially in -tion words.)*
+1. What sound does TI make? *(/sh/ — in Latin words)*
+2. When does TI say /sh/? *(When followed by a vowel, usually -tion)*
+3. Spell 'nation' and 'action' from dictation.
 
 ---
 
-**Next lesson:** Lesson 22: Rule 17: Latin /sh/
+**Next lesson:** Lesson 19: Phonogram ci
 
 ---
 
-*Practice at home: Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.*
+*Practice at home: Find 5 words with -tion in a book!*

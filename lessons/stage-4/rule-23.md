@@ -1,70 +1,72 @@
-# Lesson 33: Rule 23 — AL- Prefix Has One L
+# Lesson 30: Suffixes -ment and -ness
 
-**Stage 4** · Lesson 33 · rule-intro
+**Stage 4** · Lesson 30 · morphology
 
 ---
 
 ## Warm-Up: Phonogram Flash Review
 
-> Quick flash of all 75 phonograms.
+> Flash all 75 phonograms.
 
 ---
 
-## New Learning: Rule 23
+## New Learning: **-ment/-ness**
 
-### The Rule
+### What Is Suffix?
 
-> **The prefix **AL-** has only one L.**
+-MENT means 'the result of' or 'state of.' -NESS means 'the quality of being.'
 
-### Why It Matters
+### Suffix Means: "state of, quality of"
 
-AL- is a prefix meaning 'all' or 'to/toward.' Even though 'all' has two L's, the prefix AL- has only one. Compare: all + ready → already, all + though → although, all + ways → always. The prefix 'almost always' has one L!
+### Words with Suffix
 
-### Examples
-
-already, although, always, also, almost, altogether, albeit
-
-### Spot the Rule
-
-| Word | How Rule 23 Applies |
-|------|------------------------|
-| already | AL- (one L) + ready |
-| although | AL- (one L) + though |
-| always | AL- (one L) + ways |
-| almost | AL- (one L) + most |
-| also | AL- (one L) + so |
-| altogether | AL- + together |
+| Word | Suffix + Root | Meaning |
+|------|---|------||---------|
+| enjoy ment → enjoyment | — | — |
+| dark ness → darkness | — | — |
+| pay ment → payment | — | — |
+| kind ness → kindness | — | — |
 
 ---
 
-## Spelling Analysis
+## Word Building
 
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-| already | al- (/äl/), r (/r/), ea (/ĕ/), d (/d/), y (/ē/) | Rule 23 | /äl-red-ē/ |
-| always | al- (/äl/), w (/w/), ay (/ā/), s (/z/) | Rule 23 | /äl-wāz/ |
-| almost | al- (/äl/), m (/m/), o (/ō/), s (/s/), t (/t/) | Rule 23 | /äl-mōst/ |
+Add **Suffix** to these root words. Write the new word and its meaning.
+
+| Root Word | + Suffix | New Word | Meaning |
+|-----------|---|------||----------|---------|
+| enjoy | -ment/-nessenjoy -ment/-ness |  |  |
+| pay | -ment/-nesspay -ment/-ness |  |  |
+| dark | -ment/-nessdark -ment/-ness |  |  |
+| kind | -ment/-nesskind -ment/-ness |  |  |
+| soft | -ment/-nesssoft -ment/-ness |  |  |
 
 ---
 
 ## Reading Practice
 
-> already &nbsp; although &nbsp; always &nbsp; also &nbsp; almost
+> enjoyment, payment, darkness, kindness, softness, treatment, sadness
 
-I already ate. Although it is late, I always read. I also almost finished!
+---
+
+## Spelling
+
+Write each word. Underline the Suffix. Say the meaning aloud.
+
+> enjoyment &nbsp;&nbsp; payment &nbsp;&nbsp; darkness &nbsp;&nbsp; kindness &nbsp;&nbsp; softness
 
 ---
 
 ## Quick Check
 
-1. What is Rule 23? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. Why does 'already' have one L but 'all ready' has two? *(The prefix AL- has one L. 'All ready' is two separate words.)*
+1. What does **Suffix** mean? *(state of, quality of)*
+2. Build a new word using Suffix + a root.
+3. How does knowing Suffix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 35: Rule 23: AL-
+**Next lesson:** Lesson 32: Suffixes -ly -ful
 
 ---
 
-*Practice at home: Find AL- words in a book. Write them and circle the one-L prefix.*
+*Practice at home: Find 5 words with Suffix in a book. Write them and their meanings.*

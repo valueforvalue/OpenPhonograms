@@ -1,6 +1,6 @@
-# Lesson 9: Rule 14 — Double the Consonant for a Vowel Suffix
+# Lesson 8: Rule 14 — Double the Consonant for a Vowel Suffix
 
-**Stage 4** · Lesson 9 · rule-intro
+**Stage 4** · Lesson 8 · rule-intro+practice
 
 ---
 
@@ -37,13 +37,49 @@ run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, sto
 
 ---
 
+## Practice: Rule 14: 1-1-1 Rule
+
+For each word, ask: 1 syllable? 1 vowel? End in 1 consonant? If YES to all three → double the final consonant.
+
+| Base Word | 1 Syllable? | 1 Vowel? | 1 Final Consonant? | Double? | + -ing |
+|-----------|------------|----------|-------------------|---------|--------|
+| run | YES | YES (u) | YES (n) | YES | running |
+| hop | YES | YES (o) | YES (p) | YES | hopping |
+| swim | YES | YES (i) | YES (m) | YES | swimming |
+| sit | YES | YES (i) | YES (t) | YES | sitting |
+| get | YES | YES (e) | YES (t) | YES | getting |
+| cut | YES | YES (u) | YES (t) | YES | cutting |
+| open | NO (2 syll) | — | — | NO | opening |
+| sleep | YES | NO (ee = 2 letters) | — | NO | sleeping |
+| jump | YES | YES (u) | NO (mp = 2) | NO | jumping |
+| read | YES | NO (ea = 2) | — | NO | reading |
+| rain | YES | NO (ai = 2) | — | NO | raining |
+| help | YES | YES (e) | NO (lp = 2) | NO | helping |
+
+Write the -ing form for each:
+
+| hop → hopping | run → ______ | sit → ______ | get → ______ |
+| cut → ______ | stop → ______ | swim → ______ | plan → ______ |
+| sleep → ______ | jump → ______ | read → ______ | open → ______ |
+
+---
+
 ## Spelling Analysis
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| running | r (/r/), u (/ŭ/), n (/n/), n (/n/), i (/ĭ/), ng (/ng/) | Rule 14: 1-1-1 → double N | /rŭn-ing/ |
-| hopping | h (/h/), o (/ŏ/), p (/p/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 14: double P keeps O short | /hŏp-ing/ |
+| running | r (/r/), u (/ŭ/), n (/n/), n (/n/), i (/ĭ/), ng (/ng/) | Rule 14: 1-1-1 → double N | /rǕn-ing/ |
+| hopping | h (/h/), o (/ō/), p (/p/), p (/p/), i (/ĭ/), ng (/ng/) | Rule 14: double P keeps O short | /hōp-ing/ |
 | swimming | s (/s/), w (/w/), i (/ĭ/), m (/m/), m (/m/), i (/ĭ/), ng (/ng/) | Rule 14 | /swĭm-ing/ |
+
+### Practice Words
+
+| Word | Base Word | Suffix | Changed? | Say-to-Spell |
+|------|-----------|--------|----------|--------------|
+| running | run + n + ing | Rule 14: 1-1-1 | /rǕn-ing/ |
+| hopping | hop + p + ing | Rule 14: keeps O short | /hōp-ing/ |
+| opening | open + ing | Rule 4: open syllable | /ō-pen-ing/ |
+| sleeping | sleep + ing | No double (two vowels) | /slēp-ing/ |
 
 ---
 
@@ -53,18 +89,26 @@ run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, sto
 
 The dog is running and hopping. I am swimming and getting tired. Stop cutting the paper!
 
+### Practice Reading
+
+> running &nbsp; hopping &nbsp; swimming &nbsp; opening &nbsp; sleeping &nbsp; jumping
+
+I am running to the pool and swimming. Mom is opening the door. The cat is sleeping and jumping.
+
 ---
 
 ## Quick Check
 
 1. What is Rule 14? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. Why don't we double the P in 'sleeping'? *(Two vowels — EE — not one. The 1-1-1 rule doesn't apply.)*
+2. Why don't we double the P in 'sleeping'? *(Two vowels — EE — not one. The 1-1-1 rule doesn't apply.)*
+3. What three things must be true to double the consonant? *(1 syllable, 1 vowel, 1 final consonant.)*)
+4. Why don't we double in 'sleeping'? *(EE is two vowel letters — not one.)*)
+5. Spell 'running' and 'hopping' from dictation.
 
 ---
 
-**Next lesson:** Lesson 11: Rule 14: Double Consonant
+**Next lesson:** Lesson 9: Drop E Practice
 
 ---
 
-*Practice at home: Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check.*
+*Practice at home: Find 3 words with double consonants before -ing. Write the base word and the 1-1-1 check. Then find 3 -ing words that do NOT double (and explain why).*

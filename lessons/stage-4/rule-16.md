@@ -1,6 +1,6 @@
-# Lesson 15: Rule 16 — Two I's Cannot Be Adjacent
+# Lesson 11: Rule 16 — Two I's Cannot Be Adjacent
 
-**Stage 4** · Lesson 15 · rule-intro
+**Stage 4** · Lesson 11 · rule-intro
 
 ---
 
@@ -62,7 +62,7 @@ The baby is crying. A bird is flying. I am studying my rules. Keep trying!
 
 ---
 
-**Next lesson:** Lesson 17: Rule 16: Two I's
+**Next lesson:** Lesson 12: Double Consonant Practice
 
 ---
 

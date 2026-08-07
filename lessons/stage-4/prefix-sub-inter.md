@@ -1,6 +1,6 @@
-# Lesson 26: Prefixes sub- and inter-
+# Lesson 23: Prefixes un- and re-
 
-**Stage 4** · Lesson 26 · morphology
+**Stage 4** · Lesson 23 · morphology
 
 ---
 
@@ -10,22 +10,22 @@
 
 ---
 
-## New Learning: **sub-/inter-**
+## New Learning: **un-**
 
 ### What Is Prefix?
 
-SUB- means 'under' or 'below.' INTER- means 'between' or 'among.'
+UN- means 'not' or 'opposite.' RE- means 'again' or 'back.'
 
-### Prefix Means: "under, between"
+### Prefix Means: "not, opposite of"
 
 ### Words with Prefix
 
 | Word | Prefix + Root | Meaning |
 |------|------||---------|
-| sub marine → submarine | — | — |
-| inter national → international | — | — |
-| sub way → subway | — | — |
-| inter act → interact | — | — |
+| un do → undo | — | — |
+| re do → redo | — | — |
+| un tie → untie | — | — |
+| re turn → return | — | — |
 
 ---
 
@@ -35,17 +35,17 @@ Add **Prefix** to these root words. Write the new word and its meaning.
 
 | Root Word | + Prefix | New Word | Meaning |
 |-----------|------||----------|---------|
-| marine | sub-/inter- marine | — | — |
-| way | sub-/inter- way | — | — |
-| merge | sub-/inter- merge | — | — |
-| view | sub-/inter- view | — | — |
-| change | sub-/inter- change | — | — |
+| do | un- do | — | — |
+| tie | un- tie | — | — |
+| pack | un- pack | — | — |
+| lock | un- lock | — | — |
+| wind | un- wind | — | — |
 
 ---
 
 ## Reading Practice
 
-> submarine, subway, submerge, interview, international, interact
+> undo, redo, untie, return, replay, unlock, unpack, rewrite
 
 ---
 
@@ -53,19 +53,19 @@ Add **Prefix** to these root words. Write the new word and its meaning.
 
 Write each word. Underline the Prefix. Say the meaning aloud.
 
-> submarine &nbsp;&nbsp; subway &nbsp;&nbsp; interview &nbsp;&nbsp; international &nbsp;&nbsp; interact
+> undo &nbsp;&nbsp; redo &nbsp;&nbsp; untie &nbsp;&nbsp; return &nbsp;&nbsp; unlock &nbsp;&nbsp; rewrite
 
 ---
 
 ## Quick Check
 
-1. What does **Prefix** mean? *(under, between)*
+1. What does **Prefix** mean? *(not, opposite of)*
 2. Build a new word using Prefix + a root.
 3. How does knowing Prefix help you read bigger words? *(You can figure out the meaning without a dictionary!)*
 
 ---
 
-**Next lesson:** Lesson 28: Suffixes -er -or
+**Next lesson:** Lesson 25: Prefixes in- dis-
 
 ---
 

@@ -1,6 +1,6 @@
-# Lesson 13: Rule 15 — Y Changes to I Before a Suffix
+# Lesson 9: Rule 15 — Y Changes to I Before a Suffix
 
-**Stage 4** · Lesson 13 · rule-intro
+**Stage 4** · Lesson 9 · rule-intro+practice
 
 ---
 
@@ -14,26 +14,47 @@
 
 ### The Rule
 
-> **When adding a suffix to a word that ends in Y, change the Y to I unless the suffix begins with I.**
+> **When adding a suffix to a word ending in Y (with a consonant before it), change the Y to I.**
 
 ### Why It Matters
 
-Y at the end of a word often says /ē/ (baby) or /ī/ (cry). When we add a suffix, the Y changes to I to keep the spelling regular. Baby + es → babies. BUT: cry + ing → crying (don't change — two I's can't be adjacent; that's Rule 16).
+Y is a tricky letter. When a word ends in Y, we need to ask: what sound does the Y make? If Y is the only vowel in the word AND says /ĭ/ or /ē/ (long I or long E), change it to I before adding a suffix. 'Cry' + 'ed' = 'cried' (the Y says /ī/, change to I). 'Happy' + 'ness' = 'happiness' (the Y says /ē/, change to I). But 'boy' + 'hood' = 'boyhood' (the Y says /oi/, keep as Y).
 
 ### Examples
 
-baby→babies, cry→cries, happy→happiness, beauty→beautiful, carry→carried, dry→dried, fly→flies, try→tries
+cry→cried, try→tried, happy→happiness, easy→easier, carry→carried, study→studied, fly→flies
 
 ### Spot the Rule
 
 | Word | How Rule 15 Applies |
 |------|------------------------|
-| baby + es | Y→I + es → babies |
-| cry + es | Y→I + es → cries |
-| happy + ness | Y→I + ness → happiness |
-| beauty + ful | Y→I + ful → beautiful |
-| carry + ed | Y→I + ed → carried |
-| cry + ing | NO change — suffix begins with I |
+| cry + ed | Y says /ī/, change → cried |
+| happy + ness | Y says /ē/, change → happiness |
+| try + ing | Y says /ī/, change → trying |
+| boy + hood | Y says /oi/, KEEP → boyhood |
+| play + ed | Y says /ā/, KEEP → played |
+| key + s | Y says /ē/, KEEP → keys (Y is the only vowel so... wait, see Rule 16.) |
+
+---
+
+## Practice: Rule 15: Y Changes to I
+
+For each word, ask: does Y say /i/ or /e/? Is there a consonant before the Y? If YES to both → change Y to I before adding the suffix.
+
+| Base Word | Y Sound? | Consonant Before Y? | + -ed | + -ing | + -er | + -est |
+|-----------|---------|--------------------|----|--------|-------|--------|
+| cry | /ī/ | YES (r) | cried | crying | crier | — |
+| try | /ī/ | YES (r) | tried | trying | trier | — |
+| happy | /ē/ | YES (p) | happied(?) | — | happier | happiest |
+| easy | /ē/ | YES (s) | — | — | easier | easiest |
+| carry | /ē/ | YES (r) | carried | carrying | carrier | — |
+| study | /ē/ | YES (d) | studied | studying | — | — |
+| fly | /ī/ | YES (l) | flied(?) | flying | flier | — |
+| boy | /oi/ | NO (vowel before) | boyed(?) | — | — | — |
+| play | /ā/ | NO (vowel before) | played | playing | player | — |
+| key | /ē/ | NO (vowel before) | — | — | — | — |
+
+> **Watch out!** Words like 'flied' and 'happied' exist but are unusual — most English speakers just add the suffix without Y→I when the result is awkward. And remember Rule 16: two I's can't be next to each other, so 'cry' + 'ing' = 'crying' (just add -ing), but 'study' + 'ing' = 'studying' (Y→I, then add -ing).
 
 ---
 
@@ -41,31 +62,49 @@ baby→babies, cry→cries, happy→happiness, beauty→beautiful, carry→carri
 
 | Word | Phonograms Used | Rules Applied | Say-to-Spell |
 |------|----------------|---------------|--------------|
-| babies | b (/b/), a (/ā/), b (/b/), ie (/ē/), s (/z/) | Rule 15 + Rule 3 (no I at end) | /bā-bēz/ |
-| cries | c (/k/), r (/r/), ie (/ī/), s (/z/) | Rule 15 | /krīz/ |
-| happiness | h (/h/), a (/ă/), p (/p/), p (/p/), i (/ĭ/), n (/n/), e (/ĕ/), s (/s/), s (/s/) | Rule 15 | /hăp-ē-nĕs/ |
-| carried | c (/k/), a (/ă/), r (/r/), r (/r/), ie (/ē/), ed (/d/) | Rule 15 + Rule 14 (double R!) | /kăr-ēd/ |
+| cried | c (/k/), r (/r/), i (/ī/), e (/ē/), d (/d/) | Rule 15: Y→I | /krīd/ |
+| tried | t (/t/), r (/r/), i (/ī/), e (/ē/), d (/d/) | Rule 15 | /trīd/ |
+| happiness | h (/h/), a (/ā/), p (/p/), i (/ĭ/), n (/n/), e (/ē/), s (/s/), s (/s/) | Rule 15: Y→I + -ness | /hāp-ĭ-nēs/ |
+| carried | c (/k/), a (/ā/), r (/r/), r (/r/), i (/ĭ/), e (/ē/), d (/d/) | Rule 15 | /kār-ĭd/ |
+
+### Practice Words
+
+| Word | Base Word | Suffix | Changed? | Say-to-Spell |
+|------|-----------|--------|----------|--------------|
+| cried | cr + i + ed | Rule 15: Y→I | /krīd/ |
+| trying | tr + i + ing | Rule 15 + Rule 16 (no II) | /trī-ĭng/ |
+| happiness | happi + ness | Rule 15: Y→I + -ness | /hāp-ĭ-nēs/ |
+| carried | carri + ed | Rule 15: Y→I | /kār-ĭd/ |
+| boyhood | boy + hood | No change (Y=/oi/) | /boi-hǝd/ |
 
 ---
 
 ## Reading Practice
 
-> babies &nbsp; cries &nbsp; happiness &nbsp; beautiful &nbsp; carried &nbsp; dried
+> cried &nbsp; tried &nbsp; studied &nbsp; carried &nbsp; worried &nbsp; hurried &nbsp; spied &nbsp; replied
 
-The babies are happy. She cries and cries. True happiness is beautiful. I carried the bag.
+The baby cried and tried to sleep. I studied hard and carried the heavy bag. She worried and hurried to class.
+
+### Practice Reading
+
+> cried &nbsp; tried &nbsp; worried &nbsp; hurried &nbsp; happiness &nbsp; easier &nbsp; carried &nbsp; studying
+
+I cried because I tried so hard. The happiness was real. She worried and hurried to her studying.
 
 ---
 
 ## Quick Check
 
 1. What is Rule 15? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. Why don't we change Y to I in 'crying'? *(The suffix -ing begins with I. Two I's can't be next to each other — Rule 16.)*
+2. Why don't we change Y to I in 'boyhood'? *(The Y says /oi/ — it's a vowel team with O. The Y→I rule only applies when Y is the ONLY vowel.)*
+3. When do we change Y to I? *(When Y is the only vowel, says /i/ or /e/, and a consonant comes before it.)*)
+4. Why don't we double-I in 'crying'? *(Rule 16: two I's cannot be adjacent — just add -ing.)*)
+5. Spell 'cried', 'happiness', and 'tried' from dictation.
 
 ---
 
-**Next lesson:** Lesson 15: Rule 15: Y→I
+**Next lesson:** Lesson 10: Rule 14: Double Consonant
 
 ---
 
-*Practice at home: Find 5 words where Y changed to I. Write the base word and the new form.*
+*Practice at home: Find 5 -ed, -ing, -er, or -ness words where the Y changed to I. Write the base word and the new word. Then find 2 words where Y was KEPT (vowel before it).*
