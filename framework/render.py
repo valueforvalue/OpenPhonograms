@@ -754,6 +754,39 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson",
     try:
         rel = output_path.relative_to(PROJECT_ROOT)
     except ValueError:
+        rel = output_path
+    log.info(f"  OK {rel}")
+
+
+def render_html_to_pdf(html: str, output_path: Path, body_class: str | None = None) -> None:
+    """Render a complete HTML string to PDF with PAGE_CSS injected.
+
+    Use for non-markdown artifacts (certificates, indexes, placement tests,
+    quick checks) that already have their own HTML+inline CSS. This wrapper
+    ensures the unified @page CSS, font, and footer treatment are applied.
+
+    The caller's HTML must include <!DOCTYPE html><html><head>...<style>...</style></head>
+    so this function only injects PAGE_CSS into the <style> tag.
+    If the caller's HTML has its own <style>, this function merges by
+    prepending PAGE_CSS to the existing <style> content.
+    """
+    from weasyprint import HTML as WHTML
+
+    # Inject PAGE_CSS into the caller's <style> block (or create one)
+    if "<style>" in html and "</style>" in html:
+        html = html.replace("<style>", f"<style>{PAGE_CSS}\n", 1)
+    else:
+        # No <style> tag — inject one into <head>
+        if "<head>" in html:
+            html = html.replace("<head>", f"<head><style>{PAGE_CSS}</style>", 1)
+        else:
+            html = html.replace("<html>", f"<html><head><style>{PAGE_CSS}</style></head>", 1)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    WHTML(string=html, base_url=str(PROJECT_ROOT) + "/").write_pdf(str(output_path))
+    try:
+        rel = output_path.relative_to(PROJECT_ROOT)
+    except ValueError:
         rel = output_path  # outside project tree (e.g. tests)
     log.info(f"  OK {rel}")
 

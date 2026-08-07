@@ -15,6 +15,9 @@ import io
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from framework.render import render_html_to_pdf
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -145,9 +148,8 @@ def main():
         md_path.write_text(html, encoding="utf-8")
 
         if not args.no_render:
-            from weasyprint import HTML as WHTML
             pdf_path = md_path.with_suffix(".pdf")
-            WHTML(filename=str(md_path)).write_pdf(str(pdf_path))
+            render_html_to_pdf(html, pdf_path, body_class="certificate")
             md_path.unlink(missing_ok=True)
             print(f"  OK  {pdf_path.relative_to(ROOT)}")
         else:

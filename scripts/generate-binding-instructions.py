@@ -19,6 +19,9 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from framework.render import render_html_to_pdf
+
 OUT_DIR = ROOT / "build" / "handbook"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -198,9 +201,8 @@ def main():
     out = OUT_DIR / "binding-instructions.md"
     out.write_text(HTML, encoding="utf-8")
 
-    from weasyprint import HTML as WHTML
     pdf = out.with_suffix(".pdf")
-    WHTML(filename=str(out)).write_pdf(str(pdf))
+    render_html_to_pdf(HTML, pdf, body_class="index")
     out.unlink(missing_ok=True)
     print(f"  OK  {pdf.relative_to(ROOT)}")
 

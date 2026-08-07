@@ -23,6 +23,8 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from framework.render import render_html_to_pdf
 import csv
 
 CATALOG = ROOT / "framework" / "lesson-catalog.csv"
@@ -272,7 +274,6 @@ def main():
     # Render each HTML to PDF, then merge 3 per stage into one combined PDF
     print("\n==> Rendering quick-check PDFs")
     try:
-        from weasyprint import HTML as WHTML
         from pypdf import PdfWriter, PdfReader
     except ImportError as e:
         print(f"  SKIP  (missing dep: {e})")
@@ -285,7 +286,7 @@ def main():
         pdf_files = []
         for hf in html_files:
             pdf_path = out_dir / (hf.stem + ".pdf")
-            WHTML(filename=str(hf)).write_pdf(str(pdf_path))
+            render_html_to_pdf(hf.read_text(encoding="utf-8"), pdf_path, body_class="index")
             pdf_files.append(pdf_path)
         writer = PdfWriter()
         for pf in pdf_files:

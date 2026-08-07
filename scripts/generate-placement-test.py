@@ -24,6 +24,9 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from framework.render import render_html_to_pdf
+
 REF_DIR = ROOT / "reference"
 OUT_DIR = ROOT / "build" / "quick-checks"
 
@@ -254,14 +257,14 @@ def main():
 
     print("\n==> Rendering placement test PDF")
     try:
-        from weasyprint import HTML as WHTML
+        from framework.render import render_html_to_pdf
     except ImportError as e:
         print(f"  SKIP  (missing dep: {e})")
         return
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     pdf = OUT_DIR / "placement-test.pdf"
-    WHTML(filename=str(out)).write_pdf(str(pdf))
+    render_html_to_pdf(open(out, encoding="utf-8").read(), pdf, body_class="index")
     print(f"  OK  {pdf.relative_to(ROOT)}")
 
 
