@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-labelledby="title desc">
+  <title id="title">OpenPhonograms</title>
+  <desc id="desc">Open-source phonics curriculum logo: stylized "ō" with a book opening</desc>
+
+  <!-- Icon: stylized "ō" (o with macron, signaling a phonogram) + open book underline -->
+  <g transform="translate(8, 12)">
+    <!-- Open book base (two pages) -->
+    <path d="M 4 50 L 28 42 L 52 50 L 52 60 L 28 52 L 4 60 Z" fill="#2a5c8a" opacity="0.85"/>
+    <!-- Stylized "ō" — a circle with macron -->
+    <circle cx="28" cy="22" r="18" fill="none" stroke="#2a5c8a" stroke-width="4"/>
+    <line x1="14" y1="4" x2="42" y2="4" stroke="#2a5c8a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="76" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2a5c8a">
+    OpenPhonograms
+  </text>
+  <text x="76" y="68" font-family="Georgia, serif" font-size="11" fill="#4a7caa" font-style="italic">
+    75 phonograms · 31 spelling rules
+  </text>
+</svg>

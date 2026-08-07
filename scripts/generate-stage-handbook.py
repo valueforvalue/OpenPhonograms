@@ -182,6 +182,14 @@ def make_stage_cover(stage: int, lessons: list[dict]) -> str:
 
 {desc}
 
+<div class="brand-cover">
+
+<img src="../../assets/logo/openphonograms-logo.svg" alt="OpenPhonograms" />
+
+<p class="tagline">Teacher Manual &mdash; {n_lessons} lessons bound in one volume</p>
+
+</div>
+
 This handbook contains all {n_lessons} lessons of Stage {stage}, bound into a single PDF with clickable bookmarks. Each lesson starts on its own page. Use the PDF reader's bookmark sidebar to navigate.
 
 ### At a glance

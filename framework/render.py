@@ -468,6 +468,30 @@ img {
 
 /* Reader cover page: distinct visual treatment so the reader is easy to
    identify on a shelf. See issue #19. */
+
+/* Branded cover header (logo + class tagline) — used by handbook, lesson
+   pack, certificate, navigation, and any other cover. See issue #15. */
+.brand-cover {
+    text-align: center;
+    padding: 1.5em 1em 1em 1em;
+    border-bottom: 3px solid #2a5c8a;
+    margin-bottom: 1em;
+}
+.brand-cover img,
+.brand-cover svg {
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 0.5em auto;
+    display: block;
+}
+.brand-cover .tagline {
+    font-family: Georgia, serif;
+    font-size: 11pt;
+    color: #4a7caa;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
 .reader-cover {
     text-align: center;
     padding: 2.5em 1.5em;
