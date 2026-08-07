@@ -15,13 +15,12 @@ Produces a top-level ZIP with:
   02-Scope-and-Sequence.pdf        — full curriculum map
   04-Quick-Reference/              — phonograms, rules, spelling analysis
   05-Teacher-Handbooks/            — 5 bound-book-style stage handbooks
-  06-Lesson-Packs/                 — 248 per-lesson bundles (5 stage folders)
+  06-Lesson-Packs/                 — 244 per-lesson bundles (5 stage folders)
   07-Worksheets/                   — 178 standalone practice sheets
   08-Decodable-Readers/            — 25 readers + index
   09-Quick-Checks/                 — placement + 5 stage quick-checks
-  10-Assessments/                  — 8 stage mastery assessments
   11-Game/                         — phonogram trainer (web game)
-  12-Audio/                        — 74 phonogram MP3s
+  12-Audio/                        — phonogram MP3s (neural TTS; run `just audio` to regenerate)
   13-Certificates/                 — 5 printable completion certificates
 
 All paths inside the ZIP use forward slashes (POSIX) for cross-platform use.
@@ -114,7 +113,7 @@ def build_readme(zf, args, stats):
         return
     readme_text = """OpenPhonograms — Release ZIP
 
-This ZIP contains the complete OpenPhonograms curriculum (248 lessons, 5 stages,
+This ZIP contains the complete OpenPhonograms curriculum (244 lessons, 5 stages,
 75 phonograms, 31 spelling rules, 25 decodable readers) plus all printable
 aids, the phonogram trainer web game, and 74 phonogram audio MP3s.
 
@@ -133,13 +132,15 @@ WHAT'S IN THIS RELEASE
 04-Quick-Reference/                    — phonograms, rules, spelling analysis,
                                           diacritical legend, glossary (HTMLs + PDFs)
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
-06-Lesson-Packs/                       — 248 per-lesson bundles
+06-Lesson-Packs/                       — 244 per-lesson bundles
 06-Stage-Overview/stage-N.pdf          — merged per-stage review (PDF)
 07-Worksheets/                         — 178 standalone practice sheets
                                           (organized by stage + category)
 08-Decodable-Readers/                  — 25 decodable story PDFs + index
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
-10-Assessments/                        — 8 stage mastery assessments
+
+(Stage mastery assessments are included in 06-Lesson-Packs/<stage>/lesson-NN-assessment-N.pdf
+ and inside 06-Stage-Overview/stage-N.pdf; no separate 10-Assessments/ section needed.)
 
 METHODOLOGY
 -----------
@@ -387,27 +388,15 @@ def build_quick_checks(zf, args, stats):
 
 
 def build_assessments(zf, args, stats):
-    """Section 10: Assessment PDFs pulled from build/stage-N/assessment-*.pdf."""
+    """Section 10: REMOVED per issue #7. Assessment PDFs are already in:
+    - 06-Lesson-Packs/<stage>/lesson-NN-assessment-N.pdf
+    - 06-Stage-Overview/stage-N.pdf
+    This function is kept as a no-op for backward compatibility with --no-assessments arg.
+    """
     if args.no_assessments:
-        stats["skipped"].append("10-Assessments/")
+        stats["skipped"].append("10-Assessments/ (no-op, see #7)")
         return
-    assessment_files = []
-    for stage in _stages(args):
-        stage_dir = BUILD / f"stage-{stage}"
-        if not stage_dir.exists():
-            continue
-        for pdf in sorted(stage_dir.glob("assessment-*.pdf")):
-            assessment_files.append(pdf)
-    if not assessment_files:
-        return
-    if args.list:
-        stats["included"].append(f"10-Assessments/ ({len(assessment_files)} files)")
-        return
-    count = 0
-    for pdf in assessment_files:
-        zf.write(pdf, f"10-Assessments/{pdf.name}")
-        count += 1
-    print(f"  OK  10-Assessments/  ({count} files)")
+    return  # no-op
 
 
 def build_reference(zf, args, stats):

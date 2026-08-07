@@ -47,6 +47,16 @@ log = get_logger("render")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 LESSONS_DIR = PROJECT_ROOT / "lessons"
+
+# Per-stage title for running header on every lesson page.
+STAGE_TITLES = {
+    1: "Phonemic Awareness & First Phonograms",
+    2: "Short Vowels & Multi-Letter Phonograms",
+    3: "Silent E & Vowel Teams",
+    4: "Schwa, Suffixing & Morphology",
+    5: "Roots, Fluency & Composition",
+}
+LESSONS_DIR = PROJECT_ROOT / "lessons"
 WORKSHEETS_DIR = PROJECT_ROOT / "worksheets"
 READERS_DIR = PROJECT_ROOT / "readers"
 IMAGES_DIR = PROJECT_ROOT / "images"
@@ -695,6 +705,7 @@ def render_md_to_pdf(md_path: Path, output_path: Path, doc_type: str = "lesson",
         if stage is not None:
             classes.append(f"stage-{stage}")
     body_class_attr = f' class="{" ".join(classes)}"' if classes else ""
+    body_style_attr = ""
 
     full_html = f"""<!DOCTYPE html>
 <html lang="en">
