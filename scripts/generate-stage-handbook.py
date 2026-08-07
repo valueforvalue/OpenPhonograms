@@ -109,7 +109,7 @@ def make_toc(stage: int, lessons: list[dict]) -> str:
         order = list(groups.keys())
 
     lines = ["## Table of Contents", ""]
-    lines.append("All lessons in this stage, grouped by section. Page numbers match the bound PDF.")
+    lines.append("All lessons in this stage, grouped by section. PDF reader sidebar shows page numbers via bookmarks; for print, scan the lesson number to locate (matches the small number in each lesson's header).")
     lines.append("")
 
     for t in order:
@@ -119,6 +119,7 @@ def make_toc(stage: int, lessons: list[dict]) -> str:
         lines.append(f"### {label}")
         lines.append("")
         for ln, title in groups[t]:
+            # Internal link to the lesson anchor injected by framework/render.py
             lines.append(f"- **Lesson {ln}:** {title}")
         lines.append("")
 
