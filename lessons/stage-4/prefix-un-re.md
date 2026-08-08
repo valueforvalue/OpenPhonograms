@@ -70,7 +70,3 @@ Write each word. Underline the Prefix. Say the meaning aloud.
 ---
 
 *Practice at home: Find 5 words with Prefix in a book. Write them and their meanings.*
-
----
-
----

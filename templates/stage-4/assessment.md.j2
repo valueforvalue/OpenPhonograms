@@ -1,0 +1,92 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 4 — assessment (mid-stage or final mastery).
+   Variables: n, title, overview, schwa_check, schwa_total,
+              suffix_check, suffix_total, latin_check, latin_total,
+              morph_check, morph_total, spell_check, spell_total, next
+#}
+# Lesson {{ n }}: {{ title }}
+
+**Stage 4** · Lesson {{ n }} · assessment
+
+---
+
+## Overview
+
+{{ overview }}
+
+---
+
+## Part 1: Schwa Identification
+
+Circle the schwa vowel in each word:
+
+| Word | Which letter says schwa? | ✓ |
+|------|--------------------------|---|
+{{ schwa_check }}
+
+**Score:** __ / {{ schwa_total }}
+
+---
+
+## Part 2: Suffixing Rules
+
+| Word | Which rule (13/14/15/16)? | ✓ |
+|------|---------------------------|---|
+{{ suffix_check }}
+
+**Score:** __ / {{ suffix_total }}
+
+---
+
+## Part 3: Latin /sh/
+
+| Word | How is /sh/ spelled? | ✓ |
+|------|---------------------|---|
+{{ latin_check }}
+
+**Score:** __ / {{ latin_total }}
+
+---
+
+## Part 4: Morphology
+
+| Word | What does the prefix/suffix mean? | ✓ |
+|------|----------------------------------|---|
+{{ morph_check }}
+
+**Score:** __ / {{ morph_total }}
+
+---
+
+## Part 5: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+{{ spell_check }}
+
+**Score:** __ / {{ spell_total }}
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Schwa | __/{{ schwa_total }} | |
+| Suffixing | __/{{ suffix_total }} | |
+| Latin /sh/ | __/{{ latin_total }} | |
+| Morphology | __/{{ morph_total }} | |
+| Spelling | __/{{ spell_total }} | |
+
+**Overall:** __/{{ '{overall_total}' }}
+
+---
+
+## Next Steps
+
+{{ next }}
+
+---
+
+*Almost done with all 75 phonograms and 31 rules!*

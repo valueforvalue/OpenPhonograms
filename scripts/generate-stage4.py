@@ -1,475 +1,84 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Generate all 48 Stage 4 lesson markdown files."""
-import io, sys
+"""Generate all 48 Stage 4 lesson markdown files via Jinja templates.
+
+Architecture (slice 4 of #22 + #23):
+  - Phonogram + rule data lives in data/*.yaml; loaded via framework.data_loader.
+  - Stage-4-specific data (PREFIXES, SUFFIXES, etc.) stays inline — per Slice 0 decision.
+  - Lesson scaffolds live in templates/stage-4/*.md.j2.
+  - This file is a thin orchestrator: compute template vars + render.
+  - Long-form rule/practice/reader content is rendered from 7 shared templates
+    (schwa, rule, practice, rule-full, morph, reader4, assessment, review).
+"""
+
+import io
+import sys
 from pathlib import Path
 
+from jinja2 import Environment, FileSystemLoader
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+OUT_DIR = PROJECT_ROOT / "lessons" / "stage-4"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-4"
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "lessons" / "stage-4"
-OUT.mkdir(parents=True, exist_ok=True)
+
+# ── JINJA ENVIRONMENT ────────────────────────────────────────────────
+
+env = Environment(
+    loader=FileSystemLoader(str(TEMPLATE_DIR)),
+    trim_blocks=True,
+    lstrip_blocks=True,
+    keep_trailing_newline=True,
+)
+
+# Template name mapping (used by render() helper)
+_TPL = {
+    "schwa": "schwa.md.j2",
+    "rule": "rule.md.j2",
+    "practice": "practice.md.j2",
+    "rule-full": "rule-full.md.j2",
+    "morph": "morph.md.j2",
+    "reader4": "reader4.md.j2",
+    "assessment": "assessment.md.j2",
+    "review": "review.md.j2",
+}
+
+
+def render(tpl_name: str, **vars) -> str:
+    """Render a Stage 4 template by short name with given vars."""
+    return env.get_template(_TPL[tpl_name]).render(**vars)
+
 
 # ── TEMPLATES ───────────────────────────────────────────────────────
 
-SCHWA_TMP = """# Lesson {n}: {title}
+# SCHWA_TMP → Jinja template (see _TPL map)
 
-**Stage 4** · Lesson {n} · {typ}
 
----
+# RULE_TMP → Jinja template (see _TPL map)
 
-## Warm-Up: Phonogram Flash Review
 
-> Flash all 75 phonograms. Focus: {focus}
+# PRACTICE_TMP → Jinja template (see _TPL map)
 
----
 
-{body}
+# RULE_FULL_TMP → Jinja template (see _TPL map)
 
----
 
-## Quick Check
+# MORPH_TMP → Jinja template (see _TPL map)
 
-{check}
 
----
+# READER4_TMP → Jinja template (see _TPL map)
 
-**Next lesson:** Lesson {nn}: {ntitle}
 
----
+# ASSESS_TMP → Jinja template (see _TPL map)
 
-*Practice at home: {home}*
-"""
 
-RULE_TMP = """# Lesson {n}: Rule {rn} — {name}
+# REVIEW_TMP → Jinja template (see _TPL map)
 
-**Stage 4** · Lesson {n} · rule-intro
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all 75 phonograms.
-
----
-
-## New Learning: Rule {rn}
-
-### The Rule
-
-> **{statement}**
-
-### Why It Matters
-
-{why}
-
-### Examples
-
-{examples}
-
-### Spot the Rule
-
-| Word | How Rule {rn} Applies |
-|------|------------------------|
-{spot}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{words}
-
----
-
-## Reading Practice
-
-> {reading}
-
----
-
-## Quick Check
-
-1. What is Rule {rn}? *(Restate in your own words.)*
-2. Give two examples that follow this rule.
-3. {q3}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-PRACTICE_TMP = """# Lesson {n}: {title}
-
-**Stage 4** · Lesson {n} · {typ}
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all 75 phonograms.
-
----
-
-## Practice: {focus}
-
-{body}
-
----
-
-## Spelling Analysis
-
-| Word | Base Word | Suffix | Changed? | Final Word | Rules |
-|------|-----------|--------|----------|------------|-------|
-{sa}
-
----
-
-## Reading Practice
-
-> {reading}
-
----
-
-## Quick Check
-
-{check}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-RULE_FULL_TMP = """# Lesson {n}: Rule {rn} — {name}
-
-**Stage 4** · Lesson {n} · rule-intro+practice
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all 75 phonograms.
-
----
-
-## New Learning: Rule {rn}
-
-### The Rule
-
-> **{statement}**
-
-### Why It Matters
-
-{why}
-
-### Examples
-
-{examples}
-
-### Spot the Rule
-
-| Word | How Rule {rn} Applies |
-|------|------------------------|
-{spot}
-
----
-
-## Practice: {practice_focus}
-
-{practice_body}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{words}
-
-### Practice Words
-
-| Word | Base Word | Suffix | Changed? | Say-to-Spell |
-|------|-----------|--------|----------|--------------|
-{practice_sa}
-
----
-
-## Reading Practice
-
-> {reading}
-
-### Practice Reading
-
-> {practice_reading}
-
----
-
-## Quick Check
-
-1. What is Rule {rn}? *(Restate in your own words.)*
-2. {q3}
-3. {practice_q1}
-4. {practice_q2}
-5. {practice_q3}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-MORPH_TMP = """# Lesson {n}: {title}
-
-**Stage 4** · Lesson {n} · morphology
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all 75 phonograms.
-
----
-
-## New Learning: {focus}
-
-### What Is {what}?
-
-{definition}
-
-### {what} Means: "{meaning}"
-
-### Words with {what}
-
-| Word | {what} + Root | Meaning |
-|------|{sep}|---------|
-{examples}
-
----
-
-## Word Building
-
-Add **{what}** to these root words. Write the new word and its meaning.
-
-| Root Word | + {what} | New Word | Meaning |
-|-----------|{sep2}|----------|---------|
-{build}
-
----
-
-## Reading Practice
-
-> {reading}
-
----
-
-## Spelling
-
-Write each word. Underline the {what}. Say the meaning aloud.
-
-> {spell}
-
----
-
-## Quick Check
-
-1. What does **{what}** mean? *({meaning})*
-2. Build a new word using {what} + a root.
-3. How does knowing {what} help you read bigger words? *(You can figure out the meaning without a dictionary!)*
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: Find 5 words with {what} in a book. Write them and their meanings.*
-"""
-
-READER4_TMP = """# Lesson {n}: {title}
-
-**Stage 4** · Lesson {n} · reader
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of phonograms used in today's story.
-
-| Phonograms to review |
-|----------------------|
-| {phonograms} |
-
----
-
-## Warm-Up Words — Read These First
-
-Read each word sound by sound BEFORE reading the story:
-
-> {warmup_words}
-
----
-
-## Story: {stitle}
-
-{story}
-
----
-
-## Quick Check
-
-{talk}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: Read this story aloud!*
-"""
-
-ASSESS_TMP = """# Lesson {n}: {title}
-
-**Stage 4** · Lesson {n} · assessment
-
----
-
-## Overview
-
-{overview}
-
----
-
-## Part 1: Schwa Identification
-
-Circle the schwa vowel in each word:
-
-| Word | Which letter says schwa? | ✓ |
-|------|--------------------------|---|
-{schwa_check}
-
-**Score:** __ / {schwa_total}
-
----
-
-## Part 2: Suffixing Rules
-
-| Word | Which rule (13/14/15/16)? | ✓ |
-|------|---------------------------|---|
-{suffix_check}
-
-**Score:** __ / {suffix_total}
-
----
-
-## Part 3: Latin /sh/
-
-| Word | How is /sh/ spelled? | ✓ |
-|------|---------------------|---|
-{latin_check}
-
-**Score:** __ / {latin_total}
-
----
-
-## Part 4: Morphology
-
-| Word | What does the prefix/suffix mean? | ✓ |
-|------|----------------------------------|---|
-{morph_check}
-
-**Score:** __ / {morph_total}
-
----
-
-## Part 5: Spelling (Dictation)
-
-| Word | ✓ |
-|------|---|
-{spell_check}
-
-**Score:** __ / {spell_total}
-
----
-
-## Results
-
-| Section | Score | Pass? |
-|---------|-------|-------|
-| Schwa | __/{schwa_total} | |
-| Suffixing | __/{suffix_total} | |
-| Latin /sh/ | __/{latin_total} | |
-| Morphology | __/{morph_total} | |
-| Spelling | __/{spell_total} | |
-
-**Overall:** __/{{overall_total}}
-
----
-
-## Next Steps
-
-{next}
-
----
-
-*Almost done with all 75 phonograms and 31 rules!*
-"""
-
-REVIEW_TMP = """# Lesson {n}: {title}
-
-**Stage 4** · Lesson {n} · review
-
----
-
-## Warm-Up: Speed Flash
-
-> Flash all 75 phonograms. Under 2 seconds each!
-
----
-
-## {g1}
-
-{gb1}
-
----
-
-## {g2}
-
-{gb2}
-
----
-
-## {g3}
-
-{gb3}
-
----
-
-## Spelling Challenge
-
-> {challenge}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
 
 # ── HELPERS ─────────────────────────────────────────────────────────
 
@@ -655,7 +264,7 @@ Write each word. Say the say-to-spell version aloud as you write.
 | animal | a (/ă/), n, i→/ĭ/ STSp, m, a→/ă/ STSp, l | Rule 31 | an-ĭ-măl |
 | family | f, a (/ă/), m, i→/ĭ/ STSp, l, y (/ē/) | Rule 7 + 31 | fam-ĭ-lē |"""
 
-    return SCHWA_TMP.format(n=3, title="Schwa in Multi-Syllable Words", typ="schwa-practice",
+    return render("schwa", n=3, title="Schwa in Multi-Syllable Words", typ="schwa-practice",
         focus="all vowels — any can be schwa!", body=body, nn=4, ntitle=nt(4),
         check="1. What sound does schwa make? *(A lazy /ə/ — like 'uh')*\n2. How do you know which letter spells the schwa? *(Use say-to-spell!)*\n3. Spell 'animal' using say-to-spell.",
         home="Find 5 schwa words in a book. Write the say-to-spell version for each.")
@@ -797,13 +406,13 @@ For each word: (1) Say it normally, (2) identify the schwa syllable, (3) say-to-
 | different | d, i (/ĭ/), f, f, e→/ĕ/ STSp, r, e→/ĕ/ STSp, n, t | 31 | dif-fĕr-ĕnt |
 | memory | m, e (/ĕ/), m, o→/ō/ STSp, r, y (/ē/) | 31 + Rule 7 | mem-ō-rē |"""
 
-    return SCHWA_TMP.format(n=6, title="Schwa Mastery: Mixed Practice", typ="schwa-practice",
+    return render("schwa", n=6, title="Schwa Mastery: Mixed Practice", typ="schwa-practice",
         focus="all 75 phonograms", body=body, nn=7, ntitle=nt(7),
         check="1. What three rules have we learned about schwa? *(31.1: any vowel in unstressed syllable. 31.2: O→/ŭ/ before W/TH/M/N/V. 31.3: AR/OR→/er/ unstressed.)*\n2. Which word was hardest to spell? Why?\n3. Spell 'chocolate' using say-to-spell.",
         home="Pick your 3 hardest schwa words. Write each one 5 times with say-to-spell.")
 
 def gen_rule13():
-    return RULE_FULL_TMP.format(n=7, rn=13, name="Drop the Silent E for a Vowel Suffix",
+    return render("rule-full", n=7, rn=13, name="Drop the Silent E for a Vowel Suffix",
         statement="When adding a vowel suffix, drop the silent final E.",
         why="When you add a suffix that starts with a vowel (like -ing, -ed, -er), the silent E has done its job. The vowel suffix now provides a vowel for that syllable. 'Make' + 'ing' = 'making' — drop the E, add -ing. The A still says /ā/ because the syllable is open: ma·king.",
         examples="make→making, hope→hoping, drive→driving, use→using, bake→baking, write→writing, smile→smiling, rake→raking",
@@ -822,7 +431,7 @@ def gen_rule13():
         home="Write 5 words that drop the silent E before -ing. Draw a line through the E and write the new word. Then find 3 words where the E is KEPT (consonant suffix).")
 
 def gen_rule14():
-    return RULE_FULL_TMP.format(n=8, rn=14, name="Double the Consonant for a Vowel Suffix",
+    return render("rule-full", n=8, rn=14, name="Double the Consonant for a Vowel Suffix",
         statement="When adding a vowel suffix, double the final consonant if the word is one syllable, has one vowel, and ends in one consonant (1-1-1 rule).",
         why="This is the '1-1-1 Rule.' If a word has 1 syllable, 1 vowel, and ends in 1 consonant, double that consonant before adding a vowel suffix. Why? To keep the vowel short! 'Hop' + 'ing' = 'hopping' (short O). Without the double P, it would be 'hoping' (long O — from hope). The extra consonant closes the syllable and keeps the vowel short.",
         examples="run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, stop→stopping, cut→cutting, big→bigger",
@@ -874,7 +483,7 @@ Some words need neither rule:
 | sleep → ______ | open → ______ | swim → ______ |
 | jump → ______ | get → ______ | read → ______ |"""
 
-    return REVIEW_TMP.format(n=11, title="Drop E and Double Consonant Review", nn=12, ntitle=nt(12),
+    return render("review", n=11, title="Drop E and Double Consonant Review", nn=12, ntitle=nt(12),
         g1="Part 1: Drop the E (Rule 13)", gb1="Write the -ing form by dropping silent E: make→making, drive→driving, use→using, hope→hoping, bake→baking, write→writing, smile→smiling.",
         g2="Part 2: Double the Consonant (Rule 14)", gb2="Write the -ing form by doubling: run→running, hop→hopping, swim→swimming, sit→sitting, get→getting, cut→cutting, stop→stopping.",
         g3="Part 3: Neither!", gb3="Explain why these DON'T change: sleeping (2 vowels), jumping (2 final consonants), opening (2 syllables), reading (2 vowels), helping (2 final consonants).",
@@ -882,7 +491,7 @@ Some words need neither rule:
         home="Review Rules 13 and 14 flashcards!")
 
 def gen_rule15():
-    return RULE_FULL_TMP.format(n=9, rn=15, name="Y Changes to I Before a Suffix",
+    return render("rule-full", n=9, rn=15, name="Y Changes to I Before a Suffix",
         statement="When adding a suffix to a word ending in Y (with a consonant before it), change the Y to I.",
         why="Y is a tricky letter. When a word ends in Y, we need to ask: what sound does the Y make? If Y is the only vowel in the word AND says /ĭ/ or /ē/ (long I or long E), change it to I before adding a suffix. 'Cry' + 'ed' = 'cried' (the Y says /ī/, change to I). 'Happy' + 'ness' = 'happiness' (the Y says /ē/, change to I). But 'boy' + 'hood' = 'boyhood' (the Y says /oi/, keep as Y).",
         examples="cry→cried, try→tried, happy→happiness, easy→easier, carry→carried, study→studied, fly→flies",
@@ -901,7 +510,7 @@ def gen_rule15():
         home="Find 5 -ed, -ing, -er, or -ness words where the Y changed to I. Write the base word and the new word. Then find 2 words where Y was KEPT (vowel before it).")
 
 def gen_rule16():
-    return RULE_TMP.format(n=11, rn=16, name="Two I's Cannot Be Adjacent",
+    return render("rule", n=11, rn=16, name="Two I's Cannot Be Adjacent",
         statement="Two I's may not be next to each other in an English word.",
         why="English spelling avoids two I's side by side. This is why we don't change Y to I before -ing: 'cry' + 'ing' = 'crying' (not 'criing'). It's also why words like 'skiing' look odd — they're borrowed from other languages and break the rule!",
         examples="cry→crying (NOT criing), try→trying, fly→flying, study→studying, carry→carrying, marry→marrying",
@@ -912,7 +521,7 @@ def gen_rule16():
         home="Write the -ing forms of: cry, try, fly, study, carry. Explain why the Y stays.")
 
 def gen_suffix_review_17():
-    return REVIEW_TMP.format(n=12, title="All Suffixing Rules Review", nn=10, ntitle=nt(12),
+    return render("review", n=12, title="All Suffixing Rules Review", nn=10, ntitle=nt(12),
         g1="Rule 13: Drop Silent E", gb1="Write the -ing form: make→____, drive→____, use→____, hope→____, bake→____.",
         g2="Rule 14: Double Consonant", gb2="Write the -ing form: run→____, hop→____, swim→____, sit→____, get→____. Write opening, sleeping, jumping — why NO double?",
         g3="Rules 15 & 16: Y→I and No Two I's", gb3="Write: cry→cr____ (es), baby→bab____ (es), happy→happ____ (ness). Write crying, trying, flying — why keep Y?",
@@ -1117,7 +726,7 @@ def gen_si():
 """
 
 def gen_rule17():
-    return RULE_TMP.format(n=17, rn=17, name="Latin /sh/ — TI, CI, SI",
+    return render("rule", n=17, rn=17, name="Latin /sh/ — TI, CI, SI",
         statement="**TI**, **CI**, and **SI** spell /sh/ in words of Latin origin. TI is most common; SI can also say /zh/.",
         why="English borrowed thousands of words from Latin. Latin had a sound like /sh/ that was spelled differently depending on the root word. English kept these spellings! -tion is the most common (nation, action), -cial comes next (special, social), and -sion is least common but can say /zh/ (vision).",
         examples="TI: nation, action, station, fraction, patient, partial\nCI: special, social, musician, precious, delicious\nSI: mission, session, vision (/zh/), television (/zh/)",
@@ -1128,7 +737,7 @@ def gen_rule17():
         home="Sort these into TI, CI, or SI: nation, special, mission, action, musician, vision, fraction, session.")
 
 def gen_rule18():
-    return RULE_TMP.format(n=18, rn=18, name="SH Placement",
+    return render("rule", n=18, rn=18, name="SH Placement",
         statement="**SH** is used at the beginning or end of a base word, at the end of a syllable, but NOT at the beginning of a syllable after the first one.",
         why="SH is the 'regular English' way to spell /sh/. TI/CI/SI are the 'Latin' way. SH appears in everyday English words: ship, fish, wishing. Latin /sh/ (TI/CI/SI) appears in more formal or academic words: nation, special, mission.",
         examples="SH at start: ship, she, show, shoe\nSH at end: fish, wish, push, crash\nSH in middle (end of syllable): dish·es, push·ing, wash·ing\nLatin /sh/ (mid-word after first syllable): nation, special, session",
@@ -1178,7 +787,7 @@ Write the correct Latin /sh/ spelling for each word:
 | mission | m, i (/ĭ/), ss, si (/sh/), o→/ŏ/, n | Rule 17 | /mi-shŏn/ |
 | vision | v, i (/ĭ/), si (/zh/), o→/ŏ/, n | Rule 17 (/zh/) | /vi-zhŏn/ |"""
 
-    return PRACTICE_TMP.format(n=19, title="Latin /sh/ Mastery", typ="rule-practice",
+    return render("practice", n=19, title="Latin /sh/ Mastery", typ="rule-practice",
         focus="TI, CI, SI — Latin /sh/ spellings", body=body,
         sa=sa, reading="nation &nbsp; special &nbsp; mission &nbsp; vision &nbsp; action &nbsp; musician\n\nThe nation has a special mission. My vision of the action is clear. The musician plays!",
         nn=21, ntitle=nt(20),
@@ -1194,12 +803,12 @@ def gen_morph(n, title, affix, typ, meaning, definition, example_pairs, build_wo
     examples = "\n".join(f"| {w} | {root} | {gloss} |" for w, root, gloss in example_pairs)
     build = "\n".join(f"| {r} | {affix}{' ' + r if typ == 'prefix' else r + ' ' + affix} | {'—' if typ == 'prefix' else ''} | {'—' if typ == 'prefix' else ''} |" for r in build_words)
     
-    return MORPH_TMP.format(n=n, title=title, focus=f"**{affix}**", what=what, meaning=meaning,
+    return render("morph", n=n, title=title, focus=f"**{affix}**", what=what, meaning=meaning,
         definition=definition, examples=examples, build=build, reading=reading,
         spell=" &nbsp;&nbsp; ".join(spell_words), nn=nn, ntitle=nt(nn), sep=sep, sep2=sep2)
 
 def gen_rule23():
-    return RULE_TMP.format(n=30, rn=23, name="AL- Prefix Has One L",
+    return render("rule", n=30, rn=23, name="AL- Prefix Has One L",
         statement="The prefix **AL-** has only one L.",
         why="AL- is a prefix meaning 'all' or 'to/toward.' Even though 'all' has two L's, the prefix AL- has only one. Compare: all + ready → already, all + though → although, all + ways → always. The prefix 'almost always' has one L!",
         examples="already, although, always, also, almost, altogether, albeit",
@@ -1210,7 +819,7 @@ def gen_rule23():
         home="Find AL- words in a book. Write them and circle the one-L prefix.")
 
 def gen_rule24():
-    return RULE_TMP.format(n=31, rn=24, name="-FUL Suffix Has One L",
+    return render("rule", n=31, rn=24, name="-FUL Suffix Has One L",
         statement="The suffix **-FUL** has only one L.",
         why="Though 'full' has two L's, the suffix -FUL has only one. Compare: hope + full → hopeful (one L), use + full → useful, beauty + full → beautiful. Only one L in the suffix!",
         examples="hopeful, useful, beautiful, careful, joyful, playful, helpful, thankful, wonderful, powerful",
@@ -1271,7 +880,7 @@ SUFFIXES = [
 # ── READERS ─────────────────────────────────────────────────────────
 
 def gen_firefly():
-    return READER4_TMP.format(n=38, title="Reader: Firefly — Nightlight with Wings",
+    return render("reader4", n=38, title="Reader: Firefly — Nightlight with Wings",
         phonograms="y (=/ē/), silent E, igh, ir",
         warmup_words="firefly &nbsp; light &nbsp; glow &nbsp; night &nbsp; wings &nbsp; summer &nbsp; garden &nbsp; dark &nbsp; blink &nbsp; shine",
         stitle="Firefly: Nightlight with Wings",
@@ -1326,7 +935,7 @@ The End.
         nn=40, ntitle=nt(39))
 
 def gen_trains():
-    return READER4_TMP.format(n=39, title="Reader: Trains — A Blast of Fast",
+    return render("reader4", n=39, title="Reader: Trains — A Blast of Fast",
         phonograms="ai, ay, silent E, er, tch",
         warmup_words="train &nbsp; steam &nbsp; coal &nbsp; rail &nbsp; engine &nbsp; fast &nbsp; station &nbsp; track &nbsp; iron &nbsp; smoke",
         stitle="Trains: A Blast of Fast",
@@ -1383,7 +992,7 @@ The End.
 # ── ADDITIONAL RULES ────────────────────────────────────────────────
 
 def gen_rule19():
-    return RULE_TMP.format(n=32, rn=19, name="Past Tense -ED Sounds",
+    return render("rule", n=32, rn=19, name="Past Tense -ED Sounds",
         statement="The past-tense ending **-ED** forms the past tense of regular verbs. Its spelling is always -ED, but its sound varies.",
         why="You already learned the three sounds of -ED from Rule 20 (Stage 2). Rule 19 is about using -ED to form past tense. Most verbs just add -ED. Some double the consonant (Rule 14: stop→stopped). Some drop silent E (Rule 13: bake→baked). Some change Y→I (Rule 15: carry→carried).",
         examples="walk→walked, play→played, stop→stopped, bake→baked, carry→carried, try→tried, hop→hopped, hope→hoped",
@@ -1394,7 +1003,7 @@ def gen_rule19():
         home="Write the past tense of: walk, stop, bake, carry, play, try. Name the rules you used.")
 
 def gen_rule21():
-    return RULE_TMP.format(n=33, rn=21, name="Plural -S and -ES",
+    return render("rule", n=33, rn=21, name="Plural -S and -ES",
         statement="To make most nouns plural, add **-S**. Add **-ES** when the word ends in S, SH, CH, X, or Z.",
         why="The -ES adds a syllable /ez/ so you can hear the plural. 'Box' + 's' = 'boxs' (hard to say!). 'Box' + 'es' = 'boxes' (easy!). The E provides an extra syllable.",
         examples="cat→cats, dog→dogs, box→boxes, dish→dishes, church→churches, buzz→buzzes, bus→buses, fox→foxes",
@@ -1405,7 +1014,7 @@ def gen_rule21():
         home="Write the plural of: cat, box, dish, church, fox, bus. Circle the ones that use -ES.")
 
 def gen_rule22():
-    return RULE_TMP.format(n=34, rn=22, name="3rd Person Singular -S and -ES",
+    return render("rule", n=34, rn=22, name="3rd Person Singular -S and -ES",
         statement="To make a verb agree with he/she/it in present tense, add **-S**. Add **-ES** when the verb ends in S, SH, CH, X, or Z.",
         why="Same pattern as plural nouns! He/she/it verbs need -S. When the verb ends in a hissing sound (S, SH, CH, X, Z), add -ES so you can hear the ending.",
         examples="run→runs, walk→walks, fix→fixes, wash→washes, watch→watches, buzz→buzzes, miss→misses, catch→catches",
@@ -1416,7 +1025,7 @@ def gen_rule22():
         home="Write: he (run), she (fix), it (wash), he (catch). Apply Rule 22 to each.")
 
 def gen_rule29():
-    return RULE_TMP.format(n=35, rn=29, name="Z, Not S, at Beginning",
+    return render("rule", n=35, rn=29, name="Z, Not S, at Beginning",
         statement="**Z**, never **S**, is used at the beginning of a base word for the /z/ sound.",
         why="English uses Z for /z/ at the beginning of words: zip, zap, zoo, zone. S at the beginning says /s/ (sit, sun, see). S says /z/ in the middle or at the end: has, is, music, visit.",
         examples="zip, zap, zoo, zone, zebra, zero, zigzag, zoom",
@@ -1610,7 +1219,7 @@ def gen_morph_review(typ):
         gb3 = "teacher (one who teaches), collection (act of collecting), readable (able to be read), kindness (quality of being kind), slowly (in a slow way), careful (full of care), fearless (without fear), dangerous (full of danger)"
         challenge = "teacher, actor, collection, washable, enjoyment, kindness, quickly, careful, fearless"
 
-    return REVIEW_TMP.format(
+    return render("review", 
         n={"prefixes":44,"suffixes":45}[typ],
         title=title, nn={"prefixes":45,"suffixes":46}[typ],
         ntitle=nt({"prefixes":45,"suffixes":46}[typ]),
@@ -1678,12 +1287,12 @@ Today we practice ALL skills from Stage 4: suffixing, Latin /sh/, say-to-spell, 
 def generate():
     # 1: Review Stage 3
     # 2-7: Schwa
-    yield 1, SCHWA_TMP.format(n=1, title="Schwa: The Lazy Vowel Sound", typ="rule-intro",
+    yield 1, render("schwa", n=1, title="Schwa: The Lazy Vowel Sound", typ="rule-intro",
         focus="schwa", body=gen_schwa2(), nn=2, ntitle=nt(2),
         check="1. What is schwa? *(The lazy /ə/ sound in unstressed syllables.)*\n2. Which vowels can say schwa? *(ALL of them — a, e, i, o, u.)*\n3. What's the say-to-spell of 'about'? *(ā-bout!)*",
         home="Find 5 schwa words in a book. Say each one normally, then say-to-spell.")
 
-    yield 2, SCHWA_TMP.format(n=2, title="Say-to-Spell: Unlocking Schwa Words", typ="say-to-spell",
+    yield 2, render("schwa", n=2, title="Say-to-Spell: Unlocking Schwa Words", typ="say-to-spell",
         focus="say-to-spell technique", body=gen_say_to_spell(), nn=3, ntitle=nt(3),
         check=gen_say_to_spell_check(),
         home="Practice say-to-spell with: about, seven, pencil, animal, family.")
@@ -1691,12 +1300,12 @@ def generate():
     yield 3, gen_schwa_practice()  # returns formatted content directly
     # Hack: gen_schwa_practice returns a string but SCHWA_TMP.format was already called inside
 
-    yield 4, SCHWA_TMP.format(n=4, title="Rule 31.2: O→/ŭ/ Before W TH M N V", typ="rule-intro",
+    yield 4, render("schwa", n=4, title="Rule 31.2: O→/ŭ/ Before W TH M N V", typ="rule-intro",
         focus="Rule 31.2", body=gen_rule31_2(), nn=5, ntitle=nt(5),
         check="1. Rule 31.2: O may say /ŭ/ before which consonants? *(W, TH, M, N, V)*\n2. Give 3 examples.\n3. Spell 'love' and 'mother' from dictation.",
         home="Find words with O→/ŭ/: love, mother, some, done, above, cover.")
 
-    yield 5, SCHWA_TMP.format(n=5, title="Rule 31.3: AR/OR→/er/ Unstressed", typ="rule-intro",
+    yield 5, render("schwa", n=5, title="Rule 31.3: AR/OR→/er/ Unstressed", typ="rule-intro",
         focus="Rule 31.3", body=gen_rule31_3(), nn=6, ntitle=nt(6),
         check="1. When do AR and OR say /er/? *(In unstressed syllables.)*\n2. Give an AR→/er/ example and an OR→/er/ example.\n3. Spell 'dollar' and 'doctor' from dictation.",
         home="Find words ending in -ar and -or. Does the ending say /er/?")
@@ -1709,7 +1318,7 @@ def generate():
     yield 9, gen_rule14_review()
 
     # 13: Mid-Assessment
-    yield 10, ASSESS_TMP.format(n=10, title="Mid-Stage 4 Assessment",
+    yield 10, render("assessment", n=10, title="Mid-Stage 4 Assessment",
         overview="Check progress on schwa, Rules 13-14, and say-to-spell.",
         schwa_check="| about | | ☐ |\n| seven | | ☐ |\n| pencil | | ☐ |\n| love | | ☐ |\n| dollar | | ☐ |",
         schwa_total=5,
@@ -1764,7 +1373,7 @@ def generate():
     yield 42, gen_mixed_spelling_4()
 
     # 47: Review
-    yield 43, REVIEW_TMP.format(n=40, title="Review: All Stage 4 Concepts", nn=38, ntitle=nt(38),
+    yield 43, render("review", n=40, title="Review: All Stage 4 Concepts", nn=38, ntitle=nt(38),
         g1="Schwa Check", gb1="Say-to-spell: about, seven, pencil, love, mother, dollar, doctor, animal, family, chocolate.",
         g2="Suffixing Check", gb2="Write -ing form: make, hop, use, run, sit, swim, cry, study. Which rules apply?",
         g3="Latin /sh/ Check", gb3="Spell: nation, special, mission, vision, action, musician. TI, CI, or SI?",
@@ -1772,7 +1381,7 @@ def generate():
         home="Review all Stage 4 flashcards!")
 
     # 48: Assessment
-    yield 44, ASSESS_TMP.format(n=41, title="Stage 4 Mastery Check",
+    yield 44, render("assessment", n=41, title="Stage 4 Mastery Check",
         overview="Final Stage 4 assessment. Check mastery of schwa, suffixing rules, Latin /sh/, morphology, and all Stage 4 concepts.",
         schwa_check="| about | | ☐ |\n| pencil | | ☐ |\n| love | | ☐ |\n| dollar | | ☐ |\n| doctor | | ☐ |\n| family | | ☐ |",
         schwa_total=6,
@@ -1809,7 +1418,7 @@ S = {
 def main():
     for num, content in generate():
         slug = S.get(num, f"lesson-{num:03d}")
-        (OUT / f"{slug}.md").write_text(content, encoding="utf-8")
+        (OUT_DIR / f"{slug}.md").write_text(content, encoding="utf-8")
         print(f"  lessons/stage-4/{slug}.md")
     print(f"\nDone! 48 lessons in lessons/stage-4/")
 
