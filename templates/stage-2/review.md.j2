@@ -1,0 +1,66 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — review lesson.
+   Variables: lesson_num, title, pg_list, game2_rows, sound_choices,
+              challenge_words, next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 2** · Lesson {{ lesson_num }} · review
+
+---
+
+## Warm-Up: Speed Flash
+
+> Flash ALL phonograms learned so far. Goal: child says ALL sounds within 2 seconds per card.
+
+| Phonograms to review |
+|----------------------|
+| {{ pg_list }} |
+
+---
+
+## Game 1: Phonogram Bingo
+
+Pick 6 phonograms from the list above and write one in each box of a 3×2 grid on your whiteboard. Adult calls out a SOUND. If you have the phonogram that makes that sound, cross it off!
+
+| ☐ | ☐ | ☐ |
+|---|---|---|
+| ☐ | ☐ | ☐ |
+
+---
+
+## Game 2: Build the Word
+
+Adult says a word. Child builds it using phonogram tiles (or writes it). Underline any multi-letter phonograms.
+
+| Word | Multi-letter PG? | Rules? |
+|------|-----------------|--------|
+{{ game2_rows }}
+
+---
+
+## Game 3: Which One Wins?
+
+Adult says two phonograms. Child picks the one that makes a given sound.
+
+{{ sound_choices }}
+
+---
+
+## Spelling Challenge
+
+Spell these words from dictation. Take your time — sound each one out.
+
+> {{ challenge_words }}
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Play "Which One Wins?" with a family member!*
+
+{{ teacher_script }}
+

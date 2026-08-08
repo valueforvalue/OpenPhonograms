@@ -1,0 +1,91 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — assessment lesson (mid-stage or final mastery).
+   Variables: lesson_num, title, overview, pg_checklist, pg_total,
+              reading_checklist, reading_total, spelling_checklist,
+              spelling_total, rule_checklist, rule_total, overall_total,
+              next_steps, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 2** · Lesson {{ lesson_num }} · assessment
+
+---
+
+## Assessment Overview
+
+{{ overview }}
+
+---
+
+## Part 1: Phonogram Sounds
+
+> Flash each phonogram card. Child says ALL sounds in frequency order within 2 seconds.
+
+| Phonogram | Sounds | ✓ / Needs Work |
+|-----------|--------|----------------|
+{{ pg_checklist }}
+
+**Score:** __ / {{ pg_total }}
+
+---
+
+## Part 2: Word Reading
+
+> Child reads each word aloud. Sound-by-sound blending is OK.
+
+| Word | ✓ |
+|------|---|
+{{ reading_checklist }}
+
+**Score:** __ / {{ reading_total }}
+
+---
+
+## Part 3: Spelling (Dictation)
+
+> Adult dictates each word. Child writes it independently.
+
+| Word | ✓ |
+|------|---|
+{{ spelling_checklist }}
+
+**Score:** __ / {{ spelling_total }}
+
+---
+
+## Part 4: Rule Knowledge
+
+> Adult asks the question. Child explains in their own words.
+
+| Rule | Question | ✓ / Needs Work |
+|------|----------|----------------|
+{{ rule_checklist }}
+
+**Score:** __ / {{ rule_total }}
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Phonogram Sounds | __ / {{ pg_total }} | |
+| Word Reading | __ / {{ reading_total }} | |
+| Spelling | __ / {{ spelling_total }} | |
+| Rule Knowledge | __ / {{ rule_total }} | |
+
+**Overall:** __ / {{ overall_total }}
+
+---
+
+## Next Steps
+
+{{ next_steps }}
+
+---
+
+*Great work! Every assessment shows what you've learned and what to practice next.*
+
+{{ teacher_script }}
+

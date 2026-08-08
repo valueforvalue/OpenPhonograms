@@ -1,0 +1,81 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — spelling rule lesson.
+   Variables: lesson_num, rule_num, rule_name, rule_statement, explanation,
+              examples, analysis_rows, word_rows, read_words, multi_list,
+              next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: Rule {{ rule_num }} — {{ rule_name }}
+
+**Stage 2** · Lesson {{ lesson_num }} · rule-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
+
+| Phonograms to review |
+|----------------------|
+| All a-z + {{ multi_list }} |
+
+---
+
+## New Learning: Rule {{ rule_num }}
+
+### The Rule
+
+> **{{ rule_statement }}**
+
+### Why This Rule Exists
+
+{{ explanation }}
+
+### Examples
+
+{{ examples }}
+
+### Let's Find the Rule in Action
+
+For each word below, identify how Rule {{ rule_num }} applies:
+
+| Word | How Rule {{ rule_num }} Works Here |
+|------|-------------------------------|
+{{ analysis_rows }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ word_rows }}
+
+---
+
+## Reading Practice
+
+Read these words sound by sound:
+
+> {{ read_words }}
+
+---
+
+## Quick Check
+
+1. What is Rule {{ rule_num }}? *(Restate in your own words.)*
+2. Why does English need Rule {{ rule_num }}? *(Explain the reason.)*
+3. Give an example of Rule {{ rule_num }} that we haven't used today.
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Find 3 words in a book that follow Rule {{ rule_num }}. Write them down!*
+
+{{ teacher_script }}
+
+{{ teacher_script }}
+

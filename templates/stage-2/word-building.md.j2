@@ -1,0 +1,76 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — word-building lesson.
+   Variables: lesson_num, title, learning_title, description, variation_note,
+              word_builder_rows, spelling_rows, read_words, sentences,
+              check_word, next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 2** · Lesson {{ lesson_num }} · word-building
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of all known phonograms.
+
+| Phonograms to review |
+|----------------------|
+| All 26 a-z |
+
+---
+
+## New Learning: {{ learning_title }}
+
+### What We're Building Today
+
+{{ description }}
+
+{{ variation_note }}
+### Word Builder Chart
+
+For each word, say the sounds, then write the phonograms:
+
+| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
+|------|---------|---------|---------|---------|------------|
+{{ word_builder_rows }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ spelling_rows }}
+
+---
+
+## Reading Practice
+
+Read these words sound by sound, then blend:
+
+> {{ read_words }}
+
+Read these sentences:
+
+> {{ sentences }}
+
+---
+
+## Quick Check
+
+1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
+2. Build the word "{{ check_word }}" — tell me each sound, then write it.
+3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Build 3 words from today's pattern on your whiteboard.*
+
+{{ teacher_script }}
+

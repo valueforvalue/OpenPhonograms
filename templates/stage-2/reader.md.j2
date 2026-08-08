@@ -1,0 +1,69 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — decodable reader lesson.
+   Variables: lesson_num, title, review_pgs, warmup_words, story_title,
+              story_text, talk_about, story_words_table,
+              next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 2** · Lesson {{ lesson_num }} · reader
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| {{ review_pgs }} |
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word sound by sound BEFORE reading the story:
+
+> {{ warmup_words }}
+
+---
+
+## Story: {{ story_title }}
+
+{{ story_text }}
+
+---
+
+## After Reading: Talk About It
+
+{{ talk_about }}
+
+---
+
+## Spelling Practice
+
+Find these words in the story. Write them and underline the phonograms:
+
+| Word from Story | Phonograms |
+|-----------------|------------|
+{{ story_words_table }}
+
+---
+
+## Quick Check
+
+1. What was the story about?
+2. What new phonogram did you see in the story?
+3. Write your favorite word from the story. Underline its phonograms.
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Read this story aloud to a family member!*
+
+{{ teacher_script }}
+

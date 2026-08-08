@@ -1,0 +1,90 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — multi-letter phonogram intro lesson.
+   Variables: lesson_num, pg, sounds, sound_count, s_plural,
+              example_rows, tip, rule_section, word_rows, read_words,
+              sentences, write_words, known_multi, letter_count,
+              extra_questions, next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: Phonogram {{ pg }}
+
+**Stage 2** · Lesson {{ lesson_num }} · phonogram-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
+
+| Phonograms to review |
+|----------------------|
+| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+| Multi-letter so far |
+|---------------------|
+| {{ known_multi }} |
+
+---
+
+## New Learning: The Phonogram **{{ pg }}**
+
+### What Is **{{ pg }}**?
+
+<div class="phonogram">{{ pg }}</div>
+
+**{{ pg }}** says {{ sound_count }} sound{{ s_plural }}: {{ sounds }}
+
+{{ tip }}
+
+{{ rule_section }}
+### Sound Table
+
+| Sound | Example Words |
+|-------|--------------|
+{{ example_rows }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ word_rows }}
+
+---
+
+## Reading Practice
+
+Read these words sound by sound, then blend:
+
+> {{ read_words }}
+
+Read these sentences:
+
+> {{ sentences }}
+
+---
+
+## Handwriting Practice
+
+Write each word once. Underline the **{{ pg }}** in each word.
+
+{{ write_words }}
+
+---
+
+## Quick Check
+
+1. What did you learn today? *(The phonogram {{ pg }} — it says {{ sounds }})*
+2. Is {{ pg }} a single-letter or multi-letter phonogram? *(Multi-letter — {{ letter_count }} letters that make one sound!)*
+{{ extra_questions }}
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Flash your **{{ pg }}** card 5 times. Find **{{ pg }}** in a book — how many can you find?*
+
+{{ teacher_script }}
+

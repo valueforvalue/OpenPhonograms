@@ -2,21 +2,35 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Generate all 56 Stage 2 lesson markdown files with real educational content."""
+"""Generate all 56 Stage 2 lesson markdown files via Jinja templates.
+
+Architecture (slice 2 of #22 + #23):
+  - Phonogram + rule data lives in data/*.yaml; loaded via framework.data_loader.
+  - Stage-2-specific data (SINGLE_PGS, MULTI_PGS, RULES, HF_WORDS, word
+    lists) stays inline — per Slice 0 decision, finalized content stays in
+    the generator until it stabilizes.
+  - Lesson scaffolds live in templates/stage-2/*.md.j2.
+  - This file is a thin orchestrator: compute template vars + render.
+"""
 
 import io
 import sys
 from pathlib import Path
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
-# Teacher script injection (issue #4)
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "framework"))
-from teacher_script import format_phonogram_script, format_rule_script  # noqa: E402
+from jinja2 import Environment, FileSystemLoader
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = PROJECT_ROOT / "lessons" / "stage-2"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-2"
+
+# Teacher script injection (issue #4)
+sys.path.insert(0, str(PROJECT_ROOT / "framework"))
+from teacher_script import format_phonogram_script, format_rule_script  # noqa: E402
+
+# Stdout encoding for Windows console.
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 
 # ── PHONOGRAM DATA ──────────────────────────────────────────────────
 
@@ -281,12 +295,14 @@ KNOWN_MULTI_AFTER = {
     55: ["sh", "th", "ck", "ee", "ng", "ar", "or", "er", "oi", "oy", "ai", "ay", "ch", "wh", "ea", "ow", "ou", "oo", "ed", "igh", "aw", "au", "ir", "ur", "oa", "ear"],
 }
 
+
 def known_multi_for(num):
     """Get multi-letter PGs known at this lesson num."""
     for threshold in sorted(KNOWN_MULTI_AFTER.keys(), reverse=True):
         if num >= threshold:
             return KNOWN_MULTI_AFTER[threshold]
     return []
+
 
 # ── SPELLING RULES ──────────────────────────────────────────────────
 
@@ -349,6 +365,7 @@ RULES = {
     },
 }
 
+
 # ── HIGH-FREQUENCY WORDS ────────────────────────────────────────────
 
 HF_WORDS_SET1 = [
@@ -374,6 +391,7 @@ HF_WORDS_SET3 = [
     ("come", "O says /ŭ/. Silent E is Rule 12.9 — the unseen reason. Say-to-spell: /kōm/ to remember the O, then read as /kŭm/."),
     ("some", "O says /ŭ/. Silent E — Rule 12.9. Say-to-spell: /sōm/ to remember O."),
 ]
+
 
 # ── WORD LISTS ──────────────────────────────────────────────────────
 
@@ -467,672 +485,15 @@ PG_SPELLING_WORDS = {
             ("early", "ear (/er/), l (/l/), y (/ē/)", "EAR = /er/ at start", "er-lē")],
 }
 
-# ── TEMPLATES ───────────────────────────────────────────────────────
 
-SHORT_VOWEL_TEMPLATE = """# Lesson {lesson_num}: Short Vowel {vowel_upper} — /{vowel_sound}/
+# ── JINJA ENVIRONMENT ────────────────────────────────────────────────
 
-**Stage 2** · Lesson {lesson_num} · vowel-concept
+env = Environment(
+    loader=FileSystemLoader(str(TEMPLATE_DIR)),
+    trim_blocks=True,
+    lstrip_blocks=True,
+)
 
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all 26 a-z phonograms. Child says ALL sounds within 2 seconds. Focus especially on **{vowel}**.
-
-| Review all a-z |
-|----------------|
-| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
-
----
-
-## New Learning: The Short Sound of **{vowel_upper}**
-
-### Meet /{vowel_sound}/
-
-**{vowel_upper}** has multiple sounds. The short sound of **{vowel}** is /{vowel_sound}/.
-
-{vowel_description}
-
-<div class="phonogram">{vowel}</div>
-
-### The Breve Mark ˘
-
-When {vowel} says its short sound /{vowel_sound}/, we can mark it with a **breve** (˘) — a little smile above the letter. This helps us remember it's the short sound.
-
-> {vowel}̄  = long &nbsp;&nbsp;|&nbsp;&nbsp; {vowel}̆ = short (breve)
-
-### Short {vowel_upper} Words
-
-| Word | Sounds | Meaning |
-|------|--------|---------|
-{word_table}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
-> **At this stage:** The teacher may need to help by saying each sound slowly. Child writes one phonogram at a time, saying the sound as they write.
-
----
-
-## Reading Practice
-
-Read these words sound by sound, then blend:
-
-> {read_words}
-
----
-
-## Dictation
-
-Adult reads these sentences aloud. Child writes them.
-
-> {dictation}
-
----
-
-## Quick Check
-
-1. What is the short sound of **{vowel}**? *(/{vowel_sound}/)*
-2. What mark do we use to show a short vowel? *(A breve ˘ — like a smile)*
-3. Say a word with short /{vowel_sound}/ that we haven't used today.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find {items} things in your house with the short /{vowel_sound}/ sound.*
-
-{teacher_script}
-"""
-
-MULTI_PG_TEMPLATE = """# Lesson {lesson_num}: Phonogram {pg}
-
-**Stage 2** · Lesson {lesson_num} · phonogram-intro
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all known phonograms (a-z + multi-letter). Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| All 26 single: a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
-
-| Multi-letter so far |
-|---------------------|
-| {known_multi} |
-
----
-
-## New Learning: The Phonogram **{pg}**
-
-### What Is **{pg}**?
-
-<div class="phonogram">{pg}</div>
-
-**{pg}** says {sound_count} sound{s_plural}: {sounds}
-
-{tip}
-
-{rule_section}
-### Sound Table
-
-| Sound | Example Words |
-|-------|--------------|
-{example_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{word_rows}
-
----
-
-## Reading Practice
-
-Read these words sound by sound, then blend:
-
-> {read_words}
-
-Read these sentences:
-
-> {sentences}
-
----
-
-## Handwriting Practice
-
-Write each word once. Underline the **{pg}** in each word.
-
-{write_words}
-
----
-
-## Quick Check
-
-1. What did you learn today? *(The phonogram {pg} — it says {sounds})*
-2. Is {pg} a single-letter or multi-letter phonogram? *(Multi-letter — {letter_count} letters that make one sound!)*
-{extra_questions}
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Flash your **{pg}** card 5 times. Find **{pg}** in a book — how many can you find?*
-
-{teacher_script}
-"""
-
-RULE_TEMPLATE = """# Lesson {lesson_num}: Rule {rule_num} — {rule_name}
-
-**Stage 2** · Lesson {lesson_num} · rule-intro
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all known phonograms. Child says ALL sounds within 2 seconds.
-
-| Phonograms to review |
-|----------------------|
-| All a-z + {multi_list} |
-
----
-
-## New Learning: Rule {rule_num}
-
-### The Rule
-
-> **{rule_statement}**
-
-### Why This Rule Exists
-
-{explanation}
-
-### Examples
-
-{examples}
-
-### Let's Find the Rule in Action
-
-For each word below, identify how Rule {rule_num} applies:
-
-| Word | How Rule {rule_num} Works Here |
-|------|-------------------------------|
-{analysis_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{word_rows}
-
----
-
-## Reading Practice
-
-Read these words sound by sound:
-
-> {read_words}
-
----
-
-## Quick Check
-
-1. What is Rule {rule_num}? *(Restate in your own words.)*
-2. Why does English need Rule {rule_num}? *(Explain the reason.)*
-3. Give an example of Rule {rule_num} that we haven't used today.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find 3 words in a book that follow Rule {rule_num}. Write them down!*
-
-{teacher_script}
-
-{teacher_script}
-"""
-
-HF_WORD_TEMPLATE = """# Lesson {lesson_num}: High-Frequency Words — Set {set_num}
-
-**Stage 2** · Lesson {lesson_num} · hf-word
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| Review all known |
-|------------------|
-| {multi_list} |
-
----
-
-## Important: These Are NOT Sight Words
-
-In many reading programs, these words are called "sight words" — words you just memorize. In Logic of English, **every word can be explained.** You are going to learn WHY each word is spelled the way it is.
-
-> **There are no true sight words.** Every word follows the rules when you know all the phonograms and spelling rules.
-
----
-
-## Today's High-Frequency Words
-
-These words appear in books ALL the time. Learning them now makes reading easier!
-
-{word_sections}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-Read these sentences containing our high-frequency words:
-
-> {sentences}
-
----
-
-## Dictation
-
-Adult reads these sentences. Child writes them.
-
-> {dictation_sentences}
-
----
-
-## Quick Check
-
-1. Why don't we call these "sight words"? *(Because every word can be explained with phonograms and rules!)*
-2. What is say-to-spell and why do we use it? *(Say-to-spell is pronouncing a word with clear vowel sounds to help us remember its spelling.)*
-3. Spell "{check_word}" from dictation.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find today's words in a book. Count how many times you see each one!*
-
-{teacher_script}
-"""
-
-REVIEW_TEMPLATE = """# Lesson {lesson_num}: {title}
-
-**Stage 2** · Lesson {lesson_num} · review
-
----
-
-## Warm-Up: Speed Flash
-
-> Flash ALL phonograms learned so far. Goal: child says ALL sounds within 2 seconds per card.
-
-| Phonograms to review |
-|----------------------|
-| {pg_list} |
-
----
-
-## Game 1: Phonogram Bingo
-
-Pick 6 phonograms from the list above and write one in each box of a 3×2 grid on your whiteboard. Adult calls out a SOUND. If you have the phonogram that makes that sound, cross it off!
-
-| ☐ | ☐ | ☐ |
-|---|---|---|
-| ☐ | ☐ | ☐ |
-
----
-
-## Game 2: Build the Word
-
-Adult says a word. Child builds it using phonogram tiles (or writes it). Underline any multi-letter phonograms.
-
-| Word | Multi-letter PG? | Rules? |
-|------|-----------------|--------|
-{game2_rows}
-
----
-
-## Game 3: Which One Wins?
-
-Adult says two phonograms. Child picks the one that makes a given sound.
-
-{sound_choices}
-
----
-
-## Spelling Challenge
-
-Spell these words from dictation. Take your time — sound each one out.
-
-> {challenge_words}
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Play "Which One Wins?" with a family member!*
-
-{teacher_script}
-"""
-
-WORD_BUILD_TEMPLATE = """# Lesson {lesson_num}: {title}
-
-**Stage 2** · Lesson {lesson_num} · word-building
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| Phonograms to review |
-|----------------------|
-| All 26 a-z |
-
----
-
-## New Learning: {learning_title}
-
-### What We're Building Today
-
-{description}
-
-{variation_note}
-### Word Builder Chart
-
-For each word, say the sounds, then write the phonograms:
-
-| Word | Sound 1 | Sound 2 | Sound 3 | Sound 4 | Phonograms |
-|------|---------|---------|---------|---------|------------|
-{word_builder_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-Read these words sound by sound, then blend:
-
-> {read_words}
-
-Read these sentences:
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. What pattern did we practice today? *(Answers vary — child describes the word pattern.)*
-2. Build the word "{check_word}" — tell me each sound, then write it.
-3. What do you notice about all the vowel sounds in today's words? *(They are short vowels!)*
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Build 3 words from today's pattern on your whiteboard.*
-
-{teacher_script}
-"""
-
-SPELLING_ANALYSIS_TEMPLATE = """# Lesson {lesson_num}: {title}
-
-**Stage 2** · Lesson {lesson_num} · spelling-analysis
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all known phonograms. Focus on {focus_pgs}.
-
-| Phonograms to review |
-|----------------------|
-| All 26 a-z + {multi_list} |
-
----
-
-## Spelling Analysis Routine
-
-Follow the 5-step routine for EVERY word:
-
-1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
-2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter PG, 2 fingers = multi-letter).
-3. **Write** — Child writes the word while sounding it out.
-4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
-5. **Read** — Child reads the word sound by sound, then blends.
-
----
-
-## Spelling Analysis: {focus_title}
-
-{intro_text}
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{word_rows}
-
----
-
-## Bonus Words (Challenge!)
-
-If you spelled all the main words correctly, try these:
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{bonus_rows}
-
----
-
-## Reading Practice
-
-Read these sentences:
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. Which multi-letter phonogram did we use most today?
-2. What new rule(s) did you apply?
-3. Spell "{check_word}" from dictation.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Choose 2 words from today's lesson. Spell them for a family member and explain the phonograms you used.*
-
-{teacher_script}
-"""
-
-READER_TEMPLATE = """# Lesson {lesson_num}: {title}
-
-**Stage 2** · Lesson {lesson_num} · reader
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of phonograms used in today's story.
-
-| Phonograms to review |
-|----------------------|
-| {review_pgs} |
-
----
-
-## Warm-Up Words — Read These First
-
-Read each word sound by sound BEFORE reading the story:
-
-> {warmup_words}
-
----
-
-## Story: {story_title}
-
-{story_text}
-
----
-
-## After Reading: Talk About It
-
-{talk_about}
-
----
-
-## Spelling Practice
-
-Find these words in the story. Write them and underline the phonograms:
-
-| Word from Story | Phonograms |
-|-----------------|------------|
-{story_words_table}
-
----
-
-## Quick Check
-
-1. What was the story about?
-2. What new phonogram did you see in the story?
-3. Write your favorite word from the story. Underline its phonograms.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Read this story aloud to a family member!*
-
-{teacher_script}
-"""
-
-ASSESSMENT_TEMPLATE = """# Lesson {lesson_num}: {title}
-
-**Stage 2** · Lesson {lesson_num} · assessment
-
----
-
-## Assessment Overview
-
-{overview}
-
----
-
-## Part 1: Phonogram Sounds
-
-> Flash each phonogram card. Child says ALL sounds in frequency order within 2 seconds.
-
-| Phonogram | Sounds | ✓ / Needs Work |
-|-----------|--------|----------------|
-{pg_checklist}
-
-**Score:** __ / {pg_total}
-
----
-
-## Part 2: Word Reading
-
-> Child reads each word aloud. Sound-by-sound blending is OK.
-
-| Word | ✓ |
-|------|---|
-{reading_checklist}
-
-**Score:** __ / {reading_total}
-
----
-
-## Part 3: Spelling (Dictation)
-
-> Adult dictates each word. Child writes it independently.
-
-| Word | ✓ |
-|------|---|
-{spelling_checklist}
-
-**Score:** __ / {spelling_total}
-
----
-
-## Part 4: Rule Knowledge
-
-> Adult asks the question. Child explains in their own words.
-
-| Rule | Question | ✓ / Needs Work |
-|------|----------|----------------|
-{rule_checklist}
-
-**Score:** __ / {rule_total}
-
----
-
-## Results
-
-| Section | Score | Pass? |
-|---------|-------|-------|
-| Phonogram Sounds | __ / {pg_total} | |
-| Word Reading | __ / {reading_total} | |
-| Spelling | __ / {spelling_total} | |
-| Rule Knowledge | __ / {rule_total} | |
-
-**Overall:** __ / {overall_total}
-
----
-
-## Next Steps
-
-{next_steps}
-
----
-
-*Great work! Every assessment shows what you've learned and what to practice next.*
-
-{teacher_script}
-"""
 
 # ── HELPERS ─────────────────────────────────────────────────────────
 
@@ -1142,11 +503,13 @@ def known_multi_str(num):
         return "(No multi-letter phonograms yet)"
     return ", ".join(multi)
 
+
 def multi_list_str(num):
     multi = known_multi_for(num)
     if not multi:
         return "(none yet)"
     return ", ".join(multi)
+
 
 def next_title(num):
     titles = {
@@ -1178,8 +541,10 @@ def next_title(num):
     }
     return titles.get(num, f"Lesson {num}")
 
+
 def next_num(num):
     return num + 1
+
 
 # ── BUILDERS ────────────────────────────────────────────────────────
 
@@ -1197,7 +562,7 @@ def build_short_vowel(num, vowel, vsound, description, words_list, vtype="defaul
     items = "3" if len(words_list) <= 5 else "5"
     dictation = "The " + words_list[0] + " is big." if words_list else ""
 
-    return SHORT_VOWEL_TEMPLATE.format(
+    return env.get_template("short-vowel.md.j2").render(
         lesson_num=num, vowel_upper=vowel_upper, vowel_sound=vsound, vowel=vowel,
         vowel_description=description, word_table=word_table,
         spelling_rows=spelling_rows, read_words=read_words,
@@ -1205,6 +570,7 @@ def build_short_vowel(num, vowel, vsound, description, words_list, vtype="defaul
         next_num=next_num(num), next_title=next_title(next_num(num)),
         teacher_script="",
     )
+
 
 def build_multi_pg(num, pg):
     d = MULTI_PGS[pg]
@@ -1233,7 +599,7 @@ def build_multi_pg(num, pg):
     else:
         extra_q = f"3. What is the most common sound of {pg}? *({sounds.split()[0]})*\n"
 
-    return MULTI_PG_TEMPLATE.format(
+    return env.get_template("multi-pg.md.j2").render(
         lesson_num=num, pg=pg, sounds=sounds, sound_count=sc, s_plural=s_plural,
         example_rows=example_rows, tip=tip, rule_section=rule_section,
         word_rows=word_rows, read_words=read_words, sentences=sentences,
@@ -1242,6 +608,7 @@ def build_multi_pg(num, pg):
         next_num=next_num(num), next_title=next_title(next_num(num)),
         teacher_script=format_phonogram_script(pg, sounds),
     )
+
 
 def build_rule(num, rule_key):
     r = RULES[rule_key]
@@ -1256,7 +623,7 @@ def build_rule(num, rule_key):
         f"| {w} | (sound out) | Rule {rn} | /{w}/ |" for w in words[:4]
     )
 
-    return RULE_TEMPLATE.format(
+    return env.get_template("rule.md.j2").render(
         lesson_num=num, rule_num=rn, rule_name=r["name"],
         rule_statement=r["statement"], explanation=r["explanation"],
         examples=r["examples"], analysis_rows=analysis_rows,
@@ -1265,6 +632,7 @@ def build_rule(num, rule_key):
         next_num=next_num(num), next_title=next_title(next_num(num)),
         teacher_script=format_rule_script(rn, r["name"], r["statement"]),
     )
+
 
 def build_hf_words(num, set_num, words_data, sentences, dictation_sentences, check_word):
     word_sections = ""
@@ -1276,7 +644,7 @@ def build_hf_words(num, set_num, words_data, sentences, dictation_sentences, che
         for w, _ in words_data
     )
 
-    return HF_WORD_TEMPLATE.format(
+    return env.get_template("hf-words.md.j2").render(
         lesson_num=num, set_num=set_num, word_sections=word_sections,
         spelling_rows=spelling_rows, sentences=sentences,
         dictation_sentences=dictation_sentences, check_word=check_word,
@@ -1284,6 +652,7 @@ def build_hf_words(num, set_num, words_data, sentences, dictation_sentences, che
         next_num=next_num(num), next_title=next_title(next_num(num)),
         teacher_script="",
     )
+
 
 def build_word_building(num, title, learning_title, description, words, variation_note="", check_word=""):
     word_builder_rows = "\n".join(
@@ -1301,7 +670,7 @@ def build_word_building(num, title, learning_title, description, words, variatio
     sentences = f"{words[0]} and {words[1]} are fun." if len(words) >= 2 else ""
     cw = check_word or (words[0] if words else "cat")
 
-    return WORD_BUILD_TEMPLATE.format(
+    return env.get_template("word-building.md.j2").render(
         lesson_num=num, title=title, learning_title=learning_title,
         description=description, variation_note=variation_note,
         word_builder_rows=word_builder_rows, spelling_rows=spelling_rows,
@@ -1311,6 +680,7 @@ def build_word_building(num, title, learning_title, description, words, variatio
         teacher_script="",
     )
 
+
 def build_spelling_analysis(num, title, focus_title, focus_pgs, intro, words_data, bonus_words, sentences, check_word):
     word_rows = "\n".join(
         f"| {w[0]} | {w[1]} | {w[2]} | {w[3]} |" for w in words_data
@@ -1318,7 +688,7 @@ def build_spelling_analysis(num, title, focus_title, focus_pgs, intro, words_dat
     bonus_rows = "\n".join(
         f"| {w[0]} | {w[1]} | {w[2]} | {w[3]} |" for w in bonus_words
     )
-    return SPELLING_ANALYSIS_TEMPLATE.format(
+    return env.get_template("spelling-analysis.md.j2").render(
         lesson_num=num, title=title, focus_title=focus_title,
         focus_pgs=focus_pgs, intro_text=intro,
         word_rows=word_rows, bonus_rows=bonus_rows,
@@ -1328,8 +698,9 @@ def build_spelling_analysis(num, title, focus_title, focus_pgs, intro, words_dat
         teacher_script="",
     )
 
+
 def build_review(num, title, pgs, game2_rows, sound_choices, challenge_words):
-    return REVIEW_TEMPLATE.format(
+    return env.get_template("review.md.j2").render(
         lesson_num=num, title=title, pg_list=", ".join(pgs),
         game2_rows=game2_rows, sound_choices=sound_choices,
         challenge_words=", ".join(challenge_words),
@@ -1553,7 +924,7 @@ def build_mid_assessment():
         f"| {p} | {get_sounds(p)} | ☐ |"
         for p in pgs if p in SINGLE_PGS or p in MULTI_PGS
     )
-    return ASSESSMENT_TEMPLATE.format(
+    return env.get_template("assessment.md.j2").render(
         lesson_num=24, title="Mid-Stage 2 Assessment",
         overview="This mid-point check verifies the child is on track. Focus on CVC accuracy, first multi-letter phonograms, and blending with blends.",
         pg_checklist=pg_checks, pg_total=34,
@@ -1568,6 +939,7 @@ def build_mid_assessment():
         teacher_script="",
     )
 
+
 def build_final_assessment():
     pgs = list(SINGLE_PGS.keys()) + list(MULTI_PGS.keys())
     def get_sounds(p):
@@ -1578,7 +950,7 @@ def build_final_assessment():
         f"| {p} | {get_sounds(p)} | ☐ |"
         for p in pgs
     )
-    return ASSESSMENT_TEMPLATE.format(
+    return env.get_template("assessment.md.j2").render(
         lesson_num=56, title="Stage 2 Mastery Check",
         overview="This final assessment checks readiness for Stage 3. The child should demonstrate CVC/CCVC/CVCC proficiency, know 26 multi-letter phonograms, and apply Rules 3, 4, 6, 9, 11, 20, 26, 30.",
         pg_checklist=pg_checks, pg_total=len(pgs),
@@ -1592,6 +964,7 @@ def build_final_assessment():
         next_steps="If all sections pass: Move to Stage 3! If any section is weak, return to those specific lessons and re-test in 1-2 weeks. Passing score: 85%+",
         teacher_script="",
     )
+
 
 def build_fred_reader():
     story = """<div class="reader-page">
@@ -1651,7 +1024,7 @@ The End.
 
 </div>"""
 
-    return READER_TEMPLATE.format(
+    return env.get_template("reader.md.j2").render(
         lesson_num=55, title="Reader: Fred the Frog",
         review_pgs="f, r, o, g, sh, th, ck, ee, ng, s, l, p, n, d, h, j, w, c, b, z, y",
         warmup_words="Fred &nbsp; frog &nbsp; log &nbsp; sits &nbsp; pond &nbsp; jumps &nbsp; splash &nbsp; swims &nbsp; cool &nbsp; sees &nbsp; bug &nbsp; rock &nbsp; hops &nbsp; zips &nbsp; fat &nbsp; fly &nbsp; back &nbsp; waits &nbsp; gets &nbsp; happy",
@@ -1666,41 +1039,44 @@ The End.
 
 # ── WRITE ───────────────────────────────────────────────────────────
 
+_LESSON_SLUGS = {
+    1: "short-a", 2: "short-i", 3: "short-o", 4: "short-u", 5: "short-e",
+    6: "vc-words", 7: "cvc-continuant", 8: "cvc-stop", 9: "cvc-all",
+    10: "pg-sh", 11: "pg-th", 12: "pg-ck",
+    13: "spell-sh-th-ck",
+    14: "pg-ee",
+    15: "ccvc-blends", 16: "cvcc-blends", 17: "ccvcc-blends",
+    18: "pg-ng", 19: "pg-ar", 20: "pg-or", 21: "pg-er",
+    22: "review-6",
+    23: "assessment-2",
+    24: "pg-oi", 25: "pg-oy", 26: "rule-3",
+    27: "pg-ai", 28: "pg-ay", 29: "rule-9",
+    30: "spell-oi-oy-ai-ay",
+    31: "pg-ch", 32: "pg-wh", 33: "pg-ea",
+    34: "spell-ch-wh-ea",
+    35: "pg-ow", 36: "pg-ou", 37: "rule-4",
+    38: "open-syllables",
+    39: "pg-oo", 40: "pg-ed", 41: "rule-20",
+    42: "pg-igh", 43: "pg-aw", 44: "pg-au",
+    45: "pg-ir", 46: "pg-ur",
+    47: "review-7",
+    48: "pg-oa", 49: "pg-ear",
+    50: "hf-words-1", 51: "hf-words-2", 52: "hf-words-3",
+    53: "rule-30",
+    54: "reader-1",
+    55: "assessment-3",
+}
+
+
 def main():
     for num, content in generate_all():
-        slugs = {
-            1: "short-a", 2: "short-i", 3: "short-o", 4: "short-u", 5: "short-e",
-            6: "vc-words", 7: "cvc-continuant", 8: "cvc-stop", 9: "cvc-all",
-            10: "pg-sh", 11: "pg-th", 12: "pg-ck",
-            13: "spell-sh-th-ck",
-            14: "pg-ee",
-            15: "ccvc-blends", 16: "cvcc-blends", 17: "ccvcc-blends",
-            18: "pg-ng", 19: "pg-ar", 20: "pg-or", 21: "pg-er",
-            22: "review-6",
-            23: "assessment-2",
-            24: "pg-oi", 25: "pg-oy", 26: "rule-3",
-            27: "pg-ai", 28: "pg-ay", 29: "rule-9",
-            30: "spell-oi-oy-ai-ay",
-            31: "pg-ch", 32: "pg-wh", 33: "pg-ea",
-            34: "spell-ch-wh-ea",
-            35: "pg-ow", 36: "pg-ou", 37: "rule-4",
-            38: "open-syllables",
-            39: "pg-oo", 40: "pg-ed", 41: "rule-20",
-            42: "pg-igh", 43: "pg-aw", 44: "pg-au",
-            45: "pg-ir", 46: "pg-ur",
-            47: "review-7",
-            48: "pg-oa", 49: "pg-ear",
-            50: "hf-words-1", 51: "hf-words-2", 52: "hf-words-3",
-            53: "rule-30",
-            54: "reader-1",
-            55: "assessment-3",
-        }
-        slug = slugs.get(num, f"lesson-{num:03d}")
+        slug = _LESSON_SLUGS.get(num, f"lesson-{num:03d}")
         filepath = OUT_DIR / f"{slug}.md"
         filepath.write_text(content, encoding="utf-8")
         print(f"  {filepath.relative_to(PROJECT_ROOT)}")
 
     print(f"\nDone! 56 lessons written to {OUT_DIR.relative_to(PROJECT_ROOT)}")
+
 
 if __name__ == "__main__":
     main()

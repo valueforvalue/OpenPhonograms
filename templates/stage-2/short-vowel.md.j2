@@ -1,0 +1,89 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 2 — short-vowel lesson.
+   Variables: lesson_num, vowel_upper, vowel_sound, vowel, vowel_description,
+              word_table, spelling_rows, read_words, dictation, items,
+              next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: Short Vowel {{ vowel_upper }} — /{{ vowel_sound }}/
+
+**Stage 2** · Lesson {{ lesson_num }} · vowel-concept
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all 26 a-z phonograms. Child says ALL sounds within 2 seconds. Focus especially on **{{ vowel }}**.
+
+| Review all a-z |
+|----------------|
+| a, d, g, c, o, qu, s, t, i, p, u, j, r, n, m, e, l, b, h, k, f, v, w, x, y, z |
+
+---
+
+## New Learning: The Short Sound of **{{ vowel_upper }}**
+
+### Meet /{{ vowel_sound }}/
+
+**{{ vowel_upper }}** has multiple sounds. The short sound of **{{ vowel }}** is /{{ vowel_sound }}/.
+
+{{ vowel_description }}
+
+<div class="phonogram">{{ vowel }}</div>
+
+### The Breve Mark ˘
+
+When {{ vowel }} says its short sound /{{ vowel_sound }}/, we can mark it with a **breve** (˘) — a little smile above the letter. This helps us remember it's the short sound.
+
+> {{ vowel }}̄  = long &nbsp;&nbsp;|&nbsp;&nbsp; {{ vowel }}̆ = short (breve)
+
+### Short {{ vowel_upper }} Words
+
+| Word | Sounds | Meaning |
+|------|--------|---------|
+{{ word_table }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ spelling_rows }}
+
+> **At this stage:** The teacher may need to help by saying each sound slowly. Child writes one phonogram at a time, saying the sound as they write.
+
+---
+
+## Reading Practice
+
+Read these words sound by sound, then blend:
+
+> {{ read_words }}
+
+---
+
+## Dictation
+
+Adult reads these sentences aloud. Child writes them.
+
+> {{ dictation }}
+
+---
+
+## Quick Check
+
+1. What is the short sound of **{{ vowel }}**? *(/{{ vowel_sound }}/)*
+2. What mark do we use to show a short vowel? *(A breve ˘ — like a smile)*
+3. Say a word with short /{{ vowel_sound }}/ that we haven't used today.
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Find {{ items }} things in your house with the short /{{ vowel_sound }}/ sound.*
+
+{{ teacher_script }}
+
