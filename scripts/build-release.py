@@ -57,6 +57,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
+# Allow `from version import get_version` inside framework/stamp.py
+sys.path.insert(0, str(ROOT / "framework"))
 
 # Source-of-truth list of reference HTML basenames that get rendered to PDF
 # and shipped under 04-Quick-Reference/ in the release ZIP.
