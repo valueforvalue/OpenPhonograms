@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Feedback — OpenPhonograms</title>
+<link rel="stylesheet" href="../assets/main.css">
+<style>
+  .fb-form { max-width: 640px; margin: 0.8rem 0; }
+  .fb-form .row { margin-bottom: 0.7rem; }
+  .fb-form label { display: block; font-weight: 700; font-size: 0.9rem; margin-bottom: 0.2rem; color: var(--accent); }
+  .fb-form .hint { display: block; font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-top: 0.15rem; }
+  .fb-form input[type="text"],
+  .fb-form input[type="email"],
+  .fb-form select,
+  .fb-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.45rem 0.55rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: #fff;
+    color: var(--fg);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+  }
+  .fb-form textarea { min-height: 6rem; resize: vertical; }
+  .fb-form input:focus, .fb-form select:focus, .fb-form textarea:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+  .fb-form .actions { margin-top: 0.9rem; }
+  .fb-form button {
+    background: var(--accent);
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.55rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .fb-form button:disabled { opacity: 0.6; cursor: wait; }
+  .fb-status { margin-top: 0.8rem; padding: 0.6rem 0.8rem; border-radius: 4px; font-size: 0.9rem; display: none; }
+  .fb-status.ok    { display: block; background: #eaf5ea; border: 1px solid var(--success); color: var(--success); }
+  .fb-status.error { display: block; background: #fbeaea; border: 1px solid var(--error);   color: var(--error); }
+  .fb-status a { color: inherit; }
+  .privacy { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  @media print {
+    .fb-form, .privacy, .fb-status, .no-print { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Send Feedback</h1>
+<p class="hint">Found a typo? A confusing lesson? A broken PDF page? Send it here and the maintainer will see it.</p>
+
+<div class="card no-print">
+  <div class="card-title">How this works</div>
+  <p>This page submits directly to the OpenPhonograms maintainer via <a href="https://formspark.io/">Formspark</a>. The form works with or without JavaScript — if JavaScript is off, your browser will navigate to a confirmation page after sending. If JavaScript is on, the page stays put and shows a status message in place.</p>
+</div>
+
+<form class="fb-form" id="feedback-form"
+      action="https://submit-form.com/xOuYC8XYz"
+      method="POST">
+
+  <div class="row">
+    <label for="fb-name">Your name <span class="hint">(optional)</span></label>
+    <input type="text" id="fb-name" name="name" autocomplete="name" maxlength="80" placeholder="e.g. Jane Smith">
+  </div>
+
+  <div class="row">
+    <label for="fb-email">Your email <span class="hint">(optional, encouraged so we can reply)</span></label>
+    <input type="email" id="fb-email" name="email" autocomplete="email" maxlength="120" placeholder="e.g. jane@example.com">
+  </div>
+
+  <div class="row">
+    <label for="fb-stage">Stage</label>
+    <select id="fb-stage" name="stage" required>
+      <option value="General">General</option>
+      <option value="Stage 1">Stage 1 (Pre-K)</option>
+      <option value="Stage 2">Stage 2 (Kindergarten)</option>
+      <option value="Stage 3">Stage 3 (Grade 1)</option>
+      <option value="Stage 4">Stage 4 (Grade 2)</option>
+      <option value="Stage 5">Stage 5 (Grade 3+)</option>
+    </select>
+  </div>
+
+  <div class="row">
+    <label for="fb-lesson">Lesson ID <span class="hint">(optional — e.g. <code>lesson-09-phonogram-a</code>)</span></label>
+    <input type="text" id="fb-lesson" name="lesson_id" maxlength="80" placeholder="e.g. lesson-09-phonogram-a">
+  </div>
+
+  <div class="row">
+    <label for="fb-type">Type of feedback</label>
+    <select id="fb-type" name="type" required>
+      <option value="Typo">Typo</option>
+      <option value="Content error">Content error</option>
+      <option value="PDF layout">PDF layout</option>
+      <option value="Suggestion">Suggestion</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="row">
+    <label for="fb-message">Message <span class="hint">(required)</span></label>
+    <textarea id="fb-message" name="message" required minlength="3" maxlength="4000" placeholder="Tell us what's going on. Be specific — page numbers, lesson IDs, and exact wording help a lot."></textarea>
+  </div>
+
+  <div class="actions">
+    <button type="submit" id="fb-submit">Send feedback</button>
+  </div>
+
+  <div class="fb-status" id="fb-status" role="status" aria-live="polite"></div>
+
+  <p class="privacy">Submissions go to the OpenPhonograms maintainer via Formspark. No tracking, no marketing. Replies go to the email you provide.</p>
+</form>
+
+<script>
+  // Progressive enhancement: if JS is off, the browser will POST the form
+  // natively to the Formspark action URL and navigate to a confirmation page.
+  // If JS is on, we intercept the submit and use fetch() so the page does
+  // not navigate away.
+  (function () {
+    var form = document.getElementById('feedback-form');
+    var btn  = document.getElementById('fb-submit');
+    var box  = document.getElementById('fb-status');
+    if (!form || !btn || !box) return;
+
+    // Build the Formspark "_email.subject" prefix at submit time. We keep the
+    // value out of the form data so it does not show in the browser's
+    // autofill history.
+    function buildPayload() {
+      var stage = form.stage.value || 'General';
+      var lesson = (form.lesson_id.value || '').trim();
+      var head = '[OpenPhonograms feedback] [' + stage + ']';
+      var subject = lesson ? (head + ' ' + lesson) : head;
+      return {
+        name: form.name.value,
+        email: form.email.value,
+        stage: stage,
+        lesson_id: form.lesson_id.value,
+        type: form.type.value,
+        message: form.message.value,
+        _email: { subject: subject }
+      };
+    }
+
+    function showStatus(kind, html) {
+      box.className = 'fb-status ' + kind;
+      box.innerHTML = html;
+    }
+
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      if (!form.reportValidity || !form.reportValidity()) {
+        // Let the browser surface its built-in validation messages.
+        try { form.reportValidity(); } catch (e) {}
+        return;
+      }
+      btn.disabled = true;
+      var originalLabel = btn.textContent;
+      btn.textContent = 'Sending…';
+      box.className = 'fb-status';
+      box.textContent = '';
+
+      fetch('https://submit-form.com/xOuYC8XYz', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(buildPayload())
+      }).then(function (resp) {
+        if (resp.ok) {
+          showStatus('ok', 'Thanks — your feedback has been sent.');
+          form.reset();
+        } else {
+          throw new Error('HTTP ' + resp.status);
+        }
+      }).catch(function (err) {
+        var subject = encodeURIComponent('OpenPhonograms feedback');
+        var body = encodeURIComponent(
+          'Formspark submission failed. Reason: ' + (err && err.message ? err.message : err) +
+          '\n\n---\nName: ' + form.name.value +
+          '\nEmail: ' + form.email.value +
+          '\nStage: ' + form.stage.value +
+          '\nLesson: ' + form.lesson_id.value +
+          '\nType: ' + form.type.value +
+          '\n\nMessage:\n' + form.message.value
+        );
+        showStatus('error',
+          'Sorry — the feedback service did not respond. ' +
+          'You can <a href="mailto:valueforvalue@github.com?subject=' + subject + '&amp;body=' + body + '">email the maintainer directly</a> ' +
+          'or try again in a moment.'
+        );
+      }).then(function () {
+        btn.disabled = false;
+        btn.textContent = originalLabel;
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
