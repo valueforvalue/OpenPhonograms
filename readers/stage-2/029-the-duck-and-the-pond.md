@@ -1,0 +1,229 @@
+<div class="reader-cover">
+
+# The Duck and the Pond
+
+**Stage 2 Decodable Reader** · For use after Lesson 13
+
+</div>
+
+<div class="page-break"></div>
+
+**Stage 2** · Decodable Reader · After Lesson 13
+
+![Duck](images/animals/duck.png)
+
+## Warm-Up Words — Read These First
+
+> ship, fish, this, that, with, then, them, back, duck, chick
+
+---
+
+## Story
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Dilly is a duck. She has brown feathers. She is by a pond.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+One day, Dilly sees a fish. The fish is sad. "Help!" says the fish.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, h
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"I can not find my pond!" says the fish. "I am stuck in the reeds."
+
+Dilly thinks. "I will help," she says.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Tell me what you see."
+
+"I see a rock," says the fish. "And a thin stick." And reeds. "That is my pond!" says Dilly.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 18:** SH placement
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The grass is on the rocks. A bank is near. The fish and Dilly swim to the near pond.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 18:** SH placement
+
+**Rule 30:** Double or single final consonant
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The fish is glad. He sees the rocks. "I am glad!" says the fish.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"You are a pal." Dilly quacks and grins. From that day, Dilly and the fish are pals. They swim and splash.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, f, g
+
+**Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The pond is wet. It has a duck and a fish. That is good.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** c, d, e, f, g
+
+**Rules in this story:**
+
+**Rule 18:** SH placement
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+---
+
+## Think About It
+
+1. Who does Dilly help? (A lost fish.) 2. Where is the fish stuck? (In the reeds.) 3. How does the fish feel at the end? (Glad.) 4. Find an SH word in the story. (fish, splash, rush).
+
+---
+
+**Phonograms used:** ship fish this that with then them back duck chick

@@ -551,6 +551,241 @@ From that night on, Stella tends the garden. She patrols at dusk, keeping the sm
 The End.""",
         "talk": "1. Why do animals avoid Stella? (Her powerful scent.) 2. How does Stella save the rabbits? (She scares away a fox.) 3. Find words with suffixes. (protection, powerful, dangerous, loneliness)",
     },
+
+    # ── STAGE 2: Issue #28 Wave 1 — topic diversification (7 new readers) ──
+    # Brand-new entries authored for the Stage 2 expansion. Each story:
+    #   - 10 pages × 3 sentences = 30 sentences + "The End." closer
+    #   - 128-141 words target (matches existing Stage 2 pacing)
+    #   - Every word decodable with Stage 1 + Stage 2 phonograms, the 15
+    #     Stage 2 HF words, or a proper noun (character name)
+    #   - Plot varies (weather, lost-and-found, friendship, helping) to
+    #     avoid the "X runs from Y" pattern of older readers
+    {
+        "slug": "026-the-ship-in-the-storm",
+        "title": "The Ship in the Storm",
+        "stage": 2,
+        "after": 14,
+        "animals": ["bird.png"],
+        "warmup": "ship, fish, dash, this, that, back, duck, sick",
+        "story": """**The Ship in the Storm**
+
+Gus is a bird. He has thin wings and a sharp beak.
+
+Gus soars over the sea. He sees a ship with a white sail.
+
+The sail is big. The ship is fast. The wind is strong.
+
+The group is glad. Then the day turns dark.
+
+The clouds roll in. The wind howls. Rain hits the deck.
+
+The ship sways. The group grips the rail. The group pulls the sail in tight.
+
+The group lashes the deck. The ship rocks. Gus swoops low.
+
+He calls to the ship. He sees a green light. "Land!" he calls.
+
+The ship turns to the light. The wind slows. The rain stops.
+
+The sun glows bright. The clouds drift off. The ship pulls up to a hill.
+
+The group steps off. The group pats Gus. The ship is safe.
+
+The End.""",
+        "talk": "1. What does Gus see at the start? (A ship with a white sail.) 2. What helps the ship find safety? (Gus the bird sees a green light.) 3. How does the group thank Gus? (They pat Gus.) 4. Find an SH word in the story. (ship, lash, sharp).",
+    },
+    {
+        "slug": "027-three-chicks-on-a-hill",
+        "title": "Three Chicks on a Hill",
+        "stage": 2,
+        "after": 11,
+        "animals": ["hen.png"],
+        "warmup": "ship, fish, this, that, with, then, them, back, duck, chick",
+        "story": """**Three Chicks on a Hill**
+
+Hen sits on a hill. She has three chicks. The chicks are soft and warm.
+
+The sun is high. The wind is still. The chicks peck at the grass.
+
+The chicks fluff up. They rest in the sun. The wind is still.
+
+Then the wind picks up. The clouds turn dark. The wind is strong.
+
+The chicks chirp with fright. Hen calls to them. "Run down the hill!" she says.
+
+The chicks run fast. Hen runs with them. They reach a bush at the foot.
+
+Hen gathers her chicks. She holds them. The bush blocks the wind.
+
+The wind stops. The rain stops. The sun is back.
+
+Hen sees a path up. "It is good now!" she says. The chicks run back up.
+
+The three chicks are warm. The hill is green. They peck at the grass.
+
+The End.""",
+        "talk": "1. Where does Hen sit at the start? (On a hill.) 2. Why do the chicks run down the hill? (The wind gets strong.) 3. How does the story end? (The wind stops. The chicks are warm on the hill.) 4. Find a CH word in the story. (chick, chirp, reach).",
+    },
+    {
+        "slug": "028-the-fish-with-thin-fins",
+        "title": "The Fish with Thin Fins",
+        "stage": 2,
+        "after": 12,
+        "animals": ["fish.png"],
+        "warmup": "duck, back, stick, rock, sick, pick, kick, neck, lock, nick",
+        "story": """**The Fish with Thin Fins**
+
+Finn is a fish. He has thin fins. Finn is in a pond.
+
+The pond has rocks. It has long grass. Finn can swim fast.
+
+One day, Finn swims up. He sees a long creek. The creek is low.
+
+Finn swims in. He looks at the rocks. The creek is cool and dark.
+
+A stick drops down. It hits Finn's fin. Finn can not get back.
+
+He is stuck in the creek. He taps his tail. He can not get out.
+
+A duck lands by. "Quack! Quack!" she says. "Are you stuck?"
+
+"I am stuck!" says Finn. The duck looks at the creek.
+
+The duck pulls the stick out. Finn swims back to the pond. "I am glad!" says Finn.
+
+The duck and Finn are pals. They swim by the rocks. The pond is a good spot.
+
+The End.""",
+        "talk": "1. Why does Finn swim to the creek? (He is curious.) 2. What happens to Finn? (He gets stuck behind a stick.) 3. How does Finn get back to the pond? (The duck pulls the stick out.) 4. Find a CK word in the story. (duck, back, stick, rock, stuck).",
+    },
+    {
+        "slug": "029-the-duck-and-the-pond",
+        "title": "The Duck and the Pond",
+        "stage": 2,
+        "after": 13,
+        "animals": ["duck.png"],
+        "warmup": "ship, fish, this, that, with, then, them, back, duck, chick",
+        "story": """**The Duck and the Pond**
+
+Dilly is a duck. She has brown feathers. She is by a pond.
+
+One day, Dilly sees a fish. The fish is sad. "Help!" says the fish.
+
+"I can not find my pond!" says the fish. "I am stuck in the reeds."
+
+Dilly thinks. "I will help," she says. "Tell me what you see."
+
+"I see a rock," says the fish. "And a thin stick." And reeds.
+
+"That is my pond!" says Dilly. The grass is on the rocks. A bank is near.
+
+The fish and Dilly swim to the near pond. The fish is glad. He sees the rocks.
+
+"I am glad!" says the fish. "You are a pal." Dilly quacks and grins.
+
+From that day, Dilly and the fish are pals. They swim and splash.
+
+The pond is wet. It has a duck and a fish. That is good.
+
+The End.""",
+        "talk": "1. Who does Dilly help? (A lost fish.) 2. Where is the fish stuck? (In the reeds.) 3. How does the fish feel at the end? (Glad.) 4. Find an SH word in the story. (fish, splash, rush).",
+    },
+    {
+        "slug": "030-the-sled-and-the-snow",
+        "title": "The Sled and the Snow",
+        "stage": 2,
+        "after": 35,
+        "animals": [],
+        "warmup": "snow, down, town, now, how, cow, brown, slow, low, blow",
+        "story": """**The Sled and the Snow**
+
+Snow falls on the hill. The hill is white. The sled is at the top.
+
+Sam is a kid. He has a pail. He pulls the sled up the hill.
+
+The snow is deep. The sled slows down. Sam can not get it up.
+
+"How do I get it up?" Sam asks. The snow is low.
+
+Sam digs with his hand. He clears the snow. The sled is out.
+
+"Now I can go!" says Sam. He sits on the sled. The sled is at the top.
+
+Sam gives a push. The sled runs down the hill. The snow is slow.
+
+The sled picks up speed. The wind blows on Sam's chin. He shouts.
+
+Soon, the sled slows. The snow stops the sled. Sam is glad.
+
+Sam pulls the sled back up. He will go down next. The snow is fun.
+
+The End.""",
+        "talk": "1. Why does Sam pull the sled up the hill? (To go down on the snow.) 2. Why does the sled get stuck? (The snow is deep.) 3. How does the story end? (Sam goes down the hill on the sled.) 4. Find an OW word in the story. (snow, down, slow, low).",
+    },
+    {
+        "slug": "031-a-shell-on-the-sand",
+        "title": "A Shell on the Sand",
+        "stage": 2,
+        "after": 19,
+        "animals": [],
+        "warmup": "car, far, bar, jar, star, hard, dark, park, yard, shark",
+        "story": """**A Shell on the Sand**
+
+Ben is at the beach. He has a pail. He looks for shells.
+
+The sand is warm. The sea is far. A gull calls in the wind.
+
+Ben sees a shell. It is thin and sharp. It has a sharp tip.
+
+"What a fun shell!" says Ben. He puts it in his pail. He is glad.
+
+The wind blows hard. The sea starts to come in. The sand gets dark.
+
+Ben walks back. The sea is at his feet. The sand is wet.
+
+Ben runs up the beach. He has his pail. The shell is in.
+
+The sea runs up. The sand is dark. The wind is hard.
+
+Ben has a shell. He has fun in the sand. The sea is far and dark.
+
+Ben will come back. The shell is in his pail. The beach is a good spot.
+
+The End.""",
+        "talk": "1. What does Ben find? (A shell.) 2. Why does Ben run back from the sea? (The sea is coming in.) 3. How does Ben feel at the end? (Glad.) 4. Find an AR word in the story. (far, hard, sharp, dark).",
+    },
+    {
+        "slug": "032-the-path-through-the-woods",
+        "title": "The Path Through the Woods",
+        "stage": 2,
+        "after": 21,
+        "animals": [],
+        "warmup": "her, fern, river, under, never, sister, mother, father, after, other",
+        "story": """**The Path Through the Woods**
+
+Liz walks in the woods. Trees are big. The ferns are soft.
+
+Liz is on a path. She looks at the ferns. She sees a green moth.
+
+The path is long. Liz walks and walks. She never gets back.
+
+"I am stuck!" says Liz. "I can not find it." She looks and looks.
+
+Liz sees a big jay. "Tweet!" says the bird. Liz follows the bird.
+
+The bird swoops to a tree. It lands on a stream. Liz walks with it.
+
+Liz sees a rock. The river runs by. She hears the stream.
+
+Liz follows the stream. She walks and walks. The path is back.
+
+"I see the path!" Liz says. She is so glad. The path is firm.
+
+Liz has ferns in her hand. She is glad. The woods are fun.
+
+The End.""",
+        "talk": "1. What does Liz see first? (Ferns and a green moth.) 2. Why does Liz feel stuck? (She walks and walks and never gets back.) 3. How does Liz find her way? (She follows a bird to the stream.) 4. Find an ER word in the story. (her, ferns, river, under, never).",
+    },
 ]
 
 TMP = """<div class="reader-cover">

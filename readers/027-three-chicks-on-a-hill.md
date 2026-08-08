@@ -1,0 +1,239 @@
+<div class="reader-cover">
+
+# Three Chicks on a Hill
+
+**Stage 2 Decodable Reader** · For use after Lesson 11
+
+</div>
+
+<div class="page-break"></div>
+
+**Stage 2** · Decodable Reader · After Lesson 11
+
+![Hen](images/animals/hen.png)
+
+## Warm-Up Words — Read These First
+
+> ship, fish, this, that, with, then, them, back, duck, chick
+
+---
+
+## Story
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Hen sits on a hill. She has three chicks. The chicks are soft and warm.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, f, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The sun is high. The wind is still. The chicks peck at the grass.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, g
+
+**Rules in this story:**
+
+**Rule 28:** GH phonograms (silent, /f/, /g/)
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The chicks fluff up. They rest in the sun. The wind is still.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** c, d, e, f, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then the wind picks up. The clouds turn dark. The wind is strong.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, g, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The chicks chirp with fright. Hen calls to them. "Run down the hill!" she says.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The chicks run fast. Hen runs with them. They reach a bush at the foot.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, f
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Hen gathers her chicks. She holds them. The bush blocks the wind.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The wind stops. The rain stops. The sun is back.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, i
+
+**Rules in this story:**
+
+**Rule 16:** Two I's cannot be adjacent
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Hen sees a path up. "It is good now!" she says. The chicks run back up.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The three chicks are warm. The hill is green. They peck at the grass.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, e, g, h
+
+</div>
+
+</div>
+
+---
+
+## Think About It
+
+1. Where does Hen sit at the start? (On a hill.) 2. Why do the chicks run down the hill? (The wind gets strong.) 3. How does the story end? (The wind stops. The chicks are warm on the hill.) 4. Find a CH word in the story. (chick, chirp, reach).
+
+---
+
+**Phonograms used:** ship fish this that with then them back duck chick
