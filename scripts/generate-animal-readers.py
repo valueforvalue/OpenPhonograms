@@ -552,6 +552,297 @@ The End.""",
         "talk": "1. Why do animals avoid Stella? (Her powerful scent.) 2. How does Stella save the rabbits? (She scares away a fox.) 3. Find words with suffixes. (protection, powerful, dangerous, loneliness)",
     },
 
+    # ── STAGE 4: Issue #28 Wave 4 — science & nature readers (6 new) ──
+    # Each story is a science / nature narrative: multi-step process, cause/effect,
+    # or layered problem/resolution. 12-14 pages × 3 sentences, ~210-240 words,
+    # ending with "The End." Plots avoid the older "X runs from Y" formula. Every
+    # word is decodable with Stage 1-4 phonograms (all 75 PGs) or is a proper noun.
+    # Stage 4's 3 new PGs (ci/si/ti → /sh/) appear naturally in some titles/warmup
+    # words to reinforce the Latin /sh/ rule. After-lesson values reference Stage 4
+    # lessons in curriculum sequence. Cover illustrations can be added later.
+    {
+        "slug": "041-the-life-of-a-frog",
+        "title": "The Life of a Frog",
+        "stage": 4,
+        "after": 10,
+        "animals": [],
+        "warmup": "frog, tadpole, pond, water, land, egg, lung, change, growth, science",
+        "story": """**The Life of a Frog**
+
+A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing.
+
+The egg is soft and clear. A small dark shape can be seen inside.
+
+After a few days, the egg splits open. A tiny tadpole slips out.
+
+The tadpole has a long flat tail. It uses the tail to swim in the water.
+
+The tadpole eats tiny plants. It grows a little bigger every single day.
+
+Slowly, back legs begin to sprout. The tadpole wiggles them in the water.
+
+Then front legs appear. The tail grows shorter and shorter each day.
+
+Now the creature is called a froglet. It still has a bit of tail left.
+
+The froglet takes a breath. Its lungs fill with fresh clean air.
+
+Soon the tail is gone. The froglet is now a full grown adult frog.
+
+The frog hops onto a rock. Its skin is green and smooth and cool.
+
+It blinks its big round eyes. The sun is warm on its back.
+
+The frog catches a passing fly. Then it dives back into the pond.
+
+It swims down to the bottom. It pokes about among the smooth stones.
+
+After a while it climbs out again. The bank is warm in the afternoon sun.
+
+Someday this frog will lay new eggs. New tadpoles will swim in the water.
+
+The life cycle of a frog will begin again. And again. And again.
+
+The End.""",
+        "talk": "1. What is the first stage of a frog's life? (An egg in the pond.) 2. What grows first on a tadpole? (Back legs, then front legs.) 3. Find a Stage 4 word with the /sh/ sound from ti, ci, or si. (None in this story — see 043 and 044 for examples.)",
+    },
+    {
+        "slug": "042-the-storm-on-the-coast",
+        "title": "The Storm on the Coast",
+        "stage": 4,
+        "after": 13,
+        "animals": [],
+        "warmup": "storm, coast, ocean, wind, wave, weather, system, pressure, current, science",
+        "story": """**The Storm on the Coast**
+
+Dark clouds gather over the wide blue ocean. A storm is forming far out at sea.
+
+The air feels heavy and still. The ocean swells roll slowly toward the shore.
+
+Fishermen check the sky. They know a change is coming soon.
+
+A weather system is moving in. Cool air pushes down on the warm wet air.
+
+The pressure drops. The wind begins to rise. White caps form on the waves.
+
+A small boat heads back to the harbor. The skipper watches the darkening sky.
+
+Then the first gusts hit the coast. The palm trees bend and sway.
+
+Rain begins to fall. It drums on rooftops and splashes in the puddles.
+
+The waves grow tall. They crash against the rocks and pull the sand away.
+
+Lightning flashes. Thunder rolls across the water like a great drum.
+
+The birds stop singing. They hide deep inside the leafy green trees.
+
+Inside a small coastal cottage, a family watches the storm through the window.
+
+They light a lamp and gather close. The wind howls around the corners.
+
+Hour by hour the storm passes. The wind slows. The rain grows softer.
+
+The sun comes back. The wet sand glitters in the morning light.
+
+The coast is changed. New rocks show where the waves have been.
+
+But the family is safe. And tomorrow the sea will be calm again.
+
+The End.""",
+        "talk": "1. What makes a storm form over the ocean? (Cool air pushing down on warm wet air — pressure drops.) 2. How do people know a storm is coming? (Clouds gather, air feels heavy, white caps form.) 3. Find words with suffixes. (coastal, passing, gathering, morning.)",
+    },
+    {
+        "slug": "043-the-butterfly-s-journey",
+        "title": "The Butterfly's Journey",
+        "stage": 4,
+        "after": 17,
+        "animals": [],
+        "warmup": "butterfly, caterpillar, change, garden, leaf, wing, journey, science, patient, special",
+        "story": """**The Butterfly's Journey**
+
+A mother butterfly lands on a green leaf. She lays a tiny pale egg.
+
+The egg clings to the underside of the leaf. It is smaller than a seed.
+
+After a week, the egg splits. A small caterpillar crawls out.
+
+The caterpillar is hungry. It eats and eats the soft green leaf.
+
+It grows so quickly that its skin becomes too tight. The skin splits.
+
+Underneath is fresh new skin. The caterpillar keeps on eating.
+
+This happens again and again. Four times the caterpillar sheds its skin.
+
+Now it climbs to a safe branch. It spins a tiny pad of silk.
+
+The caterpillar hangs upside down. It sheds its skin one final time.
+
+Underneath is a hard case. This is called a chrysalis.
+
+Inside the chrysalis, a great change takes place. The caterpillar dissolves.
+
+Slowly new parts begin to form. Wings grow. Long legs take shape.
+
+After many days, the case splits open. A butterfly crawls out.
+
+It climbs onto a leaf and pumps its wings full of air and light.
+
+Then the butterfly lifts away. It flies over the garden below.
+
+It pauses on a flower to drink sweet nectar. Its long tongue uncurls.
+
+The journey from egg to butterfly is complete. The cycle will begin again.
+
+The End.""",
+        "talk": "1. What is the first stage of a butterfly's life? (A tiny pale egg on a leaf.) 2. What happens inside the chrysalis? (The caterpillar dissolves and new parts form — wings, legs.) 3. Find Stage 4 Latin /sh/ PGs. (special uses 'ci' → /sh/: s-pe-cial. uncurl also has 'ci'.)",
+    },
+    {
+        "slug": "044-plants-in-the-garden",
+        "title": "Plants in the Garden",
+        "stage": 4,
+        "after": 21,
+        "animals": [],
+        "warmup": "plant, garden, seed, root, stem, leaf, flower, soil, water, sunlight",
+        "story": """**Plants in the Garden**
+
+A child plants a small seed in the rich dark soil of the garden bed.
+
+She pats the soil gently. She waters it with a small green pail.
+
+Every day she visits the spot. She wonders what is happening underground.
+
+Below the surface, the seed is waking up. It drinks in the wet soil.
+
+A tiny root pushes down. Then a pale stem pushes up toward the light.
+
+The stem grows taller every day. Soon two small leaves unfurl.
+
+The leaves reach for the sun. They use the light to make food for the plant.
+
+After some weeks, a small bud forms at the top of the stem.
+
+The bud grows fat and round. Then one morning it opens into a flower.
+
+Bees visit the flower. They drink sweet nectar from its center.
+
+As the bees move from flower to flower, they carry bits of pollen.
+
+This is called pollination. It is how plants make new seeds.
+
+Soon the flower fades. Where it was, a small green fruit begins to grow.
+
+Inside the fruit are many new seeds. They wait for their turn to plant.
+
+The child saves a few seeds for next spring. The cycle will start again.
+
+She writes the name of the plant on a small wooden marker.
+
+Next spring she will plant the saved seeds. She will tend a whole new row.
+
+Each seed holds the start of a plant. Each plant holds the start of new seeds.
+
+A garden is a place of patient science. And a place of great wonder.
+
+The End.""",
+        "talk": "1. What does the seed do first? (Pushes a root down into the soil.) 2. How do bees help plants? (They carry pollen between flowers — pollination.) 3. Find Stage 4 Latin /sh/ PGs. (pollination has 'ti' → /sh/: pol-li-na-tion. patient also uses 'ti': pa-tient.)",
+    },
+    {
+        "slug": "045-the-old-lighthouse",
+        "title": "The Old Lighthouse",
+        "stage": 4,
+        "after": 25,
+        "animals": [],
+        "warmup": "lighthouse, coast, keeper, signal, light, stone, historic, beacon, navigation, visitor",
+        "story": """**The Old Lighthouse**
+
+On a rocky point stands an old lighthouse. Its white tower has stood for one hundred years.
+
+Long ago, a keeper lived inside. His job was to light the great lamp each night.
+
+Sailors far out at sea depended on that light. It warned them of the dangerous rocks.
+
+The keeper climbed the spiral stairs every evening. He trimmed the wick and lit the lamp.
+
+Then he watched through the night. He made sure the flame stayed bright and steady.
+
+If a storm blew in, the keeper stayed at his post. The lamp must never go out.
+
+Ships would see the beam sweeping across the dark water. They would turn away from danger.
+
+Years went by. New electric lamps replaced the old oil flame. The keeper's job ended.
+
+The lighthouse stood empty for many winters. Paint peeled from its tall walls.
+
+Then a group of friends decided to save it. They scraped and painted and repaired.
+
+Now the lighthouse is a museum. Visitors climb the stairs to see the old lamp room.
+
+A guide tells the story of the keepers. Children listen with wide eyes.
+
+They learn about the long nights. They learn about the salt spray and the wind.
+
+They learn about the lonely watches in the dark. They hear tales of brave rescues at sea.
+
+A new electric lamp still shines from the top. It still warns ships away from the rocks.
+
+The old lighthouse is preserved. Its history will not be forgotten.
+
+Visitors leave with quiet thanks. The keeper's watch continues in story and stone.
+
+The End.""",
+        "talk": "1. What was the keeper's job? (Light the lamp each night and watch it through the dark.) 2. Why did the lighthouse matter to sailors? (It warned them of dangerous rocks.) 3. Find Stage 4 words with prefixes. (preserved = pre+serve+d, depended = de+pend+ed, electric = e+lectr+ic.)",
+    },
+    {
+        "slug": "046-the-forest-in-autumn",
+        "title": "The Forest in Autumn",
+        "stage": 4,
+        "after": 29,
+        "animals": [],
+        "warmup": "forest, autumn, leaf, change, season, maple, oak, animal, prepare, nature",
+        "story": """**The Forest in Autumn**
+
+The forest is changing. The long warm days of summer are ending.
+
+A soft cool wind moves through the trees. The light grows golden and slanted.
+
+The first leaves begin to turn. A maple shows a flash of bright red.
+
+Nearby, an oak turns a deep rich brown. A birch glows a clear yellow.
+
+Every day more leaves change color. The green forest becomes a painting.
+
+Squirrels rush about. They gather acorns and tuck them into hiding places.
+
+A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow.
+
+Bears eat and eat. They must grow a thick layer of fat for the cold months ahead.
+
+Birds gather in flocks. Soon they will fly south to warmer lands.
+
+A deer walks softly through the fallen leaves. Its breath makes a small cloud in the air.
+
+At last the wind blows harder. Dry leaves tumble down from every branch.
+
+They pile up in soft drifts along the path. The forest floor becomes a rust colored blanket.
+
+The trees stand bare. Their branches reach up like dark fingers against the gray sky.
+
+A lone crow calls from high above. The sound echoes across the empty hills.
+
+A small fox creeps through the brush. It hunts for one last meal before the snow.
+
+A woodpecker taps a hollow tree. It is making its winter home safe and snug.
+
+Winter is coming. The forest is ready. Every creature has made its preparations.
+
+But the leaves sleep under the snow. And in spring the cycle will begin again.
+
+The End.""",
+        "talk": "1. Why do squirrels gather acorns? (To eat during the cold winter months.) 2. Why do some birds fly south? (To find warmer weather and food.) 3. Find Stage 4 Latin /sh/ PGs. (None in the story itself, but 'preparations' = pre+par+ation+s. Station has 'ti' → /sh/.)",
+    },
+
     # ── STAGE 2: Issue #28 Wave 1 — topic diversification (7 new readers) ──
     # Brand-new entries authored for the Stage 2 expansion. Each story:
     #   - 10 pages × 3 sentences = 30 sentences + "The End." closer
@@ -944,6 +1235,189 @@ Liz has ferns in her hand. She is glad. The woods are fun.
 The End.""",
         "talk": "1. What does Liz see first? (Ferns and a green moth.) 2. Why does Liz feel stuck? (She walks and walks and never gets back.) 3. How does Liz find her way? (She follows a bird to the stream.) 4. Find an ER word in the story. (her, ferns, river, under, never).",
     },
+    # ── STAGE 5 READERS — issue #28 Wave 5 (Greek/Latin root annotations) ──
+    {
+        "slug": "047-the-migration",
+        "title": "The Migration",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "migrate, journey, north, south, sky, flock, instinct, climate, distance, seasons",
+        "roots": "migr — Latin: migrare (to move)\nport — Latin: portare (to carry)\ninstinct — Latin: instinctus (impulse)",
+        "challenge_words": "instinct — in + stinct (Latin: urge)\nmigrate — migr (move) + -ate (to act)\nclimate — climat (slope, region)",
+        "story": """**The Migration**
+
+Each year, when the air turns cold and the days grow short, something amazing happens above the farms and forests. Birds lift off from the north. They rise in great flocks and turn their wings toward the south. This long flight has a name. It is called the migration.
+
+Why do the birds leave? The answer is simple. Food grows scarce when ice covers the ponds and snow hides the seeds. The birds cannot live through a long cold winter if they stay in one place. So they fly to a warmer land, where insects still buzz and fruit still hangs on the branches.
+
+A small songbird may travel thousands of miles. Geese and cranes fly in wedges. Ducks fly in long lines. Each bird has an instinct that pulls it forward, like a magnet that points to a hidden north. Scientists study this instinct. They think the birds use the sun by day and the stars by night. They may also read the lay of the land below.
+
+Along the way, the birds face storms and hunger. Some grow tired and fall. But many reach the southern marsh or the southern shore. They rest there through the cold months. When spring comes back to the north, the birds return. They build nests. They raise their young.
+
+Some young birds fly the route for the very first time. They have never seen the southern shore. Yet they find their way. Older birds do not guide them. The map is written in their bodies, not on paper. This is one of the deepest puzzles in nature.
+
+The migration is one of the great journeys of the living world. It shows how a creature no bigger than your hand can cross a continent. It shows how nature keeps each season in balance.
+
+The End.""",
+        "talk": "1. Why do birds leave the north in fall? (Food grows scarce when ice and snow come.) 2. What shapes do flocks fly in? (Wedges for geese and cranes; lines for ducks.) 3. What helps a bird find its way? (The sun, the stars, and the lay of the land.) 4. Find a root word in this story and tell what it means.",
+    },
+    {
+        "slug": "048-the-tide-pool",
+        "title": "The Tide Pool",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "tide, pool, ocean, coast, marine, crab, snail, anemone, shallow, surface",
+        "roots": "marine — Latin: mare (sea)\ntide — Old English: tid (time, season)\npool — Old English: pol (a small body of water)",
+        "challenge_words": "anemone — Greek: anemos (wind)\nmarine — Latin: mare (sea)\ncrab — Old English: crabba",
+        "story": """**The Tide Pool**
+
+Along a rocky coast, where the waves come and go, there are small pockets of water left behind when the sea pulls back. These pockets are called tide pools. Each tide pool is a tiny world, cut off from the ocean for a few hours at a time.
+
+In a tide pool, life crowds together. A green anemone grips a stone with its soft feet. Tiny fish dart between strands of seaweed. A hermit crab walks sideways across the sand. Limpets stick tight to the rocks. Periwinkles leave silver trails behind them.
+
+The water in a tide pool is shallow and warm. The sun heats it. The pool can dry out if the tide stays out too long. The animals must hide in shade or under seaweed. Some clamp their shells shut. Some crawl into cracks in the rock.
+
+When the tide comes back, the pool fills up again. Fresh sea water rushes in, carrying food and cool air. The fish come out of hiding. The anemone opens its soft arms. The hermit crab walks once more in search of a meal.
+
+The tide comes in and goes out twice each day. Once in the morning and once at night. In some places the shift is small. In other places the tide pulls back many feet. Tide pool animals live by this rhythm. They know the sea's clock better than any person does.
+
+A tide pool is one of the most crowded places on the coast. In just a small pool, you can find dozens of kinds of life. Each creature plays its part, and each depends on the rhythm of the sea.
+
+The End.""",
+        "talk": "1. What is a tide pool? (A pocket of water left behind on the rocky coast when the tide goes out.) 2. Name three animals that live in a tide pool. (Anemone, hermit crab, limpet, periwinkle.) 3. Why do tide pool animals hide from the sun? (The water can dry out.) 4. What does the Latin root 'mare' mean? (Sea.)",
+    },
+    {
+        "slug": "049-photosynthesis-for-beginners",
+        "title": "Photosynthesis for Beginners",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "plant, leaf, sun, water, air, sugar, green, grow, food, light",
+        "roots": "photo — Greek: phos (light)\nsynthesis — Greek: synthesis (putting together)\nchloro — Greek: chloros (green)",
+        "challenge_words": "photosynthesis — photo (light) + synthesis (put together)\nchlorophyll — chloro (green) + phyll (leaf)\nleaf — Old English: leaf",
+        "story": """**Photosynthesis for Beginners**
+
+Plants make their own food. Animals cannot do this. Animals must eat plants, or eat other animals that have eaten plants. But a green plant can sit in one place and still grow. How does it do this?
+
+The secret is in the leaf. A leaf is a small factory. It takes raw materials from the air and the soil and turns them into sugar. Sugar is food for the plant. The name for this process is photosynthesis, which means 'building with light'.
+
+What are the raw materials? The plant takes in water through its roots. It takes in a gas called carbon dioxide through tiny holes in the leaves. And it takes in light from the sun. Inside the leaf, a green color called chlorophyll catches the light. The leaf uses that light energy to join water and carbon dioxide into sugar.
+
+The plant does not need the sugar alone. It also breathes out a gas called oxygen. Animals breathe in oxygen. So plants and animals help each other. Plants give oxygen to animals. Animals give carbon dioxide to plants.
+
+A plant does not do this only in bright sun. On a cloudy day, the leaf still works. It just works more slowly. At night, when there is no light, the leaf rests. In the morning, when the sun rises, the leaf begins again.
+
+Without plants, there would be no food and no oxygen. The next time you see a green leaf, remember: it is a tiny factory, working day after day, making food and air for the whole living world.
+
+The End.""",
+        "talk": "1. What does a leaf take in to make food? (Water, carbon dioxide, and sunlight.) 2. What does the green color in a leaf do? (It catches light energy.) 3. What gas does a plant give off? (Oxygen.) 4. What do the Greek roots 'photo' and 'synthesis' mean? (Light and putting together.)",
+    },
+    {
+        "slug": "050-the-ancient-coast",
+        "title": "The Ancient Coast",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "coast, rock, cliff, sand, fossil, shell, layer, ancient, ocean, time",
+        "roots": "fossil — Latin: fossilis (dug up)\nancient — Latin: ante (before)\nlayer — Old French: laier (to spread)",
+        "challenge_words": "fossil — Latin: fossilis (something dug up)\nancient — ante (before) + -an\nlayer — to lay + -er",
+        "story": """**The Ancient Coast**
+
+A long time ago, the coast did not look the way it looks today. The cliffs were taller. The beaches were wider. The rivers that ran down to the sea cut deeper valleys. And in the rocks of the cliffs were the marks of life from a very distant past.
+
+Some of those marks are fossils. A fossil is the shape of an old plant or animal, pressed into stone. A shell may be buried in sand. After many years, the sand turns to rock. The shell dissolves away, but its shape is left behind, sharp and clear. A leaf may fall into mud. The mud hardens. The leaf leaves its print in stone.
+
+If you walk along the base of a cliff, you can sometimes see fossils in the stone. You may see the print of a fern that grew a million years ago. You may see the curved shell of a creature that swam when dinosaurs ruled the land. Each fossil is a message from a time before any person lived.
+
+Some fossils are very small. A grain of sand can leave its mark in soft mud. Other fossils are very large. A whale bone can sit in a cliff for ages. The size of the fossil does not matter. Each one is a window into a moment long gone.
+
+The coast keeps changing. The waves wear the cliffs. The wind blows the sand. Each year, the shape of the coast shifts a little. But the fossils stay, one layer under another, like pages in a very old book.
+
+When you pick up a fossil, you hold a piece of the ancient world in your hand. It is one of the most quiet, surprising things on the coast.
+
+The End.""",
+        "talk": "1. What is a fossil? (The shape of an old plant or animal left in stone.) 2. How does a shell become a fossil? (It gets buried in sand that turns to rock.) 3. What can you sometimes find in the rocks at the base of a cliff? (Fossils of ferns, shells, or other ancient life.) 4. What does the Latin root 'ante' mean? (Before.)",
+    },
+    {
+        "slug": "051-symbiosis-in-the-coral-reef",
+        "title": "Symbiosis in the Coral Reef",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "reef, coral, fish, partner, shelter, plant, animal, share, depend, host",
+        "roots": "sym — Greek: syn (together)\nbio — Greek: bios (life)\nosis — Greek: -osis (process)",
+        "challenge_words": "symbiosis — syn (together) + bios (life) + -osis (process)\npartner — Old French: partenaire\nreef — Dutch: rif (ridge)",
+        "story": """**Symbiosis in the Coral Reef**
+
+A coral reef is one of the busiest places in the sea. Bright fish dart between branches of coral. Shrimp crawl along the floor. Sea turtles drift above like dark leaves. The reef looks like a garden made of stone.
+
+Coral looks like a plant, but it is really an animal. It is built of thousands of tiny soft creatures, all joined together. Each tiny creature is called a polyp. The polyps cannot make their own food. They live with a kind of plant algae that lives inside them. The plant makes sugar from sunlight. The animal shares that sugar and gives the plant a safe home. The two help each other.
+
+This kind of partnership has a name. It is called symbiosis, which means 'living together'. In symbiosis, two different kinds of life share the same space and help each other survive.
+
+There are other partners on the reef. A small fish called a cleaner wrasse picks bits of food from the teeth of bigger fish. The big fish get clean. The little fish get a meal. Both win. A shrimp digs a burrow in the sand. A goby fish stands guard at the door. The shrimp gets a warning. The goby gets a home.
+
+The reef is not a quiet place. At night, the coral polyps open up and the fish that hide by day come out to feed. Crabs creep along the rocks. Octopuses hunt in the cracks. The reef never truly sleeps.
+
+The reef is full of these quiet deals. Each creature plays a role. Each depends on another. When you watch a reef, you are watching a community that has worked out its teamwork over millions of years.
+
+The End.""",
+        "talk": "1. What kind of life lives inside a coral polyp? (Tiny plant algae.) 2. What does 'symbiosis' mean? (Living together.) 3. How does a cleaner wrasse help a bigger fish? (It picks food from its teeth.) 4. What do the Greek roots 'syn' and 'bios' mean? (Together and life.)",
+    },
+    {
+        "slug": "052-the-compass-and-the-stars",
+        "title": "The Compass and the Stars",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "compass, north, south, east, west, star, sky, sailor, ship, voyage",
+        "roots": "nav — Latin: navis (ship)\nastro — Greek: astron (star)\norbit — Latin: orbis (circle, world)",
+        "challenge_words": "navigation — navis (ship) + agere (to lead)\nastronomy — astron (star) + nomos (law)\ncompass — Old French: compasser (to measure)",
+        "story": """**The Compass and the Stars**
+
+Long ago, sailors did not have maps or phones or radios. They had only the sea, the sky, and a few simple tools. The most important of those tools was the compass.
+
+A compass is a small magnet that can spin freely. One end of the magnet always points north. The other end always points south. As long as the sailor knows where north is, the sailor can find any other direction. North is the anchor of every journey.
+
+A compass works on land and on sea. But when the sky is dark and the clouds hide the sun, the sailor can also use the stars. In the northern sky, there is a star called Polaris, the North Star. It sits almost directly above the north pole of the Earth. When a sailor finds Polaris, the sailor can tell which way is north, even on a cloudy night.
+
+Sailors also learned to read the waves. A steady wind makes waves that move in the same direction. The shape of the waves can tell a sailor where the wind is coming from. The color of the water can hint at how deep the sea is below.
+
+Sailors have used these signs for thousands of years. By day, the compass. By night, the stars. With these, they crossed wide oceans. They found new lands. They traded goods between far ports.
+
+Today, ships carry radio and satellite tools. The compass still rides on the bridge. The stars still turn above the deck. Old tools and new tools work side by side, helping sailors find their way across the water.
+
+The End.""",
+        "talk": "1. What does one end of a compass needle always point to? (North.) 2. What is the North Star? (Polaris, a star that sits almost directly above the north pole.) 3. Name two ways a sailor can find direction at night. (By the compass and by the stars.) 4. What do the Latin roots 'navis' and Greek 'astron' mean? (Ship and star.)",
+    },
+    {
+        "slug": "053-the-cycle-of-the-seasons",
+        "title": "The Cycle of the Seasons",
+        "stage": 5,
+        "after": 38,
+        "animals": [],
+        "warmup": "season, spring, summer, autumn, winter, sun, tilt, axis, leaf, snow",
+        "roots": "cycle — Greek: kyklos (circle)\naxis — Latin: axis (axle)\nhibern — Latin: hibernare (to spend the winter)",
+        "challenge_words": "cycle — Greek: kyklos (circle, wheel)\naxis — Latin: axis (axle, pivot)\nhibernate — hibernare (to pass the winter)",
+        "story": """**The Cycle of the Seasons**
+
+Every year, the same pattern repeats. The snow melts. The flowers open. The days grow long and hot. The leaves turn gold and red. The air turns sharp, and the snow falls again. This pattern has a name. It is called the cycle of the seasons.
+
+What makes the seasons change? The answer is the tilt of the Earth. The Earth spins like a top. It also travels around the sun. But it does not sit up straight. It leans a little, the way a person leans against a wall. The line through the top and bottom of the Earth, which we call the axis, tilts at an angle.
+
+As the Earth moves around the sun, different parts of the world tilt toward the sun and then away from it. When your part of the world tilts toward the sun, the days are long and the weather is warm. That is summer. When your part tilts away, the days are short and the weather is cold. That is winter. Spring and autumn are the times in between.
+
+Plants and animals have learned to live with this cycle. Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in autumn and sleep through the cold. Birds fly south when winter comes and return when spring returns.
+
+People mark the seasons too. In spring, fields are planted. In summer, crops grow tall. In autumn, the harvest is gathered. In winter, the fires burn and the stories are told. Each season has its own work and its own rest.
+
+The cycle never stops. It has been turning for billions of years. Each year, you live one full turn of it. Each season is one small piece of a very long, very steady wheel.
+
+The End.""",
+        "talk": "1. What causes the seasons? (The tilt of the Earth as it moves around the sun.) 2. What is the axis? (The line through the top and bottom of the Earth.) 3. What do some animals do in winter? (Hibernate, or migrate south.) 4. What does the Greek root 'kyklos' mean? (Circle or wheel.)",
+    },
 ]
 
 TMP = """<div class="reader-cover">
@@ -987,6 +1461,10 @@ def _build_story_pages(r: dict) -> str:
     Issue #20 + #22: every page gets a Spelling Aid sidebar listing the
     phonograms + rules used on that page. Animal readers don't have a
     specific 'new' phonogram, so the sidebar is auto-detected per page.
+
+    Issue #28 Wave 5: Stage 5 readers also get a final Roots + Challenge
+    Words block (matches 001-ostriches.md hand-written format) when the
+    reader dict provides ``roots`` and ``challenge_words``.
     """
     story = r["story"]
     # Strip the "**Title**" header (it's redundant with the H1)
@@ -997,7 +1475,7 @@ def _build_story_pages(r: dict) -> str:
     story_body = "\n".join(lines).strip()
     if story_body.endswith("The End."):
         story_body = story_body[:-len("The End.")].strip()
-    pages = split_into_pages(story_body, sentences_per_page=3)
+    pages = split_into_pages(story_body, sentences_per_page=(2 if r.get("stage") == 5 else 3))
     parts = []
     for page in pages:
         sidebar = build_sidebar(page, new_phonogram=None)
@@ -1007,6 +1485,27 @@ def _build_story_pages(r: dict) -> str:
             f'{sidebar}\n\n'
             f'</div>'
         )
+    # Stage 5 readers (issue #28 Wave 5) get an explicit Roots + Challenge
+    # Words sidebar at the end, mirroring 001-ostriches.md.
+    if r.get("stage") == 5 and (r.get("roots") or r.get("challenge_words")):
+        roots_lines = ["<div class=\"reader-page\">", "", "<div class=\"reader-text\">", "",
+                       "**Roots and Challenge Words**", ""]
+        if r.get("roots"):
+            roots_lines.append("**Roots in this passage:**")
+            for line in r["roots"].splitlines():
+                line = line.strip()
+                if line:
+                    roots_lines.append(f"- {line}")
+            roots_lines.append("")
+        if r.get("challenge_words"):
+            roots_lines.append("**Challenge words:**")
+            for line in r["challenge_words"].splitlines():
+                line = line.strip()
+                if line:
+                    roots_lines.append(f"- {line}")
+            roots_lines.append("")
+        roots_lines.extend(["</div>", "", "</div>"])
+        parts.append("\n\n".join(roots_lines))
     return "\n\n".join(parts)
 
 
