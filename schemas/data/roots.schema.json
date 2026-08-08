@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/roots.schema.json",
+  "title": "Latin/Greek roots",
+  "description": "Stub schema — populate when Stage 5 root lessons are written.",
+  "type": "object",
+  "required": ["roots"],
+  "additionalProperties": false,
+  "properties": {
+    "roots": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

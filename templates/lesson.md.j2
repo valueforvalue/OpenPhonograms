@@ -1,0 +1,69 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Full lesson scaffold — matches AGENTS.md § Content Schema.
+   Variables:
+     lesson      — dict with title, lesson_num, lesson_id
+     stage       — int (1-5)
+     type        — lesson type (phonogram-intro, rule-intro, review, etc.)
+     phonograms  — list of Phonogram dataclasses (may be empty)
+     rules       — list of Rule dataclasses (may be empty)
+     exercises   — dict of exercise section data keyed by section name
+     next_lesson_id — str | None
+     practice    — list of dicts {label, description} for "Practice at home"
+#}
+# Lesson {{ lesson.lesson_num }}: {{ lesson.title }}
+
+**Stage {{ stage }}** · Lesson {{ lesson.lesson_num }} · {{ type }}
+
+## Warm-Up
+
+{% if exercises.warmup -%}
+{{ exercises.warmup }}
+{%- else -%}
+_Review of previous learning._
+{%- endif %}
+
+## New Learning
+
+{% if type == 'phonogram-intro' and phonograms -%}
+{% for pg in phonograms -%}
+{% include "phonogram.md.j2" %}
+{% endfor -%}
+{% elif type == 'rule-intro' and rules -%}
+{% for rule in rules -%}
+{% include "rule.md.j2" %}
+{% endfor -%}
+{% else -%}
+{% if exercises.new_learning -%}
+{{ exercises.new_learning }}
+{%- endif -%}
+{%- endif %}
+
+## Spelling Analysis
+
+{% if exercises.spelling_analysis -%}
+{{ exercises.spelling_analysis }}
+{%- else -%}
+_(Spelling analysis not applicable for this lesson type.)_
+{%- endif %}
+
+## Quick Check
+
+{% if exercises.quick_check -%}
+{{ exercises.quick_check }}
+{%- else -%}
+1. Can the student recognize the new phonogram(s)?
+2. Can the student read the example words?
+3. Can the student write the phonogram from memory?
+{%- endif %}
+
+{% if next_lesson_id -%}
+**Next lesson:** `{{ next_lesson_id }}`
+{%- endif %}
+
+{% if practice -%}
+*Practice at home:*
+{% for p in practice -%}
+- {{ p.label }} — {{ p.description }}
+{% endfor -%}
+{%- endif %}

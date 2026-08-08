@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+#
+# Stub — High-frequency (Dolch/Fry) words taught via hf-word lessons.
+# Content team to populate from HF_WORDS_SET1/2/3 in scripts/generate-stage2.py.
+# Empty list validates against schemas/data/high_frequency_words.schema.json.
+
+hf_words: []

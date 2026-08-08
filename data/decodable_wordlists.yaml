@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+#
+# Stub — Stage-1 decodable wordlists used for spelling analysis and reading
+# practice. Full list of 26 taught phonograms' CVC/VCC/CVCC words.
+# Content team to populate from PHONOGRAMS spelling dict in
+# scripts/generate-stage1.py.
+# Empty list validates against schemas/data/decodable_wordlists.schema.json.
+
+wordlists: []

@@ -3,9 +3,10 @@
 
 """Single source of truth for phonogram data.
 
-This module owns the canonical phonogram catalog: 26 single-letter PGs
-(taught in Stage 1), 26 multi-letter PGs (Stage 2), and 20 advanced
-multi-letter PGs (Stage 3+). Each entry carries:
+This module owns the canonical phonogram catalog: 27 single-letter PGs
+(a-z + qu, taught in Stage 1), 26 multi-letter PGs (Stage 2), 20 advanced
+multi-letter PGs (Stage 3+), and 3 Latin /sh/ spellings (Stage 4). Each
+entry carries:
   - sounds:   IPA notation, primary sound first
   - words:    15-20 decodable example words
 

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/silent_e.schema.json",
+  "title": "Silent E sub-rules",
+  "description": "Stub schema — populate when Stage 3 lesson work resumes.",
+  "type": "object",
+  "required": ["silent_e"],
+  "additionalProperties": false,
+  "properties": {
+    "silent_e": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

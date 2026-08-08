@@ -1,0 +1,35 @@
+{# SPDX-License-Identifier: MIT
+   Partial — phonogram block.
+   Variables:
+     pg — Phonogram dataclass
+#}
+### Phonogram: **{{ pg.id }}**
+
+**Sounds:** {{ pg.sounds }}
+
+{% if pg.vowel -%}
+*Vowel phonogram.*
+{% endif -%}
+
+**Example words:**
+{% for word in pg.words -%}
+- {{ word }}
+{% endfor %}
+
+{% if pg.examples -%}
+**Sound breakdown:**
+{% for ex in pg.examples -%}
+- /{{ ex[0] }}/ — {{ ex[1] }}
+{% endfor %}
+{% endif -%}
+
+{% if pg.writing -%}
+**How to write:**
+{% for step in pg.writing -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+{% endif -%}
+
+{% if pg.rule -%}
+> {{ pg.rule }}
+{% endif -%}

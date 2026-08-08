@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
+#
+# Stub — Silent E sub-rules (9 reasons) referenced in Stage 3 lessons.
+# Content team to populate when Stage 3 detailed lesson work resumes.
+# Empty list validates against schemas/data/silent_e.schema.json.
+
+silent_e: []

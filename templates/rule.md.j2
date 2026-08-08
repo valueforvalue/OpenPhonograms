@@ -1,0 +1,11 @@
+{# SPDX-License-Identifier: MIT
+   Partial — spelling rule block.
+   Variables:
+     rule — Rule dataclass
+#}
+### Rule {{ rule.number }}: {{ rule.name }}
+
+**Example words:**
+{% for word in rule.words -%}
+- {{ word }}
+{% endfor %}

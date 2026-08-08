@@ -339,10 +339,21 @@ check-images:
     @echo "==> Image coverage check"
     @{{python}} {{scripts_dir_s}}/check-image-coverage.py
 
-# Run all checks (drift + overflow + coverage + images)
-check: check-drift check-overflow check-coverage check-images check-pdf-credits
+# Run all checks (drift + overflow + coverage + images + data)
+check: check-drift check-overflow check-coverage check-images check-pdf-credits validate-data
     @echo ""
     @echo "==> All checks complete"
+
+# Validate data/*.yaml against JSON schemas + cross-check catalog coverage
+validate-data:
+    @echo "==> Data validation (YAML schemas + catalog coverage)"
+    @{{python}} {{scripts_dir_s}}/validate-data.py
+
+# One-shot: emit data/*.yaml from current Python constants.
+# Idempotent. Run once on main to seed YAML; do NOT re-run after Slices 1-8 land.
+migrate-data:
+    @echo "==> Migrating Python constants -> data/*.yaml"
+    @{{python}} {{scripts_dir_s}}/migrate-data.py
 
 # Run pytest test suite (excludes slow integration tests by default)
 test:

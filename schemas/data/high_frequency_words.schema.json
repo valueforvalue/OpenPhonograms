@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/high_frequency_words.schema.json",
+  "title": "High-frequency words",
+  "description": "Stub schema — populate from HF_WORDS_SET1/2/3 in scripts/generate-stage2.py.",
+  "type": "object",
+  "required": ["hf_words"],
+  "additionalProperties": false,
+  "properties": {
+    "hf_words": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

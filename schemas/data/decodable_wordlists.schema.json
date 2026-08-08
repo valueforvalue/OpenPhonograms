@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/decodable_wordlists.schema.json",
+  "title": "Decodable wordlists",
+  "description": "Stub schema — populate from PHONOGRAMS spelling dict in scripts/generate-stage1.py.",
+  "type": "object",
+  "required": ["wordlists"],
+  "additionalProperties": false,
+  "properties": {
+    "wordlists": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

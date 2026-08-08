@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/phonograms.schema.json",
+  "title": "Phonogram catalog",
+  "description": "Single source of truth for all phonograms taught in the curriculum (76 entries).",
+  "type": "object",
+  "required": ["phonograms"],
+  "additionalProperties": false,
+  "properties": {
+    "phonograms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "stage", "kind", "sounds", "words"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Phonogram symbol (e.g., 'a', 'sh', 'igh')."
+          },
+          "stage": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Stage in which the phonogram is taught."
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["single", "multi", "multi3", "multi4"],
+            "description": "Phonogram category."
+          },
+          "sounds": {
+            "type": "string",
+            "minLength": 1,
+            "description": "IPA sounds; primary sound first."
+          },
+          "words": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "description": "Decodable example words."
+          },
+          "vowel": {
+            "type": "boolean",
+            "description": "Stage 1 only — whether this is a vowel."
+          },
+          "sound_count": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Stage 1 only — number of distinct sounds."
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["sound", "words"],
+              "additionalProperties": false,
+              "properties": {
+                "sound": { "type": "string", "minLength": 1 },
+                "words": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "writing": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "group": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Stage 1 teaching group (1-5)."
+          },
+          "rule": {
+            "type": "string",
+            "description": "Optional PG-specific rule note (e.g., qu + Rule 11)."
+          }
+        }
+      }
+    }
+  }
+}

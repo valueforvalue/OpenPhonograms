@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openphonograms.org/schemas/sentences.schema.json",
+  "title": "Curated game sentences",
+  "description": "One sentence per word for Spell mode in games/phonogram-trainer.html. Unlisted words fall back to 'The {word} is here.'",
+  "type": "object",
+  "required": ["sentences"],
+  "additionalProperties": false,
+  "properties": {
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["word", "sentence"],
+        "additionalProperties": false,
+        "properties": {
+          "word": { "type": "string", "minLength": 1 },
+          "sentence": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
