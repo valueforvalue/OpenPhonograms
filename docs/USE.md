@@ -61,6 +61,8 @@ Uncovering-the-Logic-of-English/
 ├── 01-Index-and-Table-of-Contents.pdf         # Master clickable TOC
 ├── 02-Scope-and-Sequence.pdf                  # Full curriculum map
 ├── 04-Quick-Reference/                        # Phonograms, rules, spelling analysis
+│   ├── 04-Quick-Reference-Print-PDFs/         # 3 generated summary PDFs
+│   └── 04-Quick-Reference-Browser-HTMLs/      # HTMLs + paired PDFs
 ├── 05-Teacher-Handbooks/                      # 5 bound-book-style handbooks (PDF)
 ├── 06-Lesson-Packs/                           # 244 per-lesson bundles
 │   └── stage-1/ ... stage-5/
