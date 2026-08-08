@@ -33,11 +33,25 @@ code { background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: "
 """
 
 
+def _discover_reader_paths() -> list[Path]:
+    """Return all reader MD files: prefer readers/stage-*/*.md (canonical),
+    fall back to top-level readers/*.md (legacy flat layout)."""
+    paths: list[Path] = []
+    # Canonical: stage-N subdirs
+    paths.extend(sorted(READERS_DIR.glob("stage-*/*.md")))
+    # Legacy: top-level readers (only count ones NOT already in a stage-N subdir)
+    seen = {p.name for p in paths}
+    for p in sorted(READERS_DIR.glob("*.md")):
+        if p.name not in seen:
+            paths.append(p)
+    return paths
+
+
 def find_readers() -> list[dict]:
     """Find all reader MD files and group by stage."""
     readers = []
-    for path in sorted(READERS_DIR.glob("*.md")):
-        # Filename like "001-fred-the-frog.md"
+    for path in _discover_reader_paths():
+        # Filename like "001-fred-the-frog.md" (num prefix is in filename)
         stem = path.stem
         parts = stem.split("-", 1)
         if len(parts) < 2 or not parts[0].isdigit():
@@ -49,23 +63,29 @@ def find_readers() -> list[dict]:
         text = path.read_text(encoding="utf-8")
         title = text.split("\n", 1)[0].lstrip("# ").strip() if text else slug
 
-        # Determine stage from filename prefix or content
-        # Stage 2 readers are 001-013, Stage 3 are 014-?
-        # Better: use stage subdir or read first 10 lines for "Stage X" mention
-        stage = 2  # default
-        for line in text.split("\n")[:15]:
-            if "Stage 2" in line:
-                stage = 2
-            elif "Stage 3" in line:
-                stage = 3
-            elif "Stage 4" in line:
-                stage = 4
-            elif "Stage 5" in line:
-                stage = 5
+        # Determine stage: prefer stage subdir (e.g. readers/stage-1/) then content.
+        # Stage 1 readers live in readers/stage-1/. Other stages live flat in readers/.
+        parent = path.parent.name
+        stage: int | None = None
+        if parent.startswith("stage-"):
+            try:
+                stage = int(parent.split("-", 1)[1])
+            except ValueError:
+                stage = None
+        if stage is None:
+            for line in text.split("\n")[:15]:
+                for s in (2, 3, 4, 5):
+                    if f"Stage {s}" in line:
+                        stage = s
+                        break
+                if stage is not None:
+                    break
+        if stage is None:
+            stage = 2  # legacy fallback
 
         readers.append({"num": num, "slug": slug, "title": title, "stage": stage, "path": path})
 
-    readers.sort(key=lambda r: r["num"])
+    readers.sort(key=lambda r: (r["stage"], r["num"]))
     return readers
 
 
