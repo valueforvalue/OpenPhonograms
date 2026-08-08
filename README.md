@@ -30,6 +30,8 @@ Source methodology: [*Uncovering the Logic of English* by Denise Eide](https://l
 3. Print the [phonogram chart](reference/phonogram-chart.html) and [spelling rules poster](reference/spelling-rules.html)
 4. Read [docs/USE.md](docs/USE.md) for the daily workflow
 
+The release ZIP also contains `Feedback.html` at the root — double-click it to send a typo, content question, or PDF layout issue to the maintainer (needs internet).
+
 The lesson PDFs are self-contained. Each `lesson-NN-*.pdf` pack includes a cover page with prep checklist, the teacher script, matched worksheet, and flash cards for review.
 
 ### I'm a Developer
