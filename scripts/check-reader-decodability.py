@@ -31,19 +31,34 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "framework"))
 from data_loader import load_phonograms  # noqa: E402
 
-# Stage 2 HF words (single source of truth: scripts/generate-stage2.py HF_WORDS_SET1/2/3).
-# TODO: extract to data/high_frequency_words.yaml in #22 follow-up.
-STAGE2_HF_WORDS = {
-    "the", "a", "is", "of", "to", "do", "was", "has", "said", "you",
-    "are", "have", "give", "come", "some",
-}
+# High-frequency words per stage.
+#
+# Source-of-truth comes from each stage's generator. Long-term plan is to
+# extract these to data/high_frequency_words.yaml (#22 follow-up) so both
+# the checker AND the generators read the same source.
+STAGE_HF_WORDS: dict[int, set[str]] = {
+    # Stage 1: no HF words defined. Single-letter phonograms cover a-z
+    # and 'qu', so HF-style exemptions are not needed.
+    1: set(),
 
-# Future: registry by stage
-STAGE_HF_WORDS = {
-    1: set(),  # Stage 1 has no HF words (dealt with via phonograms)
-    2: STAGE2_HF_WORDS,
-    3: set(),  # TODO
+    # Stage 2: extracted from scripts/generate-stage2.py lines 371-395
+    # (HF_WORDS_SET1/2/3 — 5 words each, taught across lessons 50-52).
+    2: {
+        "the", "a", "is", "of", "to", "do", "was", "has", "said", "you",
+        "are", "have", "give", "come", "some",
+    },
+
+    # Stage 3: extracted from scripts/generate-stage3.py lines 411-428
+    # (HF4 taught in lesson 55, HF5 taught in lesson 56).
+    3: {
+        "where", "there", "their", "were", "here",
+        "once", "two", "does", "any", "many",
+    },
+
+    # Stage 4: no HF words defined in scripts/generate-stage4.py.
     4: set(),
+
+    # Stage 5: no HF words defined in scripts/generate-stage5.py.
     5: set(),
 }
 
