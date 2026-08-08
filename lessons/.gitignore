@@ -1,0 +1,5 @@
+# Generated PDFs from render.py / render-packs-batch.py are build
+# artifacts. Regenerate with: just render-changed
+# (or just pack-all for Model C batch path).
+*.pdf
+!*.gitignore

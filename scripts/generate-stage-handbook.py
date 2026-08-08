@@ -17,6 +17,7 @@ Usage:
 import argparse
 import csv
 import io
+import re
 import sys
 from pathlib import Path
 
@@ -250,51 +251,147 @@ See the `binding-instructions.pdf` in the release root for help organizing these
 
 
 def assemble_handbook(stage: int, no_render: bool = False):
-    """Combine all lesson PDFs in a stage into one bound handbook PDF with bookmarks."""
+    """Combine all lesson PDFs in a stage into one bound handbook PDF with bookmarks.
+
+    New path (Model C): render cover as ONE PDF, render all lesson scripts
+    as ONE PDF (with bookmarks), then merge. 2 renders per stage instead
+    of `1 + N lessons` (saves ~12s per lesson on Windows due to Pango/font
+    scan amortization).
+    """
     catalog = load_catalog()
     lessons = [r for r in catalog if int(r["stage"]) == stage]
     if not lessons:
         print(f"  SKIP  Stage {stage} (no lessons)")
         return None
+    lessons.sort(key=lambda r: int(r["lesson_num"]))
 
-    # 1. Render the cover page
     cover_md = OUT_DIR / f"stage-{stage}-handbook-cover.md"
     cover_md.write_text(make_stage_cover(stage, lessons), encoding="utf-8")
 
     if no_render:
         return cover_md
 
+    import time
+    t_total = time.perf_counter()
+
+    # 1. Render the cover page (1 render)
     cover_pdf = cover_md.with_suffix(".pdf")
     from framework.render import render_md_to_pdf
     render_md_to_pdf(cover_md, cover_pdf, doc_type="lesson")
 
-    # 2. Merge cover + all lesson PDFs into one handbook
+    # 2. Collect all lesson script MDs (just the lesson body, no cover)
+    lesson_md_dir = OUT_DIR / f"stage-{stage}-handbook-lessons"
+    lesson_md_dir.mkdir(exist_ok=True)
+    md_paths = []
+    skipped = []
+    for r in lessons:
+        lid = r["lesson_id"]
+        ln = int(r["lesson_num"])
+        title = r["title"]
+        # Source lesson MD — we use it directly (no assembly needed for handbook)
+        lesson_md = ROOT / "lessons" / f"stage-{stage}" / f"{lid}.md"
+        if not lesson_md.exists():
+            skipped.append(lid)
+            continue
+        # Rename H1 to "Lesson N: Title" so it shows up in outline.
+        text = lesson_md.read_text(encoding="utf-8")
+        text = re.sub(
+            r"^# .+$",
+            f"# Lesson {ln}: {title}",
+            text,
+            count=1,
+            flags=re.MULTILINE,
+        )
+        md_path = lesson_md_dir / f"lesson-{ln:02d}-{lid}.md"
+        md_path.write_text(text, encoding="utf-8")
+        md_paths.append(md_path)
+
+    # 3. Render all lessons as ONE PDF, split by "Lesson N:" bookmarks
+    from framework.pdf_merge import render_and_split
+    lessons_combined = OUT_DIR / f"stage-{stage}-handbook-lessons.pdf"
+
+    def title_to_path(title: str) -> Path | None:
+        if not title.startswith("Lesson "):
+            return None
+        m = re.match(r"Lesson (\d+):", title)
+        if not m:
+            return None
+        # We don't write per-lesson PDFs (handbook is the unit).
+        # Returning None skips these bookmarks; we re-add them below.
+        return None  # type: ignore
+
+    # HACK: render_and_split requires title_to_path return Path or None.
+    # We want it to skip "Lesson N: ..." entries but still render the
+    # combined PDF with the bookmarks intact (we'll re-add top-level
+    # bookmarks in the merge step below).
+    result = render_and_split(
+        md_paths,
+        title_to_path,
+        combined_pdf=lessons_combined,
+        body_class=f"stage-{stage}",
+    )
+    if not result.ok:
+        print(f"  FAIL  Stage {stage}: {result.error}")
+        return None
+
+    # 4. Merge cover + lessons_combined into one handbook
     from pypdf import PdfReader, PdfWriter
 
     writer = PdfWriter()
     writer.append_pages_from_reader(PdfReader(str(cover_pdf)))
-    for r in sorted(lessons, key=lambda r: int(r["lesson_num"])):
-        ln = int(r["lesson_num"])
-        lid = r["lesson_id"]
-        pdf = BUILD / f"stage-{stage}" / f"{lid}.pdf"
-        if pdf.exists():
-            writer.append_pages_from_reader(PdfReader(str(pdf)))
-        else:
-            print(f"  WARN  missing {pdf.relative_to(ROOT)}")
+    writer.append_pages_from_reader(PdfReader(str(lessons_combined)))
 
     out = OUT_DIR / f"stage-{stage}-handbook.pdf"
     with open(out, "wb") as f:
         writer.write(f)
 
-    # Add per-lesson bookmarks
+    # Add per-lesson top-level bookmarks (point to first page of each lesson
+    # in the merged PDF). Cover takes N pages, then each lesson starts at
+    # cover_pages + lesson_offset.
     cover_pages = len(PdfReader(str(cover_pdf)).pages)
-    add_bookmarks(out, lessons, cover_pages)
+    lessons_reader = PdfReader(str(lessons_combined))
+    page_offset = cover_pages
+    bookmarks = []  # (merged_page_idx, title)
+    for r in lessons:
+        lid = r["lesson_id"]
+        ln = int(r["lesson_num"])
+        title = r["title"]
+        # Find this lesson's first bookmark in lessons_combined
+        for item in lessons_reader.outline:
+            if isinstance(item, list):
+                continue
+            t = (item.title or "").strip()
+            if t == f"Lesson {ln}: {title}":
+                # Bookmark points at this page index in lessons_combined;
+                # in merged PDF it's cover_pages + that index.
+                merged_idx = cover_pages + lessons_reader.get_destination_page_number(item)
+                bookmarks.append((merged_idx, t))
+                break
+        else:
+            continue  # lesson was skipped (no source MD)
+
+    final_reader = PdfReader(str(out))
+    final_writer = PdfWriter()
+    for page in final_reader.pages:
+        final_writer.add_page(page)
+    for page_idx, title in bookmarks:
+        final_writer.add_outline_item(title, page_idx)
+
+    with open(out, "wb") as f:
+        final_writer.write(f)
 
     # Clean up temp
     cover_md.unlink(missing_ok=True)
     cover_pdf.unlink(missing_ok=True)
+    for md in md_paths:
+        md.unlink(missing_ok=True)
+    lesson_md_dir.rmdir()
+    lessons_combined.unlink(missing_ok=True)
 
-    print(f"  OK   {out.relative_to(ROOT)}  ({len(lessons)} lessons + cover)")
+    elapsed = time.perf_counter() - t_total
+    print(f"  OK   {out.relative_to(ROOT)}  ({len(lessons)} lessons + cover, {elapsed:.1f}s)")
+    if skipped:
+        print(f"       skipped {len(skipped)} lessons (missing MD): {skipped[:5]}")
     return out
 
 

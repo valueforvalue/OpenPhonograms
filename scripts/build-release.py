@@ -1,11 +1,23 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Build release.zip — complete curriculum in LOE-style folder structure.
+"""Build release.zip — complete curriculum in Model C layout.
 
 Default behavior bundles everything into a single ZIP. Pass CLI flags to
 include or exclude specific sections, restrict to one stage, or change the
 output path. Dry-run with --list to see what would be included.
+
+Model C ZIP shape (this script's default):
+  05-Teacher-Handbooks/  — 5 bound-book-style stage handbooks (TM)
+  06-Lesson-Packs/       — 244 per-lesson bundles (cover + at-a-glance +
+                            lesson + worksheets + flash cards all together)
+  [06-Stage-Overview/    — OPTIONAL: per-stage merged workbook PDFs]
+  [07-Worksheets/        — OPTIONAL: standalone practice sheets]
+  + readers, quick-checks, game, audio, certificates, reference, etc.
+
+Worksheet content lives INSIDE lesson packs by default (Model C). Use
+--with-worksheets / --with-stage-overview for the LOE-style bound
+workbook + standalone extras.
 
 Produces a top-level ZIP with:
 
@@ -16,7 +28,8 @@ Produces a top-level ZIP with:
   04-Quick-Reference/              — phonograms, rules, spelling analysis
   05-Teacher-Handbooks/            — 5 bound-book-style stage handbooks
   06-Lesson-Packs/                 — 244 per-lesson bundles (5 stage folders)
-  07-Worksheets/                   — 178 standalone practice sheets
+                                       — Model C: includes worksheets + flash cards
+  07-Worksheets/                   — 178 standalone practice sheets (opt-in via --with-worksheets)
   08-Decodable-Readers/            — 25 readers + index
   09-Quick-Checks/                 — placement + 5 stage quick-checks
   11-Game/                         — phonogram trainer (web game)
@@ -26,11 +39,13 @@ Produces a top-level ZIP with:
 All paths inside the ZIP use forward slashes (POSIX) for cross-platform use.
 
 Usage:
-  python scripts/build-release.py                          # full release (default)
+  python scripts/build-release.py                          # Model C (default)
   python scripts/build-release.py --output custom.zip      # custom output path
   python scripts/build-release.py --stage 3                # only Stage 3 assets
   python scripts/build-release.py --no-game --no-audio     # skip game + audio
   python scripts/build-release.py --no-lessons             # skip 06-Lesson-Packs/
+  python scripts/build-release.py --with-worksheets        # include standalone worksheets
+  python scripts/build-release.py --with-stage-overview    # include per-stage workbook PDFs
   python scripts/build-release.py --list                   # dry-run, list contents
 """
 
@@ -132,10 +147,11 @@ WHAT'S IN THIS RELEASE
 04-Quick-Reference/                    — phonograms, rules, spelling analysis,
                                           diacritical legend, glossary (HTMLs + PDFs)
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
-06-Lesson-Packs/                       — 244 per-lesson bundles
-06-Stage-Overview/stage-N.pdf          — merged per-stage review (PDF)
-07-Worksheets/                         — 178 standalone practice sheets
-                                          (organized by stage + category)
+06-Lesson-Packs/                       — 244 per-lesson bundles (each with cover,
+                                          at-a-glance, lesson script, worksheets, cards)
+06-Stage-Overview/stage-N.pdf          — OPTIONAL: merged per-stage workbook (--with-stage-overview)
+07-Worksheets/                         — OPTIONAL: standalone practice sheets
+                                          (organized by stage + category; --with-worksheets)
 08-Decodable-Readers/                  — 25 decodable story PDFs + index
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
 
@@ -306,9 +322,17 @@ def build_lesson_packs(zf, args, stats):
 
 
 def build_worksheets(zf, args, stats):
-    """Section 7: Worksheets from build/worksheets/<sub>/."""
-    if args.no_worksheets:
-        stats["skipped"].append("07-Worksheets/")
+    """Section 7: Worksheets from build/worksheets/<sub>/.
+
+    Model C default: skip. Worksheet content lives inside lesson packs
+    (06-Lesson-Packs/) so teachers have it where they need it. Opt in
+    via --with-worksheets if you want standalone extra practice sheets.
+    """
+    if args.no_worksheets or not args.with_worksheets:
+        if args.no_worksheets:
+            stats["skipped"].append("07-Worksheets/ (--no-worksheets)")
+        else:
+            stats["skipped"].append("07-Worksheets/ (Model C: in packs)")
         return
     for sub in ["phonograms", "rules", "cards", "blank"]:
         sub_dir = BUILD / "worksheets" / sub
@@ -334,33 +358,58 @@ def build_worksheets(zf, args, stats):
 
 
 def build_readers(zf, args, stats):
-    """Section 8: Decodable readers from build/readers/."""
+    """Section 8: Decodable readers from build/readers/stage-N/.
+
+    Layout: 08-Decodable-Readers/stage-N/{slug}.pdf
+    Model C: drop flat readers at build/readers/*.pdf + merged stage-N-readers.pdf.
+    Stage grouping makes it easy to print a whole stage's readers at once.
+    """
     if args.no_readers:
         stats["skipped"].append("08-Decodable-Readers/")
         return
     readers_dir = BUILD / "readers"
-    if readers_dir.exists():
-        if args.list:
-            stats["included"].append("08-Decodable-Readers/")
-        else:
-            count = add_directory(zf, readers_dir, "08-Decodable-Readers",
-                                 stage_filter=args.stage)
-            if count:
-                print(f"  OK  08-Decodable-Readers/  ({count} reader PDFs)")
-    # Per-stage merged readers PDF
+    if not readers_dir.exists():
+        return
+
+    # Copy only stage-N/ subfolders, not the flat files at root.
+    # add_directory with stage_filter does the per-stage restrict, but we
+    # also need to skip the flat files (which aren't in stage-N/ subdir).
     for stage in _stages(args):
-        f = BUILD / f"stage-{stage}-readers.pdf"
-        if not f.exists():
+        stage_dir = readers_dir / f"stage-{stage}"
+        if not stage_dir.exists():
             continue
-        arc = f"08-Decodable-Readers/stage-{stage}-readers.pdf"
+        count = 0
+        for f in sorted(stage_dir.glob("*.pdf")):
+            arc = f"08-Decodable-Readers/stage-{stage}/{f.name}"
+            if args.list:
+                stats["included"].append(arc)
+            else:
+                zf.write(f, arc)
+            count += 1
+        if count and not args.list:
+            print(f"  OK  08-Decodable-Readers/stage-{stage}/  ({count} readers)")
+
+    # readers-index.pdf lives at build/readers/, not in any stage subdir.
+    # Include it at the root of 08-Decodable-Readers/.
+    index = readers_dir / "readers-index.pdf"
+    if index.exists():
         if args.list:
-            stats["included"].append(arc)
+            stats["included"].append("08-Decodable-Readers/readers-index.pdf")
         else:
-            zf.write(f, arc)
+            zf.write(index, "08-Decodable-Readers/readers-index.pdf")
+            print("  OK  08-Decodable-Readers/readers-index.pdf")
 
 
 def build_stage_overview(zf, args, stats):
-    """Section 6b: Per-stage combined PDF (stage-N.pdf)."""
+    """Section 6b: Per-stage combined PDF (stage-N.pdf).
+
+    Model C default: skip. Stage-overview content (phonogram + rule +
+    flash card worksheets) lives inside lesson packs (06-Lesson-Packs/).
+    Opt in via --with-stage-overview for the LOE-style bound workbook.
+    """
+    if not args.with_stage_overview:
+        stats["skipped"].append("06-Stage-Overview/ (Model C: in packs)")
+        return
     for stage in _stages(args):
         f = BUILD / f"stage-{stage}.pdf"
         if not f.exists():
@@ -469,7 +518,11 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--no-handbooks", action="store_true",
                    help="Skip 05-Teacher-Handbooks/ stage handbooks")
     p.add_argument("--no-lessons", action="store_true", help="Skip 06-Lesson-Packs/")
-    p.add_argument("--no-worksheets", action="store_true", help="Skip 07-Worksheets/")
+    p.add_argument("--no-worksheets", action="store_true", help="Skip 07-Worksheets/ (Model C default)")
+    p.add_argument("--with-worksheets", action="store_true",
+                   help="Include 07-Worksheets/ (standalone practice sheets; Model C opts out by default)")
+    p.add_argument("--with-stage-overview", action="store_true",
+                   help="Include 06-Stage-Overview/ (bound workbook PDFs; Model C opts out by default)")
     p.add_argument("--no-readers", action="store_true", help="Skip 08-Decodable-Readers/")
     p.add_argument("--no-quick-checks", action="store_true", help="Skip 09-Quick-Checks/")
     p.add_argument("--no-assessments", action="store_true", help="Skip 10-Assessments/")

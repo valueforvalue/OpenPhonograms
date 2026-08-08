@@ -165,14 +165,13 @@ The `justfile` at repo root wraps every script. Run `just` with no args to list 
 
 ```bash
 just doctor              # Verify environment (Python deps, GTK3, scripts)
-just build               # Full pipeline without release ZIP (gen+render+audio+pack)
-just all                 # Full pipeline + release ZIP
-just render-lessons      # Render all 244 lesson PDFs
-just render-stage 3      # Render just Stage 3 lessons
-just render-changed      # Incremental render (skip up-to-date PDFs) — fast iteration
-just pack-all            # Build all 244 lesson packs
+just build               # Full Model C pipeline without release ZIP (gen+render+pack+audio)
+just all                 # Full Model C pipeline + release ZIP
+just pack-all            # Build all 244 lesson packs (Model C: 1 render per stage)
 just pack-stage 3        # Build Stage 3 packs only
 just pack-lesson pg-d    # Build one pack (great for testing)
+just handbooks-batch     # Build all 5 stage handbooks (Model C: 1 render per stage)
+just render-changed      # Incremental render (skip up-to-date PDFs) — fast iteration
 just gen-all             # Regenerate all Markdown from data
 just audio               # Generate 75 phonogram MP3s (edge-tts, free, neural)
 just check-drift         # Detect MD newer than its PDF
@@ -181,6 +180,7 @@ just check-coverage      # Validate every PG/rule has a matching worksheet
 just check               # Run all three checks
 just clean-build         # Remove build/ directory
 just clean-all           # Remove all build artifacts (keeps sources)
+just clean-everything    # NUKE all build outputs + stray PDFs + __pycache__ (pre-build reset)
 ```
 
 ### Full Recipe List
@@ -195,16 +195,18 @@ gen-animal-readers              # Generate animal-themed readers
 gen-all                         # Generate every Markdown source
 
 render-file <path>              # Render one MD file to PDF
-render-stage <1-5>              # Render all lessons in a stage
-render-lessons                  # Render all 244 lessons
+render-stage <1-5>              # Render all lessons in a stage (per-file path, slower)
+render-lessons                  # Render all 244 lessons (per-file path, slower)
 render-changed                  # Render only changed MDs (--skip-existing on lessons + extras)
 render-curriculum               # Render curriculum.md as one PDF
 render-all                      # Render all lessons + curriculum
 
 pack-lesson <lesson_id>         # Build one lesson pack
-pack-stage <1-5>                # Build all packs for a stage
-pack-all                        # Build all 244 packs
+pack-stage <1-5>                # Build all packs for a stage (legacy per-pack render)
+pack-all                        # Build all 244 packs (Model C: batch render-then-split)
 pack-all-debug                  # Build packs in --no-render mode (debug assembly)
+
+handbooks-batch                 # Build all 5 stage handbooks via Model C render-then-split
 
 audio                           # Generate 74 MP3s (edge-tts)
 audio-ps1                       # Generate audio via PowerShell SAPI
@@ -215,10 +217,12 @@ all                             # Full pipeline + release ZIP
 build                           # Full pipeline without release ZIP
 
 clean-build                     # Remove build/
-clean-packs                     # Remove packs/
+clean-packs                     # Remove packs/ (keeps .gitignore)
 clean-release                   # Remove release.zip
 clean-audio                     # Remove games/audio/
 clean-all                       # Remove every build artifact
+clean-everything                # NUKE: build + packs + release + audio + stray PDFs + __pycache__.
+                               # Use before a fresh build to avoid stale-PDF mix-ins.
 clean-sources                   # Remove generated MD files (full reset)
 ```
 
@@ -342,36 +346,25 @@ The Georgia font fallback in render.py needs system fonts. Install via:
 
 ### Build is slow
 
-**Honest Windows timings** (12-core CPU, MSYS2 GTK3 runtime):
+**Model C timings** (Windows 12-core, MSYS2 GTK3):
 
-| Step | Cold (no cache) | Warm (after `--skip-existing`) |
-|------|-----------------|-------------------------------|
+| Step | Cold (no cache) | Warm (after skip-existing) |
+|------|-----------------|----------------------------|
 | `just doctor` | ~1s | n/a |
-| `just gen-all` | ~10s | ~10s (always regenerates) |
-| `just render-lessons` (244 PDFs) | ~10–15 min | ~10–30s (skips up-to-date) |
-| `just render-extras` (~178 PDFs) | ~8–12 min | ~5–15s |
-| `just audio` (75 MP3s) | ~3 min | ~5s (all present) |
-| `just pack-all` (244 packs) | ~5 min | ~10s |
-| `just build` (full) | **~25–35 min** | **~30s** |
+| `just gen-all` | ~10s | ~10s |
+| `just handbooks-batch` (5 handbooks) | **~1–2 min** (was 50+ min) | n/a |
+| `just pack-all` (444 packs across 5 stages) | **~2–3 min** (was 60+ min) | ~5s (cached) |
+| `just audio` (75 MP3s) | ~3 min | ~5s |
+| `just render-references` | ~1 min | ~5s |
+| `just navigation + certs + quick-checks` | ~30s | ~5s |
+| `just build` (full) | **~5–10 min** (was 25–35 min) | **~20s** |
 
-**Bottleneck**: WeasyPrint + GTK3 font scanning on Windows. Each PDF takes ~3–10s wall time regardless of file size. Parallelism helps (~2× with 4 workers) but per-file cost is fixed by Pango/Cairo. We measured 11s/file single-threaded, 3–4s/file at 4 workers on a 12-core machine.
+**Model C trick**: Render each stage's lessons/packs as ONE WeasyPrint call, then split the resulting PDF by H1 bookmark into per-unit PDFs. WeasyPrint + GTK3 pays its font-scan cost ONCE per stage instead of once per lesson.
 
-**Fast-iteration recipes**:
+- `just pack-all` → 5 renders (one per stage) + 5 pypdf splits. ~2-3 min total on Windows.
+- `just handbooks-batch` → 2 renders per stage (cover + lessons combined) = 10 renders. ~1-2 min total.
 
-```bash
-# Edit one lesson MD, then re-render ONLY that stage (skip up-to-date):
-just render-stage 3 --skip-existing   # add --skip-existing manually below
-
-# Or call render.py directly with --skip-existing:
-python framework/render.py --stage 3 --jobs 4 --skip-existing
-
-# Re-render worksheets + readers with skip-existing:
-python scripts/render-extras.py --jobs 4 --skip-existing
-python scripts/render-references.py --jobs 4 --skip-existing
-
-# Edit a generator, regenerate + re-render in one shot:
-just gen-lessons-stage 3 && just render-stage 3 --skip-existing
-```
+**Per-file render still slow**: `python framework/render.py <file>` still costs ~10s per file on Windows (Pango/fontconfig scan). Use the batch paths above for production builds.
 
 **Override worker count**: `just jobs=8 build` or `jobs=8 just build`. Default = 4. Set `jobs` env var to make permanent.
 

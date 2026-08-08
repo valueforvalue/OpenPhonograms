@@ -229,13 +229,13 @@ pack-stage stage:
 
 # Build all 248 lesson packs — output: packs/stage-N/lesson-NN-slug.pdf
 pack-all:
-    @echo "==> Building all 248 lesson packs ({{jobs}} workers)"
-    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all --jobs {{jobs}}
+    @echo "==> Building all 248 lesson packs (Model C batch, {{jobs}} workers)"
+    @{{python}} {{scripts_dir_s}}/render-packs-batch.py --all
 
 # Build packs without rendering PDFs (debug the assembly logic only)
 pack-all-debug:
     @echo "==> Building all 248 packs (no-render mode)"
-    @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --all --no-render
+    @{{python}} {{scripts_dir_s}}/render-packs-batch.py --all --no-render
 
 # Rebuild packs from cached PDFs only (no render fallback). Use after
 # changing pack assembly logic to skip re-rendering 248 PDFs.
@@ -247,6 +247,16 @@ rebuild-packs:
 rebuild-packs-stage stage:
     @echo "==> Rebuilding Stage {{stage}} packs from cache (no render)"
     @{{python}} {{scripts_dir_s}}/build-lesson-pack.py --stage {{stage}} --jobs {{jobs}} --cache-only
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Model C — render-then-split (fast batch path)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Render all stage handbooks (cover + lesson scripts) via render-then-split.
+# 1 render per stage instead of 1 + N lessons.
+handbooks-batch:
+    @echo "==> Rendering stage handbooks (Model C batch)"
+    @{{python}} {{scripts_dir_s}}/generate-stage-handbook.py
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Audio — neural TTS phonogram audio for the web game
@@ -339,21 +349,21 @@ test-slow:
 # Aggregate — common workflows
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Full build: generate → render → handbook → packs → release (long; ~5-10 min)
-all: gen-all gen-footers render-all render-extras render-references audio gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all release
+# Full build: generate → render → handbook → packs → release (Model C: ~10-15 min Windows)
+all: gen-all gen-footers handbooks-batch pack-all render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test release
     @echo ""
-    @echo "==> Full build complete"
-    @echo "    PDFs:      {{build_dir_s}}/"
+    @echo "==> Full build complete (Model C)"
+    @echo "    Handbooks: {{build_dir_s}}/handbook/"
     @echo "    Packs:     {{packs_dir_s}}/"
     @echo "    Release:   {{project_root_s}}/release.zip"
 
-# Build without release ZIP (faster iteration loop)
-build: gen-all gen-footers render-all render-extras render-references audio gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all
+# Build without release ZIP (faster iteration loop, Model C: ~5 min Windows)
+build: gen-all gen-footers handbooks-batch pack-all render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test
     @echo ""
-    @echo "==> Build complete (no release ZIP)"
-    @echo "    PDFs:  {{build_dir_s}}/"
-    @echo "    Packs: {{packs_dir_s}}/"
-    @echo "    Audio: {{games_dir_s}}/audio/"
+    @echo "==> Build complete (Model C, no release ZIP)"
+    @echo "    Handbooks: {{build_dir_s}}/handbook/"
+    @echo "    Packs:     {{packs_dir_s}}/"
+    @echo "    Audio:     {{games_dir_s}}/audio/"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Clean — remove build artifacts
@@ -366,8 +376,8 @@ clean-build:
 
 # Remove all generated lesson packs (keeps markdown + PDFs)
 clean-packs:
-    @echo "==> Cleaning packs/"
-    @rm -rf {{packs_dir_s}}
+    @echo "==> Cleaning packs/ (preserves .gitignore)"
+    @find {{packs_dir_s}} -mindepth 1 ! -name '.gitignore' -delete 2>/dev/null || true
 
 # Remove release.zip
 clean-release:
@@ -382,6 +392,22 @@ clean-audio:
 # Remove EVERY build artifact (back to source-only state)
 clean-all: clean-build clean-packs clean-release clean-audio
     @echo "==> All build artifacts removed. Source markdown preserved."
+
+# Nuke EVERY build artifact so a new build starts from clean state.
+# Removes: build/ (rendered PDFs), packs/ (assembled packs), release.zip,
+# games/audio/, any stray PDFs in lessons/ or worksheets/ (build leftovers
+# from older per-file render paths), Python __pycache__/, build tmp dirs.
+# Preserves: source markdown, catalog CSV, framework templates, audio
+# generator code, scripts, docs.
+clean-everything: clean-build clean-packs clean-release clean-audio
+    @echo "==> Cleaning stray PDFs in lessons/ + worksheets/ (build leftovers)"
+    @find {{lessons_dir_s}} -name "*.pdf" -delete 2>/dev/null || true
+    @find {{worksheets_dir_s}} -name "*.pdf" -delete 2>/dev/null || true
+    @find {{readers_dir_s}} -name "*.pdf" -delete 2>/dev/null || true
+    @find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+    @rm -rf {{build_dir_s}}/tmp-render-packs 2>/dev/null || true
+    @rm -rf {{build_dir_s}}/tmp-* 2>/dev/null || true
+    @echo "==> Everything clean. Restore with: just build"
 
 # Remove generated markdown sources too (full reset to bare repo)
 clean-sources:

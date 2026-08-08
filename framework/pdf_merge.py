@@ -4,6 +4,9 @@
 """
 pdf_merge.py — Combine multiple PDFs into a single pack via pypdf.
 
+Also provides render_and_split() — render a batch of markdown files
+as ONE PDF, then split by top-level bookmarks into per-unit PDFs.
+
 Why this exists:
   build-lesson-pack.py previously re-rendered every component (cover,
   lesson, worksheet, cards, reader) into ONE combined MD and rendered
@@ -19,15 +22,18 @@ Public API:
     components: list of (path, label) tuples in order
     returns CompileResult(ok, page_count, missing, merged_paths)
 
-  Render-on-demand fallback:
-  If a component PDF is missing, the caller is expected to fall back
-  to inline render-to-PDF. This module does NOT render PDFs itself.
+  render_and_split(md_paths, title_to_path, ...):
+    Render a batch of markdown files into one PDF, then split by
+    top-level PDF bookmark into per-unit PDFs. Much faster than
+    rendering each file individually (avoids per-file Pango/font
+    scan cost on Windows). See function docstring for details.
 """
 
 import logging
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Optional
+from typing import Callable, Optional
 
 
 @dataclass
@@ -36,6 +42,15 @@ class CompileResult:
     page_count: int = 0
     missing: list[Path] = field(default_factory=list)
     merged_paths: list[Path] = field(default_factory=list)
+    error: Optional[str] = None
+
+
+@dataclass
+class SplitResult:
+    ok: bool
+    units: list[tuple[str, Path]] = field(default_factory=list)
+    render_seconds: float = 0.0
+    split_seconds: float = 0.0
     error: Optional[str] = None
 
 
@@ -53,8 +68,6 @@ def compile_pack(out_path: Path, components: list[tuple[Path, str]]) -> CompileR
         ok=False if any component is missing OR the merge raises.
     """
     from pypdf import PdfWriter, PdfReader
-
-    # Lazy import keeps the module cheap to import + test.
 
     missing = [p for p, _ in components if not p.exists()]
     if missing:
@@ -111,3 +124,176 @@ def page_count(pdf_path: Path) -> int:
     if not pdf_path.exists():
         return 0
     return len(PdfReader(str(pdf_path)).pages)
+
+
+# Lazy logger (don't create at import time — keep this module cheap).
+log_split = logging.getLogger("pdf_merge.split")
+
+
+def render_and_split(
+    md_paths: list[Path],
+    title_to_path: Callable[[str], Optional[Path]],
+    *,
+    combined_pdf: Path,
+    body_class: str | None = None,
+) -> SplitResult:
+    """Render a batch of MDs as ONE PDF, split by H1 bookmark into per-unit PDFs.
+
+    Why batch: WeasyPrint + Pango's font scan costs ~10s per render on
+    Windows (Pango scans all 859 installed system fonts). Rendering 48
+    lessons individually = ~8 min. Rendering them as ONE document = ~30s.
+    We pay one Pango scan instead of N.
+
+    Mechanism:
+    - Each MD file's H1s become WeasyPrint's bookmarks (top-level = H1,
+      nested = H2/H3).
+    - We render all MDs as one combined HTML doc.
+    - pypdf walks the outline. Each top-level bookmark is a candidate
+      unit. The caller decides which H1s map to output files via
+      `title_to_path` (return None to skip).
+    - We split pages between consecutive bookmarks into per-unit PDFs.
+    - H2/H3 nested under H1 stay with the unit (not split separately).
+
+    Args:
+        md_paths: ordered list of MD files to render. Order preserved
+            in the combined PDF and in resulting per-unit PDFs.
+        title_to_path: fn(title_str) -> Path | None.
+            If None for a title, that unit is skipped in the split.
+            Caller uses this to map H1 title to output filename and
+            to filter which H1s are unit boundaries (return None for
+            the ones that should be ignored, e.g. at-a-glance H1s).
+        combined_pdf: temp path for the combined PDF.
+        body_class: CSS body class for the combined doc (e.g. "stage-1").
+
+    Returns:
+        SplitResult with units written, timing, and any errors.
+    """
+    from framework.render import render_html_to_pdf, md_to_html
+    from pypdf import PdfReader, PdfWriter
+    import re
+
+    if not md_paths:
+        return SplitResult(ok=True)
+
+    combined_pdf.parent.mkdir(parents=True, exist_ok=True)
+
+    # Build combined HTML — each MD becomes a <section>, each starts
+    # with an H1 that WeasyPrint picks up as a top-level bookmark.
+    sections: list[str] = []
+    for md_path in md_paths:
+        md_text = md_path.read_text(encoding="utf-8")
+        body_html = md_to_html(md_text, md_path)
+        sections.append(f'<section>{body_html}</section>')
+
+    class_attr = f' class="{body_class}"' if body_class else ""
+    # In the batch-render case, we want each unit to start on a fresh
+    # page so the bookmark-based split lines up cleanly. Override the
+    # default `page-break-before: avoid` for h1 inside <section>.
+    batch_css = "<style>section h1 { page-break-before: always; }</style>"
+    full_html = (
+        '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
+        f'{batch_css}</head>'
+        f'<body{class_attr}>{"".join(sections)}</body></html>'
+    )
+
+    # Render the combined doc
+    t0 = time.perf_counter()
+    try:
+        render_html_to_pdf(full_html, combined_pdf, body_class=body_class)
+    except Exception as exc:
+        return SplitResult(ok=False, error=f"render failed: {exc}")
+    render_seconds = time.perf_counter() - t0
+
+    # Split by bookmark
+    t0 = time.perf_counter()
+    try:
+        reader = PdfReader(str(combined_pdf))
+        outline = reader.outline
+    except Exception as exc:
+        return SplitResult(
+            ok=False,
+            render_seconds=render_seconds,
+            error=f"read outline failed: {exc}",
+        )
+
+    # Walk outline; capture (title, page_idx) for top-level items only.
+    # pypdf's outline is a list of Destination | list. Top-level = depth 0.
+    # Nested list = depth 1+ (sub-headings inside the unit).
+    unit_starts: list[tuple[str, int]] = []
+
+    def walk(items, depth=0):
+        if not isinstance(items, list):
+            return
+        for item in items:
+            if isinstance(item, list):
+                walk(item, depth + 1)
+            else:
+                title = item.title or ""
+                title_clean = re.sub(r"<[^>]+>", "", title).strip()
+                try:
+                    page_idx = reader.get_destination_page_number(item)
+                except Exception:
+                    page_idx = 0
+                if depth == 0:
+                    unit_starts.append((title_clean, page_idx))
+                # No recursion into Destination's children — pypdf's
+                # list-based outline already represents them as nested
+                # lists at depth 1+.
+
+    walk(outline)
+
+    if not unit_starts:
+        return SplitResult(
+            ok=False,
+            render_seconds=render_seconds,
+            error="no top-level bookmarks found — H1 headings missing?",
+        )
+
+    total_pages = len(reader.pages)
+    units: list[tuple[str, Path]] = []
+    written_keys: set[Path] = set()
+
+    # Compute the next-unit-start for each entry. We need this because
+    # the outline may contain H1s that are sub-units of the current unit
+    # (e.g. "Lesson Pack" + "At-a-glance" + "Lesson" all share the same
+    # physical pack). Only the H1s that map to output paths are "real"
+    # unit boundaries. The end of unit N is the start of the next real unit.
+    real_starts: list[tuple[str, int, Path]] = []
+    for title, start_page in unit_starts:
+        target = title_to_path(title)
+        if target is None:
+            continue
+        if target in written_keys:
+            log_split.warning(f"duplicate H1 '{title[:60]}' -> skipping")
+            continue
+        written_keys.add(target)
+        real_starts.append((title, start_page, target))
+
+    for idx, (title, start_page, target) in enumerate(real_starts):
+        if idx + 1 < len(real_starts):
+            end_page = real_starts[idx + 1][1]
+        else:
+            end_page = total_pages
+
+        if end_page <= start_page:
+            log_split.warning(
+                f"empty unit '{title[:60]}' (start={start_page} end={end_page})"
+            )
+            continue
+
+        writer = PdfWriter()
+        for p in range(start_page, end_page):
+            writer.add_page(reader.pages[p])
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with open(target, "wb") as f:
+            writer.write(f)
+        units.append((title, target))
+
+    split_seconds = time.perf_counter() - t0
+
+    return SplitResult(
+        ok=True,
+        units=units,
+        render_seconds=render_seconds,
+        split_seconds=split_seconds,
+    )
