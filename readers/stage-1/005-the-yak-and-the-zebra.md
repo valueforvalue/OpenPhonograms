@@ -62,7 +62,7 @@ A bee buzzed past the yak's hat.
 
 <div class="reader-text">
 
-The yak drank from a jug of clear water.
+The yak drank from a jug of cold water.
 
 The zebra drank, too.
 
