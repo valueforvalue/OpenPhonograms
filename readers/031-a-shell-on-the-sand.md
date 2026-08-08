@@ -1,0 +1,239 @@
+<div class="reader-cover">
+
+# A Shell on the Sand
+
+**Stage 2 Decodable Reader** · For use after Lesson 19
+
+</div>
+
+<div class="page-break"></div>
+
+**Stage 2** · Decodable Reader · After Lesson 19
+
+
+
+## Warm-Up Words — Read These First
+
+> car, far, bar, jar, star, hard, dark, park, yard, shark
+
+---
+
+## Story
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben is at the beach. He has a pail. He looks for shells.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The sand is warm. The sea is far. A gull calls in the wind.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben sees a shell. It is thin and sharp. It has a sharp tip.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, e, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"What a fun shell!" says Ben. He puts it in his pail. He is glad.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The wind blows hard. The sea starts to come in. The sand gets dark.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 12:** Silent E — nine reasons
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben walks back. The sea is at his feet. The sand is wet.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben runs up the beach. He has his pail. The shell is in.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The sea runs up. The sand is dark. The wind is hard.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, h, i
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben has a shell. He has fun in the sand. The sea is far and dark.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Ben will come back. The shell is in his pail. The beach is a good spot.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 12:** Silent E — nine reasons
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+---
+
+## Think About It
+
+1. What does Ben find? (A shell.) 2. Why does Ben run back from the sea? (The sea is coming in.) 3. How does Ben feel at the end? (Glad.) 4. Find an AR word in the story. (far, hard, sharp, dark).
+
+---
+
+**Phonograms used:** car far bar jar star hard dark park yard shark

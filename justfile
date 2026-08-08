@@ -339,6 +339,16 @@ check-images:
     @echo "==> Image coverage check"
     @{{python}} {{scripts_dir_s}}/check-image-coverage.py
 
+# Check that every word in a Stage-N reader MD is decodable with phonograms
+# taught at-or-before stage N (or is a HF word / proper noun).
+# Issue #28: heuristic v1 (substring containment of 3+ char PGs).
+# Flags egregious over-stage words like 'kitchen' (tch=Stage 3) in Stage 2.
+# Usage: `just check-readers` (defaults to stage 2)
+#        `just check-readers 3` (stage 3)
+check-readers stage='2':
+    @echo "==> Reader decodability check (stage {{stage}})"
+    @{{python}} {{scripts_dir_s}}/check-reader-decodability.py --stage {{stage}} --dir {{readers_dir_s}}/stage-{{stage}}/
+
 # Run all checks (drift + overflow + coverage + images + data)
 check: check-drift check-overflow check-coverage check-images check-pdf-credits validate-data
     @echo ""
