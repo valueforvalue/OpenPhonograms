@@ -31,10 +31,10 @@ back ... pack → backpack
 
 ## Activity 2: Count and Blend
 
-Adult says each syllable of a word separately. Child blends, then segments the whole word into individual sounds.
+Adult says a word. Child claps the syllables, then blends them.
 
-Adult: 'pen...cil' — Child: 'pencil!' — Now segment: /p/ /ĕ/ /n/ /s/ /ĭ/ /l/
-Adult: 'rab...bit' — Child: 'rabbit!' — Now segment: /r/ /ă/ /b/ /ĭ/ /t/
+2 syllables: table, paper, water, mother, father, sister, brother
+3 syllables: elephant, banana, tomato, butterfly, dinosaur
 
 ---
 

@@ -27,11 +27,12 @@ sun → run, fun, bun, nun
 
 ## Activity 2: Change the Last Sound
 
-Change one sound at a time to make a chain of new words.
+Adult: 'Say *cat*. Now change /t/ to /p/. What word?'
+Child: 'cap!'
 
-cat → hat → hit → hip → hop → hog → dog → dig → big → bag → bat → cat (back where we started!)
-
-How many links can you make?
+cat → cap, can, cab
+dog → dot, doll
+bed → bet, beg, bell
 
 ---
 

@@ -7,9 +7,10 @@
      movement_activity, quick_check, home_practice
      next_num, next_title, teacher_script
 
-   NOTE: Activity 2 intentionally renders activities[2][1] (third item's body),
-   not activities[1][1], to byte-match the pre-refactor build_pa_with_review
-   buggy output. Fix in a follow-up PR.
+   Activities are rendered by index (0, 1, 2, ...). For 3-item lists,
+   Activity 2 = activities[1], Activity 3 = activities[2]. For 4-item
+   lists, the LAST item (activities[last_idx]) becomes Activity 3 and
+   the third item (activities[2]) is skipped (intentional design).
 #}
 # Lesson {{ lesson_num }}: {{ title }}
 
@@ -36,7 +37,7 @@
 {% if activities|length > 3 -%}
 ## Activity 2: {{ activities[1][0] }}
 
-{{ activities[2][1] }}
+{{ activities[1][1] }}
 
 ---
 
@@ -69,7 +70,7 @@
 {%- else -%}
 ## Activity 2: {{ activities[1][0] }}
 
-{{ activities[2][1] }}
+{{ activities[1][1] }}
 
 ---
 

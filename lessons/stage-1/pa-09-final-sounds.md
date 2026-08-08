@@ -33,11 +33,11 @@ Go faster!
 
 ## Activity 2: Last Sound Match
 
-Adult says a word, then either 'first' or 'last.' Child says the corresponding sound.
+Adult says a sound. Child thinks of words that END with that sound.
 
-dog—FIRST → /d/    dog—LAST → /g/
-cat—FIRST → /k/    cat—LAST → /t/
-sun—FIRST → /s/     sun—LAST → /n/
+Words ending with /t/: cat, hat, bat, sit, hot, net, pot
+Words ending with /d/: bed, red, sad, mad, hid
+Words ending with /g/: dog, bag, big, dig, hug
 
 ---
 

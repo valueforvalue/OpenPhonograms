@@ -26,14 +26,13 @@ S-blends: /s/ /t/ /ĕ/ /p/ → step, /s/ /w/ /ĭ/ /m/ → swim, /s/ /n/ /ă/ /p/
 
 ## Activity 2: Blend First, Then Add
 
-Which of these start with a blend? Child identifies:
+Adult: 'Say /s/ /t/ together — /st/. Now add /ŏ/ /p/. What word?'
+Child: 'stop!'
 
-cat (no blend — single sound)
-stop (yes! /st/ blend)
-dog (no blend)
-frog (yes! /fr/ blend)
-clap (yes! /kl/ blend)
-sun (no blend)
+/st/ + /ŏ/ /p/ → stop
+/sp/ + /ĭ/ /n/ → spin
+/sl/ + /ĭ/ /p/ → slip
+/fl/ + /ă/ /g/ → flag
 
 ---
 

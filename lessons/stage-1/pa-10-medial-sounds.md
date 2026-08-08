@@ -33,15 +33,10 @@ Tip: The middle sound is always a vowel! Say it slowly and listen.
 
 ## Activity 2: Which Vowel?
 
-Adult: 'Say /k/ /ă/ /t/ — cat. Now change /ă/ to /ŭ/. What word?'
-Child: 'cut!'
+Adult says a word. Child says which vowel sound is in the middle.
 
-Try these:
-- cat → cut (/ă/ to /ŭ/)
-- big → bag (/ĭ/ to /ă/)
-- hop → hip (/ŏ/ to /ĭ/)
-- bed → bad (/ĕ/ to /ă/)
-- cup → cap (/ŭ/ to /ă/)
+man → /ă/    men → /ĕ/    pin → /ĭ/    pop → /ŏ/    fun → /ŭ/
+dad → /ă/    red → /ĕ/    win → /ĭ/    not → /ŏ/    sun → /ŭ/
 
 ---
 
