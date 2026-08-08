@@ -1,0 +1,247 @@
+<div class="reader-cover">
+
+# The Path Through the Woods
+
+**Stage 2 Decodable Reader** · For use after Lesson 21
+
+</div>
+
+<div class="page-break"></div>
+
+**Stage 2** · Decodable Reader · After Lesson 21
+
+
+
+## Warm-Up Words — Read These First
+
+> her, fern, river, under, never, sister, mother, father, after, other
+
+---
+
+## Story
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Liz walks in the woods. Trees are big. The ferns are soft.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Liz is on a path. She looks at the ferns. She sees a green moth.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, e, f, g, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The path is long. Liz walks and walks. She never gets back.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, g
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"I am stuck!" says Liz. "I can not find it." She looks and looks. Liz sees a big jay.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"Tweet!" says the bird. Liz follows the bird. The bird swoops to a tree.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, d, e, f
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+It lands on a stream. Liz walks with it. Liz sees a rock.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, i
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The river runs by. She hears the stream. Liz follows the stream.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, e, f, h, i
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She walks and walks. The path is back. "I see the path!" Liz says.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, e, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She is so glad. The path is firm. Liz has ferns in her hand.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, g
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+She is glad. The woods are fun.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, f, g, l
+
+</div>
+
+</div>
+
+---
+
+## Think About It
+
+1. What does Liz see first? (Ferns and a green moth.) 2. Why does Liz feel stuck? (She walks and walks and never gets back.) 3. How does Liz find her way? (She follows a bird to the stream.) 4. Find an ER word in the story. (her, ferns, river, under, never).
+
+---
+
+**Phonograms used:** her fern river under never sister mother father after other

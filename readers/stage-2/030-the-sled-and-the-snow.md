@@ -1,0 +1,239 @@
+<div class="reader-cover">
+
+# The Sled and the Snow
+
+**Stage 2 Decodable Reader** · For use after Lesson 35
+
+</div>
+
+<div class="page-break"></div>
+
+**Stage 2** · Decodable Reader · After Lesson 35
+
+
+
+## Warm-Up Words — Read These First
+
+> snow, down, town, now, how, cow, brown, slow, low, blow
+
+---
+
+## Story
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Snow falls on the hill. The hill is white. The sled is at the top.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, f, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Sam is a kid. He has a pail. He pulls the sled up the hill.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, h, i
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The snow is deep. The sled slows down. Sam can not get it up.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, l
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+"How do I get it up?" Sam asks. The snow is low. Sam digs with his hand.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, h
+
+**Rules in this story:**
+
+**Rule 14:** Double consonant for vowel suffix
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He clears the snow. The sled is out. "Now I can go!" says Sam.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, g
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He sits on the sled. The sled is at the top. Sam gives a push.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, h
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The sled runs down the hill. The snow is slow. The sled picks up speed.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** c, d, e, h, i
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The wind blows on Sam's chin. He shouts. Soon, the sled slows.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The snow stops the sled. Sam is glad. Sam pulls the sled back up.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+He will go down next. The snow is fun.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** d, e, f, g, n
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+</div>
+
+</div>
+
+---
+
+## Think About It
+
+1. Why does Sam pull the sled up the hill? (To go down on the snow.) 2. Why does the sled get stuck? (The snow is deep.) 3. How does the story end? (Sam goes down the hill on the sled.) 4. Find an OW word in the story. (snow, down, slow, low).
+
+---
+
+**Phonograms used:** snow down town now how cow brown slow low blow
