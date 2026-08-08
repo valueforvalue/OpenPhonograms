@@ -313,19 +313,21 @@ def assemble_handbook(stage: int, no_render: bool = False):
     lessons_combined = OUT_DIR / f"stage-{stage}-handbook-lessons.pdf"
 
     def title_to_path(title: str) -> Path | None:
+        """Skip per-lesson H1s so the combined PDF stays as one unit.
+
+        Returns None for every "Lesson N: ..." bookmark — the handbook
+        is rendered as a single combined PDF, not split into per-lesson
+        files. Top-level bookmarks are re-added in the merge step below.
+        The Path | None contract matches render_and_split()'s callback
+        signature; returning None simply excludes that H1 from the split.
+        """
         if not title.startswith("Lesson "):
             return None
         m = re.match(r"Lesson (\d+):", title)
         if not m:
             return None
-        # We don't write per-lesson PDFs (handbook is the unit).
-        # Returning None skips these bookmarks; we re-add them below.
-        return None  # type: ignore
+        return None
 
-    # HACK: render_and_split requires title_to_path return Path or None.
-    # We want it to skip "Lesson N: ..." entries but still render the
-    # combined PDF with the bookmarks intact (we'll re-add top-level
-    # bookmarks in the merge step below).
     result = render_and_split(
         md_paths,
         title_to_path,
