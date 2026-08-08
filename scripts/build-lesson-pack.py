@@ -36,6 +36,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 ROOT = Path(__file__).resolve().parent.parent
 # Allow `from framework.render import ...`
 sys.path.insert(0, str(ROOT))
+# Allow `from version import get_version` inside framework/stamp.py
+sys.path.insert(0, str(ROOT / "framework"))
 
 # Point WeasyPrint at MSYS2's GTK3 runtime DLLs on Windows (one-time install
 # via MSYS2: pacman -S mingw-w64-x86_64-pango). Idempotent — no-op if set.
