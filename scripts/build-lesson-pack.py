@@ -55,6 +55,7 @@ from framework.build_log import (
     drain_worker_queue,
 )
 from framework.pdf_merge import compile_pack as _compile_pack
+from framework.stamp import stamp as _stamp_md, get_version as _get_version  # noqa: E402
 
 log = get_logger("pack")
 LESSONS_DIR = ROOT / "lessons"
@@ -249,7 +250,7 @@ Print this pack before the lesson. Check off as you gather materials.
 
 ---
 
-*Pack generated for the *OpenPhonograms* curriculum.*
+*Pack generated for the *OpenPhonograms* curriculum (v{_get_version()}).*
 {missing_block}
 
 <div class=\"page-break\"></div>
@@ -658,7 +659,7 @@ def _render_cover_pdf(
     tmp_dir = Path(tempfile.mkdtemp(prefix="pack-cover-"))
     temp_md = tmp_dir / "cover.md"
     temp_pdf = tmp_dir / "cover.pdf"
-    temp_md.write_text(cover_md, encoding="utf-8")
+    temp_md.write_text(_stamp_md(cover_md), encoding="utf-8")
     try:
         from framework.render import render_md_to_pdf
         render_md_to_pdf(temp_md, temp_pdf, doc_type="lesson")

@@ -25,6 +25,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "framework"))
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 CATALOG = ROOT / "framework" / "lesson-catalog.csv"
 BUILD = ROOT / "build"
 OUT_DIR = ROOT / "build" / "handbook"
@@ -266,7 +268,7 @@ def assemble_handbook(stage: int, no_render: bool = False):
     lessons.sort(key=lambda r: int(r["lesson_num"]))
 
     cover_md = OUT_DIR / f"stage-{stage}-handbook-cover.md"
-    cover_md.write_text(make_stage_cover(stage, lessons), encoding="utf-8")
+    cover_md.write_text(stamp(make_stage_cover(stage, lessons)), encoding="utf-8")
 
     if no_render:
         return cover_md
@@ -303,7 +305,7 @@ def assemble_handbook(stage: int, no_render: bool = False):
             flags=re.MULTILINE,
         )
         md_path = lesson_md_dir / f"lesson-{ln:02d}-{lid}.md"
-        md_path.write_text(text, encoding="utf-8")
+        md_path.write_text(stamp(text), encoding="utf-8")
         md_paths.append(md_path)
 
     # 3. Render all lessons as ONE PDF, split by "Lesson N:" bookmarks
