@@ -253,8 +253,6 @@ Print this pack before the lesson. Check off as you gather materials.
 *Pack generated for the *OpenPhonograms* curriculum (v{_get_version()}).*
 {missing_block}
 
-<div class=\"page-break\"></div>
-
 """
     return cover
 

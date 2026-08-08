@@ -186,10 +186,19 @@ def render_and_split(
         sections.append(f'<section>{body_html}</section>')
 
     class_attr = f' class="{body_class}"' if body_class else ""
-    # In the batch-render case, we want each unit to start on a fresh
-    # page so the bookmark-based split lines up cleanly. Override the
-    # default `page-break-before: avoid` for h1 inside <section>.
-    batch_css = "<style>section h1 { page-break-before: always; }</style>"
+    # In the batch-render case, we want each unit (section) to start on
+    # a fresh page so the bookmark-based split lines up cleanly. Only
+    # the FIRST h1 of each section needs the forced break; subsequent
+    # h1s inside a section (at-a-glance, lesson, worksheet, cards,
+    # reader, home practice) already separate via explicit
+    # `<div class="page-break">` markers in build-lesson-pack.py.
+    # Forcing breaks on every h1 doubles the breaks and produces blank
+    # pages between every sub-section (issue #35). Restrict to the
+    # first h1 of each section so unit boundaries stay clean without
+    # multiplying blanks within a pack.
+    batch_css = (
+        "<style>section > h1:first-of-type { page-break-before: always; }</style>"
+    )
     full_html = (
         '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
         f'{batch_css}</head>'

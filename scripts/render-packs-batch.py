@@ -100,17 +100,23 @@ def assemble_pack_markdown(row: dict, catalog: list[dict]) -> str | None:
     parts.append(lesson_text)
     if worksheet_path:
         parts.append(PAGE_BREAK)
-        parts.append(f"# Worksheet\n\n---\n\n")
+        # No extra H1 + HR wrapper here — the worksheet MD already
+        # starts with its own title (e.g. "# Phonogram Practice: sh").
+        # Adding `# Worksheet` + a thematic break above pushes the
+        # worksheet body down ~1 line, which cascades into a
+        # near-empty trailing page in long phonogram worksheets
+        # (see issue #35). The PAGE_BREAK already gives the section
+        # a clear visual start.
         parts.append(worksheet_path.read_text(encoding="utf-8"))
     if card_paths:
         parts.append(PAGE_BREAK)
-        parts.append(f"# Flash Cards for Review\n\n---\n\n")
+        # See note above — the cards MD carries its own title.
         for cp in card_paths:
             parts.append(cp.read_text(encoding="utf-8"))
             parts.append("\n\n---\n\n")
     if reader_path and row["type"] != "reader":
         parts.append(PAGE_BREAK)
-        parts.append(f"# Decodable Reader\n\n---\n\n")
+        # See note above — the reader MD carries its own title.
         parts.append(reader_path.read_text(encoding="utf-8"))
     parts.append(build_home_practice(lesson_text))
     return "\n".join(parts)
