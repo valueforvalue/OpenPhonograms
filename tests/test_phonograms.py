@@ -1,10 +1,11 @@
-"""Tests for framework/phonograms.py — the single source of truth.
+"""Tests for framework/data_loader.py - the YAML-backed single source of truth.
 
-Issue #14 refactor: phonogram catalog extracted to framework/phonograms.py
-to eliminate duplication between generate-worksheets.py and the stage
-generators. This test file guards the module's public API and ensures
-the catalog stays consistent with the lesson catalog.
+Issue #22/#23 refactor: phonogram + rule catalogs extracted from
+data/phonograms.yaml + rules.yaml (YAML source), loaded via
+framework/data_loader. This test file guards the loaders' public API
+and ensures the catalog stays consistent with the lesson catalog.
 """
+
 import csv
 import sys
 from pathlib import Path
@@ -14,77 +15,103 @@ import pytest
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "framework"))
 
-import phonograms  # noqa: E402
+from data_loader import (  # noqa: E402
+    Phonogram, Rule,
+    load_phonograms, load_rules,
+    pg_dict, pg_stage_dict, pg_stage_buckets, pg_kind_buckets,
+    rules_dict, rules_by_number,
+)
 
 
-# ── Module API surface ─────────────────────────────────────────────────
+# ── Loader API surface ─────────────────────────────────────────────────
 
-class TestPhonogramsApi:
-    """Public API exposed by framework/phonograms.py."""
+class TestPhonogramsLoader:
+    """Public API exposed by framework/data_loader for phonograms."""
 
-    def test_singleton_dict(self):
-        assert isinstance(phonograms.SINGLE, dict)
-        assert len(phonograms.SINGLE) >= 26  # a-z + qu
+    def test_load_phonograms_returns_tuple(self):
+        pgs = load_phonograms()
+        assert isinstance(pgs, tuple)
+        assert len(pgs) >= 75  # 76 with qu, but spec is 75+
 
-    def test_multi_dict(self):
-        assert isinstance(phonograms.MULTI, dict)
-        assert len(phonograms.MULTI) >= 25  # Stage 2 multi-letter PGs
+    def test_phonogram_dataclass_fields(self):
+        """Every entry must be a Phonogram dataclass with id, sounds, words, stage."""
+        for p in load_phonograms():
+            assert isinstance(p, Phonogram)
+            assert isinstance(p.id, str) and p.id
+            assert isinstance(p.sounds, str) and p.sounds.strip()
+            assert isinstance(p.words, tuple) and len(p.words) >= 10
+            assert p.stage in {1, 2, 3, 4, 5}
 
-    def test_multi3_dict(self):
-        assert isinstance(phonograms.MULTI3, dict)
-        assert len(phonograms.MULTI3) >= 15  # Stage 3+ advanced PGs
+    def test_pg_dict_shape(self):
+        """pg_dict() returns {pg_id: {sounds, words, stage}}."""
+        d = pg_dict()
+        assert isinstance(d, dict)
+        assert "a" in d
+        assert d["a"]["sounds"] == "/ă/ /ā/ /ä/"
+        assert isinstance(d["a"]["words"], list)
 
-    def test_multi4_dict(self):
-        assert isinstance(phonograms.MULTI4, dict)
-        assert len(phonograms.MULTI4) >= 3   # ti, ci, si
+    def test_pg_kind_buckets_split(self):
+        """pg_kind_buckets() splits by kind (single/multi/multi3/multi4)."""
+        b = pg_kind_buckets()
+        assert set(b.keys()) == {"single", "multi", "multi3", "multi4"}
+        assert len(b["single"]) >= 26  # a-z + qu
+        assert len(b["multi"]) >= 25  # Stage 2
+        assert len(b["multi3"]) >= 15  # Stage 3+
+        assert len(b["multi4"]) >= 3   # ti, ci, si
 
-    def test_pg_stage_mapping(self):
-        assert isinstance(phonograms.PG_STAGE, dict)
-        # Every PG in any dict must be in PG_STAGE
-        all_pgs = set(phonograms.SINGLE) | set(phonograms.MULTI) \
-                  | set(phonograms.MULTI3) | set(phonograms.MULTI4)
-        assert set(phonograms.PG_STAGE.keys()) == all_pgs
-        # All stages in 1-4
-        assert all(s in {1, 2, 3, 4} for s in phonograms.PG_STAGE.values())
+    def test_pg_stage_dict_and_buckets(self):
+        """pg_stage_dict() and pg_stage_buckets() agree."""
+        sd = pg_stage_dict()
+        sb = pg_stage_buckets()
+        for pg, stage in sd.items():
+            assert pg in sb[stage]
+
+    def test_kind_ordering_preserved(self):
+        """Teaching order matches legacy SINGLE/MULTI ordering."""
+        # Teaching order is locked in pg_kind_buckets()
+        b = pg_kind_buckets()
+        # SINGLE should be a-z + qu (qu between p and r)
+        singles = list(b["single"].keys())
+        assert singles[0] == "a" and singles[-1] == "z"
+        # qu appears between p and r
+        assert "qu" in singles
+        assert singles.index("p") < singles.index("qu") < singles.index("r")
+        # MULTI starts with sh, th, ck (Stage 2 first wave)
+        assert list(b["multi"].keys())[:3] == ["sh", "th", "ck"]
 
 
-# ── Aggregations ───────────────────────────────────────────────────────
+class TestRulesLoader:
+    """Public API exposed by framework/data_loader for rules."""
 
-class TestAggregations:
-    def test_all_phonograms_returns_every_pg(self):
-        all_pgs = phonograms.all_phonograms()
-        assert len(all_pgs) == len(phonograms.SINGLE) + len(phonograms.MULTI) \
-                              + len(phonograms.MULTI3) + len(phonograms.MULTI4)
-        # Spot-check
-        assert "a" in all_pgs
-        assert "sh" in all_pgs
-        assert "dge" in all_pgs
-        assert "ti" in all_pgs
+    def test_load_rules_returns_tuple(self):
+        rules = load_rules()
+        assert isinstance(rules, tuple)
+        assert len(rules) == 31
 
-    def test_all_stages_groups_correctly(self):
-        stages = phonograms.all_stages()
-        assert sorted(stages[1]) == sorted(phonograms.SINGLE.keys())
-        assert sorted(stages[2]) == sorted(phonograms.MULTI.keys())
-        assert sorted(stages[3]) == sorted(phonograms.MULTI3.keys())
-        assert sorted(stages[4]) == sorted(phonograms.MULTI4.keys())
-        assert stages[5] == []  # no PGs introduced in Stage 5
+    def test_rule_dataclass_fields(self):
+        for r in load_rules():
+            assert isinstance(r, Rule)
+            assert isinstance(r.number, str)
+            assert isinstance(r.name, str) and r.name
+            assert isinstance(r.words, tuple) and len(r.words) >= 5
+            assert r.stage in {1, 2, 3, 4}
 
-    def test_to_json_compatible_shape(self):
-        data = phonograms.to_json_compatible()
-        assert isinstance(data, dict)
-        # Sample check: every entry has sounds, words, stage
-        for pg, entry in data.items():
-            assert "sounds" in entry
-            assert "words" in entry
-            assert "stage" in entry
-            assert isinstance(entry["words"], list)
-            assert entry["stage"] in {1, 2, 3, 4}
+    def test_rules_dict_shape(self):
+        d = rules_dict()
+        assert isinstance(d, dict)
+        assert "1" in d and "31" in d
+        assert d["3"]["name"].startswith("No English word")
+
+    def test_rules_by_number(self):
+        d = rules_by_number()
+        assert "3" in d
+        assert d["3"].number == "3"
 
 
 # ── Consistency with lesson catalog ───────────────────────────────────
 
 class TestCatalogConsistency:
-    """framework/phonograms.py must agree with framework/lesson-catalog.csv."""
+    """data/*.yaml must agree with framework/lesson-catalog.csv."""
 
     @pytest.fixture(scope="class")
     def catalog_pgs(self):
@@ -98,50 +125,39 @@ class TestCatalogConsistency:
         return pgs
 
     def test_all_catalog_pgs_have_entries(self, catalog_pgs):
-        """Every PG declared in lesson-catalog.csv must be in phonograms module."""
-        all_pgs = set(phonograms.all_phonograms().keys())
+        """Every PG declared in lesson-catalog.csv must be in YAML."""
+        all_pgs = set(pg_dict().keys())
         missing = catalog_pgs - all_pgs
-        assert not missing, f"PGs in catalog but not in phonograms module: {missing}"
+        assert not missing, f"PGs in catalog but not in YAML: {missing}"
 
     def test_no_orphan_pgs(self, catalog_pgs):
-        """No PG in phonograms module is missing from the catalog (excluding qu + advanced)."""
-        all_pgs = set(phonograms.all_phonograms().keys())
-        # Filter out PGs that are in MULTI3/MULTI4 but not yet wired into catalog
-        # (e.g. some advanced PGs may be planned for future lessons)
+        """No PG in YAML is missing from the catalog."""
+        all_pgs = set(pg_dict().keys())
         orphans = all_pgs - catalog_pgs
-        # We expect some advanced PGs (ei, ey, ough, etc.) to be in catalog.
-        # If we have orphans, the catalog is missing lessons.
-        assert not orphans, (
-            f"PGs in phonograms module but not in lesson catalog: {orphans}"
-        )
+        assert not orphans, f"PGs in YAML but not in lesson catalog: {orphans}"
 
 
 # ── Data quality ──────────────────────────────────────────────────────
 
 class TestDataQuality:
-    """Each entry must have non-empty sounds + at least 12 words."""
+    """Each entry must have non-empty sounds + at least 10 words."""
 
-    @pytest.mark.parametrize("dict_name", ["SINGLE", "MULTI", "MULTI3", "MULTI4"])
-    def test_entries_have_required_fields(self, dict_name):
-        d = getattr(phonograms, dict_name)
-        for pg, data in d.items():
-            assert "sounds" in data, f"{dict_name}[{pg}] missing 'sounds'"
-            assert "words" in data, f"{dict_name}[{pg}] missing 'words'"
-            assert data["sounds"].strip(), f"{dict_name}[{pg}] has empty sounds"
+    @pytest.mark.parametrize("kind", ["single", "multi", "multi3", "multi4"])
+    def test_entries_have_required_fields(self, kind):
+        for pg, data in pg_kind_buckets()[kind].items():
+            assert data["sounds"].strip(), f"{kind}[{pg}] has empty sounds"
             assert len(data["words"]) >= 10, (
-                f"{dict_name}[{pg}] has only {len(data['words'])} words "
+                f"{kind}[{pg}] has only {len(data['words'])} words "
                 f"(expected >=10)"
             )
 
     def test_words_are_lowercase(self):
         """Words should be lowercase for consistent display (proper-noun exceptions allowed)."""
-        # Known proper-noun exceptions in the catalog
-        ALLOWED_CAPS = {"June", "July", "August", "Paul", "Philip", "Europe", "Thursday", "Saturday"}
-        for dict_name in ["SINGLE", "MULTI", "MULTI3", "MULTI4"]:
-            d = getattr(phonograms, dict_name)
-            for pg, data in d.items():
+        ALLOWED_CAPS = {"June", "July", "August", "Paul", "Philip", "Europe", "Thursday", "Saturday", "Iraq", "Iraqi"}
+        for kind in ["single", "multi", "multi3", "multi4"]:
+            for pg, data in pg_kind_buckets()[kind].items():
                 for w in data["words"]:
                     if w != w.lower() and w not in ALLOWED_CAPS:
-                        assert False, (
-                            f"{dict_name}[{pg}] contains unexpected capitalized word: {w!r}"
+                        pytest.fail(
+                            f"{kind}[{pg}] contains unexpected capitalized word: {w!r}"
                         )

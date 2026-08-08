@@ -3,7 +3,7 @@
 
 The game must be self-contained (offline HTML), so we embed the data
 directly in the HTML via placeholder substitution. This script:
-  1. Loads phonograms from framework/phonograms.py
+  1. Loads phonograms from data/phonograms.yaml via framework.data_loader
   2. Builds SPELL_WORDS by combining per-PG word lists (a, b, c → "cat", "bat", ...)
   3. Builds PHONOGRAM_TILES for the Word Builder mode (each PG + its sounds)
   4. Writes a JSON block to scripts/_game_data.json for substitution

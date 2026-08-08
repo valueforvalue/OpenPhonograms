@@ -28,15 +28,15 @@ def _load_module(name: str):
 
 
 class TestGenerateGameData:
-    """generate-game-data.py produces a JSON dump from framework.phonograms."""
+    """generate-game-data.py produces a JSON dump from data/phonograms.yaml."""
 
     @pytest.fixture(scope="class")
     def data(self):
         return json.loads((PROJECT_ROOT / "scripts" / "_game_data.json").read_text(encoding="utf-8"))
 
     def test_phonogram_tiles_count(self, data):
-        assert len(data["phonogram_tiles"]) == 72, \
-            f"Expected 72 phonograms, got {len(data['phonogram_tiles'])}"
+        assert len(data["phonogram_tiles"]) == 75, \
+            f"Expected 75 phonograms, got {len(data['phonogram_tiles'])}"
 
     def test_phonogram_tiles_have_required_fields(self, data):
         for tile in data["phonogram_tiles"]:

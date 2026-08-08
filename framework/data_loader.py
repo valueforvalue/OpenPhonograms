@@ -3,9 +3,8 @@
 """Loader for YAML data files in data/.
 
 This module is the single access point for phonogram, rule, and related
-curriculum data. Consumers (lesson/worksheet/game generators) call these
-loaders instead of importing constants from framework/phonograms.py or
-framework/rules.py.
+curriculum data. All consumer scripts (lesson/worksheet/game generators)
+call these loaders.
 
 All loaders:
   - Read data/<file>.yaml relative to project root.
@@ -13,6 +12,11 @@ All loaders:
   - Return immutable frozen-dataclass tuples.
 
 Raises DataValidationError on schema or cross-file drift.
+
+The legacy dict-of-dict helpers (`pg_dict`, `rules_dict`, `pg_kind_buckets`)
+preserve the API shape that consumer scripts used when the data lived in
+framework/phonograms.py + rules.py (deleted in slice 9). Teaching order is
+locked in `pg_kind_buckets` to keep worksheet output byte-identical.
 """
 
 from __future__ import annotations
@@ -176,7 +180,7 @@ def load_decodable_wordlists() -> tuple:
     return tuple(raw.get("wordlists", []))
 
 
-# ── Aggregation helpers (mirror framework/phonograms.py + rules.py API) ───
+# ── Aggregation helpers ─
 
 
 def phonograms_by_id(pgs: tuple[Phonogram, ...] | None = None) -> dict[str, Phonogram]:
@@ -229,14 +233,14 @@ def words_using_phonogram(pg: str, words: list[str]) -> list[str]:
     return matches[:3]
 
 
-# ── Legacy dict-of-dict helpers (mirror framework/phonograms.py + rules.py API) ─
+# ── Dict-of-dict helpers (legacy API shape for consumer scripts) ─
 
 
 def pg_dict() -> dict[str, dict]:
-    """Return phonogram catalog in legacy dict-of-dict shape.
+    """Return phonogram catalog as {pg_id: {"sounds", "words", "stage"}}.
 
-    Returns {pg_id: {"sounds": str, "words": list[str], "stage": int}}.
-    Matches the old framework/phonograms.py API used by consumer scripts.
+    Matches the dict-of-dict API consumer scripts were written against
+    when data lived in framework/phonograms.py + rules.py.
     """
     return {
         p.id: {"sounds": p.sounds, "words": list(p.words), "stage": p.stage}
@@ -258,10 +262,10 @@ def pg_stage_buckets() -> dict[int, list[str]]:
 
 
 def rules_dict() -> dict[str, dict]:
-    """Return rules catalog in legacy dict-of-dict shape.
+    """Return rules catalog as {rule_number: {"name", "words", "stage"}}.
 
-    Returns {rule_number: {"name": str, "words": list[str], "stage": int}}.
-    Matches the old framework/rules.py API used by consumer scripts.
+    Matches the dict-of-dict API consumer scripts were written against
+    when data lived in framework/rules.py.
     """
     return {
         r.number: {"name": r.name, "words": list(r.words), "stage": r.stage}
@@ -273,11 +277,9 @@ def pg_kind_buckets() -> dict[str, dict[str, dict]]:
     """Return phonogram catalog split by kind (single, multi, multi3, multi4).
 
     Returns {"single": {pg: {...}}, "multi": {...}, "multi3": {...}, "multi4": {...}}.
-    Mirrors the legacy SINGLE/MULTI/MULTI3/MULTI4 dicts from
-    framework/phonograms.py — preserves teaching order so existing
-    consumer output stays byte-identical.
+    Preserves teaching order so consumer output stays byte-identical.
     """
-    # Teaching order (matches legacy framework/phonograms.py)
+    # Teaching order (preserved from the old SINGLE/MULTI/MULTI3/MULTI4 dicts)
     SINGLE_ORDER = ["a","b","c","d","e","f","g","h","i","j","k","l","m",
                     "n","o","p","qu","r","s","t","u","v","w","x","y","z"]
     MULTI_ORDER = ["sh","th","ck","ee","ng","ar","or","er","oi","oy","ai","ay",

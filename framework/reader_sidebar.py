@@ -17,8 +17,11 @@ from pathlib import Path
 
 # Allow standalone import during generator development
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from phonograms import PG_STAGE  # noqa: E402
-from rules import RULES, words_using_phonogram, rules_for_words  # noqa: E402
+from data_loader import (  # noqa: E402
+    pg_stage_dict, rules_dict, rules_for_words, words_using_phonogram,
+)
+PG_STAGE = pg_stage_dict()
+RULES = rules_dict()
 
 
 # Words that should NOT be detected as rule examples (function words etc.)

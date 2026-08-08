@@ -296,7 +296,7 @@ def generate_flash_cards():
         flat_idx = (page // 4) + 1 + (len(multis_s2) // 4)
         (OUT / "cards" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
         # Stage 3 mirror for most, Stage 4 for ti/ci/si — use PG_STAGE from
-        # framework/phonograms.py as the source of truth (issue #14).
+        # framework/data_loader (YAML-backed via data/phonograms.yaml).
         if any(PG_STAGE.get(pg) == 4 for pg in batch):
             stage = 4
         else:

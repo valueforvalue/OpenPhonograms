@@ -6063,28 +6063,8 @@
       "stage": 1
     },
     {
-      "pg": "sh",
-      "sounds": "/sh/",
-      "stage": 2
-    },
-    {
-      "pg": "th",
-      "sounds": "/th/ (voiced) /th/ (unvoiced)",
-      "stage": 2
-    },
-    {
-      "pg": "ck",
-      "sounds": "/k/",
-      "stage": 2
-    },
-    {
-      "pg": "ee",
-      "sounds": "/\u0113/",
-      "stage": 2
-    },
-    {
-      "pg": "ng",
-      "sounds": "/ng/",
+      "pg": "ai",
+      "sounds": "/\u0101/",
       "stage": 2
     },
     {
@@ -6093,28 +6073,13 @@
       "stage": 2
     },
     {
-      "pg": "or",
-      "sounds": "/or/",
+      "pg": "au",
+      "sounds": "/\u00e4/",
       "stage": 2
     },
     {
-      "pg": "er",
-      "sounds": "/er/",
-      "stage": 2
-    },
-    {
-      "pg": "oi",
-      "sounds": "/oi/",
-      "stage": 2
-    },
-    {
-      "pg": "oy",
-      "sounds": "/oi/",
-      "stage": 2
-    },
-    {
-      "pg": "ai",
-      "sounds": "/\u0101/",
+      "pg": "aw",
+      "sounds": "/\u00e4/",
       "stage": 2
     },
     {
@@ -6128,8 +6093,8 @@
       "stage": 2
     },
     {
-      "pg": "wh",
-      "sounds": "/hw/",
+      "pg": "ck",
+      "sounds": "/k/",
       "stage": 2
     },
     {
@@ -6138,18 +6103,8 @@
       "stage": 2
     },
     {
-      "pg": "ow",
-      "sounds": "/ow/ /\u014d/",
-      "stage": 2
-    },
-    {
-      "pg": "ou",
-      "sounds": "/ow/ /\u014d/ /\u00f6/ /\u016d/",
-      "stage": 2
-    },
-    {
-      "pg": "oo",
-      "sounds": "/\u00f6/ /\u00fc/ /\u014d/",
+      "pg": "ear",
+      "sounds": "/er/",
       "stage": 2
     },
     {
@@ -6158,18 +6113,18 @@
       "stage": 2
     },
     {
+      "pg": "ee",
+      "sounds": "/\u0113/",
+      "stage": 2
+    },
+    {
+      "pg": "er",
+      "sounds": "/er/",
+      "stage": 2
+    },
+    {
       "pg": "igh",
       "sounds": "/\u012b/",
-      "stage": 2
-    },
-    {
-      "pg": "aw",
-      "sounds": "/\u00e4/",
-      "stage": 2
-    },
-    {
-      "pg": "au",
-      "sounds": "/\u00e4/",
       "stage": 2
     },
     {
@@ -6178,8 +6133,8 @@
       "stage": 2
     },
     {
-      "pg": "ur",
-      "sounds": "/er/",
+      "pg": "ng",
+      "sounds": "/ng/",
       "stage": 2
     },
     {
@@ -6188,93 +6143,58 @@
       "stage": 2
     },
     {
-      "pg": "ear",
+      "pg": "oi",
+      "sounds": "/oi/",
+      "stage": 2
+    },
+    {
+      "pg": "oo",
+      "sounds": "/\u00f6/ /\u00fc/ /\u014d/",
+      "stage": 2
+    },
+    {
+      "pg": "or",
+      "sounds": "/or/",
+      "stage": 2
+    },
+    {
+      "pg": "ou",
+      "sounds": "/ow/ /\u014d/ /\u00f6/ /\u016d/",
+      "stage": 2
+    },
+    {
+      "pg": "ow",
+      "sounds": "/ow/ /\u014d/",
+      "stage": 2
+    },
+    {
+      "pg": "oy",
+      "sounds": "/oi/",
+      "stage": 2
+    },
+    {
+      "pg": "sh",
+      "sounds": "/sh/",
+      "stage": 2
+    },
+    {
+      "pg": "th",
+      "sounds": "/th/ (voiced) /th/ (unvoiced)",
+      "stage": 2
+    },
+    {
+      "pg": "ur",
       "sounds": "/er/",
       "stage": 2
     },
     {
-      "pg": "dge",
-      "sounds": "/j/",
-      "stage": 3
-    },
-    {
-      "pg": "tch",
-      "sounds": "/ch/",
-      "stage": 3
-    },
-    {
-      "pg": "kn",
-      "sounds": "/n/",
-      "stage": 3
-    },
-    {
-      "pg": "gn",
-      "sounds": "/n/",
-      "stage": 3
-    },
-    {
-      "pg": "wr",
-      "sounds": "/r/",
-      "stage": 3
-    },
-    {
-      "pg": "eigh",
-      "sounds": "/\u0101/",
-      "stage": 3
-    },
-    {
-      "pg": "ei",
-      "sounds": "/\u0113/ /\u0101/ /\u012b/",
-      "stage": 3
-    },
-    {
-      "pg": "ey",
-      "sounds": "/\u0101/ /\u0113/",
-      "stage": 3
-    },
-    {
-      "pg": "ph",
-      "sounds": "/f/",
-      "stage": 3
-    },
-    {
-      "pg": "gh",
-      "sounds": "/g/",
-      "stage": 3
-    },
-    {
-      "pg": "ough",
-      "sounds": "/\u014d/ /\u00f6/ /ow/ /\u016df/ /\u00e4f/",
-      "stage": 3
+      "pg": "wh",
+      "sounds": "/hw/",
+      "stage": 2
     },
     {
       "pg": "augh",
       "sounds": "/\u00e4/ /\u0103f/",
-      "stage": 3
-    },
-    {
-      "pg": "ew",
-      "sounds": "/\u00fc/ /\u00f6/",
-      "stage": 3
-    },
-    {
-      "pg": "ui",
-      "sounds": "/\u00fc/ /\u00f6/",
-      "stage": 3
-    },
-    {
-      "pg": "eu",
-      "sounds": "/\u00fc/",
-      "stage": 3
-    },
-    {
-      "pg": "wor",
-      "sounds": "/wer/",
-      "stage": 3
-    },
-    {
-      "pg": "ie",
-      "sounds": "/\u0113/ /\u012b/",
       "stage": 3
     },
     {
@@ -6283,8 +6203,68 @@
       "stage": 3
     },
     {
+      "pg": "dge",
+      "sounds": "/j/",
+      "stage": 3
+    },
+    {
+      "pg": "ei",
+      "sounds": "/\u0113/ /\u0101/ /\u012b/",
+      "stage": 3
+    },
+    {
+      "pg": "eigh",
+      "sounds": "/\u0101/",
+      "stage": 3
+    },
+    {
+      "pg": "eu",
+      "sounds": "/\u00fc/",
+      "stage": 3
+    },
+    {
+      "pg": "ew",
+      "sounds": "/\u00fc/ /\u00f6/",
+      "stage": 3
+    },
+    {
+      "pg": "ey",
+      "sounds": "/\u0101/ /\u0113/",
+      "stage": 3
+    },
+    {
+      "pg": "gh",
+      "sounds": "/g/",
+      "stage": 3
+    },
+    {
+      "pg": "gn",
+      "sounds": "/n/",
+      "stage": 3
+    },
+    {
       "pg": "gu",
       "sounds": "/g/",
+      "stage": 3
+    },
+    {
+      "pg": "ie",
+      "sounds": "/\u0113/ /\u012b/",
+      "stage": 3
+    },
+    {
+      "pg": "kn",
+      "sounds": "/n/",
+      "stage": 3
+    },
+    {
+      "pg": "ough",
+      "sounds": "/\u014d/ /\u00f6/ /ow/ /\u016df/ /\u00e4f/",
+      "stage": 3
+    },
+    {
+      "pg": "ph",
+      "sounds": "/f/",
       "stage": 3
     },
     {
@@ -6293,9 +6273,24 @@
       "stage": 3
     },
     {
-      "pg": "ti",
-      "sounds": "/sh/",
-      "stage": 4
+      "pg": "tch",
+      "sounds": "/ch/",
+      "stage": 3
+    },
+    {
+      "pg": "ui",
+      "sounds": "/\u00fc/ /\u00f6/",
+      "stage": 3
+    },
+    {
+      "pg": "wor",
+      "sounds": "/wer/",
+      "stage": 3
+    },
+    {
+      "pg": "wr",
+      "sounds": "/r/",
+      "stage": 3
     },
     {
       "pg": "ci",
@@ -6304,6 +6299,11 @@
     },
     {
       "pg": "si",
+      "sounds": "/sh/",
+      "stage": 4
+    },
+    {
+      "pg": "ti",
       "sounds": "/sh/",
       "stage": 4
     }
