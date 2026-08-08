@@ -1465,6 +1465,8 @@ def _build_story_pages(r: dict) -> str:
     Issue #28 Wave 5: Stage 5 readers also get a final Roots + Challenge
     Words block (matches 001-ostriches.md hand-written format) when the
     reader dict provides ``roots`` and ``challenge_words``.
+    Stage 5 readers use 2 sentences per page (vs 3 elsewhere) so the
+    longer Stage 5 stories land in the 15-20 page band.
     """
     story = r["story"]
     # Strip the "**Title**" header (it's redundant with the H1)
