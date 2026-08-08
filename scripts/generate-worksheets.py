@@ -10,12 +10,20 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "worksheets"
 
-# Import phonogram data from the canonical source (framework/phonograms.py).
-# See framework/phonograms.py for the single source of truth.
+# Import phonogram + rule data from framework/data_loader (YAML-backed
+# single source of truth via data/phonograms.yaml + data/rules.yaml).
 import sys
 sys.path.insert(0, str(ROOT / "framework"))
-from phonograms import SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE  # noqa: E402
-from rules import RULES as RULES_WORDS  # noqa: E402  (alias for backward compat)
+from data_loader import pg_kind_buckets, pg_stage_dict, rules_dict  # noqa: E402
+
+# Backwards-compatible aliases (legacy SINGLE/MULTI/MULTI3/MULTI4 dicts)
+_BUCKETS = pg_kind_buckets()
+SINGLE = _BUCKETS["single"]
+MULTI = _BUCKETS["multi"]
+MULTI3 = _BUCKETS["multi3"]
+MULTI4 = _BUCKETS["multi4"]
+PG_STAGE = pg_stage_dict()
+RULES_WORDS = rules_dict()
 
 # Create subdirectories
 for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
@@ -23,17 +31,8 @@ for d in ["phonograms", "rules", "cards", "handwriting", "blank"]:
 # Stage-grouped subdirectories are created lazily (only when content lands there)
 # to avoid empty stage-N/ dirs polluting the release ZIP.
 
-# Phonogram data (SINGLE, MULTI, MULTI3, MULTI4, PG_STAGE) imported from
-# framework/phonograms.py at the top of this file.
-
-# Rule → stage mapping (from lesson-catalog.csv)
-RULE_STAGE = {
-    "26":2,"3":2,"9":2,"20":2,"4":2,"28":2,"30":2,
-    "12":3,"1":3,"2":3,"25":3,"27":3,"5":3,"6":3,"7":3,"8":3,"10":3,"31":3,
-    "13":4,"14":4,"15":4,"16":4,"17":4,"18":4,"23":4,"24":4,"19":4,"21":4,"22":4,"29":4,
-}
-
-# Spelling rules data imported from framework/rules.py (RULES alias above).
+# Rule → stage mapping (derived from YAML-loaded rule stage field)
+RULE_STAGE = {rn: r["stage"] for rn, r in RULES_WORDS.items()}
 
 
 # ── TEMPLATES ───────────────────────────────────────────────────────

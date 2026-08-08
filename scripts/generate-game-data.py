@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "framework"))
-import phonograms  # noqa: E402
+import data_loader  # noqa: E402
 
 
 # Common "easy sentences" used in Spell mode (one per word)
@@ -171,8 +171,8 @@ def build_spell_words():
     """Return list of {word, sentence, stage} dicts sourced from phonogram word lists."""
     seen = set()
     out = []
-    for pg, data in phonograms.all_phonograms().items():
-        stage = phonograms.PG_STAGE[pg]
+    for pg, data in data_loader.pg_dict().items():
+        stage = data["stage"]
         for word in data["words"]:
             w = word.lower()
             if w in seen:
@@ -188,8 +188,8 @@ def build_spell_words():
 def build_phonogram_tiles():
     """Return list of {pg, sounds, stage} for the Word Builder mode."""
     return [
-        {"pg": pg, "sounds": data["sounds"], "stage": phonograms.PG_STAGE[pg]}
-        for pg, data in phonograms.all_phonograms().items()
+        {"pg": pg, "sounds": data["sounds"], "stage": data["stage"]}
+        for pg, data in data_loader.pg_dict().items()
     ]
 
 

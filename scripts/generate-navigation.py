@@ -91,25 +91,20 @@ def load_counts() -> dict:
     counts["by_stage"] = by_stage
     counts["stages"] = len(by_stage)
     counts["assessments"] = assess
-    # Phonograms (from framework/phonograms.py if importable, else estimate)
+    # Phonograms + rules (from framework/data_loader — YAML-backed)
     try:
-        sys.path.insert(0, str(ROOT))
-        from framework.phonograms import SINGLE, MULTI, MULTI3, MULTI4
-        counts["pg_singles"] = len(SINGLE)
-        counts["pg_multis"] = len(MULTI) + len(MULTI3) + len(MULTI4)
-        counts["pg_multis2"] = len(MULTI)
-        counts["pg_multis3"] = len(MULTI3) + len(MULTI4)
-        counts["phonograms"] = len(SINGLE) + len(MULTI) + len(MULTI3) + len(MULTI4)
+        from framework.data_loader import pg_kind_buckets, rules_dict  # type: ignore
+        buckets = pg_kind_buckets()
+        counts["pg_singles"] = len(buckets["single"])
+        counts["pg_multis"] = len(buckets["multi"]) + len(buckets["multi3"]) + len(buckets["multi4"])
+        counts["pg_multis2"] = len(buckets["multi"])
+        counts["pg_multis3"] = len(buckets["multi3"]) + len(buckets["multi4"])
+        counts["phonograms"] = sum(len(v) for v in buckets.values())
+        counts["rules"] = len(rules_dict())
     except Exception:
-        # Fallback: read from framework/phonograms.py and count entries heuristically
         counts["phonograms"] = 75
         counts["pg_singles"] = 26
         counts["pg_multis"] = 49
-    # Rules (from framework/rules.py)
-    try:
-        from framework.rules import RULES  # type: ignore
-        counts["rules"] = len(RULES)
-    except Exception:
         counts["rules"] = 31
     # Worksheets (count MDs in worksheets/)
     ws_dir = ROOT / "worksheets"

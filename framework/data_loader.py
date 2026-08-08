@@ -229,6 +229,88 @@ def words_using_phonogram(pg: str, words: list[str]) -> list[str]:
     return matches[:3]
 
 
+# ── Legacy dict-of-dict helpers (mirror framework/phonograms.py + rules.py API) ─
+
+
+def pg_dict() -> dict[str, dict]:
+    """Return phonogram catalog in legacy dict-of-dict shape.
+
+    Returns {pg_id: {"sounds": str, "words": list[str], "stage": int}}.
+    Matches the old framework/phonograms.py API used by consumer scripts.
+    """
+    return {
+        p.id: {"sounds": p.sounds, "words": list(p.words), "stage": p.stage}
+        for p in load_phonograms()
+    }
+
+
+def pg_stage_dict() -> dict[str, int]:
+    """Return {pg_id: stage} map (legacy PG_STAGE)."""
+    return {p.id: p.stage for p in load_phonograms()}
+
+
+def pg_stage_buckets() -> dict[int, list[str]]:
+    """Return {stage: [pg_id, ...]} map (used to split worksheets by stage)."""
+    out: dict[int, list[str]] = {1: [], 2: [], 3: [], 4: [], 5: []}
+    for p in load_phonograms():
+        out.setdefault(p.stage, []).append(p.id)
+    return out
+
+
+def rules_dict() -> dict[str, dict]:
+    """Return rules catalog in legacy dict-of-dict shape.
+
+    Returns {rule_number: {"name": str, "words": list[str], "stage": int}}.
+    Matches the old framework/rules.py API used by consumer scripts.
+    """
+    return {
+        r.number: {"name": r.name, "words": list(r.words), "stage": r.stage}
+        for r in load_rules()
+    }
+
+
+def pg_kind_buckets() -> dict[str, dict[str, dict]]:
+    """Return phonogram catalog split by kind (single, multi, multi3, multi4).
+
+    Returns {"single": {pg: {...}}, "multi": {...}, "multi3": {...}, "multi4": {...}}.
+    Mirrors the legacy SINGLE/MULTI/MULTI3/MULTI4 dicts from
+    framework/phonograms.py — preserves teaching order so existing
+    consumer output stays byte-identical.
+    """
+    # Teaching order (matches legacy framework/phonograms.py)
+    SINGLE_ORDER = ["a","b","c","d","e","f","g","h","i","j","k","l","m",
+                    "n","o","p","qu","r","s","t","u","v","w","x","y","z"]
+    MULTI_ORDER = ["sh","th","ck","ee","ng","ar","or","er","oi","oy","ai","ay",
+                   "ch","wh","ea","ow","ou","oo","ed","igh","aw","au","ir","ur","oa","ear"]
+    MULTI3_ORDER = ["dge","tch","kn","gn","wr","eigh","ei","ey","ph","gh","ough","augh",
+                    "ew","ui","eu","wor","ie","bu","gu","q"]
+    MULTI4_ORDER = ["ti","ci","si"]
+    order_maps = {
+        "single": SINGLE_ORDER,
+        "multi": MULTI_ORDER,
+        "multi3": MULTI3_ORDER,
+        "multi4": MULTI4_ORDER,
+    }
+    buckets: dict[str, dict[str, dict]] = {
+        "single": {}, "multi": {}, "multi3": {}, "multi4": {},
+    }
+    for p in load_phonograms():
+        buckets[p.kind][p.id] = {
+            "sounds": p.sounds,
+            "words": list(p.words),
+            "stage": p.stage,
+        }
+    # Re-order each bucket to match teaching order
+    ordered: dict[str, dict[str, dict]] = {
+        "single": {}, "multi": {}, "multi3": {}, "multi4": {},
+    }
+    for kind, ids in order_maps.items():
+        for pg_id in ids:
+            if pg_id in buckets[kind]:
+                ordered[kind][pg_id] = buckets[kind][pg_id]
+    return ordered
+
+
 # ── CLI smoke-test ─────────────────────────────────────────────────────────
 
 
