@@ -1,0 +1,99 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — assessment lesson (ASSESSMENT_TEMPLATE).
+   Variables:
+     lesson_num, phonogram_checklist, pass_count
+     write_checklist, blend_checklist, segment_checklist, sound_id_checklist
+     sound_score, write_score, blend_score, seg_score, id_score
+     sound_pass, write_pass, blend_pass, seg_pass, id_pass, overall
+     next_steps, teacher_script
+#}
+# Lesson {{ lesson_num }}: Stage 1 Mastery Check
+
+**Stage 1** · Lesson {{ lesson_num }} · assessment
+
+---
+
+## Assessment Overview
+
+This mastery check verifies the child is ready for Stage 2. The child should demonstrate each skill confidently — not perfectly, but reliably. If any section is weak, revisit those lessons before moving on.
+
+---
+
+## Part 1: Phonogram Sounds
+
+> Flash each a-z phonogram card. Child says ALL sounds in frequency order within 2 seconds.
+
+| Phonogram | Sounds to Say | ✓ / Needs Work |
+|-----------|--------------|----------------|
+{{ phonogram_checklist }}
+
+**Pass:** {{ pass_count }} / 26 phonograms correct
+
+> Passing score: 22+ / 26. Mark any slow/unconfident phonograms for review.
+
+---
+
+## Part 2: Write Phonograms from Sounds
+
+> Adult says a sound. Child writes the phonogram. Check lowercase letter formation.
+
+| Sound | Letter | ✓ / Needs Work |
+|-------|--------|----------------|
+{{ write_checklist }}
+
+---
+
+## Part 3: Blending (Oral)
+
+> Adult says sounds. Child blends into a word. No writing — spoken only.
+
+| Sounds | ✓ / Needs Work |
+|--------|----------------|
+{{ blend_checklist }}
+
+---
+
+## Part 4: Segmenting (Oral)
+
+> Adult says a word. Child segments into individual sounds. Use the "finger method" — hold up one finger per sound.
+
+| Word | ✓ / Needs Work |
+|------|----------------|
+{{ segment_checklist }}
+
+---
+
+## Part 5: Sound Identification
+
+> Adult says a word. Identify the first, last, or middle sound.
+
+| Word | Find | Answer | ✓ / Needs Work |
+|------|------|--------|----------------|
+{{ sound_id_checklist }}
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Phonogram Sounds | {{ sound_score }}/26 | {{ sound_pass }} |
+| Write Phonograms | {{ write_score }}/16 | {{ write_pass }} |
+| Blending | {{ blend_score }}/5 | {{ blend_pass }} |
+| Segmenting | {{ seg_score }}/5 | {{ seg_pass }} |
+| Sound Identification | {{ id_score }}/6 | {{ id_pass }} |
+
+**Overall:** {{ overall }}
+
+---
+
+## Next Steps
+
+{{ next_steps }}
+
+---
+
+*You completed Stage 1! Celebrate with a special reading together.*
+
+{{ teacher_script }}

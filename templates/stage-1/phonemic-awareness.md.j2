@@ -1,0 +1,60 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — phonemic-awareness lesson (PA_TEMPLATE).
+   Variables:
+     lesson_num, title, activity_description
+     activities: list of (title, body) tuples (3 for PA_TEMPLATE)
+     movement_activity, quick_check, home_practice
+     next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 1** · Lesson {{ lesson_num }} · phonemic-awareness
+
+---
+
+## Warm-Up: Listening Game
+
+> Adult: Say these directions. Child listens and follows along.
+
+{{ activity_description }}
+
+---
+
+## Activity 1: {{ activities[0][0] }}
+
+{{ activities[0][1] }}
+
+---
+
+## Activity 2: {{ activities[1][0] }}
+
+{{ activities[1][1] }}
+
+---
+
+## Activity 3: {{ activities[2][0] }}
+
+{{ activities[2][1] }}
+
+---
+
+## Let's Move!
+
+{{ movement_activity }}
+
+---
+
+## Quick Check
+
+{{ quick_check }}
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: {{ home_practice }}*
+
+{{ teacher_script }}

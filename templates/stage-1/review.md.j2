@@ -1,0 +1,65 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — review lesson (REVIEW_TEMPLATE).
+   Variables:
+     lesson_num, title, group_num, review_phonograms
+     sound_hunt_list, write_sounds, count, match_rows
+     next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 1** · Lesson {{ lesson_num }} · review
+
+---
+
+## Warm-Up: Fast Flash
+
+> Adult: Flash ALL phonograms from Group {{ group_num }}. Child says ALL sounds for each within 2 seconds. Go faster each round!
+
+| Phonograms to review |
+|----------------------|
+| {{ review_phonograms }} |
+
+---
+
+## Game 1: Phonogram Hunt
+
+Adult says a sound (like /ă/). Child finds the phonogram card that makes that sound from the pile. Do this for all sounds in Group {{ group_num }}.
+
+**Can you find the phonogram that says...**
+
+{{ sound_hunt_list }}
+
+---
+
+## Game 2: Write the Sound
+
+Adult says a sound. Child writes the phonogram on the whiteboard. No peeking at the cards!
+
+> Write the phonogram for: {{ write_sounds }}
+
+---
+
+## Game 3: Mixed-Up Match
+
+Spread all Group {{ group_num }} cards face-up. Adult says a word. Child touches the card for the FIRST sound in that word.
+
+| Word | First Sound | Correct Card |
+|------|------------|--------------|
+{{ match_rows }}
+
+---
+
+## Bonus: Speed Round!
+
+Can you say ALL {{ count }} phonograms from Group {{ group_num }} with their sounds in under 30 seconds? Try it!
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Play the "Phonogram Hunt" game with a family member!*
+
+{{ teacher_script }}

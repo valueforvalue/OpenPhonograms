@@ -1,0 +1,101 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — phonemic-awareness lesson with phonogram review (SPECIAL_PA_TEMPLATE).
+   Variables:
+     lesson_num, title, review_phonograms
+     activities: list of (title, body) tuples (3 or 4)
+     movement_activity, quick_check, home_practice
+     next_num, next_title, teacher_script
+
+   NOTE: Activity 2 intentionally renders activities[2][1] (third item's body),
+   not activities[1][1], to byte-match the pre-refactor build_pa_with_review
+   buggy output. Fix in a follow-up PR.
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 1** · Lesson {{ lesson_num }} · phonemic-awareness
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash known phonograms. Child says ALL sounds within 2 seconds.
+
+| Phonograms to review |
+|----------------------|
+| {{ review_phonograms }} |
+
+---
+
+## Activity 1: {{ activities[0][0] }}
+
+{{ activities[0][1] }}
+
+---
+
+{% if activities|length > 3 -%}
+## Activity 2: {{ activities[1][0] }}
+
+{{ activities[2][1] }}
+
+---
+
+{% set last_idx = activities|length - 1 -%}
+## Activity 3: {{ activities[last_idx][0] }}
+
+{{ activities[last_idx][1] }}
+
+---
+
+## Let's Move!
+
+{{ movement_activity }}
+
+---
+
+## Quick Check
+
+{{ quick_check }}
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: {{ home_practice }}*
+
+{{ teacher_script }}
+{%- else -%}
+## Activity 2: {{ activities[1][0] }}
+
+{{ activities[2][1] }}
+
+---
+
+## Activity 3: {{ activities[2][0] }}
+
+{{ activities[2][1] }}
+
+---
+
+## Let's Move!
+
+{{ movement_activity }}
+
+---
+
+## Quick Check
+
+{{ quick_check }}
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: {{ home_practice }}*
+
+{{ teacher_script }}
+{%- endif %}

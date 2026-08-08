@@ -1,0 +1,90 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — phonogram-intro lesson.
+   Variables:
+     lesson_num, title, pg, sounds, sound_count, plural, first_sound
+     example_rows, writing_steps, rule_note, vowel_note
+     word_rows, read_words, first_word, next_num, next_title
+     review_section, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 1** · Lesson {{ lesson_num }} · phonogram-intro
+
+---
+
+{{ review_section }}
+---
+
+## New Learning: Your New Phonogram — {{ pg }}
+
+### The Phonogram **{{ pg }}**
+
+<div class="phonogram">{{ pg }}</div>
+
+**{{ pg }}** says {{ sound_count }} sound{{ plural }}: {{ sounds }}
+
+| Sound | Example Words |
+|-------|--------------|
+{{ example_rows }}
+
+> **Important:** Always teach ALL sounds from the start. Never teach "{{ pg }} says /{{ first_sound }}/" and add more later. The child must know that **{{ pg }}** can say {{ sound_count }} different thing{{ plural }}.
+
+{{ rule_note }}
+### How to Write **{{ pg }}**
+
+{{ writing_steps }}
+
+> Write **{{ pg }}** three times on your whiteboard or in a sand tray. Say "{{ sounds }}" each time you write it.
+
+{{ vowel_note }}
+---
+
+## Spelling Analysis
+
+Follow the 5-step routine for each word:
+
+1. **Hear & Say** — Adult says the word, uses it in a sentence. Child repeats.
+2. **Segment** — Child breaks the word into individual sounds. Adult holds up fingers (1 finger = 1-letter phonogram).
+3. **Write** — Child writes the word while sounding it out.
+4. **Analyze** — Underline multi-letter phonograms. Name any spelling rules.
+5. **Read** — Child reads the word sound by sound, then blends.
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ word_rows }}
+
+---
+
+## Reading Practice
+
+Read these words sound by sound, then blend:
+
+> {{ read_words }}
+
+---
+
+## Handwriting Practice
+
+Write each letter once. Say its sounds as you write.
+
+| {{ pg }} | {{ pg }} | {{ pg }} | {{ pg }} | {{ pg }} |
+|---|---|---|---|---|
+
+---
+
+## Quick Check
+
+1. What did you learn today? *(A new phonogram: {{ pg }})*
+2. What sounds does **{{ pg }}** say? *({{ sounds }})*
+3. Write the word "{{ first_word }}" from dictation.
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Flash your new **{{ pg }}** card 5 times. Find **{{ pg }}** in a book or on a sign.*
+
+{{ teacher_script }}
