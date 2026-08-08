@@ -28,6 +28,7 @@ TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-3"
 
 # Teacher script injection
 sys.path.insert(0, str(PROJECT_ROOT / "framework"))
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 from teacher_script import format_phonogram_script, format_rule_script  # noqa: E402
 
 # Stdout encoding for Windows console.
@@ -1362,7 +1363,7 @@ def main():
     for num, content in generate():
         slug = S.get(num, f"lesson-{num:03d}")
         filepath = OUT_DIR / f"{slug}.md"
-        filepath.write_text(content, encoding="utf-8")
+        filepath.write_text(stamp(content), encoding="utf-8")
         print(f"  {filepath.relative_to(PROJECT_ROOT)}")
     print(f"\nDone! 58 lessons written to {OUT_DIR.relative_to(PROJECT_ROOT)}")
 

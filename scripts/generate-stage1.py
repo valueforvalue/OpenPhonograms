@@ -25,6 +25,7 @@ TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-1"
 sys.path.insert(0, str(PROJECT_ROOT / "framework"))
 from data_loader import load_phonograms  # noqa: E402
 from teacher_script import format_phonogram_script  # noqa: E402
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 
 
 # ── Stage 1 phonograms: alias to data_loader for template convenience ─────
@@ -871,7 +872,7 @@ def main():
         # (teacher_script="") end without.
         content = content.replace("\r\n", "\n").rstrip("\n")
         content += "\n\n" if content.endswith("details>") else "\n"
-        filepath.write_bytes(content.encode("utf-8"))
+        filepath.write_bytes(stamp(content).encode("utf-8"))
         print(f"  Wrote: {filepath.relative_to(PROJECT_ROOT)}")
         written += 1
     print(f"\nDone! {written} lessons written to {OUT_DIR.relative_to(PROJECT_ROOT)}")

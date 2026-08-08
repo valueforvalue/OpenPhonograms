@@ -53,6 +53,14 @@ log = get_logger("render")
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 LESSONS_DIR = PROJECT_ROOT / "lessons"
 
+# Issue #24: single source of truth for build version. Read VERSION at
+# import time and inject into PAGE_CSS so the page-1 footer carries it.
+# We read the file directly to avoid an import-cycle dependency on the
+# framework.version module being importable (render.py is invoked both as
+# `python render.py` and `python -m framework.render`).
+_VERSION = (PROJECT_ROOT / "VERSION").read_text(encoding="utf-8").strip()
+_FOOTER_TEXT = f"OpenPhonograms v{_VERSION} \u00b7 MIT licensed"
+
 # Per-stage title for running header on every lesson page.
 STAGE_TITLES = {
     1: "Phonemic Awareness & First Phonograms",
@@ -124,8 +132,14 @@ PAGE_CSS = """
         font-size: 9pt;
         color: #888;
     }
+    /* Issue #24: pages 2+ get no footer; only the first page does. */
+    @bottom-left { content: ""; }
+}
+
+/* Issue #24: page-1-only version footer. */
+@page :first {
     @bottom-left {
-        content: "OpenPhonograms · MIT licensed";
+        content: "FOOTER_FNORD";
         font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 7pt;
         color: #aaa;
@@ -141,8 +155,12 @@ PAGE_CSS = """
         font-size: 9pt;
         color: #888;
     }
+    @bottom-left { content: ""; }
+}
+
+@page worksheet :first {
     @bottom-left {
-        content: "OpenPhonograms · MIT licensed";
+        content: "FOOTER_FNORD";
         font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 7pt;
         color: #aaa;
@@ -463,7 +481,7 @@ th {
     letter-spacing: 0.05em;
 }
 
-/* Constrain images so they don't blow up to full-page size in print. */
+/* Constrain images so they do not blow up to full-page size in print. */
 img {
     max-width: 100%;
     height: auto;
@@ -620,7 +638,7 @@ img {
 }
 
 .page-break { page-break-before: always; break-before: page; }
-"""
+""".replace("FOOTER_FNORD", _FOOTER_TEXT)
 
 # ---------------------------------------------------------------------------
 # Helpers

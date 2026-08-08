@@ -28,9 +28,11 @@ BUILD = ROOT / "build"
 # Phrases that confirm the standardized footer is present in a PDF.
 # Post-rebrand (issue #32 / commit 1379999) plus post-CSS-density refactor:
 # the footer is rendered by framework/render.py's @page CSS at the
-# bottom-left of every page. Text: 'OpenPhonograms · MIT licensed'.
+# bottom-left of every page. Text: 'OpenPhonograms v1.0.0 · MIT licensed'.
+# Issue #24: the version string is interpolated from VERSION at render time,
+# so we match the prefix + 'MIT licensed' rather than pinning a version.
 CREDIT_PHRASES = (
-    "OpenPhonograms",
+    "OpenPhonograms v",
     "MIT licensed",
 )
 
@@ -126,7 +128,7 @@ def main():
             failures.append((stage, pdf.name, "no credit phrase found"))
             # Show first 200 chars of text for debugging
             preview = text[:200].replace("\n", " ").strip()
-            print(f"  Stage {stage}: FAIL {pdf.name}: no 'OpenPhonograms · MIT licensed.' footer")
+            print(f"  Stage {stage}: FAIL {pdf.name}: no 'OpenPhonograms vX.Y.Z · MIT licensed.' footer")
             print(f"             Text preview: {preview!r}")
 
     if failures:
