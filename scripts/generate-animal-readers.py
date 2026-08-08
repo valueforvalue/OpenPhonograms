@@ -755,6 +755,164 @@ The End.""",
         "talk": "1. What does Ben find? (A shell.) 2. Why does Ben run back from the sea? (The sea is coming in.) 3. How does Ben feel at the end? (Glad.) 4. Find an AR word in the story. (far, hard, sharp, dark).",
     },
     {
+        "slug": "036-the-pine-tree-in-the-wind",
+        "title": "The Pine Tree in the Wind",
+        "stage": 3,
+        "after": 13,
+        "animals": [],
+        "warmup": "pine, tree, wind, hill, branch, leaf, sky, brave, time, soft",
+        "story": """**The Pine Tree in the Wind**
+
+A pine tree stands on a hill. It has been there a long time. The hill is wide and green.
+
+The tree has soft green needles. It is tall and strong. Birds nest in its branches every spring.
+
+A wind comes in the night. The wind blows from the north. The tree sways and sighs.
+
+The wind blows hard for hours. The tree bends low. Its branches wave side to side.
+
+A small bird sits deep in the tree. The tree holds the bird safe. The wind can not shake it loose.
+
+The wind blows all day and all night. The tree keeps on. It does not break or bend in two.
+
+A little mouse lives at the base of the trunk. The tree is the mouse's home. The tree is brave and kind.
+
+When the wind slows at last, the clouds drift off. The sun comes out. The tree stands tall and still once more.
+
+The hill is green. The sky is blue. The pine tree is fine. The bird sings a soft, glad song.
+
+The End.""",
+        "talk": "1. Where does the pine tree stand? (On a hill.) 2. What happens when the wind blows? (The tree bends and sways.) 3. Who lives in the tree? (A bird and a mouse.) 4. Find a silent E word in the story. (pine, tree, time, wide, soft, green, tall, branches, north, side, safe, day, breaks, brave, comes, still, blue, fine.)",
+    },
+    {
+        "slug": "037-a-note-from-a-friend",
+        "title": "A Note from a Friend",
+        "stage": 3,
+        "after": 13,
+        "animals": [],
+        "warmup": "note, friend, write, share, kind, smile, hope, smile, send, gave",
+        "story": """**A Note from a Friend**
+
+Kate is at home. She sits by the table. She has a pen and a clean white note.
+
+She wants to write to her friend. Her friend is named Jane. They have been pals since grade one.
+
+Kate writes a kind note. She smiles as she writes. The note is long and sweet.
+
+She writes, "I hope you are fine. I miss you at school. Let us play soon by the pine."
+
+Kate folds the note with care. She puts it in a white envelope. She writes the name in blue.
+
+Jane lives down the lane. Kate rides her bike to Jane's home. The day is bright and fine.
+
+She leaves the note at Jane's door. She smiles and rides home. The lane is wide.
+
+The next day, Jane comes to Kate's home. Jane has a note too. She grins and waves it high.
+
+Jane reads her note out loud. "I am fine! Let us play today by the slide!" The note makes Kate glad.
+
+They run and play in the wide green yard. Two friends share the day from dawn to dusk.
+
+The End.""",
+        "talk": "1. Who does Kate write a note to? (Her friend Jane.) 2. How does Kate get the note to Jane? (She rides her bike to Jane's home.) 3. What does Jane's note say? (\"I am fine! Let us play today!\") 4. Find a silent E word. (note, home, write, friend, name, kind, smiles, writes, fine, hope, school, soon, envelope, lane, rides, bike, day, bright, smile, rides, reads, loud, glad.)",
+    },
+    {
+        "slug": "038-the-lake-in-the-hills",
+        "title": "The Lake in the Hills",
+        "stage": 3,
+        "after": 13,
+        "animals": [],
+        "warmup": "lake, hill, water, sky, stone, fish, dive, deep, wide, shine",
+        "story": """**The Lake in the Hills**
+
+A lake sits in the hills. The water is still and clear. The sky is wide.
+
+Tall pines line the shore. Green ferns grow by the rocks. The place is quiet.
+
+A stone path leads to the lake. A frog sits on a stone. The frog dives in.
+
+Under the water, fish glide. They flash and shine. The deep is cool.
+
+A crane wades in the shallows. It is still and calm. It hunts for a meal.
+
+On the hill, a kid named Will looks down. He smiles at the scene. The view is fine.
+
+Will slides down the path. He reaches the lake. He sits on a stone.
+
+He puts a hand in the water. It is cold and clean. He smiles.
+
+The sun starts to set. The sky turns pink. The lake glows.
+
+Will walks home in the dusk. The lake is a place he will not forget.
+
+The End.""",
+        "talk": "1. Where is the lake? (In the hills.) 2. What animals live in or near the lake? (A frog, fish, a crane.) 3. What does Will do at the lake? (He touches the water and sits on a stone.) 4. Find a silent E word. (lake, hills, water, still, clear, sky, wide, pines, line, shore, green, ferns, grow, rocks, place, quiet, stone, path, leads, glides, flash, shine, deep, cool, wades, shallows, still, calm, hunts, meal, hill, kid, named, looks, down, smiles, scene, view, fine, slides, reaches, sits, puts, hand, cold, clean, smiles, starts, dusk, place, forget.)",
+    },
+    {
+        "slug": "039-mice-find-a-home",
+        "title": "Mice Find a Home",
+        "stage": 3,
+        "after": 13,
+        "animals": ["mouse.png"],
+        "warmup": "mice, mouse, home, hole, find, nest, soft, safe, kind, brave",
+        "story": """**Mice Find a Home**
+
+Mira and Milo are mice. They live in a field. Their home is a small hole.
+
+One night, the wind howls. Rain pours in. The hole floods. They must flee.
+
+The mice run to a barn. They crawl under a board. They wait till the storm goes.
+
+The barn is dry and warm. But there is a cat. The cat hunts at night.
+
+The mice creep past the cat. They slide out a crack. They make it free.
+
+In the field, they search. They look for a safer place. They find a wood pile.
+
+The wood pile has a deep hole. It is lined with soft grass. It is dry inside.
+
+The mice drag in a strip of cloth. They line the nest. They make it snug.
+
+Mira smiles at Milo. "This is our home now," she says. They are safe at last.
+
+The next day, they peek out. The sun shines. The field is green and bright.
+
+The End.""",
+        "talk": "1. Why do the mice leave their home? (Rain floods the hole.) 2. Where do they find a new home? (In a wood pile.) 3. What do they do to make it nice? (They line it with cloth and grass.) 4. Find a silent E word. (mice, mice, home, mice, hole, night, wind, howls, pours, floods, must, flee, barn, crawl, board, wait, storm, goes, dry, warm, hunts, night, creep, slide, crack, make, free, field, search, look, safer, place, find, wood, pile, deep, lined, soft, grass, dry, inside, drag, strip, cloth, line, nest, make, snug, smiles, says, home, safe, last, peek, shines, field, green, bright.)",
+    },
+    {
+        "slug": "040-the-crane-flies-south",
+        "title": "The Crane Flies South",
+        "stage": 3,
+        "after": 13,
+        "animals": ["bird.png"],
+        "warmup": "crane, fly, south, north, sky, wing, wind, long, brave, safe",
+        "story": """**The Crane Flies South**
+
+Cara is a crane. She lives in a marsh in the far north. The days grow cold and short.
+
+The wind turns sharp and bites. The pond begins to freeze. It is time to fly south.
+
+Cara calls to the other cranes. They gather on the shore. They line up in a long wedge.
+
+The leader takes the tip of the wedge. Cara is in the middle of the line. They beat their strong wings.
+
+Up, up they rise in a spiral. They climb above the tall trees. The sky is wide and clear.
+
+The cranes fly south for hours. They cross the high hills. They cross the wide farms. They fly on without rest.
+
+By night, they land in a soft field. They rest and feed on seeds. They are safe in the dark.
+
+At dawn, they rise once more in the sky. The wind is at their back. They glide with grace and speed.
+
+Days pass as they fly. The sun grows warm. Cara sees the green southern marsh at last.
+
+They land by the warm water with a splash. They are home. The long brave trip is done.
+
+The End.""",
+        "talk": "1. Where does Cara live at the start? (In a marsh in the north.) 2. Why do the cranes fly south? (The days grow cold and the pond freezes.) 3. What shape do they fly in? (A wedge.) 4. Find a silent E word. (crane, lives, marsh, north, days, grow, cold, wind, turns, sharp, pond, begins, freeze, time, go, cranes, gather, shore, line, wedge, leader, takes, tip, middle, beat, strong, wings, rise, climb, above, trees, sky, wide, clear, south, cross, hills, farms, fly, night, land, field, rest, feed, safe, dawn, rise, once, more, back, glide, grace, days, pass, sun, grows, warm, sees, southern, marsh, last, land, water, home, long, trip, done.)",
+    },
+    {
         "slug": "032-the-path-through-the-woods",
         "title": "The Path Through the Woods",
         "stage": 2,
