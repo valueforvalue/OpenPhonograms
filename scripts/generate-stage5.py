@@ -1,16 +1,57 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Generate all 40 Stage 5 lesson markdown files — Morphology, Fluency, Composition, Grammar."""
-import io, sys
+"""Generate all 40 Stage 5 lesson markdown files via Jinja templates.
+
+Architecture (slice 5 of #22 + #23):
+  - Stage 5 introduces morphology, fluency, composition, grammar.
+  - Stage-5-specific data (ROOTS, VOCAB, FLUENCY, COMP, GRAMMAR) stays
+    inline per Slice 0 decision.
+  - Lesson scaffolds live in templates/stage-5/*.md.j2.
+  - Long-form content (root words, vocab words, fluency passages, composition
+    prompts, grammar explanations, reader story, final assessment) is
+    embedded inline because it's lesson-specific prose.
+"""
+
+import io
+import sys
 from pathlib import Path
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "lessons" / "stage-5"
-OUT.mkdir(parents=True, exist_ok=True)
+from jinja2 import Environment, FileSystemLoader
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+OUT_DIR = PROJECT_ROOT / "lessons" / "stage-5"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-5"
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+# ── JINJA ENVIRONMENT ────────────────────────────────────────────────
+
+env = Environment(
+    loader=FileSystemLoader(str(TEMPLATE_DIR)),
+    trim_blocks=True,
+    lstrip_blocks=True,
+    keep_trailing_newline=True,
+)
+
+_TPL = {
+    "root": "root.md.j2",
+    "review": "review.md.j2",
+    "vocab": "vocab.md.j2",
+    "fluency": "fluency.md.j2",
+    "comp": "comp.md.j2",
+    "grammar": "grammar.md.j2",
+    "reader5": "reader5.md.j2",
+    "assessment": "assessment.md.j2",
+}
+
+
+def render(tpl_name: str, **vars) -> str:
+    """Render a Stage 5 template by short name with given vars."""
+    return env.get_template(_TPL[tpl_name]).render(**vars)
 # ── ROOT DATA ───────────────────────────────────────────────────────
 
 ROOTS = [
@@ -150,387 +191,29 @@ ROOTS = [
 
 # ── TEMPLATES ───────────────────────────────────────────────────────
 
-ROOT_TMP = """# Lesson {n}: Root {display} — "{meaning}"
+# ROOT_TMP → Jinja template (see _TPL map)
 
-**Stage 5** · Lesson {n} · morphology
 
----
+# REVIEW5_TMP → Jinja template (see _TPL map)
 
-## Warm-Up: Phonogram Flash Review
 
-> Flash all 75 phonograms. Under 2 seconds each!
+# VOCAB_TMP → Jinja template (see _TPL map)
 
----
 
-## New Learning: The Root **{display}**
+# FLUENCY_TMP → Jinja template (see _TPL map)
 
-### Where It Comes From
 
-**{display}** is a **{origin}** root that means **"{meaning}"**.
+# COMP_TMP → Jinja template (see _TPL map)
 
-{description}
 
-### Word Builder
+# GRAMMAR_TMP → Jinja template (see _TPL map)
 
-| Word | Prefix | Root | Suffix | Meaning |
-|------|--------|------|--------|---------|
-{word_table}
 
----
+# READER5_TMP → Jinja template (see _TPL map)
 
-## Spelling Analysis
 
-| Word | Phonograms | Say-to-Spell |
-|------|-----------|-------------|
-{spelling}
+# ASSESS5_TMP → Jinja template (see _TPL map)
 
----
-
-## Word Detective
-
-Fill in the blanks with a **{display}** word:
-
-{detective}
-
----
-
-## Quick Check
-
-1. What does **{display}** mean? *({meaning})*
-2. Build a new word using {display} + a prefix you know.
-3. How does knowing roots help you read? *(You can figure out what unfamiliar words mean!)*
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: Find 3 words with **{display}** in a book. Write each and its meaning.*
-"""
-
-REVIEW5_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · review
-
----
-
-## Warm-Up: Speed Flash
-
-> Flash all 75 phonograms. Under 2 seconds each!
-
----
-
-## {g1}
-
-{gb1}
-
----
-
-## {g2}
-
-{gb2}
-
----
-
-## {g3}
-
-{gb3}
-
----
-
-## Root Challenge
-
-Spell these words from dictation. Name the root in each:
-
-> {challenge}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-VOCAB_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · vocabulary
-
----
-
-## Warm-Up: Word of the Day
-
-> Today's word: **{word}** — {definition}
-
----
-
-## New Learning: {focus}
-
-{body}
-
----
-
-## Apply It
-
-{apply}
-
----
-
-## Reading
-
-> {reading}
-
----
-
-## Quick Check
-
-{check}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-FLUENCY_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · fluency
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all 75 phonograms. Speed is the goal!
-
----
-
-## Fluency Practice: {focus}
-
-{body}
-
----
-
-## Timed Reading
-
-Read this passage aloud 3 times. Time yourself each time. Try to get faster while staying accurate.
-
-{passage}
-
-| Reading | Time | Errors | Notes |
-|---------|------|--------|-------|
-| 1st | ___:___ | ___ | |
-| 2nd | ___:___ | ___ | |
-| 3rd | ___:___ | ___ | |
-
----
-
-## Quick Check
-
-1. What improved between your first and third reading?
-2. What words were hardest?
-3. Read the passage aloud one more time for a family member!
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: Read the passage aloud 2 more times tonight!*
-"""
-
-COMP_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · composition
-
----
-
-## Warm-Up: Spelling Review
-
-Write these words from dictation:
-
-> {spell_words}
-
----
-
-## Writing Lesson: {focus}
-
-{body}
-
----
-
-## Your Turn
-
-{prompt}
-
----
-
-## Check Your Work
-
-- [ ] Did you sound out each word?
-- [ ] Did you apply spelling rules?
-- [ ] Did you use capital letters and periods?
-- [ ] Did you read it back to check it makes sense?
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-GRAMMAR_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · grammar
-
----
-
-## Warm-Up: Quick Write
-
-Write one sentence about something you did yesterday. Underline the noun (who/what). Circle the verb (what happened).
-
----
-
-## Grammar Lesson: {focus}
-
-{body}
-
----
-
-## Practice
-
-{practice}
-
----
-
-## Apply in Writing
-
-Write 3 sentences that follow today's grammar pattern:
-
-1. 
-2. 
-3. 
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: {home}*
-"""
-
-READER5_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · reader
-
----
-
-## Story: {stitle}
-
-{story}
-
----
-
-## After Reading
-
-{talk}
-
----
-
-**Next lesson:** Lesson {nn}: {ntitle}
-
----
-
-*Practice at home: Read this aloud to your family!*
-"""
-
-ASSESS5_TMP = """# Lesson {n}: {title}
-
-**Stage 5** · Lesson {n} · assessment
-
----
-
-## Overview
-
-{overview}
-
----
-
-## Part 1: Root Knowledge
-
-Match each root to its meaning:
-
-| Root | Meaning | ✓ |
-|------|---------|---|
-{root_check}
-
-**Score:** __ / {root_total}
-
----
-
-## Part 2: Word Reading (Timed)
-
-Read these words aloud. Goal: under 30 seconds, 0 errors.
-
-| Word | ✓ | Word | ✓ |
-|------|---|------|---|
-{read_check}
-
-**Score:** __ / {read_total}
-
----
-
-## Part 3: Spelling (Dictation)
-
-| Word | ✓ |
-|------|---|
-{spell_check}
-
-**Score:** __ / {spell_total}
-
----
-
-## Part 4: Writing
-
-Write a paragraph (4-6 sentences) on this topic: {topic}
-
-Checklist:
-- [ ] Complete sentences
-- [ ] Correct spelling
-- [ ] Capital letters and punctuation
-- [ ] Makes sense when read aloud
-
-**Score:** __ / 4
-
----
-
-## Results
-
-| Section | Score | Pass? |
-|---------|-------|-------|
-| Roots | __/{root_total} | |
-| Reading | __/{read_total} | |
-| Spelling | __/{spell_total} | |
-| Writing | __/4 | |
-
-**Overall:** __/{{overall_total}}
-
-## Next Steps
-
-{next}
-
----
-
-*You've completed all 5 stages! You now know all 75 basic phonograms, 31 spelling rules, and can decode 98% of English words. Congratulations!*
-"""
 
 # ── HELPERS ─────────────────────────────────────────────────────────
 
@@ -578,7 +261,7 @@ def build_root(n, root, meaning, origin, display, description, examples, spell_w
     else:
         detective = f"1. Use **{display}** in a sentence.\n2. What does **{display}** tell you about a word you've never seen before?\n3. Find a **{display}** word in a book and write it here."
     
-    return ROOT_TMP.format(n=n, root=root, meaning=meaning, origin=origin, display=display,
+    return render("root", n=n, root=root, meaning=meaning, origin=origin, display=display,
         description=description, word_table=word_table, spelling=spelling,
         detective=detective, nn=nn, ntitle=nt(nn))
 
@@ -587,28 +270,28 @@ def build_root_lesson(n, idx, nn):
     return build_root(n, r[0], r[1], r[2], r[3], r[4], r[5], r[6], nn)
 
 def build_review5(n, title, g1, gb1, g2, gb2, g3, gb3, challenge, home, nn):
-    return REVIEW5_TMP.format(n=n, title=title, g1=g1, gb1=gb1, g2=g2, gb2=gb2, g3=g3, gb3=gb3,
+    return render("review", n=n, title=title, g1=g1, gb1=gb1, g2=g2, gb2=gb2, g3=g3, gb3=gb3,
         challenge=", ".join(challenge), home=home, nn=nn, ntitle=nt(nn))
 
 def build_vocab(n, title, focus, word, definition, body, apply_section, reading, check, home, nn):
-    return VOCAB_TMP.format(n=n, title=title, focus=focus, word=word, definition=definition,
+    return render("vocab", n=n, title=title, focus=focus, word=word, definition=definition,
         body=body, apply=apply_section, reading=reading, check=check, home=home, nn=nn, ntitle=nt(nn))
 
 def build_fluency(n, title, focus, body, passage, nn):
-    return FLUENCY_TMP.format(n=n, title=title, focus=focus, body=body, passage=passage, nn=nn, ntitle=nt(nn))
+    return render("fluency", n=n, title=title, focus=focus, body=body, passage=passage, nn=nn, ntitle=nt(nn))
 
 def build_comp(n, title, focus, body, prompt, spell_words, home, nn):
-    return COMP_TMP.format(n=n, title=title, focus=focus, body=body, prompt=prompt,
+    return render("comp", n=n, title=title, focus=focus, body=body, prompt=prompt,
         spell_words=", ".join(spell_words), home=home, nn=nn, ntitle=nt(nn))
 
 def build_grammar(n, title, focus, body, practice, home, nn):
-    return GRAMMAR_TMP.format(n=n, title=title, focus=focus, body=body, practice=practice,
+    return render("grammar", n=n, title=title, focus=focus, body=body, practice=practice,
         home=home, nn=nn, ntitle=nt(nn))
 
 # ── CONTENT ─────────────────────────────────────────────────────────
 
 def gen_review_s4():
-    return REVIEW5_TMP.format(n=1, title="Review Stage 4 Concepts", nn=2, ntitle=nt(2),
+    return render("review", n=1, title="Review Stage 4 Concepts", nn=2, ntitle=nt(2),
         g1="Schwa & Say-to-Spell", gb1="Say-to-spell: about, seven, pencil, love, mother, dollar, doctor, animal, family, chocolate. Which rule applies to each?",
         g2="Suffixing Rules", gb2="Write the -ing or -ed form: make, hop, run, cry, carry, study, bake. Name the rule for each (13, 14, 15, or 16).",
         g3="Latin /sh/ & Morphology", gb3="Spell: nation, special, vision, musician, teacher, careful, submarine, disagree. Name the root or prefix/suffix in each.",
@@ -616,7 +299,7 @@ def gen_review_s4():
         home="Review all flashcards from Stages 1-4!")
 
 def gen_vocab_27():
-    return VOCAB_TMP.format(n=27, nn=28, ntitle=nt(28),
+    return render("vocab", n=27, nn=28, ntitle=nt(28),
         title="Vocabulary: Tier 2 Words in Context", focus="Tier 2 Vocabulary",
         word="analyze", definition="to examine carefully and in detail",
         body="""### What Are Tier 2 Words?
@@ -650,7 +333,7 @@ Today's Tier 2 words:
         home="Find 3 Tier 2 words in a book. Write them and their meanings.")
 
 def gen_vocab_28():
-    return VOCAB_TMP.format(n=28, nn=29, ntitle=nt(29),
+    return render("vocab", n=28, nn=29, ntitle=nt(29),
         title="Vocabulary: Synonyms and Antonyms", focus="Synonyms & Antonyms",
         word="synonym", definition="a word with the same or similar meaning",
         body="""### Synonyms = Same
@@ -696,7 +379,7 @@ Using different words makes your writing more interesting! Instead of 'The big d
         home="Find 5 synonym pairs and 5 antonym pairs in a book.")
 
 def gen_vocab_29():
-    return VOCAB_TMP.format(n=29, nn=30, ntitle=nt(30),
+    return render("vocab", n=29, nn=30, ntitle=nt(30),
         title="Vocabulary: Word Relationships", focus="Word Relationships",
         word="relationship", definition="how two things are connected",
         body="""### How Words Connect
@@ -734,7 +417,7 @@ Words can relate to each other in different ways:
         home="Find 5 word pairs in a book and name their relationship.")
 
 def gen_fluency_30():
-    return FLUENCY_TMP.format(n=30, nn=31, ntitle=nt(31),
+    return render("fluency", n=30, nn=31, ntitle=nt(31),
         title="Fluency: Repeated Reading", focus="Repeated Reading",
         body="""### What Is Repeated Reading?
 
@@ -761,7 +444,7 @@ And it all started with careful observation and patient inspection of the smalle
 )
 
 def gen_fluency_31():
-    return FLUENCY_TMP.format(n=31, nn=32, ntitle=nt(32),
+    return render("fluency", n=31, nn=32, ntitle=nt(32),
         title="Fluency: Phrasing and Expression", focus="Phrasing & Expression",
         body="""### Reading with Expression
 
@@ -804,7 +487,7 @@ A perfect rainbow stretched from horizon to horizon — a silent promise after t
 )
 
 def gen_fluency_32():
-    return FLUENCY_TMP.format(n=32, nn=33, ntitle=nt(33),
+    return render("fluency", n=32, nn=33, ntitle=nt(33),
         title="Fluency: Reading Rate", focus="Reading Rate",
         body="""### Finding the Right Speed
 
@@ -840,7 +523,7 @@ Elephants teach us that intelligence takes many forms. Their wisdom is written n
 )
 
 def gen_comp_33():
-    return COMP_TMP.format(n=33, nn=34, ntitle=nt(34),
+    return render("comp", n=33, nn=34, ntitle=nt(34),
         title="Composition: Sentence Building", focus="Sentence Building",
         body="""### What Makes a Complete Sentence?
 
@@ -875,7 +558,7 @@ Add details: **when, where, why, how**
         home="Write 5 complete sentences about your day. Add details to each one!")
 
 def gen_comp_34():
-    return COMP_TMP.format(n=34, nn=35, ntitle=nt(35),
+    return render("comp", n=34, nn=35, ntitle=nt(35),
         title="Composition: Paragraph Writing", focus="Paragraph Writing",
         body="""### What Is a Paragraph?
 
@@ -900,7 +583,7 @@ Use at least 4 sentences. Include a topic sentence and a closing sentence.""",
         home="Write a paragraph about your day. Make sure it has a topic sentence and a closing sentence!")
 
 def gen_comp_35():
-    return COMP_TMP.format(n=35, nn=36, ntitle=nt(36),
+    return render("comp", n=35, nn=36, ntitle=nt(36),
         title="Composition: Apply Spelling Rules in Writing", focus="Spelling Rules in Writing",
         body="""### Writing Is Spelling Practice!
 
@@ -931,7 +614,7 @@ After writing, check each word using the steps above.""",
         home="Write a short story (4-5 sentences). Check every word for correct spelling!")
 
 def gen_grammar_36():
-    return GRAMMAR_TMP.format(n=36, nn=37, ntitle=nt(37),
+    return render("grammar", n=36, nn=37, ntitle=nt(37),
         title="Grammar: Parts of Speech Review", focus="Parts of Speech",
         body="""### The 8 Parts of Speech
 
@@ -966,7 +649,7 @@ Answers: article, adjective, noun, adverb, verb, preposition, article, noun""",
         home="Write 3 sentences. Label every part of speech in each one!")
 
 def gen_grammar_37():
-    return GRAMMAR_TMP.format(n=37, nn=38, ntitle=nt(38),
+    return render("grammar", n=37, nn=38, ntitle=nt(38),
         title="Grammar: Sentence Types", focus="Sentence Types",
         body="""### Four Types of Sentences
 
@@ -992,7 +675,7 @@ def gen_grammar_37():
         home="Find one of each sentence type in a book. Write them down!")
 
 def gen_grammar_38():
-    return GRAMMAR_TMP.format(n=38, nn=39, ntitle=nt(39),
+    return render("grammar", n=38, nn=39, ntitle=nt(39),
         title="Grammar: Punctuation", focus="Punctuation",
         body="""### Punctuation Marks
 
@@ -1023,7 +706,7 @@ def gen_grammar_38():
         home="Write 5 sentences using all 5 punctuation marks correctly!")
 
 def gen_ostrich_reader():
-    return READER5_TMP.format(n=39, nn=40, ntitle=nt(40),
+    return render("reader5", n=39, nn=40, ntitle=nt(40),
         title="Reader: Ostriches", stitle="Ostriches: The Giants of the Bird World",
         story="""<div class="reader-page">
 <div class="reader-text">
@@ -1070,7 +753,7 @@ The End.
 )
 
 def gen_final_assessment():
-    return ASSESS5_TMP.format(n=40, title="Stage 5 Mastery Check",
+    return render("assessment", n=40, title="Stage 5 Mastery Check",
         overview="Final assessment for the entire curriculum. Tests morphology knowledge, reading fluency, spelling accuracy, and writing.",
         root_check="| dict | | ☐ |\n| duct | | ☐ |\n| spect | | ☐ |\n| port | | ☐ |\n| rupt | | ☐ |\n| ject | | ☐ |\n| tract | | ☐ |\n| scrib | | ☐ |\n| mit/miss | | ☐ |\n| graph | | ☐ |\n| phon | | ☐ |\n| bio | | ☐ |\n| geo | | ☐ |\n| therm | | ☐ |\n| meter | | ☐ |\n| scope | | ☐ |\n| auto | | ☐ |\n| tele | | ☐ |",
         root_total=18,
@@ -1178,7 +861,7 @@ S = {
 def main():
     for num, content in generate():
         slug = S.get(num, f"lesson-{num:03d}")
-        (OUT / f"{slug}.md").write_text(content, encoding="utf-8")
+        (OUT_DIR / f"{slug}.md").write_text(content, encoding="utf-8")
         print(f"  lessons/stage-5/{slug}.md")
     print(f"\nDone! 40 lessons in lessons/stage-5/")
 

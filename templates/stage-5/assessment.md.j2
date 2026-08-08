@@ -1,0 +1,85 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 5 — final assessment.
+   Variables: n, title, overview, root_check, root_total,
+              read_check, read_total, spell_check, spell_total,
+              topic, next
+#}
+# Lesson {{ n }}: {{ title }}
+
+**Stage 5** · Lesson {{ n }} · assessment
+
+---
+
+## Overview
+
+{{ overview }}
+
+---
+
+## Part 1: Root Knowledge
+
+Match each root to its meaning:
+
+| Root | Meaning | ✓ |
+|------|---------|---|
+{{ root_check }}
+
+**Score:** __ / {{ root_total }}
+
+---
+
+## Part 2: Word Reading (Timed)
+
+Read these words aloud. Goal: under 30 seconds, 0 errors.
+
+| Word | ✓ | Word | ✓ |
+|------|---|------|---|
+{{ read_check }}
+
+**Score:** __ / {{ read_total }}
+
+---
+
+## Part 3: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+{{ spell_check }}
+
+**Score:** __ / {{ spell_total }}
+
+---
+
+## Part 4: Writing
+
+Write a paragraph (4-6 sentences) on this topic: {{ topic }}
+
+Checklist:
+- [ ] Complete sentences
+- [ ] Correct spelling
+- [ ] Capital letters and punctuation
+- [ ] Makes sense when read aloud
+
+**Score:** __ / 4
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Roots | __/{{ root_total }} | |
+| Reading | __/{{ read_total }} | |
+| Spelling | __/{{ spell_total }} | |
+| Writing | __/4 | |
+
+**Overall:** __/{{ '{overall_total}' }}
+
+## Next Steps
+
+{{ next }}
+
+---
+
+*You've completed all 5 stages! You now know all 75 basic phonograms, 31 spelling rules, and can decode 98% of English words. Congratulations!*
