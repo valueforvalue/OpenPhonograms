@@ -146,6 +146,8 @@ WHAT'S IN THIS RELEASE
 02-Scope-and-Sequence.pdf              — full curriculum map
 04-Quick-Reference/                    — phonograms, rules, spelling analysis,
                                           diacritical legend, glossary (HTMLs + PDFs)
+   04-Quick-Reference-Print-PDFs/       — 3 generated summary PDFs for printing
+   04-Quick-Reference-Browser-HTMLs/    — interactive HTMLs (and paired PDFs)
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
 06-Lesson-Packs/                       — 244 per-lesson bundles (each with cover,
                                           at-a-glance, lesson script, worksheets, cards)
@@ -197,7 +199,8 @@ def build_handbook_nav(zf, args, stats):
         elif name.startswith("04-"):
             if args.no_reference:
                 continue
-            arc = f"04-Quick-Reference/{name}"
+            # Issue #27: generated summary PDFs go in the Print-PDFs subfolder
+            arc = f"04-Quick-Reference/04-Quick-Reference-Print-PDFs/{name}"
         elif "handbook" in name and name.startswith("stage-"):
             # Stage handbooks are added by build_handbooks() — skip here
             # to avoid duplicate-name warnings in the ZIP.
@@ -216,7 +219,9 @@ def build_handbook_nav(zf, args, stats):
         elif name.removesuffix(".pdf") in REFERENCE_PDF_BASENAMES:
             if args.no_reference:
                 continue
-            arc = f"04-Quick-Reference/{name}"
+            # Issue #27: per-HTML PDF companions live next to their HTML in
+            # the Browser-HTMLs subfolder.
+            arc = f"04-Quick-Reference/04-Quick-Reference-Browser-HTMLs/{name}"
         # Issue #12 (option a): route quick-check PDFs through 09-Quick-Checks/.
         elif name.startswith("quick-check-stage-"):
             if args.no_quick_checks:
@@ -474,7 +479,7 @@ def build_reference(zf, args, stats):
     for html in sorted(ref_dir.glob("*.html")):
         if html.name.startswith("quick-check-stage-"):
             continue
-        arc = f"04-Quick-Reference/{html.name}"
+        arc = f"04-Quick-Reference/04-Quick-Reference-Browser-HTMLs/{html.name}"
         if args.list:
             stats["included"].append(arc)
         else:
