@@ -101,7 +101,9 @@ def _ref_worker(html_path_str: str, out_path_str: str) -> str:
 def main():
     parser = argparse.ArgumentParser(description="Render reference HTMLs to PDF")
     parser.add_argument("--html", help="Render only this file (e.g. glossary.html)")
-    parser.add_argument("--jobs", "-j", type=int, default=1, help="Parallel worker processes (default: 1)")
+    parser.add_argument("--jobs", "-j", type=int, default=4, help="Parallel worker processes (default: 4)")
+    parser.add_argument("--skip-existing", action="store_true",
+                        help="Skip PDFs whose mtime is newer than source HTML.")
     args = parser.parse_args()
 
     try:
@@ -120,14 +122,21 @@ def main():
 
     # Filter + materialize jobs up-front
     jobs: list[tuple[Path, Path]] = []
+    skipped = 0
     for html in targets:
         if not html.exists():
             log.warning(f"MISSING: {html.name}")
             continue
-        jobs.append((html, BUILD / (html.stem + ".pdf")))
+        pdf = BUILD / (html.stem + ".pdf")
+        if args.skip_existing and pdf.exists() and pdf.stat().st_mtime >= html.stat().st_mtime:
+            skipped += 1
+            continue
+        jobs.append((html, pdf))
 
+    if args.skip_existing and skipped:
+        log.info(f"skip-existing: {skipped} PDFs up-to-date, {len(jobs)} to render")
     if not jobs:
-        log.info("nothing to render")
+        log.info("nothing to render" + (" (all up-to-date)" if args.skip_existing else ""))
         return
 
     ok = 0

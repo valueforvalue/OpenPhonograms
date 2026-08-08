@@ -165,14 +165,16 @@ The `justfile` at repo root wraps every script. Run `just` with no args to list 
 
 ```bash
 just doctor              # Verify environment (Python deps, GTK3, scripts)
-just build               # Full pipeline without release ZIP (~80s)
-just all                 # Full pipeline + release ZIP (~85s)
+just build               # Full pipeline without release ZIP (gen+render+audio+pack)
+just all                 # Full pipeline + release ZIP
 just render-lessons      # Render all 244 lesson PDFs
 just render-stage 3      # Render just Stage 3 lessons
+just render-changed      # Incremental render (skip up-to-date PDFs) — fast iteration
 just pack-all            # Build all 244 lesson packs
 just pack-stage 3        # Build Stage 3 packs only
 just pack-lesson pg-d    # Build one pack (great for testing)
 just gen-all             # Regenerate all Markdown from data
+just audio               # Generate 75 phonogram MP3s (edge-tts, free, neural)
 just check-drift         # Detect MD newer than its PDF
 just check-overflow      # Scan PDFs for content past the right margin
 just check-coverage      # Validate every PG/rule has a matching worksheet
@@ -195,6 +197,7 @@ gen-all                         # Generate every Markdown source
 render-file <path>              # Render one MD file to PDF
 render-stage <1-5>              # Render all lessons in a stage
 render-lessons                  # Render all 244 lessons
+render-changed                  # Render only changed MDs (--skip-existing on lessons + extras)
 render-curriculum               # Render curriculum.md as one PDF
 render-all                      # Render all lessons + curriculum
 
@@ -339,10 +342,38 @@ The Georgia font fallback in render.py needs system fonts. Install via:
 
 ### Build is slow
 
-Expected: ~85 seconds for full `just all`. If slower:
-- WeasyPrint's first import loads many DLLs (one-time cost)
-- Each PDF render is 0.1-1.0s depending on content
-- Image-heavy readers take longer
+**Honest Windows timings** (12-core CPU, MSYS2 GTK3 runtime):
+
+| Step | Cold (no cache) | Warm (after `--skip-existing`) |
+|------|-----------------|-------------------------------|
+| `just doctor` | ~1s | n/a |
+| `just gen-all` | ~10s | ~10s (always regenerates) |
+| `just render-lessons` (244 PDFs) | ~10–15 min | ~10–30s (skips up-to-date) |
+| `just render-extras` (~178 PDFs) | ~8–12 min | ~5–15s |
+| `just audio` (75 MP3s) | ~3 min | ~5s (all present) |
+| `just pack-all` (244 packs) | ~5 min | ~10s |
+| `just build` (full) | **~25–35 min** | **~30s** |
+
+**Bottleneck**: WeasyPrint + GTK3 font scanning on Windows. Each PDF takes ~3–10s wall time regardless of file size. Parallelism helps (~2× with 4 workers) but per-file cost is fixed by Pango/Cairo. We measured 11s/file single-threaded, 3–4s/file at 4 workers on a 12-core machine.
+
+**Fast-iteration recipes**:
+
+```bash
+# Edit one lesson MD, then re-render ONLY that stage (skip up-to-date):
+just render-stage 3 --skip-existing   # add --skip-existing manually below
+
+# Or call render.py directly with --skip-existing:
+python framework/render.py --stage 3 --jobs 4 --skip-existing
+
+# Re-render worksheets + readers with skip-existing:
+python scripts/render-extras.py --jobs 4 --skip-existing
+python scripts/render-references.py --jobs 4 --skip-existing
+
+# Edit a generator, regenerate + re-render in one shot:
+just gen-lessons-stage 3 && just render-stage 3 --skip-existing
+```
+
+**Override worker count**: `just jobs=8 build` or `jobs=8 just build`. Default = 4. Set `jobs` env var to make permanent.
 
 Speed up with `just pack-stage N` (one stage at a time) or `pack-lesson pg-d` (single pack).
 

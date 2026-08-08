@@ -39,9 +39,21 @@ from framework.build_log import (
 log = get_logger("render-extras")
 
 
-def _collect_jobs() -> list[tuple[Path, Path, str]]:
-    """Enumerate (md_path, pdf_path, doc_type) for all worksheets + readers."""
+def _collect_jobs(skip_existing: bool = False) -> list[tuple[Path, Path, str]]:
+    """Enumerate (md_path, pdf_path, doc_type) for all worksheets + readers.
+
+    When skip_existing=True, PDFs whose mtime is newer than their source MD
+    are omitted — used for incremental builds.
+    """
     jobs: list[tuple[Path, Path, str]] = []
+    skipped = 0
+
+    def _add(md: Path, pdf: Path, dtype: str) -> None:
+        nonlocal skipped
+        if skip_existing and pdf.exists() and pdf.stat().st_mtime >= md.stat().st_mtime:
+            skipped += 1
+            return
+        jobs.append((md, pdf, dtype))
 
     # Worksheets (flat layout)
     for sub in ["phonograms", "rules", "cards", "blank"]:
@@ -51,7 +63,7 @@ def _collect_jobs() -> list[tuple[Path, Path, str]]:
         out_dir = OUT / "worksheets" / sub
         out_dir.mkdir(parents=True, exist_ok=True)
         for md in sorted(src_dir.glob("*.md")):
-            jobs.append((md, out_dir / (md.stem + ".pdf"), "worksheet"))
+            _add(md, out_dir / (md.stem + ".pdf"), "worksheet")
 
     # Worksheets (stage-grouped mirrors)
     for sub in ["phonograms", "rules", "cards"]:
@@ -62,7 +74,7 @@ def _collect_jobs() -> list[tuple[Path, Path, str]]:
             stage_out = OUT / "worksheets" / sub / f"stage-{stage}"
             stage_out.mkdir(parents=True, exist_ok=True)
             for md in sorted(stage_src.glob("*.md")):
-                jobs.append((md, stage_out / (md.stem + ".pdf"), "worksheet"))
+                _add(md, stage_out / (md.stem + ".pdf"), "worksheet")
 
     # Readers (flat + stage-grouped)
     if READERS.exists():
@@ -71,7 +83,7 @@ def _collect_jobs() -> list[tuple[Path, Path, str]]:
                 continue
             pdf = OUT / "readers" / (md.stem + ".pdf")
             pdf.parent.mkdir(parents=True, exist_ok=True)
-            jobs.append((md, pdf, "reader"))
+            _add(md, pdf, "reader")
         for stage in range(1, 6):
             stage_src = READERS / f"stage-{stage}"
             if not stage_src.exists():
@@ -79,8 +91,10 @@ def _collect_jobs() -> list[tuple[Path, Path, str]]:
             stage_out = OUT / "readers" / f"stage-{stage}"
             stage_out.mkdir(parents=True, exist_ok=True)
             for md in sorted(stage_src.glob("*.md")):
-                jobs.append((md, stage_out / (md.stem + ".pdf"), "reader"))
+                _add(md, stage_out / (md.stem + ".pdf"), "reader")
 
+    if skip_existing and skipped:
+        log.info(f"skip-existing: {skipped} PDFs up-to-date, {len(jobs)} to render")
     return jobs
 
 
@@ -119,13 +133,15 @@ def _run_parallel(jobs: list[tuple[Path, Path, str]], workers: int) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description="Render worksheets + readers to PDFs")
-    parser.add_argument("--jobs", "-j", type=int, default=1, help="Parallel worker processes (default: 1)")
+    parser.add_argument("--jobs", "-j", type=int, default=4, help="Parallel worker processes (default: 4)")
+    parser.add_argument("--skip-existing", action="store_true",
+                        help="Skip PDFs whose mtime is newer than source MD (incremental build).")
     args = parser.parse_args()
 
     phase("Render Worksheets + Readers")
-    jobs = _collect_jobs()
+    jobs = _collect_jobs(skip_existing=args.skip_existing)
     if not jobs:
-        log.info("no worksheets or readers found")
+        log.info("no worksheets or readers found" + (" (all up-to-date)" if args.skip_existing else ""))
         return
     if args.jobs > 1:
         ok = _run_parallel(jobs, args.jobs)

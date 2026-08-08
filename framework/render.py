@@ -8,13 +8,18 @@ render.py — Convert Logic of English lesson markdown files to printable PDF.
 Usage:
     python render.py lessons/stage-1/002-phonogram-a.md
     python render.py --stage 2
-    python render.py --all
+    python render.py --all --jobs 4              # parallel render
+    python render.py --all --skip-existing       # incremental (skip up-to-date PDFs)
     python render.py --curriculum
-    python render.py --stage 2 --jobs 4          # parallel render
 
 Output:
     Same directory as source, with .pdf extension.
     Stage/curriculum renders go to build/ directory.
+
+Incremental builds:
+    Use --skip-existing to skip PDFs whose mtime is newer than the source MD.
+    Safe for iteration: edit a few MDs, re-run, only changed lessons re-render.
+    Default jobs=4 — override with --jobs N or set jobs env var.
 """
 
 import argparse
@@ -882,13 +887,21 @@ def cmd_render_single(md_path_str: str):
     render_md_to_pdf(md_path, output_path, doc_type)
 
 
-def _collect_render_jobs(stage: int | None = None) -> list[tuple[Path, Path, str]]:
+def _collect_render_jobs(
+    stage: int | None = None,
+    skip_existing: bool = False,
+) -> list[tuple[Path, Path, str]]:
     """Enumerate (md_path, pdf_path, doc_type) for the requested scope.
 
     For stage=all (stage=None), iterate all 5 stages. Missing MDs are skipped
     with a logged warning — caller decides whether to fail.
+
+    When skip_existing=True, PDFs newer than their source MD are dropped
+    from the job list (incremental build). The PDF's mtime is compared
+    against the MD's mtime — a PDF is "fresh" if pdf_mtime >= md_mtime.
     """
     jobs: list[tuple[Path, Path, str]] = []
+    skipped = 0
     stages = range(stage, stage + 1) if stage else range(1, 6)
     for s in stages:
         for lesson in get_lessons_for_stage(s):
@@ -897,7 +910,12 @@ def _collect_render_jobs(stage: int | None = None) -> list[tuple[Path, Path, str
                 log.warning(f"MISSING: {md_path.relative_to(PROJECT_ROOT)} (run generate.py first)")
                 continue
             pdf_path = BUILD_DIR / f"stage-{s}" / f"{lesson['lesson_id']}.pdf"
+            if skip_existing and pdf_path.exists() and pdf_path.stat().st_mtime >= md_path.stat().st_mtime:
+                skipped += 1
+                continue
             jobs.append((md_path, pdf_path, "lesson"))
+    if skip_existing and skipped:
+        log.info(f"skip-existing: {skipped} PDFs up-to-date, {len(jobs)} to render")
     return jobs
 
 
@@ -915,6 +933,8 @@ def _run_parallel_jobs(
     set_worker_queue(queue)
 
     log.info(f"{label}: {len(jobs)} files, {n_workers} workers")
+    import time as _time
+    _t0 = _time.perf_counter()
     ok = 0
     fail = 0
 
@@ -941,22 +961,30 @@ def _run_parallel_jobs(
             executor.shutdown(wait=True)
             set_worker_queue(None)
 
-    log.info(f"{label}: {ok} ok, {fail} failed")
+    elapsed = _time.perf_counter() - _t0
+    rate = ok / elapsed if elapsed > 0 else 0.0
+    log.info(f"{label}: {ok} ok, {fail} failed, {elapsed:.1f}s ({rate:.2f} files/s, {n_workers} workers)")
     return ok, fail
 
 
-def cmd_render_stage(stage: int, jobs: int = 1):
+def cmd_render_stage(stage: int, jobs: int = 1, skip_existing: bool = False):
     phase(f"Render Stage {stage}")
-    jobs_list = _collect_render_jobs(stage)
+    jobs_list = _collect_render_jobs(stage, skip_existing=skip_existing)
+    if not jobs_list:
+        log.info(f"Stage {stage}: nothing to render (all up-to-date)")
+        return
     log.info(f"Rendering Stage {stage}: {len(jobs_list)} lessons")
     ok, fail = _run_parallel_jobs(jobs_list, jobs, f"render-stage-{stage}")
     if fail:
         sys.exit(1)
 
 
-def cmd_render_all(jobs: int = 1):
+def cmd_render_all(jobs: int = 1, skip_existing: bool = False):
     phase("Render All Lessons")
-    jobs_list = _collect_render_jobs()
+    jobs_list = _collect_render_jobs(skip_existing=skip_existing)
+    if not jobs_list:
+        log.info("All stages: nothing to render (all up-to-date)")
+        return
     log.info(f"Rendering all {len(jobs_list)} lessons")
     ok, fail = _run_parallel_jobs(jobs_list, jobs, "render-all")
     if fail:
@@ -982,17 +1010,21 @@ def main():
     parser.add_argument("--all", action="store_true", help="Render all lessons (all stages)")
     parser.add_argument("--curriculum", action="store_true", help="Render curriculum.md to PDF")
     parser.add_argument(
-        "--jobs", "-j", type=int, default=1,
-        help="Parallel worker processes (default: 1 = serial). Stage/all only.",
+        "--jobs", "-j", type=int, default=4,
+        help="Parallel worker processes (default: 4). Stage/all only.",
+    )
+    parser.add_argument(
+        "--skip-existing", action="store_true",
+        help="Skip PDFs whose mtime is newer than source MD (incremental build).",
     )
     args = parser.parse_args()
 
     if args.file:
         cmd_render_single(args.file)
     elif args.stage:
-        cmd_render_stage(args.stage, jobs=args.jobs)
+        cmd_render_stage(args.stage, jobs=args.jobs, skip_existing=args.skip_existing)
     elif args.all:
-        cmd_render_all(jobs=args.jobs)
+        cmd_render_all(jobs=args.jobs, skip_existing=args.skip_existing)
     elif args.curriculum:
         cmd_render_curriculum()
     else:

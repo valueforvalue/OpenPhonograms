@@ -29,9 +29,12 @@ project_root_s := replace(project_root, "\\", "/")
 # Python interpreter
 python := if os() == "windows" { "python" } else { "python3" }
 
-# Parallel worker count for render + pack recipes. Override with `just jobs=8 build`.
-# Default = number of logical CPUs. weasyprint is CPU-bound; >=physical cores is fine.
-_default_jobs := if os() == "windows" { `wmic cpu get NumberOfLogicalProcessors /value 2^>nul ^| findstr NumberOfLogicalProcessors ^| awk -F= "{print $2}"` } else { `nproc` }
+# Parallel worker count for render + pack recipes.
+# Resolution order: `jobs=N` CLI override > `jobs` env var > 4.
+# WeasyPrint is CPU-bound. Most modern CPUs handle 4-8 workers well.
+# Override per-run: `just jobs=8 build` or set jobs=8 in your env.
+# Note: auto-detect via wmic/nproc is fragile on Windows MSYS shell —
+# stay with a safe numeric default.
 jobs := env_var_or_default("jobs", "4")
 
 # Default: list all recipes
@@ -58,8 +61,10 @@ doctor:
     @if [ "{{os()}}" = "windows" ]; then \
         if [ -d "C:/msys64/mingw64/bin" ]; then \
             echo "  MSYS2 GTK3 runtime: OK (C:/msys64/mingw64/bin)"; \
+        elif [ -d "C:/Program Files/GTK3-Runtime Win64/bin" ]; then \
+            echo "  GTK3 runtime: OK (C:/Program Files/GTK3-Runtime Win64/bin)"; \
         else \
-            echo "  MSYS2 GTK3 runtime: MISSING — install via: winget install MSYS2.MSYS2 && pacman -S mingw-w64-x86_64-pango"; \
+            echo "  GTK3 runtime: MISSING \u2014 install via: winget install MSYS2.MSYS2 && pacman -S mingw-w64-x86_64-pango"; \
         fi \
     fi
     @echo "==> Scripts present:"
@@ -136,6 +141,14 @@ render-stage stage:
 render-lessons:
     @echo "==> Rendering all lessons (all stages, {{jobs}} workers)"
     @{{python}} {{framework_dir_s}}/render.py --all --jobs {{jobs}}
+
+# INCREMENTAL render: skip PDFs whose mtime >= source MD mtime.
+# Use this for iteration loops — only changed lessons re-render.
+# 248 unchanged lessons: ~3s. Edit one MD, re-run: ~2.5s for that file.
+render-changed:
+    @echo "==> Incremental render (skip-existing, {{jobs}} workers)"
+    @{{python}} {{framework_dir_s}}/render.py --all --jobs {{jobs}} --skip-existing
+    @{{python}} {{scripts_dir_s}}/render-extras.py --jobs {{jobs}} --skip-existing
 
 # Render the full curriculum.md as one PDF — output: build/curriculum.pdf
 render-curriculum:
@@ -327,7 +340,7 @@ test-slow:
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (long; ~5-10 min)
-all: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all release
+all: gen-all gen-footers render-all render-extras render-references audio gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-binding-instructions gen-quick-checks gen-placement-test pack-all release
     @echo ""
     @echo "==> Full build complete"
     @echo "    PDFs:      {{build_dir_s}}/"
@@ -335,11 +348,12 @@ all: gen-all gen-footers render-all render-extras render-references gen-stage-pd
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop)
-build: gen-all gen-footers render-all render-extras render-references gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all
+build: gen-all gen-footers render-all render-extras render-references audio gen-stage-pdfs gen-navigation gen-handbooks gen-certificates gen-readers-index gen-quick-checks gen-placement-test pack-all
     @echo ""
     @echo "==> Build complete (no release ZIP)"
     @echo "    PDFs:  {{build_dir_s}}/"
     @echo "    Packs: {{packs_dir_s}}/"
+    @echo "    Audio: {{games_dir_s}}/audio/"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Clean — remove build artifacts
