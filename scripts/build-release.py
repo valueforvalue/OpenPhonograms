@@ -358,11 +358,12 @@ def build_worksheets(zf, args, stats):
 
 
 def build_readers(zf, args, stats):
-    """Section 8: Decodable readers from build/readers/stage-N/.
+    """Section 8: Decodable readers from build/readers/.
 
     Layout: 08-Decodable-Readers/stage-N/{slug}.pdf
-    Model C: drop flat readers at build/readers/*.pdf + merged stage-N-readers.pdf.
-    Stage grouping makes it easy to print a whole stage's readers at once.
+    Stage-1 readers are stored flat at build/readers/*.pdf and copied
+    to 08-Decodable-Readers/stage-1/. Stage 2-5 readers are in
+    build/readers/stage-N/ subfolders.
     """
     if args.no_readers:
         stats["skipped"].append("08-Decodable-Readers/")
@@ -371,10 +372,24 @@ def build_readers(zf, args, stats):
     if not readers_dir.exists():
         return
 
-    # Copy only stage-N/ subfolders, not the flat files at root.
-    # add_directory with stage_filter does the per-stage restrict, but we
-    # also need to skip the flat files (which aren't in stage-N/ subdir).
     for stage in _stages(args):
+        if stage == 1:
+            # Stage-1 readers live in build/readers/stage-1/ subfolder
+            # (rendered there by render-extras.py). Copy from there.
+            stage_dir = readers_dir / "stage-1"
+            count = 0
+            if stage_dir.exists():
+                for f in sorted(stage_dir.glob("*.pdf")):
+                    arc = f"08-Decodable-Readers/stage-1/{f.name}"
+                    if args.list:
+                        stats["included"].append(arc)
+                    else:
+                        zf.write(f, arc)
+                    count += 1
+            if count and not args.list:
+                print(f"  OK  08-Decodable-Readers/stage-1/  ({count} readers)")
+            continue
+        # Stages 2-5: subfolder layout
         stage_dir = readers_dir / f"stage-{stage}"
         if not stage_dir.exists():
             continue

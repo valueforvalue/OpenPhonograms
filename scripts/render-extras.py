@@ -76,12 +76,14 @@ def _collect_jobs(skip_existing: bool = False) -> list[tuple[Path, Path, str]]:
             for md in sorted(stage_src.glob("*.md")):
                 _add(md, stage_out / (md.stem + ".pdf"), "worksheet")
 
-    # Readers (flat + stage-grouped)
+    # Readers (flat = stage-1, plus per-stage subfolders for 2-5)
     if READERS.exists():
         for md in sorted(READERS.glob("*.md")):
             if md.parent != READERS:
                 continue
-            pdf = OUT / "readers" / (md.stem + ".pdf")
+            # Flat readers are stage-1 readers; mirror into stage-1/ subfolder
+            # so the release ZIP can organize by stage.
+            pdf = OUT / "readers" / "stage-1" / f"{md.stem}.pdf"
             pdf.parent.mkdir(parents=True, exist_ok=True)
             _add(md, pdf, "reader")
         for stage in range(1, 6):

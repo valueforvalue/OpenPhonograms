@@ -258,6 +258,15 @@ handbooks-batch:
     @echo "==> Rendering stage handbooks (Model C batch)"
     @{{python}} {{scripts_dir_s}}/generate-stage-handbook.py
 
+# Render all decodable reader PDFs.
+# NOTE: NOT Model C batch — pypdf.split of batched PDFs carries over
+# full font embeddings per split, bloating each reader to 4-8MB
+# (vs 200KB per-file). Use per-file render via render-extras.py.
+# With --skip-existing on warm builds, this is ~5s.
+render-readers:
+    @echo "==> Rendering decodable readers"
+    @{{python}} {{scripts_dir_s}}/render-extras.py --jobs {{jobs}}
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Audio — neural TTS phonogram audio for the web game
 # ─────────────────────────────────────────────────────────────────────────────
@@ -350,19 +359,21 @@ test-slow:
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (Model C: ~10-15 min Windows)
-all: gen-all gen-footers handbooks-batch pack-all render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test release
+all: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test release
     @echo ""
     @echo "==> Full build complete (Model C)"
     @echo "    Handbooks: {{build_dir_s}}/handbook/"
     @echo "    Packs:     {{packs_dir_s}}/"
+    @echo "    Readers:   {{build_dir_s}}/readers/"
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop, Model C: ~5 min Windows)
-build: gen-all gen-footers handbooks-batch pack-all render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test
+build: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test
     @echo ""
     @echo "==> Build complete (Model C, no release ZIP)"
     @echo "    Handbooks: {{build_dir_s}}/handbook/"
     @echo "    Packs:     {{packs_dir_s}}/"
+    @echo "    Readers:   {{build_dir_s}}/readers/"
     @echo "    Audio:     {{games_dir_s}}/audio/"
 
 # ─────────────────────────────────────────────────────────────────────────────
