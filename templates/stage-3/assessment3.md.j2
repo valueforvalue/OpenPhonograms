@@ -1,0 +1,88 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 3 — assessment (mid-stage or final mastery).
+   Variables: num, title, overview, pg_check, pg_total, se_check, se_total,
+              read_check, read_total, spell_check, spell_total, rule_check,
+              rule_total, next_steps
+#}
+# Lesson {{ num }}: {{ title }}
+
+**Stage 3** · Lesson {{ num }} · assessment
+
+---
+
+## Overview
+
+{{ overview }}
+
+---
+
+## Part 1: Phonogram Sounds
+
+| Phonogram | Sounds | ✓ |
+|-----------|--------|---|
+{{ pg_check }}
+
+**Score:** __ / {{ pg_total }}
+
+---
+
+## Part 2: Silent E — Name That Reason
+
+| Word | Which Reason? (12.x) | ✓ |
+|------|---------------------|---|
+{{ se_check }}
+
+**Score:** __ / {{ se_total }}
+
+---
+
+## Part 3: Word Reading
+
+| Word | ✓ |
+|------|---|
+{{ read_check }}
+
+**Score:** __ / {{ read_total }}
+
+---
+
+## Part 4: Spelling (Dictation)
+
+| Word | ✓ |
+|------|---|
+{{ spell_check }}
+
+**Score:** __ / {{ spell_total }}
+
+---
+
+## Part 5: Rule Knowledge
+
+| Rule | Question | ✓ |
+|------|----------|---|
+{{ rule_check }}
+
+**Score:** __ / {{ rule_total }}
+
+---
+
+## Results
+
+| Section | Score | Pass? |
+|---------|-------|-------|
+| Phonograms | __/{{ pg_total }} | |
+| Silent E | __/{{ se_total }} | |
+| Reading | __/{{ read_total }} | |
+| Spelling | __/{{ spell_total }} | |
+| Rules | __/{{ rule_total }} | |
+
+**Overall:** __/{{ '{overall_total}' }}
+
+## Next Steps
+
+{{ next_steps }}
+
+---
+
+*Great work! You're more than halfway through learning all 75 phonograms!*

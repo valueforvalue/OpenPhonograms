@@ -1,0 +1,76 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 3 — spelling rule lesson.
+   Variables: num, rnum, name, statement, explanation, examples,
+              spot_rows, spelling_rows, read_words, sentences,
+              extra_known, next_num, next_title, teacher_script
+#}
+# Lesson {{ num }}: Rule {{ rnum }} — {{ name }}
+
+**Stage 3** · Lesson {{ num }} · rule-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of all known phonograms.
+
+| All known phonograms |
+|----------------------|
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear{{ extra_known }} |
+
+---
+
+## New Learning: Rule {{ rnum }}
+
+### The Rule
+
+> **{{ statement }}**
+
+### Why This Rule Matters
+
+{{ explanation }}
+
+### Examples
+
+{{ examples }}
+
+### Spot the Rule
+
+| Word | How Rule {{ rnum }} Applies |
+|------|--------------------------|
+{{ spot_rows }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ spelling_rows }}
+
+---
+
+## Reading Practice
+
+> {{ read_words }}
+
+> {{ sentences }}
+
+---
+
+## Quick Check
+
+1. What is Rule {{ rnum }}? *(Restate in your own words.)*
+2. Give an example where the rule applies.
+3. Give an example where the rule does NOT apply (if there is one).
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Find 3 words that follow Rule {{ rnum }}. Write them down!*
+
+{{ teacher_script }}

@@ -1,0 +1,69 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 3 — multi-letter phonogram intro (Stage 3 set).
+   Variables: num, pg, sc, s_plural, sounds, tip, rule_section,
+              example_rows, word_rows, read_words, sentences,
+              check_word, extra_known, next_num, next_title, teacher_script
+#}
+# Lesson {{ num }}: Phonogram {{ pg }}
+
+**Stage 3** · Lesson {{ num }} · phonogram-intro
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Flash all known phonograms. Child says ALL sounds within 2 seconds.
+
+| All known phonograms |
+|----------------------|
+| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear{{ extra_known }} |
+
+---
+
+## New Learning: The Phonogram **{{ pg }}**
+
+<div class="phonogram">{{ pg }}</div>
+
+**{{ pg }}** says {{ sc }} sound{{ s_plural }}: {{ sounds }}
+
+{{ tip }}
+
+{{ rule_section }}
+| Sound | Example Words |
+|-------|--------------|
+{{ example_rows }}
+
+---
+
+## Spelling Analysis
+
+| Word | Phonograms Used | Rules Applied | Say-to-Spell |
+|------|----------------|---------------|--------------|
+{{ word_rows }}
+
+---
+
+## Reading Practice
+
+> {{ read_words }}
+
+> {{ sentences }}
+
+---
+
+## Quick Check
+
+1. What does **{{ pg }}** say? *({{ sounds }})*
+2. Is {{ pg }} used at the beginning, middle, or end of words?
+3. Write the word "{{ check_word }}" from dictation.
+
+---
+
+**Next lesson:** Lesson {{ next_num }}: {{ next_title }}
+
+---
+
+*Practice at home: Flash your **{{ pg }}** card. Find **{{ pg }}** in a book.*
+
+{{ teacher_script }}

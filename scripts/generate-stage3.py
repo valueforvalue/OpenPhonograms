@@ -2,18 +2,37 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Jeremy Morris. Released under the MIT License (see LICENSE).
 
-"""Generate all 56 Stage 3 lesson markdown files."""
-import io, sys
+"""Generate all 58 Stage 3 lesson markdown files via Jinja templates.
+
+Architecture (slice 3 of #22 + #23):
+  - Phonogram + rule data lives in data/*.yaml; loaded via framework.data_loader.
+  - Stage-3-specific data (SILENT_E, MULTI3, RULES3, SYLLABLE_LESSONS,
+    HF4, HF5) stays inline — per Slice 0 decision.
+  - Lesson scaffolds live in templates/stage-3/*.md.j2.
+  - This file is a thin orchestrator: compute template vars + render.
+  - Long-form reader/assessment content (Gwen, Cole, Sail, mixed_spelling,
+    mid/final assessments, long_vowels, se_practice, se_ce_ge_spelling)
+    remains inline because it embeds story HTML and is lesson-specific.
+"""
+
+import io
+import sys
 from pathlib import Path
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "lessons" / "stage-3"
-OUT.mkdir(parents=True, exist_ok=True)
+from jinja2 import Environment, FileSystemLoader
 
-# Teacher script injection (issue #4)
-sys.path.insert(0, str(ROOT / "framework"))
-from teacher_script import format_phonogram_script, format_rule_script, format_spelling_script  # noqa: E402
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+OUT_DIR = PROJECT_ROOT / "lessons" / "stage-3"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-3"
+
+# Teacher script injection
+sys.path.insert(0, str(PROJECT_ROOT / "framework"))
+from teacher_script import format_phonogram_script, format_rule_script  # noqa: E402
+
+# Stdout encoding for Windows console.
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 
 # ── SILENT E REASONS ────────────────────────────────────────────────
 
@@ -82,6 +101,7 @@ SILENT_E = {
         "words": ["come","some","done","none","gone","one","love","above"],
     },
 }
+
 
 # ── STAGE 3 MULTI-LETTER PHONOGRAMS ─────────────────────────────────
 
@@ -273,6 +293,7 @@ MULTI3 = {
     },
 }
 
+
 # ── STAGE 3 RULES ───────────────────────────────────────────────────
 
 RULES3 = {
@@ -355,6 +376,7 @@ RULES3 = {
     },
 }
 
+
 # ── SYLLABLE DIVISION DATA ──────────────────────────────────────────
 
 SYLLABLE_LESSONS = {
@@ -384,6 +406,7 @@ SYLLABLE_LESSONS = {
     },
 }
 
+
 # ── HF WORDS ────────────────────────────────────────────────────────
 
 HF4 = [
@@ -402,496 +425,16 @@ HF5 = [
     ("many","M says /m/. A says /ĕ/ (like 'any'). N says /n/. Y says /ē/. Say-to-spell: /mānē/."),
 ]
 
-# ── TEMPLATES ───────────────────────────────────────────────────────
 
-SILENT_E_TEMPLATE = """# Lesson {num}: Silent E Reason {rnum} — {name}
+# ── JINJA ENVIRONMENT ────────────────────────────────────────────────
 
-**Stage 3** · Lesson {num} · rule-intro
+env = Environment(
+    loader=FileSystemLoader(str(TEMPLATE_DIR)),
+    trim_blocks=True,
+    lstrip_blocks=True,
+    keep_trailing_newline=True,
+)
 
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| Review all 75 phonograms |
-|--------------------------|
-| All a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear |
-
----
-
-## New Learning: Silent E Reason {rnum}
-
-### The Reason
-
-> **{statement}**
-
-### Why?
-
-{why}
-
-### Words That Follow This Rule
-
-| Word | How Silent E Works Here |
-|------|------------------------|
-{word_analysis}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-Read these words sound by sound:
-
-> {read_words}
-
-Read these sentences:
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. What is Silent E Reason {rnum}? *(Explain in your own words.)*
-2. Give an example word that follows this reason.
-3. What would the word be WITHOUT the silent E?
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find 3 words in a book that follow Silent E Reason {rnum}.*
-"""
-
-MULTI3_TEMPLATE = """# Lesson {num}: Phonogram {pg}
-
-**Stage 3** · Lesson {num} · phonogram-intro
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Flash all known phonograms. Child says ALL sounds within 2 seconds.
-
-| All known phonograms |
-|----------------------|
-| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear{extra_known} |
-
----
-
-## New Learning: The Phonogram **{pg}**
-
-<div class="phonogram">{pg}</div>
-
-**{pg}** says {sc} sound{s_plural}: {sounds}
-
-{tip}
-
-{rule_section}
-| Sound | Example Words |
-|-------|--------------|
-{example_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{word_rows}
-
----
-
-## Reading Practice
-
-> {read_words}
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. What does **{pg}** say? *({sounds})*
-2. Is {pg} used at the beginning, middle, or end of words?
-3. Write the word "{check_word}" from dictation.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Flash your **{pg}** card. Find **{pg}** in a book.*
-
-{teacher_script}
-"""
-
-RULE3_TEMPLATE = """# Lesson {num}: Rule {rnum} — {name}
-
-**Stage 3** · Lesson {num} · rule-intro
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| All known phonograms |
-|----------------------|
-| a-z + sh, th, ck, ee, ng, ar, or, er, oi, oy, ai, ay, ch, wh, ea, ow, ou, oo, ed, igh, aw, au, ir, ur, oa, ear{extra_known} |
-
----
-
-## New Learning: Rule {rnum}
-
-### The Rule
-
-> **{statement}**
-
-### Why This Rule Matters
-
-{explanation}
-
-### Examples
-
-{examples}
-
-### Spot the Rule
-
-| Word | How Rule {rnum} Applies |
-|------|--------------------------|
-{spot_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-> {read_words}
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. What is Rule {rnum}? *(Restate in your own words.)*
-2. Give an example where the rule applies.
-3. Give an example where the rule does NOT apply (if there is one).
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find 3 words that follow Rule {rnum}. Write them down!*
-
-{teacher_script}
-"""
-
-SYLLABLE_TEMPLATE = """# Lesson {num}: {title}
-
-**Stage 3** · Lesson {num} · syllable-division
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| All known phonograms |
-|----------------------|
-| a-z + all multi-letter learned so far |
-
----
-
-## New Learning: {stitle}
-
-### What Are Syllables?
-
-A syllable is a word part with ONE vowel sound. Every syllable has exactly one vowel sound. When we read long words, we break them into syllables.
-
-### How to Divide: {stitle}
-
-{description}
-
-### Let's Divide
-
-For each word, say it slowly, clap the syllables, then write each syllable:
-
-| Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
-|------|--------------------|---------|---------------------------|----------------------------|
-{divide_rows}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-> {read_words}
-
-> {sentences}
-
----
-
-## Quick Check
-
-1. How do you divide {pattern_words}? *(Describe the pattern.)*
-2. How many vowel sounds are in a 2-syllable word? *(2 — one per syllable!)*
-3. Divide the word "{check}" into syllables and spell each one.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find 3 two-syllable words in a book. Clap the syllables and try to divide them.*
-"""
-
-HF3_TEMPLATE = """# Lesson {num}: High-Frequency Words — Set {setn}
-
-**Stage 3** · Lesson {num} · hf-word
-
----
-
-## Warm-Up: Phonogram Flash Review
-
-> Quick flash of all known phonograms.
-
-| All known phonograms |
-|----------------------|
-| a-z + all multi-letter learned so far |
-
----
-
-## Important Reminder
-
-These are NOT sight words. Every one can be explained with phonograms and rules. Say-to-spell helps you hear the spelling!
-
----
-
-## Today's Words
-
-{word_sections}
-
----
-
-## Spelling Analysis
-
-| Word | Phonograms Used | Rules Applied | Say-to-Spell |
-|------|----------------|---------------|--------------|
-{spelling_rows}
-
----
-
-## Reading Practice
-
-> {sentences}
-
----
-
-## Dictation
-
-Adult reads these sentences. Child writes them.
-
-> {dictation}
-
----
-
-## Quick Check
-
-1. Why is say-to-spell important for these words? *(Because the normal pronunciation hides the spelling!)*
-2. Which word was hardest to explain? Why?
-3. Spell "{check}" from dictation.
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Find today's words in a book. Write each one and underline the tricky phonograms.*
-"""
-
-REVIEW3_TEMPLATE = """# Lesson {num}: {title}
-
-**Stage 3** · Lesson {num} · review
-
----
-
-## Warm-Up: Speed Flash
-
-> Flash ALL phonograms. Goal: under 2 seconds per card.
-
----
-
-## {game1_title}
-
-{game1}
-
----
-
-## {game2_title}
-
-{game2}
-
----
-
-## {game3_title}
-
-{game3}
-
----
-
-## Spelling Challenge
-
-Spell these words from dictation:
-
-> {challenge_words}
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: {home_practice}*
-"""
-
-READER3_TEMPLATE = """# Lesson {num}: {title}
-
-**Stage 3** · Lesson {num} · reader
-
----
-
-## Story: {story_title}
-
-{content}
-
----
-
-## Quick Check
-
-{talk}
-
----
-
-**Next lesson:** Lesson {next_num}: {next_title}
-
----
-
-*Practice at home: Read this story aloud!*
-"""
-
-ASSESSMENT3_TEMPLATE = """# Lesson {num}: {title}
-
-**Stage 3** · Lesson {num} · assessment
-
----
-
-## Overview
-
-{overview}
-
----
-
-## Part 1: Phonogram Sounds
-
-| Phonogram | Sounds | ✓ |
-|-----------|--------|---|
-{pg_check}
-
-**Score:** __ / {pg_total}
-
----
-
-## Part 2: Silent E — Name That Reason
-
-| Word | Which Reason? (12.x) | ✓ |
-|------|---------------------|---|
-{se_check}
-
-**Score:** __ / {se_total}
-
----
-
-## Part 3: Word Reading
-
-| Word | ✓ |
-|------|---|
-{read_check}
-
-**Score:** __ / {read_total}
-
----
-
-## Part 4: Spelling (Dictation)
-
-| Word | ✓ |
-|------|---|
-{spell_check}
-
-**Score:** __ / {spell_total}
-
----
-
-## Part 5: Rule Knowledge
-
-| Rule | Question | ✓ |
-|------|----------|---|
-{rule_check}
-
-**Score:** __ / {rule_total}
-
----
-
-## Results
-
-| Section | Score | Pass? |
-|---------|-------|-------|
-| Phonograms | __/{pg_total} | |
-| Silent E | __/{se_total} | |
-| Reading | __/{read_total} | |
-| Spelling | __/{spell_total} | |
-| Rules | __/{rule_total} | |
-
-**Overall:** __/{{overall_total}}
-
-## Next Steps
-
-{next_steps}
-
----
-
-*Great work! You're more than halfway through learning all 75 phonograms!*
-"""
 
 # ── HELPERS ─────────────────────────────────────────────────────────
 
@@ -918,6 +461,7 @@ def nt(n):
     }
     return titles_3.get(n, f"Lesson {n}")
 
+
 # ── BUILDERS ────────────────────────────────────────────────────────
 
 def build_silent_e(num, key):
@@ -925,13 +469,14 @@ def build_silent_e(num, key):
     words = se["words"]
     word_analysis = "\n".join(f"| {w} | (explain how SE reason {se['num']} applies) |" for w in words[:8])
     spelling_rows = "\n".join(f"| {w} | (sound out) | SE {se['num']} | /{w}/ |" for w in words[:5])
-    return SILENT_E_TEMPLATE.format(
+    return env.get_template("silent-e.md.j2").render(
         num=num, rnum=se["num"], name=se["name"], statement=se["statement"],
         why=se["why"], word_analysis=word_analysis, spelling_rows=spelling_rows,
         read_words=" &nbsp;&nbsp; ".join(words),
         sentences=f"I will {words[0]} this. The {words[1]} is here. Can you {words[2]}?",
         next_num=num+1, next_title=nt(num+1),
     )
+
 
 def build_multi3(num, pg):
     d = MULTI3[pg]
@@ -952,7 +497,7 @@ def build_multi3(num, pg):
     if idx > 0:
         prev = intro_order[:idx]
         extra = ", " + ", ".join(prev)
-    return MULTI3_TEMPLATE.format(
+    return env.get_template("multi3-pg.md.j2").render(
         num=num, pg=pg, sc=sc, s_plural=s_plural, sounds=d["sounds"],
         tip=tip, rule_section=rule_section, example_rows=example_rows,
         word_rows=word_rows, read_words=read_words, sentences=sentences,
@@ -961,13 +506,14 @@ def build_multi3(num, pg):
         teacher_script=format_phonogram_script(pg, d["sounds"]),
     )
 
+
 def build_rule3(num, key):
     r = RULES3[key]
     rn = r["num"]
     words = r["words"]
     spot_rows = "\n".join(f"| {w} | (describe how Rule {rn} applies) |" for w in words[:8])
     spelling_rows = "\n".join(f"| {w} | (sound out) | Rule {rn} | /{w}/ |" for w in words[:5])
-    return RULE3_TEMPLATE.format(
+    return env.get_template("rule3.md.j2").render(
         num=num, rnum=rn, name=r["name"], statement=r["statement"],
         explanation=r["explanation"], examples=r["examples"],
         spot_rows=spot_rows, spelling_rows=spelling_rows,
@@ -977,6 +523,7 @@ def build_rule3(num, key):
         next_num=num+1, next_title=nt(num+1),
         teacher_script=format_rule_script(rn, r["name"], r["statement"]),
     )
+
 
 def build_syllable(num, key):
     d = SYLLABLE_LESSONS[key]
@@ -989,7 +536,7 @@ def build_syllable(num, key):
         f"| {w} | (sound out each syllable) | — | {w} |" for w in words[:4]
     )
     pattern_words = d["title"]
-    return SYLLABLE_TEMPLATE.format(
+    return env.get_template("syllable.md.j2").render(
         num=num, title=f"Syllable Division: {d['title']}",
         stitle=d["title"], description=d["description"],
         divide_rows=divide_rows, spelling_rows=spelling_rows,
@@ -1000,20 +547,22 @@ def build_syllable(num, key):
         next_num=num+1, next_title=nt(num+1),
     )
 
+
 def build_hf3(num, setn, wdata, sentences, dictation, check):
     sections = ""
     for w, ex in wdata:
         sections += f"### {w}\n\n{ex}\n\n"
     spelling_rows = "\n".join(f"| {w} | (see above) | (see above) | (see above) |" for w,_ in wdata)
-    return HF3_TEMPLATE.format(
+    return env.get_template("hf3.md.j2").render(
         num=num, setn=setn, word_sections=sections,
         spelling_rows=spelling_rows, sentences=sentences,
         dictation=dictation, check=check,
         next_num=num+1, next_title=nt(num+1),
     )
 
+
 def build_review3(num, title, g1_title, g1, g2_title, g2, g3_title, g3, challenge, home):
-    return REVIEW3_TEMPLATE.format(
+    return env.get_template("review3.md.j2").render(
         num=num, title=title,
         game1_title=g1_title, game1=g1,
         game2_title=g2_title, game2=g2,
@@ -1024,136 +573,7 @@ def build_review3(num, title, g1_title, g1, g2_title, g2, g3_title, g3, challeng
     )
 
 
-# ── MAIN ────────────────────────────────────────────────────────────
-
-def generate():
-    # 1: Review Stage 2
-    # 2: Long Vowels
-    yield 1, build_long_vowels()
-
-    # 3-6: Silent E reasons 12.1-12.4
-    for i, key in enumerate(["12.1","12.2","12.3","12.4"]):
-        yield 2+i, build_silent_e(2+i, key)
-
-    # 7: SE Review 12.1-4
-    yield 6, build_review3(6, "Silent E Review: Reasons 12.1–12.4",
-        "Name That Reason",
-        "Adult says a word. Child names which Silent E reason (12.1, 12.2, 12.3, or 12.4) applies.\n\ntape → 12.1 (vowel says long)\nhave → 12.2 (no V at end)\ndance → 12.3 (C says /s/)\nlittle → 12.4 (syllable needs vowel)\nmake → 12.1\nblue → 12.2\nchange → 12.3\ntable → 12.4",
-        "Word Sort",
-        "Sort these words into four columns by reason: make, have, dance, little, hope, give, since, apple, cube, live, prince, candle, these, solve, fence, bubble.",
-        "Challenge: Change It",
-        "Adult says a word without silent E. Child adds silent E and says which reason: cap→cape (12.1), giv→give (12.2), lac→lace (12.3), littl→little (12.4).",
-        ["make","have","dance","little","hope","give","since","table"], "Review reasons 12.1-12.4 at home!")
-
-    # 8-12: Silent E reasons 12.5-12.9
-    for i, key in enumerate(["12.5","12.6","12.7","12.8","12.9"]):
-        yield 7+i, build_silent_e(7+i, key)
-
-    # 13: Name That Reason practice
-    yield 12, build_se_practice()
-
-    # 14-16: Rules 1, 2 + Spelling
-    yield 13, build_rule3(13, "1")
-    yield 14, build_rule3(14, "2")
-    yield 15, build_se_ce_ge_spelling()
-
-    # 17-23: dge, tch, kn, gn, wr + reviews
-    yield 16, build_multi3(16, "dge")
-    yield 17, build_multi3(17, "tch")
-    yield 18, build_review3(18, "Review: DGE and TCH",
-        "DGE or GE?",
-        "Adult says a word. Child decides: DGE or GE?\n\nbridge (DGE — short i)\ncage (GE — long a)\nfudge (DGE — short u)\nlarge (GE — consonant r before)\nedge (DGE — short e)\nhuge (GE — long u)",
-        "TCH or CH?",
-        "Same game for TCH/CH:\n\ncatch (TCH — short a)\ninch (CH — consonant n before)\npitch (TCH — short i)\nlunch (CH — consonant n before)\nnotch (TCH — short o)",
-        "Build It",
-        "Write: bridge, edge, catch, watch, large, inch. Underline DGE/TCH/GE/CH.",
-        ["bridge","catch","large","watch","edge","inch"], "Find TCH and DGE words in a book!")
-
-    yield 19, build_multi3(19, "kn")
-    yield 20, build_multi3(20, "gn")
-    yield 21, build_multi3(21, "wr")
-
-    yield 22, build_review3(22, "Review: Silent Letter Phonograms kn gn wr",
-        "Silent Letter Hunt",
-        "Which letter is silent?\n\nknife → K is silent\nsign → G is silent\nwrite → W is silent\nknee → K\ngnat → G\nwrong → W\nknow → K\ndesign → G\nwrist → W",
-        "Read the Word",
-        "Adult writes these words. Child reads them aloud: know, sign, write, knee, gnat, wrong, knock, design, wrap, gnaw.",
-        "Dictation Challenge",
-        "Adult says a word. Child writes it: know, sign, write, knee, wrap, wrong.",
-        ["know","sign","write","knee","gnat","wrap"], "Write each kn/gn/wr word 3 times!")
-
-    # 24: Mid-Assessment
-    yield 23, build_mid3()
-
-    # 25-35: More PGs + Rule 28
-    for num, pg in [(24, "eigh"),(25, "ei"),(26, "ey"),(27, "ph"),(28, "gh"),(29, "ough"),(30, "augh")]:
-        yield num, build_multi3(num, pg)
-    yield 31, build_rule3(31, "28")
-    for num, pg in [(32, "ew"),(33, "ui"),(34, "eu")]:
-        yield num, build_multi3(num, pg)
-
-    # 36-40: Rules 5,6,7,8,10
-    for num, key in [(35, "5"),(36, "6"),(37, "7"),(38, "8"),(39, "10")]:
-        yield num, build_rule3(num, key)
-
-    # 41-42: wor, ie
-    yield 40, build_multi3(40, "wor")
-    yield 41, build_multi3(41, "ie")
-    yield 42, build_multi3(42, "q")
-    yield 43, build_multi3(43, "bu")
-    yield 44, build_multi3(44, "gu")
-
-
-    yield 45, build_syllable(45, "compound")
-    yield 46, build_syllable(46, "vccv")
-    yield 47, build_syllable(47, "vcv")
-    yield 48, build_syllable(48, "cle")
-
-    # 47: Schwa
-    yield 49, build_rule3(49, "31")
-
-    # 48-49: Readers
-    yield 50, build_gwen()
-    yield 51, build_cole()
-
-    # 50: Mixed Spelling
-    yield 52, build_mixed_spelling()
-
-    # 51-52: Reviews
-    pg_list_3 = "dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie, q, bu, gu"
-    yield 53, build_review3(53, "Review: All Stage 3 Phonograms",
-        "Speed Flash", f"Flash ALL 75 phonograms. Focus on new ones: {pg_list_3}.",
-        "Phonogram Bingo",
-        "Pick 9 phonograms. Adult calls sounds. Cross off matching phonograms. Get 3 in a row to win!",
-        "Most Sounds Award",
-        "Which Stage 3 phonogram has the most sounds? (ough — 6 sounds!) Name all 6.",
-        ["bridge","catch","know","sign","write","eight","phone","ghost","though","caught","few","fruit","work","field"], "Flash all cards!")
-
-    yield 54, build_review3(54, "All Stage 3 Rules Review",
-        "Rule Speed Round",
-        "Adult says a rule number. Child states the rule:\n\n1 (C softens before E I Y)\n2 (G may soften before E I Y)\n5 (I/Y at end of syllable)\n6 (Y=/ī/ in one-syllable)\n7 (I/Y may say /ē/)\n8 (I/O before two consonants)\n10 (A=/ä/ at end, after W, before L)\n25 (DGE after short vowel)\n27 (TCH after short vowel)\n28 (GH phonograms)\n31 (Schwa in unstressed syllables)",
-        "Which Rule?",
-        "Adult says a word. Child names all rules that apply.\n\nbridge → Rule 25 (DGE after short vowel)\ncatch → Rule 27 (TCH after short vowel)\ncent → Rule 1 (C softens)\ngem → Rule 2 (G softens)\nby → Rule 6 (Y=/ī/)\nbaby → Rule 7 (Y=/ē/)\nfind → Rule 8 (I before two consonants)\nwater → Rule 10 (A=/ä/ after W)\nlaugh → Rule 28 (GH=/f/)",
-        "Spelling Challenge",
-        "Apply the rules to spell: dance, large, bridge, catch, by, baby, find, water, laugh, light.",
-        ["dance","large","bridge","catch","by","baby","find","water","laugh","light"], "Review your rule flashcards!")
-
-    # 53-54: HF Words
-    yield 55, build_hf3(55, 4, HF4,
-        "Where is the cat? There is a dog! Their hats are red. We were in the park. Come here!",
-        "Where is the dog? We were in the park. Come here now!",
-        "where")
-    yield 56, build_hf3(56, 5, HF5,
-        "I read it once. Two cats ran. Does the dog bark? Any cat can jump. Many dogs play.",
-        "I went once. Two cats ran. Does it bark?",
-        "once")
-
-    # 55: Sail Box reader
-    yield 57, build_sail()
-
-    # 56: Assessment
-    yield 58, build_final3()
-
+# ── INLINE LESSONS (long-form, story HTML) ─────────────────────────
 
 def build_long_vowels():
     return """# Lesson 2: Long Vowel Sounds
@@ -1232,6 +652,7 @@ We'll learn ALL of these in Stage 3!
 *Practice at home: Find 5 words with long vowels in a book.*
 """
 
+
 def build_se_practice():
     return """# Lesson 13: Silent E — Name That Reason
 
@@ -1296,6 +717,7 @@ For each word, identify which Silent E reason (12.1–12.9) applies. Some words 
 *Practice at home: Find 10 silent E words in a book. Name the reason for each!*
 """
 
+
 def build_se_ce_ge_spelling():
     words = [
         ("cent","c (/s/), e (/ĕ/), n (/n/), t (/t/)","Rule 1: C=/s/ before E","/sĕnt/"),
@@ -1357,6 +779,7 @@ Today we practice spelling words where C says /s/ and G says /j/.
 
 *Practice at home: Find words with ce, ci, ge, gi in a book.*
 """
+
 
 def build_gwen():
     return """# Lesson 48: Gwen Gives a Gift
@@ -1672,6 +1095,7 @@ The End.
 *Practice at home: Read this story aloud! Then try to build your own boat from a box!*
 """
 
+
 def build_mixed_spelling():
     words = [
         ("bridge","b (/b/), r (/r/), i (/ĭ/), dge (/j/)","Rule 25","/brĭj/"),
@@ -1741,8 +1165,9 @@ Today we practice ALL the spelling skills from Stage 3: silent E, new phonograms
 *Practice at home: Choose 3 words from today. Write each one 3 times.*
 """
 
+
 def build_mid3():
-    return ASSESSMENT3_TEMPLATE.format(
+    return env.get_template("assessment3.md.j2").render(
         num=24, title="Mid-Stage 3 Assessment",
         overview="Check progress on Silent E (reasons 1-4), first 5 new multi-letter PGs, and Rules 1-2.",
         pg_check="| a | /ă/ /ā/ /ä/ | ☐ |\n| c | /k/ /s/ | ☐ |\n| g | /g/ /j/ | ☐ |\n| sh | /sh/ | ☐ |\n| th | /th/ (2) | ☐ |\n| ck | /k/ | ☐ |\n| ee | /ē/ | ☐ |\n| oi | /oi/ | ☐ |\n| oy | /oi/ | ☐ |\n| ai | /ā/ | ☐ |\n| ay | /ā/ | ☐ |\n| dge | /j/ | ☐ |\n| tch | /ch/ | ☐ |\n| kn | /n/ | ☐ |\n| gn | /n/ | ☐ |\n| wr | /r/ | ☐ |",
@@ -1758,8 +1183,9 @@ def build_mid3():
         next_steps="If ≥85%: Continue to second half of Stage 3. If weaker, review trouble spots.",
     )
 
+
 def build_final3():
-    return ASSESSMENT3_TEMPLATE.format(
+    return env.get_template("assessment3.md.j2").render(
         num=56, title="Stage 3 Mastery Check",
         overview="Final Stage 3 assessment. Check mastery of all Silent E reasons, 21 new multi-letter phonograms, syllable division, and all Stage 3 rules.",
         pg_check="| dge | /j/ | ☐ |\n| tch | /ch/ | ☐ |\n| kn | /n/ | ☐ |\n| gn | /n/ | ☐ |\n| wr | /r/ | ☐ |\n| eigh | /ā/ | ☐ |\n| ei | /ē/ /ā/ /ī/ | ☐ |\n| ey | /ā/ /ē/ | ☐ |\n| ph | /f/ | ☐ |\n| gh | /g/ | ☐ |\n| ough | /ō/ /ö/ /ow/ /ŭf/ /äf/ /ü/ | ☐ |\n| augh | /ä/ /ăf/ | ☐ |\n| ew | /ü/ /ö/ | ☐ |\n| ui | /ü/ /ö/ | ☐ |\n| eu | /ü/ /ö/ | ☐ |\n| wor | /wer/ | ☐ |\n| ie | /ē/ /ī/ | ☐ |",
@@ -1775,7 +1201,138 @@ def build_final3():
         next_steps="If ≥85%: Move to Stage 4! If weaker, review specific trouble areas and retest in 1-2 weeks.",
     )
 
-# ── WRITE ───────────────────────────────────────────────────────────
+
+# ── MAIN ────────────────────────────────────────────────────────────
+
+def generate():
+    # 1: Review Stage 2
+    # 2: Long Vowels
+    yield 1, build_long_vowels()
+
+    # 3-6: Silent E reasons 12.1-12.4
+    for i, key in enumerate(["12.1","12.2","12.3","12.4"]):
+        yield 2+i, build_silent_e(2+i, key)
+
+    # 7: SE Review 12.1-4
+    yield 6, build_review3(6, "Silent E Review: Reasons 12.1–12.4",
+        "Name That Reason",
+        "Adult says a word. Child names which Silent E reason (12.1, 12.2, 12.3, or 12.4) applies.\n\ntape → 12.1 (vowel says long)\nhave → 12.2 (no V at end)\ndance → 12.3 (C says /s/)\nlittle → 12.4 (syllable needs vowel)\nmake → 12.1\nblue → 12.2\nchange → 12.3\ntable → 12.4",
+        "Word Sort",
+        "Sort these words into four columns by reason: make, have, dance, little, hope, give, since, apple, cube, live, prince, candle, these, solve, fence, bubble.",
+        "Challenge: Change It",
+        "Adult says a word without silent E. Child adds silent E and says which reason: cap→cape (12.1), giv→give (12.2), lac→lace (12.3), littl→little (12.4).",
+        ["make","have","dance","little","hope","give","since","table"], "Review reasons 12.1-12.4 at home!")
+
+    # 8-12: Silent E reasons 12.5-12.9
+    for i, key in enumerate(["12.5","12.6","12.7","12.8","12.9"]):
+        yield 7+i, build_silent_e(7+i, key)
+
+    # 13: Name That Reason practice
+    yield 12, build_se_practice()
+
+    # 14-16: Rules 1, 2 + Spelling
+    yield 13, build_rule3(13, "1")
+    yield 14, build_rule3(14, "2")
+    yield 15, build_se_ce_ge_spelling()
+
+    # 17-23: dge, tch, kn, gn, wr + reviews
+    yield 16, build_multi3(16, "dge")
+    yield 17, build_multi3(17, "tch")
+    yield 18, build_review3(18, "Review: DGE and TCH",
+        "DGE or GE?",
+        "Adult says a word. Child decides: DGE or GE?\n\nbridge (DGE — short i)\ncage (GE — long a)\nfudge (DGE — short u)\nlarge (GE — consonant r before)\nedge (DGE — short e)\nhuge (GE — long u)",
+        "TCH or CH?",
+        "Same game for TCH/CH:\n\ncatch (TCH — short a)\ninch (CH — consonant n before)\npitch (TCH — short i)\nlunch (CH — consonant n before)\nnotch (TCH — short o)",
+        "Build It",
+        "Write: bridge, edge, catch, watch, large, inch. Underline DGE/TCH/GE/CH.",
+        ["bridge","catch","large","watch","edge","inch"], "Find TCH and DGE words in a book!")
+
+    yield 19, build_multi3(19, "kn")
+    yield 20, build_multi3(20, "gn")
+    yield 21, build_multi3(21, "wr")
+
+    yield 22, build_review3(22, "Review: Silent Letter Phonograms kn gn wr",
+        "Silent Letter Hunt",
+        "Which letter is silent?\n\nknife → K is silent\nsign → G is silent\nwrite → W is silent\nknee → K\ngnat → G\nwrong → W\nknow → K\ndesign → G\nwrist → W",
+        "Read the Word",
+        "Adult writes these words. Child reads them aloud: know, sign, write, knee, gnat, wrong, knock, design, wrap, gnaw.",
+        "Dictation Challenge",
+        "Adult says a word. Child writes it: know, sign, write, knee, wrap, wrong.",
+        ["know","sign","write","knee","gnat","wrap"], "Write each kn/gn/wr word 3 times!")
+
+    # 24: Mid-Assessment
+    yield 23, build_mid3()
+
+    # 25-35: More PGs + Rule 28
+    for num, pg in [(24, "eigh"),(25, "ei"),(26, "ey"),(27, "ph"),(28, "gh"),(29, "ough"),(30, "augh")]:
+        yield num, build_multi3(num, pg)
+    yield 31, build_rule3(31, "28")
+    for num, pg in [(32, "ew"),(33, "ui"),(34, "eu")]:
+        yield num, build_multi3(num, pg)
+
+    # 36-40: Rules 5,6,7,8,10
+    for num, key in [(35, "5"),(36, "6"),(37, "7"),(38, "8"),(39, "10")]:
+        yield num, build_rule3(num, key)
+
+    # 41-42: wor, ie
+    yield 40, build_multi3(40, "wor")
+    yield 41, build_multi3(41, "ie")
+    yield 42, build_multi3(42, "q")
+    yield 43, build_multi3(43, "bu")
+    yield 44, build_multi3(44, "gu")
+
+
+    yield 45, build_syllable(45, "compound")
+    yield 46, build_syllable(46, "vccv")
+    yield 47, build_syllable(47, "vcv")
+    yield 48, build_syllable(48, "cle")
+
+    # 47: Schwa
+    yield 49, build_rule3(49, "31")
+
+    # 48-49: Readers
+    yield 50, build_gwen()
+    yield 51, build_cole()
+
+    # 50: Mixed Spelling
+    yield 52, build_mixed_spelling()
+
+    # 51-52: Reviews
+    pg_list_3 = "dge, tch, kn, gn, wr, eigh, ei, ey, ph, gh, ough, augh, ew, ui, eu, wor, ie, q, bu, gu"
+    yield 53, build_review3(53, "Review: All Stage 3 Phonograms",
+        "Speed Flash", f"Flash ALL 75 phonograms. Focus on new ones: {pg_list_3}.",
+        "Phonogram Bingo",
+        "Pick 9 phonograms. Adult calls sounds. Cross off matching phonograms. Get 3 in a row to win!",
+        "Most Sounds Award",
+        "Which Stage 3 phonogram has the most sounds? (ough — 6 sounds!) Name all 6.",
+        ["bridge","catch","know","sign","write","eight","phone","ghost","though","caught","few","fruit","work","field"], "Flash all cards!")
+
+    yield 54, build_review3(54, "All Stage 3 Rules Review",
+        "Rule Speed Round",
+        "Adult says a rule number. Child states the rule:\n\n1 (C softens before E I Y)\n2 (G may soften before E I Y)\n5 (I/Y at end of syllable)\n6 (Y=/ī/ in one-syllable)\n7 (I/Y may say /ē/)\n8 (I/O before two consonants)\n10 (A=/ä/ at end, after W, before L)\n25 (DGE after short vowel)\n27 (TCH after short vowel)\n28 (GH phonograms)\n31 (Schwa in unstressed syllables)",
+        "Which Rule?",
+        "Adult says a word. Child names all rules that apply.\n\nbridge → Rule 25 (DGE after short vowel)\ncatch → Rule 27 (TCH after short vowel)\ncent → Rule 1 (C softens)\ngem → Rule 2 (G softens)\nby → Rule 6 (Y=/ī/)\nbaby → Rule 7 (Y=/ē/)\nfind → Rule 8 (I before two consonants)\nwater → Rule 10 (A=/ä/ after W)\nlaugh → Rule 28 (GH=/f/)",
+        "Spelling Challenge",
+        "Apply the rules to spell: dance, large, bridge, catch, by, baby, find, water, laugh, light.",
+        ["dance","large","bridge","catch","by","baby","find","water","laugh","light"], "Review your rule flashcards!")
+
+    # 53-54: HF Words
+    yield 55, build_hf3(55, 4, HF4,
+        "Where is the cat? There is a dog! Their hats are red. We were in the park. Come here!",
+        "Where is the dog? We were in the park. Come here now!",
+        "where")
+    yield 56, build_hf3(56, 5, HF5,
+        "I read it once. Two cats ran. Does the dog bark? Any cat can jump. Many dogs play.",
+        "I went once. Two cats ran. Does it bark?",
+        "once")
+
+    # 55: Sail Box reader
+    yield 57, build_sail()
+
+    # 56: Assessment
+    yield 58, build_final3()
+
+
 
 S = {
     1:"long-vowels",
@@ -1800,12 +1357,15 @@ S = {
     57:"reader-4",58:"assessment-5",
 }
 
+
 def main():
     for num, content in generate():
         slug = S.get(num, f"lesson-{num:03d}")
-        (OUT / f"{slug}.md").write_text(content, encoding="utf-8")
-        print(f"  lessons/stage-3/{slug}.md")
-    print(f"\nDone! 56 lessons in lessons/stage-3/")
+        filepath = OUT_DIR / f"{slug}.md"
+        filepath.write_text(content, encoding="utf-8")
+        print(f"  {filepath.relative_to(PROJECT_ROOT)}")
+    print(f"\nDone! 58 lessons written to {OUT_DIR.relative_to(PROJECT_ROOT)}")
+
 
 if __name__ == "__main__":
     main()
