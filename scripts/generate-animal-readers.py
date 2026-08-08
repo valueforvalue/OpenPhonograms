@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # Per-page Spelling Aid sidebar (issues #20, #22) — see framework/reader_sidebar.py
 sys.path.insert(0, str(ROOT / "framework"))
 from reader_sidebar import build_sidebar, split_into_pages  # noqa: E402
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 OUT = ROOT / "readers"
 
 READERS = [
@@ -629,10 +630,10 @@ def main():
         r_with_pages["images"] = img_lines
         r_with_pages["phonograms"] = r["warmup"].replace(",", "")
         content = TMP.format(**r_with_pages)
-        (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        (OUT / f"{r['slug']}.md").write_text(stamp(content), encoding="utf-8")
         stage_dir = OUT / f"stage-{r['stage']}"
         stage_dir.mkdir(parents=True, exist_ok=True)
-        (stage_dir / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        (stage_dir / f"{r['slug']}.md").write_text(stamp(content), encoding="utf-8")
         print(f"  readers/{r['slug']}.md (+ readers/stage-{r['stage']}/)  [{r['animals']}]")
 
     print(f"\n{len(READERS)} readers generated")

@@ -27,7 +27,17 @@ FOOTER = (
     "*OpenPhonograms · MIT licensed. Phonograms are drawn from the "
     "public-domain phonics tradition (1800s onward).*\n"
 )
-FOOTER_MARKER = "OpenPhonograms · MIT licensed"  # marker for current FOOTER
+import re
+
+# Issue #24: the CSS-rendered PDF footer now carries a version stamp
+# `OpenPhonograms vX.Y.Z · MIT licensed`. The MD-level footer (legacy
+# strip path) is still keyed on the unversioned marker; we additionally
+# recognise the versioned shape via regex so any drift between VERSION
+# and a hand-edited MD footer gets stripped during a migration pass.
+FOOTER_MARKER = "OpenPhonograms \u00b7 MIT licensed"  # legacy unversioned
+FOOTER_MARKER_RE = re.compile(
+    r"OpenPhonograms v\d+\.\d+\.\d+ \u00b7 MIT licensed"
+)
 # Old (pre-rebrand) footer marker. Matched so we can strip it during the
 # one-time migration of remaining MD files.
 LEGACY_FOOTER_MARKER = "Source: Adapted from the methodology"
@@ -44,6 +54,8 @@ def needs_footer(content: str) -> bool:
         return True
     if FOOTER_MARKER in content:
         return True
+    if FOOTER_MARKER_RE.search(content):
+        return True
     return False
 
 
@@ -56,6 +68,15 @@ def strip_existing_footer(content: str) -> str:
         out = []
         for line in lines:
             if marker in line:
+                break
+            out.append(line)
+        content = "\n".join(out).rstrip() + "\n"
+    if FOOTER_MARKER_RE.search(content):
+        # Strip the line containing the versioned marker.
+        lines = content.splitlines()
+        out = []
+        for line in lines:
+            if FOOTER_MARKER_RE.search(line):
                 break
             out.append(line)
         content = "\n".join(out).rstrip() + "\n"

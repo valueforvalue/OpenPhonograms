@@ -28,6 +28,10 @@ TEMPLATE_DIR = PROJECT_ROOT / "templates" / "stage-5"
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+# Issue #24: stamp every generated MD with the current version.
+sys.path.insert(0, str(PROJECT_ROOT / "framework"))
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
+
 # ── JINJA ENVIRONMENT ────────────────────────────────────────────────
 
 env = Environment(
@@ -861,7 +865,7 @@ S = {
 def main():
     for num, content in generate():
         slug = S.get(num, f"lesson-{num:03d}")
-        (OUT_DIR / f"{slug}.md").write_text(content, encoding="utf-8")
+        (OUT_DIR / f"{slug}.md").write_text(stamp(content), encoding="utf-8")
         print(f"  lessons/stage-5/{slug}.md")
     print(f"\nDone! 40 lessons in lessons/stage-5/")
 

@@ -14,6 +14,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 # Per-page Spelling Aid sidebar (issues #20, #22) — see framework/reader_sidebar.py
 sys.path.insert(0, str(ROOT / "framework"))
 from reader_sidebar import build_sidebar, split_into_pages  # noqa: E402
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 
 READERS = []
 
@@ -434,10 +435,10 @@ def main():
         word_count = len(_wc_re.findall(r"\b\w+\b", r.get("story", "")))
         r_with_pages["word_count"] = word_count
         content = TMP.format(**r_with_pages)
-        (OUT / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        (OUT / f"{r['slug']}.md").write_text(stamp(content), encoding="utf-8")
         stage_dir = OUT / f"stage-{r['stage']}"
         stage_dir.mkdir(parents=True, exist_ok=True)
-        (stage_dir / f"{r['slug']}.md").write_text(content, encoding="utf-8")
+        (stage_dir / f"{r['slug']}.md").write_text(stamp(content), encoding="utf-8")
         print(f"  readers/{r['slug']}.md (+ readers/stage-{r['stage']}/)")
     print(f"\n{len(READERS)} additional readers generated")
 

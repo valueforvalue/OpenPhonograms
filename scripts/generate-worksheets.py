@@ -15,6 +15,7 @@ OUT = ROOT / "worksheets"
 import sys
 sys.path.insert(0, str(ROOT / "framework"))
 from data_loader import pg_kind_buckets, pg_stage_dict, rules_dict  # noqa: E402
+from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 
 # Backwards-compatible aliases (legacy SINGLE/MULTI/MULTI3/MULTI4 dicts)
 _BUCKETS = pg_kind_buckets()
@@ -178,11 +179,11 @@ def generate_pg_worksheets():
         fill = "\n".join(blanks[:5])
         
         content = PG_WORKSHEET.format(pg=pg, sounds=data["sounds"], circle_words=circle, fill_blanks=fill)
-        (OUT / "phonograms" / f"pg-{pg}.md").write_text(content, encoding="utf-8")
+        (OUT / "phonograms" / f"pg-{pg}.md").write_text(stamp(content), encoding="utf-8")
         stage = PG_STAGE.get(pg, 2)
         stage_dir = OUT / "phonograms" / f"stage-{stage}"
         stage_dir.mkdir(parents=True, exist_ok=True)
-        (stage_dir / f"pg-{pg}.md").write_text(content, encoding="utf-8")
+        (stage_dir / f"pg-{pg}.md").write_text(stamp(content), encoding="utf-8")
         count += 1
     return count
 
@@ -222,11 +223,11 @@ def generate_rule_worksheets():
         content = RULE_WORKSHEET.format(
             num=rnum, name=data["name"], statement=data["name"],
             circle_words=circle, apply_section=apply_sec)
-        (OUT / "rules" / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
+        (OUT / "rules" / f"rule-{rnum}.md").write_text(stamp(content), encoding="utf-8")
         stage = RULE_STAGE.get(rnum, 3)
         stage_dir = OUT / "rules" / f"stage-{stage}"
         stage_dir.mkdir(parents=True, exist_ok=True)
-        (stage_dir / f"rule-{rnum}.md").write_text(content, encoding="utf-8")
+        (stage_dir / f"rule-{rnum}.md").write_text(stamp(content), encoding="utf-8")
         count += 1
     return count
 
@@ -248,10 +249,10 @@ def generate_flash_cards():
         content = FLASH_CARD_SHEET.format(
             title=f"Single-Letter Phonograms (Page {(page//4)+1} of 7)",
             cards=cards)
-        (OUT / "cards" / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        (OUT / "cards" / f"flash-singles-{(page//4)+1}.md").write_text(stamp(content), encoding="utf-8")
         singles_stage_dir = OUT / "cards" / "stage-1"
         singles_stage_dir.mkdir(parents=True, exist_ok=True)
-        (singles_stage_dir / f"flash-singles-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        (singles_stage_dir / f"flash-singles-{(page//4)+1}.md").write_text(stamp(content), encoding="utf-8")
         count += 1
 
     # Multi-letter cards (4 per page) — Stage 2 (MULTI PGs)
@@ -270,10 +271,10 @@ def generate_flash_cards():
         content = FLASH_CARD_SHEET.format(
             title=f"Multi-Letter Phonograms (Stage 2 — Page {(page//4)+1} of {(len(multis_s2)//4)+1})",
             cards=cards)
-        (OUT / "cards" / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        (OUT / "cards" / f"flash-multi-{(page//4)+1}.md").write_text(stamp(content), encoding="utf-8")
         s2 = OUT / "cards" / "stage-2"
         s2.mkdir(parents=True, exist_ok=True)
-        (s2 / f"flash-multi-{(page//4)+1}.md").write_text(content, encoding="utf-8")
+        (s2 / f"flash-multi-{(page//4)+1}.md").write_text(stamp(content), encoding="utf-8")
         count += 1
 
     # Multi-letter cards — Stage 3+ (advanced PGs + Latin /sh/ from Stage 4)
@@ -294,7 +295,7 @@ def generate_flash_cards():
             cards=cards)
         # Continue flat numbering so existing pack references don't break
         flat_idx = (page // 4) + 1 + (len(multis_s2) // 4)
-        (OUT / "cards" / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
+        (OUT / "cards" / f"flash-multi-{flat_idx}.md").write_text(stamp(content), encoding="utf-8")
         # Stage 3 mirror for most, Stage 4 for ti/ci/si — use PG_STAGE from
         # framework/data_loader (YAML-backed via data/phonograms.yaml).
         if any(PG_STAGE.get(pg) == 4 for pg in batch):
@@ -303,7 +304,7 @@ def generate_flash_cards():
             stage = 3
         s_adv = OUT / "cards" / f"stage-{stage}"
         s_adv.mkdir(parents=True, exist_ok=True)
-        (s_adv / f"flash-multi-{flat_idx}.md").write_text(content, encoding="utf-8")
+        (s_adv / f"flash-multi-{flat_idx}.md").write_text(stamp(content), encoding="utf-8")
         count += 1
 
     return count
@@ -336,7 +337,7 @@ For each word, follow: Hear & Say → Segment → Write → Analyze → Read
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
 """
-    (OUT / "blank" / "spelling-analysis.md").write_text(blank_sa, encoding="utf-8")
+    (OUT / "blank" / "spelling-analysis.md").write_text(stamp(blank_sa), encoding="utf-8")
     
     # Blank handwriting
     blank_hw = """# Handwriting Practice
@@ -368,7 +369,7 @@ _______________ &nbsp;&nbsp; _______________ &nbsp;&nbsp; _______________
 
 **Name:** _______________ &nbsp;&nbsp; **Date:** _______________
 """
-    (OUT / "blank" / "handwriting.md").write_text(blank_hw, encoding="utf-8")
+    (OUT / "blank" / "handwriting.md").write_text(stamp(blank_hw), encoding="utf-8")
     
     # Blank reading log
     blank_rl = """# Reading Log
@@ -397,7 +398,7 @@ _______________ &nbsp;&nbsp; _______________ &nbsp;&nbsp; _______________
 
 **Name:** _______________
 """
-    (OUT / "blank" / "reading-log.md").write_text(blank_rl, encoding="utf-8")
+    (OUT / "blank" / "reading-log.md").write_text(stamp(blank_rl), encoding="utf-8")
     return 3
 
 # ── MAIN ────────────────────────────────────────────────────────────
