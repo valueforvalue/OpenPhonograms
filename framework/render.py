@@ -497,7 +497,7 @@ img {
     letter-spacing: 0.05em;
 }
 
-.reader-cover {
+.reader .reader-cover {
     text-align: center;
     padding: 2.5em 1.5em;
     border: 3px solid #2a5c8a;
@@ -507,25 +507,24 @@ img {
     page-break-after: always;
     break-after: page;
 }
-.reader-cover h1 {
+.reader .reader-cover h1 {
     font-size: 36pt;
     color: #2a5c8a;
     margin: 0.3em 0 0.2em 0;
     border-bottom: 2px solid #2a5c8a;
     padding-bottom: 0.2em;
 }
-.reader-cover p {
+.reader .reader-cover p {
     color: #444;
     font-size: 12pt;
     margin: 0.4em 0;
 }
-.page-break {
-    page-break-after: always;
-    break-after: page;
-}
 
-/* Reader layout: two-column with sidebar */
-.reader-page {
+/* Reader layout: two-column with sidebar. The forced page break on
+   .reader-page is scoped under .reader body class so lesson HTML can't
+   accidentally trigger it (see issue #26). Sub-elements (text/sidebar)
+   carry no page-break risk and remain unscoped. */
+.reader .reader-page {
     display: flex;
     gap: 1em;
     page-break-after: always;
