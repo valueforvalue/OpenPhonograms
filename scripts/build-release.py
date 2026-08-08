@@ -71,6 +71,9 @@ def _load_reference_basenames() -> set[str]:
     for html in ref_dir.glob("*.html"):
         if html.name.startswith("quick-check-stage-"):
             continue
+        # Feedback.html is shipped at ZIP root only (issue #25); no PDF variant
+        if html.name == "Feedback.html":
+            continue
         out.add(html.name.removesuffix(".html"))
     return out
 
@@ -118,6 +121,28 @@ def _stages(args) -> list[int]:
     return [args.stage] if args.stage else [1, 2, 3, 4, 5]
 
 
+def build_feedback_html(zf, args, stats):
+    """Section 0b: Feedback.html at ZIP root (issue #25).
+
+    Hand-authored HTML form that POSTs to Formspark. Lives at the ZIP
+    root so a teacher can double-click it from the extracted folder.
+    """
+    if args.no_readme:
+        # Treat Feedback.html as part of the README/root bundle — skip
+        # together so a `--no-readme` build is still self-contained.
+        stats["skipped"].append("Feedback.html")
+        return
+    feedback = ROOT / "reference" / "Feedback.html"
+    arc = "Feedback.html"
+    if args.list:
+        stats["included"].append(arc)
+        return
+    if not add_file(zf, feedback, arc):
+        stats["skipped"].append("Feedback.html (missing source)")
+        return
+    print(f"  OK  {arc}")
+
+
 def build_readme(zf, args, stats):
     """Section 0: README.md."""
     if args.no_readme:
@@ -146,6 +171,7 @@ WHAT'S IN THIS RELEASE
 02-Scope-and-Sequence.pdf              — full curriculum map
 04-Quick-Reference/                    — phonograms, rules, spelling analysis,
                                           diacritical legend, glossary (HTMLs + PDFs)
+Feedback.html                         — submit feedback (opens in browser, needs internet)
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
 06-Lesson-Packs/                       — 244 per-lesson bundles (each with cover,
                                           at-a-glance, lesson script, worksheets, cards)
@@ -474,6 +500,9 @@ def build_reference(zf, args, stats):
     for html in sorted(ref_dir.glob("*.html")):
         if html.name.startswith("quick-check-stage-"):
             continue
+        # Feedback.html lives at ZIP root (issue #25), not in 04-Quick-Reference/
+        if html.name == "Feedback.html":
+            continue
         arc = f"04-Quick-Reference/{html.name}"
         if args.list:
             stats["included"].append(arc)
@@ -590,6 +619,7 @@ def main():
 def _run_sections(zf, args, stats):
     """Call every section builder in order."""
     build_readme(zf, args, stats)
+    build_feedback_html(zf, args, stats)
     build_handbook_nav(zf, args, stats)
     build_landing_html(zf, args, stats)
     build_handbooks(zf, args, stats)

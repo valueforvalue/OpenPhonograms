@@ -38,6 +38,7 @@ That's it. Everything else is in the lesson files.
 | `reference/morpheme-wall.html` | Latin/Greek roots display | Stage 4-5 |
 | `reference/diacritical-legend.html` | Breve, macron, schwa, IPA marks | Warm-up word boxes |
 | `reference/glossary.html` | ~25 key terms used in the curriculum | Definitions + cross-refs |
+| `reference/Feedback.html` | Send feedback to maintainer | After a lesson, when something needs fixing |
 | `TEACHER-GUIDE.md` | This document | Start here |
 | `TEACHER-GUIDE.pdf` | Printable version of this guide | Print once |
 | `readers/` | 9 standalone decodable readers | Reading practice at key points |
