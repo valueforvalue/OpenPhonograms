@@ -210,7 +210,6 @@ def make_start_here() -> Path:
 <tr><td>04-Quick-Reference/</td><td>Phonogram chart, spelling rules, spelling analysis routine</td></tr>
 <tr><td>05-Teacher-Handbooks/</td><td>5 bound-book-style PDFs (one per stage), {counts["lessons"]} lessons with bookmarks</td></tr>
 <tr><td>06-Lesson-Packs/</td><td>{counts["lessons"]} per-lesson bundles (cover + lesson + worksheet + flash cards), one folder per stage</td></tr>
-<tr><td>07-Worksheets/</td><td>{counts["worksheets"]} standalone practice sheets (phonograms, rules, cards, blank)</td></tr>
 <tr><td>08-Decodable-Readers/</td><td>25 decodable story PDFs + index</td></tr>
 <tr><td>09-Quick-Checks/</td><td>Placement test + 5 stage quick-check PDFs (informal diagnostics)</td></tr>
 <tr><td>10-Assessments/</td><td>Stage mastery assessments (8 total)</td></tr>
@@ -329,10 +328,7 @@ def make_master_index() -> Path:
 
 <h2 id="worksheets">Worksheets</h2>
 
-<div class="toc-item"><span class="title">Phonogram practice</span><span class="page"><a href="07-Worksheets/phonograms/">07-Worksheets/phonograms/</a> — 72 sheets (browse the folder)</span></div>
-<div class="toc-item"><span class="title">Spelling rule practice</span><span class="page"><a href="07-Worksheets/rules/">07-Worksheets/rules/</a> — 31 sheets (browse the folder)</span></div>
-<div class="toc-item"><span class="title">Flash cards (cut-out)</span><span class="page"><a href="07-Worksheets/cards/">07-Worksheets/cards/</a> — 19 sheets (browse the folder)</span></div>
-<div class="toc-item"><span class="title">Blank templates</span><span class="page"><a href="07-Worksheets/blank/">07-Worksheets/blank/</a> — 3 sheets (browse the folder)</span></div>
+<p>Worksheets and flash cards are bundled inside each lesson pack in <a href="06-Lesson-Packs/stage-1-all-lessons.pdf">06-Lesson-Packs/</a>. Open any lesson pack PDF — the worksheet and flash cards follow the lesson script.</p>
 
 <h2 id="readers">Decodable Readers</h2>
 

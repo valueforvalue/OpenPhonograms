@@ -389,7 +389,7 @@ all: gen-all gen-footers handbooks-batch pack-all render-readers render-referenc
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop, Model C: ~5 min Windows)
-build: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test
+build: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test gen-binding-instructions
     @echo ""
     @echo "==> Build complete (Model C, no release ZIP)"
     @echo "    Handbooks: {{build_dir_s}}/handbook/"
