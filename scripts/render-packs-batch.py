@@ -95,7 +95,6 @@ def assemble_pack_markdown(row: dict, catalog: list[dict]) -> str | None:
 
     parts = []
     parts.append(build_cover_page(row, missing))
-    parts.append(PAGE_BREAK)
     parts.append(build_at_a_glance(row))
     parts.append(lesson_text)
     if worksheet_path:

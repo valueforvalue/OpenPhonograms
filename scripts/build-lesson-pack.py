@@ -202,21 +202,19 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
     new_pg = (row.get("new_phonogram") or "").strip()
     new_rule = (row.get("new_rule") or "").strip()
 
-    # Materials checklist
-    checklist = [
-        "- [ ] At-a-glance reference card (page 2)",
-        "- [ ] Phonogram cards for review",
-        "- [ ] Whiteboard + marker",
-        "- [ ] Pencil and paper",
-    ]
+    # Materials checklist — only lesson-specific items.
+    # Static items (card, pencil, whiteboard) are on the at-a-glance card.
+    checklist = []
     if ltype == "phonogram-intro" and new_pg:
         checklist.append(f"- [ ] New phonogram card: **{new_pg}**")
     if ltype == "rule-intro" and new_rule:
-        checklist.append(f"- [ ] Spelling rule reference for Rule {new_rule}")
+        checklist.append(f"- [ ] Spelling rule card: Rule {new_rule}")
     if ltype == "reader":
         checklist.append("- [ ] Decodable reader printed or on tablet")
     if ltype == "assessment":
-        checklist.append("- [ ] Pencils, timer, scoring sheet")
+        checklist.append("- [ ] Timer, scoring sheet")
+    if not checklist:
+        checklist.append("- [ ] Lesson pack (this file)")
 
     new_pg_line = f"\n**New phonogram:** `{new_pg}`" if new_pg else ""
     new_rule_line = f"\n**New rule:** Rule {new_rule}" if new_rule else ""
@@ -231,30 +229,14 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
 
 ---
 
-## Prep Checklist
+## Prep
 
-Print this pack before the lesson. Check off as you gather materials.
+Print this pack before the lesson.
 
-{chr(10).join(checklist)}
-
----
-
-## Pack Contents
-
-| Page | Section |
-|------|---------|
-| 1 | This cover page |
-| 2 | At-a-glance reference card |
-| 3 | Teacher script |
-| 4+ | Worksheet (if any) |
-| last | Flash cards for review |
-{"| last | Reader (if any) |" if ltype == "reader" or (row.get("reader") or "").strip() else ""}
+{chr(10).join(checklist) if checklist else ''}
 
 ---
-
-*Pack generated for the *OpenPhonograms* curriculum (v{_get_version()}).*
 {missing_block}
-
 """
     return cover
 
