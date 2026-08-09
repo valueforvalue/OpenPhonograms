@@ -202,19 +202,13 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
     new_pg = (row.get("new_phonogram") or "").strip()
     new_rule = (row.get("new_rule") or "").strip()
 
-    # Materials checklist — only lesson-specific items.
-    # Static items (card, pencil, whiteboard) are on the at-a-glance card.
-    checklist = []
-    if ltype == "phonogram-intro" and new_pg:
-        checklist.append(f"- [ ] New phonogram card: **{new_pg}**")
-    if ltype == "rule-intro" and new_rule:
-        checklist.append(f"- [ ] Spelling rule card: Rule {new_rule}")
-    if ltype == "reader":
-        checklist.append("- [ ] Decodable reader printed or on tablet")
-    if ltype == "assessment":
-        checklist.append("- [ ] Timer, scoring sheet")
-    if not checklist:
-        checklist.append("- [ ] Lesson pack (this file)")
+    # Missing assets warning only
+    missing_block = ""
+    if missing_assets:
+        missing_block = "\n\n> **Missing assets:** " + ", ".join(missing_assets) + "\n"
+
+    # Clean cover: lesson metadata only.
+    # The at-a-glance card follows directly (no page break).
 
     new_pg_line = f"\n**New phonogram:** `{new_pg}`" if new_pg else ""
     new_rule_line = f"\n**New rule:** Rule {new_rule}" if new_rule else ""
@@ -226,16 +220,6 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
     cover = f"""# Lesson Pack: Lesson {lnum} — {title}
 
 **Stage {stage}** · Lesson {lnum} · `{ltype}`{new_pg_line}{new_rule_line}
-
----
-
-## Prep
-
-Print this pack before the lesson.
-
-{chr(10).join(checklist) if checklist else ''}
-
----
 {missing_block}
 """
     return cover
