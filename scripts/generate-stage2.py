@@ -760,8 +760,8 @@ def generate_all():
     # ── Lessons 11-22: Multi-Letter Phonograms (First Wave) ──
 
     pg_sequence = [
-        (11, "sh"), (12, "th"), (13, "ck"),
-        (15, "ee"), (19, "ng"), (20, "ar"), (21, "or"), (22, "er"),
+        (10, "sh"), (11, "th"), (12, "ck"),
+        (14, "ee"), (18, "ng"), (19, "ar"), (20, "or"), (21, "er"),
     ]
     for num, pg in pg_sequence:
         yield num, build_multi_pg(num, pg)
@@ -816,14 +816,14 @@ def generate_all():
     # ── Lessons 25-50: Second Wave Multi-Letter PGs + Rules ──
 
     second_wave = [
-        (25, "oi"), (26, "oy"),
-        (28, "ai"), (29, "ay"),
-        (32, "ch"), (33, "wh"), (34, "ea"),
-        (36, "ow"), (37, "ou"),
-        (40, "oo"), (41, "ed"),
-        (43, "igh"), (44, "aw"), (45, "au"),
-        (46, "ir"), (47, "ur"),
-        (49, "oa"), (50, "ear"),
+        (24, "oi"), (25, "oy"),
+        (27, "ai"), (28, "ay"),
+        (31, "ch"), (32, "wh"), (33, "ea"),
+        (35, "ow"), (36, "ou"),
+        (39, "oo"), (40, "ed"),
+        (42, "igh"), (43, "aw"), (44, "au"),
+        (45, "ir"), (46, "ur"),
+        (48, "oa"), (49, "ear"),
     ]
     for num, pg in second_wave:
         yield num, build_multi_pg(num, pg)
