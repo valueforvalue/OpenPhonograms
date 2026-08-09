@@ -210,8 +210,7 @@ def make_start_here() -> Path:
 <tr><td>08-Decodable-Readers/</td><td>25 decodable story PDFs + index</td></tr>
 <tr><td>09-Quick-Checks/</td><td>Placement test + 5 stage quick-check PDFs (informal diagnostics)</td></tr>
 <tr><td>10-Assessments/</td><td>Stage mastery assessments (8 total)</td></tr>
-<tr><td>11-Game/</td><td>Phonogram trainer (6 modes: Flash, Match, Speed, Spell, Build, Browse)</td></tr>
-<tr><td>12-Audio/</td><td>{counts["audio_mp3s"]} phonogram MP3s (neural TTS) — {counts["phonograms"]} total phonograms; run `just audio` to generate any missing</td></tr>
+<tr><td>11-Game/</td><td>Phonogram trainer (6 modes: Flash, Match, Speed, Spell, Build, Browse) + bundled audio MP3s</td></tr>
 <tr><td>13-Certificates/</td><td>Printable completion certificates (one per stage)</td></tr>
 </table>
 
@@ -355,8 +354,7 @@ def make_master_index() -> Path:
 
 <h2 id="extras">Extras</h2>
 
-<div class="toc-item"><span class="title"><a href="11-Game/phonogram-trainer.html">Phonogram Trainer (web game)</a></span><span class="page">→ 6 modes: Flash, Match, Speed, Spell, Build, Browse</span></div>
-<div class="toc-item"><span class="title"><a href="12-Audio/">Phonogram audio MP3s</a></span><span class="page">→ 74 neural-TTS MP3s</span></div>
+<div class="toc-item"><span class="title"><a href="11-Game/phonogram-trainer.html">Phonogram Trainer (web game)</a></span><span class="page">→ 6 modes: Flash, Match, Speed, Spell, Build, Browse + bundled audio MP3s</span></div>
 <div class="toc-item"><span class="title"><a href="13-Certificates/certificate-stage-1.pdf">Certificate — Stage 1</a></span><span class="page">→ printable completion certificate</span></div>
 <div class="toc-item"><span class="title"><a href="13-Certificates/certificate-stage-2.pdf">Certificate — Stage 2</a></span><span class="page">→ printable completion certificate</span></div>
 <div class="toc-item"><span class="title"><a href="13-Certificates/certificate-stage-3.pdf">Certificate — Stage 3</a></span><span class="page">→ printable completion certificate</span></div>

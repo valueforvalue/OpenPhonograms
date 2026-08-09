@@ -64,14 +64,14 @@ class TestListDryRun:
 class TestOutput:
     def test_custom_output_path(self, tmp_path):
         out = tmp_path / "custom-name.zip"
-        result = _run_release("--output", str(out), "--no-game", "--no-audio")
+        result = _run_release("--output", str(out), "--no-game")
         assert result.returncode == 0
         assert out.exists(), "Custom output ZIP not created"
         assert out.stat().st_size > 1000
 
     def test_short_flag_o(self, tmp_path):
         out = tmp_path / "short-flag.zip"
-        result = _run_release("-o", str(out), "--no-game", "--no-audio")
+        result = _run_release("-o", str(out), "--no-game")
         assert result.returncode == 0
         assert out.exists()
 
@@ -120,7 +120,7 @@ class TestStageFilter:
 class TestNoSectionFlags:
     @pytest.mark.parametrize("flag,expected_missing", [
         ("--no-game", "11-Game/"),
-        ("--no-audio", "12-Audio/"),
+        ("--no-audio", "11-Game/audio/"),
         ("--no-lessons", "06-Lesson-Packs/"),
         ("--no-worksheets", "07-Worksheets/"),
         ("--no-readers", "08-Decodable-Readers/"),
@@ -159,7 +159,7 @@ class TestNoSectionFlags:
         minimal = tmp_path / "minimal.zip"
         result_full = _run_release("--output", str(full))
         result_min = _run_release(
-            "--no-game", "--no-audio", "--no-lessons",
+            "--no-game", "--no-lessons",
             "--output", str(minimal),
         )
         assert result_full.returncode == 0

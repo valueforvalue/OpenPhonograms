@@ -69,8 +69,7 @@ Open issues for the project. Checked = done, unchecked = planned.
   - 08-Decodable-Readers/ (25 readers + index)
   - 09-Quick-Checks/ (placement test + 5 stage quick-checks)
   - 10-Assessments/ (8 stage mastery assessments)
-  - 11-Game/ (phonogram-trainer.html)
-  - 12-Audio/ (74 MP3s)
+  - 11-Game/ (phonogram-trainer.html + bundled audio MP3s)
   - 13-Certificates/ (5 printable completion certificates)
   - README.md (text overview at root)
 - [x] Website/landing page: docs/index.html + 00-Landing-Page.pdf

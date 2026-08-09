@@ -32,8 +32,7 @@ Produces a top-level ZIP with:
   07-Worksheets/                   — 178 standalone practice sheets (opt-in via --with-worksheets)
   08-Decodable-Readers/            — 25 readers + index
   09-Quick-Checks/                 — placement + 5 stage quick-checks
-  11-Game/                         — phonogram trainer (web game)
-  12-Audio/                        — phonogram MP3s (neural TTS; run `just audio` to regenerate)
+  11-Game/                         — phonogram trainer (web game) + bundled audio MP3s
   13-Certificates/                 — 5 printable completion certificates
 
 All paths inside the ZIP use forward slashes (POSIX) for cross-platform use.
@@ -157,7 +156,7 @@ def build_readme(zf, args, stats):
 
 This ZIP contains the complete OpenPhonograms curriculum (244 lessons, 5 stages,
 75 phonograms, 31 spelling rules, 25 decodable readers) plus all printable
-aids, the phonogram trainer web game, and 74 phonogram audio MP3s.
+aids and the phonogram trainer web game (which bundles its own audio MP3s).
 
 QUICK START
 -----------
@@ -514,9 +513,14 @@ def build_reference(zf, args, stats):
 
 
 def build_game(zf, args, stats):
-    """Section 11: Web game HTML + audio MP3s."""
-    if args.no_game:
-        stats["skipped"].append("11-Game/")
+    """Section 11: Web game HTML + audio MP3s (audio is a game asset).
+
+    Audio lives under games/audio/ in source and ships under
+    11-Game/audio/ in the release so the web game is self-contained.
+    --no-audio is kept as a deprecated alias for --no-game.
+    """
+    if args.no_game or args.no_audio:
+        stats["skipped"].append("11-Game/ (game + audio)")
         return
     game_html = ROOT / "games" / "phonogram-trainer.html"
     if game_html.exists():
@@ -525,16 +529,14 @@ def build_game(zf, args, stats):
         else:
             zf.write(game_html, "11-Game/phonogram-trainer.html")
             print("  OK  11-Game/phonogram-trainer.html")
-    if args.no_audio:
-        return
     audio_dir = ROOT / "games" / "audio"
     if audio_dir.exists():
         if args.list:
-            stats["included"].append("12-Audio/")
+            stats["included"].append("11-Game/audio/")
         else:
-            count = add_directory(zf, audio_dir, "12-Audio")
+            count = add_directory(zf, audio_dir, "11-Game/audio")
             if count:
-                print(f"  OK  12-Audio/  ({count} MP3s)")
+                print(f"  OK  11-Game/audio/  ({count} MP3s)")
 
 
 # ── CLI ────────────────────────────────────────────────────────────────
@@ -574,7 +576,7 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--no-quick-checks", action="store_true", help="Skip 09-Quick-Checks/")
     p.add_argument("--no-assessments", action="store_true", help="Skip 10-Assessments/")
     p.add_argument("--no-game", action="store_true", help="Skip 11-Game/ phonogram trainer")
-    p.add_argument("--no-audio", action="store_true", help="Skip 12-Audio/ MP3s (keeps game HTML)")
+    p.add_argument("--no-audio", action="store_true", help="Skip 11-Game/audio/ MP3s (deprecated alias for --no-game; audio is now a game asset)")
     p.add_argument("--no-certs", action="store_true", help="Skip 13-Certificates/")
     p.add_argument("--no-reference", action="store_true", help="Skip 04-Quick-Reference/ HTMLs")
     return p

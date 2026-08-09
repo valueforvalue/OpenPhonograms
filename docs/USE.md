@@ -74,8 +74,7 @@ Uncovering-the-Logic-of-English/
 ├── 08-Decodable-Readers/                      # 25 decodable story PDFs + index
 ├── 09-Quick-Checks/                           # Placement test + 5 stage quick-checks
 ├── 10-Assessments/                            # 8 stage mastery assessments
-├── 11-Game/                                   # Phonogram trainer (web game)
-├── 12-Audio/                                  # 74 MP3 files (phonogram sounds)
+├── 11-Game/                                   # Phonogram trainer (web game) + bundled audio MP3s
 └── 13-Certificates/                           # 5 printable completion certificates
 ```
 
