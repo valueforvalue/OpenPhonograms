@@ -42,22 +42,22 @@ log = get_logger("render-references")
 _FONT_FACE_CSS = """
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url("../framework/fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+    src: url("framework/fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
     font-weight: 400; font-style: normal;
 }
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url("../framework/fonts/AtkinsonHyperlegible-Italic.ttf") format("truetype");
+    src: url("framework/fonts/AtkinsonHyperlegible-Italic.ttf") format("truetype");
     font-weight: 400; font-style: italic;
 }
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url("../framework/fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype");
+    src: url("framework/fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype");
     font-weight: 700; font-style: normal;
 }
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url("../framework/fonts/AtkinsonHyperlegible-BoldItalic.ttf") format("truetype");
+    src: url("framework/fonts/AtkinsonHyperlegible-BoldItalic.ttf") format("truetype");
     font-weight: 700; font-style: italic;
 }
 """
@@ -67,19 +67,21 @@ def render_html(html_path: Path, out_path: Path) -> bool:
     """Render a single HTML reference to PDF. Returns True on success."""
     try:
         from weasyprint import HTML
+        from framework.render import PAGE_CSS
         html_text = html_path.read_text(encoding="utf-8")
-        # Inject font @font-face right after <style> or before </head>
-        # so WeasyPrint embeds Atkinson Hyperlegible.
-        if "</style>" in html_text and "@font-face" not in html_text:
+        # Inject PAGE_CSS (logo header, page margins, footers) +
+        # font @font-face before </style> or </head>.
+        inject = PAGE_CSS + "\n" + _FONT_FACE_CSS
+        if "</style>" in html_text:
             html_text = html_text.replace(
-                "</style>", f"{_FONT_FACE_CSS}</style>", 1)
+                "</style>", f"{inject}</style>", 1)
         elif "</head>" in html_text:
             html_text = html_text.replace(
                 "</head>",
-                f"<style>{_FONT_FACE_CSS}</style></head>", 1)
-        # base_url = REF_DIR so relative asset links (../assets/main.css, ../framework/fonts/) resolve
+                f"<style>{inject}</style></head>", 1)
+        # base_url = ROOT so PAGE_CSS relative paths (assets/logo/...) resolve
         HTML(string=html_text,
-             base_url=str(REF_DIR) + "/").write_pdf(str(out_path))
+             base_url=str(ROOT) + "/").write_pdf(str(out_path))
         return True
     except Exception as e:
         log.error(f"FAIL {html_path.name}: {e}")
