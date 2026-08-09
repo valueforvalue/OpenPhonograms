@@ -440,7 +440,33 @@ LESSON_SLUGS = {
     44: "pa-12-blends", 45: "pa-13-two-syllable",
     46: "handwriting-1", 47: "handwriting-2",
     48: "assessment-1",
+    49: "review-6", 50: "review-7", 51: "review-8",
 }
+
+
+def _build_bonus_reader(num: int, title: str, slug: str, story_title: str,
+                        phonograms: list[str], warmup_words: list[str],
+                        talk_about: str, next_num: int | None,
+                        next_title: str | None) -> str:
+    """Render a post-mastery bonus reader lesson shell.
+
+    The reader PDF itself lives under readers/stage-1/{slug}.pdf and is
+    attached to the pack as a separate file by build_lesson_pack.
+    This shell just provides the warm-up, talk-about, and home-practice.
+    """
+    pg_list = ", ".join(phonograms)
+    return env.get_template("reader-bonus.md.j2").render(
+        lesson_num=num,
+        title=title,
+        story_path=f"../../readers/stage-1/{slug}.pdf",
+        story_title=story_title,
+        phonograms=pg_list,
+        warmup_words=warmup_words,
+        talk_about=talk_about,
+        next_num=next_num if next_num is not None else "end of stage",
+        next_title=next_title if next_title is not None else "(Stage 2 placement)",
+        teacher_script="",
+    )
 
 
 def generate_all():
@@ -856,6 +882,47 @@ def generate_all():
     )
 
     yield 48, build_assessment()
+
+    # Lessons 49-51: post-mastery bonus readers (issue #28 Wave 2,
+    # catalog rows 49-51). Reader PDFs live under readers/stage-1/.
+    # Issue #64: these were in the catalog but the lesson shells were
+    # never generated, breaking pack-all. Now they are.
+    yield 49, _build_bonus_reader(
+        49, "Bonus Reader 6: The Sun and the Moon",
+        "006-the-sun-and-the-moon",
+        "The Sun and the Moon",
+        ["a", "d", "g", "c", "o", "qu", "s", "t", "i", "p", "u", "j",
+         "r", "n", "m", "e", "l", "b", "h", "k", "f", "v", "w", "x", "y", "z"],
+        ["sun", "moon", "sky", "dark", "star", "set", "big", "dim", "lit", "land"],
+        "1. What does the sun do each day?\n"
+        "2. What changes when the moon is out?\n"
+        "3. Can you find a word with the phonogram S in it?",
+        50, "Bonus Reader 7: A Big Ant",
+    )
+    yield 50, _build_bonus_reader(
+        50, "Bonus Reader 7: A Big Ant",
+        "007-a-big-ant",
+        "A Big Ant",
+        ["a", "d", "g", "c", "o", "qu", "s", "t", "i", "p", "u", "j",
+         "r", "n", "m", "e", "l", "b", "h", "k", "f", "v", "w", "x", "y", "z"],
+        ["ant", "big", "hill", "dig", "sand", "bug", "run", "jump", "land", "rest"],
+        "1. Where does the ant live?\n"
+        "2. What does the ant do at the hill?\n"
+        "3. Can you find a word that starts with the phonogram B?",
+        51, "Bonus Reader 8: The Kit and the Cat",
+    )
+    yield 51, _build_bonus_reader(
+        51, "Bonus Reader 8: The Kit and the Cat",
+        "008-the-kit-and-the-cat",
+        "The Kit and the Cat",
+        ["a", "d", "g", "c", "o", "qu", "s", "t", "i", "p", "u", "j",
+         "r", "n", "m", "e", "l", "b", "h", "k", "f", "v", "w", "x", "y", "z"],
+        ["kit", "cat", "big", "little", "bell", "pet", "sit", "run", "play", "nap"],
+        "1. Who is bigger — the kit or the cat?\n"
+        "2. What does the bell do?\n"
+        "3. Can you find a word with the phonogram L in it?",
+        None, None,
+    )
 
 
 # ── Write files ────────────────────────────────────────────────────────────

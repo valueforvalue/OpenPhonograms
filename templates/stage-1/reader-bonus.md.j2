@@ -1,0 +1,51 @@
+{# SPDX-License-Identifier: MIT
+   Copyright (c) 2026 Jeremy Morris. Released under the MIT License.
+   Stage 1 — bonus reader lesson (post-mastery decodable practice).
+   Variables: lesson_num, title, phonograms, story_path, story_title,
+              warmup_words, talk_about, next_num, next_title, teacher_script
+#}
+# Lesson {{ lesson_num }}: {{ title }}
+
+**Stage 1** · Lesson {{ lesson_num }} · reader
+
+---
+
+## Warm-Up: Phonogram Flash Review
+
+> Quick flash of the phonograms used in today's story.
+
+| Phonograms to review |
+|----------------------|
+| {{ phonograms }}
+
+---
+
+## Warm-Up Words — Read These First
+
+Read each word aloud before opening the story. Sound it out, then say it fast.
+
+{% for w in warmup_words -%}
+**{{ w }}**
+{% endfor %}
+
+---
+
+## Story: {{ story_title }}
+
+Open the reader PDF (linked in the cover) and read it together. The child
+reads each page aloud. If a word is tricky, sound it out together. No
+need to stop for spelling analysis on bonus readers — focus on fluency
+and joy.
+
+---
+
+## Talk About It
+
+{{ talk_about }}
+
+---
+
+**Next lesson:** Lesson {{ next_num }} — {{ next_title }}
+
+*Practice at home:* Re-read the story once tonight and once tomorrow. The
+goal is smooth, confident reading — not speed.
