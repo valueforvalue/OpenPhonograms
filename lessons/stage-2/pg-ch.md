@@ -111,7 +111,3 @@ chin &nbsp;&nbsp; much &nbsp;&nbsp; school
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ch — it says /ch/ /k/ /sh/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

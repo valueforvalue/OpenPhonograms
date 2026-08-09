@@ -94,5 +94,3 @@ Draw the little lamb in the meadow. What is nearby?
 ---
 
 *For use with Stage 1 · Lesson 30: Review: Group 3 Phonograms*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

@@ -111,7 +111,3 @@ saw &nbsp;&nbsp; draw &nbsp;&nbsp; law
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram aw — it says /ä/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

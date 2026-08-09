@@ -89,7 +89,3 @@ GH at the BEGINNING of a word says /g/. This is different from GH at the end (wh
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gh — it says /g/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

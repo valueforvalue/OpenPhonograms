@@ -111,7 +111,3 @@ boy &nbsp;&nbsp; toy &nbsp;&nbsp; enjoy
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oy — it says /oi/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

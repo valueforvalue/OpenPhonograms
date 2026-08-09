@@ -109,7 +109,3 @@ learn &nbsp;&nbsp; earth &nbsp;&nbsp; early
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ear — it says /er/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

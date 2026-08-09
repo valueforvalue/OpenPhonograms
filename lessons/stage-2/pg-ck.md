@@ -111,7 +111,3 @@ back &nbsp;&nbsp; duck &nbsp;&nbsp; sick
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ck — it says /k/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

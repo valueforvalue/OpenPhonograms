@@ -89,7 +89,3 @@ KN is a two-letter /n/ used only at the BEGINNING of a word. The K is silent. Th
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram kn — it says /n/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

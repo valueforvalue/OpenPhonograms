@@ -111,7 +111,3 @@ day &nbsp;&nbsp; play &nbsp;&nbsp; stay
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ay — it says /ā/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

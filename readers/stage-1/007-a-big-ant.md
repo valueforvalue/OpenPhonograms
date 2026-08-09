@@ -96,5 +96,3 @@ Draw the big ant and the small ant on the hill.
 ---
 
 *For use with Stage 1 · Lesson 43: All 26 Phonograms Review*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

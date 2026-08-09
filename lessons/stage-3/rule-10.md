@@ -101,7 +101,3 @@ spa, ma, pa (end) · water, watch, want, wash (after W) · ball, tall, fall, all
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Flick is a red fox. Flick has a den under a big log at the rim of the woods. Flick is fast.
+Flick is a red fox. Flick has a den under a big log at the edge of the woods. Flick is fast.
 
 </div>
 

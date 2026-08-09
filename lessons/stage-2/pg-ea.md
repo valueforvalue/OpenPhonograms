@@ -111,7 +111,3 @@ eat &nbsp;&nbsp; head &nbsp;&nbsp; great
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ea — it says /ē/ /ĕ/ /ā/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

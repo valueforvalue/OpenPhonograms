@@ -109,7 +109,3 @@ ship &nbsp;&nbsp; fish &nbsp;&nbsp; dash
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram sh — it says /sh/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

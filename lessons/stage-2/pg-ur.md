@@ -109,7 +109,3 @@ hurt &nbsp;&nbsp; turn &nbsp;&nbsp; burn
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ur — it says /er/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

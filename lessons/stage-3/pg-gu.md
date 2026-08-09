@@ -89,7 +89,3 @@ In GU at the start of a word, the U is silent — only G is heard. Common in eve
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gu — it says /g/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

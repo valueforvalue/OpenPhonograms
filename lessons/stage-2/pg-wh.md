@@ -109,7 +109,3 @@ when &nbsp;&nbsp; which &nbsp;&nbsp; white
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wh — it says /hw/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

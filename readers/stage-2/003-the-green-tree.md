@@ -125,7 +125,7 @@ The wind shakes the tree. The nest slips! "Help!" sings the bird.
 
 <div class="reader-text">
 
-Fern sees the nest fall. She jumps up. She saves it.
+Fern sees the nest fall. She jumps up. She catches it.
 
 </div>
 

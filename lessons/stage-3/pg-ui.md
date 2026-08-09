@@ -90,7 +90,3 @@ UI says /ü/ (as in 'fruit') in most words. In 'build,' it says /ö/. UI always 
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ui — it says /ü/ /ö/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

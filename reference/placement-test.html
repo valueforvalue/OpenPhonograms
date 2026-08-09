@@ -10,6 +10,7 @@ h1 { font-size: 22pt; margin: 0 0 0.2em 0; color: #2a5c8a; border-bottom: 3px so
 h2 { font-size: 16pt; color: #2a5c8a; margin-top: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }
 .meta { color: #555; font-size: 10pt; margin-bottom: 1.5em; }
 .section { page-break-inside: avoid; margin-bottom: 2em; padding: 0.5em; border: 1px solid #ddd; border-radius: 6px; }
+.diagnosis { font-size: 10pt; color: #444; margin: 0.4em 0 0.8em 0; font-style: italic; }
 .section-info { background: #f0f4f8; padding: 0.6em 1em; border-radius: 4px; font-size: 11pt; margin: 0.5em 0; }
 .item { margin: 0.6em 0; padding: 0.4em 0.6em; border-left: 3px solid transparent; }
 .item.passed { border-left-color: #4a8a3a; }
@@ -26,7 +27,7 @@ code { background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: "
 button { background: white; color: #2a5c8a; border: 0; padding: 8px 16px; font-size: 12pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin: 0 4px; }
 button:hover { background: #f0f4f8; }
 .footer { font-size: 9pt; color: #777; margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd; }
-@media print { .controls { display: none; } }
+@media print { .controls, .section-result, #recommendation { display: none; } }
 </style>
 </head>
 <body>
@@ -35,7 +36,15 @@ button:hover { background: #f0f4f8; }
 <div class="meta">
 <strong>Purpose:</strong> Determine which stage a new student should begin.<br>
 <strong>Time:</strong> 15-20 minutes total (oral; child does not need to read or write).<br>
-<strong>Format:</strong> Teacher reads items aloud, marks whether child answered correctly. JS scores at the end.
+<strong>Format:</strong> Read items aloud, check each one the child answers correctly. Click "Score All Sections" or print and score by hand.
+</div>
+
+<div style="background: #f0f4f8; padding: 0.8em 1em; margin-bottom: 1em; border-radius: 4px; font-size: 11pt;">
+<strong>Quick section map:</strong><br>
+<strong>Section 1</strong> &mdash; Phonemic awareness (oral blending/segmenting). Pass &rarr; ready for letter-sound work.<br>
+<strong>Section 2</strong> &mdash; Single-letter phonograms + CVC reading. Pass &rarr; ready for multi-letter PGs.<br>
+<strong>Section 3</strong> &mdash; Multi-letter phonograms (sh, th, ck, ee, etc.). Pass &rarr; ready for silent E + advanced.<br>
+<strong>Section 4</strong> &mdash; Silent E + advanced PGs + say-to-spell. Pass &rarr; ready for Stage 4-5.
 </div>
 
 <div class="controls">
@@ -53,6 +62,7 @@ button:hover { background: #f0f4f8; }
           <strong>Passing all 6 items here means child is ready for: Stage 1 Lesson 9+</strong><br>
           6 items &middot; No time limit &middot; Read aloud to child
         </p>
+        <p class="diagnosis">Tests whether the child can hear, blend, and segment sounds in spoken words — the foundation of all reading. No letters involved; purely oral.</p>
         
         <div class="item">
           <label class="item-prompt">
@@ -128,6 +138,7 @@ button:hover { background: #f0f4f8; }
           <strong>Passing all 6 items here means child is ready for: Stage 2 Lesson 1+</strong><br>
           6 items &middot; No time limit &middot; Read aloud to child
         </p>
+        <p class="diagnosis">Tests single-letter phonogram knowledge (a-z). Can the child recall all sounds for each letter on flash? Can they read simple CVC words?</p>
         
         <div class="item">
           <label class="item-prompt">
@@ -203,6 +214,7 @@ button:hover { background: #f0f4f8; }
           <strong>Passing all 6 items here means child is ready for: Stage 3 Lesson 1+</strong><br>
           6 items &middot; No time limit &middot; Read aloud to child
         </p>
+        <p class="diagnosis">Multi-letter phonograms (sh, th, ck, ee, ng, etc.) are introduced in Stage 2. This section checks whether the child has automatic recall.</p>
         
         <div class="item">
           <label class="item-prompt">
@@ -278,6 +290,7 @@ button:hover { background: #f0f4f8; }
           <strong>Passing all 6 items here means child is ready for: Stage 4+</strong><br>
           6 items &middot; No time limit &middot; Read aloud to child
         </p>
+        <p class="diagnosis">Tests advanced decoding: silent E reasoning, complex multi-letter PGs (ti = /sh/), and say-to-spell strategy. Requires fluent PG knowledge.</p>
         
         <div class="item">
           <label class="item-prompt">
@@ -355,8 +368,7 @@ button:hover { background: #f0f4f8; }
 </div>
 
 <div class="footer">
-Generated for <em>OpenPhonograms</em> curriculum &middot;
-Self-contained HTML &middot; Print-friendly &middot; Works offline
+From the <em>OpenPhonograms</em> curriculum (MIT licensed) &middot; Placement test &middot; Score manually or click "Score All Sections"
 </div>
 
 <script>
@@ -390,7 +402,7 @@ function scoreAll() {
       resultEl.innerHTML = `<strong>✓ Section passed: ${passed}/${total} (${pct}%)</strong> &mdash; Child is ready for ${recommendations[idx]}.`;
       bestIdx = idx;
     } else {
-      resultEl.innerHTML = `Section score: ${passed}/${total} (${pct}%) &mdash; Needs work in this section.`;
+      resultEl.innerHTML = `Section score: ${passed}/${total} (${pct}%) &mdash; Needs work. Read the diagnosis above and remediate before moving on.`;
     }
     details.push(`${idx + 1}: ${passed}/${total}`);
   });

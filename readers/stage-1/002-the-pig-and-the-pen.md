@@ -96,5 +96,3 @@ Draw the pig in the pen. What else is in the pen?
 ---
 
 *For use with Stage 1 · Lesson 22: Review: Group 2 Phonograms*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

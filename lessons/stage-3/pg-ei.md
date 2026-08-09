@@ -91,7 +91,3 @@ EI has three sounds: /ē/ (most common in Latin-based words), /ā/ (in a few wor
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ei — it says /ē/ /ā/ /ī/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

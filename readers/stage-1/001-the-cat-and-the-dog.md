@@ -96,5 +96,3 @@ Draw the cat, the dog, and the frog on a log.
 ---
 
 *For use with Stage 1 · Lesson 15: Review: Group 1 Phonograms*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

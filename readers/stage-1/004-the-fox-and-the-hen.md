@@ -94,5 +94,3 @@ Draw the fox and the hen. Where is the box?
 ---
 
 *For use with Stage 1 · Lesson 38: Review: Group 4 Phonograms*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

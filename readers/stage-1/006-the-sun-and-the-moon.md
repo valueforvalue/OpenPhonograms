@@ -102,5 +102,3 @@ Draw the sun in the sky. Draw the stars at night.
 ---
 
 *For use with Stage 1 · Lesson 43: All 26 Phonograms Review*
-
-*Open-source. MIT licensed. Phonograms drawn from the public-domain phonics tradition (1800s onward).*

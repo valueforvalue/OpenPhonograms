@@ -112,7 +112,3 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

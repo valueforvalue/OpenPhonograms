@@ -113,7 +113,3 @@ wanted &nbsp;&nbsp; played &nbsp;&nbsp; fished
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ed — it says /ed/ /d/ /t/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

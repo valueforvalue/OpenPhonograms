@@ -111,7 +111,3 @@ coin &nbsp;&nbsp; oil &nbsp;&nbsp; join
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram oi — it says /oi/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

@@ -89,7 +89,3 @@ WR is a two-letter /r/. The W is silent. Think of it as the 'writing R' — it a
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram wr — it says /r/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

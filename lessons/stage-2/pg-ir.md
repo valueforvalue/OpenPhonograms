@@ -109,7 +109,3 @@ girl &nbsp;&nbsp; bird &nbsp;&nbsp; first
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ir — it says /er/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

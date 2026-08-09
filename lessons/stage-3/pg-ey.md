@@ -90,7 +90,3 @@ EY has two sounds: /ā/ (as in 'they') and /ē/ (as in 'key' or at the end of mu
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ey — it says /ā/ /ē/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

@@ -200,7 +200,7 @@ def make_stage_cover(stage: int, lessons: list[dict]) -> str:
 
 <div class="brand-cover">
 
-<img src="../../assets/logo/openphonograms-logo.svg" alt="OpenPhonograms" />
+<img src="../../assets/logo/openphonograms-logo.png" alt="OpenPhonograms" />
 
 <p class="tagline">Teacher Manual &mdash; {n_lessons} lessons bound in one volume</p>
 

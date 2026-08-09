@@ -90,7 +90,3 @@ EU says /ü/ in most words (neutral, feud). It appears in words of Greek and Lat
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram eu — it says /ü/ /ö/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

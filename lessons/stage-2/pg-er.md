@@ -109,7 +109,3 @@ her &nbsp;&nbsp; sister &nbsp;&nbsp; under
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram er — it says /er/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

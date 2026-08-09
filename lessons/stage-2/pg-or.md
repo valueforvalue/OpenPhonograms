@@ -109,7 +109,3 @@ for &nbsp;&nbsp; corn &nbsp;&nbsp; sort
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram or — it says /or/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

@@ -89,7 +89,3 @@ Q alone (not followed by U) still says /kw/. Most common in borrowed words and p
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram q — it says /kw/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

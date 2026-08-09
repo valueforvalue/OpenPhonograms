@@ -89,7 +89,3 @@ In BU at the start of a word, the U is silent — only B is heard. Common in eve
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram bu — it says /b/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

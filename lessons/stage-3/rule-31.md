@@ -101,7 +101,3 @@ about (a=/ə/), seven (e=/ə/), pencil (i=/ə/), button (o=/ə/), circus (u=/ə/
 > **Say:** "What did you learn today?" *(Child restates the rule in their own words.)*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

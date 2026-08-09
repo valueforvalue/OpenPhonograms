@@ -91,7 +91,3 @@ DGE is a three-letter /j/ used ONLY after a short vowel. If the vowel is long or
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram dge — it says /j/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

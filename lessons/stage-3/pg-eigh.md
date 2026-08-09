@@ -91,7 +91,3 @@ EIGH is a four-letter /ā/. The GH is silent here (Rule 28). Think: 'E-I-G-H spe
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram eigh — it says /ā/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

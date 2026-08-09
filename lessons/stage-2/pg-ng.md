@@ -109,7 +109,3 @@ sing &nbsp;&nbsp; long &nbsp;&nbsp; ring
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram ng — it says /ng/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

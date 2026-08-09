@@ -110,7 +110,3 @@ this &nbsp;&nbsp; thin &nbsp;&nbsp; with
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram th — it says /th/ (voiced) /th/ (unvoiced).")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

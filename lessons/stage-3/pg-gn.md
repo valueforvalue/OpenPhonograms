@@ -89,7 +89,3 @@ GN is a two-letter /n/. At the beginning of a word, the G is silent (gnat, gnaw)
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram gn — it says /n/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>

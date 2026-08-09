@@ -111,7 +111,3 @@ cause &nbsp;&nbsp; haul &nbsp;&nbsp; August
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram au — it says /ä/.")*
 
 ---
-
-*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
-
-</details>
