@@ -552,20 +552,80 @@ def build_game(zf, args, stats):
 # ── CLI ────────────────────────────────────────────────────────────────
 
 def _relativize_build_pdfs() -> None:
-    """Rewrite all file:// links in build/ PDFs to relative paths."""
-    from framework.pdf_merge import relativize_pdf_links
-    count = 0
-    total_links = 0
-    for pdf in sorted(ROOT.rglob("*.pdf")):
-        # Only process PDFs under build/ and packs/
-        if not (str(pdf).startswith(str(BUILD)) or str(pdf).startswith(str(ROOT / "packs"))):
-            continue
-        n = relativize_pdf_links(pdf, ROOT)
-        if n > 0:
-            total_links += n
-            count += 1
-    if total_links:
-        print(f"  Relativized {total_links} links in {count} PDFs")
+    """Post-process release ZIP: rewrite file:// links to relative paths."""
+    import zipfile, tempfile
+    from pypdf import PdfReader, PdfWriter
+    from pypdf.generic import TextStringObject, NameObject
+    from pathlib import Path as _Path
+
+    release_zip = ROOT / 'release.zip'
+    if not release_zip.exists():
+        return
+
+    with tempfile.TemporaryDirectory() as tmp:
+        # Extract
+        with zipfile.ZipFile(str(release_zip)) as z:
+            z.extractall(tmp)
+            pdfs = [n for n in z.namelist() if n.endswith('.pdf')]
+
+        # Build filename → release-path lookup
+        name_to_path: dict[str, str] = {}
+        for p in pdfs:
+            name = p.split('/')[-1]
+            # First occurrence wins for non-duplicates
+            if name not in name_to_path:
+                name_to_path[name] = p
+
+        total_links = 0
+        pdf_count = 0
+        for rel_path in pdfs:
+            extracted = _Path(tmp) / rel_path
+            if not extracted.exists():
+                continue
+            reader = PdfReader(str(extracted))
+            release_dir = _Path(rel_path).parent if '/' in rel_path else _Path('.')
+            rewritten = 0
+            for page in reader.pages:
+                if '/Annots' not in page:
+                    continue
+                for annot in page['/Annots']:
+                    obj = annot.get_object()
+                    uri_obj = obj.get('/A', {}).get('/URI')
+                    if uri_obj is None:
+                        continue
+                    uri = str(uri_obj)
+                    if not uri.startswith('file:///'):
+                        continue
+                    target_name = uri.split('/')[-1]
+                    target_release = name_to_path.get(target_name)
+                    if target_release is None or target_release == rel_path:
+                        continue
+                    # Compute relative from source dir to target
+                    try:
+                        rel = _Path(target_release).relative_to(release_dir, walk_up=True)
+                    except ValueError:
+                        rel = _Path(target_release)
+                    obj['/A'][NameObject('/URI')] = TextStringObject(rel.as_posix())
+                    rewritten += 1
+            if rewritten > 0:
+                writer = PdfWriter()
+                for page in reader.pages:
+                    writer.add_page(page)
+                with open(extracted, 'wb') as f:
+                    writer.write(f)
+                total_links += rewritten
+                pdf_count += 1
+
+        if total_links:
+            print(f"  Relativized {total_links} links in {pdf_count} PDFs")
+            # Repack
+            new_zip = release_zip.with_suffix('.tmp.zip')
+            with zipfile.ZipFile(str(new_zip), 'w', zipfile.ZIP_DEFLATED) as zout:
+                for f in sorted(_Path(tmp).rglob('*')):
+                    if f.is_file():
+                        arc = str(f.relative_to(tmp)).replace('\\', '/')
+                        zout.write(str(f), arc)
+            new_zip.replace(release_zip)
 
 
 def build_argparser() -> argparse.ArgumentParser:
@@ -636,11 +696,11 @@ def main():
     print(f"==> Building {out.name}")
     print()
 
-    # Relativize file:// links in all PDFs before packaging.
-    _relativize_build_pdfs()
-
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
         _run_sections(zf, args, stats)
+
+    # Now relativize file:// links using the release ZIP's layout.
+    _relativize_build_pdfs()
 
     size_mb = os.path.getsize(out) / (1024 * 1024)
     with zipfile.ZipFile(out, "r") as zf:

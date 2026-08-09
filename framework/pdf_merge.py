@@ -328,20 +328,17 @@ def render_and_split(
     )
 
 
-def relativize_pdf_links(pdf_path: Path, root_dir: Path) -> int:
+def relativize_pdf_links(pdf_path: Path, root_dir: Path,
+                        release_path: str = "") -> int:
     """Rewrite absolute file:// links to relative paths.
 
-    WeasyPrint resolves relative hrefs to absolute file:// URIs at
-    render time. When the ZIP is extracted on a different machine,
-    those absolute paths are broken. This function rewrites them to
-    relative paths (e.g. '../../00-Start-Here.pdf') so links work
-    regardless of where the curriculum folder is extracted.
+    Uses a build-path → release-path mapping so links respect the
+    release ZIP directory structure, not the build directory.
 
     Args:
-        pdf_path: Path to the PDF to fix.
-        root_dir: The directory that acts as the release root
-            (where the ZIP is extracted). Relative paths are computed
-            from the PDF's location relative to this root.
+        pdf_path: Path to the PDF to fix (build path).
+        root_dir: Project root.
+        release_path: This PDF's path in the release ZIP.
 
     Returns:
         Number of links rewritten.
@@ -350,9 +347,14 @@ def relativize_pdf_links(pdf_path: Path, root_dir: Path) -> int:
     from pypdf import PdfReader, PdfWriter
     from pypdf.generic import TextStringObject, NameObject
 
+    # Build release-path → build-path mapping from root_dir
+    # (cached on first call via function attribute)
+    if not hasattr(relativize_pdf_links, '_path_map'):
+        relativize_pdf_links._path_map = _build_release_path_map(root_dir)
+    path_map = relativize_pdf_links._path_map
+
     reader = PdfReader(str(pdf_path))
-    root = root_dir.resolve()
-    pdf_dir = pdf_path.resolve().parent
+    pdf_release_dir = Path(release_path).parent if release_path else Path('.')
 
     rewritten = 0
     for page in reader.pages:
@@ -368,22 +370,26 @@ def relativize_pdf_links(pdf_path: Path, root_dir: Path) -> int:
             uri = str(uri_obj)
             if not uri.startswith('file:///'):
                 continue
-            # Convert file:///C:/path/file.pdf → PureWindowsPath → basename
-            # We can't rely on the absolute path existing (it's WeasyPrint's
-            # resolved path), so extract the filename and reconstruct the
-            # relative path from the PDF's position in the tree.
-            from pathlib import PureWindowsPath
-            target = PureWindowsPath(uri.replace('file:///', ''))
-            target_name = target.name
-            # Find where this target lives under root_dir
-            candidates = list(root.rglob(target_name))
+            target_name = uri.split('/')[-1]
+            # Find release path for this target filename
+            candidates = [(rp, bp) for rp, bp in path_map.items()
+                          if bp and bp.endswith(target_name)]
             if not candidates:
                 continue
-            target_path = candidates[0].resolve()
+            # Prefer exact matches, then same-directory matches
+            target_release = candidates[0][0]
+            for rp, bp in candidates:
+                if rp == release_path:
+                    continue  # skip self
+                if Path(rp).parent == pdf_release_dir:
+                    target_release = rp
+                    break
+            # Compute relative path from source's release dir to target
             try:
-                rel = target_path.relative_to(pdf_dir, walk_up=True)
+                rel = Path(target_release).relative_to(pdf_release_dir, walk_up=True)
             except ValueError:
-                continue
+                # Target in different tree — use absolute relative
+                rel = Path(target_release)
             action[NameObject('/URI')] = TextStringObject(rel.as_posix())
             rewritten += 1
 
@@ -397,3 +403,37 @@ def relativize_pdf_links(pdf_path: Path, root_dir: Path) -> int:
         tmp.replace(pdf_path)
 
     return rewritten
+
+
+def _build_release_path_map(root_dir: Path) -> dict[str, str | None]:
+    """Build mapping from release ZIP path → build path.
+
+    Uses the release.zip if already built, otherwise returns empty.
+    """
+    import zipfile
+    release_zip = root_dir / 'release.zip'
+    if not release_zip.exists():
+        return {}
+    z = zipfile.ZipFile(str(release_zip))
+    release_to_build: dict[str, str | None] = {}
+    for rel_path in z.namelist():
+        if not rel_path.endswith('.pdf'):
+            continue
+        filename = rel_path.split('/')[-1]
+        candidates = list(root_dir.rglob(filename))
+        # Filter to build/ and packs/ only
+        candidates = [c for c in candidates
+                      if str(c).startswith(str(root_dir / 'build'))
+                      or str(c).startswith(str(root_dir / 'packs'))]
+        if len(candidates) == 1:
+            release_to_build[rel_path] = str(candidates[0])
+        elif len(candidates) > 1:
+            # Try disambiguating by directory name
+            rel_dirs = set(rel_path.split('/')[:-1])
+            for c in candidates:
+                c_parts = str(c).replace('\\', '/').split('/')
+                if any(d in c_parts for d in rel_dirs):
+                    release_to_build[rel_path] = str(c)
+                    break
+    z.close()
+    return release_to_build
