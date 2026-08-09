@@ -836,46 +836,46 @@ def gen_rule24():
 # ── MORPHOLOGY DATA ─────────────────────────────────────────────────
 
 PREFIXES = [
-    (23, "Prefixes un- and re-", "un-", "not, opposite of", "UN- means 'not' or 'opposite.' RE- means 'again' or 'back.'",
+    (20, "Prefixes un- and re-", "un-", "not, opposite of", "UN- means 'not' or 'opposite.' RE- means 'again' or 'back.'",
      [("un do → undo","—","—"),("re do → redo","—","—"),("un tie → untie","—","—"),("re turn → return","—","—")],
      ["do","tie","pack","lock","wind"], "undo, redo, untie, return, replay, unlock, unpack, rewrite",
      ["undo","redo","untie","return","unlock","rewrite"], 25),
-    (24, "Prefixes in- and dis-", "in-/dis-", "not, opposite", "IN- (and its forms im-, il-, ir-) means 'not.' DIS- also means 'not' or 'opposite.'",
+    (21, "Prefixes in- and dis-", "in-/dis-", "not, opposite", "IN- (and its forms im-, il-, ir-) means 'not.' DIS- also means 'not' or 'opposite.'",
      [("in correct → incorrect","—","—"),("dis agree → disagree","—","—"),("im possible → impossible","—","—"),("dis like → dislike","—","—")],
      ["correct","agree","like","appear","honest"], "incorrect, disagree, dislike, disappear, dishonest, unable, replay",
      ["incorrect","disagree","dislike","disappear","unable"], 26),
-    (25, "Prefixes pre- and pro-", "pre-/pro-", "before, forward", "PRE- means 'before.' PRO- means 'forward' or 'for.'",
+    (22, "Prefixes pre- and pro-", "pre-/pro-", "before, forward", "PRE- means 'before.' PRO- means 'forward' or 'for.'",
      [("pre view → preview","—","—"),("pro ceed → proceed","—","—"),("pre pay → prepay","—","—"),("pro pel → propel","—","—")],
      ["view","pay","test","cede","claim"], "preview, prepay, pretest, proceed, proclaim, propel, prefix",
      ["preview","prepay","proceed","propel","pretest"], 27),
-    (26, "Prefixes sub- and inter-", "sub-/inter-", "under, between", "SUB- means 'under' or 'below.' INTER- means 'between' or 'among.'",
+    (23, "Prefixes sub- and inter-", "sub-/inter-", "under, between", "SUB- means 'under' or 'below.' INTER- means 'between' or 'among.'",
      [("sub marine → submarine","—","—"),("inter national → international","—","—"),("sub way → subway","—","—"),("inter act → interact","—","—")],
      ["marine","way","merge","view","change"], "submarine, subway, submerge, interview, international, interact",
      ["submarine","subway","interview","international","interact"], 28),
 ]
 
 SUFFIXES = [
-    (27, "Suffixes -er and -or", "-er/-or", "one who, that which", "-ER and -OR both mean 'one who' or 'that which does something.'",
+    (24, "Suffixes -er and -or", "-er/-or", "one who, that which", "-ER and -OR both mean 'one who' or 'that which does something.'",
      [("teach er → teacher","—","—"),("act or → actor","—","—"),("bake er → baker","—","—"),("sail or → sailor","—","—")],
      ["teach","bake","act","sail","invent"], "teacher, baker, actor, sailor, inventor, driver, writer",
      ["teacher","baker","actor","sailor","inventor"], 29),
-    (28, "Suffixes -tion and -sion", "-tion/-sion", "act of, state of", "-TION and -SION mean 'the act of' or 'state of.' They turn verbs into nouns.",
+    (25, "Suffixes -tion and -sion", "-tion/-sion", "act of, state of", "-TION and -SION mean 'the act of' or 'state of.' They turn verbs into nouns.",
      [("act tion → action","—","—"),("divi sion → division","—","—"),("collect tion → collection","—","—"),("deci sion → decision","—","—")],
      ["act","collect","divide","decide","direct"], "action, collection, division, decision, direction, nation, mission",
      ["action","collection","division","decision","nation"], 30),
-    (29, "Suffixes -able and -ible", "-able/-ible", "able to be", "-ABLE and -IBLE mean 'able to be' or 'can be done.' Most words use -able.",
+    (26, "Suffixes -able and -ible", "-able/-ible", "able to be", "-ABLE and -IBLE mean 'able to be' or 'can be done.' Most words use -able.",
      [("wash able → washable","—","—"),("vis ible → visible","—","—"),("read able → readable","—","—"),("flex ible → flexible","—","—")],
      ["wash","read","flex","break","love"], "washable, readable, flexible, breakable, lovable, visible, audible",
      ["washable","readable","flexible","breakable","visible"], 31),
-    (30, "Suffixes -ment and -ness", "-ment/-ness", "state of, quality of", "-MENT means 'the result of' or 'state of.' -NESS means 'the quality of being.'",
+    (27, "Suffixes -ment and -ness", "-ment/-ness", "state of, quality of", "-MENT means 'the result of' or 'state of.' -NESS means 'the quality of being.'",
      [("enjoy ment → enjoyment","—","—"),("dark ness → darkness","—","—"),("pay ment → payment","—","—"),("kind ness → kindness","—","—")],
      ["enjoy","pay","dark","kind","soft"], "enjoyment, payment, darkness, kindness, softness, treatment, sadness",
      ["enjoyment","payment","darkness","kindness","softness"], 32),
-    (31, "Suffixes -ly and -ful", "-ly/-ful", "in a way, full of", "-LY means 'in a ___ way' (adverbs). -FUL means 'full of.'",
+    (28, "Suffixes -ly and -ful", "-ly/-ful", "in a way, full of", "-LY means 'in a ___ way' (adverbs). -FUL means 'full of.'",
      [("quick ly → quickly","—","—"),("hope ful → hopeful","—","—"),("slow ly → slowly","—","—"),("joy ful → joyful","—","—")],
      ["quick","slow","hope","joy","care"], "quickly, slowly, hopeful, joyful, careful, softly, peaceful",
      ["quickly","slowly","hopeful","joyful","careful"], 33),
-    (32, "Suffixes -less and -ous", "-less/-ous", "without, full of", "-LESS means 'without.' -OUS means 'full of' or 'having the quality of.'",
+    (29, "Suffixes -less and -ous", "-less/-ous", "without, full of", "-LESS means 'without.' -OUS means 'full of' or 'having the quality of.'",
      [("hope less → hopeless","—","—"),("danger ous → dangerous","—","—"),("fear less → fearless","—","—"),("joy ous → joyous","—","—")],
      ["hope","fear","danger","joy","nerve"], "hopeless, fearless, dangerous, joyous, nervous, careless, famous",
      ["hopeless","fearless","dangerous","joyous","nervous"], 34),
@@ -1342,27 +1342,27 @@ def generate():
     yield 13, gen_suffix_review_17()
 
     # 18-23: Latin /sh/
-    yield 17, gen_ti()
-    yield 18, gen_ci()
-    yield 19, gen_si()
-    yield 20, gen_rule17()
-    yield 21, gen_rule18()
-    yield 22, gen_latin_mastery()
+    yield 14, gen_ti()
+    yield 15, gen_ci()
+    yield 16, gen_si()
+    yield 17, gen_rule17()
+    yield 18, gen_rule18()
+    yield 19, gen_latin_mastery()
 
     # 24-33: Morphology
     for n, title, affix, meaning, definition, ex, build, read, spell, nn in PREFIXES + SUFFIXES:
-        yield n, gen_morph(n, title, affix, "prefix" if n <= 27 else "suffix", meaning, definition, ex, build, read, spell, nn)
+        yield n, gen_morph(n, title, affix, "prefix" if n <= 23 else "suffix", meaning, definition, ex, build, read, spell, nn)
 
     # 34-39: Rules 23, 24, 19, 21, 22, 29
-    yield 33, gen_rule23()
-    yield 34, gen_rule24()
-    yield 35, gen_rule19()
-    yield 36, gen_rule21()
-    yield 37, gen_rule22()
-    yield 38, gen_rule29()
+    yield 30, gen_rule23()
+    yield 31, gen_rule24()
+    yield 32, gen_rule19()
+    yield 33, gen_rule21()
+    yield 34, gen_rule22()
+    yield 35, gen_rule29()
 
     # 40-41: Irregulars
-    yield 39, gen_irregular_verbs()
+    yield 36, gen_irregular_verbs()
     yield 37, gen_irregular_plurals()
 
     # 42-43: Readers
