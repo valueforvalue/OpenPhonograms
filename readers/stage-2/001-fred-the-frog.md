@@ -50,9 +50,11 @@ This is Fred.
 
 
 
+<div class="reader-page">
+
 ## Page 2
 
-<div class="reader-page">
+
 
 <div class="reader-text">
 
@@ -86,9 +88,11 @@ Splash!
 
 
 
+<div class="reader-page">
+
 ## Page 3
 
-<div class="reader-page">
+
 
 <div class="reader-text">
 
@@ -126,9 +130,11 @@ Fred and Fish are pals.
 
 
 
+<div class="reader-page">
+
 ## Page 4
 
-<div class="reader-page">
+
 
 <div class="reader-text">
 
