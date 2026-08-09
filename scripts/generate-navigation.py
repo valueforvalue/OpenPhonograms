@@ -31,6 +31,10 @@ OUT_DIR = ROOT / "build" / "handbook"
 BUILD = ROOT / "build"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+# Allow framework imports (render_md_to_pdf used by render_nav_pdf).
+sys.path.insert(0, str(ROOT))
+from framework.render import render_md_to_pdf
+
 # Common CSS for all navigation PDFs
 CSS = """
 @page { size: letter; margin: 0.6in; @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #555; } @bottom-left { content: "OpenPhonograms · MIT licensed"; font-family: Georgia, serif; font-size: 7pt; color: #aaa; } }
@@ -635,10 +639,8 @@ def make_quick_refs() -> list[Path]:
     return outs
 
 
-def render_md_to_pdf(md_path: Path):
-    from weasyprint import HTML as WHTML
-    pdf_path = md_path.with_suffix(".pdf")
-    WHTML(filename=str(md_path)).write_pdf(str(pdf_path))
+def render_nav_pdf(md_path: Path):
+    render_md_to_pdf(md_path, md_path.with_suffix(".pdf"), doc_type="lesson")
 
 
 def main():
@@ -663,7 +665,7 @@ def main():
 
     print("\n==> Rendering navigation PDFs")
     for f in files:
-        render_md_to_pdf(f)
+        render_nav_pdf(f)
         print(f"  OK  {f.with_suffix('.pdf').relative_to(ROOT)}")
 
 
