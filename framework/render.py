@@ -145,7 +145,7 @@ PAGE_CSS = """
 @page :first {
     margin-top: 1.4in;
     @top-center {
-        content: url("assets/logo/openphonograms-logo.svg");
+        content: url("assets/logo/openphonograms-banner.png");
         width: 3.5in;
     }
 }
