@@ -326,3 +326,74 @@ def render_and_split(
         render_seconds=render_seconds,
         split_seconds=split_seconds,
     )
+
+
+def relativize_pdf_links(pdf_path: Path, root_dir: Path) -> int:
+    """Rewrite absolute file:// links to relative paths.
+
+    WeasyPrint resolves relative hrefs to absolute file:// URIs at
+    render time. When the ZIP is extracted on a different machine,
+    those absolute paths are broken. This function rewrites them to
+    relative paths (e.g. '../../00-Start-Here.pdf') so links work
+    regardless of where the curriculum folder is extracted.
+
+    Args:
+        pdf_path: Path to the PDF to fix.
+        root_dir: The directory that acts as the release root
+            (where the ZIP is extracted). Relative paths are computed
+            from the PDF's location relative to this root.
+
+    Returns:
+        Number of links rewritten.
+    """
+    import re
+    from pypdf import PdfReader, PdfWriter
+    from pypdf.generic import TextStringObject, NameObject
+
+    reader = PdfReader(str(pdf_path))
+    root = root_dir.resolve()
+    pdf_dir = pdf_path.resolve().parent
+
+    rewritten = 0
+    for page in reader.pages:
+        if '/Annots' not in page:
+            continue
+        annots = page['/Annots']
+        for annot in annots:
+            obj = annot.get_object()
+            action = obj.get('/A', {})
+            uri_obj = action.get('/URI')
+            if uri_obj is None:
+                continue
+            uri = str(uri_obj)
+            if not uri.startswith('file:///'):
+                continue
+            # Convert file:///C:/path/file.pdf → PureWindowsPath → basename
+            # We can't rely on the absolute path existing (it's WeasyPrint's
+            # resolved path), so extract the filename and reconstruct the
+            # relative path from the PDF's position in the tree.
+            from pathlib import PureWindowsPath
+            target = PureWindowsPath(uri.replace('file:///', ''))
+            target_name = target.name
+            # Find where this target lives under root_dir
+            candidates = list(root.rglob(target_name))
+            if not candidates:
+                continue
+            target_path = candidates[0].resolve()
+            try:
+                rel = target_path.relative_to(pdf_dir, walk_up=True)
+            except ValueError:
+                continue
+            action[NameObject('/URI')] = TextStringObject(rel.as_posix())
+            rewritten += 1
+
+    if rewritten > 0:
+        writer = PdfWriter()
+        for page in reader.pages:
+            writer.add_page(page)
+        tmp = pdf_path.with_suffix('.tmp.pdf')
+        with open(tmp, 'wb') as f:
+            writer.write(f)
+        tmp.replace(pdf_path)
+
+    return rewritten

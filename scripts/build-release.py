@@ -58,6 +58,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
 # Allow `from version import get_version` inside framework/stamp.py
 sys.path.insert(0, str(ROOT / "framework"))
+sys.path.insert(0, str(ROOT))  # for framework.pdf_merge imports
 
 # Source-of-truth list of reference HTML basenames that get rendered to PDF
 # and shipped under 04-Quick-Reference/ in the release ZIP.
@@ -550,6 +551,23 @@ def build_game(zf, args, stats):
 
 # ── CLI ────────────────────────────────────────────────────────────────
 
+def _relativize_build_pdfs() -> None:
+    """Rewrite all file:// links in build/ PDFs to relative paths."""
+    from framework.pdf_merge import relativize_pdf_links
+    count = 0
+    total_links = 0
+    for pdf in sorted(ROOT.rglob("*.pdf")):
+        # Only process PDFs under build/ and packs/
+        if not (str(pdf).startswith(str(BUILD)) or str(pdf).startswith(str(ROOT / "packs"))):
+            continue
+        n = relativize_pdf_links(pdf, ROOT)
+        if n > 0:
+            total_links += n
+            count += 1
+    if total_links:
+        print(f"  Relativized {total_links} links in {count} PDFs")
+
+
 def build_argparser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description="Build release.zip — partial or full curriculum bundle.",
@@ -617,6 +635,9 @@ def main():
 
     print(f"==> Building {out.name}")
     print()
+
+    # Relativize file:// links in all PDFs before packaging.
+    _relativize_build_pdfs()
 
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
         _run_sections(zf, args, stats)
