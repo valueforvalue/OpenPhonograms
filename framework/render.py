@@ -140,18 +140,13 @@ PAGE_CSS = """
     @bottom-left { content: ""; }
 }
 
-/* Logo header: centered full-width banner on first page.
-   Extra top margin so the logo clears the page edge cleanly. */
+/* Logo header + version footer: first page only. */
 @page :first {
-    margin-top: 1.4in;
+    margin-top: 1.7in;
     @top-center {
         content: url("assets/logo/openphonograms-banner.png");
-        width: 3.5in;
+        width: 3in;
     }
-}
-
-/* Issue #24: page-1-only version footer. */
-@page :first {
     @bottom-left {
         content: "FOOTER_FNORD";
         font-family: "Atkinson Hyperlegible", sans-serif;
