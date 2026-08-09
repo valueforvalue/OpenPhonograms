@@ -18,6 +18,141 @@ from stamp import stamp  # noqa: E402  # issue #24: version stamp on every MD
 
 READERS = []
 
+# ── STAGE 1 NATURE READERS (issue #72) ──
+# Fully decodable with single-letter PGs a-z (short vowels only).
+# Real nature content — frog lifecycle, bees, birds, seeds, fox dens.
+
+READERS.append({
+    "slug": "054-frogs-in-the-pond",
+    "title": "Frogs in the Pond",
+    "stage": 1,
+    "after_lesson": 45,
+    "phonograms": "all 26 single-letter PGs",
+    "warmup": "frog, pond, egg, tad, hop, sit, log, mud, big, wet, run, jump, sun",
+    "story": """**Frogs in the Pond**
+
+A big fat frog sits on a log. The log is in a mud pond.
+
+The sun is hot. The frog is damp. It sits and sits.
+
+A bug zips past. ZAP! The frog gets the bug.
+
+In the mud, a mom frog did rest. Six eggs sit in a blob of gel.
+
+One egg pops. A tad is in it. The tad wags its tail. It swims in the pond.
+
+The tad gets big. It has legs! It has no tail. It is a frog!
+
+The frog hops on land. It sits on a rock in the sun.
+
+Frogs live in the pond. Frogs live on land. Frogs get bugs.""",
+    "talk": "1. Where did the frog sit? (On a log in a mud pond.)\n2. What did the frog get? (A bug.)\n3. What is a tad? (A frog egg that has a tail.)\n4. What did the tad do when it got big? (It had legs and lost its tail.)",
+})
+
+READERS.append({
+    "slug": "055-the-busy-bee",
+    "title": "The Busy Bee",
+    "stage": 1,
+    "after_lesson": 40,
+    "phonograms": "all 26 single-letter PGs",
+    "warmup": "bee, sip, dip, zip, sun, leg, rub, big, nest, wax, hot",
+    "story": """**The Busy Bee**
+
+A bee zips in the sun. It lands on a red bud.
+
+The bee sips from the bud. It dips its legs in the dust on the bud.
+
+Zip — the bee is off! It zips to a pink bud. It sips and dips.
+
+Back and back the bee zips. Bud to bud. Sip, dip, zip.
+
+The dust on the buds gets on the bee. The bee rubs it on the next bud.
+
+When the petal drops, a pod will pop up. That is how buds make seeds!
+
+The bee has a nest in a big log. The nest is made of wax.
+
+At dusk the bee zips to its nest. It rests in the nest. The nest is snug and dim.
+
+In the morn, the bee is up. Zip! Sip! Dip!""",
+    "talk": "1. What does the bee do on a bud? (Sips and dips its legs in dust.)\n2. Why is the dust on the bee good? (It rubs the dust on the next bud so a pod will pop up.)\n3. What is the bee nest made of? (Wax.)\n4. What does the bee do at dusk? (Zips to its nest to rest.)",
+})
+
+READERS.append({
+    "slug": "056-a-nest-for-eggs",
+    "title": "A Nest for Eggs",
+    "stage": 1,
+    "after_lesson": 35,
+    "phonograms": "a-z (no q, x, z)",
+    "warmup": "nest, egg, twig, mud, grass, sit, hen, pop, leg, wet, pup, snug",
+    "story": """**A Nest for Eggs**
+
+A red hen sits in a box. The box has twigs and mud and grass. It is a nest.
+
+Six red eggs sit in the nest. The hen sits on the eggs. She sits and sits.
+
+Pop! A leg juts up from an egg. A wet pup rests by the hen. The pup is glad!
+
+Mom hen sits by the pup. The pup is snug and soft.
+
+In the nest, six eggs sat. A pup from each egg is in the nest.
+
+Mom hen is glad. She has a big nest of pups!""",
+    "talk": "1. What is the nest made of? (Twigs, mud, and grass.)\n2. How many eggs are in the nest? (Six.)\n3. What pops up from an egg? (A leg.)\n4. What does the pup do when it rests? (Sits by the hen, snug and soft.)",
+})
+
+READERS.append({
+    "slug": "057-the-wind-and-the-seeds",
+    "title": "The Wind and the Seeds",
+    "stage": 1,
+    "after_lesson": 40,
+    "phonograms": "all 26 single-letter PGs",
+    "warmup": "wind, seed, pod, pop, zip, fly, land, sun, wet, mud, stem, tall",
+    "story": """**The Wind and the Seeds**
+
+A pod sits on a stem. It is a dry pod. The sun is hot.
+
+Pop! The pod splits. Six seeds sit in the pod.
+
+The wind zips in. It lifts the seeds up, up, up.
+
+One seed zips past a frog. It lands in a mud pond. It is wet.
+
+One seed zips past a bee. It lands on a hill. It is dry.
+
+One seed zips and zips. It lands in a spot with sun and mud. It is a fit spot.
+
+The seed rests in the mud. The sun is hot. The mud is wet.
+
+Pop! A stem juts up. It is a plant! The plant gets big and tall.
+
+On the plant, a pod sits. It is a dry pod. The sun is hot...""",
+    "talk": "1. What splits the pod? (The hot sun.)\n2. What lifts the seeds? (The wind.)\n3. Why was the last spot a fit spot? (It had sun and mud.)\n4. What pops up from the seed? (A stem — a plant!)",
+})
+
+READERS.append({
+    "slug": "058-the-fox-and-the-log",
+    "title": "The Fox and the Log",
+    "stage": 1,
+    "after_lesson": 35,
+    "phonograms": "a-z (no v, x, z)",
+    "warmup": "fox, log, den, rest, nap, mud, dug, hot, dim, dug, run, cub",
+    "story": """**The Fox and the Log**
+
+A fox rests at a log. The sun is hot. Fox naps in the dim spot by the log.
+
+At dusk, the fox runs. It runs in the grass. It runs past a pond.
+
+Fox digs in the mud. It digs a big den. The den is snug.
+
+In the den, six cubs sit. The cubs are soft and red, just like mom.
+
+Mom fox sits with the cubs. The cubs nap in the den.
+
+The log is not just a log. It is the top of a fox den!""",
+    "talk": "1. What does the fox do at the log? (Rests in the dim spot.)\n2. When does the fox run? (At dusk.)\n3. What does the fox dig in the mud? (A big den.)\n4. What sits in the den with mom fox? (Six cubs — soft and red like mom.)",
+})
+
 # ── STAGE 2 READERS (after key phonograms) ──
 
 READERS.append({
