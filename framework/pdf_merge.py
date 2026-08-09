@@ -136,6 +136,7 @@ def render_and_split(
     *,
     combined_pdf: Path,
     body_class: str | None = None,
+    toc_html: str | None = None,
 ) -> SplitResult:
     """Render a batch of MDs as ONE PDF, split by H1 bookmark into per-unit PDFs.
 
@@ -164,6 +165,8 @@ def render_and_split(
             the ones that should be ignored, e.g. at-a-glance H1s).
         combined_pdf: temp path for the combined PDF.
         body_class: CSS body class for the combined doc (e.g. "stage-1").
+        toc_html: optional HTML for a clickable TOC page inserted before
+            the first lesson. Usable as a standalone PDF.
 
     Returns:
         SplitResult with units written, timing, and any errors.
@@ -180,10 +183,14 @@ def render_and_split(
     # Build combined HTML — each MD becomes a <section>, each starts
     # with an H1 that WeasyPrint picks up as a top-level bookmark.
     sections: list[str] = []
+    if toc_html:
+        sections.append(f'<section class="toc">{toc_html}</section>')
     for md_path in md_paths:
         md_text = md_path.read_text(encoding="utf-8")
         body_html = md_to_html(md_text, md_path)
-        sections.append(f'<section>{body_html}</section>')
+        # Anchor ID for TOC linking: section-lesson-NN-slug
+        anchor = f"section-{md_path.stem}"
+        sections.append(f'<section id="{anchor}">{body_html}</section>')
 
     class_attr = f' class="{body_class}"' if body_class else ""
     # In the batch-render case, we want each unit (section) to start on
@@ -197,7 +204,20 @@ def render_and_split(
     # first h1 of each section so unit boundaries stay clean without
     # multiplying blanks within a pack.
     batch_css = (
-        "<style>section > h1:first-of-type { page-break-before: always; }</style>"
+        "<style>"
+        "h1 { bookmark-level: none; }"
+        "section > h1:first-of-type { page-break-before: always; bookmark-level: 1; }"
+        "h2, h3, h4, h5, h6 { bookmark-level: none; }"
+        ".toc h1 { font-size: 22pt; color: #2a5c8a; border-bottom: 3px solid #2a5c8a; "
+        "padding-bottom: 0.3em; margin-bottom: 0.5em; }"
+        ".toc-list { font-size: 11pt; }"
+        ".toc-row { margin: 0.3em 0; padding: 0.2em 0; "
+        "border-bottom: 1px dotted #ccc; }"
+        ".toc-num { font-weight: bold; color: #555; margin-right: 0.8em; "
+        "min-width: 5em; display: inline-block; }"
+        ".toc a { color: #2a5c8a; text-decoration: none; }"
+        ".toc a:hover { text-decoration: underline; }"
+        "</style>"
     )
     full_html = (
         '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'

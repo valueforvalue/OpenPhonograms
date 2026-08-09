@@ -122,6 +122,27 @@ def assemble_pack_markdown(row: dict, catalog: list[dict]) -> str | None:
     return "\n".join(parts)
 
 
+def _toc_html(rows: list[dict]) -> str:
+    """Build a clickable TOC page listing every lesson in order."""
+    links = []
+    for r in rows:
+        lnum = int(r["lesson_num"])
+        title = r["title"]
+        slug = r["lesson_id"]
+        anchor = f"section-lesson-{lnum:02d}-{slug}"
+        links.append(
+            f'<div class="toc-row">'
+            f'<span class="toc-num">Lesson {lnum}</span>'
+            f'<a href="#{anchor}">{title}</a>'
+            f'</div>'
+        )
+    return f"""<h1>Lesson Packs — Table of Contents</h1>
+<div class="toc-list">
+{"".join(links)}
+</div>
+"""
+
+
 def stage_packs(stage: int, no_render: bool = False) -> tuple[int, int]:
     """Render all packs for one stage as one PDF, split by bookmark.
 
@@ -191,6 +212,7 @@ def stage_packs(stage: int, no_render: bool = False) -> tuple[int, int]:
         title_to_path,
         combined_pdf=tmp_pdf,
         body_class=f"stage-{stage}",
+        toc_html=_toc_html(rows),
     )
     total = time.perf_counter() - t0
 
@@ -208,6 +230,15 @@ def stage_packs(stage: int, no_render: bool = False) -> tuple[int, int]:
             f"Stage {stage}: skipped {len(skip_rows)} packs "
             f"(missing lesson MDs): {[r['lesson_id'] for r in skip_rows]}"
         )
+
+    # Copy combined PDF to packs/ as stage-N-all-lessons.pdf
+    import shutil
+    merged_pdf = out_dir / f"stage-{stage}-all-lessons.pdf"
+    try:
+        shutil.copy2(tmp_pdf, merged_pdf)
+        log.info(f"Stage {stage}: merged PDF with TOC -> {merged_pdf.relative_to(ROOT)}")
+    except OSError as exc:
+        log.warning(f"Stage {stage}: failed to write merged PDF: {exc}")
 
     # Clean up temp (skip if KEEP_TMP env var set, for debugging)
     import os as _os
