@@ -548,6 +548,51 @@ img {
     page-break-after: always;
     break-after: page;
 }
+/* Reader H2 ("Page N") widow-protection: scoped override so the global
+   H2 widow rules don't force the "Page N" header onto its own page when
+   the prior .reader-page ends near a page boundary.
+
+   Root cause (see issue #52):
+     - The cover or prior .reader-page has `page-break-after: always`,
+       forcing a fresh page after it.
+     - The H2 inherits `page-break-after: avoid` from the global rule.
+     - When H2 + warmup-box + .reader-page don't fit on the new page,
+       WeasyPrint honors `avoid` by moving the WHOLE H2 group to the next
+       page, leaving the freshly-broken page empty.
+     - Conversely on subsequent pages, H2 + a tall .reader-page can't
+       share the page, so H2 stays alone.
+
+   Override: allow breaks before AND after H2 inside .reader so the H2
+   can stand alone on its own page (forced by the prior element's
+   page-break-after:always) and the rest of the page content follows on
+   the next page. See issue #52. */
+.reader h2 {
+    page-break-before: auto;
+    page-break-after: auto;
+    break-before: auto;
+    break-after: auto;
+}
+/* Reader warmup-box: allow it to split across pages inside .reader so it
+   doesn't force the H2 + warmup-box + .reader-page block onto a single
+   (impossibly tall) page. Without this, the unbreakable warmup-box stranding
+   creates the "Page N" orphan page. The visual cost is minimal: the
+   warmup-box is short enough to either fit on a page or split cleanly.
+   See issue #52. */
+.reader .warmup-box {
+    page-break-inside: auto;
+    break-inside: auto;
+}
+/* Reader .reader-page: prefer to flow with the preceding H2 "Page N" so the
+   H2 doesn't orphan on its own page when the reader-page is tall enough
+   to push the H2 onto a separate page. We honor the explicit
+   `<div class="page-break">` markers in hand-crafted MDs (stage-1) by
+   keeping `page-break-after: always` on those. For taller reader-pages
+   (e.g. stage-2+ with sidebars), set break-before: auto so the prior H2
+   can travel with the page top via standard flow.
+   See issue #52. */
+/* (removed: the .reader .reader-page break-before override did not help
+   with the H2-orphan issue and is left out for now. The H2 + warmup-box
+   overrides are sufficient for the hand-crafted stage-1/2 readers.) */
 .reader-text {
     flex: 3;
 }
