@@ -251,10 +251,11 @@ def build_handbook_nav(zf, args, stats):
             # the Browser-HTMLs subfolder.
             arc = f"04-Quick-Reference/04-Quick-Reference-Browser-HTMLs/{name}"
         # Issue #12 (option a): route quick-check PDFs through 09-Quick-Checks/.
+        # Quick-check PDFs are also added separately by build_quick_checks()
+        # from build/quick-checks/. Skip here to avoid duplicate entries in
+        # the release ZIP (Python's zipfile warns on duplicate names).
         elif name.startswith("quick-check-stage-"):
-            if args.no_quick_checks:
-                continue
-            arc = f"09-Quick-Checks/{name}"
+            continue
         else:
             continue  # Other handbook PDFs (assessments, quick-checks) handled separately
         if args.list:

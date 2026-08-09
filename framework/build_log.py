@@ -77,7 +77,13 @@ class _ConsoleHandler(logging.StreamHandler):
             msg = self.format(record)
             stream = self.stream
             # Strip ANSI if not a TTY (so pipes, redirected files stay clean)
-            if not hasattr(stream, "isatty") or not stream.isatty():
+            try:
+                is_tty = stream.isatty()
+            except (ValueError, OSError):
+                # Stream was closed (common in worker subprocesses). Skip the log
+                # entirely rather than spamming stderr with handleError noise.
+                return
+            if not is_tty:
                 if self.ANSI_RE is None:
                     import re
                     _ConsoleHandler.ANSI_RE = re.compile(r"\x1b\[[0-9;]*m")
