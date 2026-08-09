@@ -220,8 +220,6 @@ def build_cover_page(row: dict, missing_assets: list[str]) -> str:
     cover = f"""# Lesson Pack: Lesson {lnum} — {title}
 
 **Stage {stage}** · Lesson {lnum} · `{ltype}`{new_pg_line}{new_rule_line}
-
-<div style="float:right; max-width:140px; margin:0 0 0.5em 1em;"><img src="../../OPlogo.png" alt="OpenPhonograms" style="width:100%; opacity:0.6;" /></div>
 {missing_block}
 """
     return cover

@@ -140,6 +140,15 @@ PAGE_CSS = """
     @bottom-left { content: ""; }
 }
 
+/* Logo header: first page only (non-obnoxious, avoids per-page image bloat). */
+@page :first {
+    @top-right {
+        content: url("assets/logo/openphonograms-header.png");
+        width: 90px;
+        margin-top: -0.35in;
+    }
+}
+
 /* Issue #24: page-1-only version footer. */
 @page :first {
     @bottom-left {
