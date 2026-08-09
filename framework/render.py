@@ -187,8 +187,8 @@ body.worksheet {
 }
 
 body.reader {
-    font-size: 20pt;
-    line-height: 1.8;
+    font-size: 16pt;
+    line-height: 1.5;
 }
 
 /* Age-graded per-stage sizing. Stages 1-2 (4-7yo) get the largest text;
@@ -198,11 +198,13 @@ body.stage-2, body.stage-2.worksheet { font-size: 17pt; line-height: 1.7; }
 body.stage-3, body.stage-3.worksheet { font-size: 15pt; line-height: 1.65; }
 body.stage-4, body.stage-4.worksheet { font-size: 14pt; line-height: 1.6; }
 body.stage-5, body.stage-5.worksheet { font-size: 13pt; line-height: 1.55; }
-body.stage-1.reader { font-size: 22pt; }
-body.stage-2.reader { font-size: 20pt; }
-body.stage-3.reader { font-size: 18pt; line-height: 1.7; }
-body.stage-4.reader { font-size: 16pt; line-height: 1.6; }
-body.stage-5.reader { font-size: 15pt; line-height: 1.55; }
+/* Reader-specific sizes — smaller than lesson text since the child reads
+   independently. Sidebar + text must fit on one page. */
+body.stage-1.reader { font-size: 18pt; line-height: 1.6; }
+body.stage-2.reader { font-size: 16pt; line-height: 1.55; }
+body.stage-3.reader { font-size: 14pt; line-height: 1.5; }
+body.stage-4.reader { font-size: 13pt; line-height: 1.5; }
+body.stage-5.reader { font-size: 12pt; line-height: 1.45; }
 
 /* ── Density classes ──────────────────────────────────────────────────
    Teacher-facing and admin material should be dense (smaller fonts,
@@ -521,25 +523,25 @@ img {
 
 .reader .reader-cover {
     text-align: center;
-    padding: 2.5em 1.5em;
-    border: 3px solid #2a5c8a;
-    border-radius: 12px;
-    margin: 1em auto;
+    padding: 1.2em 1em;
+    border: 2px solid #2a5c8a;
+    border-radius: 8px;
+    margin: 0.5em auto;
     max-width: 85%;
     page-break-after: always;
     break-after: page;
 }
 .reader .reader-cover h1 {
-    font-size: 36pt;
+    font-size: 24pt;
     color: #2a5c8a;
-    margin: 0.3em 0 0.2em 0;
+    margin: 0.2em 0;
     border-bottom: 2px solid #2a5c8a;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.15em;
 }
 .reader .reader-cover p {
     color: #444;
-    font-size: 12pt;
-    margin: 0.4em 0;
+    font-size: 11pt;
+    margin: 0.3em 0;
 }
 
 /* Reader layout: two-column with sidebar. The forced page break on
@@ -549,8 +551,7 @@ img {
 .reader .reader-page {
     display: flex;
     gap: 1em;
-    page-break-after: always;
-    break-after: page;
+    margin-bottom: 1em;
 }
 /* Reader H2 ("Page N") widow-protection: scoped override so the global
    H2 widow rules don't force the "Page N" header onto its own page when
