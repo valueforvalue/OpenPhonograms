@@ -175,7 +175,7 @@ WHAT'S IN THIS RELEASE
                                           diacritical legend, glossary (HTMLs + PDFs)
 Feedback.html                         — submit feedback (opens in browser, needs internet)
    04-Quick-Reference-Print-PDFs/       — 3 generated summary PDFs for printing
-   04-Quick-Reference-Browser-HTMLs/    — interactive HTMLs (and paired PDFs)
+   04-Quick-Reference-Browser-PDFs/     — printable PDF companions of the reference HTMLs
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
 06-Lesson-Packs/                       — 244 per-lesson bundles (each with cover,
                                           at-a-glance, lesson script, worksheets, cards)
@@ -247,9 +247,10 @@ def build_handbook_nav(zf, args, stats):
         elif name.removesuffix(".pdf") in REFERENCE_PDF_BASENAMES:
             if args.no_reference:
                 continue
-            # Issue #27: per-HTML PDF companions live next to their HTML in
-            # the Browser-HTMLs subfolder.
-            arc = f"04-Quick-Reference/04-Quick-Reference-Browser-HTMLs/{name}"
+            # Issue #27: per-HTML PDF companions live in the Browser-PDFs
+            # subfolder. (Source HTMLs are no longer shipped in the release —
+            # the rendered PDFs are the deliverable.)
+            arc = f"04-Quick-Reference/04-Quick-Reference-Browser-PDFs/{name}"
         # Issue #12 (option a): route quick-check PDFs through 09-Quick-Checks/.
         # Quick-check PDFs are also added separately by build_quick_checks()
         # from build/quick-checks/. Skip here to avoid duplicate entries in
@@ -498,24 +499,18 @@ def build_assessments(zf, args, stats):
 
 
 def build_reference(zf, args, stats):
-    """Section 4: Reference HTMLs (browser-printable classroom aids)."""
+    """Section 4: Reference PDFs (printable browser-rendered classroom aids).
+
+    Source HTMLs under reference/ are NOT shipped in the release. The PDFs
+    rendered from them by scripts/render-references.py are the deliverable,
+    and live in 04-Quick-Reference-Browser-PDFs/. Feedback.html still ships
+    at ZIP root via build_feedback_html() (issue #25).
+    """
+    # No-op: PDF companions are added by build_handbook_nav() from
+    # build/handbook/. This function is kept for arg/back-compat symmetry.
     if args.no_reference:
-        stats["skipped"].append("04-Quick-Reference/ HTMLs")
-        return
-    ref_dir = ROOT / "reference"
-    if not ref_dir.exists():
-        return
-    for html in sorted(ref_dir.glob("*.html")):
-        if html.name.startswith("quick-check-stage-"):
-            continue
-        # Feedback.html lives at ZIP root (issue #25), not in 04-Quick-Reference/
-        if html.name == "Feedback.html":
-            continue
-        arc = f"04-Quick-Reference/04-Quick-Reference-Browser-HTMLs/{html.name}"
-        if args.list:
-            stats["included"].append(arc)
-        else:
-            zf.write(html, arc)
+        stats["skipped"].append("04-Quick-Reference/ PDFs")
+    return
 
 
 def build_game(zf, args, stats):
