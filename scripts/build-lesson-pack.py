@@ -387,9 +387,7 @@ def build_at_a_glance(row: dict) -> str:
         f"text-transform: uppercase; letter-spacing: 0.1em; color: #666; "
         f"margin-bottom: 1em; }}\n"
         f".at-a-glance .stage {{ font-size: 9pt; text-align: center; "
-        f"color: #888; margin-top: 0.5em; }}\n"
-        f".at-a-glance .tear {{ border-top: 2px dashed #999; margin-top: 18px; "
-        f"padding-top: 8px; text-align: center; font-size: 9pt; color: #888; }}</style>\n\n"
+        f"color: #888; margin-top: 0.5em; }}</style>\n\n"
         f"<div class=\"at-a-glance\">\n\n"
         f"<div class=\"label\">At a Glance — {header_label}</div>\n\n"
         f"{top_block}\n\n"
@@ -399,7 +397,6 @@ def build_at_a_glance(row: dict) -> str:
         )
         + mistake_block
         + f"\n<div class=\"stage\">Stage {stage} · Lesson {lnum}</div>\n"
-        f"<div class=\"tear\">\u2702 Cut along dashed line for take-home reference card</div>\n"
         f"</div>\n"
     )
 
