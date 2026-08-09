@@ -25,6 +25,10 @@ Incremental builds:
 import argparse
 import csv
 import os
+# Suppress GLib-GIO UWP-app warnings on Windows (WeasyPrint scans fontconfig).
+# Set before importing weasyprint so GIO fires before weasyprint's Pango init.
+# See issue #77.
+os.environ.setdefault("G_MESSAGES_DEBUG", "none")
 import sys
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
