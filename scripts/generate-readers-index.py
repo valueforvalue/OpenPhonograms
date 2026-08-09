@@ -102,15 +102,14 @@ def main():
             num = r["num"]
             slug = r["slug"]
             title = r["title"]
-            pdf_rel = f"08-Decodable-Readers/{num:03d}-{slug}.pdf"
-            rows_html += f"<tr><td><code>{num:03d}</code></td><td><a href='{pdf_rel}'>{title}</a></td><td><code>{slug}</code></td><td>Stage {r['stage']}</td></tr>\n"
+            rows_html += f"<tr><td><code>{num:03d}</code></td><td><strong>{title}</strong></td><td><code>{slug}</code></td><td>Stage {r['stage']} &rarr; <code>stage-{r['stage']}/</code></td></tr>\n"
 
     html = f"""<!DOCTYPE html>
 <html><head><meta charset="UTF-8"><style>{CSS}</style></head>
 <body>
 
 <h1>Decodable Readers — Index</h1>
-<div class="meta">All {len(readers)} decodable readers in this release. Click any title to open the PDF.</div>
+<div class="meta">All {len(readers)} decodable readers in this release. Open the stage folder listed to find each PDF.</div>
 
 <p>Every reader uses only phonograms taught at-or-before the stage noted. Stage 2 readers use single-letter PGs and early multi-letter PGs (sh, th, ck, ee). Stage 3 readers introduce multi-syllable words. Stage 4-5 readers use morphology and advanced vocabulary.</p>
 
