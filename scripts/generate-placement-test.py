@@ -158,7 +158,7 @@ code {{ background: #f4f0e8; padding: 1px 4px; border-radius: 2px; font-family: 
 button {{ background: white; color: #2a5c8a; border: 0; padding: 8px 16px; font-size: 12pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin: 0 4px; }}
 button:hover {{ background: #f0f4f8; }}
 .footer {{ font-size: 9pt; color: #777; margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd; }}
-@media print {{ .controls {{ display: none; }} }}
+@media print {{ .controls, .section-result, #recommendation {{ display: none; }} }}
 </style>
 </head>
 <body>
@@ -195,8 +195,7 @@ button:hover {{ background: #f0f4f8; }}
 </div>
 
 <div class="footer">
-Generated for <em>OpenPhonograms</em> curriculum &middot;
-Self-contained HTML &middot; Print-friendly &middot; Works offline
+From the <em>OpenPhonograms</em> curriculum (MIT licensed) &middot; Placement test &middot; Score manually or click "Score All Sections"
 </div>
 
 <script>
