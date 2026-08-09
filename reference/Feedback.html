@@ -108,6 +108,14 @@
     <textarea id="fb-message" name="message" required minlength="3" maxlength="4000" placeholder="Tell us what's going on. Be specific — page numbers, lesson IDs, and exact wording help a lot."></textarea>
   </div>
 
+  <!-- Honeypot: hidden from humans, filled by bots. If this field has a
+       value on submit, the submission is spam and will be silently
+       rejected. -->
+  <div style="position: absolute; left: -9999px;" aria-hidden="true">
+    <label for="fb-phone">Leave this empty</label>
+    <input type="text" id="fb-phone" name="_phone" tabindex="-1" autocomplete="off">
+  </div>
+
   <div class="actions">
     <button type="submit" id="fb-submit">Send feedback</button>
   </div>
@@ -126,6 +134,8 @@
     var form = document.getElementById('feedback-form');
     var btn  = document.getElementById('fb-submit');
     var box  = document.getElementById('fb-status');
+    var loadTime = Date.now();
+    var MIN_SECONDS = 4; // Bots submit instantly; humans take at least 4s.
     if (!form || !btn || !box) return;
 
     // Build the Formspark "_email.subject" prefix at submit time. We keep the
@@ -154,6 +164,20 @@
 
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
+
+      // Spam guard 1: honeypot
+      var phoneField = document.getElementById('fb-phone');
+      if (phoneField && phoneField.value.trim() !== '') {
+        // Silently swallow bot submissions — don't show error.
+        return;
+      }
+
+      // Spam guard 2: minimum time on page
+      var elapsed = (Date.now() - loadTime) / 1000;
+      if (elapsed < MIN_SECONDS) {
+        showStatus('error', 'Please take a moment to fill out the form. Spam submissions are discarded.');
+        return;
+      }
       if (!form.reportValidity || !form.reportValidity()) {
         // Let the browser surface its built-in validation messages.
         try { form.reportValidity(); } catch (e) {}
