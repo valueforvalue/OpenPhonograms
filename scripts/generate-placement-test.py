@@ -38,6 +38,8 @@ SECTIONS = [
         "id": "phonemic-awareness",
         "title": "Section 1: Phonemic Awareness",
         "stage_if_pass": "Stage 1 Lesson 9+",
+        "diagnosis": "Tests whether the child can hear, blend, and segment sounds in spoken words — the foundation of all reading. No letters involved; purely oral.",
+        "remediation": "If fewer than 5/6 items pass: start at Stage 1 Lesson 1 (Sounds Around Us). Child needs explicit phonemic-awareness work before letter-sound instruction.",
         "items": [
             ("blend", "cat", "/k/ /ă/ /t/", "Word: cat. Blend: k-ă-t. Now YOU blend: 'sun'."),
             ("blend", "big", "/b/ /ĭ/ /g/", "Word: big. Blend: b-ĭ-g. Now YOU blend: 'red'."),
@@ -51,6 +53,8 @@ SECTIONS = [
         "id": "phonograms-single",
         "title": "Section 2: Single-Letter Phonograms",
         "stage_if_pass": "Stage 2 Lesson 1+",
+        "diagnosis": "Tests single-letter phonogram knowledge (a-z). Can the child recall all sounds for each letter on flash? Can they read simple CVC words?",
+        "remediation": "If phonogram flash items fail: revisit Stage 1 Lessons 9-43. If CVC reading fails: revisit Stage 1 Lessons 6-8 (blending) and 44-45 (consonant blends).",
         "items": [
             ("pg_flash", "a", "3 sounds", "Flash 'a'. Child says all sounds."),
             ("pg_flash", "g", "2 sounds", "Flash 'g'. Child says all sounds."),
@@ -64,6 +68,8 @@ SECTIONS = [
         "id": "phonograms-multi",
         "title": "Section 3: Multi-Letter Phonograms",
         "stage_if_pass": "Stage 3 Lesson 1+",
+        "diagnosis": "Multi-letter phonograms (sh, th, ck, ee, ng, etc.) are introduced in Stage 2. This section checks whether the child has automatic recall.",
+        "remediation": "If multi-letter PG flash fails: revisit Stage 2 Lessons 10-21 (multi-letter PG intros). If word reading fails: revisit Stage 2 Lessons 22-30 (review + practice).",
         "items": [
             ("pg_flash", "sh", "1 sound", "Flash 'sh'. Child says sound."),
             ("pg_flash", "th", "2 sounds", "Flash 'th'. Child says BOTH sounds."),
@@ -77,6 +83,8 @@ SECTIONS = [
         "id": "silent-e-and-advanced",
         "title": "Section 4: Silent E & Advanced",
         "stage_if_pass": "Stage 4+",
+        "diagnosis": "Tests advanced decoding: silent E reasoning, complex multi-letter PGs (ti = /sh/), and say-to-spell strategy. Requires fluent PG knowledge.",
+        "remediation": "If silent E items fail: revisit Stage 3 Lessons 1-20. If advanced PG items fail: revisit Stage 4 Lessons on Latin /sh/, morphology, suffixing.",
         "items": [
             ("read", "make", "m-ā-k (silent E)", "Read this word: make. Why is the 'a' long? (Silent E)"),
             ("read", "have", "h-ă-v (silent E but short a)", "Read this word: have. Why is the 'a' short? (Rule 12.2: no V/U at end)"),
@@ -116,6 +124,7 @@ def render_html() -> str:
           <strong>Passing all 6 items here means child is ready for: {sec['stage_if_pass']}</strong><br>
           {len(sec['items'])} items &middot; No time limit &middot; Read aloud to child
         </p>
+        <p class="diagnosis">{sec.get('diagnosis', '')}</p>
         {items_html}
         <div class="section-result" id="result-{sec['id']}"></div>
       </section>"""
@@ -132,6 +141,7 @@ h1 {{ font-size: 22pt; margin: 0 0 0.2em 0; color: #2a5c8a; border-bottom: 3px s
 h2 {{ font-size: 16pt; color: #2a5c8a; margin-top: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }}
 .meta {{ color: #555; font-size: 10pt; margin-bottom: 1.5em; }}
 .section {{ page-break-inside: avoid; margin-bottom: 2em; padding: 0.5em; border: 1px solid #ddd; border-radius: 6px; }}
+.diagnosis {{ font-size: 10pt; color: #444; margin: 0.4em 0 0.8em 0; font-style: italic; }}
 .section-info {{ background: #f0f4f8; padding: 0.6em 1em; border-radius: 4px; font-size: 11pt; margin: 0.5em 0; }}
 .item {{ margin: 0.6em 0; padding: 0.4em 0.6em; border-left: 3px solid transparent; }}
 .item.passed {{ border-left-color: #4a8a3a; }}
@@ -157,7 +167,15 @@ button:hover {{ background: #f0f4f8; }}
 <div class="meta">
 <strong>Purpose:</strong> Determine which stage a new student should begin.<br>
 <strong>Time:</strong> 15-20 minutes total (oral; child does not need to read or write).<br>
-<strong>Format:</strong> Teacher reads items aloud, marks whether child answered correctly. JS scores at the end.
+<strong>Format:</strong> Read items aloud, check each one the child answers correctly. Click "Score All Sections" or print and score by hand.
+</div>
+
+<div style="background: #f0f4f8; padding: 0.8em 1em; margin-bottom: 1em; border-radius: 4px; font-size: 11pt;">
+<strong>Quick section map:</strong><br>
+<strong>Section 1</strong> &mdash; Phonemic awareness (oral blending/segmenting). Pass &rarr; ready for letter-sound work.<br>
+<strong>Section 2</strong> &mdash; Single-letter phonograms + CVC reading. Pass &rarr; ready for multi-letter PGs.<br>
+<strong>Section 3</strong> &mdash; Multi-letter phonograms (sh, th, ck, ee, etc.). Pass &rarr; ready for silent E + advanced.<br>
+<strong>Section 4</strong> &mdash; Silent E + advanced PGs + say-to-spell. Pass &rarr; ready for Stage 4-5.
 </div>
 
 <div class="controls">
@@ -212,7 +230,7 @@ function scoreAll() {{
       resultEl.innerHTML = `<strong>✓ Section passed: ${{passed}}/${{total}} (${{pct}}%)</strong> &mdash; Child is ready for ${{recommendations[idx]}}.`;
       bestIdx = idx;
     }} else {{
-      resultEl.innerHTML = `Section score: ${{passed}}/${{total}} (${{pct}}%) &mdash; Needs work in this section.`;
+      resultEl.innerHTML = `Section score: ${{passed}}/${{total}} (${{pct}}%) &mdash; Needs work. Read the diagnosis above and remediate before moving on.`;
     }}
     details.push(`${{idx + 1}}: ${{passed}}/${{total}}`);
   }});

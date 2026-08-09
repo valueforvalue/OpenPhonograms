@@ -43,9 +43,15 @@ STAGE_DATA = {
         "name": "Pre-K (4-5): Phonemic awareness + first 26 phonograms",
         "checkpoints": {
             "early": {"after_lesson": 16, "title": "Quick Check 1 — Phonograms a-s",
+               "purpose": "Checks first-sound identification, CVC blending, and flash recall of the first 7 phonograms (a-s).",
+               "pass_criteria": "Pass: 8 of 10 items correct. If 2+ flash items missed, re-drill phonograms. If 2+ blend items missed, revisit blending lessons.",
+               "remediation": "Revisit Stage 1 Lessons 6-16. Focus on the specific phonogram or skill the child missed.",
                       "pgs": ["a", "d", "g", "c", "o", "qu", "s"],
                       "skills": ["phonogram flash (all sounds)", "blend CVC (3 phonograms)", "identify first sound"]},
             "mid": {"after_lesson": 30, "title": "Quick Check 2 — Phonograms a-m",
+                "purpose": "Checks CVC segmenting, middle-sound identification, and flash recall of phonograms a-m.",
+                "pass_criteria": "Pass: 8 of 10 items correct. If segmenting is weak, revisit Stage 1 Lessons 7-8. If middle sounds are weak, revisit Lessons 31-33.",
+                "remediation": "Revisit the lesson that introduced the missed phonogram or skill. Middle-sound errors often mean the child needs more oral PA work.",
                      "pgs": ["a", "d", "g", "c", "o", "qu", "s", "t", "i", "p", "u", "j", "r", "n", "m"],
                      "skills": ["phonogram flash (all sounds)", "blend CVC", "segment CVC", "identify middle sound"]},
             "late": {"after_lesson": 43, "title": "Quick Check 3 — All 26 phonograms",
@@ -164,8 +170,14 @@ Use after <strong>Lesson {after_lesson}</strong> · Informal diagnostic · ~10 m
 <p><strong>Rules covered:</strong> {rules_html}</p>
 
 <div class="instructions">
-<strong>How to use:</strong> Work through each section with the child. Do not time strictly — this is informal. Mark any item the child hesitates on. If 2+ items in one section are weak, return to the lessons listed in the comments below.
+<strong>How to use:</strong> Work through each section with the child. Do not time — this is informal. Check off each item the child answers correctly.<br><br>
+<strong>How to score:</strong> Count checkmarks. <strong>8 out of 10 passing = ready to continue.</strong> If the child misses 2+ items in one section, pause and revisit the lesson(s) that taught that skill. <em>This is not a test — it is a temperature check.</em> Use the "What This Checks" note on each item to know which lesson to return to.
 </div>
+
+<h2>Purpose & Pass Criteria</h2>
+<p><strong>Purpose:</strong> {data.get('purpose', '')}</p>
+<p><strong>Pass:</strong> {data.get('pass_criteria', '')}</p>
+<p><strong>What to do if not passing:</strong> {data.get('remediation', '')}</p>
 
 <h2>Part 1: Phonogram Flash</h2>
 <div class="section">
