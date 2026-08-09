@@ -9,8 +9,8 @@ output path. Dry-run with --list to see what would be included.
 
 Model C ZIP shape (this script's default):
   05-Teacher-Handbooks/  — 5 bound-book-style stage handbooks (TM)
-  06-Lesson-Packs/       — 244 per-lesson bundles (cover + at-a-glance +
-                            lesson + worksheets + flash cards all together)
+  06-Lesson-Packs/       — 5 merged PDFs (one per stage) + singles/ subfolder
+                            (cover + lesson + worksheet + flash cards per pack)
   [06-Stage-Overview/    — OPTIONAL: per-stage merged workbook PDFs]
   [07-Worksheets/        — OPTIONAL: standalone practice sheets]
   + readers, quick-checks, game, audio, certificates, reference, etc.
@@ -27,7 +27,7 @@ Produces a top-level ZIP with:
   02-Scope-and-Sequence.pdf        — full curriculum map
   04-Quick-Reference/              — phonograms, rules, spelling analysis
   05-Teacher-Handbooks/            — 5 bound-book-style stage handbooks
-  06-Lesson-Packs/                 — 244 per-lesson bundles (5 stage folders)
+  06-Lesson-Packs/                 — 5 merged PDFs + per-lesson singles in singles/
                                        — Model C: includes worksheets + flash cards
   07-Worksheets/                   — 178 standalone practice sheets (opt-in via --with-worksheets)
   08-Decodable-Readers/            — 25 readers + index
@@ -163,7 +163,7 @@ QUICK START
 1. Open 00-Start-Here.pdf — orientation for new users.
 2. Open 01-Index-and-Table-of-Contents.pdf — master TOC with clickable links.
 3. Print 09-Quick-Checks/placement-test.pdf and run it to find your starting stage.
-4. Open 06-Lesson-Packs/stage-N/ and start with lesson pack #1.
+4. Open 06-Lesson-Packs/stage-1-all-lessons.pdf and start teaching.
 
 WHAT'S IN THIS RELEASE
 ----------------------
@@ -176,15 +176,16 @@ Feedback.html                         — submit feedback (opens in browser, nee
    04-Quick-Reference-Print-PDFs/       — 3 generated summary PDFs for printing
    04-Quick-Reference-Browser-PDFs/     — printable PDF companions of the reference HTMLs
 05-Teacher-Handbooks/                  — 5 bound-book-style stage handbooks (PDFs)
-06-Lesson-Packs/                       — 244 per-lesson bundles (each with cover,
-                                          at-a-glance, lesson script, worksheets, cards)
+06-Lesson-Packs/                       — 5 merged per-stage PDFs + singles/ subfolder
+                                          (each with cover, lesson, worksheets, cards)
+                                          Open stage-N-all-lessons.pdf to start.
 06-Stage-Overview/stage-N.pdf          — OPTIONAL: merged per-stage workbook (--with-stage-overview)
 07-Worksheets/                         — OPTIONAL: standalone practice sheets
                                           (organized by stage + category; --with-worksheets)
 08-Decodable-Readers/                  — 25 decodable story PDFs + index
 09-Quick-Checks/                       — placement test + 5 stage quick-checks
 
-(Stage mastery assessments are included in 06-Lesson-Packs/<stage>/lesson-NN-assessment-N.pdf
+(Stage mastery assessments are included in 06-Lesson-Packs/singles/<stage>/lesson-NN-assessment-N.pdf
  and inside 06-Stage-Overview/stage-N.pdf; no separate 10-Assessments/ section needed.)
 
 METHODOLOGY
@@ -332,7 +333,7 @@ def build_certs(zf, args, stats):
 
 
 def build_lesson_packs(zf, args, stats):
-    """Section 6: Per-lesson PDFs from packs/stage-N/*.pdf."""
+    """Section 6: Merged per-stage PDF at top level, singles in singles/."""
     if args.no_lessons:
         stats["skipped"].append("06-Lesson-Packs/")
         return
@@ -343,16 +344,24 @@ def build_lesson_packs(zf, args, stats):
         stage_dir = packs / f"stage-{stage}"
         if not stage_dir.exists():
             continue
-        count = 0
+        merged_name = f"stage-{stage}-all-lessons.pdf"
+        singles_count = 0
         for pdf in sorted(stage_dir.glob("*.pdf")):
-            arc = f"06-Lesson-Packs/stage-{stage}/{pdf.name}"
-            if args.list:
-                stats["included"].append(arc)
+            if pdf.name == merged_name:
+                arc = f"06-Lesson-Packs/{pdf.name}"
+                if args.list:
+                    stats["included"].append(arc)
+                else:
+                    zf.write(pdf, arc)
             else:
-                zf.write(pdf, arc)
-            count += 1
-        if count and not args.list:
-            print(f"  OK  06-Lesson-Packs/stage-{stage}/  ({count} lesson packs)")
+                arc = f"06-Lesson-Packs/singles/stage-{stage}/{pdf.name}"
+                if args.list:
+                    stats["included"].append(arc)
+                else:
+                    zf.write(pdf, arc)
+                singles_count += 1
+        if not args.list:
+            print(f"  OK  06-Lesson-Packs/stage-{stage}-all-lessons.pdf + {singles_count} singles")
 
 
 def build_worksheets(zf, args, stats):
