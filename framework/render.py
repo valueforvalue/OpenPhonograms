@@ -140,13 +140,13 @@ PAGE_CSS = """
     @bottom-left { content: ""; }
 }
 
-/* Logo header: first page only, right-aligned, ~0.8in wide for print clarity.
-   Add extra top margin on :first so the logo doesn't overlap body content. */
+/* Logo header: centered full-width banner on first page.
+   Extra top margin so the logo clears the page edge cleanly. */
 @page :first {
-    margin-top: 1.15in;
-    @top-right {
-        content: url("assets/logo/openphonograms-header.png");
-        width: 0.8in;
+    margin-top: 1.4in;
+    @top-center {
+        content: url("assets/logo/openphonograms-logo.svg");
+        width: 3.5in;
     }
 }
 
