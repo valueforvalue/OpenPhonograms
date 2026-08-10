@@ -124,3 +124,7 @@ Write each letter once. Say its sounds as you write.
 > **Say:** "What did you learn today?" *(Child responds: "The phonogram a — it says /ă/ /ā/ /ä/.")*
 
 ---
+
+*Open-source. MIT licensed. Phonograms are drawn from the public-domain phonics tradition (1800s onward).*
+
+</details>

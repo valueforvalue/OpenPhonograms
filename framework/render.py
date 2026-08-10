@@ -325,8 +325,8 @@ body.handbook h2 { font-size: 13pt; margin-top: 1em; }
 body.handbook h3 { font-size: 11pt; }
 body.handbook p { margin: 0.3em 0; }
 body.handbook table { font-size: 10pt; margin: 0.5em 0; }
-body.handbook .phonogram { font-size: 48pt; }
-body.handbook .phonogram-letter { font-size: 56pt; }
+body.handbook .phonogram { font-size: 28pt; }
+body.handbook .phonogram-letter { font-size: 32pt; }
 body.handbook .teacher-script { font-size: 10pt; padding: 0.4em 0.7em; }
 
 body.index {
@@ -607,12 +607,12 @@ img {
     flex: 3;
 }
 .reader-sidebar {
-    flex: 1;
+    flex: 0.7;
     background: var(--card-bg);
     border: 1px solid var(--rule-line);
     border-radius: 6px;
-    padding: 0.8em;
-    font-size: 11pt;
+    padding: 0.5em;
+    font-size: 10pt;
 }
 .reader-sidebar h3 {
     font-size: 10pt;

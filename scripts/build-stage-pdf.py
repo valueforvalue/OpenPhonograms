@@ -88,18 +88,24 @@ def main():
 
     for s in stages:
         all_out = BUILD / f"stage-{s}.pdf"
+        cards_out = BUILD / f"stage-{s}-cards.pdf"
 
         ws_pdfs = collect_pdfs(*ws_subdirs[s])
         rd_pdfs = collect_pdfs(reader_subdir[s])
+        card_pdfs = collect_pdfs(f"worksheets/cards/stage-{s}")
 
         ws_count = len(ws_pdfs)
         rd_count = len(rd_pdfs)
+        card_count = len(card_pdfs)
         all_pages = merge_pdfs(ws_pdfs + rd_pdfs, all_out) if (ws_pdfs or rd_pdfs) else 0
+        card_pages = merge_pdfs(card_pdfs, cards_out)
 
         if all_out.exists() and all_out.stat().st_size < 1000:
             all_out.unlink()
+        if cards_out.exists() and cards_out.stat().st_size < 1000:
+            cards_out.unlink()
 
-        print(f"Stage {s}: {ws_count}ws + {rd_count}rd → {all_out.name if all_pages else '(empty)'}")
+        print(f"Stage {s}: {ws_count}ws + {rd_count}rd → {all_out.name if all_pages else '(empty)'} | {card_count}cards → {cards_out.name if card_pages else '(empty)'}")
 
 
 if __name__ == "__main__":

@@ -39,6 +39,7 @@ def make_certificate(stage: int) -> str:
     return f"""<!DOCTYPE html>
 <html><head><meta charset="UTF-8"><style>
 @page {{ size: letter landscape; margin: 0.5in; }}
+@page :first {{ margin-top: 0.5in; @top-center {{ content: none; }} @bottom-left {{ content: none; }} }}
 body {{
   font-family: Georgia, "Times New Roman", serif;
   text-align: center;

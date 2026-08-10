@@ -34,10 +34,10 @@ Read each word aloud before opening the story. Sound it out, then say it fast.
 
 ## Story: A Big Ant
 
-Open the reader PDF (linked in the cover) and read it together. The child
-reads each page aloud. If a word is tricky, sound it out together. No
-need to stop for spelling analysis on bonus readers — focus on fluency
-and joy.
+Open the reader from the <strong>08-Decodable-Readers/stage-1/</strong> folder
+and read it together. The child reads each page aloud. If a word is
+tricky, sound it out together. No need to stop for spelling analysis
+on bonus readers — focus on fluency and joy.
 
 ---
 

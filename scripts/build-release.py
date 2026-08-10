@@ -568,13 +568,19 @@ def _relativize_build_pdfs() -> None:
             z.extractall(tmp)
             pdfs = [n for n in z.namelist() if n.endswith('.pdf')]
 
-        # Build filename → release-path lookup
+        # Build filename → release-path lookup (PDFs + HTML)
         name_to_path: dict[str, str] = {}
         for p in pdfs:
             name = p.split('/')[-1]
-            # First occurrence wins for non-duplicates
             if name not in name_to_path:
                 name_to_path[name] = p
+        # Also index HTML files
+        with zipfile.ZipFile(str(release_zip)) as z:
+            for p in z.namelist():
+                if p.endswith('.html'):
+                    name = p.split('/')[-1]
+                    if name not in name_to_path:
+                        name_to_path[name] = p
 
         total_links = 0
         pdf_count = 0
