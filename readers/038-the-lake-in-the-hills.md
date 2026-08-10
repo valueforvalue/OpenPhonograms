@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A lake sits in the hills. The water is still and clear. The sky is wide.
+A lake sits in the hills. The water is still and clear. The sky is wide. Tall pines line the shore.
 
 </div>
 
@@ -51,7 +51,7 @@ A lake sits in the hills. The water is still and clear. The sky is wide.
 
 <div class="reader-text">
 
-Tall pines line the shore. Green ferns grow by the rocks. The place is quiet.
+Green ferns grow by the rocks. The place is quiet. A stone path leads to the lake. A frog sits on a stone.
 
 </div>
 
@@ -59,7 +59,7 @@ Tall pines line the shore. Green ferns grow by the rocks. The place is quiet.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -75,25 +75,7 @@ Tall pines line the shore. Green ferns grow by the rocks. The place is quiet.
 
 <div class="reader-text">
 
-A stone path leads to the lake. A frog sits on a stone. The frog dives in.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Under the water, fish glide. They flash and shine. The deep is cool.
+The frog dives in. Under the water, fish glide. They flash and shine. The deep is cool.
 
 </div>
 
@@ -117,7 +99,7 @@ Under the water, fish glide. They flash and shine. The deep is cool.
 
 <div class="reader-text">
 
-A crane wades in the shallows. It is still and calm. It hunts for a meal.
+A crane wades in the shallows. It is still and calm. It hunts for a meal. On the hill, a kid named Will looks down.
 
 </div>
 
@@ -126,24 +108,6 @@ A crane wades in the shallows. It is still and calm. It hunts for a meal.
 ### Spelling Aid
 
 **Phonograms on this page:** a, c, d, e, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-On the hill, a kid named Will looks down. He smiles at the scene. The view is fine.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -157,7 +121,7 @@ On the hill, a kid named Will looks down. He smiles at the scene. The view is fi
 
 <div class="reader-text">
 
-Will slides down the path. He reaches the lake. He sits on a stone.
+He smiles at the scene. The view is fine. Will slides down the path. He reaches the lake.
 
 </div>
 
@@ -165,7 +129,7 @@ Will slides down the path. He reaches the lake. He sits on a stone.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, c, d, e, f
 
 </div>
 
@@ -175,7 +139,7 @@ Will slides down the path. He reaches the lake. He sits on a stone.
 
 <div class="reader-text">
 
-He puts a hand in the water. It is cold and clean. He smiles.
+He sits on a stone. He puts a hand in the water. It is cold and clean. He smiles.
 
 </div>
 
@@ -199,7 +163,7 @@ He puts a hand in the water. It is cold and clean. He smiles.
 
 <div class="reader-text">
 
-The sun starts to set. The sky turns pink. The lake glows.
+The sun starts to set. The sky turns pink. The lake glows. Will walks home in the dusk.
 
 </div>
 
@@ -207,13 +171,15 @@ The sun starts to set. The sky turns pink. The lake glows.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, g, i, k
+**Phonograms on this page:** a, d, e, g, h
 
 **Rules in this story:**
 
 **Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 22:** 3rd person singular verbs
 
 </div>
 
@@ -223,7 +189,7 @@ The sun starts to set. The sky turns pink. The lake glows.
 
 <div class="reader-text">
 
-Will walks home in the dusk. The lake is a place he will not forget.
+The lake is a place he will not forget.
 
 </div>
 
@@ -231,13 +197,11 @@ Will walks home in the dusk. The lake is a place he will not forget.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 22:** 3rd person singular verbs
 
 </div>
 

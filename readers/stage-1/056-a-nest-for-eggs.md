@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-A red hen sits in a box. The box has twigs and mud and grass. It is a nest.
+A red hen sits in a box. The box has twigs and mud and grass. It is a nest. Six red eggs sit in the nest.
 
 </div>
 
@@ -38,24 +38,6 @@ A red hen sits in a box. The box has twigs and mud and grass. It is a nest.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Six red eggs sit in the nest. The hen sits on the eggs. She sits and sits.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** d, e, g, h, i
 
 **Rules in this story:**
 
@@ -69,7 +51,7 @@ Six red eggs sit in the nest. The hen sits on the eggs. She sits and sits.
 
 <div class="reader-text">
 
-Pop! A leg juts up from an egg. A wet pup rests by the hen.
+The hen sits on the eggs. She sits and sits. Pop! A leg juts up from an egg.
 
 </div>
 
@@ -77,7 +59,7 @@ Pop! A leg juts up from an egg. A wet pup rests by the hen.
 
 ### Spelling Aid
 
-**Phonograms on this page:** e, g, h, j, l
+**Phonograms on this page:** e, g, h, i, j
 
 </div>
 
@@ -87,7 +69,7 @@ Pop! A leg juts up from an egg. A wet pup rests by the hen.
 
 <div class="reader-text">
 
-The pup is glad! Mom hen sits by the pup. The pup is snug and soft.
+A wet pup rests by the hen. The pup is glad! Mom hen sits by the pup. The pup is snug and soft.
 
 </div>
 
@@ -105,7 +87,7 @@ The pup is glad! Mom hen sits by the pup. The pup is snug and soft.
 
 <div class="reader-text">
 
-In the nest, six eggs sat. A pup from each egg is in the nest. Mom hen is glad.
+In the nest, six eggs sat. A pup from each egg is in the nest. Mom hen is glad. She has a big nest of pups!
 
 </div>
 
@@ -113,25 +95,7 @@ In the nest, six eggs sat. A pup from each egg is in the nest. Mom hen is glad.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She has a big nest of pups!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** b, e, g, i, n
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Gus is a bird. He has thin wings and a sharp beak. Gus soars over the sea.
+Gus is a bird. He has thin wings and a sharp beak. Gus soars over the sea. He sees a ship with a white sail.
 
 </div>
 
@@ -34,24 +34,6 @@ Gus is a bird. He has thin wings and a sharp beak. Gus soars over the sea.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-He sees a ship with a white sail. The sail is big. The ship is fast.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, e, f, g
 
 **Rules in this story:**
 
@@ -65,7 +47,7 @@ He sees a ship with a white sail. The sail is big. The ship is fast.
 
 <div class="reader-text">
 
-The wind is strong. The group is glad. Then the day turns dark.
+The sail is big. The ship is fast. The wind is strong. The group is glad.
 
 </div>
 
@@ -73,13 +55,11 @@ The wind is strong. The group is glad. Then the day turns dark.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, g, i, k
+**Phonograms on this page:** a, b, d, f, g
 
 **Rules in this story:**
 
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
+**Rule 18:** SH placement
 
 </div>
 
@@ -89,7 +69,7 @@ The wind is strong. The group is glad. Then the day turns dark.
 
 <div class="reader-text">
 
-The clouds roll in. The wind howls. Rain hits the deck.
+Then the day turns dark. The clouds roll in. The wind howls. Rain hits the deck.
 
 </div>
 
@@ -101,11 +81,11 @@ The clouds roll in. The wind howls. Rain hits the deck.
 
 **Rules in this story:**
 
+**Rule 3:** No English word ends in I, U, V, or J
+
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 16:** Two I's cannot be adjacent
-
-**Rule 26:** CK after short vowel
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -115,29 +95,7 @@ The clouds roll in. The wind howls. Rain hits the deck.
 
 <div class="reader-text">
 
-The ship sways. The group grips the rail. The group pulls the sail in tight.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, g, h, i, l
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The group lashes the deck. The ship rocks. Gus swoops low.
+The ship sways. The group grips the rail. The group pulls the sail in tight. The group lashes the deck.
 
 </div>
 
@@ -161,7 +119,7 @@ The group lashes the deck. The ship rocks. Gus swoops low.
 
 <div class="reader-text">
 
-He calls to the ship. He sees a green light. "Land!" he calls.
+The ship rocks. Gus swoops low. He calls to the ship. He sees a green light.
 
 </div>
 
@@ -169,7 +127,7 @@ He calls to the ship. He sees a green light. "Land!" he calls.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, e, g, h
 
 **Rules in this story:**
 
@@ -185,7 +143,7 @@ He calls to the ship. He sees a green light. "Land!" he calls.
 
 <div class="reader-text">
 
-The ship turns to the light. The wind slows. The rain stops.
+"Land!" he calls. The ship turns to the light. The wind slows. The rain stops.
 
 </div>
 
@@ -193,7 +151,7 @@ The ship turns to the light. The wind slows. The rain stops.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, g, h, i
+**Phonograms on this page:** a, c, d, g, h
 
 **Rules in this story:**
 
@@ -211,7 +169,7 @@ The ship turns to the light. The wind slows. The rain stops.
 
 <div class="reader-text">
 
-The sun glows bright. The clouds drift off. The ship pulls up to a hill.
+The sun glows bright. The clouds drift off. The ship pulls up to a hill. The group steps off.
 
 </div>
 
@@ -219,7 +177,7 @@ The sun glows bright. The clouds drift off. The ship pulls up to a hill.
 
 ### Spelling Aid
 
-**Phonograms on this page:** b, c, d, f, g
+**Phonograms on this page:** b, c, d, e, f
 
 **Rules in this story:**
 
@@ -233,7 +191,7 @@ The sun glows bright. The clouds drift off. The ship pulls up to a hill.
 
 <div class="reader-text">
 
-The group steps off. The group pats Gus. The ship is safe.
+The group pats Gus. The ship is safe.
 
 </div>
 

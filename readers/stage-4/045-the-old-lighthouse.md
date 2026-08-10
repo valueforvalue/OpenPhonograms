@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-On a rocky point stands an old lighthouse. Its white tower has stood for one hundred years. Long ago, a keeper lived inside.
+On a rocky point stands an old lighthouse. Its white tower has stood for one hundred years. Long ago, a keeper lived inside. His job was to light the great lamp each night.
 
 </div>
 
@@ -33,12 +33,14 @@ On a rocky point stands an old lighthouse. Its white tower has stood for one hun
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
+**Rule 28:** GH phonograms (silent, /f/, /g/)
+
 </div>
 
 </div>
@@ -47,7 +49,7 @@ On a rocky point stands an old lighthouse. Its white tower has stood for one hun
 
 <div class="reader-text">
 
-His job was to light the great lamp each night. Sailors far out at sea depended on that light. It warned them of the dangerous rocks.
+Sailors far out at sea depended on that light. It warned them of the dangerous rocks. The keeper climbed the spiral stairs every evening. He trimmed the wick and lit the lamp.
 
 </div>
 
@@ -69,7 +71,7 @@ His job was to light the great lamp each night. Sailors far out at sea depended 
 
 <div class="reader-text">
 
-The keeper climbed the spiral stairs every evening. He trimmed the wick and lit the lamp. Then he watched through the night.
+Then he watched through the night. He made sure the flame stayed bright and steady. If a storm blew in, the keeper stayed at his post. The lamp must never go out.
 
 </div>
 
@@ -78,28 +80,6 @@ The keeper climbed the spiral stairs every evening. He trimmed the wick and lit 
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-He made sure the flame stayed bright and steady. If a storm blew in, the keeper stayed at his post. The lamp must never go out.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
@@ -117,7 +97,7 @@ He made sure the flame stayed bright and steady. If a storm blew in, the keeper 
 
 <div class="reader-text">
 
-Ships would see the beam sweeping across the dark water. They would turn away from danger. Years went by.
+Ships would see the beam sweeping across the dark water. They would turn away from danger. Years went by. New electric lamps replaced the old oil flame.
 
 </div>
 
@@ -131,33 +111,7 @@ Ships would see the beam sweeping across the dark water. They would turn away fr
 
 **Rule 2:** G may soften to /j/ before E, I, Y
 
-**Rule 9:** AY for /ā/ at end
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-New electric lamps replaced the old oil flame. The keeper's job ended. The lighthouse stood empty for many winters.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 7:** I and Y may say /ē/
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
@@ -169,7 +123,7 @@ New electric lamps replaced the old oil flame. The keeper's job ended. The light
 
 <div class="reader-text">
 
-Paint peeled from its tall walls. Then a group of friends decided to save it. They scraped and painted and repaired.
+The keeper's job ended. The lighthouse stood empty for many winters. Paint peeled from its tall walls. Then a group of friends decided to save it.
 
 </div>
 
@@ -177,9 +131,11 @@ Paint peeled from its tall walls. Then a group of friends decided to save it. Th
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 7:** I and Y may say /ē/
 
 **Rule 29:** F vs V vs FE spelling
 
@@ -191,7 +147,7 @@ Paint peeled from its tall walls. Then a group of friends decided to save it. Th
 
 <div class="reader-text">
 
-Now the lighthouse is a museum. Visitors climb the stairs to see the old lamp room. A guide tells the story of the keepers.
+They scraped and painted and repaired. Now the lighthouse is a museum. Visitors climb the stairs to see the old lamp room. A guide tells the story of the keepers.
 
 </div>
 
@@ -213,7 +169,7 @@ Now the lighthouse is a museum. Visitors climb the stairs to see the old lamp ro
 
 <div class="reader-text">
 
-Children listen with wide eyes. They learn about the long nights. They learn about the salt spray and the wind.
+Children listen with wide eyes. They learn about the long nights. They learn about the salt spray and the wind. They learn about the lonely watches in the dark.
 
 </div>
 
@@ -239,7 +195,7 @@ Children listen with wide eyes. They learn about the long nights. They learn abo
 
 <div class="reader-text">
 
-They learn about the lonely watches in the dark. They hear tales of brave rescues at sea. A new electric lamp still shines from the top.
+They hear tales of brave rescues at sea. A new electric lamp still shines from the top. It still warns ships away from the rocks. The old lighthouse is preserved.
 
 </div>
 
@@ -253,36 +209,10 @@ They learn about the lonely watches in the dark. They hear tales of brave rescue
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 17:** Latin /sh/ — TI, CI, SI
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It still warns ships away from the rocks. The old lighthouse is preserved. Its history will not be forgotten.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 31:** Schwa in unstressed syllables
-
 </div>
 
 </div>
@@ -291,7 +221,7 @@ It still warns ships away from the rocks. The old lighthouse is preserved. Its h
 
 <div class="reader-text">
 
-Visitors leave with quiet thanks. The keeper's watch continues in story and stone.
+Its history will not be forgotten. Visitors leave with quiet thanks. The keeper's watch continues in story and stone.
 
 </div>
 
@@ -299,7 +229,7 @@ Visitors leave with quiet thanks. The keeper's watch continues in story and ston
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, h, i
+**Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
 

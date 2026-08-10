@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clings to the underside of the leaf.
+A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clings to the underside of the leaf. It is smaller than a seed.
 
 </div>
 
@@ -49,7 +49,7 @@ A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clin
 
 <div class="reader-text">
 
-It is smaller than a seed. After a week, the egg splits. A small caterpillar crawls out.
+After a week, the egg splits. A small caterpillar crawls out. The caterpillar is hungry. It eats and eats the soft green leaf.
 
 </div>
 
@@ -57,25 +57,7 @@ It is smaller than a seed. After a week, the egg splits. A small caterpillar cra
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The caterpillar is hungry. It eats and eats the soft green leaf. It grows so quickly that its skin becomes too tight.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
 
@@ -89,7 +71,7 @@ The caterpillar is hungry. It eats and eats the soft green leaf. It grows so qui
 
 <div class="reader-text">
 
-The skin splits. Underneath is fresh new skin. The caterpillar keeps on eating.
+It grows so quickly that its skin becomes too tight. The skin splits. Underneath is fresh new skin. The caterpillar keeps on eating.
 
 </div>
 
@@ -97,7 +79,7 @@ The skin splits. Underneath is fresh new skin. The caterpillar keeps on eating.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -113,7 +95,7 @@ The skin splits. Underneath is fresh new skin. The caterpillar keeps on eating.
 
 <div class="reader-text">
 
-This happens again and again. Four times the caterpillar sheds its skin. Now it climbs to a safe branch.
+This happens again and again. Four times the caterpillar sheds its skin. Now it climbs to a safe branch. It spins a tiny pad of silk.
 
 </div>
 
@@ -131,7 +113,7 @@ This happens again and again. Four times the caterpillar sheds its skin. Now it 
 
 <div class="reader-text">
 
-It spins a tiny pad of silk. The caterpillar hangs upside down. It sheds its skin one final time.
+The caterpillar hangs upside down. It sheds its skin one final time. Underneath is a hard case. This is called a chrysalis.
 
 </div>
 
@@ -141,31 +123,11 @@ It spins a tiny pad of silk. The caterpillar hangs upside down. It sheds its ski
 
 **Phonograms on this page:** a, c, d, e, f
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Underneath is a hard case. This is called a chrysalis. Inside the chrysalis, a great change takes place.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
 **Rules in this story:**
 
-**Rule 1:** C softens to /s/ before E, I, Y
+**Rule 19:** Past tense -ED
 
-**Rule 2:** G may soften to /j/ before E, I, Y
-
-**Rule 13:** Drop Silent E for vowel suffix
+**Rule 20:** -ED sounds (/ed/, /d/, /t/)
 
 </div>
 
@@ -175,7 +137,7 @@ Underneath is a hard case. This is called a chrysalis. Inside the chrysalis, a g
 
 <div class="reader-text">
 
-The caterpillar dissolves. Slowly new parts begin to form. Wings grow.
+Inside the chrysalis, a great change takes place. The caterpillar dissolves. Slowly new parts begin to form. Wings grow.
 
 </div>
 
@@ -186,6 +148,10 @@ The caterpillar dissolves. Slowly new parts begin to form. Wings grow.
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 2:** G may soften to /j/ before E, I, Y
 
 **Rule 3:** No English word ends in I, U, V, or J
 
@@ -197,7 +163,7 @@ The caterpillar dissolves. Slowly new parts begin to form. Wings grow.
 
 <div class="reader-text">
 
-Long legs take shape. After many days, the case splits open. A butterfly crawls out.
+Long legs take shape. After many days, the case splits open. A butterfly crawls out. It climbs onto a leaf and pumps its wings full of air and light.
 
 </div>
 
@@ -213,7 +179,7 @@ Long legs take shape. After many days, the case splits open. A butterfly crawls 
 
 **Rule 7:** I and Y may say /ē/
 
-**Rule 31:** Schwa in unstressed syllables
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
 
@@ -223,7 +189,7 @@ Long legs take shape. After many days, the case splits open. A butterfly crawls 
 
 <div class="reader-text">
 
-It climbs onto a leaf and pumps its wings full of air and light. Then the butterfly lifts away. It flies over the garden below.
+Then the butterfly lifts away. It flies over the garden below. It pauses on a flower to drink sweet nectar. Its long tongue uncurls.
 
 </div>
 
@@ -237,9 +203,7 @@ It climbs onto a leaf and pumps its wings full of air and light. Then the butter
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-**Rule 29:** F vs V vs FE spelling
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 
@@ -249,7 +213,7 @@ It climbs onto a leaf and pumps its wings full of air and light. Then the butter
 
 <div class="reader-text">
 
-It pauses on a flower to drink sweet nectar. Its long tongue uncurls. The journey from egg to butterfly is complete.
+The journey from egg to butterfly is complete. The cycle will begin again.
 
 </div>
 
@@ -257,25 +221,7 @@ It pauses on a flower to drink sweet nectar. Its long tongue uncurls. The journe
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The cycle will begin again.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, g
+**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 

@@ -74,6 +74,11 @@ doctor:
 # Generate — markdown sources from data
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Generate double-sided printable phonogram flash cards (one PDF per stage)
+gen-flash-cards-printable:
+    @echo "==> Generating printable double-sided flash cards"
+    @{{python}} {{scripts_dir_s}}/generate-flash-cards-printable.py
+
 # Generate all 75 phonogram + 31 rule + 18 flash card + 3 blank worksheets
 gen-worksheets:
     @echo "==> Generating worksheets"
@@ -380,7 +385,7 @@ test-slow:
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Full build: generate → render → handbook → packs → release (Model C: ~10-15 min Windows)
-all: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test release
+all: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test gen-flash-cards-printable gen-stage-pdfs release
     @echo ""
     @echo "==> Full build complete (Model C)"
     @echo "    Handbooks: {{build_dir_s}}/handbook/"
@@ -389,7 +394,7 @@ all: gen-all gen-footers handbooks-batch pack-all render-readers render-referenc
     @echo "    Release:   {{project_root_s}}/release.zip"
 
 # Build without release ZIP (faster iteration loop, Model C: ~5 min Windows)
-build: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test gen-binding-instructions
+build: gen-all gen-footers handbooks-batch pack-all render-readers render-references audio gen-navigation gen-certificates gen-readers-index gen-quick-checks gen-placement-test gen-binding-instructions gen-flash-cards-printable gen-stage-pdfs
     @echo ""
     @echo "==> Build complete (Model C, no release ZIP)"
     @echo "    Handbooks: {{build_dir_s}}/handbook/"

@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-The sky grew dark. "A storm is coming," said Mom. The wind blew through the trees.
+The sky grew dark. "A storm is coming," said Mom. The wind blew through the trees. Rain began to fall.
 
 </div>
 
@@ -45,6 +45,8 @@ The sky grew dark. "A storm is coming," said Mom. The wind blew through the tree
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
+**Rule 16:** Two I's cannot be adjacent
+
 </div>
 
 </div>
@@ -53,7 +55,9 @@ The sky grew dark. "A storm is coming," said Mom. The wind blew through the tree
 
 <div class="reader-text">
 
-Rain began to fall. It was not just rain — it was a downpour! Dad brought the dog inside.
+It was not just rain — it was a downpour! Dad brought the dog inside. "We should stay in until this passes."
+
+The family sat in the living room. They could hear the wind howl outside.
 
 </div>
 
@@ -66,30 +70,6 @@ Rain began to fall. It was not just rain — it was a downpour! Dad brought the 
 **Sounds:** brought
 
 **Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 16:** Two I's cannot be adjacent
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"We should stay in until this passes."
-
-The family sat in the living room. They could hear the wind howl outside. The lights flickered.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -107,7 +87,7 @@ The family sat in the living room. They could hear the wind howl outside. The li
 
 <div class="reader-text">
 
-"I am scared," said little Sue. "It's okay," said Mom. "We are safe.
+The lights flickered. "I am scared," said little Sue. "It's okay," said Mom. "We are safe.
 
 </div>
 
@@ -127,33 +107,7 @@ The family sat in the living room. They could hear the wind howl outside. The li
 
 The storm will pass."
 
-To take Sue's mind off the storm, Dad told a story. It was a story about a brave sailor who sailed through many storms. The sailor was never afraid, because he knew his boat was strong.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 7:** I and Y may say /ē/
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Though the storm raged, the family stayed warm inside. They ate fruit and played games. After an hour, the rain stopped.
+To take Sue's mind off the storm, Dad told a story. It was a story about a brave sailor who sailed through many storms. The sailor was never afraid, because he knew his boat was strong. Though the storm raged, the family stayed warm inside.
 
 </div>
 
@@ -165,13 +119,13 @@ Though the storm raged, the family stayed warm inside. They ate fruit and played
 
 **Sounds:** though
 
-**Phonograms on this page:** a, d, e, f, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 7:** I and Y may say /ē/
 
-**Rule 16:** Two I's cannot be adjacent
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 **Rule 19:** Past tense -ED
 
@@ -183,7 +137,7 @@ Though the storm raged, the family stayed warm inside. They ate fruit and played
 
 <div class="reader-text">
 
-The sun came out. A rainbow stretched across the sky. "Look!" said Sue.
+They ate fruit and played games. After an hour, the rain stopped. The sun came out. A rainbow stretched across the sky.
 
 </div>
 
@@ -199,6 +153,8 @@ The sun came out. A rainbow stretched across the sky. "Look!" said Sue.
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
+**Rule 16:** Two I's cannot be adjacent
+
 </div>
 
 </div>
@@ -207,7 +163,7 @@ The sun came out. A rainbow stretched across the sky. "Look!" said Sue.
 
 <div class="reader-text">
 
-"It's beautiful!"
+"Look!" said Sue. "It's beautiful!"
 
 "Storms always end," said Mom. "And sometimes they leave something beautiful behind."
 

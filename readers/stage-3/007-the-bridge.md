@@ -29,7 +29,9 @@
 
 <div class="reader-text">
 
-There is an old bridge at the edge of town. The bridge goes over a wide river. "I do not like that bridge," says Meg.
+There is an old bridge at the edge of town. The bridge goes over a wide river. "I do not like that bridge," says Meg. "It looks like it will break."
+
+"Do not be silly," says Tom.
 
 </div>
 
@@ -45,9 +47,11 @@ There is an old bridge at the edge of town. The bridge goes over a wide river. "
 
 **Rules in this story:**
 
+**Rule 7:** I and Y may say /ē/
+
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 25:** DGE after short vowel
+**Rule 15:** Y changes to I
 
 </div>
 
@@ -57,11 +61,9 @@ There is an old bridge at the edge of town. The bridge goes over a wide river. "
 
 <div class="reader-text">
 
-"It looks like it will break."
+"That bridge has been there since I was a child."
 
-"Do not be silly," says Tom. "That bridge has been there since I was a child."
-
-Meg and Tom need to cross the river. There is no other way to get to the farm where they work.
+Meg and Tom need to cross the river. There is no other way to get to the farm where they work. Tom steps on the bridge. It is firm.
 
 </div>
 
@@ -71,7 +73,7 @@ Meg and Tom need to cross the river. There is no other way to get to the farm wh
 
 **New:** dge
 
-**Sounds:** bridge
+**Sounds:** bridge, bridge
 
 **Phonograms on this page:** a, b, c, d, e
 
@@ -79,35 +81,9 @@ Meg and Tom need to cross the river. There is no other way to get to the farm wh
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 7:** I and Y may say /ē/
-
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Tom steps on the bridge. It is firm. "See?" he says.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**New:** dge
-
-**Sounds:** bridge
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 25:** DGE after short vowel
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -117,7 +93,7 @@ Tom steps on the bridge. It is firm. "See?" he says.
 
 <div class="reader-text">
 
-"It is safe."
+"See?" he says. "It is safe."
 
 Meg takes a step. Then another. They walk to the middle of the bridge.
 
@@ -151,7 +127,7 @@ Meg takes a step. Then another. They walk to the middle of the bridge.
 
 Suddenly, Meg stops. "I see something shiny!"
 
-She kneels down. There, stuck between two boards, is a golden watch!
+She kneels down. There, stuck between two boards, is a golden watch! "Look!" says Meg.
 
 </div>
 
@@ -177,37 +153,11 @@ She kneels down. There, stuck between two boards, is a golden watch!
 
 <div class="reader-text">
 
-"Look!" says Meg. "Someone dropped their watch!"
+"Someone dropped their watch!"
 
-Tom's eyes get wide. "That is a fine watch.
+Tom's eyes get wide. "That is a fine watch. We should find who it belongs to."
 
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 10:** A says /ä/
-
-**Rule 14:** Double consonant for vowel suffix
-
-**Rule 27:** TCH after short/broad vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-We should find who it belongs to."
-
-They take the watch to the farm. An old man is there. "My watch!" he cries.
+They take the watch to the farm. An old man is there.
 
 </div>
 
@@ -223,7 +173,7 @@ They take the watch to the farm. An old man is there. "My watch!" he cries.
 
 **Rule 10:** A says /ä/
 
-**Rule 27:** TCH after short/broad vowel
+**Rule 14:** Double consonant for vowel suffix
 
 </div>
 
@@ -233,7 +183,7 @@ They take the watch to the farm. An old man is there. "My watch!" he cries.
 
 <div class="reader-text">
 
-"I lost it on the bridge last week! I thought it was gone forever."
+"My watch!" he cries. "I lost it on the bridge last week! I thought it was gone forever."
 
 The old man is so happy. He gives Meg and Tom each a coin.
 
@@ -255,7 +205,7 @@ The old man is so happy. He gives Meg and Tom each a coin.
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 15:** Y changes to I
+**Rule 10:** A says /ä/
 
 </div>
 

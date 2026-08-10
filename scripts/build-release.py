@@ -333,6 +333,22 @@ def build_certs(zf, args, stats):
             zf.write(f, arc)
 
 
+def build_flash_cards(zf, args, stats):
+    """Section 14: Printable double-sided flash cards."""
+    if args.no_flash_cards:
+        stats["skipped"].append("14-Printable-Flash-Cards/")
+        return
+    fc_dir = BUILD / "flash-cards"
+    if not fc_dir.exists():
+        return
+    for pdf in sorted(fc_dir.glob("*.pdf")):
+        arc = f"14-Printable-Flash-Cards/{pdf.name}"
+        if args.list:
+            stats["included"].append(arc)
+        else:
+            zf.write(pdf, arc)
+
+
 def build_lesson_packs(zf, args, stats):
     """Section 6: Merged per-stage PDF at top level, singles in singles/."""
     if args.no_lessons:
@@ -671,6 +687,7 @@ def build_argparser() -> argparse.ArgumentParser:
     p.add_argument("--no-game", action="store_true", help="Skip 11-Game/ phonogram trainer")
     p.add_argument("--no-audio", action="store_true", help="Skip 11-Game/audio/ MP3s (deprecated alias for --no-game; audio is now a game asset)")
     p.add_argument("--no-certs", action="store_true", help="Skip 13-Certificates/")
+    p.add_argument("--no-flash-cards", action="store_true", help="Skip 14-Printable-Flash-Cards/")
     p.add_argument("--no-reference", action="store_true", help="Skip 04-Quick-Reference/ HTMLs")
     return p
 
@@ -733,6 +750,7 @@ def _run_sections(zf, args, stats):
     build_reference(zf, args, stats)
     build_game(zf, args, stats)
     build_certs(zf, args, stats)
+    build_flash_cards(zf, args, stats)
 
 
 class _NullZip:

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Finn is a fish. He has thin fins. Finn is in a pond.
+Finn is a fish. He has thin fins. Finn is in a pond. The pond has rocks.
 
 </div>
 
@@ -33,7 +33,7 @@ Finn is a fish. He has thin fins. Finn is in a pond.
 
 ### Spelling Aid
 
-**Phonograms on this page:** d, f, h, i, n
+**Phonograms on this page:** c, d, f, h, i
 
 **Rules in this story:**
 
@@ -47,31 +47,7 @@ Finn is a fish. He has thin fins. Finn is in a pond.
 
 <div class="reader-text">
 
-The pond has rocks. It has long grass. Finn can swim fast.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, f, g
-
-**Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
-
-**Rule 30:** Double or single final consonant
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One day, Finn swims up. He sees a long creek. The creek is low.
+It has long grass. Finn can swim fast. One day, Finn swims up. He sees a long creek.
 
 </div>
 
@@ -87,7 +63,7 @@ One day, Finn swims up. He sees a long creek. The creek is low.
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 22:** 3rd person singular verbs
+**Rule 14:** Double consonant for vowel suffix
 
 </div>
 
@@ -97,7 +73,7 @@ One day, Finn swims up. He sees a long creek. The creek is low.
 
 <div class="reader-text">
 
-Finn swims in. He looks at the rocks. The creek is cool and dark.
+The creek is low. Finn swims in. He looks at the rocks. The creek is cool and dark.
 
 </div>
 
@@ -119,7 +95,7 @@ Finn swims in. He looks at the rocks. The creek is cool and dark.
 
 <div class="reader-text">
 
-A stick drops down. It hits Finn's fin. Finn can not get back.
+A stick drops down. It hits Finn's fin. Finn can not get back. He is stuck in the creek.
 
 </div>
 
@@ -143,7 +119,7 @@ A stick drops down. It hits Finn's fin. Finn can not get back.
 
 <div class="reader-text">
 
-He is stuck in the creek. He taps his tail. He can not get out.
+He taps his tail. He can not get out. A duck lands by. "Quack!
 
 </div>
 
@@ -151,33 +127,13 @@ He is stuck in the creek. He taps his tail. He can not get out.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, g, i
-
-**Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A duck lands by. "Quack! Quack!" she says.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, k, l
+**Phonograms on this page:** a, c, d, e, g
 
 **Rules in this story:**
 
 **Rule 11:** Q always needs U
+
+**Rule 14:** Double consonant for vowel suffix
 
 **Rule 26:** CK after short vowel
 
@@ -189,7 +145,7 @@ A duck lands by. "Quack! Quack!" she says.
 
 <div class="reader-text">
 
-"Are you stuck?"
+Quack!" she says. "Are you stuck?"
 
 "I am stuck!" says Finn. The duck looks at the creek. The duck pulls the stick out.
 
@@ -203,6 +159,8 @@ A duck lands by. "Quack! Quack!" she says.
 
 **Rules in this story:**
 
+**Rule 11:** Q always needs U
+
 **Rule 22:** 3rd person singular verbs
 
 **Rule 26:** CK after short vowel
@@ -215,7 +173,7 @@ A duck lands by. "Quack! Quack!" she says.
 
 <div class="reader-text">
 
-Finn swims back to the pond. "I am glad!" says Finn. The duck and Finn are pals.
+Finn swims back to the pond. "I am glad!" says Finn. The duck and Finn are pals. They swim by the rocks.
 
 </div>
 
@@ -227,6 +185,8 @@ Finn swims back to the pond. "I am glad!" says Finn. The duck and Finn are pals.
 
 **Rules in this story:**
 
+**Rule 14:** Double consonant for vowel suffix
+
 **Rule 22:** 3rd person singular verbs
 
 **Rule 26:** CK after short vowel
@@ -239,7 +199,7 @@ Finn swims back to the pond. "I am glad!" says Finn. The duck and Finn are pals.
 
 <div class="reader-text">
 
-They swim by the rocks. The pond is a good spot.
+The pond is a good spot.
 
 </div>
 
@@ -247,13 +207,7 @@ They swim by the rocks. The pond is a good spot.
 
 ### Spelling Aid
 
-**Phonograms on this page:** c, d, g, i, k
-
-**Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
-
-**Rule 30:** Double or single final consonant
+**Phonograms on this page:** d, g, n, o, p
 
 </div>
 

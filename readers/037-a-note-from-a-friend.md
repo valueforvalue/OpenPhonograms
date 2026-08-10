@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Kate is at home. She sits by the table. She has a pen and a clean white note.
+Kate is at home. She sits by the table. She has a pen and a clean white note. She wants to write to her friend.
 
 </div>
 
@@ -33,29 +33,9 @@ Kate is at home. She sits by the table. She has a pen and a clean white note.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She wants to write to her friend. Her friend is named Jane. They have been pals since grade one.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 13:** Drop Silent E for vowel suffix
 
@@ -69,7 +49,7 @@ She wants to write to her friend. Her friend is named Jane. They have been pals 
 
 <div class="reader-text">
 
-Kate writes a kind note. She smiles as she writes. The note is long and sweet.
+Her friend is named Jane. They have been pals since grade one. Kate writes a kind note. She smiles as she writes.
 
 </div>
 
@@ -77,9 +57,11 @@ Kate writes a kind note. She smiles as she writes. The note is long and sweet.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, g, i
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
@@ -91,7 +73,7 @@ Kate writes a kind note. She smiles as she writes. The note is long and sweet.
 
 <div class="reader-text">
 
-She writes, "I hope you are fine. I miss you at school. Let us play soon by the pine."
+The note is long and sweet. She writes, "I hope you are fine. I miss you at school. Let us play soon by the pine."
 
 Kate folds the note with care.
 
@@ -119,7 +101,7 @@ Kate folds the note with care.
 
 <div class="reader-text">
 
-She puts it in a white envelope. She writes the name in blue. Jane lives down the lane.
+She puts it in a white envelope. She writes the name in blue. Jane lives down the lane. Kate rides her bike to Jane's home.
 
 </div>
 
@@ -143,7 +125,7 @@ She puts it in a white envelope. She writes the name in blue. Jane lives down th
 
 <div class="reader-text">
 
-Kate rides her bike to Jane's home. The day is bright and fine. She leaves the note at Jane's door.
+The day is bright and fine. She leaves the note at Jane's door. She smiles and rides home. The lane is wide.
 
 </div>
 
@@ -169,7 +151,7 @@ Kate rides her bike to Jane's home. The day is bright and fine. She leaves the n
 
 <div class="reader-text">
 
-She smiles and rides home. The lane is wide. The next day, Jane comes to Kate's home.
+The next day, Jane comes to Kate's home. Jane has a note too. She grins and waves it high. Jane reads her note out loud.
 
 </div>
 
@@ -177,33 +159,13 @@ She smiles and rides home. The lane is wide. The next day, Jane comes to Kate's 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, c, d, e, g
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 9:** AY for /ā/ at end
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Jane has a note too. She grins and waves it high. Jane reads her note out loud.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, h
-
-**Rules in this story:**
 
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
@@ -215,7 +177,7 @@ Jane has a note too. She grins and waves it high. Jane reads her note out loud.
 
 <div class="reader-text">
 
-"I am fine! Let us play today by the slide!" The note makes Kate glad. They run and play in the wide green yard.
+"I am fine! Let us play today by the slide!" The note makes Kate glad. They run and play in the wide green yard. Two friends share the day from dawn to dusk.
 
 </div>
 
@@ -232,30 +194,6 @@ Jane has a note too. She grins and waves it high. Jane reads her note out loud.
 **Rule 9:** AY for /ā/ at end
 
 **Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Two friends share the day from dawn to dusk.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, h
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
 
 </div>
 

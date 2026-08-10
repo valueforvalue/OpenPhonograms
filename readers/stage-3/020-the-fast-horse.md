@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Storm is a black horse. Storm is the fastest horse on the farm. Storm loves to run.
+Storm is a black horse. Storm is the fastest horse on the farm. Storm loves to run. When he runs, his mane flies in the wind.
 
 </div>
 
@@ -33,35 +33,11 @@ Storm is a black horse. Storm is the fastest horse on the farm. Storm loves to r
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-When he runs, his mane flies in the wind. His hooves pound the ground like thunder. One day, a man comes to the farm.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
 
 **Rule 22:** 3rd person singular verbs
 
@@ -73,9 +49,7 @@ When he runs, his mane flies in the wind. His hooves pound the ground like thund
 
 <div class="reader-text">
 
-"I need a fast horse," the man says. "There is a race. The winner gets a golden cup."
-
-"Take Storm," says the farmer.
+His hooves pound the ground like thunder. One day, a man comes to the farm. "I need a fast horse," the man says. "There is a race.
 
 </div>
 
@@ -89,7 +63,9 @@ When he runs, his mane flies in the wind. His hooves pound the ground like thund
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 12:** Silent E — nine reasons
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -99,7 +75,9 @@ When he runs, his mane flies in the wind. His hooves pound the ground like thund
 
 <div class="reader-text">
 
-"He is the fastest."
+The winner gets a golden cup."
+
+"Take Storm," says the farmer. "He is the fastest."
 
 The day of the race comes. Storm stands at the starting line. Five other horses stand with him.
 
@@ -127,7 +105,7 @@ The day of the race comes. Storm stands at the starting line. Five other horses 
 
 <div class="reader-text">
 
-The horn sounds! They are off! Storm runs and runs.
+The horn sounds! They are off! Storm runs and runs. The wind rushes past his ears.
 
 </div>
 
@@ -135,7 +113,7 @@ The horn sounds! They are off! Storm runs and runs.
 
 ### Spelling Aid
 
-**Phonograms on this page:** d, f, h, m, n
+**Phonograms on this page:** a, d, e, f, h
 
 **Rules in this story:**
 
@@ -149,7 +127,7 @@ The horn sounds! They are off! Storm runs and runs.
 
 <div class="reader-text">
 
-The wind rushes past his ears. One horse pulls ahead. Then another.
+One horse pulls ahead. Then another. But Storm does not give up. He runs with all his heart.
 
 </div>
 
@@ -157,25 +135,7 @@ The wind rushes past his ears. One horse pulls ahead. Then another.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, h, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-But Storm does not give up. He runs with all his heart. Faster and faster.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, f, g, h
+**Phonograms on this page:** a, d, e, g, h
 
 **Rules in this story:**
 
@@ -193,7 +153,7 @@ But Storm does not give up. He runs with all his heart. Faster and faster.
 
 <div class="reader-text">
 
-At the finish line, Storm is not first. He is third. The farmer pats Storm's neck.
+Faster and faster. At the finish line, Storm is not first. He is third. The farmer pats Storm's neck.
 
 </div>
 
@@ -217,7 +177,7 @@ At the finish line, Storm is not first. He is third. The farmer pats Storm's nec
 
 "You ran well," he says. "You did not give up."
 
-Storm nickers. He did not win the golden cup.
+Storm nickers. He did not win the golden cup. But he ran his best race.
 
 </div>
 
@@ -225,13 +185,15 @@ Storm nickers. He did not win the golden cup.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
+**Rule 1:** C softens to /s/ before E, I, Y
+
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 29:** F vs V vs FE spelling
+**Rule 12:** Silent E — nine reasons
 
 </div>
 
@@ -241,7 +203,7 @@ Storm nickers. He did not win the golden cup.
 
 <div class="reader-text">
 
-But he ran his best race. And that is enough.
+And that is enough.
 
 </div>
 
@@ -249,13 +211,7 @@ But he ran his best race. And that is enough.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, g
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 12:** Silent E — nine reasons
+**Phonograms on this page:** e, g, h, n, o
 
 </div>
 

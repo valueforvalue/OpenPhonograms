@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm.
+Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm. Pip digs in the mud.
 
 </div>
 
@@ -33,7 +33,7 @@ Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, f, g
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
@@ -47,7 +47,7 @@ Pip is a pig. Pip is big and pink. Pip lives in a pen by the farm.
 
 <div class="reader-text">
 
-Pip digs in the mud. Pip digs and digs. The mud is wet and cool.
+Pip digs and digs. The mud is wet and cool. "Digging is fun!" says Pip. But the mud is not just fun.
 
 </div>
 
@@ -55,7 +55,7 @@ Pip digs in the mud. Pip digs and digs. The mud is wet and cool.
 
 ### Spelling Aid
 
-**Phonograms on this page:** c, d, e, g, i
+**Phonograms on this page:** a, c, d, e, f
 
 </div>
 
@@ -65,25 +65,7 @@ Pip digs in the mud. Pip digs and digs. The mud is wet and cool.
 
 <div class="reader-text">
 
-"Digging is fun!" says Pip. But the mud is not just fun. The mud is hot in the sun.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, f, g, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Pip sits in the mud to get cool. The mud keeps Pip from getting too hot. A hen comes to the pen.
+The mud is hot in the sun. Pip sits in the mud to get cool. The mud keeps Pip from getting too hot. A hen comes to the pen.
 
 </div>
 
@@ -109,7 +91,7 @@ Pip sits in the mud to get cool. The mud keeps Pip from getting too hot. A hen c
 
 "Yes!" says Pip. "Sit with me!"
 
-The hen sits.
+The hen sits. Then a duck comes.
 
 </div>
 
@@ -117,13 +99,15 @@ The hen sits.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, h, i
+**Phonograms on this page:** a, c, d, e, h
 
 **Rules in this story:**
 
 **Rule 14:** Double consonant for vowel suffix
 
 **Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
 
 </div>
 
@@ -133,7 +117,25 @@ The hen sits.
 
 <div class="reader-text">
 
-Then a duck comes. Then a small pup. "This is the best spot on the farm!" says Pip.
+Then a small pup. "This is the best spot on the farm!" says Pip. The sun goes down. The mud is cool.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Pip and the hen and the duck and the pup are all pals. Being in the pen is fun. Having pals is better.
 
 </div>
 
@@ -146,46 +148,6 @@ Then a duck comes. Then a small pup. "This is the best spot on the farm!" says P
 **Rules in this story:**
 
 **Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The sun goes down. The mud is cool. Pip and the hen and the duck and the pup are all pals.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Being in the pen is fun. Having pals is better.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, e, f, g
 
 </div>
 

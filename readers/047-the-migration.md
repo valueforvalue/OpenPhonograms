@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Each year, when the air turns cold and the days grow short, something amazing happens above the farms and forests. Birds lift off from the north.
+Each year, when the air turns cold and the days grow short, something amazing happens above the farms and forests. Birds lift off from the north. They rise in great flocks and turn their wings toward the south. This long flight has a name.
 
 </div>
 
@@ -47,25 +47,7 @@ Each year, when the air turns cold and the days grow short, something amazing ha
 
 <div class="reader-text">
 
-They rise in great flocks and turn their wings toward the south. This long flight has a name.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It is called the migration. Why do the birds leave?
+It is called the migration. Why do the birds leave? The answer is simple. Food grows scarce when ice covers the ponds and snow hides the seeds.
 
 </div>
 
@@ -76,6 +58,8 @@ It is called the migration. Why do the birds leave?
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 19:** Past tense -ED
 
@@ -89,29 +73,7 @@ It is called the migration. Why do the birds leave?
 
 <div class="reader-text">
 
-The answer is simple. Food grows scarce when ice covers the ponds and snow hides the seeds.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The birds cannot live through a long cold winter if they stay in one place. So they fly to a warmer land, where insects still buzz and fruit still hangs on the branches.
+The birds cannot live through a long cold winter if they stay in one place. So they fly to a warmer land, where insects still buzz and fruit still hangs on the branches. A small songbird may travel thousands of miles. Geese and cranes fly in wedges.
 
 </div>
 
@@ -137,59 +99,7 @@ The birds cannot live through a long cold winter if they stay in one place. So t
 
 <div class="reader-text">
 
-A small songbird may travel thousands of miles. Geese and cranes fly in wedges.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Ducks fly in long lines. Each bird has an instinct that pulls it forward, like a magnet that points to a hidden north.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Scientists study this instinct. They think the birds use the sun by day and the stars by night.
+Ducks fly in long lines. Each bird has an instinct that pulls it forward, like a magnet that points to a hidden north. Scientists study this instinct. They think the birds use the sun by day and the stars by night.
 
 </div>
 
@@ -203,9 +113,9 @@ Scientists study this instinct. They think the birds use the sun by day and the 
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 7:** I and Y may say /ē/
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
-**Rule 9:** AY for /ā/ at end
+**Rule 6:** Y says /ī/ at end of one-syllable word
 
 </div>
 
@@ -215,7 +125,7 @@ Scientists study this instinct. They think the birds use the sun by day and the 
 
 <div class="reader-text">
 
-They may also read the lay of the land below. Along the way, the birds face storms and hunger.
+They may also read the lay of the land below. Along the way, the birds face storms and hunger. Some grow tired and fall. But many reach the southern marsh or the southern shore.
 
 </div>
 
@@ -229,32 +139,10 @@ They may also read the lay of the land below. Along the way, the birds face stor
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 9:** AY for /ā/ at end
-
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Some grow tired and fall. But many reach the southern marsh or the southern shore.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
 **Rule 7:** I and Y may say /ē/
 
+**Rule 9:** AY for /ā/ at end
+
 </div>
 
 </div>
@@ -263,7 +151,7 @@ Some grow tired and fall. But many reach the southern marsh or the southern shor
 
 <div class="reader-text">
 
-They rest there through the cold months. When spring comes back to the north, the birds return.
+They rest there through the cold months. When spring comes back to the north, the birds return. They build nests. They raise their young.
 
 </div>
 
@@ -276,6 +164,8 @@ They rest there through the cold months. When spring comes back to the north, th
 **Rules in this story:**
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 13:** Drop Silent E for vowel suffix
 
 **Rule 26:** CK after short vowel
 
@@ -287,7 +177,7 @@ They rest there through the cold months. When spring comes back to the north, th
 
 <div class="reader-text">
 
-They build nests. They raise their young.
+Some young birds fly the route for the very first time. They have never seen the southern shore. Yet they find their way. Older birds do not guide them.
 
 </div>
 
@@ -295,29 +185,7 @@ They build nests. They raise their young.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, g
-
-**Rules in this story:**
-
-**Rule 13:** Drop Silent E for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Some young birds fly the route for the very first time. They have never seen the southern shore.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** b, d, e, f, g
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
@@ -335,55 +203,7 @@ Some young birds fly the route for the very first time. They have never seen the
 
 <div class="reader-text">
 
-Yet they find their way. Older birds do not guide them.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 9:** AY for /ā/ at end
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The map is written in their bodies, not on paper. This is one of the deepest puzzles in nature.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, i
-
-**Rules in this story:**
-
-**Rule 4:** A E O U say long at end of syllable
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The migration is one of the great journeys of the living world. It shows how a creature no bigger than your hand can cross a continent.
+The map is written in their bodies, not on paper. This is one of the deepest puzzles in nature. The migration is one of the great journeys of the living world. It shows how a creature no bigger than your hand can cross a continent.
 
 </div>
 
@@ -392,6 +212,12 @@ The migration is one of the great journeys of the living world. It shows how a c
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 

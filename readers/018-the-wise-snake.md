@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Silas is a snake. Silas is old and wise. He lives under a flat stone by the lake.
+Silas is a snake. Silas is old and wise. He lives under a flat stone by the lake. The other animals come to Silas when they have a problem.
 
 </div>
 
@@ -33,15 +33,15 @@ Silas is a snake. Silas is old and wise. He lives under a flat stone by the lake
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, i
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 21:** Plural nouns
+**Rule 12:** Silent E — nine reasons
 
-**Rule 30:** Double or single final consonant
+**Rule 21:** Plural nouns
 
 </div>
 
@@ -51,7 +51,9 @@ Silas is a snake. Silas is old and wise. He lives under a flat stone by the lake
 
 <div class="reader-text">
 
-The other animals come to Silas when they have a problem. "Silas, the rain made my home wet!" cries a rabbit. "Find a dry spot under the big oak tree," says Silas.
+"Silas, the rain made my home wet!" cries a rabbit. "Find a dry spot under the big oak tree," says Silas. "It is safe there."
+
+"Silas, I cannot find food!" says a frog. "Hop to the far side of the lake," says Silas.
 
 </div>
 
@@ -77,11 +79,9 @@ The other animals come to Silas when they have a problem. "Silas, the rain made 
 
 <div class="reader-text">
 
-"It is safe there."
+"There are bugs there."
 
-"Silas, I cannot find food!" says a frog. "Hop to the far side of the lake," says Silas. "There are bugs there."
-
-One day, a fire comes to the grass.
+One day, a fire comes to the grass. All the animals panic. "Be calm," says Silas. "Slide to the lake.
 
 </div>
 
@@ -95,27 +95,7 @@ One day, a fire comes to the grass.
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
 **Rule 9:** AY for /ā/ at end
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-All the animals panic. "Be calm," says Silas. "Slide to the lake.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, i
 
 </div>
 
@@ -127,7 +107,7 @@ All the animals panic. "Be calm," says Silas. "Slide to the lake.
 
 The water will keep us safe."
 
-All the animals follow Silas to the lake. The fire stops at the water's edge. "You saved us!" the animals cry.
+All the animals follow Silas to the lake. The fire stops at the water's edge. "You saved us!" the animals cry. "Wisdom is knowing what to do when things are hard," says Silas.
 
 </div>
 
@@ -153,7 +133,7 @@ All the animals follow Silas to the lake. The fire stops at the water's edge. "Y
 
 <div class="reader-text">
 
-"Wisdom is knowing what to do when things are hard," says Silas. "And you all knew to help each other."
+"And you all knew to help each other."
 
 </div>
 
@@ -161,7 +141,7 @@ All the animals follow Silas to the lake. The fire stops at the water's edge. "Y
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, e, h, k
 
 </div>
 

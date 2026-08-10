@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. The air feels heavy and still.
+Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. The air feels heavy and still. The ocean swells roll slowly toward the shore.
 
 </div>
 
@@ -39,6 +39,8 @@ Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. 
 
 **Rule 3:** No English word ends in I, U, V, or J
 
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
 **Rule 15:** Y changes to I
 
 </div>
@@ -49,7 +51,7 @@ Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. 
 
 <div class="reader-text">
 
-The ocean swells roll slowly toward the shore. Fishermen check the sky. They know a change is coming soon.
+Fishermen check the sky. They know a change is coming soon. A weather system is moving in. Cool air pushes down on the warm wet air.
 
 </div>
 
@@ -75,25 +77,7 @@ The ocean swells roll slowly toward the shore. Fishermen check the sky. They kno
 
 <div class="reader-text">
 
-A weather system is moving in. Cool air pushes down on the warm wet air. The pressure drops.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The wind begins to rise. White caps form on the waves. A small boat heads back to the harbor.
+The pressure drops. The wind begins to rise. White caps form on the waves. A small boat heads back to the harbor.
 
 </div>
 
@@ -115,7 +99,7 @@ The wind begins to rise. White caps form on the waves. A small boat heads back t
 
 <div class="reader-text">
 
-The skipper watches the darkening sky. Then the first gusts hit the coast. The palm trees bend and sway.
+The skipper watches the darkening sky. Then the first gusts hit the coast. The palm trees bend and sway. Rain begins to fall.
 
 </div>
 
@@ -141,29 +125,7 @@ The skipper watches the darkening sky. Then the first gusts hit the coast. The p
 
 <div class="reader-text">
 
-Rain begins to fall. It drums on rooftops and splashes in the puddles. The waves grow tall.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 16:** Two I's cannot be adjacent
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They crash against the rocks and pull the sand away. Lightning flashes. Thunder rolls across the water like a great drum.
+It drums on rooftops and splashes in the puddles. The waves grow tall. They crash against the rocks and pull the sand away. Lightning flashes.
 
 </div>
 
@@ -189,7 +151,7 @@ They crash against the rocks and pull the sand away. Lightning flashes. Thunder 
 
 <div class="reader-text">
 
-The birds stop singing. They hide deep inside the leafy green trees. Inside a small coastal cottage, a family watches the storm through the window.
+Thunder rolls across the water like a great drum. The birds stop singing. They hide deep inside the leafy green trees. Inside a small coastal cottage, a family watches the storm through the window.
 
 </div>
 
@@ -213,7 +175,7 @@ The birds stop singing. They hide deep inside the leafy green trees. Inside a sm
 
 <div class="reader-text">
 
-They light a lamp and gather close. The wind howls around the corners. Hour by hour the storm passes.
+They light a lamp and gather close. The wind howls around the corners. Hour by hour the storm passes. The wind slows.
 
 </div>
 
@@ -235,7 +197,7 @@ They light a lamp and gather close. The wind howls around the corners. Hour by h
 
 <div class="reader-text">
 
-The wind slows. The rain grows softer. The sun comes back.
+The rain grows softer. The sun comes back. The wet sand glitters in the morning light. The coast is changed.
 
 </div>
 
@@ -251,28 +213,6 @@ The wind slows. The rain grows softer. The sun comes back.
 
 **Rule 26:** CK after short vowel
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The wet sand glitters in the morning light. The coast is changed. New rocks show where the waves have been.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
@@ -283,7 +223,7 @@ The wet sand glitters in the morning light. The coast is changed. New rocks show
 
 <div class="reader-text">
 
-But the family is safe. And tomorrow the sea will be calm again.
+New rocks show where the waves have been. But the family is safe. And tomorrow the sea will be calm again.
 
 </div>
 
@@ -294,6 +234,8 @@ But the family is safe. And tomorrow the sea will be calm again.
 **Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 7:** I and Y may say /ē/
 

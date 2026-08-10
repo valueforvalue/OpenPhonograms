@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Along a rocky coast, where the waves come and go, there are small pockets of water left behind when the sea pulls back. These pockets are called tide pools.
+Along a rocky coast, where the waves come and go, there are small pockets of water left behind when the sea pulls back. These pockets are called tide pools. Each tide pool is a tiny world, cut off from the ocean for a few hours at a time. In a tide pool, life crowds together.
 
 </div>
 
@@ -34,62 +34,14 @@ Along a rocky coast, where the waves come and go, there are small pockets of wat
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 4:** A E O U say long at end of syllable
-
-**Rule 12:** Silent E — nine reasons
-
-**Rule 19:** Past tense -ED
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each tide pool is a tiny world, cut off from the ocean for a few hours at a time. In a tide pool, life crowds together.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 14:** Double consonant for vowel suffix
+**Rule 4:** A E O U say long at end of syllable
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A green anemone grips a stone with its soft feet. Tiny fish dart between strands of seaweed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
+**Rule 12:** Silent E — nine reasons
 
 </div>
 
@@ -99,7 +51,7 @@ A green anemone grips a stone with its soft feet. Tiny fish dart between strands
 
 <div class="reader-text">
 
-A hermit crab walks sideways across the sand. Limpets stick tight to the rocks.
+A green anemone grips a stone with its soft feet. Tiny fish dart between strands of seaweed. A hermit crab walks sideways across the sand. Limpets stick tight to the rocks.
 
 </div>
 
@@ -110,6 +62,8 @@ A hermit crab walks sideways across the sand. Limpets stick tight to the rocks.
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 18:** SH placement
 
 **Rule 22:** 3rd person singular verbs
 
@@ -121,7 +75,7 @@ A hermit crab walks sideways across the sand. Limpets stick tight to the rocks.
 
 <div class="reader-text">
 
-Periwinkles leave silver trails behind them. The water in a tide pool is shallow and warm.
+Periwinkles leave silver trails behind them. The water in a tide pool is shallow and warm. The sun heats it. The pool can dry out if the tide stays out too long.
 
 </div>
 
@@ -129,29 +83,7 @@ Periwinkles leave silver trails behind them. The water in a tide pool is shallow
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, h
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The sun heats it. The pool can dry out if the tide stays out too long.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, h
+**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
@@ -159,23 +91,7 @@ The sun heats it. The pool can dry out if the tide stays out too long.
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The animals must hide in shade or under seaweed. Some clamp their shells shut.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, h
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 
@@ -185,7 +101,7 @@ The animals must hide in shade or under seaweed. Some clamp their shells shut.
 
 <div class="reader-text">
 
-Some crawl into cracks in the rock. When the tide comes back, the pool fills up again.
+The animals must hide in shade or under seaweed. Some clamp their shells shut. Some crawl into cracks in the rock. When the tide comes back, the pool fills up again.
 
 </div>
 
@@ -207,7 +123,7 @@ Some crawl into cracks in the rock. When the tide comes back, the pool fills up 
 
 <div class="reader-text">
 
-Fresh sea water rushes in, carrying food and cool air. The fish come out of hiding.
+Fresh sea water rushes in, carrying food and cool air. The fish come out of hiding. The anemone opens its soft arms. The hermit crab walks once more in search of a meal.
 
 </div>
 
@@ -215,35 +131,13 @@ Fresh sea water rushes in, carrying food and cool air. The fish come out of hidi
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 12:** Silent E — nine reasons
 
 **Rule 18:** SH placement
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The anemone opens its soft arms. The hermit crab walks once more in search of a meal.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
-
-**Rules in this story:**
 
 **Rule 22:** 3rd person singular verbs
 
@@ -255,33 +149,7 @@ The anemone opens its soft arms. The hermit crab walks once more in search of a 
 
 <div class="reader-text">
 
-The tide comes in and goes out twice each day. Once in the morning and once at night.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-In some places the shift is small. In other places the tide pulls back many feet.
+The tide comes in and goes out twice each day. Once in the morning and once at night. In some places the shift is small. In other places the tide pulls back many feet.
 
 </div>
 
@@ -292,10 +160,12 @@ In some places the shift is small. In other places the tide pulls back many feet
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 7:** I and Y may say /ē/
 
-**Rule 26:** CK after short vowel
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -305,7 +175,7 @@ In some places the shift is small. In other places the tide pulls back many feet
 
 <div class="reader-text">
 
-Tide pool animals live by this rhythm. They know the sea's clock better than any person does.
+Tide pool animals live by this rhythm. They know the sea's clock better than any person does. A tide pool is one of the most crowded places on the coast. In just a small pool, you can find dozens of kinds of life.
 
 </div>
 
@@ -318,28 +188,6 @@ Tide pool animals live by this rhythm. They know the sea's clock better than any
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A tide pool is one of the most crowded places on the coast. In just a small pool, you can find dozens of kinds of life.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 

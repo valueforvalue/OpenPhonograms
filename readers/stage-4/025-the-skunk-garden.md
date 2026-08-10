@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She also has a powerful secret — a scent that no animal wants to encounter.
+Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She also has a powerful secret — a scent that no animal wants to encounter. Because of her secret, the other animals keep their distance.
 
 </div>
 
@@ -33,7 +33,7 @@ Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -49,7 +49,7 @@ Stella is a skunk. She has beautiful black and white fur and a fluffy tail. She 
 
 <div class="reader-text">
 
-Because of her secret, the other animals keep their distance. "Do not get too close to Stella!" they whisper. Stella is lonely.
+"Do not get too close to Stella!" they whisper. Stella is lonely. She just wants to explore the garden like everyone else. One evening, Stella notices something terrible.
 
 </div>
 
@@ -63,26 +63,6 @@ Because of her secret, the other animals keep their distance. "Do not get too cl
 
 **Rule 14:** Double consonant for vowel suffix
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She just wants to explore the garden like everyone else. One evening, Stella notices something terrible. A fox is sneaking toward the rabbit den!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 22:** 3rd person singular verbs
 
 </div>
@@ -93,7 +73,7 @@ She just wants to explore the garden like everyone else. One evening, Stella not
 
 <div class="reader-text">
 
-The mama rabbit and her babies are in danger. Stella does not hesitate. She runs toward the fox and raises her tail.
+A fox is sneaking toward the rabbit den! The mama rabbit and her babies are in danger. Stella does not hesitate. She runs toward the fox and raises her tail.
 
 </div>
 
@@ -119,7 +99,9 @@ The mama rabbit and her babies are in danger. Stella does not hesitate. She runs
 
 <div class="reader-text">
 
-The fox catches the warning and bolts away. The mama rabbit comes out of her den. "You saved my babies," she says.
+The fox catches the warning and bolts away. The mama rabbit comes out of her den. "You saved my babies," she says. "Thank you, Stella."
+
+Word spreads through the garden.
 
 </div>
 
@@ -145,31 +127,7 @@ The fox catches the warning and bolts away. The mama rabbit comes out of her den
 
 <div class="reader-text">
 
-"Thank you, Stella."
-
-Word spreads through the garden. Stella is not dangerous — she is a protector! From that night on, Stella tends the garden.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She patrols at dusk, keeping the smaller creatures safe. Her secret power, once a source of loneliness, is now a gift she shares with everyone.
+Stella is not dangerous — she is a protector! From that night on, Stella tends the garden. She patrols at dusk, keeping the smaller creatures safe. Her secret power, once a source of loneliness, is now a gift she shares with everyone.
 
 </div>
 
@@ -178,6 +136,10 @@ She patrols at dusk, keeping the smaller creatures safe. Her secret power, once 
 ### Spelling Aid
 
 **Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
+
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A coral reef is one of the busiest places in the sea. Bright fish dart between branches of coral.
+A coral reef is one of the busiest places in the sea. Bright fish dart between branches of coral. Shrimp crawl along the floor. Sea turtles drift above like dark leaves.
 
 </div>
 
@@ -39,26 +39,6 @@ A coral reef is one of the busiest places in the sea. Bright fish dart between b
 
 **Rule 18:** SH placement
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Shrimp crawl along the floor. Sea turtles drift above like dark leaves.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 21:** Plural nouns
 
 **Rule 23:** Prefix AL-
@@ -71,29 +51,7 @@ Shrimp crawl along the floor. Sea turtles drift above like dark leaves.
 
 <div class="reader-text">
 
-The reef looks like a garden made of stone. Coral looks like a plant, but it is really an animal.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It is built of thousands of tiny soft creatures, all joined together. Each tiny creature is called a polyp.
+The reef looks like a garden made of stone. Coral looks like a plant, but it is really an animal. It is built of thousands of tiny soft creatures, all joined together. Each tiny creature is called a polyp.
 
 </div>
 
@@ -109,6 +67,8 @@ It is built of thousands of tiny soft creatures, all joined together. Each tiny 
 
 **Rule 20:** -ED sounds (/ed/, /d/, /t/)
 
+**Rule 22:** 3rd person singular verbs
+
 </div>
 
 </div>
@@ -117,7 +77,7 @@ It is built of thousands of tiny soft creatures, all joined together. Each tiny 
 
 <div class="reader-text">
 
-The polyps cannot make their own food. They live with a kind of plant algae that lives inside them.
+The polyps cannot make their own food. They live with a kind of plant algae that lives inside them. The plant makes sugar from sunlight. The animal shares that sugar and gives the plant a safe home.
 
 </div>
 
@@ -143,51 +103,7 @@ The polyps cannot make their own food. They live with a kind of plant algae that
 
 <div class="reader-text">
 
-The plant makes sugar from sunlight. The animal shares that sugar and gives the plant a safe home.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, f, g, h
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The two help each other. This kind of partnership has a name.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, h
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It is called symbiosis, which means 'living together'. In symbiosis, two different kinds of life share the same space and help each other survive.
+The two help each other. This kind of partnership has a name. It is called symbiosis, which means 'living together'. In symbiosis, two different kinds of life share the same space and help each other survive.
 
 </div>
 
@@ -201,9 +117,9 @@ It is called symbiosis, which means 'living together'. In symbiosis, two differe
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 19:** Past tense -ED
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
+**Rule 19:** Past tense -ED
 
 </div>
 
@@ -213,7 +129,7 @@ It is called symbiosis, which means 'living together'. In symbiosis, two differe
 
 <div class="reader-text">
 
-There are other partners on the reef. A small fish called a cleaner wrasse picks bits of food from the teeth of bigger fish.
+There are other partners on the reef. A small fish called a cleaner wrasse picks bits of food from the teeth of bigger fish. The big fish get clean. The little fish get a meal.
 
 </div>
 
@@ -225,53 +141,11 @@ There are other partners on the reef. A small fish called a cleaner wrasse picks
 
 **Rules in this story:**
 
-**Rule 18:** SH placement
-
-**Rule 19:** Past tense -ED
-
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The big fish get clean. The little fish get a meal.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
-
-**Rules in this story:**
-
 **Rule 14:** Double consonant for vowel suffix
 
 **Rule 18:** SH placement
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Both win. A shrimp digs a burrow in the sand.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, g, h
+**Rule 19:** Past tense -ED
 
 </div>
 
@@ -281,7 +155,7 @@ Both win. A shrimp digs a burrow in the sand.
 
 <div class="reader-text">
 
-A goby fish stands guard at the door. The shrimp gets a warning.
+Both win. A shrimp digs a burrow in the sand. A goby fish stands guard at the door. The shrimp gets a warning.
 
 </div>
 
@@ -303,31 +177,7 @@ A goby fish stands guard at the door. The shrimp gets a warning.
 
 <div class="reader-text">
 
-The goby gets a home. The reef is not a quiet place.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 11:** Q always needs U
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-At night, the coral polyps open up and the fish that hide by day come out to feed. Crabs creep along the rocks.
+The goby gets a home. The reef is not a quiet place. At night, the coral polyps open up and the fish that hide by day come out to feed. Crabs creep along the rocks.
 
 </div>
 
@@ -339,12 +189,12 @@ At night, the coral polyps open up and the fish that hide by day come out to fee
 
 **Rules in this story:**
 
+**Rule 1:** C softens to /s/ before E, I, Y
+
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 4:** A E O U say long at end of syllable
 
-**Rule 9:** AY for /ā/ at end
-
 </div>
 
 </div>
@@ -353,25 +203,7 @@ At night, the coral polyps open up and the fish that hide by day come out to fee
 
 <div class="reader-text">
 
-Octopuses hunt in the cracks. The reef never truly sleeps.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, f, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The reef is full of these quiet deals. Each creature plays a role.
+Octopuses hunt in the cracks. The reef never truly sleeps. The reef is full of these quiet deals. Each creature plays a role.
 
 </div>
 

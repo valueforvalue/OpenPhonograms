@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-A bee zips in the sun. It lands on a red bud. The bee sips from the bud.
+A bee zips in the sun. It lands on a red bud. The bee sips from the bud. It dips its legs in the dust on the bud.
 
 </div>
 
@@ -37,7 +37,7 @@ A bee zips in the sun. It lands on a red bud. The bee sips from the bud.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, i
+**Phonograms on this page:** a, b, d, e, g
 
 </div>
 
@@ -47,25 +47,7 @@ A bee zips in the sun. It lands on a red bud. The bee sips from the bud.
 
 <div class="reader-text">
 
-It dips its legs in the dust on the bud. Zip — the bee is off! It zips to a pink bud.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** b, d, e, f, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It sips and dips. Back and back the bee zips. Bud to bud.
+Zip — the bee is off! It zips to a pink bud. It sips and dips. Back and back the bee zips.
 
 </div>
 
@@ -87,7 +69,7 @@ It sips and dips. Back and back the bee zips. Bud to bud.
 
 <div class="reader-text">
 
-Sip, dip, zip. The dust on the buds gets on the bee. The bee rubs it on the next bud.
+Bud to bud. Sip, dip, zip. The dust on the buds gets on the bee. The bee rubs it on the next bud.
 
 </div>
 
@@ -105,7 +87,7 @@ Sip, dip, zip. The dust on the buds gets on the bee. The bee rubs it on the next
 
 <div class="reader-text">
 
-When the petal drops, a pod will pop up. That is how buds make seeds! The bee has a nest in a big log.
+When the petal drops, a pod will pop up. That is how buds make seeds! The bee has a nest in a big log. The nest is made of wax.
 
 </div>
 
@@ -129,25 +111,7 @@ When the petal drops, a pod will pop up. That is how buds make seeds! The bee ha
 
 <div class="reader-text">
 
-The nest is made of wax. At dusk the bee zips to its nest. It rests in the nest.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The nest is snug and dim. In the morn, the bee is up. Zip!
+At dusk the bee zips to its nest. It rests in the nest. The nest is snug and dim. In the morn, the bee is up.
 
 </div>
 
@@ -165,7 +129,7 @@ The nest is snug and dim. In the morn, the bee is up. Zip!
 
 <div class="reader-text">
 
-Sip! Dip!
+Zip! Sip! Dip!
 
 </div>
 
@@ -173,7 +137,7 @@ Sip! Dip!
 
 ### Spelling Aid
 
-**Phonograms on this page:** d, i, p, s, si
+**Phonograms on this page:** d, i, p, s, z
 
 </div>
 

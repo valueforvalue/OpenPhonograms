@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, sun!
+Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, sun! I want to play!" Ruby shouts at dawn.
 
 </div>
 
@@ -33,31 +33,7 @@ Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, s
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, g, h
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-I want to play!" Ruby shouts at dawn. "Hurry up, carrot! I want to eat!" Ruby shouts at the garden.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
+**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
@@ -75,7 +51,7 @@ I want to play!" Ruby shouts at dawn. "Hurry up, carrot! I want to eat!" Ruby sh
 
 <div class="reader-text">
 
-"Hurry up, friends! I want to race!" Ruby shouts at the other rabbits. But the sun takes its time.
+"Hurry up, carrot! I want to eat!" Ruby shouts at the garden. "Hurry up, friends! I want to race!" Ruby shouts at the other rabbits.
 
 </div>
 
@@ -101,7 +77,7 @@ I want to play!" Ruby shouts at dawn. "Hurry up, carrot! I want to eat!" Ruby sh
 
 <div class="reader-text">
 
-The carrot grows slowly. And her friends are not as fast as Ruby. One day, Ruby's mom says, "Ruby, sit with me.
+But the sun takes its time. The carrot grows slowly. And her friends are not as fast as Ruby. One day, Ruby's mom says, "Ruby, sit with me.
 
 </div>
 
@@ -131,7 +107,7 @@ Watch the garden."
 
 "But I want to run!" says Ruby. "Just for a moment," says Mom. "Be still."
 
-Ruby sits.
+Ruby sits. At first, she is bored.
 
 </div>
 
@@ -157,7 +133,7 @@ Ruby sits.
 
 <div class="reader-text">
 
-At first, she is bored. But then she notices things she never saw before. A butterfly on a flower.
+But then she notices things she never saw before. A butterfly on a flower. A worm in the soil. The way the carrot tops wave in the breeze.
 
 </div>
 
@@ -165,33 +141,11 @@ At first, she is bored. But then she notices things she never saw before. A butt
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, e
+**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A worm in the soil. The way the carrot tops wave in the breeze. "This is nice," Ruby whispers.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, h
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 9:** AY for /ā/ at end
 
@@ -205,7 +159,7 @@ A worm in the soil. The way the carrot tops wave in the breeze. "This is nice," 
 
 <div class="reader-text">
 
-"Some things are better when you wait," says Mom. "Even eager rabbits can learn to be patient."
+"This is nice," Ruby whispers. "Some things are better when you wait," says Mom. "Even eager rabbits can learn to be patient."
 
 </div>
 
@@ -213,9 +167,11 @@ A worm in the soil. The way the carrot tops wave in the breeze. "This is nice," 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, g, h
+**Phonograms on this page:** a, b, c, e, g
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 4:** A E O U say long at end of syllable
 

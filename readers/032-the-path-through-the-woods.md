@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Liz walks in the woods. Trees are big. The ferns are soft.
+Liz walks in the woods. Trees are big. The ferns are soft. Liz is on a path.
 
 </div>
 
@@ -47,7 +47,7 @@ Liz walks in the woods. Trees are big. The ferns are soft.
 
 <div class="reader-text">
 
-Liz is on a path. She looks at the ferns. She sees a green moth.
+She looks at the ferns. She sees a green moth. The path is long. Liz walks and walks.
 
 </div>
 
@@ -69,31 +69,7 @@ Liz is on a path. She looks at the ferns. She sees a green moth.
 
 <div class="reader-text">
 
-The path is long. Liz walks and walks. She never gets back.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, g
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"I am stuck!" says Liz. "I can not find it." She looks and looks. Liz sees a big jay.
+She never gets back. "I am stuck!" says Liz. "I can not find it." She looks and looks. Liz sees a big jay.
 
 </div>
 
@@ -109,6 +85,8 @@ The path is long. Liz walks and walks. She never gets back.
 
 **Rule 22:** 3rd person singular verbs
 
+**Rule 26:** CK after short vowel
+
 </div>
 
 </div>
@@ -117,7 +95,7 @@ The path is long. Liz walks and walks. She never gets back.
 
 <div class="reader-text">
 
-"Tweet!" says the bird. Liz follows the bird. The bird swoops to a tree.
+"Tweet!" says the bird. Liz follows the bird. The bird swoops to a tree. It lands on a stream.
 
 </div>
 
@@ -135,7 +113,7 @@ The path is long. Liz walks and walks. She never gets back.
 
 <div class="reader-text">
 
-It lands on a stream. Liz walks with it. Liz sees a rock.
+Liz walks with it. Liz sees a rock. The river runs by. She hears the stream.
 
 </div>
 
@@ -143,7 +121,7 @@ It lands on a stream. Liz walks with it. Liz sees a rock.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, i
+**Phonograms on this page:** a, c, e, h, i
 
 **Rules in this story:**
 
@@ -159,7 +137,7 @@ It lands on a stream. Liz walks with it. Liz sees a rock.
 
 <div class="reader-text">
 
-The river runs by. She hears the stream. Liz follows the stream.
+Liz follows the stream. She walks and walks. The path is back. "I see the path!" Liz says.
 
 </div>
 
@@ -167,29 +145,7 @@ The river runs by. She hears the stream. Liz follows the stream.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, f, h, i
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She walks and walks. The path is back. "I see the path!" Liz says.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, h
+**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 
@@ -205,7 +161,7 @@ She walks and walks. The path is back. "I see the path!" Liz says.
 
 <div class="reader-text">
 
-She is so glad. The path is firm. Liz has ferns in her hand.
+She is so glad. The path is firm. Liz has ferns in her hand. She is glad.
 
 </div>
 
@@ -223,7 +179,7 @@ She is so glad. The path is firm. Liz has ferns in her hand.
 
 <div class="reader-text">
 
-She is glad. The woods are fun.
+The woods are fun.
 
 </div>
 
@@ -231,7 +187,7 @@ She is glad. The woods are fun.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, f, g, l
+**Phonograms on this page:** d, f, n, o, s
 
 </div>
 

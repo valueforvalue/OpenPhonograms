@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Far out in the deep blue sea, there lives a white whale named Winter. Winter is not like the other whales. While they are gray and black, Winter is pure white.
+Far out in the deep blue sea, there lives a white whale named Winter. Winter is not like the other whales. While they are gray and black, Winter is pure white. She shines like a star in the dark water.
 
 </div>
 
@@ -51,7 +51,9 @@ Far out in the deep blue sea, there lives a white whale named Winter. Winter is 
 
 <div class="reader-text">
 
-She shines like a star in the dark water. The other whales stare at Winter. "Why are you different?" they ask.
+The other whales stare at Winter. "Why are you different?" they ask. "I do not know," says Winter. "I was born this way."
+
+Some whales are kind.
 
 </div>
 
@@ -59,31 +61,7 @@ She shines like a star in the dark water. The other whales stare at Winter. "Why
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, h
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"I do not know," says Winter. "I was born this way."
-
-Some whales are kind. Some are not.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, h
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
@@ -99,7 +77,7 @@ Some whales are kind. Some are not.
 
 <div class="reader-text">
 
-"You do not belong with us," a gray whale says. Winter swims away. She feels sad and alone.
+Some are not. "You do not belong with us," a gray whale says. Winter swims away. She feels sad and alone.
 
 </div>
 
@@ -125,7 +103,7 @@ Some whales are kind. Some are not.
 
 <div class="reader-text">
 
-Then one day, a great storm comes. The water turns dark and rough. The whales cannot see where to go.
+Then one day, a great storm comes. The water turns dark and rough. The whales cannot see where to go. But they CAN see Winter!
 
 </div>
 
@@ -151,7 +129,9 @@ Then one day, a great storm comes. The water turns dark and rough. The whales ca
 
 <div class="reader-text">
 
-But they CAN see Winter! Her white body glows in the dark water like a light. "Follow Winter!" the whales call.
+Her white body glows in the dark water like a light. "Follow Winter!" the whales call. "She will lead us to safety!"
+
+Winter leads the whole pod through the storm to calm water. "You saved us!" the whales cry.
 
 </div>
 
@@ -160,34 +140,6 @@ But they CAN see Winter! Her white body glows in the dark water like a light. "F
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"She will lead us to safety!"
-
-Winter leads the whole pod through the storm to calm water. "You saved us!" the whales cry. "Your difference is your gift!"
-
-Winter smiles.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -205,7 +157,9 @@ Winter smiles.
 
 <div class="reader-text">
 
-She was never meant to blend in. She was meant to shine.
+"Your difference is your gift!"
+
+Winter smiles. She was never meant to blend in. She was meant to shine.
 
 </div>
 
@@ -213,7 +167,7 @@ She was never meant to blend in. She was meant to shine.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, h
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 

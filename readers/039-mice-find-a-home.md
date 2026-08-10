@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Mira and Milo are mice. They live in a field. Their home is a small hole.
+Mira and Milo are mice. They live in a field. Their home is a small hole. One night, the wind howls.
 
 </div>
 
@@ -41,30 +41,6 @@ Mira and Milo are mice. They live in a field. Their home is a small hole.
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One night, the wind howls. Rain pours in. The hole floods.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, g
-
-**Rules in this story:**
-
-**Rule 16:** Two I's cannot be adjacent
-
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
@@ -75,7 +51,7 @@ One night, the wind howls. Rain pours in. The hole floods.
 
 <div class="reader-text">
 
-They must flee. The mice run to a barn. They crawl under a board.
+Rain pours in. The hole floods. They must flee. The mice run to a barn.
 
 </div>
 
@@ -91,6 +67,8 @@ They must flee. The mice run to a barn. They crawl under a board.
 
 **Rule 14:** Double consonant for vowel suffix
 
+**Rule 16:** Two I's cannot be adjacent
+
 </div>
 
 </div>
@@ -99,7 +77,7 @@ They must flee. The mice run to a barn. They crawl under a board.
 
 <div class="reader-text">
 
-They wait till the storm goes. The barn is dry and warm. But there is a cat.
+They crawl under a board. They wait till the storm goes. The barn is dry and warm. But there is a cat.
 
 </div>
 
@@ -125,31 +103,7 @@ They wait till the storm goes. The barn is dry and warm. But there is a cat.
 
 <div class="reader-text">
 
-The cat hunts at night. The mice creep past the cat. They slide out a crack.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They make it free. In the field, they search. They look for a safer place.
+The cat hunts at night. The mice creep past the cat. They slide out a crack. They make it free.
 
 </div>
 
@@ -175,7 +129,7 @@ They make it free. In the field, they search. They look for a safer place.
 
 <div class="reader-text">
 
-They find a wood pile. The wood pile has a deep hole. It is lined with soft grass.
+In the field, they search. They look for a safer place. They find a wood pile. The wood pile has a deep hole.
 
 </div>
 
@@ -183,9 +137,11 @@ They find a wood pile. The wood pile has a deep hole. It is lined with soft gras
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
@@ -197,7 +153,7 @@ They find a wood pile. The wood pile has a deep hole. It is lined with soft gras
 
 <div class="reader-text">
 
-It is dry inside. The mice drag in a strip of cloth. They line the nest.
+It is lined with soft grass. It is dry inside. The mice drag in a strip of cloth. They line the nest.
 
 </div>
 
@@ -205,7 +161,7 @@ It is dry inside. The mice drag in a strip of cloth. They line the nest.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -223,7 +179,7 @@ It is dry inside. The mice drag in a strip of cloth. They line the nest.
 
 <div class="reader-text">
 
-They make it snug. Mira smiles at Milo. "This is our home now," she says.
+They make it snug. Mira smiles at Milo. "This is our home now," she says. They are safe at last.
 
 </div>
 
@@ -231,7 +187,7 @@ They make it snug. Mira smiles at Milo. "This is our home now," she says.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, g, h, i
+**Phonograms on this page:** a, e, f, g, h
 
 **Rules in this story:**
 
@@ -247,7 +203,7 @@ They make it snug. Mira smiles at Milo. "This is our home now," she says.
 
 <div class="reader-text">
 
-They are safe at last. The next day, they peek out. The sun shines.
+The next day, they peek out. The sun shines. The field is green and bright.
 
 </div>
 
@@ -255,31 +211,13 @@ They are safe at last. The next day, they peek out. The sun shines.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, h
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 9:** AY for /ā/ at end
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The field is green and bright.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** b, d, e, f, g
 
 </div>
 

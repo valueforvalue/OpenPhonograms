@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Hen sits on a hill. She has three chicks. The chicks are soft and warm.
+Hen sits on a hill. She has three chicks. The chicks are soft and warm. The sun is high.
 
 </div>
 
@@ -33,25 +33,7 @@ Hen sits on a hill. She has three chicks. The chicks are soft and warm.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The sun is high. The wind is still. The chicks peck at the grass.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
 
@@ -65,7 +47,7 @@ The sun is high. The wind is still. The chicks peck at the grass.
 
 <div class="reader-text">
 
-The chicks fluff up. They rest in the sun. The wind is still.
+The wind is still. The chicks peck at the grass. The chicks fluff up. They rest in the sun.
 
 </div>
 
@@ -73,7 +55,7 @@ The chicks fluff up. They rest in the sun. The wind is still.
 
 ### Spelling Aid
 
-**Phonograms on this page:** c, d, e, f, h
+**Phonograms on this page:** a, c, d, e, f
 
 </div>
 
@@ -83,7 +65,7 @@ The chicks fluff up. They rest in the sun. The wind is still.
 
 <div class="reader-text">
 
-Then the wind picks up. The clouds turn dark. The wind is strong.
+The wind is still. Then the wind picks up. The clouds turn dark. The wind is strong.
 
 </div>
 
@@ -101,7 +83,7 @@ Then the wind picks up. The clouds turn dark. The wind is strong.
 
 <div class="reader-text">
 
-The chicks chirp with fright. Hen calls to them. "Run down the hill!" she says.
+The chicks chirp with fright. Hen calls to them. "Run down the hill!" she says. The chicks run fast.
 
 </div>
 
@@ -123,7 +105,7 @@ The chicks chirp with fright. Hen calls to them. "Run down the hill!" she says.
 
 <div class="reader-text">
 
-The chicks run fast. Hen runs with them. They reach a bush at the foot.
+Hen runs with them. They reach a bush at the foot. Hen gathers her chicks. She holds them.
 
 </div>
 
@@ -131,11 +113,9 @@ The chicks run fast. Hen runs with them. They reach a bush at the foot.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
 
 **Rule 22:** 3rd person singular verbs
 
@@ -147,7 +127,7 @@ The chicks run fast. Hen runs with them. They reach a bush at the foot.
 
 <div class="reader-text">
 
-Hen gathers her chicks. She holds them. The bush blocks the wind.
+The bush blocks the wind. The wind stops. The rain stops. The sun is back.
 
 </div>
 
@@ -155,25 +135,7 @@ Hen gathers her chicks. She holds them. The bush blocks the wind.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The wind stops. The rain stops. The sun is back.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, i
+**Phonograms on this page:** a, b, c, d, h
 
 **Rules in this story:**
 
@@ -191,7 +153,7 @@ The wind stops. The rain stops. The sun is back.
 
 <div class="reader-text">
 
-Hen sees a path up. "It is good now!" she says. The chicks run back up.
+Hen sees a path up. "It is good now!" she says. The chicks run back up. The three chicks are warm.
 
 </div>
 
@@ -215,7 +177,7 @@ Hen sees a path up. "It is good now!" she says. The chicks run back up.
 
 <div class="reader-text">
 
-The three chicks are warm. The hill is green. They peck at the grass.
+The hill is green. They peck at the grass.
 
 </div>
 

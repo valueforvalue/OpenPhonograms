@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is brave.
+Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is brave. He is not scared of the cat.
 
 </div>
 
@@ -33,7 +33,7 @@ Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is b
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, g, h
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -51,25 +51,7 @@ Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is b
 
 <div class="reader-text">
 
-He is not scared of the cat. He is not scared of the dog. But there is one thing Milo is scared of — the dark.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One night, the moon is hiding. The house is black. Milo hears a sound.
+He is not scared of the dog. But there is one thing Milo is scared of — the dark. One night, the moon is hiding. The house is black.
 
 </div>
 
@@ -93,7 +75,7 @@ One night, the moon is hiding. The house is black. Milo hears a sound.
 
 <div class="reader-text">
 
-"Help! I am stuck!" It is a baby mouse, trapped in a box. Milo takes a deep breath.
+Milo hears a sound. "Help! I am stuck!" It is a baby mouse, trapped in a box. Milo takes a deep breath.
 
 </div>
 
@@ -121,7 +103,7 @@ One night, the moon is hiding. The house is black. Milo hears a sound.
 
 "I can be brave," he says. "I must help."
 
-Milo steps into the dark. He cannot see, but he can hear.
+Milo steps into the dark. He cannot see, but he can hear. He follows the sound.
 
 </div>
 
@@ -143,7 +125,7 @@ Milo steps into the dark. He cannot see, but he can hear.
 
 <div class="reader-text">
 
-He follows the sound. Milo finds the box. He chews a hole in the side.
+Milo finds the box. He chews a hole in the side. The baby mouse slips out. "Thank you!" says the baby mouse.
 
 </div>
 
@@ -151,27 +133,7 @@ He follows the sound. Milo finds the box. He chews a hole in the side.
 
 ### Spelling Aid
 
-**Phonograms on this page:** b, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The baby mouse slips out. "Thank you!" says the baby mouse. "You saved me!"
-
-Milo smiles.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, h
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -189,7 +151,9 @@ Milo smiles.
 
 <div class="reader-text">
 
-"I was scared too. But helping you made me brave."
+"You saved me!"
+
+Milo smiles. "I was scared too. But helping you made me brave."
 
 From that night on, Milo is not scared of the dark. He knows he can be brave when it counts.
 

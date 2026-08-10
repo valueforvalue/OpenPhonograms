@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Long ago, sailors did not have maps or phones or radios. They had only the sea, the sky, and a few simple tools.
+Long ago, sailors did not have maps or phones or radios. They had only the sea, the sky, and a few simple tools. The most important of those tools was the compass. A compass is a small magnet that can spin freely.
 
 </div>
 
@@ -33,7 +33,7 @@ Long ago, sailors did not have maps or phones or radios. They had only the sea, 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -51,53 +51,7 @@ Long ago, sailors did not have maps or phones or radios. They had only the sea, 
 
 <div class="reader-text">
 
-The most important of those tools was the compass. A compass is a small magnet that can spin freely.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, f, g
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One end of the magnet always points north. The other end always points south.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, h
-
-**Rules in this story:**
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-As long as the sailor knows where north is, the sailor can find any other direction. North is the anchor of every journey.
+One end of the magnet always points north. The other end always points south. As long as the sailor knows where north is, the sailor can find any other direction. North is the anchor of every journey.
 
 </div>
 
@@ -111,6 +65,10 @@ As long as the sailor knows where north is, the sailor can find any other direct
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
+**Rule 9:** AY for /ā/ at end
+
+**Rule 23:** Prefix AL-
+
 </div>
 
 </div>
@@ -119,7 +77,7 @@ As long as the sailor knows where north is, the sailor can find any other direct
 
 <div class="reader-text">
 
-A compass works on land and on sea. But when the sky is dark and the clouds hide the sun, the sailor can also use the stars.
+A compass works on land and on sea. But when the sky is dark and the clouds hide the sun, the sailor can also use the stars. In the northern sky, there is a star called Polaris, the North Star. It sits almost directly above the north pole of the Earth.
 
 </div>
 
@@ -127,7 +85,7 @@ A compass works on land and on sea. But when the sky is dark and the clouds hide
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -145,33 +103,7 @@ A compass works on land and on sea. But when the sky is dark and the clouds hide
 
 <div class="reader-text">
 
-In the northern sky, there is a star called Polaris, the North Star. It sits almost directly above the north pole of the Earth.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
-**Rule 19:** Past tense -ED
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-When a sailor finds Polaris, the sailor can tell which way is north, even on a cloudy night. Sailors also learned to read the waves.
+When a sailor finds Polaris, the sailor can tell which way is north, even on a cloudy night. Sailors also learned to read the waves. A steady wind makes waves that move in the same direction. The shape of the waves can tell a sailor where the wind is coming from.
 
 </div>
 
@@ -187,28 +119,6 @@ When a sailor finds Polaris, the sailor can tell which way is north, even on a c
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A steady wind makes waves that move in the same direction. The shape of the waves can tell a sailor where the wind is coming from.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
 **Rule 22:** 3rd person singular verbs
 
 </div>
@@ -219,7 +129,7 @@ A steady wind makes waves that move in the same direction. The shape of the wave
 
 <div class="reader-text">
 
-The color of the water can hint at how deep the sea is below. Sailors have used these signs for thousands of years.
+The color of the water can hint at how deep the sea is below. Sailors have used these signs for thousands of years. By day, the compass. By night, the stars.
 
 </div>
 
@@ -228,28 +138,6 @@ The color of the water can hint at how deep the sea is below. Sailors have used 
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-By day, the compass. By night, the stars.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, g, h
 
 **Rules in this story:**
 
@@ -267,7 +155,7 @@ By day, the compass. By night, the stars.
 
 <div class="reader-text">
 
-With these, they crossed wide oceans. They found new lands.
+With these, they crossed wide oceans. They found new lands. They traded goods between far ports. Today, ships carry radio and satellite tools.
 
 </div>
 
@@ -275,38 +163,16 @@ With these, they crossed wide oceans. They found new lands.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They traded goods between far ports. Today, ships carry radio and satellite tools.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 7:** I and Y may say /ē/
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 15:** Y changes to I
-
 </div>
 
 </div>
@@ -315,7 +181,7 @@ They traded goods between far ports. Today, ships carry radio and satellite tool
 
 <div class="reader-text">
 
-The compass still rides on the bridge. The stars still turn above the deck.
+The compass still rides on the bridge. The stars still turn above the deck. Old tools and new tools work side by side, helping sailors find their way across the water.
 
 </div>
 
@@ -324,30 +190,6 @@ The compass still rides on the bridge. The stars still turn above the deck.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 25:** DGE after short vowel
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Old tools and new tools work side by side, helping sailors find their way across the water.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 

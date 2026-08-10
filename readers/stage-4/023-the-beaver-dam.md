@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Benny is a beaver. Benny lives by a rushing river with his family. Every day, the beaver family works on their dam.
+Benny is a beaver. Benny lives by a rushing river with his family. Every day, the beaver family works on their dam. They carry branches and mud.
 
 </div>
 
@@ -33,7 +33,7 @@ Benny is a beaver. Benny lives by a rushing river with his family. Every day, th
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -51,35 +51,7 @@ Benny is a beaver. Benny lives by a rushing river with his family. Every day, th
 
 <div class="reader-text">
 
-They carry branches and mud. They stack logs with careful precision. "Why do we build the dam?" asks Benny's little sister, Bella.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 15:** Y changes to I
-
-**Rule 22:** 3rd person singular verbs
-
-**Rule 24:** Suffix -FUL
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"To make a pond," says Benny. "The pond protects our home. Underwater, no wolf or bear can reach our lodge."
-
-The construction is hard work.
+They stack logs with careful precision. "Why do we build the dam?" asks Benny's little sister, Bella. "To make a pond," says Benny. "The pond protects our home.
 
 </div>
 
@@ -95,7 +67,7 @@ The construction is hard work.
 
 **Rule 13:** Drop Silent E for vowel suffix
 
-**Rule 25:** DGE after short vowel
+**Rule 22:** 3rd person singular verbs
 
 </div>
 
@@ -105,7 +77,9 @@ The construction is hard work.
 
 <div class="reader-text">
 
-Benny's teeth are strong — perfect for cutting wood. He drags a heavy branch to the water's edge. "Together!" calls Father Beaver.
+Underwater, no wolf or bear can reach our lodge."
+
+The construction is hard work. Benny's teeth are strong — perfect for cutting wood. He drags a heavy branch to the water's edge. "Together!" calls Father Beaver.
 
 </div>
 
@@ -131,7 +105,7 @@ Benny's teeth are strong — perfect for cutting wood. He drags a heavy branch t
 
 <div class="reader-text">
 
-The whole family pushes the branch into place. Day by day, the dam grows. The rushing river becomes a still, deep pond.
+The whole family pushes the branch into place. Day by day, the dam grows. The rushing river becomes a still, deep pond. Fish swim in the new water.
 
 </div>
 
@@ -157,33 +131,7 @@ The whole family pushes the branch into place. Day by day, the dam grows. The ru
 
 <div class="reader-text">
 
-Fish swim in the new water. Ducks land on the surface. "Look what we built!" says Benny.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 14:** Double consonant for vowel suffix
-
-**Rule 18:** SH placement
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"Working together, we transformed a river into a home."
+Ducks land on the surface. "Look what we built!" says Benny. "Working together, we transformed a river into a home."
 
 The beaver family rests on their dam, proud of their creation.
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Flick is a red fox. Flick has a den under a big log at the edge of the woods. Flick is fast.
+Flick is a red fox. Flick has a den under a big log at the edge of the woods. Flick is fast. His red fur shines in the sun.
 
 </div>
 
@@ -47,7 +47,7 @@ Flick is a red fox. Flick has a den under a big log at the edge of the woods. Fl
 
 <div class="reader-text">
 
-His red fur shines in the sun. His feet are soft on the grass. One day, Flick is hungry.
+His feet are soft on the grass. One day, Flick is hungry. He sniffs the wind. He smells a hen!
 
 </div>
 
@@ -71,25 +71,7 @@ His red fur shines in the sun. His feet are soft on the grass. One day, Flick is
 
 <div class="reader-text">
 
-He sniffs the wind. He smells a hen! The hen is by the pen.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** d, e, f, h, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Flick crouches low. He creeps up. He is so still.
+The hen is by the pen. Flick crouches low. He creeps up. He is so still.
 
 </div>
 
@@ -107,7 +89,7 @@ Flick crouches low. He creeps up. He is so still.
 
 <div class="reader-text">
 
-Then — SNAP! Flick steps on a twig. The hen looks up.
+Then — SNAP! Flick steps on a twig. The hen looks up. "Cluck cluck!" She runs fast to the pen.
 
 </div>
 
@@ -129,29 +111,7 @@ Then — SNAP! Flick steps on a twig. The hen looks up.
 
 <div class="reader-text">
 
-"Cluck cluck!" She runs fast to the pen. The pen is shut. Flick stops.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, f, h
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"Not today," he says. Flick goes back to his den. He curls up under the log.
+The pen is shut. Flick stops. "Not today," he says. Flick goes back to his den.
 
 </div>
 
@@ -167,7 +127,7 @@ Then — SNAP! Flick steps on a twig. The hen looks up.
 
 **Rule 16:** Two I's cannot be adjacent
 
-**Rule 26:** CK after short vowel
+**Rule 22:** 3rd person singular verbs
 
 </div>
 
@@ -177,7 +137,7 @@ Then — SNAP! Flick steps on a twig. The hen looks up.
 
 <div class="reader-text">
 
-He is sad, but he is not cross. Tomorrow, Flick will try again. Or he will find a bug.
+He curls up under the log. He is sad, but he is not cross. Tomorrow, Flick will try again. Or he will find a bug.
 
 </div>
 
@@ -185,7 +145,7 @@ He is sad, but he is not cross. Tomorrow, Flick will try again. Or he will find 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -203,7 +163,7 @@ He is sad, but he is not cross. Tomorrow, Flick will try again. Or he will find 
 
 <div class="reader-text">
 
-A bug is good too. The sun sets. Flick the fox rests.
+A bug is good too. The sun sets. Flick the fox rests. Being safe in his den is fine.
 
 </div>
 
@@ -211,25 +171,7 @@ A bug is good too. The sun sets. Flick the fox rests.
 
 ### Spelling Aid
 
-**Phonograms on this page:** b, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Being safe in his den is fine.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, i
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Snow falls on the hill. The hill is white. The sled is at the top.
+Snow falls on the hill. The hill is white. The sled is at the top. Sam is a kid.
 
 </div>
 
@@ -43,7 +43,7 @@ Snow falls on the hill. The hill is white. The sled is at the top.
 
 <div class="reader-text">
 
-Sam is a kid. He has a pail. He pulls the sled up the hill.
+He has a pail. He pulls the sled up the hill. The snow is deep. The sled slows down.
 
 </div>
 
@@ -61,29 +61,7 @@ Sam is a kid. He has a pail. He pulls the sled up the hill.
 
 <div class="reader-text">
 
-The snow is deep. The sled slows down. Sam can not get it up.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, l
-
-**Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"How do I get it up?" Sam asks. The snow is low. Sam digs with his hand.
+Sam can not get it up. "How do I get it up?" Sam asks. The snow is low. Sam digs with his hand.
 
 </div>
 
@@ -107,7 +85,7 @@ The snow is deep. The sled slows down. Sam can not get it up.
 
 <div class="reader-text">
 
-He clears the snow. The sled is out. "Now I can go!" says Sam.
+He clears the snow. The sled is out. "Now I can go!" says Sam. He sits on the sled.
 
 </div>
 
@@ -129,7 +107,7 @@ He clears the snow. The sled is out. "Now I can go!" says Sam.
 
 <div class="reader-text">
 
-He sits on the sled. The sled is at the top. Sam gives a push.
+The sled is at the top. Sam gives a push. The sled runs down the hill. The snow is slow.
 
 </div>
 
@@ -138,24 +116,6 @@ He sits on the sled. The sled is at the top. Sam gives a push.
 ### Spelling Aid
 
 **Phonograms on this page:** a, d, e, g, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The sled runs down the hill. The snow is slow. The sled picks up speed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** c, d, e, h, i
 
 **Rules in this story:**
 
@@ -169,7 +129,7 @@ The sled runs down the hill. The snow is slow. The sled picks up speed.
 
 <div class="reader-text">
 
-The wind blows on Sam's chin. He shouts. Soon, the sled slows.
+The sled picks up speed. The wind blows on Sam's chin. He shouts. Soon, the sled slows.
 
 </div>
 
@@ -187,7 +147,7 @@ The wind blows on Sam's chin. He shouts. Soon, the sled slows.
 
 <div class="reader-text">
 
-The snow stops the sled. Sam is glad. Sam pulls the sled back up.
+The snow stops the sled. Sam is glad. Sam pulls the sled back up. He will go down next.
 
 </div>
 
@@ -198,6 +158,8 @@ The snow stops the sled. Sam is glad. Sam pulls the sled back up.
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
 
 **Rule 22:** 3rd person singular verbs
 
@@ -211,7 +173,7 @@ The snow stops the sled. Sam is glad. Sam pulls the sled back up.
 
 <div class="reader-text">
 
-He will go down next. The snow is fun.
+The snow is fun.
 
 </div>
 
@@ -219,11 +181,7 @@ He will go down next. The snow is fun.
 
 ### Spelling Aid
 
-**Phonograms on this page:** d, e, f, g, n
-
-**Rules in this story:**
-
-**Rule 4:** A E O U say long at end of syllable
+**Phonograms on this page:** f, n, o, s, u
 
 </div>
 

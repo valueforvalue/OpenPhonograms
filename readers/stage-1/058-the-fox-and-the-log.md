@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-A fox rests at a log. The sun is hot. Fox naps in the dim spot by the log.
+A fox rests at a log. The sun is hot. Fox naps in the dim spot by the log. At dusk, the fox runs.
 
 </div>
 
@@ -38,24 +38,6 @@ A fox rests at a log. The sun is hot. Fox naps in the dim spot by the log.
 ### Spelling Aid
 
 **Phonograms on this page:** a, d, e, f, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-At dusk, the fox runs. It runs in the grass. It runs past a pond.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, f, g, k
 
 **Rules in this story:**
 
@@ -69,7 +51,7 @@ At dusk, the fox runs. It runs in the grass. It runs past a pond.
 
 <div class="reader-text">
 
-Fox digs in the mud. It digs a big den. The den is snug.
+It runs in the grass. It runs past a pond. Fox digs in the mud. It digs a big den.
 
 </div>
 
@@ -77,7 +59,11 @@ Fox digs in the mud. It digs a big den. The den is snug.
 
 ### Spelling Aid
 
-**Phonograms on this page:** b, d, e, f, g
+**Phonograms on this page:** a, b, d, e, f
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
 
 </div>
 
@@ -87,7 +73,7 @@ Fox digs in the mud. It digs a big den. The den is snug.
 
 <div class="reader-text">
 
-In the den, six cubs sit. The cubs are soft and red, just like mom. Mom fox sits with the cubs.
+The den is snug. In the den, six cubs sit. The cubs are soft and red, just like mom. Mom fox sits with the cubs.
 
 </div>
 

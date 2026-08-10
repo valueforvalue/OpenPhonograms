@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Plants make their own food. Animals cannot do this.
+Plants make their own food. Animals cannot do this. Animals must eat plants, or eat other animals that have eaten plants. But a green plant can sit in one place and still grow.
 
 </div>
 
@@ -36,6 +36,8 @@ Plants make their own food. Animals cannot do this.
 **Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
 
 **Rule 12:** Silent E — nine reasons
 
@@ -49,53 +51,7 @@ Plants make their own food. Animals cannot do this.
 
 <div class="reader-text">
 
-Animals must eat plants, or eat other animals that have eaten plants. But a green plant can sit in one place and still grow.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, g, h
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-How does it do this? The secret is in the leaf.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, f, l
-
-**Rules in this story:**
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A leaf is a small factory. It takes raw materials from the air and the soil and turns them into sugar.
+How does it do this? The secret is in the leaf. A leaf is a small factory. It takes raw materials from the air and the soil and turns them into sugar.
 
 </div>
 
@@ -117,7 +73,7 @@ A leaf is a small factory. It takes raw materials from the air and the soil and 
 
 <div class="reader-text">
 
-Sugar is food for the plant. The name for this process is photosynthesis, which means 'building with light'.
+Sugar is food for the plant. The name for this process is photosynthesis, which means 'building with light'. What are the raw materials? The plant takes in water through its roots.
 
 </div>
 
@@ -126,24 +82,6 @@ Sugar is food for the plant. The name for this process is photosynthesis, which 
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-What are the raw materials? The plant takes in water through its roots.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, i, k, l
 
 **Rules in this story:**
 
@@ -157,7 +95,7 @@ What are the raw materials? The plant takes in water through its roots.
 
 <div class="reader-text">
 
-It takes in a gas called carbon dioxide through tiny holes in the leaves. And it takes in light from the sun.
+It takes in a gas called carbon dioxide through tiny holes in the leaves. And it takes in light from the sun. Inside the leaf, a green color called chlorophyll catches the light. The leaf uses that light energy to join water and carbon dioxide into sugar.
 
 </div>
 
@@ -183,33 +121,7 @@ It takes in a gas called carbon dioxide through tiny holes in the leaves. And it
 
 <div class="reader-text">
 
-Inside the leaf, a green color called chlorophyll catches the light. The leaf uses that light energy to join water and carbon dioxide into sugar.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 19:** Past tense -ED
-
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The plant does not need the sugar alone. It also breathes out a gas called oxygen.
+The plant does not need the sugar alone. It also breathes out a gas called oxygen. Animals breathe in oxygen. So plants and animals help each other.
 
 </div>
 
@@ -235,49 +147,7 @@ The plant does not need the sugar alone. It also breathes out a gas called oxyge
 
 <div class="reader-text">
 
-Animals breathe in oxygen. So plants and animals help each other.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Plants give oxygen to animals. Animals give carbon dioxide to plants.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A plant does not do this only in bright sun. On a cloudy day, the leaf still works.
+Plants give oxygen to animals. Animals give carbon dioxide to plants. A plant does not do this only in bright sun. On a cloudy day, the leaf still works.
 
 </div>
 
@@ -303,31 +173,7 @@ A plant does not do this only in bright sun. On a cloudy day, the leaf still wor
 
 <div class="reader-text">
 
-It just works more slowly. At night, when there is no light, the leaf rests.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, f, g, h
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-In the morning, when the sun rises, the leaf begins again. Without plants, there would be no food and no oxygen.
+It just works more slowly. At night, when there is no light, the leaf rests. In the morning, when the sun rises, the leaf begins again. Without plants, there would be no food and no oxygen.
 
 </div>
 
@@ -338,6 +184,8 @@ In the morning, when the sun rises, the leaf begins again. Without plants, there
 **Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
+
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
 **Rule 29:** F vs V vs FE spelling
 

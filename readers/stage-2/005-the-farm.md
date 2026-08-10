@@ -29,7 +29,9 @@
 
 <div class="reader-text">
 
-It is dawn on the farm. The sky is pink. A rooster crows.
+It is dawn on the farm. The sky is pink. A rooster crows. "Cock-a-doodle-doo!"
+
+Grandpa wakes up.
 
 </div>
 
@@ -53,9 +55,7 @@ It is dawn on the farm. The sky is pink. A rooster crows.
 
 <div class="reader-text">
 
-"Cock-a-doodle-doo!"
-
-Grandpa wakes up. He puts on his boots. Today is barn day.
+He puts on his boots. Today is barn day. Time to fix the roof. Grandpa climbs up.
 
 </div>
 
@@ -81,43 +81,7 @@ Grandpa wakes up. He puts on his boots. Today is barn day.
 
 <div class="reader-text">
 
-Time to fix the roof. Grandpa climbs up. He has a hammer.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-He has nails. THUD! THUD!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, h, i, l
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The hammer hits the nails. Then — a sound. A small sound.
+He has a hammer. He has nails. THUD! THUD!
 
 </div>
 
@@ -135,9 +99,31 @@ The hammer hits the nails. Then — a sound. A small sound.
 
 <div class="reader-text">
 
-"Maaaa."
+The hammer hits the nails. Then — a sound. A small sound. "Maaaa."
 
-Grandpa looks down. A baby goat! The baby goat is stuck.
+Grandpa looks down.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, d, e, g, h
+
+**Rules in this story:**
+
+**Rule 22:** 3rd person singular verbs
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+A baby goat! The baby goat is stuck. She can not get up. "Hold on!" calls Grandpa.
 
 </div>
 
@@ -149,40 +135,16 @@ Grandpa looks down. A baby goat! The baby goat is stuck.
 
 **Sounds:** goat, goat
 
-**Phonograms on this page:** a, b, c, d, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 4:** A E O U say long at end of syllable
 
 **Rule 7:** I and Y may say /ē/
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-She can not get up. "Hold on!" calls Grandpa. Grandpa climbs down.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 14:** Double consonant for vowel suffix
-
 </div>
 
 </div>
@@ -191,37 +153,7 @@ She can not get up. "Hold on!" calls Grandpa. Grandpa climbs down.
 
 <div class="reader-text">
 
-He lifts the baby goat. "There you go!" says Grandpa. The baby goat runs to her mom.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**New:** oa
-
-**Sounds:** goat, goat
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 4:** A E O U say long at end of syllable
-
-**Rule 7:** I and Y may say /ē/
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The mom goat licks her baby. She is so glad. "Thank you," bleats the mom goat.
+Grandpa climbs down. He lifts the baby goat. "There you go!" says Grandpa. The baby goat runs to her mom.
 
 </div>
 
@@ -251,7 +183,37 @@ The mom goat licks her baby. She is so glad. "Thank you," bleats the mom goat.
 
 <div class="reader-text">
 
-Grandpa smiles. Then he climbs back up. THUD!
+The mom goat licks her baby. She is so glad. "Thank you," bleats the mom goat. Grandpa smiles.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**New:** oa
+
+**Sounds:** goat, goat
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 4:** A E O U say long at end of syllable
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 15:** Y changes to I
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then he climbs back up. THUD! THUD! The roof is fixed.
 
 </div>
 
@@ -264,24 +226,6 @@ Grandpa smiles. Then he climbs back up. THUD!
 **Rules in this story:**
 
 **Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-THUD! The roof is fixed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** d, e, f, h, i
 
 </div>
 

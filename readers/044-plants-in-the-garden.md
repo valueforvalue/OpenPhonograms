@@ -25,29 +25,7 @@
 
 <div class="reader-text">
 
-A child plants a small seed in the rich dark soil of the garden bed. She pats the soil gently. She waters it with a small green pail.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Every day she visits the spot. She wonders what is happening underground. Below the surface, the seed is waking up.
+A child plants a small seed in the rich dark soil of the garden bed. She pats the soil gently. She waters it with a small green pail. Every day she visits the spot.
 
 </div>
 
@@ -61,6 +39,8 @@ Every day she visits the spot. She wonders what is happening underground. Below 
 
 **Rule 3:** No English word ends in I, U, V, or J
 
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
 **Rule 9:** AY for /ā/ at end
 
 </div>
@@ -71,7 +51,7 @@ Every day she visits the spot. She wonders what is happening underground. Below 
 
 <div class="reader-text">
 
-It drinks in the wet soil. A tiny root pushes down. Then a pale stem pushes up toward the light.
+She wonders what is happening underground. Below the surface, the seed is waking up. It drinks in the wet soil. A tiny root pushes down.
 
 </div>
 
@@ -79,11 +59,7 @@ It drinks in the wet soil. A tiny root pushes down. Then a pale stem pushes up t
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, g, h
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 
@@ -93,7 +69,7 @@ It drinks in the wet soil. A tiny root pushes down. Then a pale stem pushes up t
 
 <div class="reader-text">
 
-The stem grows taller every day. Soon two small leaves unfurl. The leaves reach for the sun.
+Then a pale stem pushes up toward the light. The stem grows taller every day. Soon two small leaves unfurl. The leaves reach for the sun.
 
 </div>
 
@@ -119,7 +95,7 @@ The stem grows taller every day. Soon two small leaves unfurl. The leaves reach 
 
 <div class="reader-text">
 
-They use the light to make food for the plant. After some weeks, a small bud forms at the top of the stem. The bud grows fat and round.
+They use the light to make food for the plant. After some weeks, a small bud forms at the top of the stem. The bud grows fat and round. Then one morning it opens into a flower.
 
 </div>
 
@@ -145,25 +121,7 @@ They use the light to make food for the plant. After some weeks, a small bud for
 
 <div class="reader-text">
 
-Then one morning it opens into a flower. Bees visit the flower. They drink sweet nectar from its center.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-As the bees move from flower to flower, they carry bits of pollen. This is called pollination. It is how plants make new seeds.
+Bees visit the flower. They drink sweet nectar from its center. As the bees move from flower to flower, they carry bits of pollen. This is called pollination.
 
 </div>
 
@@ -175,11 +133,11 @@ As the bees move from flower to flower, they carry bits of pollen. This is calle
 
 **Rules in this story:**
 
-**Rule 3:** No English word ends in I, U, V, or J
+**Rule 15:** Y changes to I
 
-**Rule 12:** Silent E — nine reasons
+**Rule 19:** Past tense -ED
 
-**Rule 13:** Drop Silent E for vowel suffix
+**Rule 20:** -ED sounds (/ed/, /d/, /t/)
 
 </div>
 
@@ -189,7 +147,7 @@ As the bees move from flower to flower, they carry bits of pollen. This is calle
 
 <div class="reader-text">
 
-Soon the flower fades. Where it was, a small green fruit begins to grow. Inside the fruit are many new seeds.
+It is how plants make new seeds. Soon the flower fades. Where it was, a small green fruit begins to grow. Inside the fruit are many new seeds.
 
 </div>
 
@@ -205,6 +163,8 @@ Soon the flower fades. Where it was, a small green fruit begins to grow. Inside 
 
 **Rule 7:** I and Y may say /ē/
 
+**Rule 12:** Silent E — nine reasons
+
 </div>
 
 </div>
@@ -213,7 +173,7 @@ Soon the flower fades. Where it was, a small green fruit begins to grow. Inside 
 
 <div class="reader-text">
 
-They wait for their turn to plant. The child saves a few seeds for next spring. The cycle will start again.
+They wait for their turn to plant. The child saves a few seeds for next spring. The cycle will start again. She writes the name of the plant on a small wooden marker.
 
 </div>
 
@@ -239,29 +199,7 @@ They wait for their turn to plant. The child saves a few seeds for next spring. 
 
 <div class="reader-text">
 
-She writes the name of the plant on a small wooden marker. Next spring she will plant the saved seeds. She will tend a whole new row.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, h
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each seed holds the start of a plant. Each plant holds the start of new seeds. A garden is a place of patient science.
+Next spring she will plant the saved seeds. She will tend a whole new row. Each seed holds the start of a plant. Each plant holds the start of new seeds.
 
 </div>
 
@@ -273,8 +211,6 @@ Each seed holds the start of a plant. Each plant holds the start of new seeds. A
 
 **Rules in this story:**
 
-**Rule 1:** C softens to /s/ before E, I, Y
-
 **Rule 3:** No English word ends in I, U, V, or J
 
 </div>
@@ -285,7 +221,7 @@ Each seed holds the start of a plant. Each plant holds the start of new seeds. A
 
 <div class="reader-text">
 
-And a place of great wonder.
+A garden is a place of patient science. And a place of great wonder.
 
 </div>
 

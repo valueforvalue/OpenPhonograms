@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Dilly is a duck. She has brown feathers. She is by a pond.
+Dilly is a duck. She has brown feathers. She is by a pond. One day, Dilly sees a fish.
 
 </div>
 
@@ -34,28 +34,6 @@ Dilly is a duck. She has brown feathers. She is by a pond.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One day, Dilly sees a fish. The fish is sad. "Help!" says the fish.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, h
 
 **Rules in this story:**
 
@@ -73,9 +51,9 @@ One day, Dilly sees a fish. The fish is sad. "Help!" says the fish.
 
 <div class="reader-text">
 
-"I can not find my pond!" says the fish. "I am stuck in the reeds."
+The fish is sad. "Help!" says the fish. "I can not find my pond!" says the fish. "I am stuck in the reeds."
 
-Dilly thinks. "I will help," she says.
+Dilly thinks.
 
 </div>
 
@@ -99,7 +77,7 @@ Dilly thinks. "I will help," she says.
 
 <div class="reader-text">
 
-"Tell me what you see."
+"I will help," she says. "Tell me what you see."
 
 "I see a rock," says the fish. "And a thin stick." And reeds. "That is my pond!" says Dilly.
 
@@ -125,7 +103,7 @@ Dilly thinks. "I will help," she says.
 
 <div class="reader-text">
 
-The grass is on the rocks. A bank is near. The fish and Dilly swim to the near pond.
+The grass is on the rocks. A bank is near. The fish and Dilly swim to the near pond. The fish is glad.
 
 </div>
 
@@ -151,7 +129,7 @@ The grass is on the rocks. A bank is near. The fish and Dilly swim to the near p
 
 <div class="reader-text">
 
-The fish is glad. He sees the rocks. "I am glad!" says the fish.
+He sees the rocks. "I am glad!" says the fish. "You are a pal." Dilly quacks and grins. From that day, Dilly and the fish are pals.
 
 </div>
 
@@ -163,6 +141,10 @@ The fish is glad. He sees the rocks. "I am glad!" says the fish.
 
 **Rules in this story:**
 
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 9:** AY for /ā/ at end
+
 **Rule 18:** SH placement
 
 </div>
@@ -173,7 +155,7 @@ The fish is glad. He sees the rocks. "I am glad!" says the fish.
 
 <div class="reader-text">
 
-"You are a pal." Dilly quacks and grins. From that day, Dilly and the fish are pals. They swim and splash.
+They swim and splash. The pond is wet. It has a duck and a fish. That is good.
 
 </div>
 
@@ -181,35 +163,11 @@ The fish is glad. He sees the rocks. "I am glad!" says the fish.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
 
 **Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The pond is wet. It has a duck and a fish. That is good.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** c, d, e, f, g
-
-**Rules in this story:**
 
 **Rule 18:** SH placement
 

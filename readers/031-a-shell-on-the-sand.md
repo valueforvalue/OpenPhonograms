@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Ben is at the beach. He has a pail. He looks for shells.
+Ben is at the beach. He has a pail. He looks for shells. The sand is warm.
 
 </div>
 
@@ -33,7 +33,7 @@ Ben is at the beach. He has a pail. He looks for shells.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, h
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -47,7 +47,7 @@ Ben is at the beach. He has a pail. He looks for shells.
 
 <div class="reader-text">
 
-The sand is warm. The sea is far. A gull calls in the wind.
+The sea is far. A gull calls in the wind. Ben sees a shell. It is thin and sharp.
 
 </div>
 
@@ -55,7 +55,7 @@ The sand is warm. The sea is far. A gull calls in the wind.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 
@@ -65,25 +65,7 @@ The sand is warm. The sea is far. A gull calls in the wind.
 
 <div class="reader-text">
 
-Ben sees a shell. It is thin and sharp. It has a sharp tip.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, e, h, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"What a fun shell!" says Ben. He puts it in his pail. He is glad.
+It has a sharp tip. "What a fun shell!" says Ben. He puts it in his pail. He is glad.
 
 </div>
 
@@ -101,7 +83,7 @@ Ben sees a shell. It is thin and sharp. It has a sharp tip.
 
 <div class="reader-text">
 
-The wind blows hard. The sea starts to come in. The sand gets dark.
+The wind blows hard. The sea starts to come in. The sand gets dark. Ben walks back.
 
 </div>
 
@@ -115,6 +97,10 @@ The wind blows hard. The sea starts to come in. The sand gets dark.
 
 **Rule 12:** Silent E — nine reasons
 
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
 </div>
 
 </div>
@@ -123,7 +109,7 @@ The wind blows hard. The sea starts to come in. The sand gets dark.
 
 <div class="reader-text">
 
-Ben walks back. The sea is at his feet. The sand is wet.
+The sea is at his feet. The sand is wet. Ben runs up the beach. He has his pail.
 
 </div>
 
@@ -137,8 +123,6 @@ Ben walks back. The sea is at his feet. The sand is wet.
 
 **Rule 22:** 3rd person singular verbs
 
-**Rule 26:** CK after short vowel
-
 </div>
 
 </div>
@@ -147,29 +131,7 @@ Ben walks back. The sea is at his feet. The sand is wet.
 
 <div class="reader-text">
 
-Ben runs up the beach. He has his pail. The shell is in.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, h
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The sea runs up. The sand is dark. The wind is hard.
+The shell is in. The sea runs up. The sand is dark. The wind is hard.
 
 </div>
 
@@ -191,25 +153,7 @@ The sea runs up. The sand is dark. The wind is hard.
 
 <div class="reader-text">
 
-Ben has a shell. He has fun in the sand. The sea is far and dark.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Ben will come back. The shell is in his pail. The beach is a good spot.
+Ben has a shell. He has fun in the sand. The sea is far and dark. Ben will come back.
 
 </div>
 
@@ -224,6 +168,24 @@ Ben will come back. The shell is in his pail. The beach is a good spot.
 **Rule 12:** Silent E — nine reasons
 
 **Rule 26:** CK after short vowel
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The shell is in his pail. The beach is a good spot.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 

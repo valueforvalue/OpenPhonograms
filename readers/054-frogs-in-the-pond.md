@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-A big fat frog sits on a log. The log is in a mud pond. The sun is hot.
+A big fat frog sits on a log. The log is in a mud pond. The sun is hot. The frog is damp.
 
 </div>
 
@@ -47,7 +47,7 @@ A big fat frog sits on a log. The log is in a mud pond. The sun is hot.
 
 <div class="reader-text">
 
-The frog is damp. It sits and sits. A bug zips past.
+It sits and sits. A bug zips past. ZAP! The frog gets the bug.
 
 </div>
 
@@ -55,7 +55,7 @@ The frog is damp. It sits and sits. A bug zips past.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, f, g
+**Phonograms on this page:** a, b, e, f, g
 
 </div>
 
@@ -65,7 +65,7 @@ The frog is damp. It sits and sits. A bug zips past.
 
 <div class="reader-text">
 
-ZAP! The frog gets the bug. In the mud, a mom frog did rest.
+In the mud, a mom frog did rest. Six eggs sit in a blob of gel. One egg pops. A tad is in it.
 
 </div>
 
@@ -74,24 +74,6 @@ ZAP! The frog gets the bug. In the mud, a mom frog did rest.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Six eggs sit in a blob of gel. One egg pops. A tad is in it.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
@@ -105,7 +87,7 @@ Six eggs sit in a blob of gel. One egg pops. A tad is in it.
 
 <div class="reader-text">
 
-The tad wags its tail. It swims in the pond. The tad gets big.
+The tad wags its tail. It swims in the pond. The tad gets big. It has legs!
 
 </div>
 
@@ -127,7 +109,7 @@ The tad wags its tail. It swims in the pond. The tad gets big.
 
 <div class="reader-text">
 
-It has legs! It has no tail. It is a frog!
+It has no tail. It is a frog! The frog hops on land. It sits on a rock in the sun.
 
 </div>
 
@@ -135,33 +117,11 @@ It has legs! It has no tail. It is a frog!
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, f, g, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The frog hops on land. It sits on a rock in the sun. Frogs live in the pond.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, c, d, f, g
 
 **Rules in this story:**
 
-**Rule 3:** No English word ends in I, U, V, or J
-
 **Rule 26:** CK after short vowel
-
-**Rule 29:** F vs V vs FE spelling
 
 </div>
 
@@ -171,7 +131,7 @@ The frog hops on land. It sits on a rock in the sun. Frogs live in the pond.
 
 <div class="reader-text">
 
-Frogs live on land. Frogs get bugs.
+Frogs live in the pond. Frogs live on land. Frogs get bugs.
 
 </div>
 

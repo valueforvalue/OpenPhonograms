@@ -27,7 +27,7 @@
 
 <div class="reader-text">
 
-Cat is big. Dog is big too. Cat sits on the mat.
+Cat is big. Dog is big too. Cat sits on the mat. Dog sits on the rug.
 
 </div>
 
@@ -45,7 +45,7 @@ Cat is big. Dog is big too. Cat sits on the mat.
 
 <div class="reader-text">
 
-Dog sits on the rug. They are pals. One day, Cat sees a bug on the mat.
+They are pals. One day, Cat sees a bug on the mat. The bug has six legs and a hard back. "Dog!
 
 </div>
 
@@ -61,26 +61,6 @@ Dog sits on the rug. They are pals. One day, Cat sees a bug on the mat.
 
 **Rule 9:** AY for /ā/ at end
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The bug has six legs and a hard back. "Dog! Look!" says Cat.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 26:** CK after short vowel
 
 </div>
@@ -91,7 +71,7 @@ The bug has six legs and a hard back. "Dog! Look!" says Cat.
 
 <div class="reader-text">
 
-Dog runs up. He sniffs. The bug zips away.
+Look!" says Cat. Dog runs up. He sniffs. The bug zips away.
 
 </div>
 
@@ -99,7 +79,7 @@ Dog runs up. He sniffs. The bug zips away.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, f, g
+**Phonograms on this page:** a, b, c, d, f
 
 **Rules in this story:**
 
@@ -117,7 +97,7 @@ Dog runs up. He sniffs. The bug zips away.
 
 <div class="reader-text">
 
-"It is on the rug now!" says Dog. Cat and Dog tip-toe to the rug. They get set to run.
+"It is on the rug now!" says Dog. Cat and Dog tip-toe to the rug. They get set to run. Cat counts.
 
 </div>
 
@@ -139,9 +119,9 @@ Dog runs up. He sniffs. The bug zips away.
 
 <div class="reader-text">
 
-Cat counts. "One… two…"
+"One… two…"
 
-But the bug is gone. Up, up, up it goes.
+But the bug is gone. Up, up, up it goes. Out the window. "Oh no!" says Cat.
 
 </div>
 
@@ -149,7 +129,7 @@ But the bug is gone. Up, up, up it goes.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 </div>
 
@@ -159,31 +139,9 @@ But the bug is gone. Up, up, up it goes.
 
 <div class="reader-text">
 
-Out the window. "Oh no!" says Cat. "Now we have no bug to run at."
+"Now we have no bug to run at."
 
-Dog sits.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, g
-
-**Rules in this story:**
-
-**Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"It is fun to run, even with no bug."
+Dog sits. "It is fun to run, even with no bug."
 
 Cat grins. "It is fun to run with you, Dog."
 

@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-Dr. Chen was a scientist who loved to invent things. Her laboratory was full of strange machines and half-finished projects.
+Dr. Chen was a scientist who loved to invent things. Her laboratory was full of strange machines and half-finished projects. One day, Dr.
 
 </div>
 
@@ -43,33 +43,7 @@ Dr. Chen was a scientist who loved to invent things. Her laboratory was full of 
 
 **Rule 2:** G may soften to /j/ before E, I, Y
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-One day, Dr. Chen had an incredible idea. "What if I could build a machine that turns ocean water into clean drinking water using only sunlight?"
-
-She called it the SolarPure.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 7:** I and Y may say /ē/
 
 **Rule 9:** AY for /ā/ at end
 
@@ -81,7 +55,9 @@ She called it the SolarPure.
 
 <div class="reader-text">
 
-The SolarPure would use solar panels to heat ocean water. The steam would rise, leaving the salt behind. The steam would then cool into pure, fresh water.
+Chen had an incredible idea. "What if I could build a machine that turns ocean water into clean drinking water using only sunlight?"
+
+She called it the SolarPure. The SolarPure would use solar panels to heat ocean water. The steam would rise, leaving the salt behind.
 
 </div>
 
@@ -93,7 +69,31 @@ The SolarPure would use solar panels to heat ocean water. The steam would rise, 
 
 **Rules in this story:**
 
+**Rule 7:** I and Y may say /ē/
+
 **Rule 13:** Drop Silent E for vowel suffix
+
+**Rule 18:** SH placement
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+The steam would then cool into pure, fresh water. Dr. Chen worked for months. She constructed and reconstructed.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, c, d, e, f
+
+**Rules in this story:**
 
 **Rule 18:** SH placement
 
@@ -107,25 +107,7 @@ The SolarPure would use solar panels to heat ocean water. The steam would rise, 
 
 <div class="reader-text">
 
-Dr. Chen worked for months. She constructed and reconstructed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** c, d, e, h, k
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Some days, nothing worked. "Every failure is a lesson," she said. Finally, the day came.
+Some days, nothing worked. "Every failure is a lesson," she said. Finally, the day came. Dr.
 
 </div>
 
@@ -149,7 +131,7 @@ Some days, nothing worked. "Every failure is a lesson," she said. Finally, the d
 
 <div class="reader-text">
 
-Dr. Chen took the SolarPure to the beach. She poured in ocean water.
+Chen took the SolarPure to the beach. She poured in ocean water. She waited. The sun shone down.
 
 </div>
 
@@ -171,29 +153,7 @@ Dr. Chen took the SolarPure to the beach. She poured in ocean water.
 
 <div class="reader-text">
 
-She waited. The sun shone down. The machine hummed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, h
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Steam rose. And then — drip, drip, drip — fresh water came out the other side! Dr.
+The machine hummed. Steam rose. And then — drip, drip, drip — fresh water came out the other side! Dr.
 
 </div>
 
@@ -219,7 +179,7 @@ Steam rose. And then — drip, drip, drip — fresh water came out the other sid
 
 Chen tasted it. "It works!" she shouted. "It really works!"
 
-A journalist heard about the invention and wrote a story.
+A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure.
 
 </div>
 
@@ -241,7 +201,7 @@ A journalist heard about the invention and wrote a story.
 
 <div class="reader-text">
 
-Soon, people around the world were talking about the SolarPure. It could help millions of people who did not have clean water. "An invention is not just a clever machine," Dr.
+It could help millions of people who did not have clean water. "An invention is not just a clever machine," Dr. Chen said. "An invention is a solution to a problem.
 
 </div>
 
@@ -265,7 +225,7 @@ Soon, people around the world were talking about the SolarPure. It could help mi
 
 <div class="reader-text">
 
-Chen said. "An invention is a solution to a problem. And the best inventions help people."
+And the best inventions help people."
 
 </div>
 
@@ -273,11 +233,7 @@ Chen said. "An invention is a solution to a problem. And the best inventions hel
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
+**Phonograms on this page:** b, e, h, i, l
 
 </div>
 

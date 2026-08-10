@@ -25,25 +25,7 @@
 
 <div class="reader-text">
 
-Every year, the same pattern repeats. The snow melts.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, l, m, n
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The flowers open. The days grow long and hot.
+Every year, the same pattern repeats. The snow melts. The flowers open. The days grow long and hot.
 
 </div>
 
@@ -67,7 +49,7 @@ The flowers open. The days grow long and hot.
 
 <div class="reader-text">
 
-The leaves turn gold and red. The air turns sharp, and the snow falls again.
+The leaves turn gold and red. The air turns sharp, and the snow falls again. This pattern has a name. It is called the cycle of the seasons.
 
 </div>
 
@@ -75,39 +57,15 @@ The leaves turn gold and red. The air turns sharp, and the snow falls again.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, g
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 21:** Plural nouns
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-This pattern has a name. It is called the cycle of the seasons.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, l
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 19:** Past tense -ED
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
+**Rule 19:** Past tense -ED
 
 </div>
 
@@ -117,7 +75,7 @@ This pattern has a name. It is called the cycle of the seasons.
 
 <div class="reader-text">
 
-What makes the seasons change? The answer is the tilt of the Earth.
+What makes the seasons change? The answer is the tilt of the Earth. The Earth spins like a top. It also travels around the sun.
 
 </div>
 
@@ -125,7 +83,7 @@ What makes the seasons change? The answer is the tilt of the Earth.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, g, h
+**Phonograms on this page:** a, c, d, e, g
 
 **Rules in this story:**
 
@@ -143,53 +101,7 @@ What makes the seasons change? The answer is the tilt of the Earth.
 
 <div class="reader-text">
 
-The Earth spins like a top. It also travels around the sun.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, h, i
-
-**Rules in this story:**
-
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-But it does not sit up straight. It leans a little, the way a person leans against a wall.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, e, g, h, i
-
-**Rules in this story:**
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 14:** Double consonant for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The line through the top and bottom of the Earth, which we call the axis, tilts at an angle. As the Earth moves around the sun, different parts of the world tilt toward the sun and then away from it.
+But it does not sit up straight. It leans a little, the way a person leans against a wall. The line through the top and bottom of the Earth, which we call the axis, tilts at an angle. As the Earth moves around the sun, different parts of the world tilt toward the sun and then away from it.
 
 </div>
 
@@ -203,6 +115,8 @@ The line through the top and bottom of the Earth, which we call the axis, tilts 
 
 **Rule 9:** AY for /ā/ at end
 
+**Rule 14:** Double consonant for vowel suffix
+
 **Rule 31:** Schwa in unstressed syllables
 
 </div>
@@ -213,7 +127,7 @@ The line through the top and bottom of the Earth, which we call the axis, tilts 
 
 <div class="reader-text">
 
-When your part of the world tilts toward the sun, the days are long and the weather is warm. That is summer.
+When your part of the world tilts toward the sun, the days are long and the weather is warm. That is summer. When your part tilts away, the days are short and the weather is cold. That is winter.
 
 </div>
 
@@ -221,25 +135,7 @@ When your part of the world tilts toward the sun, the days are long and the weat
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, g, h
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-When your part tilts away, the days are short and the weather is cold. That is winter.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, c, d, e, g
 
 **Rules in this story:**
 
@@ -257,7 +153,7 @@ When your part tilts away, the days are short and the weather is cold. That is w
 
 <div class="reader-text">
 
-Spring and autumn are the times in between. Plants and animals have learned to live with this cycle.
+Spring and autumn are the times in between. Plants and animals have learned to live with this cycle. Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in autumn and sleep through the cold.
 
 </div>
 
@@ -273,34 +169,8 @@ Spring and autumn are the times in between. Plants and animals have learned to l
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in autumn and sleep through the cold.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 21:** Plural nouns
-
 </div>
 
 </div>
@@ -309,7 +179,7 @@ Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in
 
 <div class="reader-text">
 
-Birds fly south when winter comes and return when spring returns. People mark the seasons too.
+Birds fly south when winter comes and return when spring returns. People mark the seasons too. In spring, fields are planted. In summer, crops grow tall.
 
 </div>
 
@@ -335,7 +205,7 @@ Birds fly south when winter comes and return when spring returns. People mark th
 
 <div class="reader-text">
 
-In spring, fields are planted. In summer, crops grow tall.
+In autumn, the harvest is gathered. In winter, the fires burn and the stories are told. Each season has its own work and its own rest. The cycle never stops.
 
 </div>
 
@@ -343,57 +213,13 @@ In spring, fields are planted. In summer, crops grow tall.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 19:** Past tense -ED
-
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-In autumn, the harvest is gathered. In winter, the fires burn and the stories are told.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each season has its own work and its own rest. The cycle never stops.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, h, k
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 **Rule 22:** 3rd person singular verbs
 
@@ -405,7 +231,7 @@ Each season has its own work and its own rest. The cycle never stops.
 
 <div class="reader-text">
 
-It has been turning for billions of years. Each year, you live one full turn of it.
+It has been turning for billions of years. Each year, you live one full turn of it. Each season is one small piece of a very long, very steady wheel.
 
 </div>
 
@@ -413,35 +239,15 @@ It has been turning for billions of years. Each year, you live one full turn of 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each season is one small piece of a very long, very steady wheel.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
 **Rule 7:** I and Y may say /ē/
+
+**Rule 29:** F vs V vs FE spelling
 
 </div>
 

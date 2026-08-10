@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The egg is soft and clear.
+A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The egg is soft and clear. A small dark shape can be seen inside.
 
 </div>
 
@@ -51,7 +51,7 @@ A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The e
 
 <div class="reader-text">
 
-A small dark shape can be seen inside. After a few days, the egg splits open. A tiny tadpole slips out.
+After a few days, the egg splits open. A tiny tadpole slips out. The tadpole has a long flat tail. It uses the tail to swim in the water.
 
 </div>
 
@@ -67,34 +67,8 @@ A small dark shape can be seen inside. After a few days, the egg splits open. A 
 
 **Rule 4:** A E O U say long at end of syllable
 
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The tadpole has a long flat tail. It uses the tail to swim in the water. The tadpole eats tiny plants.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, g
-
-**Rules in this story:**
-
 **Rule 14:** Double consonant for vowel suffix
 
-**Rule 30:** Double or single final consonant
-
-**Rule 31:** Schwa in unstressed syllables
-
 </div>
 
 </div>
@@ -103,7 +77,7 @@ The tadpole has a long flat tail. It uses the tail to swim in the water. The tad
 
 <div class="reader-text">
 
-It grows a little bigger every single day. Slowly, back legs begin to sprout. The tadpole wiggles them in the water.
+The tadpole eats tiny plants. It grows a little bigger every single day. Slowly, back legs begin to sprout. The tadpole wiggles them in the water.
 
 </div>
 
@@ -129,7 +103,7 @@ It grows a little bigger every single day. Slowly, back legs begin to sprout. Th
 
 <div class="reader-text">
 
-Then front legs appear. The tail grows shorter and shorter each day. Now the creature is called a froglet.
+Then front legs appear. The tail grows shorter and shorter each day. Now the creature is called a froglet. It still has a bit of tail left.
 
 </div>
 
@@ -137,7 +111,7 @@ Then front legs appear. The tail grows shorter and shorter each day. Now the cre
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -155,7 +129,7 @@ Then front legs appear. The tail grows shorter and shorter each day. Now the cre
 
 <div class="reader-text">
 
-It still has a bit of tail left. The froglet takes a breath. Its lungs fill with fresh clean air.
+The froglet takes a breath. Its lungs fill with fresh clean air. Soon the tail is gone. The froglet is now a full grown adult frog.
 
 </div>
 
@@ -163,7 +137,7 @@ It still has a bit of tail left. The froglet takes a breath. Its lungs fill with
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -177,29 +151,7 @@ It still has a bit of tail left. The froglet takes a breath. Its lungs fill with
 
 <div class="reader-text">
 
-Soon the tail is gone. The froglet is now a full grown adult frog. The frog hops onto a rock.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Its skin is green and smooth and cool. It blinks its big round eyes. The sun is warm on its back.
+The frog hops onto a rock. Its skin is green and smooth and cool. It blinks its big round eyes. The sun is warm on its back.
 
 </div>
 
@@ -221,7 +173,7 @@ Its skin is green and smooth and cool. It blinks its big round eyes. The sun is 
 
 <div class="reader-text">
 
-The frog catches a passing fly. Then it dives back into the pond. It swims down to the bottom.
+The frog catches a passing fly. Then it dives back into the pond. It swims down to the bottom. It pokes about among the smooth stones.
 
 </div>
 
@@ -247,29 +199,7 @@ The frog catches a passing fly. Then it dives back into the pond. It swims down 
 
 <div class="reader-text">
 
-It pokes about among the smooth stones. After a while it climbs out again. The bank is warm in the afternoon sun.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Someday this frog will lay new eggs. New tadpoles will swim in the water. The life cycle of a frog will begin again.
+After a while it climbs out again. The bank is warm in the afternoon sun. Someday this frog will lay new eggs. New tadpoles will swim in the water.
 
 </div>
 
@@ -281,11 +211,11 @@ Someday this frog will lay new eggs. New tadpoles will swim in the water. The li
 
 **Rules in this story:**
 
-**Rule 1:** C softens to /s/ before E, I, Y
-
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 14:** Double consonant for vowel suffix
+
+**Rule 30:** Double or single final consonant
 
 </div>
 
@@ -295,7 +225,7 @@ Someday this frog will lay new eggs. New tadpoles will swim in the water. The li
 
 <div class="reader-text">
 
-And again. And again.
+The life cycle of a frog will begin again. And again. And again.
 
 </div>
 
@@ -303,7 +233,13 @@ And again. And again.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, g, i, n, ai
+**Phonograms on this page:** a, b, c, e, f
+
+**Rules in this story:**
+
+**Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 29:** F vs V vs FE spelling
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-The forest is changing. The long warm days of summer are ending. A soft cool wind moves through the trees.
+The forest is changing. The long warm days of summer are ending. A soft cool wind moves through the trees. The light grows golden and slanted.
 
 </div>
 
@@ -35,27 +35,7 @@ The forest is changing. The long warm days of summer are ending. A soft cool win
 
 **Phonograms on this page:** a, c, d, e, f
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The light grows golden and slanted. The first leaves begin to turn. A maple shows a flash of bright red.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
 **Rules in this story:**
-
-**Rule 21:** Plural nouns
 
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
@@ -67,7 +47,29 @@ The light grows golden and slanted. The first leaves begin to turn. A maple show
 
 <div class="reader-text">
 
-Nearby, an oak turns a deep rich brown. A birch glows a clear yellow. Every day more leaves change color.
+The first leaves begin to turn. A maple shows a flash of bright red. Nearby, an oak turns a deep rich brown. A birch glows a clear yellow.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 21:** Plural nouns
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Every day more leaves change color. The green forest becomes a painting. Squirrels rush about. They gather acorns and tuck them into hiding places.
 
 </div>
 
@@ -93,7 +95,7 @@ Nearby, an oak turns a deep rich brown. A birch glows a clear yellow. Every day 
 
 <div class="reader-text">
 
-The green forest becomes a painting. Squirrels rush about. They gather acorns and tuck them into hiding places.
+A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow. Bears eat and eat. They must grow a thick layer of fat for the cold months ahead.
 
 </div>
 
@@ -104,61 +106,13 @@ The green forest becomes a painting. Squirrels rush about. They gather acorns an
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow. Bears eat and eat.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They must grow a thick layer of fat for the cold months ahead. Birds gather in flocks. Soon they will fly south to warmer lands.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
+**Rule 22:** 3rd person singular verbs
+
+**Rule 26:** CK after short vowel
+
 </div>
 
 </div>
@@ -167,7 +121,7 @@ They must grow a thick layer of fat for the cold months ahead. Birds gather in f
 
 <div class="reader-text">
 
-A deer walks softly through the fallen leaves. Its breath makes a small cloud in the air. At last the wind blows harder.
+Birds gather in flocks. Soon they will fly south to warmer lands. A deer walks softly through the fallen leaves. Its breath makes a small cloud in the air.
 
 </div>
 
@@ -179,9 +133,11 @@ A deer walks softly through the fallen leaves. Its breath makes a small cloud in
 
 **Rules in this story:**
 
-**Rule 21:** Plural nouns
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
-**Rule 22:** 3rd person singular verbs
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 15:** Y changes to I
 
 </div>
 
@@ -191,7 +147,7 @@ A deer walks softly through the fallen leaves. Its breath makes a small cloud in
 
 <div class="reader-text">
 
-Dry leaves tumble down from every branch. They pile up in soft drifts along the path. The forest floor becomes a rust colored blanket.
+At last the wind blows harder. Dry leaves tumble down from every branch. They pile up in soft drifts along the path. The forest floor becomes a rust colored blanket.
 
 </div>
 
@@ -217,7 +173,7 @@ Dry leaves tumble down from every branch. They pile up in soft drifts along the 
 
 <div class="reader-text">
 
-The trees stand bare. Their branches reach up like dark fingers against the gray sky. A lone crow calls from high above.
+The trees stand bare. Their branches reach up like dark fingers against the gray sky. A lone crow calls from high above. The sound echoes across the empty hills.
 
 </div>
 
@@ -243,7 +199,7 @@ The trees stand bare. Their branches reach up like dark fingers against the gray
 
 <div class="reader-text">
 
-The sound echoes across the empty hills. A small fox creeps through the brush. It hunts for one last meal before the snow.
+A small fox creeps through the brush. It hunts for one last meal before the snow. A woodpecker taps a hollow tree. It is making its winter home safe and snug.
 
 </div>
 
@@ -265,25 +221,7 @@ The sound echoes across the empty hills. A small fox creeps through the brush. I
 
 <div class="reader-text">
 
-A woodpecker taps a hollow tree. It is making its winter home safe and snug. Winter is coming.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The forest is ready. Every creature has made its preparations. But the leaves sleep under the snow.
+Winter is coming. The forest is ready. Every creature has made its preparations. But the leaves sleep under the snow.
 
 </div>
 

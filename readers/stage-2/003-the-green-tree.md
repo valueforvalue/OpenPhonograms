@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-Deep in the park, there is a green tree. The tree is big and old. A frog named Fern lives by the tree.
+Deep in the park, there is a green tree. The tree is big and old. A frog named Fern lives by the tree. She sits on a log next to the trunk.
 
 </div>
 
@@ -53,9 +53,9 @@ Deep in the park, there is a green tree. The tree is big and old. A frog named F
 
 <div class="reader-text">
 
-She sits on a log next to the trunk. "It is good here," says Fern. "The tree keeps me cool."
+"It is good here," says Fern. "The tree keeps me cool."
 
-Up in the tree top, a bird has a nest.
+Up in the tree top, a bird has a nest. The nest has three small eggs. The bird sings all day long.
 
 </div>
 
@@ -64,24 +64,6 @@ Up in the tree top, a bird has a nest.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The nest has three small eggs. The bird sings all day long. Then — strong wind!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
@@ -99,7 +81,7 @@ The nest has three small eggs. The bird sings all day long. Then — strong wind
 
 <div class="reader-text">
 
-The wind shakes the tree. The nest slips! "Help!" sings the bird.
+Then — strong wind! The wind shakes the tree. The nest slips! "Help!" sings the bird.
 
 </div>
 
@@ -125,7 +107,7 @@ The wind shakes the tree. The nest slips! "Help!" sings the bird.
 
 <div class="reader-text">
 
-Fern sees the nest fall. She jumps up. She catches it.
+Fern sees the nest fall. She jumps up. She catches it. The eggs are safe.
 
 </div>
 
@@ -133,7 +115,7 @@ Fern sees the nest fall. She jumps up. She catches it.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, h
+**Phonograms on this page:** a, c, e, f, g
 
 **Rules in this story:**
 
@@ -147,29 +129,7 @@ Fern sees the nest fall. She jumps up. She catches it.
 
 <div class="reader-text">
 
-The eggs are safe. The bird is glad. "Thank you, Fern!" sings the bird.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"You are welcome," says Fern. The wind stops. The sun comes back.
+The bird is glad. "Thank you, Fern!" sings the bird. "You are welcome," says Fern. The wind stops.
 
 </div>
 
@@ -183,8 +143,6 @@ The eggs are safe. The bird is glad. "Thank you, Fern!" sings the bird.
 
 **Rule 22:** 3rd person singular verbs
 
-**Rule 26:** CK after short vowel
-
 </div>
 
 </div>
@@ -193,7 +151,7 @@ The eggs are safe. The bird is glad. "Thank you, Fern!" sings the bird.
 
 <div class="reader-text">
 
-Fern and the bird sit in the green tree. They are pals. The green tree is the best home.
+The sun comes back. Fern and the bird sit in the green tree. They are pals. The green tree is the best home.
 
 </div>
 
@@ -201,11 +159,13 @@ Fern and the bird sit in the green tree. They are pals. The green tree is the be
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 14:** Double consonant for vowel suffix
+
+**Rule 26:** CK after short vowel
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Tully is a turtle. Tully is old — very old. His shell is purple and green with circles all over.
+Tully is a turtle. Tully is old — very old. His shell is purple and green with circles all over. Tully lives by a still pond.
 
 </div>
 
@@ -41,30 +41,6 @@ Tully is a turtle. Tully is old — very old. His shell is purple and green with
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Tully lives by a still pond. Every morning, he sits on his favorite rock and watches the world wake up. The young turtles race around the pond.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 12:** Silent E — nine reasons
-
 **Rule 21:** Plural nouns
 
 </div>
@@ -75,9 +51,7 @@ Tully lives by a still pond. Every morning, he sits on his favorite rock and wat
 
 <div class="reader-text">
 
-"Come race with us, Tully!" they call. "I am too slow for racing," says Tully. "But I can tell you a story."
-
-The young turtles gather around Tully's rock.
+Every morning, he sits on his favorite rock and watches the world wake up. The young turtles race around the pond. "Come race with us, Tully!" they call. "I am too slow for racing," says Tully.
 
 </div>
 
@@ -85,7 +59,7 @@ The young turtles gather around Tully's rock.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -103,7 +77,9 @@ The young turtles gather around Tully's rock.
 
 <div class="reader-text">
 
-"Long ago," Tully begins, "this pond was just a little puddle. I was the first turtle here. I watched the pond grow.
+"But I can tell you a story."
+
+The young turtles gather around Tully's rock. "Long ago," Tully begins, "this pond was just a little puddle. I was the first turtle here. I watched the pond grow.
 
 </div>
 
@@ -112,6 +88,10 @@ The young turtles gather around Tully's rock.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 26:** CK after short vowel
 
 </div>
 
@@ -123,7 +103,7 @@ The young turtles gather around Tully's rock.
 
 I watched the trees grow. I watched your parents grow up."
 
-"Tell us more!" the young turtles beg. Tully tells them about the great storm.
+"Tell us more!" the young turtles beg. Tully tells them about the great storm. About the time the pond froze solid.
 
 </div>
 
@@ -145,7 +125,7 @@ I watched the trees grow. I watched your parents grow up."
 
 <div class="reader-text">
 
-About the time the pond froze solid. About the family of ducks that visits every spring. When the tale ends, the sun is setting.
+About the family of ducks that visits every spring. When the tale ends, the sun is setting. The young turtles are quiet. "Thank you, Tully," they whisper.
 
 </div>
 
@@ -159,6 +139,8 @@ About the time the pond froze solid. About the family of ducks that visits every
 
 **Rule 7:** I and Y may say /ē/
 
+**Rule 11:** Q always needs U
+
 **Rule 31:** Schwa in unstressed syllables
 
 </div>
@@ -169,9 +151,9 @@ About the time the pond froze solid. About the family of ducks that visits every
 
 <div class="reader-text">
 
-The young turtles are quiet. "Thank you, Tully," they whisper. "Your stories are better than any race."
+"Your stories are better than any race."
 
-Tully smiles and tucks into his shell.
+Tully smiles and tucks into his shell. "Stories live longer than speed," he says.
 
 </div>
 
@@ -179,39 +161,15 @@ Tully smiles and tucks into his shell.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 11:** Q always needs U
-
-**Rule 12:** Silent E — nine reasons
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"Stories live longer than speed," he says.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, i
-
-**Rules in this story:**
-
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 29:** F vs V vs FE spelling
+**Rule 12:** Silent E — nine reasons
 
 </div>
 

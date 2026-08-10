@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best cake ever!" Jake tells his sister Kate.
+Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best cake ever!" Jake tells his sister Kate. Jake gets a big bowl.
 
 </div>
 
@@ -55,7 +55,7 @@ Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best ca
 
 <div class="reader-text">
 
-Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
+He gets flour, eggs, and milk. He mixes them up. "Time to add the sugar," Jake says. He dumps in a cup.
 
 </div>
 
@@ -63,7 +63,7 @@ Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 </div>
 
@@ -73,25 +73,7 @@ Jake gets a big bowl. He gets flour, eggs, and milk. He mixes them up.
 
 <div class="reader-text">
 
-"Time to add the sugar," Jake says. He dumps in a cup. He stirs.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-He tastes. "Hmm, it needs more!"
+He stirs. He tastes. "Hmm, it needs more!"
 
 Jake adds a cup of cocoa. The mix turns brown.
 
@@ -115,7 +97,7 @@ Jake adds a cup of cocoa. The mix turns brown.
 
 <div class="reader-text">
 
-Now it is a chocolate cake! He puts the cake in the oven. He sets the timer.
+Now it is a chocolate cake! He puts the cake in the oven. He sets the timer. Wait.
 
 </div>
 
@@ -124,24 +106,6 @@ Now it is a chocolate cake! He puts the cake in the oven. He sets the timer.
 ### Spelling Aid
 
 **Phonograms on this page:** a, c, e, h, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Wait. Wait. Wait.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, i, t, w, ai
 
 **Rules in this story:**
 
@@ -155,7 +119,7 @@ Wait. Wait. Wait.
 
 <div class="reader-text">
 
-DING! The cake is done! Jake takes it out.
+Wait. Wait. DING! The cake is done!
 
 </div>
 
@@ -165,6 +129,10 @@ DING! The cake is done! Jake takes it out.
 
 **Phonograms on this page:** a, c, d, e, g
 
+**Rules in this story:**
+
+**Rule 16:** Two I's cannot be adjacent
+
 </div>
 
 </div>
@@ -173,7 +141,7 @@ DING! The cake is done! Jake takes it out.
 
 <div class="reader-text">
 
-It is hot. The smell fills the room. He puts white frosting on top.
+Jake takes it out. It is hot. The smell fills the room. He puts white frosting on top.
 
 </div>
 
@@ -181,7 +149,7 @@ It is hot. The smell fills the room. He puts white frosting on top.
 
 ### Spelling Aid
 
-**Phonograms on this page:** e, f, g, h, i
+**Phonograms on this page:** a, e, f, g, h
 
 </div>
 
@@ -191,7 +159,7 @@ It is hot. The smell fills the room. He puts white frosting on top.
 
 <div class="reader-text">
 
-He adds red berries. The cake looks fine. Mom comes home.
+He adds red berries. The cake looks fine. Mom comes home. "What is that smell?" she asks.
 
 </div>
 
@@ -213,9 +181,9 @@ He adds red berries. The cake looks fine. Mom comes home.
 
 <div class="reader-text">
 
-"What is that smell?" she asks. "It is a cake!" says Jake. "For your birthday!"
+"It is a cake!" says Jake. "For your birthday!"
 
-Mom's eyes get wide.
+Mom's eyes get wide. She takes a bite. "This is the best cake I have ever had!" Mom smiles.
 
 </div>
 
@@ -229,8 +197,6 @@ Mom's eyes get wide.
 
 **Rule 14:** Double consonant for vowel suffix
 
-**Rule 22:** 3rd person singular verbs
-
 </div>
 
 </div>
@@ -239,7 +205,7 @@ Mom's eyes get wide.
 
 <div class="reader-text">
 
-She takes a bite. "This is the best cake I have ever had!" Mom smiles. Jake hugs Mom.
+Jake hugs Mom. "Happy birthday!"
 
 </div>
 
@@ -247,25 +213,7 @@ She takes a bite. "This is the best cake I have ever had!" Mom smiles. Jake hugs
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"Happy birthday!"
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, h, i
+**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 

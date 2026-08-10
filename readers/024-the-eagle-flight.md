@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-High above the mountain peaks, an eagle named Ember soars on the wind. Ember has the most magnificent view in the world. From her height, she can see the curve of the earth.
+High above the mountain peaks, an eagle named Ember soars on the wind. Ember has the most magnificent view in the world. From her height, she can see the curve of the earth. She can spot a mouse in the grass from a mile away.
 
 </div>
 
@@ -39,6 +39,8 @@ High above the mountain peaks, an eagle named Ember soars on the wind. Ember has
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
+**Rule 9:** AY for /ā/ at end
+
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
@@ -49,7 +51,7 @@ High above the mountain peaks, an eagle named Ember soars on the wind. Ember has
 
 <div class="reader-text">
 
-She can spot a mouse in the grass from a mile away. Today is Ember's first solo flight. She has practiced with her mother for weeks.
+Today is Ember's first solo flight. She has practiced with her mother for weeks. But now she is alone. The wind is strong.
 
 </div>
 
@@ -65,28 +67,6 @@ She can spot a mouse in the grass from a mile away. Today is Ember's first solo 
 
 **Rule 16:** Two I's cannot be adjacent
 
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-But now she is alone. The wind is strong. Ember's wings tremble.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, g
-
-**Rules in this story:**
-
 **Rule 23:** Prefix AL-
 
 </div>
@@ -97,7 +77,7 @@ But now she is alone. The wind is strong. Ember's wings tremble.
 
 <div class="reader-text">
 
-"I can do this," she tells herself. "I was born to fly."
+Ember's wings tremble. "I can do this," she tells herself. "I was born to fly."
 
 She spreads her wings wide. The wind lifts her.
 
@@ -125,7 +105,7 @@ She spreads her wings wide. The wind lifts her.
 
 <div class="reader-text">
 
-Higher and higher she climbs. The world below becomes small. The river is a silver ribbon.
+Higher and higher she climbs. The world below becomes small. The river is a silver ribbon. The forest is a green carpet.
 
 </div>
 
@@ -143,7 +123,7 @@ Higher and higher she climbs. The world below becomes small. The river is a silv
 
 <div class="reader-text">
 
-The forest is a green carpet. The mountains are ancient guardians. Ember lets out a cry — a wild, free sound that echoes across the valley.
+The mountains are ancient guardians. Ember lets out a cry — a wild, free sound that echoes across the valley. This is freedom. This is flight.
 
 </div>
 
@@ -169,25 +149,7 @@ The forest is a green carpet. The mountains are ancient guardians. Ember lets ou
 
 <div class="reader-text">
 
-This is freedom. This is flight. This is what she was made for.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, g
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-When Ember returns to her nest at sunset, her mother nods with pride. "You are an eagle now."
+This is what she was made for. When Ember returns to her nest at sunset, her mother nods with pride. "You are an eagle now."
 
 </div>
 

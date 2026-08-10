@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Cara is a crane. She lives in a marsh in the far north. The days grow cold and short.
+Cara is a crane. She lives in a marsh in the far north. The days grow cold and short. The wind turns sharp and bites.
 
 </div>
 
@@ -33,7 +33,7 @@ Cara is a crane. She lives in a marsh in the far north. The days grow cold and s
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -49,7 +49,7 @@ Cara is a crane. She lives in a marsh in the far north. The days grow cold and s
 
 <div class="reader-text">
 
-The wind turns sharp and bites. The pond begins to freeze. It is time to fly south.
+The pond begins to freeze. It is time to fly south. Cara calls to the other cranes. They gather on the shore.
 
 </div>
 
@@ -57,7 +57,7 @@ The wind turns sharp and bites. The pond begins to freeze. It is time to fly sou
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -75,29 +75,7 @@ The wind turns sharp and bites. The pond begins to freeze. It is time to fly sou
 
 <div class="reader-text">
 
-Cara calls to the other cranes. They gather on the shore. They line up in a long wedge.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 25:** DGE after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The leader takes the tip of the wedge. Cara is in the middle of the line. They beat their strong wings.
+They line up in a long wedge. The leader takes the tip of the wedge. Cara is in the middle of the line. They beat their strong wings.
 
 </div>
 
@@ -119,7 +97,7 @@ The leader takes the tip of the wedge. Cara is in the middle of the line. They b
 
 <div class="reader-text">
 
-Up, up they rise in a spiral. They climb above the tall trees. The sky is wide and clear.
+Up, up they rise in a spiral. They climb above the tall trees. The sky is wide and clear. The cranes fly south for hours.
 
 </div>
 
@@ -135,6 +113,8 @@ Up, up they rise in a spiral. They climb above the tall trees. The sky is wide a
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
+**Rule 15:** Y changes to I
+
 </div>
 
 </div>
@@ -143,7 +123,7 @@ Up, up they rise in a spiral. They climb above the tall trees. The sky is wide a
 
 <div class="reader-text">
 
-The cranes fly south for hours. They cross the high hills. They cross the wide farms.
+They cross the high hills. They cross the wide farms. They fly on without rest. By night, they land in a soft field.
 
 </div>
 
@@ -169,33 +149,7 @@ The cranes fly south for hours. They cross the high hills. They cross the wide f
 
 <div class="reader-text">
 
-They fly on without rest. By night, they land in a soft field. They rest and feed on seeds.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, f, g
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They are safe in the dark. At dawn, they rise once more in the sky. The wind is at their back.
+They rest and feed on seeds. They are safe in the dark. At dawn, they rise once more in the sky. The wind is at their back.
 
 </div>
 
@@ -221,7 +175,7 @@ They are safe in the dark. At dawn, they rise once more in the sky. The wind is 
 
 <div class="reader-text">
 
-They glide with grace and speed. Days pass as they fly. The sun grows warm.
+They glide with grace and speed. Days pass as they fly. The sun grows warm. Cara sees the green southern marsh at last.
 
 </div>
 
@@ -247,31 +201,7 @@ They glide with grace and speed. Days pass as they fly. The sun grows warm.
 
 <div class="reader-text">
 
-Cara sees the green southern marsh at last. They land by the warm water with a splash. They are home.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The long brave trip is done.
+They land by the warm water with a splash. They are home. The long brave trip is done.
 
 </div>
 
@@ -285,9 +215,9 @@ The long brave trip is done.
 
 **Rule 14:** Double consonant for vowel suffix
 
-**Rule 29:** F vs V vs FE spelling
+**Rule 18:** SH placement
 
-**Rule 30:** Double or single final consonant
+**Rule 29:** F vs V vs FE spelling
 
 </div>
 

@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-A pod sits on a stem. It is a dry pod. The sun is hot.
+A pod sits on a stem. It is a dry pod. The sun is hot. Pop!
 
 </div>
 
@@ -53,7 +53,7 @@ A pod sits on a stem. It is a dry pod. The sun is hot.
 
 <div class="reader-text">
 
-Pop! The pod splits. Six seeds sit in the pod.
+The pod splits. Six seeds sit in the pod. The wind zips in. It lifts the seeds up, up, up.
 
 </div>
 
@@ -61,7 +61,7 @@ Pop! The pod splits. Six seeds sit in the pod.
 
 ### Spelling Aid
 
-**Phonograms on this page:** d, e, i, l, o
+**Phonograms on this page:** d, e, f, i, l
 
 **Rules in this story:**
 
@@ -75,7 +75,7 @@ Pop! The pod splits. Six seeds sit in the pod.
 
 <div class="reader-text">
 
-The wind zips in. It lifts the seeds up, up, up. One seed zips past a frog.
+One seed zips past a frog. It lands in a mud pond. It is wet. One seed zips past a bee.
 
 </div>
 
@@ -83,7 +83,7 @@ The wind zips in. It lifts the seeds up, up, up. One seed zips past a frog.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, g
+**Phonograms on this page:** a, b, d, e, f
 
 </div>
 
@@ -93,25 +93,7 @@ The wind zips in. It lifts the seeds up, up, up. One seed zips past a frog.
 
 <div class="reader-text">
 
-It lands in a mud pond. It is wet. One seed zips past a bee.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, i
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It lands on a hill. It is dry. One seed zips and zips.
+It lands on a hill. It is dry. One seed zips and zips. It lands in a spot with sun and mud.
 
 </div>
 
@@ -135,7 +117,7 @@ It lands on a hill. It is dry. One seed zips and zips.
 
 <div class="reader-text">
 
-It lands in a spot with sun and mud. It is a fit spot. The seed rests in the mud.
+It is a fit spot. The seed rests in the mud. The sun is hot. The mud is wet.
 
 </div>
 
@@ -143,7 +125,7 @@ It lands in a spot with sun and mud. It is a fit spot. The seed rests in the mud
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, i
+**Phonograms on this page:** d, e, f, h, i
 
 </div>
 
@@ -153,25 +135,7 @@ It lands in a spot with sun and mud. It is a fit spot. The seed rests in the mud
 
 <div class="reader-text">
 
-The sun is hot. The mud is wet. Pop!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** d, e, h, m, n
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A stem juts up. It is a plant! The plant gets big and tall.
+Pop! A stem juts up. It is a plant! The plant gets big and tall.
 
 </div>
 

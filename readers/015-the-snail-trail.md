@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
+Snappy is a snail. Snappy is very slow. But Snappy is not sad about that. Snappy leaves a thin trail as he goes.
 
 </div>
 
@@ -33,11 +33,13 @@ Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, i
+**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
 **Rule 7:** I and Y may say /ē/
+
+**Rule 21:** Plural nouns
 
 **Rule 31:** Schwa in unstressed syllables
 
@@ -49,7 +51,9 @@ Snappy is a snail. Snappy is very slow. But Snappy is not sad about that.
 
 <div class="reader-text">
 
-Snappy leaves a thin trail as he goes. The trail shines in the sun like a small silver way. "Where are you going, Snappy?" asks a bug on a leaf.
+The trail shines in the sun like a small silver way. "Where are you going, Snappy?" asks a bug on a leaf. "I am going to the garden," says Snappy. "It is a long way."
+
+"I can fly there in a day!" says the bug.
 
 </div>
 
@@ -57,35 +61,7 @@ Snappy leaves a thin trail as he goes. The trail shines in the sun like a small 
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, e, f, g
-
-**Rules in this story:**
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 21:** Plural nouns
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"I am going to the garden," says Snappy. "It is a long way."
-
-"I can fly there in a day!" says the bug. "I cannot fly," says Snappy.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
@@ -103,7 +79,7 @@ Snappy leaves a thin trail as he goes. The trail shines in the sun like a small 
 
 <div class="reader-text">
 
-"But I can wait. Slow and steady, that is my way."
+"I cannot fly," says Snappy. "But I can wait. Slow and steady, that is my way."
 
 The bug flies off. Snappy starts on his way.
 
@@ -113,13 +89,15 @@ The bug flies off. Snappy starts on his way.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
-**Rule 9:** AY for /ā/ at end
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
-**Rule 16:** Two I's cannot be adjacent
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -129,7 +107,7 @@ The bug flies off. Snappy starts on his way.
 
 <div class="reader-text">
 
-Day by day, Snappy goes on. The sun is hot. The rain comes down.
+Day by day, Snappy goes on. The sun is hot. The rain comes down. Snappy keeps on.
 
 </div>
 
@@ -155,7 +133,7 @@ Day by day, Snappy goes on. The sun is hot. The rain comes down.
 
 <div class="reader-text">
 
-Snappy keeps on. He does not stay in one spot. He does not wait too long.
+He does not stay in one spot. He does not wait too long. He just goes, slow and steady, every day. At last, Snappy gets to the garden.
 
 </div>
 
@@ -163,9 +141,11 @@ Snappy keeps on. He does not stay in one spot. He does not wait too long.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, g, i, k
+**Phonograms on this page:** a, d, e, g, i
 
 **Rules in this story:**
+
+**Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 9:** AY for /ā/ at end
 
@@ -179,7 +159,7 @@ Snappy keeps on. He does not stay in one spot. He does not wait too long.
 
 <div class="reader-text">
 
-He just goes, slow and steady, every day. At last, Snappy gets to the garden. The garden has big green plants and red flowers and a cool pond to stay by.
+The garden has big green plants and red flowers and a cool pond to stay by. "It was a long trail," says Snappy. "But I made it. Slow and steady wins the day."
 
 </div>
 
@@ -196,30 +176,6 @@ He just goes, slow and steady, every day. At last, Snappy gets to the garden. Th
 **Rule 9:** AY for /ā/ at end
 
 **Rule 16:** Two I's cannot be adjacent
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"It was a long trail," says Snappy. "But I made it. Slow and steady wins the day."
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, d, e, g, i
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
 
 </div>
 
