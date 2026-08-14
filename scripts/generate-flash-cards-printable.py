@@ -82,6 +82,28 @@ body {
     break-after: auto;
     page-break-after: auto;
 }
+/* Tiny print-instructions banner shown only on page 1 of each stage PDF.
+   Page 1 grid uses .first-page which trims card height so cards fit
+   alongside the banner without changing card widths. */
+.print-instructions {
+    font-size: 7pt;
+    color: #666;
+    text-align: center;
+    margin: 0 auto 0.08in auto;
+    padding-bottom: 0.04in;
+    border-bottom: 1px dotted #999;
+    width: 100%;
+    line-height: 1.2;
+}
+.print-instructions strong { color: #333; }
+.card-grid.first-page {
+    height: calc(11in - 0.8in - 0.25in - 0.3in); /* shrink for banner (0.3in incl. margins) */
+    margin-top: 0;
+}
+.card-grid.first-page .card {
+    padding: 0.2in;  /* tighter card padding so content fits smaller card */
+}
+
 /* Side B content is mirrored left-to-right in the PDF so that short-edge
    duplex printing aligns each card behind its Side A counterpart. When the
    sheet is flipped to view the back side, left and right swap; pre-mirroring
@@ -187,10 +209,19 @@ def build_card_side_b(pg) -> str:
 </div>"""
 
 
-def build_page(cards_html: str, side: str) -> str:
-    """Wrap cards in a page grid."""
+def build_page(cards_html: str, side: str, *, show_instructions: bool = False) -> str:
+    """Wrap cards in a page grid. `show_instructions` adds a tiny print
+    banner above the grid (page 1 only). The banner is a sibling div, not
+    inside the grid, so the 2×2 layout is unaffected."""
     side_class = f" side-{side.lower()}" if side.lower() == "b" else ""
-    return f"""<div class="card-grid{side_class}">
+    page_class = " first-page" if show_instructions else ""
+    banner = ""
+    if show_instructions:
+        banner = ('<div class="print-instructions">'
+                  'Print <strong>double-sided, flip on long edge</strong>. '
+                  'Cut along dashed lines. Side A = phonogram + sounds + rule; '
+                  'Side B = phonogram only (for memory drills).</div>')
+    return f"""{banner}<div class="card-grid{side_class}{page_class}">
 {cards_html}
 </div>"""
 
@@ -217,18 +248,22 @@ def generate_stage_pdf(stage: int, no_render: bool = False) -> Path | None:
 
     CARDS_PER_PAGE = 4
 
-    # Build pages: side A then side B for each group of 4 cards
+    # Build pages: side A then side B for each group of 4 cards.
+    # The very first page of each stage shows a tiny print-instructions banner.
     html_pages: list[str] = []
+    first_page = True
     for i in range(0, len(stage_pgs), CARDS_PER_PAGE):
         batch = stage_pgs[i:i + CARDS_PER_PAGE]
 
         # Side A
         side_a_cards = "\n".join(build_card_side_a(pg, rules_lookup) for pg in batch)
-        html_pages.append(build_page(side_a_cards, "A"))
+        html_pages.append(build_page(side_a_cards, "A", show_instructions=first_page))
 
         # Side B — same card positions for duplex alignment
         side_b_cards = "\n".join(build_card_side_b(pg) for pg in batch)
         html_pages.append(build_page(side_b_cards, "B"))
+
+        first_page = False
 
     # Assemble full HTML document
     full_html = f"""<!DOCTYPE html>
