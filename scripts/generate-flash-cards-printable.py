@@ -73,8 +73,14 @@ body {
     grid-template-rows: 1fr 1fr;
     gap: 0.25in;
     width: 100%;
-    height: calc(11in - 0.8in - 0.25in);  /* page height minus margins minus gap */
+    height: calc(11in - 0.8in - 0.25in);  /* page content (10.2in) minus inter-row gap (0.25in) */
     box-sizing: border-box;
+    break-after: page;
+    page-break-after: always;  /* legacy alias for older renderers */
+}
+.card-grid:last-child {
+    break-after: auto;
+    page-break-after: auto;
 }
 .card {
     border: 2px dashed #888;
