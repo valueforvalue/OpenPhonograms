@@ -82,6 +82,20 @@ body {
     break-after: auto;
     page-break-after: auto;
 }
+/* Side B content is mirrored left-to-right in the PDF so that short-edge
+   duplex printing aligns each card behind its Side A counterpart. When the
+   sheet is flipped to view the back side, left and right swap; pre-mirroring
+   Side B cancels that flip and leaves each card directly behind its Side A
+   position. */
+.card-grid.side-b {
+    transform: scaleX(-1);
+    transform-origin: center center;
+}
+.card-grid.side-b .card .pg {
+    /* Counter-mirror phonogram text so letters aren't backwards */
+    transform: scaleX(-1);
+    display: inline-block;
+}
 .card {
     border: 2px dashed #888;
     border-radius: 8px;
@@ -175,7 +189,8 @@ def build_card_side_b(pg) -> str:
 
 def build_page(cards_html: str, side: str) -> str:
     """Wrap cards in a page grid."""
-    return f"""<div class="card-grid">
+    side_class = f" side-{side.lower()}" if side.lower() == "b" else ""
+    return f"""<div class="card-grid{side_class}">
 {cards_html}
 </div>"""
 
