@@ -268,7 +268,7 @@ AT_A_GLANCE_PG = {
     "u": ("/ŭ/ /ū/ /ü/", "up, use, put", "Three sounds. Long /ū/ in open syllables (music, unit)."),
     "v": ("/v/", "van, very, voice", "V never goes silent. Common: 5 vs V."),
     "w": ("/w/", "wet, win, water", "Silent W in a few words (wrong, write, two)."),
-    "x": ("/ks/ /gz/", "box, exact", "X says /ks/ at end, /gz/ inside word (exact)."),
+    "x": ("/ks/ /z/", "box, xylophone", "X says /ks/ at the end (box) and /z/ at the start (xylophone)."),
     "y": ("/y/ /ē/ /ī/", "yes, baby, by", "Three roles: consonant at start, vowel in middle/end (Rule 6, 7)."),
     "z": ("/z/", "zip, zoo, zero", "Z never goes silent."),
     # Stage 2 multi-letter
