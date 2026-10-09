@@ -298,9 +298,9 @@ game-open:
 # Release — package everything for distribution
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Build release.zip with all PDFs + game + audio (assumes build/ exists)
+# Build a versioned release ZIP (release-vX.Y.Z.zip) with all PDFs + game + audio
 release:
-    @echo "==> Building release.zip"
+    @echo "==> Building release ZIP (versioned)"
     @{{python}} {{scripts_dir_s}}/build-release.py
 
 # Dry-run: list what release.zip would contain without writing it
@@ -416,10 +416,10 @@ clean-packs:
     @echo "==> Cleaning packs/ (preserves .gitignore)"
     @find {{packs_dir_s}} -mindepth 1 ! -name '.gitignore' -delete 2>/dev/null || true
 
-# Remove release.zip
+# Remove versioned release ZIPs
 clean-release:
-    @echo "==> Cleaning release.zip"
-    @rm -f {{project_root_s}}/release.zip
+    @echo "==> Cleaning release ZIPs"
+    @rm -f {{project_root_s}}/release.zip {{project_root_s}}/release-v*.zip
 
 # Remove generated audio files (keeps game HTML)
 clean-audio:

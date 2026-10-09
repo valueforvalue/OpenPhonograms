@@ -60,6 +60,15 @@ BUILD = ROOT / "build"
 sys.path.insert(0, str(ROOT / "framework"))
 sys.path.insert(0, str(ROOT))  # for framework.pdf_merge imports
 
+
+def _default_output() -> Path:
+    """Versioned release ZIP name, e.g. release-v1.1.0.zip (from VERSION)."""
+    try:
+        version = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
+    except Exception:
+        version = "unknown"
+    return ROOT / f"release-v{version}.zip"
+
 # Source-of-truth list of reference HTML basenames that get rendered to PDF
 # and shipped under 04-Quick-Reference/ in the release ZIP.
 # Derived from reference/*.html at import time; excludes quick-checks
@@ -576,14 +585,15 @@ def build_game(zf, args, stats):
 
 # ── CLI ────────────────────────────────────────────────────────────────
 
-def _relativize_build_pdfs() -> None:
+def _relativize_build_pdfs(release_zip: Path | None = None) -> None:
     """Post-process release ZIP: rewrite file:// links to relative paths."""
     import zipfile, tempfile
     from pypdf import PdfReader, PdfWriter
     from pypdf.generic import TextStringObject, NameObject
     from pathlib import Path as _Path
 
-    release_zip = ROOT / 'release.zip'
+    if release_zip is None:
+        release_zip = _default_output()
     if not release_zip.exists():
         return
 
@@ -704,7 +714,7 @@ def build_argparser() -> argparse.ArgumentParser:
 def main():
     args = build_argparser().parse_args()
 
-    out = args.output if args.output else (ROOT / "release.zip")
+    out = args.output if args.output else _default_output()
     stats = {"included": [], "skipped": []}
 
     if args.list:
@@ -732,7 +742,7 @@ def main():
         _run_sections(zf, args, stats)
 
     # Now relativize file:// links using the release ZIP's layout.
-    _relativize_build_pdfs()
+    _relativize_build_pdfs(out)
 
     size_mb = os.path.getsize(out) / (1024 * 1024)
     with zipfile.ZipFile(out, "r") as zf:
