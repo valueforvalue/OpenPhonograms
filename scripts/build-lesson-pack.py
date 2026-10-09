@@ -323,6 +323,39 @@ AT_A_GLANCE_PG = {
 }
 
 
+# Explanatory notes for Stage 1 common mistakes — why the misconception is
+# untrue and the underlying phonogram rule (issue #99). Rendered as a
+# "Why:" line under the one-liner common mistake on the at-a-glance card.
+PG_MISTAKE_WHY = {
+    "a": "A says /ă/ in a closed syllable (at), /ā/ in an open syllable (nation, acorn), and /ä/ before certain letters (father, spa). A child who learns only /ă/ will misread 'make' and 'father'.",
+    "b": "B is always /b/ — it never goes silent the way P can (pneumonia). Every B in a word is pronounced.",
+    "c": "C says /k/ by default and softens to /s/ only before E, I, or Y (Rule 1). That is why 'cat' and 'city' begin with the same letter but different sounds.",
+    "d": "D never goes silent in English, so every D is pronounced.",
+    "e": "E says /ĕ/ in a closed syllable (bed) and /ē/ when it ends an open syllable (me, he). The two sounds come from syllable structure, not the letter alone.",
+    "f": "F is always /f/. The /f/ sound can also be spelled ph or gh, but F itself never changes.",
+    "g": "G says /g/ by default and softens to /j/ only before E, I, or Y (Rule 2). That is why 'go' and 'gem' differ.",
+    "h": "H is usually /h/ but is silent in a few words (honest, hour). It never makes a different sound.",
+    "i": "I says /ĭ/ in a closed syllable (it), /ī/ in an open syllable (item), /ē/ at the end of some borrowed words (radio), and /y/ before a vowel (onion).",
+    "j": "J is always /j/. It almost never starts a true English base word — 'jump' and 'jelly' are rare exceptions.",
+    "k": "K is /k/ but is silent before N (knee, know, knife).",
+    "l": "L is always pronounced in English — it never goes silent.",
+    "m": "M is always pronounced in English.",
+    "n": "N is /n/ but is silent after G at the start of a syllable (gnome) or before a consonant (sign).",
+    "o": "O says /ŏ/ in a closed syllable (hot), /ō/ in an open syllable (go, no), and /ö/ in a few words (to, do).",
+    "p": "P is /p/ but is silent in a few Greek-derived words (pneumonia, psalm).",
+    "qu": "Q always needs U (Rule 11). Together they say /kw/ (queen) or /k/ (critique). U is not a vowel here.",
+    "r": "R is always pronounced in English — it never goes silent.",
+    "s": "S says /s/ at the start of a word (sun) and often /z/ between vowels (his, has).",
+    "t": "T is /t/ but is silent in a few words (castle, listen, whistle).",
+    "u": "U says /ŭ/ in a closed syllable (up), /ū/ in an open syllable (music), /ö/ in put/push, and /ü/ in blue/flute.",
+    "v": "V is always /v/ and never silent.",
+    "w": "W is /w/ but is silent before R (wrong, write) and in a few words (two).",
+    "x": "X says /ks/ at the end of a word (box) and /z/ at the start (xylophone).",
+    "y": "Y is a consonant /y/ at the start of a word (yes) and a vowel /ĭ/ /ī/ /ē/ in the middle or end (gym, my, baby).",
+    "z": "Z is always /z/ and never silent.",
+}
+
+
 def build_at_a_glance(row: dict) -> str:
     """Build a 1-page at-a-glance reference card for the lesson.
 
@@ -374,9 +407,12 @@ def build_at_a_glance(row: dict) -> str:
         words_line = ""
         mistake_line = ""
 
+    why_line = PG_MISTAKE_WHY.get(new_pg, "")
     mistake_block = (
         f"\n\n**Common mistake:** {mistake_line}\n" if mistake_line else ""
     )
+    if mistake_line and why_line:
+        mistake_block += f"\n**Why:** {why_line}\n"
 
     return (
         f"<style>.at-a-glance {{ border: 3px solid #2a5c8a; padding: 18px; "
