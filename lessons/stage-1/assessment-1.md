@@ -25,9 +25,9 @@ This mastery check verifies the child is ready for Stage 2. The child should dem
 | qu | /kw/ /k/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |
-| i | /ĭ/ /ī/ /ē/ | ☐ |
+| i | /ĭ/ /ī/ /ē/ /y/ | ☐ |
 | p | /p/ | ☐ |
-| u | /ŭ/ /ū/ /ö/ | ☐ |
+| u | /ŭ/ /ū/ /ö/ /ü/ | ☐ |
 | j | /j/ | ☐ |
 | r | /r/ | ☐ |
 | n | /n/ | ☐ |

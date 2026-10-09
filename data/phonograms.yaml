@@ -293,7 +293,7 @@ phonograms:
 - id: i
   stage: 1
   kind: single
-  sounds: /ĭ/ /ī/ /ē/
+  sounds: /ĭ/ /ī/ /ē/ /y/
   words:
   - it
   - in
@@ -315,15 +315,21 @@ phonograms:
   - pin
   - fin
   - tin
+  - onion
+  - million
+  - brilliant
+  - opinion
   vowel: true
-  sound_count: 3
+  sound_count: 4
   examples:
   - sound: ĭ
     words: it, in, sit
   - sound: ī
     words: item, silent
   - sound: ē
-    words: radio, onion
+    words: radio, piano
+  - sound: y
+    words: onion, million, brilliant
   writing:
   - Start at the midline.
   - Draw a straight line down.
@@ -729,7 +735,7 @@ phonograms:
 - id: u
   stage: 1
   kind: single
-  sounds: /ŭ/ /ū/ /ö/
+  sounds: /ŭ/ /ū/ /ö/ /ü/
   words:
   - up
   - us
@@ -751,8 +757,14 @@ phonograms:
   - push
   - pull
   - full
+  - blue
+  - flute
+  - rule
+  - rude
+  - June
+  - tune
   vowel: true
-  sound_count: 3
+  sound_count: 4
   examples:
   - sound: ŭ
     words: up, cut, run
@@ -760,6 +772,8 @@ phonograms:
     words: unit, music
   - sound: ö
     words: put, push
+  - sound: ü
+    words: blue, flute, rule
   writing:
   - Start at the midline.
   - Curve down, then back up.

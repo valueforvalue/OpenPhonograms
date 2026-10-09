@@ -25,7 +25,7 @@ This final assessment checks readiness for Stage 3. The child should demonstrate
 | f | /f/ | ☐ |
 | g | /g/ /j/ | ☐ |
 | h | /h/ | ☐ |
-| i | /ĭ/ /ī/ /ē/ | ☐ |
+| i | /ĭ/ /ī/ /ē/ /y/ | ☐ |
 | j | /j/ | ☐ |
 | k | /k/ | ☐ |
 | l | /l/ | ☐ |
@@ -37,7 +37,7 @@ This final assessment checks readiness for Stage 3. The child should demonstrate
 | r | /r/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |
-| u | /ŭ/ /ū/ /ö/ | ☐ |
+| u | /ŭ/ /ū/ /ö/ /ü/ | ☐ |
 | v | /v/ | ☐ |
 | w | /w/ | ☐ |
 | x | /ks/ /z/ | ☐ |

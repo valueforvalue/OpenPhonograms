@@ -25,7 +25,7 @@ This mid-point check verifies the child is on track. Focus on CVC accuracy, firs
 | f | /f/ | ☐ |
 | g | /g/ /j/ | ☐ |
 | h | /h/ | ☐ |
-| i | /ĭ/ /ī/ /ē/ | ☐ |
+| i | /ĭ/ /ī/ /ē/ /y/ | ☐ |
 | j | /j/ | ☐ |
 | k | /k/ | ☐ |
 | l | /l/ | ☐ |
@@ -37,7 +37,7 @@ This mid-point check verifies the child is on track. Focus on CVC accuracy, firs
 | r | /r/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |
-| u | /ŭ/ /ū/ /ö/ | ☐ |
+| u | /ŭ/ /ū/ /ö/ /ü/ | ☐ |
 | v | /v/ | ☐ |
 | w | /w/ | ☐ |
 | x | /ks/ /z/ | ☐ |

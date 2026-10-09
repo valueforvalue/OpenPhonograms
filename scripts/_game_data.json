@@ -91,6 +91,11 @@
       "stage": 1
     },
     {
+      "word": "blue",
+      "sentence": "The sky is blue.",
+      "stage": 1
+    },
+    {
       "word": "boat",
       "sentence": "We ride in a boat.",
       "stage": 1
@@ -113,6 +118,11 @@
     {
       "word": "boy",
       "sentence": "The boy runs fast.",
+      "stage": 1
+    },
+    {
+      "word": "brilliant",
+      "sentence": "The brilliant is here.",
       "stage": 1
     },
     {
@@ -458,6 +468,11 @@
     {
       "word": "flag",
       "sentence": "The flag is here.",
+      "stage": 1
+    },
+    {
+      "word": "flute",
+      "sentence": "The flute is here.",
       "stage": 1
     },
     {
@@ -1101,6 +1116,11 @@
       "stage": 1
     },
     {
+      "word": "million",
+      "sentence": "The million is here.",
+      "stage": 1
+    },
+    {
       "word": "mix",
       "sentence": "The mix is here.",
       "stage": 1
@@ -1286,6 +1306,11 @@
       "stage": 1
     },
     {
+      "word": "onion",
+      "sentence": "The onion is here.",
+      "stage": 1
+    },
+    {
       "word": "only",
       "sentence": "The only is here.",
       "stage": 1
@@ -1293,6 +1318,11 @@
     {
       "word": "open",
       "sentence": "The open is here.",
+      "stage": 1
+    },
+    {
+      "word": "opinion",
+      "sentence": "The opinion is here.",
       "stage": 1
     },
     {
@@ -1636,8 +1666,18 @@
       "stage": 1
     },
     {
+      "word": "rude",
+      "sentence": "The rude is here.",
+      "stage": 1
+    },
+    {
       "word": "rug",
       "sentence": "The rug is here.",
+      "stage": 1
+    },
+    {
+      "word": "rule",
+      "sentence": "The rule is here.",
       "stage": 1
     },
     {
@@ -1838,6 +1878,11 @@
     {
       "word": "tub",
       "sentence": "The tub is here.",
+      "stage": 1
+    },
+    {
+      "word": "tune",
+      "sentence": "The tune is here.",
       "stage": 1
     },
     {
@@ -6019,7 +6064,7 @@
     },
     {
       "pg": "i",
-      "sounds": "/\u012d/ /\u012b/ /\u0113/",
+      "sounds": "/\u012d/ /\u012b/ /\u0113/ /y/",
       "stage": 1
     },
     {
@@ -6079,7 +6124,7 @@
     },
     {
       "pg": "u",
-      "sounds": "/\u016d/ /\u016b/ /\u00f6/",
+      "sounds": "/\u016d/ /\u016b/ /\u00f6/ /\u00fc/",
       "stage": 1
     },
     {

@@ -22,15 +22,16 @@
 
 <div class="phonogram">u</div>
 
-**u** says 3 sounds: /ŭ/ /ū/ /ö/
+**u** says 4 sounds: /ŭ/ /ū/ /ö/ /ü/
 
 | Sound | Example Words |
 |-------|--------------|
 | /ŭ/ | up, cut, run |
 | /ū/ | unit, music |
 | /ö/ | put, push |
+| /ü/ | blue, flute, rule |
 
-> **Important:** Always teach ALL sounds from the start. Never teach "u says /ŭ/" and add more later. The child must know that **u** can say 3 different things.
+> **Important:** Always teach ALL sounds from the start. Never teach "u says /ŭ/" and add more later. The child must know that **u** can say 4 different things.
 
 
 ### How to Write **u**
@@ -39,7 +40,7 @@
 2. Curve down, then back up.
 3. Draw a straight line down.
 
-> Write **u** three times on your whiteboard or in a sand tray. Say "/ŭ/ /ū/ /ö/" each time you write it.
+> Write **u** three times on your whiteboard or in a sand tray. Say "/ŭ/ /ū/ /ö/ /ü/" each time you write it.
 
 
 ### Vowel or Consonant?
@@ -86,7 +87,7 @@ Write each letter once. Say its sounds as you write.
 ## Quick Check
 
 1. What did you learn today? *(A new phonogram: u)*
-2. What sounds does **u** say? *(/ŭ/ /ū/ /ö/)*
+2. What sounds does **u** say? *(/ŭ/ /ū/ /ö/ /ü/)*
 3. Write the word "up" from dictation.
 
 ---
@@ -105,15 +106,15 @@ Write each letter once. Say its sounds as you write.
 
 <div class="phonogram">u</div>
 
-> **Say:** "This is the phonogram **u**." *(Point to the card.)* "It says /ŭ/ /ū/ /ö/."
+> **Say:** "This is the phonogram **u**." *(Point to the card.)* "It says /ŭ/ /ū/ /ö/ /ü/."
 
-> **Say:** "Listen to me say its sounds: /ŭ/ /ū/ /ö/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ŭ/ /ū/ /ö/ /ü/. Now you say them."
 
 > *(Child repeats.)*
 
 > **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing u.)*
 
-> **Say:** "Now you write **u** three times. Say '/ŭ/ /ū/ /ö/' each time you write it."
+> **Say:** "Now you write **u** three times. Say '/ŭ/ /ū/ /ö/ /ü/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -121,6 +122,6 @@ Write each letter once. Say its sounds as you write.
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram u — it says /ŭ/ /ū/ /ö/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram u — it says /ŭ/ /ū/ /ö/ /ü/.")*
 
 ---

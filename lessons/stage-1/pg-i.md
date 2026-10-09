@@ -22,15 +22,16 @@
 
 <div class="phonogram">i</div>
 
-**i** says 3 sounds: /ĭ/ /ī/ /ē/
+**i** says 4 sounds: /ĭ/ /ī/ /ē/ /y/
 
 | Sound | Example Words |
 |-------|--------------|
 | /ĭ/ | it, in, sit |
 | /ī/ | item, silent |
-| /ē/ | radio, onion |
+| /ē/ | radio, piano |
+| /y/ | onion, million, brilliant |
 
-> **Important:** Always teach ALL sounds from the start. Never teach "i says /ĭ/" and add more later. The child must know that **i** can say 3 different things.
+> **Important:** Always teach ALL sounds from the start. Never teach "i says /ĭ/" and add more later. The child must know that **i** can say 4 different things.
 
 
 ### How to Write **i**
@@ -39,7 +40,7 @@
 2. Draw a straight line down.
 3. Dot it at the top.
 
-> Write **i** three times on your whiteboard or in a sand tray. Say "/ĭ/ /ī/ /ē/" each time you write it.
+> Write **i** three times on your whiteboard or in a sand tray. Say "/ĭ/ /ī/ /ē/ /y/" each time you write it.
 
 
 ### Vowel or Consonant?
@@ -86,7 +87,7 @@ Write each letter once. Say its sounds as you write.
 ## Quick Check
 
 1. What did you learn today? *(A new phonogram: i)*
-2. What sounds does **i** say? *(/ĭ/ /ī/ /ē/)*
+2. What sounds does **i** say? *(/ĭ/ /ī/ /ē/ /y/)*
 3. Write the word "it" from dictation.
 
 ---
@@ -105,15 +106,15 @@ Write each letter once. Say its sounds as you write.
 
 <div class="phonogram">i</div>
 
-> **Say:** "This is the phonogram **i**." *(Point to the card.)* "It says /ĭ/ /ī/ /ē/."
+> **Say:** "This is the phonogram **i**." *(Point to the card.)* "It says /ĭ/ /ī/ /ē/ /y/."
 
-> **Say:** "Listen to me say its sounds: /ĭ/ /ī/ /ē/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ĭ/ /ī/ /ē/ /y/. Now you say them."
 
 > *(Child repeats.)*
 
 > **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing i.)*
 
-> **Say:** "Now you write **i** three times. Say '/ĭ/ /ī/ /ē/' each time you write it."
+> **Say:** "Now you write **i** three times. Say '/ĭ/ /ī/ /ē/ /y/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -121,6 +122,6 @@ Write each letter once. Say its sounds as you write.
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram i — it says /ĭ/ /ī/ /ē/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram i — it says /ĭ/ /ī/ /ē/ /y/.")*
 
 ---

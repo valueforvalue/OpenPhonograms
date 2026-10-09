@@ -29,9 +29,9 @@ Adult says a sound (like /ă/). Child finds the phonogram card that makes that s
 - Find the phonogram that says **/kw/ /k/**
 - Find the phonogram that says **/s/ /z/**
 - Find the phonogram that says **/t/**
-- Find the phonogram that says **/ĭ/ /ī/ /ē/**
+- Find the phonogram that says **/ĭ/ /ī/ /ē/ /y/**
 - Find the phonogram that says **/p/**
-- Find the phonogram that says **/ŭ/ /ū/ /ö/**
+- Find the phonogram that says **/ŭ/ /ū/ /ö/ /ü/**
 - Find the phonogram that says **/j/**
 - Find the phonogram that says **/r/**
 - Find the phonogram that says **/n/**
