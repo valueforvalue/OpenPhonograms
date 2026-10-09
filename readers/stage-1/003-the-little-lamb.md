@@ -28,7 +28,7 @@ A lamb is on a bed of green.
 
 The lamb is little.
 
-The lamb is red.
+The lamb is sad.
 
 </div>
 
