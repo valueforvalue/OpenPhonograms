@@ -205,7 +205,7 @@ body.stage-4, body.stage-4.worksheet { font-size: 14pt; line-height: 1.6; }
 body.stage-5, body.stage-5.worksheet { font-size: 13pt; line-height: 1.55; }
 /* Reader-specific sizes — smaller than lesson text since the child reads
    independently. Sidebar + text must fit on one page. */
-body.stage-1.reader { font-size: 18pt; line-height: 1.6; }
+body.stage-1.reader { font-size: 16pt; line-height: 1.5; }
 body.stage-2.reader { font-size: 16pt; line-height: 1.55; }
 body.stage-3.reader { font-size: 14pt; line-height: 1.5; }
 body.stage-4.reader { font-size: 13pt; line-height: 1.5; }
@@ -498,6 +498,13 @@ img {
     height: auto;
     display: block;
     margin: 0.5em auto;
+}
+/* Reader cover illustrations: cap height so two stacked images plus the
+   title/metadata fit on a single cover page (issue #103). */
+body.reader img {
+    max-height: 3in;
+    width: auto;
+    max-width: 100%;
 }
 
 /* Reader cover page: distinct visual treatment so the reader is easy to
