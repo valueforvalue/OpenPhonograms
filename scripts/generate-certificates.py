@@ -112,6 +112,20 @@ body {{
   color: #888;
   letter-spacing: 0.2em;
 }}
+/* Centered watermark logo — faded so it does not push content to a second
+   page (issues #80/#82). */
+.watermark {{
+  position: absolute;
+  top: 42%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.10;
+  pointer-events: none;
+}}
+.watermark img {{
+  width: 3.5in;
+}}
 </style></head>
 <body>
 
@@ -132,6 +146,8 @@ body {{
   </div>
 
   <div class="footer-stamp">OPENPHONOGRAMS · OPEN-SOURCE CURRICULUM</div>
+
+  <div class="watermark"><img src="assets/logo/openphonograms-logo.png" alt="" /></div>
 </div>
 
 </body></html>"""
