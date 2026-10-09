@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-High above the mountain peaks, an eagle named Ember soars on the wind. Ember has the most magnificent view in the world. From her height, she can see the curve of the earth. She can spot a mouse in the grass from a mile away.
+High above the mountain peaks, an eagle named Ember soars on the wind. Ember has the most magnificent view in the world. From her height, she can see the curve of the earth. She can spot a mouse in the grass from a mile away. Today is Ember's first solo flight.
 
 </div>
 
@@ -41,7 +41,7 @@ High above the mountain peaks, an eagle named Ember soars on the wind. Ember has
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 28:** GH phonograms (silent, /f/, /g/)
+**Rule 16:** Two I's cannot be adjacent
 
 </div>
 
@@ -51,7 +51,7 @@ High above the mountain peaks, an eagle named Ember soars on the wind. Ember has
 
 <div class="reader-text">
 
-Today is Ember's first solo flight. She has practiced with her mother for weeks. But now she is alone. The wind is strong.
+She has practiced with her mother for weeks. But now she is alone. The wind is strong. Ember's wings tremble. "I can do this," she tells herself.
 
 </div>
 
@@ -63,11 +63,9 @@ Today is Ember's first solo flight. She has practiced with her mother for weeks.
 
 **Rules in this story:**
 
-**Rule 9:** AY for /ā/ at end
-
-**Rule 16:** Two I's cannot be adjacent
-
 **Rule 23:** Prefix AL-
+
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 
@@ -77,9 +75,9 @@ Today is Ember's first solo flight. She has practiced with her mother for weeks.
 
 <div class="reader-text">
 
-Ember's wings tremble. "I can do this," she tells herself. "I was born to fly."
+"I was born to fly."
 
-She spreads her wings wide. The wind lifts her.
+She spreads her wings wide. The wind lifts her. Higher and higher she climbs. The world below becomes small. The river is a silver ribbon.
 
 </div>
 
@@ -87,7 +85,7 @@ She spreads her wings wide. The wind lifts her.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -105,25 +103,7 @@ She spreads her wings wide. The wind lifts her.
 
 <div class="reader-text">
 
-Higher and higher she climbs. The world below becomes small. The river is a silver ribbon. The forest is a green carpet.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The mountains are ancient guardians. Ember lets out a cry — a wild, free sound that echoes across the valley. This is freedom. This is flight.
+The forest is a green carpet. The mountains are ancient guardians. Ember lets out a cry — a wild, free sound that echoes across the valley. This is freedom. This is flight.
 
 </div>
 

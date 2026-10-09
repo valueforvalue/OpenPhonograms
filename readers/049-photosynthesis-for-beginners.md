@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Plants make their own food. Animals cannot do this. Animals must eat plants, or eat other animals that have eaten plants. But a green plant can sit in one place and still grow.
+Plants make their own food. Animals cannot do this. Animals must eat plants, or eat other animals that have eaten plants. But a green plant can sit in one place and still grow. How does it do this?
 
 </div>
 
@@ -51,7 +51,7 @@ Plants make their own food. Animals cannot do this. Animals must eat plants, or 
 
 <div class="reader-text">
 
-How does it do this? The secret is in the leaf. A leaf is a small factory. It takes raw materials from the air and the soil and turns them into sugar.
+The secret is in the leaf. A leaf is a small factory. It takes raw materials from the air and the soil and turns them into sugar. Sugar is food for the plant. The name for this process is photosynthesis, which means 'building with light'.
 
 </div>
 
@@ -59,7 +59,7 @@ How does it do this? The secret is in the leaf. A leaf is a small factory. It ta
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -73,29 +73,7 @@ How does it do this? The secret is in the leaf. A leaf is a small factory. It ta
 
 <div class="reader-text">
 
-Sugar is food for the plant. The name for this process is photosynthesis, which means 'building with light'. What are the raw materials? The plant takes in water through its roots.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It takes in a gas called carbon dioxide through tiny holes in the leaves. And it takes in light from the sun. Inside the leaf, a green color called chlorophyll catches the light. The leaf uses that light energy to join water and carbon dioxide into sugar.
+What are the raw materials? The plant takes in water through its roots. It takes in a gas called carbon dioxide through tiny holes in the leaves. And it takes in light from the sun. Inside the leaf, a green color called chlorophyll catches the light.
 
 </div>
 
@@ -121,7 +99,7 @@ It takes in a gas called carbon dioxide through tiny holes in the leaves. And it
 
 <div class="reader-text">
 
-The plant does not need the sugar alone. It also breathes out a gas called oxygen. Animals breathe in oxygen. So plants and animals help each other.
+The leaf uses that light energy to join water and carbon dioxide into sugar. The plant does not need the sugar alone. It also breathes out a gas called oxygen. Animals breathe in oxygen. So plants and animals help each other.
 
 </div>
 
@@ -147,7 +125,7 @@ The plant does not need the sugar alone. It also breathes out a gas called oxyge
 
 <div class="reader-text">
 
-Plants give oxygen to animals. Animals give carbon dioxide to plants. A plant does not do this only in bright sun. On a cloudy day, the leaf still works.
+Plants give oxygen to animals. Animals give carbon dioxide to plants. A plant does not do this only in bright sun. On a cloudy day, the leaf still works. It just works more slowly.
 
 </div>
 
@@ -173,31 +151,7 @@ Plants give oxygen to animals. Animals give carbon dioxide to plants. A plant do
 
 <div class="reader-text">
 
-It just works more slowly. At night, when there is no light, the leaf rests. In the morning, when the sun rises, the leaf begins again. Without plants, there would be no food and no oxygen.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The next time you see a green leaf, remember: it is a tiny factory, working day after day, making food and air for the whole living world.
+At night, when there is no light, the leaf rests. In the morning, when the sun rises, the leaf begins again. Without plants, there would be no food and no oxygen. The next time you see a green leaf, remember: it is a tiny factory, working day after day, making food and air for the whole living world.
 
 </div>
 
@@ -213,7 +167,7 @@ The next time you see a green leaf, remember: it is a tiny factory, working day 
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 29:** F vs V vs FE spelling
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
 

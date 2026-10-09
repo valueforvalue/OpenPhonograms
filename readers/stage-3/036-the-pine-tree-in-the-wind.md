@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A pine tree stands on a hill. It has been there a long time. The hill is wide and green. The tree has soft green needles.
+A pine tree stands on a hill. It has been there a long time. The hill is wide and green. The tree has soft green needles. It is tall and strong.
 
 </div>
 
@@ -43,7 +43,7 @@ A pine tree stands on a hill. It has been there a long time. The hill is wide an
 
 <div class="reader-text">
 
-It is tall and strong. Birds nest in its branches every spring. A wind comes in the night. The wind blows from the north.
+Birds nest in its branches every spring. A wind comes in the night. The wind blows from the north. The tree sways and sighs. The wind blows hard for hours.
 
 </div>
 
@@ -65,7 +65,7 @@ It is tall and strong. Birds nest in its branches every spring. A wind comes in 
 
 <div class="reader-text">
 
-The tree sways and sighs. The wind blows hard for hours. The tree bends low. Its branches wave side to side.
+The tree bends low. Its branches wave side to side. A small bird sits deep in the tree. The tree holds the bird safe. The wind can not shake it loose.
 
 </div>
 
@@ -87,7 +87,7 @@ The tree sways and sighs. The wind blows hard for hours. The tree bends low. Its
 
 <div class="reader-text">
 
-A small bird sits deep in the tree. The tree holds the bird safe. The wind can not shake it loose. The wind blows all day and all night.
+The wind blows all day and all night. The tree keeps on. It does not break or bend in two. A little mouse lives at the base of the trunk. The tree is the mouse's home.
 
 </div>
 
@@ -95,35 +95,13 @@ A small bird sits deep in the tree. The tree holds the bird safe. The wind can n
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, d, e, g
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 9:** AY for /ā/ at end
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The tree keeps on. It does not break or bend in two. A little mouse lives at the base of the trunk. The tree is the mouse's home.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, h
-
-**Rules in this story:**
 
 **Rule 21:** Plural nouns
 
@@ -135,7 +113,7 @@ The tree keeps on. It does not break or bend in two. A little mouse lives at the
 
 <div class="reader-text">
 
-The tree is brave and kind. When the wind slows at last, the clouds drift off. The sun comes out. The tree stands tall and still once more.
+The tree is brave and kind. When the wind slows at last, the clouds drift off. The sun comes out. The tree stands tall and still once more. The hill is green.
 
 </div>
 
@@ -159,7 +137,7 @@ The tree is brave and kind. When the wind slows at last, the clouds drift off. T
 
 <div class="reader-text">
 
-The hill is green. The sky is blue. The pine tree is fine. The bird sings a soft, glad song.
+The sky is blue. The pine tree is fine. The bird sings a soft, glad song.
 
 </div>
 

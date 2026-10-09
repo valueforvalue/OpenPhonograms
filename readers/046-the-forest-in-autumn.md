@@ -25,29 +25,7 @@
 
 <div class="reader-text">
 
-The forest is changing. The long warm days of summer are ending. A soft cool wind moves through the trees. The light grows golden and slanted.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The first leaves begin to turn. A maple shows a flash of bright red. Nearby, an oak turns a deep rich brown. A birch glows a clear yellow.
+The forest is changing. The long warm days of summer are ending. A soft cool wind moves through the trees. The light grows golden and slanted. The first leaves begin to turn.
 
 </div>
 
@@ -61,6 +39,8 @@ The first leaves begin to turn. A maple shows a flash of bright red. Nearby, an 
 
 **Rule 21:** Plural nouns
 
+**Rule 28:** GH phonograms (silent, /f/, /g/)
+
 </div>
 
 </div>
@@ -69,7 +49,7 @@ The first leaves begin to turn. A maple shows a flash of bright red. Nearby, an 
 
 <div class="reader-text">
 
-Every day more leaves change color. The green forest becomes a painting. Squirrels rush about. They gather acorns and tuck them into hiding places.
+A maple shows a flash of bright red. Nearby, an oak turns a deep rich brown. A birch glows a clear yellow. Every day more leaves change color. The green forest becomes a painting.
 
 </div>
 
@@ -95,7 +75,7 @@ Every day more leaves change color. The green forest becomes a painting. Squirre
 
 <div class="reader-text">
 
-A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow. Bears eat and eat. They must grow a thick layer of fat for the cold months ahead.
+Squirrels rush about. They gather acorns and tuck them into hiding places. A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow. Bears eat and eat.
 
 </div>
 
@@ -107,11 +87,11 @@ A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow.
 
 **Rules in this story:**
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
 **Rule 22:** 3rd person singular verbs
 
 **Rule 26:** CK after short vowel
+
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 
@@ -121,7 +101,7 @@ A chipmunk stuffs seeds into its cheek pouches. It runs them back to its burrow.
 
 <div class="reader-text">
 
-Birds gather in flocks. Soon they will fly south to warmer lands. A deer walks softly through the fallen leaves. Its breath makes a small cloud in the air.
+They must grow a thick layer of fat for the cold months ahead. Birds gather in flocks. Soon they will fly south to warmer lands. A deer walks softly through the fallen leaves. Its breath makes a small cloud in the air.
 
 </div>
 
@@ -137,7 +117,7 @@ Birds gather in flocks. Soon they will fly south to warmer lands. A deer walks s
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
-**Rule 15:** Y changes to I
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 </div>
 
@@ -147,7 +127,7 @@ Birds gather in flocks. Soon they will fly south to warmer lands. A deer walks s
 
 <div class="reader-text">
 
-At last the wind blows harder. Dry leaves tumble down from every branch. They pile up in soft drifts along the path. The forest floor becomes a rust colored blanket.
+At last the wind blows harder. Dry leaves tumble down from every branch. They pile up in soft drifts along the path. The forest floor becomes a rust colored blanket. The trees stand bare.
 
 </div>
 
@@ -173,7 +153,7 @@ At last the wind blows harder. Dry leaves tumble down from every branch. They pi
 
 <div class="reader-text">
 
-The trees stand bare. Their branches reach up like dark fingers against the gray sky. A lone crow calls from high above. The sound echoes across the empty hills.
+Their branches reach up like dark fingers against the gray sky. A lone crow calls from high above. The sound echoes across the empty hills. A small fox creeps through the brush. It hunts for one last meal before the snow.
 
 </div>
 
@@ -199,29 +179,7 @@ The trees stand bare. Their branches reach up like dark fingers against the gray
 
 <div class="reader-text">
 
-A small fox creeps through the brush. It hunts for one last meal before the snow. A woodpecker taps a hollow tree. It is making its winter home safe and snug.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Winter is coming. The forest is ready. Every creature has made its preparations. But the leaves sleep under the snow.
+A woodpecker taps a hollow tree. It is making its winter home safe and snug. Winter is coming. The forest is ready. Every creature has made its preparations.
 
 </div>
 
@@ -235,8 +193,6 @@ Winter is coming. The forest is ready. Every creature has made its preparations.
 
 **Rule 15:** Y changes to I
 
-**Rule 21:** Plural nouns
-
 </div>
 
 </div>
@@ -245,7 +201,7 @@ Winter is coming. The forest is ready. Every creature has made its preparations.
 
 <div class="reader-text">
 
-And in spring the cycle will begin again.
+But the leaves sleep under the snow. And in spring the cycle will begin again.
 
 </div>
 
@@ -253,11 +209,13 @@ And in spring the cycle will begin again.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 21:** Plural nouns
 
 </div>
 

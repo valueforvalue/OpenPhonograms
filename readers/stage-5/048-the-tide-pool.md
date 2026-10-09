@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Along a rocky coast, where the waves come and go, there are small pockets of water left behind when the sea pulls back. These pockets are called tide pools. Each tide pool is a tiny world, cut off from the ocean for a few hours at a time. In a tide pool, life crowds together.
+Along a rocky coast, where the waves come and go, there are small pockets of water left behind when the sea pulls back. These pockets are called tide pools. Each tide pool is a tiny world, cut off from the ocean for a few hours at a time. In a tide pool, life crowds together. A green anemone grips a stone with its soft feet.
 
 </div>
 
@@ -51,7 +51,7 @@ Along a rocky coast, where the waves come and go, there are small pockets of wat
 
 <div class="reader-text">
 
-A green anemone grips a stone with its soft feet. Tiny fish dart between strands of seaweed. A hermit crab walks sideways across the sand. Limpets stick tight to the rocks.
+Tiny fish dart between strands of seaweed. A hermit crab walks sideways across the sand. Limpets stick tight to the rocks. Periwinkles leave silver trails behind them. The water in a tide pool is shallow and warm.
 
 </div>
 
@@ -67,30 +67,6 @@ A green anemone grips a stone with its soft feet. Tiny fish dart between strands
 
 **Rule 22:** 3rd person singular verbs
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Periwinkles leave silver trails behind them. The water in a tide pool is shallow and warm. The sun heats it. The pool can dry out if the tide stays out too long.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, g
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
 **Rule 31:** Schwa in unstressed syllables
 
 </div>
@@ -101,7 +77,7 @@ Periwinkles leave silver trails behind them. The water in a tide pool is shallow
 
 <div class="reader-text">
 
-The animals must hide in shade or under seaweed. Some clamp their shells shut. Some crawl into cracks in the rock. When the tide comes back, the pool fills up again.
+The sun heats it. The pool can dry out if the tide stays out too long. The animals must hide in shade or under seaweed. Some clamp their shells shut. Some crawl into cracks in the rock.
 
 </div>
 
@@ -109,9 +85,13 @@ The animals must hide in shade or under seaweed. Some clamp their shells shut. S
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, d, e
+**Phonograms on this page:** a, c, d, e, g
 
 **Rules in this story:**
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
 
 **Rule 26:** CK after short vowel
 
@@ -123,7 +103,7 @@ The animals must hide in shade or under seaweed. Some clamp their shells shut. S
 
 <div class="reader-text">
 
-Fresh sea water rushes in, carrying food and cool air. The fish come out of hiding. The anemone opens its soft arms. The hermit crab walks once more in search of a meal.
+When the tide comes back, the pool fills up again. Fresh sea water rushes in, carrying food and cool air. The fish come out of hiding. The anemone opens its soft arms. The hermit crab walks once more in search of a meal.
 
 </div>
 
@@ -149,7 +129,7 @@ Fresh sea water rushes in, carrying food and cool air. The fish come out of hidi
 
 <div class="reader-text">
 
-The tide comes in and goes out twice each day. Once in the morning and once at night. In some places the shift is small. In other places the tide pulls back many feet.
+The tide comes in and goes out twice each day. Once in the morning and once at night. In some places the shift is small. In other places the tide pulls back many feet. Tide pool animals live by this rhythm.
 
 </div>
 
@@ -175,7 +155,7 @@ The tide comes in and goes out twice each day. Once in the morning and once at n
 
 <div class="reader-text">
 
-Tide pool animals live by this rhythm. They know the sea's clock better than any person does. A tide pool is one of the most crowded places on the coast. In just a small pool, you can find dozens of kinds of life.
+They know the sea's clock better than any person does. A tide pool is one of the most crowded places on the coast. In just a small pool, you can find dozens of kinds of life. Each creature plays its part, and each depends on the rhythm of the sea.
 
 </div>
 
@@ -187,33 +167,11 @@ Tide pool animals live by this rhythm. They know the sea's clock better than any
 
 **Rules in this story:**
 
-**Rule 3:** No English word ends in I, U, V, or J
-
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each creature plays its part, and each depends on the rhythm of the sea.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, h
-
-**Rules in this story:**
-
 **Rule 22:** 3rd person singular verbs
+
+**Rule 29:** F vs V vs FE spelling
 
 </div>
 

@@ -614,16 +614,17 @@ body.reader img {
 .reader-text {
     flex: 3;
 }
+/* Issue #81: narrower sidebar so text gets more width and pages pack denser. */
 .reader-sidebar {
-    flex: 0.7;
+    flex: 0.5;
     background: var(--card-bg);
     border: 1px solid var(--rule-line);
     border-radius: 6px;
-    padding: 0.5em;
-    font-size: 10pt;
+    padding: 0.4em;
+    font-size: 9pt;
 }
 .reader-sidebar h3 {
-    font-size: 10pt;
+    font-size: 9pt;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 0;

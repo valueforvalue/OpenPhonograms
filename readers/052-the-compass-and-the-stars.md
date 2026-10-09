@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Long ago, sailors did not have maps or phones or radios. They had only the sea, the sky, and a few simple tools. The most important of those tools was the compass. A compass is a small magnet that can spin freely.
+Long ago, sailors did not have maps or phones or radios. They had only the sea, the sky, and a few simple tools. The most important of those tools was the compass. A compass is a small magnet that can spin freely. One end of the magnet always points north.
 
 </div>
 
@@ -51,7 +51,7 @@ Long ago, sailors did not have maps or phones or radios. They had only the sea, 
 
 <div class="reader-text">
 
-One end of the magnet always points north. The other end always points south. As long as the sailor knows where north is, the sailor can find any other direction. North is the anchor of every journey.
+The other end always points south. As long as the sailor knows where north is, the sailor can find any other direction. North is the anchor of every journey. A compass works on land and on sea. But when the sky is dark and the clouds hide the sun, the sailor can also use the stars.
 
 </div>
 
@@ -63,11 +63,11 @@ One end of the magnet always points north. The other end always points south. As
 
 **Rules in this story:**
 
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
+
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 23:** Prefix AL-
 
 </div>
 
@@ -77,7 +77,7 @@ One end of the magnet always points north. The other end always points south. As
 
 <div class="reader-text">
 
-A compass works on land and on sea. But when the sky is dark and the clouds hide the sun, the sailor can also use the stars. In the northern sky, there is a star called Polaris, the North Star. It sits almost directly above the north pole of the Earth.
+In the northern sky, there is a star called Polaris, the North Star. It sits almost directly above the north pole of the Earth. When a sailor finds Polaris, the sailor can tell which way is north, even on a cloudy night. Sailors also learned to read the waves. A steady wind makes waves that move in the same direction.
 
 </div>
 
@@ -89,12 +89,12 @@ A compass works on land and on sea. But when the sky is dark and the clouds hide
 
 **Rules in this story:**
 
+**Rule 4:** A E O U say long at end of syllable
+
 **Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
-**Rule 13:** Drop Silent E for vowel suffix
-
 </div>
 
 </div>
@@ -103,33 +103,7 @@ A compass works on land and on sea. But when the sky is dark and the clouds hide
 
 <div class="reader-text">
 
-When a sailor finds Polaris, the sailor can tell which way is north, even on a cloudy night. Sailors also learned to read the waves. A steady wind makes waves that move in the same direction. The shape of the waves can tell a sailor where the wind is coming from.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 4:** A E O U say long at end of syllable
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The color of the water can hint at how deep the sea is below. Sailors have used these signs for thousands of years. By day, the compass. By night, the stars.
+The shape of the waves can tell a sailor where the wind is coming from. The color of the water can hint at how deep the sea is below. Sailors have used these signs for thousands of years. By day, the compass. By night, the stars.
 
 </div>
 
@@ -155,7 +129,7 @@ The color of the water can hint at how deep the sea is below. Sailors have used 
 
 <div class="reader-text">
 
-With these, they crossed wide oceans. They found new lands. They traded goods between far ports. Today, ships carry radio and satellite tools.
+With these, they crossed wide oceans. They found new lands. They traded goods between far ports. Today, ships carry radio and satellite tools. The compass still rides on the bridge.
 
 </div>
 
@@ -181,7 +155,7 @@ With these, they crossed wide oceans. They found new lands. They traded goods be
 
 <div class="reader-text">
 
-The compass still rides on the bridge. The stars still turn above the deck. Old tools and new tools work side by side, helping sailors find their way across the water.
+The stars still turn above the deck. Old tools and new tools work side by side, helping sailors find their way across the water.
 
 </div>
 

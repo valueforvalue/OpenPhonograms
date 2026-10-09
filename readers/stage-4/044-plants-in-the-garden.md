@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A child plants a small seed in the rich dark soil of the garden bed. She pats the soil gently. She waters it with a small green pail. Every day she visits the spot.
+A child plants a small seed in the rich dark soil of the garden bed. She pats the soil gently. She waters it with a small green pail. Every day she visits the spot. She wonders what is happening underground.
 
 </div>
 
@@ -51,7 +51,7 @@ A child plants a small seed in the rich dark soil of the garden bed. She pats th
 
 <div class="reader-text">
 
-She wonders what is happening underground. Below the surface, the seed is waking up. It drinks in the wet soil. A tiny root pushes down.
+Below the surface, the seed is waking up. It drinks in the wet soil. A tiny root pushes down. Then a pale stem pushes up toward the light. The stem grows taller every day.
 
 </div>
 
@@ -61,55 +61,11 @@ She wonders what is happening underground. Below the surface, the seed is waking
 
 **Phonograms on this page:** a, b, c, d, e
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Then a pale stem pushes up toward the light. The stem grows taller every day. Soon two small leaves unfurl. The leaves reach for the sun.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 9:** AY for /ā/ at end
-
-**Rule 21:** Plural nouns
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They use the light to make food for the plant. After some weeks, a small bud forms at the top of the stem. The bud grows fat and round. Then one morning it opens into a flower.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 12:** Silent E — nine reasons
-
-**Rule 13:** Drop Silent E for vowel suffix
 
 **Rule 28:** GH phonograms (silent, /f/, /g/)
 
@@ -121,7 +77,33 @@ They use the light to make food for the plant. After some weeks, a small bud for
 
 <div class="reader-text">
 
-Bees visit the flower. They drink sweet nectar from its center. As the bees move from flower to flower, they carry bits of pollen. This is called pollination.
+Soon two small leaves unfurl. The leaves reach for the sun. They use the light to make food for the plant. After some weeks, a small bud forms at the top of the stem. The bud grows fat and round.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 12:** Silent E — nine reasons
+
+**Rule 13:** Drop Silent E for vowel suffix
+
+**Rule 21:** Plural nouns
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+Then one morning it opens into a flower. Bees visit the flower. They drink sweet nectar from its center. As the bees move from flower to flower, they carry bits of pollen. This is called pollination.
 
 </div>
 
@@ -147,7 +129,7 @@ Bees visit the flower. They drink sweet nectar from its center. As the bees move
 
 <div class="reader-text">
 
-It is how plants make new seeds. Soon the flower fades. Where it was, a small green fruit begins to grow. Inside the fruit are many new seeds.
+It is how plants make new seeds. Soon the flower fades. Where it was, a small green fruit begins to grow. Inside the fruit are many new seeds. They wait for their turn to plant.
 
 </div>
 
@@ -173,7 +155,7 @@ It is how plants make new seeds. Soon the flower fades. Where it was, a small gr
 
 <div class="reader-text">
 
-They wait for their turn to plant. The child saves a few seeds for next spring. The cycle will start again. She writes the name of the plant on a small wooden marker.
+The child saves a few seeds for next spring. The cycle will start again. She writes the name of the plant on a small wooden marker. Next spring she will plant the saved seeds. She will tend a whole new row.
 
 </div>
 
@@ -199,29 +181,7 @@ They wait for their turn to plant. The child saves a few seeds for next spring. 
 
 <div class="reader-text">
 
-Next spring she will plant the saved seeds. She will tend a whole new row. Each seed holds the start of a plant. Each plant holds the start of new seeds.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-A garden is a place of patient science. And a place of great wonder.
+Each seed holds the start of a plant. Each plant holds the start of new seeds. A garden is a place of patient science. And a place of great wonder.
 
 </div>
 
@@ -234,6 +194,8 @@ A garden is a place of patient science. And a place of great wonder.
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 3:** No English word ends in I, U, V, or J
 
 </div>
 

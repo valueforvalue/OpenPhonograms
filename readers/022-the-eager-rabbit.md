@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, sun! I want to play!" Ruby shouts at dawn.
+Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, sun! I want to play!" Ruby shouts at dawn. "Hurry up, carrot!
 
 </div>
 
@@ -33,7 +33,7 @@ Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, s
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -51,7 +51,7 @@ Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, s
 
 <div class="reader-text">
 
-"Hurry up, carrot! I want to eat!" Ruby shouts at the garden. "Hurry up, friends! I want to race!" Ruby shouts at the other rabbits.
+I want to eat!" Ruby shouts at the garden. "Hurry up, friends! I want to race!" Ruby shouts at the other rabbits. But the sun takes its time. The carrot grows slowly.
 
 </div>
 
@@ -77,7 +77,11 @@ Ruby is a rabbit. Ruby is eager — she wants everything RIGHT NOW. "Hurry up, s
 
 <div class="reader-text">
 
-But the sun takes its time. The carrot grows slowly. And her friends are not as fast as Ruby. One day, Ruby's mom says, "Ruby, sit with me.
+And her friends are not as fast as Ruby. One day, Ruby's mom says, "Ruby, sit with me. Watch the garden."
+
+"But I want to run!" says Ruby. "Just for a moment," says Mom. "Be still."
+
+Ruby sits.
 
 </div>
 
@@ -93,7 +97,7 @@ But the sun takes its time. The carrot grows slowly. And her friends are not as 
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 14:** Double consonant for vowel suffix
+**Rule 10:** A says /ä/
 
 </div>
 
@@ -103,11 +107,7 @@ But the sun takes its time. The carrot grows slowly. And her friends are not as 
 
 <div class="reader-text">
 
-Watch the garden."
-
-"But I want to run!" says Ruby. "Just for a moment," says Mom. "Be still."
-
-Ruby sits. At first, she is bored.
+At first, she is bored. But then she notices things she never saw before. A butterfly on a flower. A worm in the soil. The way the carrot tops wave in the breeze.
 
 </div>
 
@@ -116,32 +116,6 @@ Ruby sits. At first, she is bored.
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 10:** A says /ä/
-
-**Rule 14:** Double consonant for vowel suffix
-
-**Rule 27:** TCH after short/broad vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-But then she notices things she never saw before. A butterfly on a flower. A worm in the soil. The way the carrot tops wave in the breeze.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 

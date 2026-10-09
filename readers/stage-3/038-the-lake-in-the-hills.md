@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A lake sits in the hills. The water is still and clear. The sky is wide. Tall pines line the shore.
+A lake sits in the hills. The water is still and clear. The sky is wide. Tall pines line the shore. Green ferns grow by the rocks.
 
 </div>
 
@@ -33,7 +33,7 @@ A lake sits in the hills. The water is still and clear. The sky is wide. Tall pi
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -51,7 +51,7 @@ A lake sits in the hills. The water is still and clear. The sky is wide. Tall pi
 
 <div class="reader-text">
 
-Green ferns grow by the rocks. The place is quiet. A stone path leads to the lake. A frog sits on a stone.
+The place is quiet. A stone path leads to the lake. A frog sits on a stone. The frog dives in. Under the water, fish glide.
 
 </div>
 
@@ -67,6 +67,8 @@ Green ferns grow by the rocks. The place is quiet. A stone path leads to the lak
 
 **Rule 11:** Q always needs U
 
+**Rule 18:** SH placement
+
 </div>
 
 </div>
@@ -75,7 +77,7 @@ Green ferns grow by the rocks. The place is quiet. A stone path leads to the lak
 
 <div class="reader-text">
 
-The frog dives in. Under the water, fish glide. They flash and shine. The deep is cool.
+They flash and shine. The deep is cool. A crane wades in the shallows. It is still and calm. It hunts for a meal.
 
 </div>
 
@@ -85,12 +87,6 @@ The frog dives in. Under the water, fish glide. They flash and shine. The deep i
 
 **Phonograms on this page:** a, c, d, e, f
 
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-**Rule 31:** Schwa in unstressed syllables
-
 </div>
 
 </div>
@@ -99,7 +95,7 @@ The frog dives in. Under the water, fish glide. They flash and shine. The deep i
 
 <div class="reader-text">
 
-A crane wades in the shallows. It is still and calm. It hunts for a meal. On the hill, a kid named Will looks down.
+On the hill, a kid named Will looks down. He smiles at the scene. The view is fine. Will slides down the path. He reaches the lake.
 
 </div>
 
@@ -107,7 +103,7 @@ A crane wades in the shallows. It is still and calm. It hunts for a meal. On the
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, h
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -121,25 +117,7 @@ A crane wades in the shallows. It is still and calm. It hunts for a meal. On the
 
 <div class="reader-text">
 
-He smiles at the scene. The view is fine. Will slides down the path. He reaches the lake.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-He sits on a stone. He puts a hand in the water. It is cold and clean. He smiles.
+He sits on a stone. He puts a hand in the water. It is cold and clean. He smiles. The sun starts to set.
 
 </div>
 
@@ -163,7 +141,7 @@ He sits on a stone. He puts a hand in the water. It is cold and clean. He smiles
 
 <div class="reader-text">
 
-The sun starts to set. The sky turns pink. The lake glows. Will walks home in the dusk.
+The sky turns pink. The lake glows. Will walks home in the dusk. The lake is a place he will not forget.
 
 </div>
 
@@ -171,37 +149,15 @@ The sun starts to set. The sky turns pink. The lake glows. Will walks home in th
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, g, h
-
-**Rules in this story:**
-
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
-
-**Rule 6:** Y says /ī/ at end of one-syllable word
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The lake is a place he will not forget.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
+
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+
+**Rule 6:** Y says /ī/ at end of one-syllable word
 
 </div>
 

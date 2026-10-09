@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Every year, the same pattern repeats. The snow melts. The flowers open. The days grow long and hot.
+Every year, the same pattern repeats. The snow melts. The flowers open. The days grow long and hot. The leaves turn gold and red.
 
 </div>
 
@@ -39,7 +39,9 @@ Every year, the same pattern repeats. The snow melts. The flowers open. The days
 
 **Rule 4:** A E O U say long at end of syllable
 
-**Rule 31:** Schwa in unstressed syllables
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 21:** Plural nouns
 
 </div>
 
@@ -49,7 +51,7 @@ Every year, the same pattern repeats. The snow melts. The flowers open. The days
 
 <div class="reader-text">
 
-The leaves turn gold and red. The air turns sharp, and the snow falls again. This pattern has a name. It is called the cycle of the seasons.
+The air turns sharp, and the snow falls again. This pattern has a name. It is called the cycle of the seasons. What makes the seasons change? The answer is the tilt of the Earth.
 
 </div>
 
@@ -63,36 +65,10 @@ The leaves turn gold and red. The air turns sharp, and the snow falls again. Thi
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 19:** Past tense -ED
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-What makes the seasons change? The answer is the tilt of the Earth. The Earth spins like a top. It also travels around the sun.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
 **Rule 2:** G may soften to /j/ before E, I, Y
 
 **Rule 13:** Drop Silent E for vowel suffix
 
-**Rule 22:** 3rd person singular verbs
-
 </div>
 
 </div>
@@ -101,7 +77,7 @@ What makes the seasons change? The answer is the tilt of the Earth. The Earth sp
 
 <div class="reader-text">
 
-But it does not sit up straight. It leans a little, the way a person leans against a wall. The line through the top and bottom of the Earth, which we call the axis, tilts at an angle. As the Earth moves around the sun, different parts of the world tilt toward the sun and then away from it.
+The Earth spins like a top. It also travels around the sun. But it does not sit up straight. It leans a little, the way a person leans against a wall. The line through the top and bottom of the Earth, which we call the axis, tilts at an angle.
 
 </div>
 
@@ -117,7 +93,7 @@ But it does not sit up straight. It leans a little, the way a person leans again
 
 **Rule 14:** Double consonant for vowel suffix
 
-**Rule 31:** Schwa in unstressed syllables
+**Rule 23:** Prefix AL-
 
 </div>
 
@@ -127,7 +103,7 @@ But it does not sit up straight. It leans a little, the way a person leans again
 
 <div class="reader-text">
 
-When your part of the world tilts toward the sun, the days are long and the weather is warm. That is summer. When your part tilts away, the days are short and the weather is cold. That is winter.
+As the Earth moves around the sun, different parts of the world tilt toward the sun and then away from it. When your part of the world tilts toward the sun, the days are long and the weather is warm. That is summer. When your part tilts away, the days are short and the weather is cold. That is winter.
 
 </div>
 
@@ -135,7 +111,7 @@ When your part of the world tilts toward the sun, the days are long and the weat
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -153,7 +129,7 @@ When your part of the world tilts toward the sun, the days are long and the weat
 
 <div class="reader-text">
 
-Spring and autumn are the times in between. Plants and animals have learned to live with this cycle. Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in autumn and sleep through the cold.
+Spring and autumn are the times in between. Plants and animals have learned to live with this cycle. Trees drop their leaves in autumn and grow new ones in spring. Bears eat much in autumn and sleep through the cold. Birds fly south when winter comes and return when spring returns.
 
 </div>
 
@@ -169,7 +145,7 @@ Spring and autumn are the times in between. Plants and animals have learned to l
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 </div>
 
@@ -179,7 +155,7 @@ Spring and autumn are the times in between. Plants and animals have learned to l
 
 <div class="reader-text">
 
-Birds fly south when winter comes and return when spring returns. People mark the seasons too. In spring, fields are planted. In summer, crops grow tall.
+People mark the seasons too. In spring, fields are planted. In summer, crops grow tall. In autumn, the harvest is gathered. In winter, the fires burn and the stories are told.
 
 </div>
 
@@ -191,11 +167,11 @@ Birds fly south when winter comes and return when spring returns. People mark th
 
 **Rules in this story:**
 
-**Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 6:** Y says /ī/ at end of one-syllable word
+**Rule 19:** Past tense -ED
 
-**Rule 15:** Y changes to I
+**Rule 20:** -ED sounds (/ed/, /d/, /t/)
 
 </div>
 
@@ -205,7 +181,7 @@ Birds fly south when winter comes and return when spring returns. People mark th
 
 <div class="reader-text">
 
-In autumn, the harvest is gathered. In winter, the fires burn and the stories are told. Each season has its own work and its own rest. The cycle never stops.
+Each season has its own work and its own rest. The cycle never stops. It has been turning for billions of years. Each year, you live one full turn of it. Each season is one small piece of a very long, very steady wheel.
 
 </div>
 
@@ -218,36 +194,10 @@ In autumn, the harvest is gathered. In winter, the fires burn and the stories ar
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It has been turning for billions of years. Each year, you live one full turn of it. Each season is one small piece of a very long, very steady wheel.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
 **Rule 7:** I and Y may say /ē/
-
-**Rule 29:** F vs V vs FE spelling
 
 </div>
 

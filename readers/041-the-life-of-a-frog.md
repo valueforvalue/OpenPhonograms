@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The egg is soft and clear. A small dark shape can be seen inside.
+A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The egg is soft and clear. A small dark shape can be seen inside. After a few days, the egg splits open.
 
 </div>
 
@@ -37,11 +37,11 @@ A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The e
 
 **Rules in this story:**
 
+**Rule 3:** No English word ends in I, U, V, or J
+
 **Rule 4:** A E O U say long at end of syllable
 
 **Rule 7:** I and Y may say /ē/
-
-**Rule 15:** Y changes to I
 
 </div>
 
@@ -51,7 +51,7 @@ A tiny egg sits in a shallow pond. Inside the egg, a baby frog is growing. The e
 
 <div class="reader-text">
 
-After a few days, the egg splits open. A tiny tadpole slips out. The tadpole has a long flat tail. It uses the tail to swim in the water.
+A tiny tadpole slips out. The tadpole has a long flat tail. It uses the tail to swim in the water. The tadpole eats tiny plants. It grows a little bigger every single day.
 
 </div>
 
@@ -59,13 +59,13 @@ After a few days, the egg splits open. A tiny tadpole slips out. The tadpole has
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, d, e, f, g
+**Phonograms on this page:** a, b, d, e, f
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 4:** A E O U say long at end of syllable
+**Rule 9:** AY for /ā/ at end
 
 **Rule 14:** Double consonant for vowel suffix
 
@@ -77,33 +77,7 @@ After a few days, the egg splits open. A tiny tadpole slips out. The tadpole has
 
 <div class="reader-text">
 
-The tadpole eats tiny plants. It grows a little bigger every single day. Slowly, back legs begin to sprout. The tadpole wiggles them in the water.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Then front legs appear. The tail grows shorter and shorter each day. Now the creature is called a froglet. It still has a bit of tail left.
+Slowly, back legs begin to sprout. The tadpole wiggles them in the water. Then front legs appear. The tail grows shorter and shorter each day. Now the creature is called a froglet.
 
 </div>
 
@@ -129,7 +103,7 @@ Then front legs appear. The tail grows shorter and shorter each day. Now the cre
 
 <div class="reader-text">
 
-The froglet takes a breath. Its lungs fill with fresh clean air. Soon the tail is gone. The froglet is now a full grown adult frog.
+It still has a bit of tail left. The froglet takes a breath. Its lungs fill with fresh clean air. Soon the tail is gone. The froglet is now a full grown adult frog.
 
 </div>
 
@@ -151,29 +125,7 @@ The froglet takes a breath. Its lungs fill with fresh clean air. Soon the tail i
 
 <div class="reader-text">
 
-The frog hops onto a rock. Its skin is green and smooth and cool. It blinks its big round eyes. The sun is warm on its back.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The frog catches a passing fly. Then it dives back into the pond. It swims down to the bottom. It pokes about among the smooth stones.
+The frog hops onto a rock. Its skin is green and smooth and cool. It blinks its big round eyes. The sun is warm on its back. The frog catches a passing fly.
 
 </div>
 
@@ -199,7 +151,7 @@ The frog catches a passing fly. Then it dives back into the pond. It swims down 
 
 <div class="reader-text">
 
-After a while it climbs out again. The bank is warm in the afternoon sun. Someday this frog will lay new eggs. New tadpoles will swim in the water.
+Then it dives back into the pond. It swims down to the bottom. It pokes about among the smooth stones. After a while it climbs out again. The bank is warm in the afternoon sun.
 
 </div>
 
@@ -211,11 +163,11 @@ After a while it climbs out again. The bank is warm in the afternoon sun. Someda
 
 **Rules in this story:**
 
-**Rule 3:** No English word ends in I, U, V, or J
+**Rule 22:** 3rd person singular verbs
 
-**Rule 14:** Double consonant for vowel suffix
+**Rule 26:** CK after short vowel
 
-**Rule 30:** Double or single final consonant
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 
@@ -225,7 +177,7 @@ After a while it climbs out again. The bank is warm in the afternoon sun. Someda
 
 <div class="reader-text">
 
-The life cycle of a frog will begin again. And again. And again.
+Someday this frog will lay new eggs. New tadpoles will swim in the water. The life cycle of a frog will begin again. And again. And again.
 
 </div>
 
@@ -233,13 +185,15 @@ The life cycle of a frog will begin again. And again. And again.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, c, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 29:** F vs V vs FE spelling
+**Rule 3:** No English word ends in I, U, V, or J
+
+**Rule 14:** Double consonant for vowel suffix
 
 </div>
 

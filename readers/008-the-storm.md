@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-The sky grew dark. "A storm is coming," said Mom. The wind blew through the trees. Rain began to fall.
+The sky grew dark. "A storm is coming," said Mom. The wind blew through the trees. Rain began to fall. It was not just rain — it was a downpour!
 
 </div>
 
@@ -55,9 +55,9 @@ The sky grew dark. "A storm is coming," said Mom. The wind blew through the tree
 
 <div class="reader-text">
 
-It was not just rain — it was a downpour! Dad brought the dog inside. "We should stay in until this passes."
+Dad brought the dog inside. "We should stay in until this passes."
 
-The family sat in the living room. They could hear the wind howl outside.
+The family sat in the living room. They could hear the wind howl outside. The lights flickered. "I am scared," said little Sue.
 
 </div>
 
@@ -69,7 +69,7 @@ The family sat in the living room. They could hear the wind howl outside.
 
 **Sounds:** brought
 
-**Phonograms on this page:** a, b, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -87,7 +87,9 @@ The family sat in the living room. They could hear the wind howl outside.
 
 <div class="reader-text">
 
-The lights flickered. "I am scared," said little Sue. "It's okay," said Mom. "We are safe.
+"It's okay," said Mom. "We are safe. The storm will pass."
+
+To take Sue's mind off the storm, Dad told a story. It was a story about a brave sailor who sailed through many storms. The sailor was never afraid, because he knew his boat was strong.
 
 </div>
 
@@ -95,7 +97,15 @@ The lights flickered. "I am scared," said little Sue. "It's okay," said Mom. "We
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 7:** I and Y may say /ē/
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 29:** F vs V vs FE spelling
 
 </div>
 
@@ -105,9 +115,7 @@ The lights flickered. "I am scared," said little Sue. "It's okay," said Mom. "We
 
 <div class="reader-text">
 
-The storm will pass."
-
-To take Sue's mind off the storm, Dad told a story. It was a story about a brave sailor who sailed through many storms. The sailor was never afraid, because he knew his boat was strong. Though the storm raged, the family stayed warm inside.
+Though the storm raged, the family stayed warm inside. They ate fruit and played games. After an hour, the rain stopped. The sun came out. A rainbow stretched across the sky.
 
 </div>
 
@@ -123,37 +131,11 @@ To take Sue's mind off the storm, Dad told a story. It was a story about a brave
 
 **Rules in this story:**
 
-**Rule 7:** I and Y may say /ē/
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 19:** Past tense -ED
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-They ate fruit and played games. After an hour, the rain stopped. The sun came out. A rainbow stretched across the sky.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
-**Rule 16:** Two I's cannot be adjacent
+**Rule 7:** I and Y may say /ē/
 
 </div>
 

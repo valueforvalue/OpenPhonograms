@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is brave. He is not scared of the cat.
+Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is brave. He is not scared of the cat. He is not scared of the dog.
 
 </div>
 
@@ -51,7 +51,7 @@ Milo is a little mouse. He lives in a hole in the wall of a big house. Milo is b
 
 <div class="reader-text">
 
-He is not scared of the dog. But there is one thing Milo is scared of — the dark. One night, the moon is hiding. The house is black.
+But there is one thing Milo is scared of — the dark. One night, the moon is hiding. The house is black. Milo hears a sound. "Help!
 
 </div>
 
@@ -75,7 +75,9 @@ He is not scared of the dog. But there is one thing Milo is scared of — the da
 
 <div class="reader-text">
 
-Milo hears a sound. "Help! I am stuck!" It is a baby mouse, trapped in a box. Milo takes a deep breath.
+I am stuck!" It is a baby mouse, trapped in a box. Milo takes a deep breath. "I can be brave," he says. "I must help."
+
+Milo steps into the dark. He cannot see, but he can hear.
 
 </div>
 
@@ -101,31 +103,7 @@ Milo hears a sound. "Help! I am stuck!" It is a baby mouse, trapped in a box. Mi
 
 <div class="reader-text">
 
-"I can be brave," he says. "I must help."
-
-Milo steps into the dark. He cannot see, but he can hear. He follows the sound.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Milo finds the box. He chews a hole in the side. The baby mouse slips out. "Thank you!" says the baby mouse.
+He follows the sound. Milo finds the box. He chews a hole in the side. The baby mouse slips out. "Thank you!" says the baby mouse.
 
 </div>
 

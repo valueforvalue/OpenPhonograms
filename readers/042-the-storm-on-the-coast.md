@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. The air feels heavy and still. The ocean swells roll slowly toward the shore.
+Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. The air feels heavy and still. The ocean swells roll slowly toward the shore. Fishermen check the sky.
 
 </div>
 
@@ -39,32 +39,6 @@ Dark clouds gather over the wide blue ocean. A storm is forming far out at sea. 
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Fishermen check the sky. They know a change is coming soon. A weather system is moving in. Cool air pushes down on the warm wet air.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 2:** G may soften to /j/ before E, I, Y
-
 **Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
@@ -77,7 +51,7 @@ Fishermen check the sky. They know a change is coming soon. A weather system is 
 
 <div class="reader-text">
 
-The pressure drops. The wind begins to rise. White caps form on the waves. A small boat heads back to the harbor.
+They know a change is coming soon. A weather system is moving in. Cool air pushes down on the warm wet air. The pressure drops. The wind begins to rise.
 
 </div>
 
@@ -89,7 +63,9 @@ The pressure drops. The wind begins to rise. White caps form on the waves. A sma
 
 **Rules in this story:**
 
-**Rule 26:** CK after short vowel
+**Rule 2:** G may soften to /j/ before E, I, Y
+
+**Rule 13:** Drop Silent E for vowel suffix
 
 </div>
 
@@ -99,7 +75,7 @@ The pressure drops. The wind begins to rise. White caps form on the waves. A sma
 
 <div class="reader-text">
 
-The skipper watches the darkening sky. Then the first gusts hit the coast. The palm trees bend and sway. Rain begins to fall.
+White caps form on the waves. A small boat heads back to the harbor. The skipper watches the darkening sky. Then the first gusts hit the coast. The palm trees bend and sway.
 
 </div>
 
@@ -125,7 +101,7 @@ The skipper watches the darkening sky. Then the first gusts hit the coast. The p
 
 <div class="reader-text">
 
-It drums on rooftops and splashes in the puddles. The waves grow tall. They crash against the rocks and pull the sand away. Lightning flashes.
+Rain begins to fall. It drums on rooftops and splashes in the puddles. The waves grow tall. They crash against the rocks and pull the sand away. Lightning flashes.
 
 </div>
 
@@ -133,15 +109,15 @@ It drums on rooftops and splashes in the puddles. The waves grow tall. They cras
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 9:** AY for /ā/ at end
 
-**Rule 18:** SH placement
+**Rule 16:** Two I's cannot be adjacent
 
-**Rule 31:** Schwa in unstressed syllables
+**Rule 18:** SH placement
 
 </div>
 
@@ -151,7 +127,7 @@ It drums on rooftops and splashes in the puddles. The waves grow tall. They cras
 
 <div class="reader-text">
 
-Thunder rolls across the water like a great drum. The birds stop singing. They hide deep inside the leafy green trees. Inside a small coastal cottage, a family watches the storm through the window.
+Thunder rolls across the water like a great drum. The birds stop singing. They hide deep inside the leafy green trees. Inside a small coastal cottage, a family watches the storm through the window. They light a lamp and gather close.
 
 </div>
 
@@ -165,6 +141,8 @@ Thunder rolls across the water like a great drum. The birds stop singing. They h
 
 **Rule 7:** I and Y may say /ē/
 
+**Rule 28:** GH phonograms (silent, /f/, /g/)
+
 **Rule 31:** Schwa in unstressed syllables
 
 </div>
@@ -175,29 +153,7 @@ Thunder rolls across the water like a great drum. The birds stop singing. They h
 
 <div class="reader-text">
 
-They light a lamp and gather close. The wind howls around the corners. Hour by hour the storm passes. The wind slows.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
-
-**Rules in this story:**
-
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The rain grows softer. The sun comes back. The wet sand glitters in the morning light. The coast is changed.
+The wind howls around the corners. Hour by hour the storm passes. The wind slows. The rain grows softer. The sun comes back.
 
 </div>
 
@@ -213,8 +169,6 @@ The rain grows softer. The sun comes back. The wet sand glitters in the morning 
 
 **Rule 26:** CK after short vowel
 
-**Rule 28:** GH phonograms (silent, /f/, /g/)
-
 </div>
 
 </div>
@@ -223,7 +177,7 @@ The rain grows softer. The sun comes back. The wet sand glitters in the morning 
 
 <div class="reader-text">
 
-New rocks show where the waves have been. But the family is safe. And tomorrow the sea will be calm again.
+The wet sand glitters in the morning light. The coast is changed. New rocks show where the waves have been. But the family is safe. And tomorrow the sea will be calm again.
 
 </div>
 
@@ -231,7 +185,7 @@ New rocks show where the waves have been. But the family is safe. And tomorrow t
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -239,7 +193,7 @@ New rocks show where the waves have been. But the family is safe. And tomorrow t
 
 **Rule 7:** I and Y may say /ē/
 
-**Rule 31:** Schwa in unstressed syllables
+**Rule 28:** GH phonograms (silent, /f/, /g/)
 
 </div>
 

@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best cake ever!" Jake tells his sister Kate. Jake gets a big bowl.
+Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best cake ever!" Jake tells his sister Kate. Jake gets a big bowl. He gets flour, eggs, and milk.
 
 </div>
 
@@ -55,7 +55,7 @@ Today is Mom's birthday. Jake wants to bake her a cake. "I will make the best ca
 
 <div class="reader-text">
 
-He gets flour, eggs, and milk. He mixes them up. "Time to add the sugar," Jake says. He dumps in a cup.
+He mixes them up. "Time to add the sugar," Jake says. He dumps in a cup. He stirs. He tastes.
 
 </div>
 
@@ -63,7 +63,7 @@ He gets flour, eggs, and milk. He mixes them up. "Time to add the sugar," Jake s
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, c, d, e, g
 
 </div>
 
@@ -73,9 +73,9 @@ He gets flour, eggs, and milk. He mixes them up. "Time to add the sugar," Jake s
 
 <div class="reader-text">
 
-He stirs. He tastes. "Hmm, it needs more!"
+"Hmm, it needs more!"
 
-Jake adds a cup of cocoa. The mix turns brown.
+Jake adds a cup of cocoa. The mix turns brown. Now it is a chocolate cake! He puts the cake in the oven. He sets the timer.
 
 </div>
 
@@ -97,29 +97,7 @@ Jake adds a cup of cocoa. The mix turns brown.
 
 <div class="reader-text">
 
-Now it is a chocolate cake! He puts the cake in the oven. He sets the timer. Wait.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, e, h, i
-
-**Rules in this story:**
-
-**Rule 16:** Two I's cannot be adjacent
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Wait. Wait. DING! The cake is done!
+Wait. Wait. Wait. DING! The cake is done!
 
 </div>
 
@@ -141,7 +119,7 @@ Wait. Wait. DING! The cake is done!
 
 <div class="reader-text">
 
-Jake takes it out. It is hot. The smell fills the room. He puts white frosting on top.
+Jake takes it out. It is hot. The smell fills the room. He puts white frosting on top. He adds red berries.
 
 </div>
 
@@ -149,7 +127,7 @@ Jake takes it out. It is hot. The smell fills the room. He puts white frosting o
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, f, g, h
+**Phonograms on this page:** a, b, d, e, f
 
 </div>
 
@@ -159,31 +137,9 @@ Jake takes it out. It is hot. The smell fills the room. He puts white frosting o
 
 <div class="reader-text">
 
-He adds red berries. The cake looks fine. Mom comes home. "What is that smell?" she asks.
+The cake looks fine. Mom comes home. "What is that smell?" she asks. "It is a cake!" says Jake. "For your birthday!"
 
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"It is a cake!" says Jake. "For your birthday!"
-
-Mom's eyes get wide. She takes a bite. "This is the best cake I have ever had!" Mom smiles.
+Mom's eyes get wide.
 
 </div>
 
@@ -197,6 +153,8 @@ Mom's eyes get wide. She takes a bite. "This is the best cake I have ever had!" 
 
 **Rule 14:** Double consonant for vowel suffix
 
+**Rule 22:** 3rd person singular verbs
+
 </div>
 
 </div>
@@ -205,7 +163,7 @@ Mom's eyes get wide. She takes a bite. "This is the best cake I have ever had!" 
 
 <div class="reader-text">
 
-Jake hugs Mom. "Happy birthday!"
+She takes a bite. "This is the best cake I have ever had!" Mom smiles. Jake hugs Mom. "Happy birthday!"
 
 </div>
 
@@ -213,7 +171,7 @@ Jake hugs Mom. "Happy birthday!"
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, g
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 

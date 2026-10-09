@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Far out in the deep blue sea, there lives a white whale named Winter. Winter is not like the other whales. While they are gray and black, Winter is pure white. She shines like a star in the dark water.
+Far out in the deep blue sea, there lives a white whale named Winter. Winter is not like the other whales. While they are gray and black, Winter is pure white. She shines like a star in the dark water. The other whales stare at Winter.
 
 </div>
 
@@ -51,9 +51,9 @@ Far out in the deep blue sea, there lives a white whale named Winter. Winter is 
 
 <div class="reader-text">
 
-The other whales stare at Winter. "Why are you different?" they ask. "I do not know," says Winter. "I was born this way."
+"Why are you different?" they ask. "I do not know," says Winter. "I was born this way."
 
-Some whales are kind.
+Some whales are kind. Some are not. "You do not belong with us," a gray whale says.
 
 </div>
 
@@ -77,7 +77,7 @@ Some whales are kind.
 
 <div class="reader-text">
 
-Some are not. "You do not belong with us," a gray whale says. Winter swims away. She feels sad and alone.
+Winter swims away. She feels sad and alone. Then one day, a great storm comes. The water turns dark and rough. The whales cannot see where to go.
 
 </div>
 
@@ -85,33 +85,7 @@ Some are not. "You do not belong with us," a gray whale says. Winter swims away.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 22:** 3rd person singular verbs
-
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Then one day, a great storm comes. The water turns dark and rough. The whales cannot see where to go. But they CAN see Winter!
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -129,7 +103,7 @@ Then one day, a great storm comes. The water turns dark and rough. The whales ca
 
 <div class="reader-text">
 
-Her white body glows in the dark water like a light. "Follow Winter!" the whales call. "She will lead us to safety!"
+But they CAN see Winter! Her white body glows in the dark water like a light. "Follow Winter!" the whales call. "She will lead us to safety!"
 
 Winter leads the whole pod through the storm to calm water. "You saved us!" the whales cry.
 

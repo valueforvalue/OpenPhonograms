@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clings to the underside of the leaf. It is smaller than a seed.
+A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clings to the underside of the leaf. It is smaller than a seed. After a week, the egg splits.
 
 </div>
 
@@ -49,7 +49,7 @@ A mother butterfly lands on a green leaf. She lays a tiny pale egg. The egg clin
 
 <div class="reader-text">
 
-After a week, the egg splits. A small caterpillar crawls out. The caterpillar is hungry. It eats and eats the soft green leaf.
+A small caterpillar crawls out. The caterpillar is hungry. It eats and eats the soft green leaf. It grows so quickly that its skin becomes too tight. The skin splits.
 
 </div>
 
@@ -57,7 +57,7 @@ After a week, the egg splits. A small caterpillar crawls out. The caterpillar is
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, e, f, g
+**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 
@@ -71,7 +71,7 @@ After a week, the egg splits. A small caterpillar crawls out. The caterpillar is
 
 <div class="reader-text">
 
-It grows so quickly that its skin becomes too tight. The skin splits. Underneath is fresh new skin. The caterpillar keeps on eating.
+Underneath is fresh new skin. The caterpillar keeps on eating. This happens again and again. Four times the caterpillar sheds its skin. Now it climbs to a safe branch.
 
 </div>
 
@@ -95,25 +95,7 @@ It grows so quickly that its skin becomes too tight. The skin splits. Underneath
 
 <div class="reader-text">
 
-This happens again and again. Four times the caterpillar sheds its skin. Now it climbs to a safe branch. It spins a tiny pad of silk.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The caterpillar hangs upside down. It sheds its skin one final time. Underneath is a hard case. This is called a chrysalis.
+It spins a tiny pad of silk. The caterpillar hangs upside down. It sheds its skin one final time. Underneath is a hard case. This is called a chrysalis.
 
 </div>
 
@@ -137,7 +119,7 @@ The caterpillar hangs upside down. It sheds its skin one final time. Underneath 
 
 <div class="reader-text">
 
-Inside the chrysalis, a great change takes place. The caterpillar dissolves. Slowly new parts begin to form. Wings grow.
+Inside the chrysalis, a great change takes place. The caterpillar dissolves. Slowly new parts begin to form. Wings grow. Long legs take shape.
 
 </div>
 
@@ -163,7 +145,7 @@ Inside the chrysalis, a great change takes place. The caterpillar dissolves. Slo
 
 <div class="reader-text">
 
-Long legs take shape. After many days, the case splits open. A butterfly crawls out. It climbs onto a leaf and pumps its wings full of air and light.
+After many days, the case splits open. A butterfly crawls out. It climbs onto a leaf and pumps its wings full of air and light. Then the butterfly lifts away. It flies over the garden below.
 
 </div>
 
@@ -179,7 +161,7 @@ Long legs take shape. After many days, the case splits open. A butterfly crawls 
 
 **Rule 7:** I and Y may say /ē/
 
-**Rule 28:** GH phonograms (silent, /f/, /g/)
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -189,7 +171,7 @@ Long legs take shape. After many days, the case splits open. A butterfly crawls 
 
 <div class="reader-text">
 
-Then the butterfly lifts away. It flies over the garden below. It pauses on a flower to drink sweet nectar. Its long tongue uncurls.
+It pauses on a flower to drink sweet nectar. Its long tongue uncurls. The journey from egg to butterfly is complete. The cycle will begin again.
 
 </div>
 
@@ -198,30 +180,6 @@ Then the butterfly lifts away. It flies over the garden below. It pauses on a fl
 ### Spelling Aid
 
 **Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 9:** AY for /ā/ at end
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The journey from egg to butterfly is complete. The cycle will begin again.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, e, f
 
 **Rules in this story:**
 

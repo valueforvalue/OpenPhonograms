@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Tully is a turtle. Tully is old — very old. His shell is purple and green with circles all over. Tully lives by a still pond.
+Tully is a turtle. Tully is old — very old. His shell is purple and green with circles all over. Tully lives by a still pond. Every morning, he sits on his favorite rock and watches the world wake up.
 
 </div>
 
@@ -33,7 +33,7 @@ Tully is a turtle. Tully is old — very old. His shell is purple and green with
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -51,7 +51,9 @@ Tully is a turtle. Tully is old — very old. His shell is purple and green with
 
 <div class="reader-text">
 
-Every morning, he sits on his favorite rock and watches the world wake up. The young turtles race around the pond. "Come race with us, Tully!" they call. "I am too slow for racing," says Tully.
+The young turtles race around the pond. "Come race with us, Tully!" they call. "I am too slow for racing," says Tully. "But I can tell you a story."
+
+The young turtles gather around Tully's rock. "Long ago," Tully begins, "this pond was just a little puddle.
 
 </div>
 
@@ -59,7 +61,7 @@ Every morning, he sits on his favorite rock and watches the world wake up. The y
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -77,33 +79,9 @@ Every morning, he sits on his favorite rock and watches the world wake up. The y
 
 <div class="reader-text">
 
-"But I can tell you a story."
+I was the first turtle here. I watched the pond grow. I watched the trees grow. I watched your parents grow up."
 
-The young turtles gather around Tully's rock. "Long ago," Tully begins, "this pond was just a little puddle. I was the first turtle here. I watched the pond grow.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 26:** CK after short vowel
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-I watched the trees grow. I watched your parents grow up."
-
-"Tell us more!" the young turtles beg. Tully tells them about the great storm. About the time the pond froze solid.
+"Tell us more!" the young turtles beg. Tully tells them about the great storm.
 
 </div>
 
@@ -125,7 +103,7 @@ I watched the trees grow. I watched your parents grow up."
 
 <div class="reader-text">
 
-About the family of ducks that visits every spring. When the tale ends, the sun is setting. The young turtles are quiet. "Thank you, Tully," they whisper.
+About the time the pond froze solid. About the family of ducks that visits every spring. When the tale ends, the sun is setting. The young turtles are quiet. "Thank you, Tully," they whisper.
 
 </div>
 

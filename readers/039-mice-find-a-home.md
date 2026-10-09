@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Mira and Milo are mice. They live in a field. Their home is a small hole. One night, the wind howls.
+Mira and Milo are mice. They live in a field. Their home is a small hole. One night, the wind howls. Rain pours in.
 
 </div>
 
@@ -41,7 +41,7 @@ Mira and Milo are mice. They live in a field. Their home is a small hole. One ni
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 28:** GH phonograms (silent, /f/, /g/)
+**Rule 16:** Two I's cannot be adjacent
 
 </div>
 
@@ -51,7 +51,7 @@ Mira and Milo are mice. They live in a field. Their home is a small hole. One ni
 
 <div class="reader-text">
 
-Rain pours in. The hole floods. They must flee. The mice run to a barn.
+The hole floods. They must flee. The mice run to a barn. They crawl under a board. They wait till the storm goes.
 
 </div>
 
@@ -77,7 +77,7 @@ Rain pours in. The hole floods. They must flee. The mice run to a barn.
 
 <div class="reader-text">
 
-They crawl under a board. They wait till the storm goes. The barn is dry and warm. But there is a cat.
+The barn is dry and warm. But there is a cat. The cat hunts at night. The mice creep past the cat. They slide out a crack.
 
 </div>
 
@@ -89,12 +89,12 @@ They crawl under a board. They wait till the storm goes. The barn is dry and war
 
 **Rules in this story:**
 
+**Rule 1:** C softens to /s/ before E, I, Y
+
 **Rule 5:** I and Y at end of syllable say /ĭ/ or /ī/
 
 **Rule 6:** Y says /ī/ at end of one-syllable word
 
-**Rule 16:** Two I's cannot be adjacent
-
 </div>
 
 </div>
@@ -103,33 +103,7 @@ They crawl under a board. They wait till the storm goes. The barn is dry and war
 
 <div class="reader-text">
 
-The cat hunts at night. The mice creep past the cat. They slide out a crack. They make it free.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 1:** C softens to /s/ before E, I, Y
-
-**Rule 12:** Silent E — nine reasons
-
-**Rule 13:** Drop Silent E for vowel suffix
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-In the field, they search. They look for a safer place. They find a wood pile. The wood pile has a deep hole.
+They make it free. In the field, they search. They look for a safer place. They find a wood pile. The wood pile has a deep hole.
 
 </div>
 
@@ -145,6 +119,8 @@ In the field, they search. They look for a safer place. They find a wood pile. T
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
+**Rule 12:** Silent E — nine reasons
+
 </div>
 
 </div>
@@ -153,7 +129,7 @@ In the field, they search. They look for a safer place. They find a wood pile. T
 
 <div class="reader-text">
 
-It is lined with soft grass. It is dry inside. The mice drag in a strip of cloth. They line the nest.
+It is lined with soft grass. It is dry inside. The mice drag in a strip of cloth. They line the nest. They make it snug.
 
 </div>
 
@@ -179,7 +155,7 @@ It is lined with soft grass. It is dry inside. The mice drag in a strip of cloth
 
 <div class="reader-text">
 
-They make it snug. Mira smiles at Milo. "This is our home now," she says. They are safe at last.
+Mira smiles at Milo. "This is our home now," she says. They are safe at last. The next day, they peek out. The sun shines.
 
 </div>
 
@@ -187,13 +163,13 @@ They make it snug. Mira smiles at Milo. "This is our home now," she says. They a
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, e, f, g, h
+**Phonograms on this page:** a, d, e, f, h
 
 **Rules in this story:**
 
-**Rule 12:** Silent E — nine reasons
+**Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 13:** Drop Silent E for vowel suffix
+**Rule 9:** AY for /ā/ at end
 
 </div>
 
@@ -203,7 +179,7 @@ They make it snug. Mira smiles at Milo. "This is our home now," she says. They a
 
 <div class="reader-text">
 
-The next day, they peek out. The sun shines. The field is green and bright.
+The field is green and bright.
 
 </div>
 
@@ -211,13 +187,7 @@ The next day, they peek out. The sun shines. The field is green and bright.
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, f
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
+**Phonograms on this page:** b, d, e, f, g
 
 </div>
 

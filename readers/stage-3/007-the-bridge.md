@@ -31,7 +31,9 @@
 
 There is an old bridge at the edge of town. The bridge goes over a wide river. "I do not like that bridge," says Meg. "It looks like it will break."
 
-"Do not be silly," says Tom.
+"Do not be silly," says Tom. "That bridge has been there since I was a child."
+
+Meg and Tom need to cross the river.
 
 </div>
 
@@ -43,47 +45,15 @@ There is an old bridge at the edge of town. The bridge goes over a wide river. "
 
 **Sounds:** bridge, edge, bridge
 
-**Phonograms on this page:** a, b, d, e, g
-
-**Rules in this story:**
-
-**Rule 7:** I and Y may say /ē/
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 15:** Y changes to I
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-"That bridge has been there since I was a child."
-
-Meg and Tom need to cross the river. There is no other way to get to the farm where they work. Tom steps on the bridge. It is firm.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**New:** dge
-
-**Sounds:** bridge, bridge
-
 **Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+**Rule 7:** I and Y may say /ē/
 
-**Rule 9:** AY for /ā/ at end
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 </div>
 
@@ -93,9 +63,9 @@ Meg and Tom need to cross the river. There is no other way to get to the farm wh
 
 <div class="reader-text">
 
-"See?" he says. "It is safe."
+There is no other way to get to the farm where they work. Tom steps on the bridge. It is firm. "See?" he says. "It is safe."
 
-Meg takes a step. Then another. They walk to the middle of the bridge.
+Meg takes a step.
 
 </div>
 
@@ -111,11 +81,11 @@ Meg takes a step. Then another. They walk to the middle of the bridge.
 
 **Rules in this story:**
 
+**Rule 9:** AY for /ā/ at end
+
 **Rule 14:** Double consonant for vowel suffix
 
 **Rule 25:** DGE after short vowel
-
-**Rule 30:** Double or single final consonant
 
 </div>
 
@@ -125,15 +95,19 @@ Meg takes a step. Then another. They walk to the middle of the bridge.
 
 <div class="reader-text">
 
-Suddenly, Meg stops. "I see something shiny!"
+Then another. They walk to the middle of the bridge. Suddenly, Meg stops. "I see something shiny!"
 
-She kneels down. There, stuck between two boards, is a golden watch! "Look!" says Meg.
+She kneels down. There, stuck between two boards, is a golden watch!
 
 </div>
 
 <div class="reader-sidebar">
 
 ### Spelling Aid
+
+**New:** dge
+
+**Sounds:** bridge
 
 **Phonograms on this page:** a, b, c, d, e
 
@@ -143,7 +117,7 @@ She kneels down. There, stuck between two boards, is a golden watch! "Look!" say
 
 **Rule 22:** 3rd person singular verbs
 
-**Rule 27:** TCH after short/broad vowel
+**Rule 25:** DGE after short vowel
 
 </div>
 
@@ -153,7 +127,7 @@ She kneels down. There, stuck between two boards, is a golden watch! "Look!" say
 
 <div class="reader-text">
 
-"Someone dropped their watch!"
+"Look!" says Meg. "Someone dropped their watch!"
 
 Tom's eyes get wide. "That is a fine watch. We should find who it belongs to."
 
@@ -185,7 +159,7 @@ They take the watch to the farm. An old man is there.
 
 "My watch!" he cries. "I lost it on the bridge last week! I thought it was gone forever."
 
-The old man is so happy. He gives Meg and Tom each a coin.
+The old man is so happy. He gives Meg and Tom each a coin. "Sometimes scary things lead to good things," says Meg.
 
 </div>
 
@@ -215,7 +189,7 @@ The old man is so happy. He gives Meg and Tom each a coin.
 
 <div class="reader-text">
 
-"Sometimes scary things lead to good things," says Meg. Tom nods. "I knew that bridge was lucky."
+Tom nods. "I knew that bridge was lucky."
 
 </div>
 
@@ -227,7 +201,7 @@ The old man is so happy. He gives Meg and Tom each a coin.
 
 **Sounds:** bridge
 
-**Phonograms on this page:** a, b, c, d, e
+**Phonograms on this page:** b, c, d, e, g
 
 **Rules in this story:**
 

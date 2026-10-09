@@ -547,7 +547,8 @@ def _build_story_pages(r: dict) -> str:
     story_body = "\n".join(lines).strip()
     if story_body.endswith("The End."):
         story_body = story_body[:-len("The End.")].strip()
-    pages = split_into_pages(story_body, sentences_per_page=4)
+    sentences_per_page = 5 if int(r.get("stage", 2)) >= 3 else 4
+    pages = split_into_pages(story_body, sentences_per_page=sentences_per_page)
     parts = []
     for i, page in enumerate(pages, 1):
         sidebar = build_sidebar(page, new_phonogram=new_pg)

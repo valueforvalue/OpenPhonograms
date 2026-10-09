@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A long time ago, the coast did not look the way it looks today. The cliffs were taller. The beaches were wider. The rivers that ran down to the sea cut deeper valleys.
+A long time ago, the coast did not look the way it looks today. The cliffs were taller. The beaches were wider. The rivers that ran down to the sea cut deeper valleys. And in the rocks of the cliffs were the marks of life from a very distant past.
 
 </div>
 
@@ -37,11 +37,11 @@ A long time ago, the coast did not look the way it looks today. The cliffs were 
 
 **Rules in this story:**
 
+**Rule 7:** I and Y may say /ē/
+
 **Rule 9:** AY for /ā/ at end
 
 **Rule 14:** Double consonant for vowel suffix
-
-**Rule 16:** Two I's cannot be adjacent
 
 </div>
 
@@ -51,7 +51,7 @@ A long time ago, the coast did not look the way it looks today. The cliffs were 
 
 <div class="reader-text">
 
-And in the rocks of the cliffs were the marks of life from a very distant past. Some of those marks are fossils. A fossil is the shape of an old plant or animal, pressed into stone. A shell may be buried in sand.
+Some of those marks are fossils. A fossil is the shape of an old plant or animal, pressed into stone. A shell may be buried in sand. After many years, the sand turns to rock. The shell dissolves away, but its shape is left behind, sharp and clear.
 
 </div>
 
@@ -67,34 +67,8 @@ And in the rocks of the cliffs were the marks of life from a very distant past. 
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-**Rule 29:** F vs V vs FE spelling
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-After many years, the sand turns to rock. The shell dissolves away, but its shape is left behind, sharp and clear. A leaf may fall into mud. The mud hardens.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 7:** I and Y may say /ē/
-
 **Rule 9:** AY for /ā/ at end
 
-**Rule 26:** CK after short vowel
-
 </div>
 
 </div>
@@ -103,7 +77,7 @@ After many years, the sand turns to rock. The shell dissolves away, but its shap
 
 <div class="reader-text">
 
-The leaf leaves its print in stone. If you walk along the base of a cliff, you can sometimes see fossils in the stone. You may see the print of a fern that grew a million years ago. You may see the curved shell of a creature that swam when dinosaurs ruled the land.
+A leaf may fall into mud. The mud hardens. The leaf leaves its print in stone. If you walk along the base of a cliff, you can sometimes see fossils in the stone. You may see the print of a fern that grew a million years ago.
 
 </div>
 
@@ -129,7 +103,7 @@ The leaf leaves its print in stone. If you walk along the base of a cliff, you c
 
 <div class="reader-text">
 
-Each fossil is a message from a time before any person lived. Some fossils are very small. A grain of sand can leave its mark in soft mud. Other fossils are very large.
+You may see the curved shell of a creature that swam when dinosaurs ruled the land. Each fossil is a message from a time before any person lived. Some fossils are very small. A grain of sand can leave its mark in soft mud. Other fossils are very large.
 
 </div>
 
@@ -155,7 +129,7 @@ Each fossil is a message from a time before any person lived. Some fossils are v
 
 <div class="reader-text">
 
-A whale bone can sit in a cliff for ages. The size of the fossil does not matter. Each one is a window into a moment long gone. The coast keeps changing.
+A whale bone can sit in a cliff for ages. The size of the fossil does not matter. Each one is a window into a moment long gone. The coast keeps changing. The waves wear the cliffs.
 
 </div>
 
@@ -179,7 +153,7 @@ A whale bone can sit in a cliff for ages. The size of the fossil does not matter
 
 <div class="reader-text">
 
-The waves wear the cliffs. The wind blows the sand. Each year, the shape of the coast shifts a little. But the fossils stay, one layer under another, like pages in a very old book.
+The wind blows the sand. Each year, the shape of the coast shifts a little. But the fossils stay, one layer under another, like pages in a very old book. When you pick up a fossil, you hold a piece of the ancient world in your hand. It is one of the most quiet, surprising things on the coast.
 
 </div>
 
@@ -196,32 +170,6 @@ The waves wear the cliffs. The wind blows the sand. Each year, the shape of the 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
 **Rule 9:** AY for /ā/ at end
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-When you pick up a fossil, you hold a piece of the ancient world in your hand. It is one of the most quiet, surprising things on the coast.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 11:** Q always needs U
-
-**Rule 26:** CK after short vowel
 
 </div>
 

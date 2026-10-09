@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-Kate is at home. She sits by the table. She has a pen and a clean white note. She wants to write to her friend.
+Kate is at home. She sits by the table. She has a pen and a clean white note. She wants to write to her friend. Her friend is named Jane.
 
 </div>
 
@@ -49,7 +49,7 @@ Kate is at home. She sits by the table. She has a pen and a clean white note. Sh
 
 <div class="reader-text">
 
-Her friend is named Jane. They have been pals since grade one. Kate writes a kind note. She smiles as she writes.
+They have been pals since grade one. Kate writes a kind note. She smiles as she writes. The note is long and sweet. She writes, "I hope you are fine.
 
 </div>
 
@@ -65,32 +65,6 @@ Her friend is named Jane. They have been pals since grade one. Kate writes a kin
 
 **Rule 8:** I and O may say /ī/ /ō/ before two consonants
 
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The note is long and sweet. She writes, "I hope you are fine. I miss you at school. Let us play soon by the pine."
-
-Kate folds the note with care.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 3:** No English word ends in I, U, V, or J
-
-**Rule 9:** AY for /ā/ at end
-
 **Rule 13:** Drop Silent E for vowel suffix
 
 </div>
@@ -101,7 +75,9 @@ Kate folds the note with care.
 
 <div class="reader-text">
 
-She puts it in a white envelope. She writes the name in blue. Jane lives down the lane. Kate rides her bike to Jane's home.
+I miss you at school. Let us play soon by the pine."
+
+Kate folds the note with care. She puts it in a white envelope. She writes the name in blue. Jane lives down the lane.
 
 </div>
 
@@ -109,13 +85,15 @@ She puts it in a white envelope. She writes the name in blue. Jane lives down th
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, b, d, e, h
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
 **Rule 3:** No English word ends in I, U, V, or J
 
-**Rule 21:** Plural nouns
+**Rule 9:** AY for /ā/ at end
+
+**Rule 14:** Double consonant for vowel suffix
 
 </div>
 
@@ -125,7 +103,7 @@ She puts it in a white envelope. She writes the name in blue. Jane lives down th
 
 <div class="reader-text">
 
-The day is bright and fine. She leaves the note at Jane's door. She smiles and rides home. The lane is wide.
+Kate rides her bike to Jane's home. The day is bright and fine. She leaves the note at Jane's door. She smiles and rides home. The lane is wide.
 
 </div>
 
@@ -151,7 +129,7 @@ The day is bright and fine. She leaves the note at Jane's door. She smiles and r
 
 <div class="reader-text">
 
-The next day, Jane comes to Kate's home. Jane has a note too. She grins and waves it high. Jane reads her note out loud.
+The next day, Jane comes to Kate's home. Jane has a note too. She grins and waves it high. Jane reads her note out loud. "I am fine!
 
 </div>
 
@@ -159,7 +137,7 @@ The next day, Jane comes to Kate's home. Jane has a note too. She grins and wave
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, g
+**Phonograms on this page:** a, c, d, e, f
 
 **Rules in this story:**
 
@@ -177,7 +155,7 @@ The next day, Jane comes to Kate's home. Jane has a note too. She grins and wave
 
 <div class="reader-text">
 
-"I am fine! Let us play today by the slide!" The note makes Kate glad. They run and play in the wide green yard. Two friends share the day from dawn to dusk.
+Let us play today by the slide!" The note makes Kate glad. They run and play in the wide green yard. Two friends share the day from dawn to dusk.
 
 </div>
 

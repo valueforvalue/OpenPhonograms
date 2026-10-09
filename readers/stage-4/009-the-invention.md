@@ -29,7 +29,7 @@
 
 <div class="reader-text">
 
-Dr. Chen was a scientist who loved to invent things. Her laboratory was full of strange machines and half-finished projects. One day, Dr.
+Dr. Chen was a scientist who loved to invent things. Her laboratory was full of strange machines and half-finished projects. One day, Dr. Chen had an incredible idea.
 
 </div>
 
@@ -55,9 +55,9 @@ Dr. Chen was a scientist who loved to invent things. Her laboratory was full of 
 
 <div class="reader-text">
 
-Chen had an incredible idea. "What if I could build a machine that turns ocean water into clean drinking water using only sunlight?"
+"What if I could build a machine that turns ocean water into clean drinking water using only sunlight?"
 
-She called it the SolarPure. The SolarPure would use solar panels to heat ocean water. The steam would rise, leaving the salt behind.
+She called it the SolarPure. The SolarPure would use solar panels to heat ocean water. The steam would rise, leaving the salt behind. The steam would then cool into pure, fresh water. Dr.
 
 </div>
 
@@ -83,31 +83,7 @@ She called it the SolarPure. The SolarPure would use solar panels to heat ocean 
 
 <div class="reader-text">
 
-The steam would then cool into pure, fresh water. Dr. Chen worked for months. She constructed and reconstructed.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 18:** SH placement
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Some days, nothing worked. "Every failure is a lesson," she said. Finally, the day came. Dr.
+Chen worked for months. She constructed and reconstructed. Some days, nothing worked. "Every failure is a lesson," she said. Finally, the day came.
 
 </div>
 
@@ -131,7 +107,7 @@ Some days, nothing worked. "Every failure is a lesson," she said. Finally, the d
 
 <div class="reader-text">
 
-Chen took the SolarPure to the beach. She poured in ocean water. She waited. The sun shone down.
+Dr. Chen took the SolarPure to the beach. She poured in ocean water. She waited. The sun shone down.
 
 </div>
 
@@ -153,7 +129,7 @@ Chen took the SolarPure to the beach. She poured in ocean water. She waited. The
 
 <div class="reader-text">
 
-The machine hummed. Steam rose. And then — drip, drip, drip — fresh water came out the other side! Dr.
+The machine hummed. Steam rose. And then — drip, drip, drip — fresh water came out the other side! Dr. Chen tasted it.
 
 </div>
 
@@ -177,31 +153,9 @@ The machine hummed. Steam rose. And then — drip, drip, drip — fresh water ca
 
 <div class="reader-text">
 
-Chen tasted it. "It works!" she shouted. "It really works!"
+"It works!" she shouted. "It really works!"
 
-A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 31:** Schwa in unstressed syllables
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-It could help millions of people who did not have clean water. "An invention is not just a clever machine," Dr. Chen said. "An invention is a solution to a problem.
+A journalist heard about the invention and wrote a story. Soon, people around the world were talking about the SolarPure. It could help millions of people who did not have clean water. "An invention is not just a clever machine," Dr.
 
 </div>
 
@@ -225,7 +179,7 @@ It could help millions of people who did not have clean water. "An invention is 
 
 <div class="reader-text">
 
-And the best inventions help people."
+Chen said. "An invention is a solution to a problem. And the best inventions help people."
 
 </div>
 
@@ -233,7 +187,11 @@ And the best inventions help people."
 
 ### Spelling Aid
 
-**Phonograms on this page:** b, e, h, i, l
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 31:** Schwa in unstressed syllables
 
 </div>
 

@@ -25,7 +25,7 @@
 
 <div class="reader-text">
 
-A coral reef is one of the busiest places in the sea. Bright fish dart between branches of coral. Shrimp crawl along the floor. Sea turtles drift above like dark leaves.
+A coral reef is one of the busiest places in the sea. Bright fish dart between branches of coral. Shrimp crawl along the floor. Sea turtles drift above like dark leaves. The reef looks like a garden made of stone.
 
 </div>
 
@@ -41,32 +41,6 @@ A coral reef is one of the busiest places in the sea. Bright fish dart between b
 
 **Rule 21:** Plural nouns
 
-**Rule 23:** Prefix AL-
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-The reef looks like a garden made of stone. Coral looks like a plant, but it is really an animal. It is built of thousands of tiny soft creatures, all joined together. Each tiny creature is called a polyp.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
-**Rule 19:** Past tense -ED
-
-**Rule 20:** -ED sounds (/ed/, /d/, /t/)
-
 **Rule 22:** 3rd person singular verbs
 
 </div>
@@ -77,7 +51,7 @@ The reef looks like a garden made of stone. Coral looks like a plant, but it is 
 
 <div class="reader-text">
 
-The polyps cannot make their own food. They live with a kind of plant algae that lives inside them. The plant makes sugar from sunlight. The animal shares that sugar and gives the plant a safe home.
+Coral looks like a plant, but it is really an animal. It is built of thousands of tiny soft creatures, all joined together. Each tiny creature is called a polyp. The polyps cannot make their own food. They live with a kind of plant algae that lives inside them.
 
 </div>
 
@@ -85,7 +59,7 @@ The polyps cannot make their own food. They live with a kind of plant algae that
 
 ### Spelling Aid
 
-**Phonograms on this page:** a, c, d, e, f
+**Phonograms on this page:** a, b, c, d, e
 
 **Rules in this story:**
 
@@ -103,7 +77,33 @@ The polyps cannot make their own food. They live with a kind of plant algae that
 
 <div class="reader-text">
 
-The two help each other. This kind of partnership has a name. It is called symbiosis, which means 'living together'. In symbiosis, two different kinds of life share the same space and help each other survive.
+The plant makes sugar from sunlight. The animal shares that sugar and gives the plant a safe home. The two help each other. This kind of partnership has a name. It is called symbiosis, which means 'living together'.
+
+</div>
+
+<div class="reader-sidebar">
+
+### Spelling Aid
+
+**Phonograms on this page:** a, b, c, d, e
+
+**Rules in this story:**
+
+**Rule 8:** I and O may say /ī/ /ō/ before two consonants
+
+**Rule 19:** Past tense -ED
+
+**Rule 20:** -ED sounds (/ed/, /d/, /t/)
+
+</div>
+
+</div>
+
+<div class="reader-page">
+
+<div class="reader-text">
+
+In symbiosis, two different kinds of life share the same space and help each other survive. There are other partners on the reef. A small fish called a cleaner wrasse picks bits of food from the teeth of bigger fish. The big fish get clean. The little fish get a meal.
 
 </div>
 
@@ -117,36 +117,10 @@ The two help each other. This kind of partnership has a name. It is called symbi
 
 **Rule 1:** C softens to /s/ before E, I, Y
 
-**Rule 8:** I and O may say /ī/ /ō/ before two consonants
-
-**Rule 19:** Past tense -ED
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-There are other partners on the reef. A small fish called a cleaner wrasse picks bits of food from the teeth of bigger fish. The big fish get clean. The little fish get a meal.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, b, c, d, e
-
-**Rules in this story:**
-
 **Rule 14:** Double consonant for vowel suffix
 
 **Rule 18:** SH placement
 
-**Rule 19:** Past tense -ED
-
 </div>
 
 </div>
@@ -155,7 +129,7 @@ There are other partners on the reef. A small fish called a cleaner wrasse picks
 
 <div class="reader-text">
 
-Both win. A shrimp digs a burrow in the sand. A goby fish stands guard at the door. The shrimp gets a warning.
+Both win. A shrimp digs a burrow in the sand. A goby fish stands guard at the door. The shrimp gets a warning. The goby gets a home.
 
 </div>
 
@@ -177,7 +151,7 @@ Both win. A shrimp digs a burrow in the sand. A goby fish stands guard at the do
 
 <div class="reader-text">
 
-The goby gets a home. The reef is not a quiet place. At night, the coral polyps open up and the fish that hide by day come out to feed. Crabs creep along the rocks.
+The reef is not a quiet place. At night, the coral polyps open up and the fish that hide by day come out to feed. Crabs creep along the rocks. Octopuses hunt in the cracks. The reef never truly sleeps.
 
 </div>
 
@@ -203,31 +177,7 @@ The goby gets a home. The reef is not a quiet place. At night, the coral polyps 
 
 <div class="reader-text">
 
-Octopuses hunt in the cracks. The reef never truly sleeps. The reef is full of these quiet deals. Each creature plays a role.
-
-</div>
-
-<div class="reader-sidebar">
-
-### Spelling Aid
-
-**Phonograms on this page:** a, c, d, e, f
-
-**Rules in this story:**
-
-**Rule 11:** Q always needs U
-
-**Rule 22:** 3rd person singular verbs
-
-</div>
-
-</div>
-
-<div class="reader-page">
-
-<div class="reader-text">
-
-Each depends on another. When you watch a reef, you are watching a community that has worked out its teamwork over millions of years.
+The reef is full of these quiet deals. Each creature plays a role. Each depends on another. When you watch a reef, you are watching a community that has worked out its teamwork over millions of years.
 
 </div>
 
@@ -241,7 +191,9 @@ Each depends on another. When you watch a reef, you are watching a community tha
 
 **Rule 10:** A says /ä/
 
-**Rule 27:** TCH after short/broad vowel
+**Rule 11:** Q always needs U
+
+**Rule 22:** 3rd person singular verbs
 
 </div>
 
