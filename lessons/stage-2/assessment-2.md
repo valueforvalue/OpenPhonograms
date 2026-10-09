@@ -33,7 +33,7 @@ This mid-point check verifies the child is on track. Focus on CVC accuracy, firs
 | n | /n/ | ☐ |
 | o | /ŏ/ /ō/ /ö/ | ☐ |
 | p | /p/ | ☐ |
-| qu | /kw/ | ☐ |
+| qu | /kw/ /k/ | ☐ |
 | r | /r/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |

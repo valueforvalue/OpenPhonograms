@@ -22,13 +22,14 @@
 
 <div class="phonogram">qu</div>
 
-**qu** says 1 sound: /kw/
+**qu** says 2 sounds: /kw/ /k/
 
 | Sound | Example Words |
 |-------|--------------|
 | /kw/ | queen, quit, quick |
+| /k/ | critique, mosque, antique |
 
-> **Important:** Always teach ALL sounds from the start. Never teach "qu says /kw/" and add more later. The child must know that **qu** can say 1 different thing.
+> **Important:** Always teach ALL sounds from the start. Never teach "qu says /kw/" and add more later. The child must know that **qu** can say 2 different things.
 
 
 > **Spelling Rule:** Rule 11: Q always needs a U. U is not a vowel here.
@@ -40,7 +41,7 @@
 3. U: Start at the midline, curve down and back up.
 4. Q always needs U. They are a team!
 
-> Write **qu** three times on your whiteboard or in a sand tray. Say "/kw/" each time you write it.
+> Write **qu** three times on your whiteboard or in a sand tray. Say "/kw/ /k/" each time you write it.
 
 
 ### Vowel or Consonant?
@@ -87,7 +88,7 @@ Write each letter once. Say its sounds as you write.
 ## Quick Check
 
 1. What did you learn today? *(A new phonogram: qu)*
-2. What sounds does **qu** say? *(/kw/)*
+2. What sounds does **qu** say? *(/kw/ /k/)*
 3. Write the word "quit" from dictation.
 
 ---
@@ -106,15 +107,15 @@ Write each letter once. Say its sounds as you write.
 
 <div class="phonogram">qu</div>
 
-> **Say:** "This is the phonogram **qu**." *(Point to the card.)* "It says /kw/."
+> **Say:** "This is the phonogram **qu**." *(Point to the card.)* "It says /kw/ /k/."
 
-> **Say:** "Listen to me say its sounds: /kw/. Now you say them."
+> **Say:** "Listen to me say its sounds: /kw/ /k/. Now you say them."
 
 > *(Child repeats.)*
 
 > **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing qu.)*
 
-> **Say:** "Now you write **qu** three times. Say '/kw/' each time you write it."
+> **Say:** "Now you write **qu** three times. Say '/kw/ /k/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -122,6 +123,6 @@ Write each letter once. Say its sounds as you write.
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram qu — it says /kw/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram qu — it says /kw/ /k/.")*
 
 ---

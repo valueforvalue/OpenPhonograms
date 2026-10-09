@@ -33,7 +33,7 @@ This final assessment checks readiness for Stage 3. The child should demonstrate
 | n | /n/ | ☐ |
 | o | /ŏ/ /ō/ /ö/ | ☐ |
 | p | /p/ | ☐ |
-| qu | /kw/ | ☐ |
+| qu | /kw/ /k/ | ☐ |
 | r | /r/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |

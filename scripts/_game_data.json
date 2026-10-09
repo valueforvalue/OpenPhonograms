@@ -6,6 +6,11 @@
       "stage": 1
     },
     {
+      "word": "antique",
+      "sentence": "The antique is here.",
+      "stage": 1
+    },
+    {
       "word": "as",
       "sentence": "The as is here.",
       "stage": 1
@@ -181,6 +186,11 @@
       "stage": 1
     },
     {
+      "word": "conquer",
+      "sentence": "The conquer is here.",
+      "stage": 1
+    },
+    {
       "word": "cop",
       "sentence": "The cop is here.",
       "stage": 1
@@ -188,6 +198,11 @@
     {
       "word": "cot",
       "sentence": "The cot is here.",
+      "stage": 1
+    },
+    {
+      "word": "critique",
+      "sentence": "The critique is here.",
       "stage": 1
     },
     {
@@ -986,6 +1001,11 @@
       "stage": 1
     },
     {
+      "word": "liquor",
+      "sentence": "The liquor is here.",
+      "stage": 1
+    },
+    {
       "word": "lit",
       "sentence": "The lit is here.",
       "stage": 1
@@ -1098,6 +1118,11 @@
     {
       "word": "more",
       "sentence": "The more is here.",
+      "stage": 1
+    },
+    {
+      "word": "mosque",
+      "sentence": "The mosque is here.",
       "stage": 1
     },
     {
@@ -1823,6 +1848,11 @@
     {
       "word": "two",
       "sentence": "The two is here.",
+      "stage": 1
+    },
+    {
+      "word": "unique",
+      "sentence": "The unique is here.",
       "stage": 1
     },
     {
@@ -6014,7 +6044,7 @@
     },
     {
       "pg": "qu",
-      "sounds": "/kw/",
+      "sounds": "/kw/ /k/",
       "stage": 1
     },
     {

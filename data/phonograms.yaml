@@ -581,7 +581,7 @@ phonograms:
 - id: qu
   stage: 1
   kind: single
-  sounds: /kw/
+  sounds: /kw/ /k/
   words:
   - queen
   - quit
@@ -599,11 +599,19 @@ phonograms:
   - quiver
   - quail
   - quarry
+  - critique
+  - mosque
+  - antique
+  - liquor
+  - conquer
+  - unique
   vowel: false
-  sound_count: 1
+  sound_count: 2
   examples:
   - sound: kw
     words: queen, quit, quick
+  - sound: k
+    words: critique, mosque, antique
   writing:
   - 'Q: Start at the midline. Curve around to make a circle.'
   - Then draw a short diagonal line from the circle outward.

@@ -22,7 +22,7 @@ This mastery check verifies the child is ready for Stage 2. The child should dem
 | g | /g/ /j/ | ☐ |
 | c | /k/ /s/ | ☐ |
 | o | /ŏ/ /ō/ /ö/ | ☐ |
-| qu | /kw/ | ☐ |
+| qu | /kw/ /k/ | ☐ |
 | s | /s/ /z/ | ☐ |
 | t | /t/ | ☐ |
 | i | /ĭ/ /ī/ /ē/ | ☐ |

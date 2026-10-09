@@ -261,7 +261,7 @@ AT_A_GLANCE_PG = {
     "n": ("/n/", "net, nine, night", "Silent N in 'gn' before vowels (gnome, sign)."),
     "o": ("/ŏ/ /ō/", "hot, go", "Open-syllable O says /ō/ (no, open, total)."),
     "p": ("/p/", "pat, play, pen", "Silent P in a few words (pneumonia, psalm)."),
-    "qu": ("/kw/", "quit, queen, quick", "Q always comes with U. U is silent in 'qu'."),
+    "qu": ("/kw/ /k/", "queen, critique", "Q always comes with U. Two sounds: /kw/ (queen) and /k/ (critique, mosque, antique)."),
     "r": ("/r/", "red, run, rose", "R never goes silent in English."),
     "s": ("/s/ /z/", "sun, his, has", "S says /z/ between vowels (his, has, easy)."),
     "t": ("/t/", "top, tree, time", "Silent T in a few words (castle, listen, whistle)."),

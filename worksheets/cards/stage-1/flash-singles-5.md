@@ -7,7 +7,7 @@ Cut along the dotted lines. Practice daily!
 
 <div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
 <div class="phonogram-letter" style="font-size:60pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">qu</div>
-<div class="phonogram-sounds" style="font-size:12pt; color:#555;">/kw/</div>
+<div class="phonogram-sounds" style="font-size:12pt; color:#555;">/kw/ /k/</div>
 </div>
 <div class="phonogram-card" style="display:inline-block; width:45%; margin:2%; border:2px solid #2a5c8a; border-radius:8px; padding:20px; text-align:center; page-break-inside:avoid;">
 <div class="phonogram-letter" style="font-size:60pt; font-weight:bold; color:#2a5c8a; font-family:Georgia,serif;">r</div>

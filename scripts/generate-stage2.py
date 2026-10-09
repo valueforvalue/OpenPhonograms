@@ -53,7 +53,7 @@ SINGLE_PGS = {
     "n": {"sounds": "/n/", "vowel": False},
     "o": {"sounds": "/ŏ/ /ō/ /ö/", "vowel": True},
     "p": {"sounds": "/p/", "vowel": False},
-    "qu": {"sounds": "/kw/", "vowel": False},
+    "qu": {"sounds": "/kw/ /k/", "vowel": False},
     "r": {"sounds": "/r/", "vowel": False},
     "s": {"sounds": "/s/ /z/", "vowel": False},
     "t": {"sounds": "/t/", "vowel": False},
