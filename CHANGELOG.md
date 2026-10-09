@@ -1,6 +1,27 @@
 # Changelog
 
-## [Unreleased]
+## [1.1.0] — 2026-10-09
+
+### Added
+- Example words for each sound printed on flash card backs
+- Explanatory "why" notes on lesson-pack common-mistake cards
+- Centered watermark logo on completion certificates
+- GitHub Actions CI workflow archiving smoke-test results
+- Materials-version field on the feedback form (injected from VERSION at release build)
+
+### Changed
+- Stage 3–5 decodable readers pack 5 sentences per page; reader sidebar narrowed
+- Stage handbooks use the dense body class + smaller phonogram graphics
+- At-a-glance key words now cover every sound of multi-sound phonograms
+
+### Fixed
+- Phonogram sound lists: qu (/kw/ /k/), x (removed /gz/), y (+/ĭ/), ea (3 sounds), ou (5 sounds), oo (realigned), u (4 sounds), i (4 sounds)
+- Stage 3 syllable division: correct counts, splits, and vowel sounds
+- Phonogram chart + morpheme wall card boxes (grid → flexbox)
+- Diacritical legend ü/ö example symbols
+- Reader 001 page count (font + cover image height); reader 003 "red lamb" → "sad lamb"
+
+## [1.0.0] — 2026-08-08
 
 ### Added
 - Neural TTS audio generator via edge-tts (Aria voice, 74 MP3s)

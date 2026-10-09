@@ -112,6 +112,7 @@ a:hover { text-decoration: none; }
 
 <h1>Send Feedback</h1>
 <p class="hint">Found a typo? A confusing lesson? A broken PDF page? Send it here and the maintainer will see it.</p>
+<p class="hint">Materials version: <strong>v__VERSION__</strong> &mdash; this is stamped on page 1 of every PDF.</p>
 
 <div class="card no-print">
   <div class="card-title">How this works</div>
@@ -121,6 +122,9 @@ a:hover { text-decoration: none; }
 <form class="fb-form" id="feedback-form"
       action="https://submit-form.com/xOuYC8XYz"
       method="POST">
+
+  <!-- Materials version: injected at release build time from the VERSION file. -->
+  <input type="hidden" name="materials_version" value="__VERSION__">
 
   <div class="row">
     <label for="fb-name">Your name <span class="hint">(optional)</span></label>

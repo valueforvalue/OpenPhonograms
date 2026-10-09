@@ -139,10 +139,19 @@ def build_feedback_html(zf, args, stats):
     if args.list:
         stats["included"].append(arc)
         return
-    if not add_file(zf, feedback, arc):
+    if not feedback.exists():
         stats["skipped"].append("Feedback.html (missing source)")
         return
-    print(f"  OK  {arc}")
+    # Inject the current build version (from VERSION) into the form so
+    # feedback submissions carry which version of the materials the user
+    # was looking at.
+    try:
+        version = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
+    except Exception:
+        version = "unknown"
+    html = feedback.read_text(encoding="utf-8").replace("__VERSION__", version)
+    zf.writestr(arc, html)
+    print(f"  OK  {arc} (v{version})")
 
 
 def build_readme(zf, args, stats):
