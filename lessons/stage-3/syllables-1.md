@@ -31,14 +31,14 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 | Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
 |------|--------------------|---------|---------------------------|----------------------------|
-| sunset | 3 | sun/set | — | — |
-| rainbow | 3 | rai/nbow | — | — |
-| into | 2 | in/to | — | — |
-| backpack | 3 | back/pack | — | — |
-| himself | 3 | him/self | — | — |
-| bathtub | 3 | bat/htub | — | — |
-| sailboat | 3 | sail/boat | — | — |
-| popcorn | 3 | pop/corn | — | — |
+| sunset | 2 | sun/set | /ŭ/ | /ĕ/ |
+| rainbow | 2 | rain/bow | /ā/ | /ō/ |
+| into | 2 | in/to | /ĭ/ | /ö/ |
+| backpack | 2 | back/pack | /ă/ | /ă/ |
+| himself | 2 | him/self | /ĭ/ | /ĕ/ |
+| bathtub | 2 | bath/tub | /ă/ | /ŭ/ |
+| sailboat | 2 | sail/boat | /ā/ | /ō/ |
+| popcorn | 2 | pop/corn | /ŏ/ | /or/ |
 
 ---
 

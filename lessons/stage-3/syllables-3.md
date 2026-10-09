@@ -31,14 +31,14 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 | Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
 |------|--------------------|---------|---------------------------|----------------------------|
-| baby | 2 | ba/by | — | — |
-| tiger | 2 | ti/ger | — | — |
-| open | 2 | op/en | — | — |
-| music | 2 | mu/sic | — | — |
-| paper | 2 | pa/per | — | — |
-| seven | 2 | se/ven | — | — |
-| river | 2 | ri/ver | — | — |
-| cabin | 2 | ca/bin | — | — |
+| baby | 2 | ba/by | /ā/ | /ē/ |
+| tiger | 2 | ti/ger | /ī/ | /er/ |
+| open | 2 | o/pen | /ō/ | /ĕ/ |
+| music | 2 | mu/sic | /ū/ | /ĭ/ |
+| paper | 2 | pa/per | /ā/ | /er/ |
+| seven | 2 | sev/en | /ĕ/ | /ĕ/ |
+| river | 2 | riv/er | /ĭ/ | /er/ |
+| cabin | 2 | cab/in | /ă/ | /ĭ/ |
 
 ---
 

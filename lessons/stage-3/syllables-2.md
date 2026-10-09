@@ -31,14 +31,14 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 | Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
 |------|--------------------|---------|---------------------------|----------------------------|
-| rabbit | 3 | rab/bit | — | — |
-| basket | 3 | bas/ket | — | — |
-| picnic | 3 | pic/nic | — | — |
-| muffin | 3 | muf/fin | — | — |
-| puppet | 3 | pup/pet | — | — |
-| tennis | 3 | ten/nis | — | — |
-| lesson | 3 | les/son | — | — |
-| pillow | 3 | pil/low | — | — |
+| rabbit | 2 | rab/bit | /ă/ | /ĭ/ |
+| basket | 2 | bas/ket | /ă/ | /ĕ/ |
+| picnic | 2 | pic/nic | /ĭ/ | /ĭ/ |
+| muffin | 2 | muf/fin | /ŭ/ | /ĭ/ |
+| puppet | 2 | pup/pet | /ŭ/ | /ĕ/ |
+| tennis | 2 | ten/nis | /ĕ/ | /ĭ/ |
+| lesson | 2 | les/son | /ĕ/ | /ŭ/ |
+| pillow | 2 | pil/low | /ĭ/ | /ō/ |
 
 ---
 

@@ -31,14 +31,14 @@ For each word, say it slowly, clap the syllables, then write each syllable:
 
 | Word | How Many Syllables? | Divided | First Syllable Vowel Sound | Second Syllable Vowel Sound |
 |------|--------------------|---------|---------------------------|----------------------------|
-| table | 2 | ta/ble | — | — |
-| puzzle | 3 | puz/zle | — | — |
-| candle | 3 | can/dle | — | — |
-| apple | 2 | ap/ple | — | — |
-| little | 3 | lit/tle | — | — |
-| bubble | 3 | bub/ble | — | — |
-| rifle | 2 | ri/fle | — | — |
-| title | 2 | ti/tle | — | — |
+| table | 2 | ta/ble | /ā/ | /ə/ |
+| puzzle | 2 | puz/zle | /ŭ/ | /ə/ |
+| candle | 2 | can/dle | /ă/ | /ə/ |
+| apple | 2 | ap/ple | /ă/ | /ə/ |
+| little | 2 | lit/tle | /ĭ/ | /ə/ |
+| bubble | 2 | bub/ble | /ŭ/ | /ə/ |
+| rifle | 2 | ri/fle | /ī/ | /ə/ |
+| title | 2 | ti/tle | /ī/ | /ə/ |
 
 ---
 

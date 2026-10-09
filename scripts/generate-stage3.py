@@ -385,24 +385,32 @@ SYLLABLE_LESSONS = {
         "title": "Compound Words",
         "description": "Compound words are the easiest to divide — just split between the two smaller words! sun+set, rain+bow, in+to.",
         "words": ["sunset","rainbow","into","backpack","himself","bathtub","sailboat","popcorn","football","bedroom"],
+        "divided": ["sun/set","rain/bow","in/to","back/pack","him/self","bath/tub","sail/boat","pop/corn","foot/ball","bed/room"],
+        "vowels": ["/ŭ/ · /ĕ/","/ā/ · /ō/","/ĭ/ · /ö/","/ă/ · /ă/","/ĭ/ · /ĕ/","/ă/ · /ŭ/","/ā/ · /ō/","/ŏ/ · /or/","/ö/ · /ä/","/ĕ/ · /ü/"],
         "check": "sunset",
     },
     "vccv": {
         "title": "VCCV Pattern",
         "description": "When two consonants stand between two vowels (VCCV), divide between the consonants. rab/bit, bas/ket, pic/nic. The first syllable is closed, so the vowel is short.",
         "words": ["rabbit","basket","picnic","muffin","puppet","tennis","lesson","pillow","butter","kitten"],
+        "divided": ["rab/bit","bas/ket","pic/nic","muf/fin","pup/pet","ten/nis","les/son","pil/low","but/ter","kit/ten"],
+        "vowels": ["/ă/ · /ĭ/","/ă/ · /ĕ/","/ĭ/ · /ĭ/","/ŭ/ · /ĭ/","/ŭ/ · /ĕ/","/ĕ/ · /ĭ/","/ĕ/ · /ŭ/","/ĭ/ · /ō/","/ŭ/ · /er/","/ĭ/ · /ĕ/"],
         "check": "rabbit",
     },
     "vcv": {
         "title": "VCV Pattern",
         "description": "When one consonant stands between two vowels (VCV), try dividing AFTER the first vowel (making an open syllable with a long vowel). If that doesn't sound right, divide BEFORE the consonant. ba/by (open) vs. cab/in (closed).",
         "words": ["baby","tiger","open","music","paper","seven","river","cabin","robin","lemon"],
+        "divided": ["ba/by","ti/ger","o/pen","mu/sic","pa/per","sev/en","riv/er","cab/in","rob/in","lem/on"],
+        "vowels": ["/ā/ · /ē/","/ī/ · /er/","/ō/ · /ĕ/","/ū/ · /ĭ/","/ā/ · /er/","/ĕ/ · /ĕ/","/ĭ/ · /er/","/ă/ · /ĭ/","/ŏ/ · /ĭ/","/ĕ/ · /ŭ/"],
         "check": "baby",
     },
     "cle": {
         "title": "Consonant + LE",
         "description": "When a word ends in a consonant + LE, the LE forms its own syllable. ta/ble, puz/zle, can/dle. The E is there because every syllable needs a vowel (Rule 12.4).",
         "words": ["table","puzzle","candle","apple","little","bubble","rifle","title","simple","purple","handle","single"],
+        "divided": ["ta/ble","puz/zle","can/dle","ap/ple","lit/tle","bub/ble","ri/fle","ti/tle","sim/ple","pur/ple","han/dle","sin/gle"],
+        "vowels": ["/ā/ · /ə/","/ŭ/ · /ə/","/ă/ · /ə/","/ă/ · /ə/","/ĭ/ · /ə/","/ŭ/ · /ə/","/ī/ · /ə/","/ī/ · /ə/","/ĭ/ · /ə/","/er/ · /ə/","/ă/ · /ə/","/ĭ/ · /ə/"],
         "check": "table",
     },
 }
@@ -529,9 +537,11 @@ def build_rule3(num, key):
 def build_syllable(num, key):
     d = SYLLABLE_LESSONS[key]
     words = d["words"]
+    divided = d["divided"]
+    vowels = d["vowels"]
     divide_rows = "\n".join(
-        f"| {w} | {len(w)//3+1} | {w[:len(w)//2]}/{w[len(w)//2:]} | — | — |"
-        for w in words[:8]
+        f"| {w} | {dv.count('/')+1} | {dv} | {v.split(' · ')[0]} | {v.split(' · ')[1]} |"
+        for w, dv, v in zip(words[:8], divided[:8], vowels[:8])
     )
     spelling_rows = "\n".join(
         f"| {w} | (sound out each syllable) | — | {w} |" for w in words[:4]
