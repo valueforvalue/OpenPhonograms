@@ -289,7 +289,7 @@ AT_A_GLANCE_PG = {
     "ea": ("/ē/ /ĕ/ /ā/", "eat, bread, steak", "Three sounds: /ē/ (eat), /ĕ/ (bread), /ā/ (steak). /ā/ is rare — only a few words."),
     "ow": ("/ō/ /ou/", "snow, cow", "Two sounds. /ō/ in 'snow, know', /ou/ in 'cow, now'."),
     "ou": ("/ow/ /ō/ /ö/ /ŭ/ /ü/", "house, soul, group, country, could", "Five sounds: /ow/ (house), /ō/ (soul), /ö/ (group), /ŭ/ (country), /ü/ (could)."),
-    "oo": ("/ü/ /ö/", "book, moon", "Two sounds. Short /ü/ (book, look). Long /ö/ (moon, food)."),
+    "oo": ("/ö/ /ü/ /ō/", "book, moon, door", "Three sounds: /ö/ (book, look), /ü/ (moon, food), /ō/ (door, floor)."),
     "ed": ("/ĕd/ /d/ /t/", "jumped, played, walked", "Three sounds of -ED (Rule 20). Always spelling -ED."),
     "igh": ("/ī/", "high, light, night", "IGH says /ī/. GH is silent (Rule 28)."),
     "aw": ("/ô/", "saw, claw, yawn", "AW says /ô/. Common in 'aw' words."),
