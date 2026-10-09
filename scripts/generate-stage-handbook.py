@@ -332,7 +332,7 @@ def assemble_handbook(stage: int, no_render: bool = False):
         md_paths,
         title_to_path,
         combined_pdf=lessons_combined,
-        body_class=f"stage-{stage}",
+        body_class=f"handbook stage-{stage}",
     )
     if not result.ok:
         print(f"  FAIL  Stage {stage}: {result.error}")

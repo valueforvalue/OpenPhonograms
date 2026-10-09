@@ -325,8 +325,9 @@ body.handbook h2 { font-size: 13pt; margin-top: 1em; }
 body.handbook h3 { font-size: 11pt; }
 body.handbook p { margin: 0.3em 0; }
 body.handbook table { font-size: 10pt; margin: 0.5em 0; }
-body.handbook .phonogram { font-size: 28pt; }
-body.handbook .phonogram-letter { font-size: 32pt; }
+body.handbook .phonogram { font-size: 18pt; margin: 0.3em 0; padding: 0.15em; }
+body.handbook .phonogram-letter { font-size: 22pt; }
+body.handbook .teacher-script .phonogram { font-size: 20pt; margin: 0.2em 0; padding: 0.15em; }
 body.handbook .teacher-script { font-size: 10pt; padding: 0.4em 0.7em; }
 
 body.index {
