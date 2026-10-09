@@ -6,13 +6,15 @@
 <title>Morpheme Wall — Prefixes, Suffixes & Roots</title>
 <link rel="stylesheet" href="../assets/main.css">
 <style>
-  .morph-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.4rem; margin: 0.6rem 0; }
-  .morph-card { border: 1px solid var(--card-border); border-radius: 6px; padding: 0.5rem; background: var(--card-bg); }
-  .morph-card .morph { font-weight: 700; font-size: 1.1rem; color: var(--accent); }
-  .morph-card .meaning { font-size: 0.8rem; color: var(--muted); }
-  .morph-card .ex { font-size: 0.75rem; color: #999; font-style: italic; }
-  .section-title { grid-column: 1 / -1; margin: 0.6rem 0 0.2rem; padding-top: 0.4rem; border-top: 2px solid var(--accent); }
-  @media print { .morph-grid { grid-template-columns: repeat(4, 1fr); gap: 0.2rem; } }
+  /* Flexbox instead of CSS grid: WeasyPrint's auto-fill/minmax grid is
+     unreliable and clips card boxes on the right edge (issue #87). */
+  .morph-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0; }
+  .morph-card { flex: 1 1 180px; min-width: 180px; box-sizing: border-box; border: 1px solid var(--card-border); border-radius: 6px; padding: 0.5rem; background: var(--card-bg); }
+  .morph-card .morph { display: block; font-weight: 700; font-size: 1.1rem; color: var(--accent); }
+  .morph-card .meaning { display: block; font-size: 0.8rem; color: var(--muted); }
+  .morph-card .ex { display: block; font-size: 0.75rem; color: #999; font-style: italic; }
+  .section-title { flex-basis: 100%; width: 100%; margin: 0.6rem 0 0.2rem; padding-top: 0.4rem; border-top: 2px solid var(--accent); }
+  @media print { .morph-grid { gap: 0.2rem; } .morph-card { flex: 1 1 22%; min-width: 0; } }
 </style>
 </head>
 <body>
