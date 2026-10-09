@@ -985,6 +985,10 @@ phonograms:
   - hail
   - jail
   - pail
+  sound_count: 1
+  examples:
+  - sound: ā
+    words: rain, sail, train
 - id: ar
   stage: 2
   kind: multi
@@ -1010,6 +1014,10 @@ phonograms:
   - part
   - start
   - smart
+  sound_count: 1
+  examples:
+  - sound: är
+    words: car, far, star
 - id: au
   stage: 2
   kind: multi
@@ -1035,6 +1043,10 @@ phonograms:
   - applause
   - exhaust
   - caution
+  sound_count: 1
+  examples:
+  - sound: ä
+    words: haul, sauce, author
 - id: aw
   stage: 2
   kind: multi
@@ -1060,6 +1072,10 @@ phonograms:
   - pawn
   - yawn
   - awful
+  sound_count: 1
+  examples:
+  - sound: ä
+    words: saw, claw, yawn
 - id: ay
   stage: 2
   kind: multi
@@ -1085,6 +1101,10 @@ phonograms:
   - always
   - away
   - maybe
+  sound_count: 1
+  examples:
+  - sound: ā
+    words: day, play, stay
 - id: ch
   stage: 2
   kind: multi
@@ -1110,6 +1130,14 @@ phonograms:
   - chef
   - machine
   - brochure
+  sound_count: 3
+  examples:
+  - sound: ch
+    words: chin, much, chip
+  - sound: k
+    words: school, echo, chemist
+  - sound: sh
+    words: chef, machine, brochure
 - id: ck
   stage: 2
   kind: multi
@@ -1135,6 +1163,10 @@ phonograms:
   - click
   - stick
   - truck
+  sound_count: 1
+  examples:
+  - sound: k
+    words: back, stick, duck
 - id: ea
   stage: 2
   kind: multi
@@ -1160,6 +1192,14 @@ phonograms:
   - break
   - steak
   - bear
+  sound_count: 3
+  examples:
+  - sound: ē
+    words: eat, read, team
+  - sound: ĕ
+    words: head, bread, weather
+  - sound: ā
+    words: great, break, steak
 - id: ear
   stage: 2
   kind: multi
@@ -1185,6 +1225,10 @@ phonograms:
   - tear
   - year
   - clear
+  sound_count: 1
+  examples:
+  - sound: er
+    words: learn, earth, early
 - id: ed
   stage: 2
   kind: multi
@@ -1210,6 +1254,14 @@ phonograms:
   - walked
   - talked
   - worked
+  sound_count: 3
+  examples:
+  - sound: ed
+    words: wanted, needed
+  - sound: d
+    words: played, called
+  - sound: t
+    words: fished, jumped
 - id: ee
   stage: 2
   kind: multi
@@ -1235,6 +1287,10 @@ phonograms:
   - meet
   - feet
   - sweet
+  sound_count: 1
+  examples:
+  - sound: ē
+    words: see, tree, feet
 - id: er
   stage: 2
   kind: multi
@@ -1260,6 +1316,10 @@ phonograms:
   - paper
   - river
   - summer
+  sound_count: 1
+  examples:
+  - sound: er
+    words: her, sister, under
 - id: igh
   stage: 2
   kind: multi
@@ -1285,6 +1345,10 @@ phonograms:
   - daylight
   - midnight
   - highlight
+  sound_count: 1
+  examples:
+  - sound: ī
+    words: high, light, night
 - id: ir
   stage: 2
   kind: multi
@@ -1310,6 +1374,10 @@ phonograms:
   - thirteen
   - dirty
   - swirl
+  sound_count: 1
+  examples:
+  - sound: er
+    words: bird, girl, first
 - id: ng
   stage: 2
   kind: multi
@@ -1335,6 +1403,10 @@ phonograms:
   - along
   - among
   - during
+  sound_count: 1
+  examples:
+  - sound: ng
+    words: sing, long, ring
 - id: oa
   stage: 2
   kind: multi
@@ -1360,6 +1432,10 @@ phonograms:
   - groan
   - coast
   - coach
+  sound_count: 1
+  examples:
+  - sound: ō
+    words: boat, coat, road
 - id: oi
   stage: 2
   kind: multi
@@ -1382,6 +1458,10 @@ phonograms:
   - spoil
   - choice
   - rejoice
+  sound_count: 1
+  examples:
+  - sound: oi
+    words: coin, oil, join
 - id: oo
   stage: 2
   kind: multi
@@ -1407,6 +1487,14 @@ phonograms:
   - school
   - door
   - floor
+  sound_count: 3
+  examples:
+  - sound: ö
+    words: book, look, foot
+  - sound: ü
+    words: food, moon, soon
+  - sound: ō
+    words: floor, door
 - id: or
   stage: 2
   kind: multi
@@ -1432,6 +1520,10 @@ phonograms:
   - storm
   - story
   - morning
+  sound_count: 1
+  examples:
+  - sound: or
+    words: for, corn, sort
 - id: ou
   stage: 2
   kind: multi
@@ -1497,6 +1589,12 @@ phonograms:
   - slow
   - blow
   - flow
+  sound_count: 2
+  examples:
+  - sound: ow
+    words: cow, how, now
+  - sound: ō
+    words: snow, grow, low
 - id: oy
   stage: 2
   kind: multi
@@ -1520,6 +1618,10 @@ phonograms:
   - oyster
   - royal
   - loyal
+  sound_count: 1
+  examples:
+  - sound: oi
+    words: boy, toy, joy
 - id: sh
   stage: 2
   kind: multi
@@ -1545,6 +1647,10 @@ phonograms:
   - shot
   - shut
   - shall
+  sound_count: 1
+  examples:
+  - sound: sh
+    words: ship, fish, wish
 - id: th
   stage: 2
   kind: multi
@@ -1570,6 +1676,12 @@ phonograms:
   - think
   - thank
   - three
+  sound_count: 2
+  examples:
+  - sound: th (voiced)
+    words: this, that, them
+  - sound: th (unvoiced)
+    words: thin, with, path
 - id: ur
   stage: 2
   kind: multi
@@ -1595,6 +1707,10 @@ phonograms:
   - furniture
   - further
   - return
+  sound_count: 1
+  examples:
+  - sound: er
+    words: turn, burn, curl
 - id: wh
   stage: 2
   kind: multi
@@ -1617,6 +1733,10 @@ phonograms:
   - whole
   - whose
   - whom
+  sound_count: 1
+  examples:
+  - sound: hw
+    words: when, which, white
 - id: augh
   stage: 3
   kind: multi3
@@ -1632,6 +1752,12 @@ phonograms:
   - laughter
   - draught
   - draughty
+  sound_count: 2
+  examples:
+  - sound: ä
+    words: caught, taught, daughter
+  - sound: ăf
+    words: laugh, draught
 - id: bu
   stage: 3
   kind: multi3
@@ -1649,6 +1775,10 @@ phonograms:
   - bundle
   - bushel
   - button
+  sound_count: 1
+  examples:
+  - sound: b
+    words: build, buy, busy
 - id: dge
   stage: 3
   kind: multi3
@@ -1672,6 +1802,10 @@ phonograms:
   - trudge
   - smudge
   - grudge
+  sound_count: 1
+  examples:
+  - sound: j
+    words: bridge, edge, fudge
 - id: ei
   stage: 3
   kind: multi3
@@ -1692,6 +1826,14 @@ phonograms:
   - neither
   - leisure
   - seize
+  sound_count: 3
+  examples:
+  - sound: ē
+    words: ceiling, receive, deceive
+  - sound: ā
+    words: vein, rein, feign
+  - sound: ī
+    words: feisty, heist, seismic
 - id: eigh
   stage: 3
   kind: multi3
@@ -1709,6 +1851,10 @@ phonograms:
   - height
   - sleight
   - inveigh
+  sound_count: 1
+  examples:
+  - sound: ā
+    words: eight, neighbor, weight
 - id: eu
   stage: 3
   kind: multi3
@@ -1724,6 +1870,10 @@ phonograms:
   - pseudonym
   - eulogy
   - euphoria
+  sound_count: 1
+  examples:
+  - sound: ü
+    words: neutral, feud, eucalyptus
 - id: ew
   stage: 3
   kind: multi3
@@ -1744,6 +1894,12 @@ phonograms:
   - renew
   - nephew
   - jewelry
+  sound_count: 2
+  examples:
+  - sound: ü
+    words: few, new, grew
+  - sound: ö
+    words: sew
 - id: ey
   stage: 3
   kind: multi3
@@ -1764,6 +1920,12 @@ phonograms:
   - donkey
   - kidney
   - chimney
+  sound_count: 2
+  examples:
+  - sound: ā
+    words: they, hey, prey
+  - sound: ē
+    words: key, valley, money
 - id: gh
   stage: 3
   kind: multi3
@@ -1779,6 +1941,10 @@ phonograms:
   - afghan
   - dinghy
   - sorghum
+  sound_count: 1
+  examples:
+  - sound: g
+    words: ghost, ghastly, ghetto
 - id: gn
   stage: 3
   kind: multi3
@@ -1799,6 +1965,10 @@ phonograms:
   - malign
   - sovereign
   - condign
+  sound_count: 1
+  examples:
+  - sound: n
+    words: sign, gnat, gnaw
 - id: gu
   stage: 3
   kind: multi3
@@ -1816,6 +1986,10 @@ phonograms:
   - gutter
   - guy
   - guild
+  sound_count: 1
+  examples:
+  - sound: g
+    words: guide, guess, guard
 - id: ie
   stage: 3
   kind: multi3
@@ -1841,6 +2015,12 @@ phonograms:
   - tries
   - flies
   - spies
+  sound_count: 2
+  examples:
+  - sound: ē
+    words: field, piece, chief
+  - sound: ī
+    words: pie, tie, lie
 - id: kn
   stage: 3
   kind: multi3
@@ -1861,6 +2041,10 @@ phonograms:
   - knitting
   - knuckle
   - knapsack
+  sound_count: 1
+  examples:
+  - sound: n
+    words: know, knee, knife
 - id: ough
   stage: 3
   kind: multi3
@@ -1881,6 +2065,18 @@ phonograms:
   - thorough
   - borough
   - breakthrough
+  sound_count: 5
+  examples:
+  - sound: ō
+    words: though, although, dough
+  - sound: ö
+    words: through
+  - sound: ow
+    words: bough, plough
+  - sound: ŭf
+    words: rough, tough, enough
+  - sound: äf
+    words: cough, trough, bought
 - id: ph
   stage: 3
   kind: multi3
@@ -1901,6 +2097,10 @@ phonograms:
   - microphone
   - autograph
   - photograph
+  sound_count: 1
+  examples:
+  - sound: f
+    words: phone, graph, dolphin
 - id: q
   stage: 3
   kind: multi3
@@ -1920,6 +2120,10 @@ phonograms:
   - Iraq
   - Iraqi
   - macaque
+  sound_count: 1
+  examples:
+  - sound: kw
+    words: qat, qi
 - id: tch
   stage: 3
   kind: multi3
@@ -1944,6 +2148,10 @@ phonograms:
   - pitcher
   - catcher
   - watcher
+  sound_count: 1
+  examples:
+  - sound: ch
+    words: catch, watch, match
 - id: ui
   stage: 3
   kind: multi3
@@ -1963,6 +2171,12 @@ phonograms:
   - suitable
   - nuisance
   - recruit
+  sound_count: 2
+  examples:
+  - sound: ü
+    words: fruit, suit, juice
+  - sound: ö
+    words: build, guild
 - id: wor
   stage: 3
   kind: multi3
@@ -1982,6 +2196,10 @@ phonograms:
   - homework
   - fireworks
   - typewriter
+  sound_count: 1
+  examples:
+  - sound: wer
+    words: work, word, world
 - id: wr
   stage: 3
   kind: multi3
@@ -2002,6 +2220,10 @@ phonograms:
   - written
   - writer
   - wrapping
+  sound_count: 1
+  examples:
+  - sound: r
+    words: write, wrong, wrist
 - id: ci
   stage: 4
   kind: multi4
@@ -2027,6 +2249,10 @@ phonograms:
   - audacious
   - vivacious
   - efficient
+  sound_count: 1
+  examples:
+  - sound: sh
+    words: special, social, official
 - id: si
   stage: 4
   kind: multi4
@@ -2052,6 +2278,10 @@ phonograms:
   - suspension
   - comprehension
   - apprehension
+  sound_count: 1
+  examples:
+  - sound: sh
+    words: session, mission, vision
 - id: ti
   stage: 4
   kind: multi4
@@ -2076,3 +2306,7 @@ phonograms:
   - creation
   - operation
   - celebration
+  sound_count: 1
+  examples:
+  - sound: sh
+    words: motion, nation, station

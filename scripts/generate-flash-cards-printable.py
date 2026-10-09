@@ -113,8 +113,9 @@ body {
     transform: scaleX(-1);
     transform-origin: center center;
 }
-.card-grid.side-b .card .pg {
-    /* Counter-mirror phonogram text so letters aren't backwards */
+.card-grid.side-b .card .pg,
+.card-grid.side-b .card .ex-block {
+    /* Counter-mirror card content so letters aren't backwards */
     transform: scaleX(-1);
     display: inline-block;
 }
@@ -153,12 +154,21 @@ body {
     border-top: 1px solid #ddd;
     width: 100%;
 }
-/* Side B styling — clean, just the phonogram */
+/* Side B styling — phonogram + example words */
 .card-side-b .pg {
     font-size: 80pt;
     font-weight: 700;
     color: #2a5c8a;
     line-height: 1.1;
+}
+.card-side-b .ex-block {
+    margin-top: 0.2em;
+    font-size: 14pt;
+    color: #444;
+    line-height: 1.35;
+}
+.card-side-b .ex-block .ex {
+    font-family: "Courier New", monospace;
 }
 /* Vowel / consonant color variants on side A */
 .card.vowel .pg { color: #a8421a; }
@@ -201,11 +211,21 @@ def build_card_side_a(pg, rules_lookup: dict[str, str]) -> str:
 
 
 def build_card_side_b(pg) -> str:
-    """Side B: just the phonogram symbol (clean, no sounds/rules)."""
+    """Side B: phonogram + one example word per distinct sound."""
     is_multi = pg.kind != "single"
     multi_class = "multi" if is_multi else ""
+    ex_lines = ""
+    if pg.examples:
+        ex_lines = "\n".join(
+            f'<div class="ex">{words.split(",")[0].strip()}</div>'
+            for _, words in pg.examples
+        )
+    elif pg.words:
+        ex_lines = f'<div class="ex">{pg.words[0]}</div>'
+    ex_block = f'<div class="ex-block">{ex_lines}</div>' if ex_lines else ""
     return f"""<div class="card {multi_class} card-side-b">
     <div class="pg">{pg.id}</div>
+    {ex_block}
 </div>"""
 
 
@@ -220,7 +240,7 @@ def build_page(cards_html: str, side: str, *, show_instructions: bool = False) -
         banner = ('<div class="print-instructions">'
                   'Print <strong>double-sided, flip on long edge</strong>. '
                   'Cut along dashed lines. Side A = phonogram + sounds + rule; '
-                  'Side B = phonogram only (for memory drills).</div>')
+                  'Side B = phonogram + example words (for memory drills).</div>')
     return f"""{banner}<div class="card-grid{side_class}{page_class}">
 {cards_html}
 </div>"""
