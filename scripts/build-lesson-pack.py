@@ -286,7 +286,7 @@ AT_A_GLANCE_PG = {
     "ay": ("/ā/", "day, play, stay", "AY only at end of base word (Rule 3)."),
     "ch": ("/ch/", "chip, beach, church", "CH says /ch/ after most consonants. CH after S = /sh/ (Rule 17)."),
     "wh": ("/hw/ /h/", "when, who", "WH often says /hw/ (which, what). WH before O = /h/ (who, whole)."),
-    "ea": ("/ē/ /ĕ/", "eat, bread", "Two main sounds. EE-rule words say /ē/. Others vary."),
+    "ea": ("/ē/ /ĕ/ /ā/", "eat, bread, steak", "Three sounds: /ē/ (eat), /ĕ/ (bread), /ā/ (steak). /ā/ is rare — only a few words."),
     "ow": ("/ō/ /ou/", "snow, cow", "Two sounds. /ō/ in 'snow, know', /ou/ in 'cow, now'."),
     "ou": ("/ou/ /ü/", "house, soup", "Multiple sounds. Most common /ou/ (house). /ü/ in soup, route, group."),
     "oo": ("/ü/ /ö/", "book, moon", "Two sounds. Short /ü/ (book, look). Long /ö/ (moon, food)."),
