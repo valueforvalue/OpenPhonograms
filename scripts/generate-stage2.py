@@ -180,10 +180,10 @@ MULTI_PGS = {
         "rule": None,
     },
     "ou": {
-        "sounds": "/ow/ /ō/ /ö/ /ŭ/",
-        "sound_count": 4,
-        "examples": [("ow", "out, house, round"), ("ō", "soul, four, pour"), ("ö", "you, group, soup"), ("ŭ", "touch, young, double")],
-        "tip": "OU has four sounds! /ow/ is most common. Try each sound when you read a new OU word.",
+        "sounds": "/ow/ /ō/ /ö/ /ŭ/ /ü/",
+        "sound_count": 5,
+        "examples": [("ow", "out, house, round"), ("ō", "soul, four, pour"), ("ö", "you, group, soup"), ("ŭ", "touch, young, double"), ("ü", "could, would, should")],
+        "tip": "OU has five sounds! /ow/ is most common. Try each sound when you read a new OU word.",
         "rule": None,
     },
     "oo": {

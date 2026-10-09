@@ -25,9 +25,9 @@
 
 <div class="phonogram">ou</div>
 
-**ou** says 4 sounds: /ow/ /ō/ /ö/ /ŭ/
+**ou** says 5 sounds: /ow/ /ō/ /ö/ /ŭ/ /ü/
 
-OU has four sounds! /ow/ is most common. Try each sound when you read a new OU word.
+OU has five sounds! /ow/ is most common. Try each sound when you read a new OU word.
 
 
 ### Sound Table
@@ -38,6 +38,7 @@ OU has four sounds! /ow/ is most common. Try each sound when you read a new OU w
 | /ō/ | soul, four, pour |
 | /ö/ | you, group, soup |
 | /ŭ/ | touch, young, double |
+| /ü/ | could, would, should |
 
 ---
 
@@ -73,7 +74,7 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 ## Quick Check
 
-1. What did you learn today? *(The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/)*
+1. What did you learn today? *(The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/ /ü/)*
 2. Is ou a single-letter or multi-letter phonogram? *(Multi-letter — 2 letters that make one sound!)*
 3. What is the most common sound of ou? *(/ow/)*
 
@@ -93,15 +94,15 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 <div class="phonogram">ou</div>
 
-> **Say:** "This is the phonogram **ou**." *(Point to the card.)* "It says /ow/ /ō/ /ö/ /ŭ/."
+> **Say:** "This is the phonogram **ou**." *(Point to the card.)* "It says /ow/ /ō/ /ö/ /ŭ/ /ü/."
 
-> **Say:** "Listen to me say its sounds: /ow/ /ō/ /ö/ /ŭ/. Now you say them."
+> **Say:** "Listen to me say its sounds: /ow/ /ō/ /ö/ /ŭ/ /ü/. Now you say them."
 
 > *(Child repeats.)*
 
 > **Say:** "Good. Now let's write it. Watch me first." *(Demonstrate writing ou.)*
 
-> **Say:** "Now you write **ou** three times. Say '/ow/ /ō/ /ö/ /ŭ/' each time you write it."
+> **Say:** "Now you write **ou** three times. Say '/ow/ /ō/ /ö/ /ŭ/ /ü/' each time you write it."
 
 > *(Child writes on whiteboard. Check formation.)*
 
@@ -109,6 +110,6 @@ out &nbsp;&nbsp; you &nbsp;&nbsp; touch
 
 
 
-> **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/.")*
+> **Say:** "What did you learn today?" *(Child responds: "The phonogram ou — it says /ow/ /ō/ /ö/ /ŭ/ /ü/.")*
 
 ---

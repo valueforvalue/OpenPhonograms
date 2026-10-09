@@ -59,7 +59,7 @@ This final assessment checks readiness for Stage 3. The child should demonstrate
 | wh | /hw/ | ☐ |
 | ea | /ē/ /ĕ/ /ā/ | ☐ |
 | ow | /ow/ /ō/ | ☐ |
-| ou | /ow/ /ō/ /ö/ /ŭ/ | ☐ |
+| ou | /ow/ /ō/ /ö/ /ŭ/ /ü/ | ☐ |
 | oo | /ö/ /ü/ /ō/ | ☐ |
 | ed | /ed/ /d/ /t/ | ☐ |
 | igh | /ī/ | ☐ |

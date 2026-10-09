@@ -288,7 +288,7 @@ AT_A_GLANCE_PG = {
     "wh": ("/hw/ /h/", "when, who", "WH often says /hw/ (which, what). WH before O = /h/ (who, whole)."),
     "ea": ("/ē/ /ĕ/ /ā/", "eat, bread, steak", "Three sounds: /ē/ (eat), /ĕ/ (bread), /ā/ (steak). /ā/ is rare — only a few words."),
     "ow": ("/ō/ /ou/", "snow, cow", "Two sounds. /ō/ in 'snow, know', /ou/ in 'cow, now'."),
-    "ou": ("/ou/ /ü/", "house, soup", "Multiple sounds. Most common /ou/ (house). /ü/ in soup, route, group."),
+    "ou": ("/ow/ /ō/ /ö/ /ŭ/ /ü/", "house, soul, group, country, could", "Five sounds: /ow/ (house), /ō/ (soul), /ö/ (group), /ŭ/ (country), /ü/ (could)."),
     "oo": ("/ü/ /ö/", "book, moon", "Two sounds. Short /ü/ (book, look). Long /ö/ (moon, food)."),
     "ed": ("/ĕd/ /d/ /t/", "jumped, played, walked", "Three sounds of -ED (Rule 20). Always spelling -ED."),
     "igh": ("/ī/", "high, light, night", "IGH says /ī/. GH is silent (Rule 28)."),

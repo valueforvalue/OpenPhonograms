@@ -2596,6 +2596,11 @@
       "stage": 2
     },
     {
+      "word": "could",
+      "sentence": "The could is here.",
+      "stage": 2
+    },
+    {
       "word": "couple",
       "sentence": "The couple is here.",
       "stage": 2
@@ -3701,6 +3706,11 @@
       "stage": 2
     },
     {
+      "word": "should",
+      "sentence": "The should is here.",
+      "stage": 2
+    },
+    {
       "word": "show",
       "sentence": "The show is here.",
       "stage": 2
@@ -4323,6 +4333,11 @@
     {
       "word": "worn",
       "sentence": "The worn is here.",
+      "stage": 2
+    },
+    {
+      "word": "would",
+      "sentence": "The would is here.",
       "stage": 2
     },
     {
@@ -6189,7 +6204,7 @@
     },
     {
       "pg": "ou",
-      "sounds": "/ow/ /\u014d/ /\u00f6/ /\u016d/",
+      "sounds": "/ow/ /\u014d/ /\u00f6/ /\u016d/ /\u00fc/",
       "stage": 2
     },
     {

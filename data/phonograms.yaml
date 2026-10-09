@@ -1421,7 +1421,7 @@ phonograms:
 - id: ou
   stage: 2
   kind: multi
-  sounds: /ow/ /ō/ /ö/ /ŭ/
+  sounds: /ow/ /ō/ /ö/ /ŭ/ /ü/
   words:
   - out
   - our
@@ -1443,6 +1443,21 @@ phonograms:
   - double
   - trouble
   - couple
+  - could
+  - would
+  - should
+  sound_count: 5
+  examples:
+  - sound: ow
+    words: out, house, round
+  - sound: ō
+    words: soul, four, pour
+  - sound: ö
+    words: you, group, soup
+  - sound: ŭ
+    words: touch, young, double
+  - sound: ü
+    words: could, would, should
 - id: ow
   stage: 2
   kind: multi
